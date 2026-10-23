@@ -1,0 +1,164 @@
+[
+  {
+    "query_id": "states",
+    "variants": [
+      "state",
+      "states"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "persons",
+    "variants": [
+      "individual",
+      "individuals",
+      "identity",
+      "identities"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "eternity",
+    "variants": [
+      "eternal",
+      "eternity"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "nations",
+    "variants": [
+      "nation",
+      "nations",
+      "people",
+      "peoples"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "generation",
+    "variants": [
+      "generation",
+      "generations",
+      "born",
+      "birth"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "emanation",
+    "variants": [
+      "emanation",
+      "emanations"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "albion",
+    "variants": [
+      "Albion"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "liberty",
+    "variants": [
+      "liberty",
+      "freedom"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "exchange",
+    "variants": [
+      "exchange",
+      "interchange"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "law",
+    "variants": [
+      "law",
+      "laws"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "brotherhood",
+    "variants": [
+      "brotherhood",
+      "brothers"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "tyranny",
+    "variants": [
+      "tyranny",
+      "tyrannical",
+      "tyrant"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "contraries",
+    "variants": [
+      "contrary",
+      "contraries"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "negation",
+    "variants": [
+      "negation",
+      "negations"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "particulars",
+    "variants": [
+      "particular",
+      "particulars"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "imagination",
+    "variants": [
+      "imagination"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "vision",
+    "variants": [
+      "vision",
+      "fourfold"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "rahab",
+    "variants": [
+      "Rahab"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "satan",
+    "variants": [
+      "Satan"
+    ],
+    "note": "Explicit whole-word variants; polysemy, copy repetition and source roles require interpretation."
+  },
+  {
+    "query_id": "negative_control",
+    "variants": [
+      "zzzxqvnegativecontrol"
+    ],
+    "note": "Explicit nonsense control; zero means absence only within this pinned projection."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "attachments": [
+    {
+      "id": "research-scope",
+      "bytes": 89630,
+      "sha256": "3f0fffc4c1ea1849710d35e85629fe21e7d70b6df4bc736f245baf1614e44105",
+      "markdown_sha256": "189e2409ec1f0349d633e06f765c8f65aeb7b9081b723f2f0ad171af869f76a7",
+      "words": 12700
+    },
+    {
+      "id": "related-reading-addendum",
+      "bytes": 42527,
+      "sha256": "f8b74d32ea6dc9e60c3ff7066c3b5d0ab4c3675c24d94cd11364f6b9da26b41e",
+      "markdown_sha256": "c474ac8353a916d716bae93d78c78f1c7aa6198f8db9ad9524f28ad2042d94af",
+      "words": 1230
+    }
+  ],
+  "historical_scope": {
+    "catalog": 223,
+    "texts": 202,
+    "blake_related": 21
+  },
+  "historical_addendum": {
+    "catalog": 224,
+    "texts": 203,
+    "blake_related": 21
+  },
+  "current_live_index": {
+    "catalog_works": 226,
+    "scanned_full_texts": 205,
+    "title_matches": 8,
+    "core_subjects": 9,
+    "additional_text_matches": 13,
+    "excluded_or_no_match": 4,
+    "needs_review": 0
+  },
+  "index_sha256": "87d574244b6c48bb9099b95b0f83dd3b62db48aa6293d9d52d30b6d30bc6acef",
+  "text_hash_matches": 21,
+  "source_status": "Retrieved/indexed, not evidence of 21 new complete reads",
+  "mapping_mirror_note": "Portfolio extraction still cites the earlier Mapping version. Corpus software and new manuscript are pinned to Blake v0.2.0, DOI 10.5281/zenodo.23601681; versions are not silently substituted.",
+  "integration_recorded_at": "2026-10-23T22:40:16.059370+00:00",
+  "current_session_primary_passage_checks": "Selected ASU Milton 32; Jerusalem 31,43,52,54,73,88,92; America 11\u201313. No copy-specific collation."
+}

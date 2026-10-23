@@ -1,0 +1,312 @@
+{
+  "$defs": {
+    "Authority": {
+      "additionalProperties": false,
+      "properties": {
+        "institution": {
+          "$ref": "#/$defs/EntityRef"
+        },
+        "issuing_jurisdiction": {
+          "$ref": "#/$defs/EntityRef"
+        },
+        "issuing_level": {
+          "title": "Issuing Level",
+          "type": "string"
+        },
+        "assigned_competence": {
+          "title": "Assigned Competence",
+          "type": "string"
+        },
+        "competence_warrant": {
+          "$ref": "#/$defs/Warrant"
+        },
+        "competence_source": {
+          "title": "Competence Source",
+          "type": "string"
+        },
+        "reach": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reach",
+          "type": "array"
+        },
+        "enforcement_actor": {
+          "title": "Enforcement Actor",
+          "type": "string"
+        },
+        "enforcement_limits": {
+          "title": "Enforcement Limits",
+          "type": "string"
+        },
+        "public_reason": {
+          "title": "Public Reason",
+          "type": "string"
+        },
+        "representation_limits": {
+          "title": "Representation Limits",
+          "type": "string"
+        }
+      },
+      "required": [
+        "institution",
+        "issuing_jurisdiction",
+        "issuing_level",
+        "assigned_competence",
+        "competence_warrant",
+        "competence_source",
+        "reach",
+        "enforcement_actor",
+        "enforcement_limits",
+        "public_reason",
+        "representation_limits"
+      ],
+      "title": "Authority",
+      "type": "object"
+    },
+    "Consequence": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "title": "Action",
+          "type": "string"
+        },
+        "coercive": {
+          "title": "Coercive",
+          "type": "boolean"
+        },
+        "affected_persons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Affected Persons",
+          "type": "array"
+        },
+        "affected_nonmembers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Affected Nonmembers",
+          "type": "array"
+        },
+        "nonmember_standing": {
+          "title": "Nonmember Standing",
+          "type": "boolean"
+        },
+        "resource_decision": {
+          "title": "Resource Decision",
+          "type": "boolean"
+        },
+        "burden_allocation": {
+          "title": "Burden Allocation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "action",
+        "coercive",
+        "affected_persons",
+        "affected_nonmembers",
+        "nonmember_standing",
+        "resource_decision",
+        "burden_allocation"
+      ],
+      "title": "Consequence",
+      "type": "object"
+    },
+    "Contestation": {
+      "additionalProperties": false,
+      "properties": {
+        "forum": {
+          "title": "Forum",
+          "type": "string"
+        },
+        "voice": {
+          "title": "Voice",
+          "type": "string"
+        },
+        "exit": {
+          "title": "Exit",
+          "type": "string"
+        },
+        "materially_supported_exit": {
+          "title": "Materially Supported Exit",
+          "type": "boolean"
+        },
+        "revision": {
+          "title": "Revision",
+          "type": "string"
+        }
+      },
+      "required": [
+        "forum",
+        "voice",
+        "exit",
+        "materially_supported_exit",
+        "revision"
+      ],
+      "title": "Contestation",
+      "type": "object"
+    },
+    "EntityKind": {
+      "enum": [
+        "person",
+        "collective",
+        "nation",
+        "poetic_state",
+        "jurisdiction",
+        "institution"
+      ],
+      "title": "EntityKind",
+      "type": "string"
+    },
+    "EntityRef": {
+      "additionalProperties": false,
+      "properties": {
+        "entity_id": {
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "kind": {
+          "$ref": "#/$defs/EntityKind"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        }
+      },
+      "required": [
+        "entity_id",
+        "kind",
+        "label"
+      ],
+      "title": "EntityRef",
+      "type": "object"
+    },
+    "Warrant": {
+      "enum": [
+        "textual",
+        "interpretive",
+        "normative",
+        "stipulated_charter",
+        "empirical"
+      ],
+      "title": "Warrant",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "A proposed project schema, not a schema or legal holding in Entomological Law.",
+  "properties": {
+    "decision_id": {
+      "title": "Decision Id",
+      "type": "string"
+    },
+    "scenario_id": {
+      "title": "Scenario Id",
+      "type": "string"
+    },
+    "alternative": {
+      "title": "Alternative",
+      "type": "string"
+    },
+    "subject": {
+      "$ref": "#/$defs/EntityRef"
+    },
+    "poetic_state_interpretation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Poetic State Interpretation"
+    },
+    "national_affiliations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "National Affiliations",
+      "type": "array"
+    },
+    "assigned_legal_role": {
+      "title": "Assigned Legal Role",
+      "type": "string"
+    },
+    "temporal_scope": {
+      "title": "Temporal Scope",
+      "type": "string"
+    },
+    "classification_warrant": {
+      "$ref": "#/$defs/Warrant"
+    },
+    "classification_source": {
+      "title": "Classification Source",
+      "type": "string"
+    },
+    "asserting_authority": {
+      "$ref": "#/$defs/Authority"
+    },
+    "consequence": {
+      "$ref": "#/$defs/Consequence"
+    },
+    "contestation": {
+      "$ref": "#/$defs/Contestation"
+    },
+    "equal_personhood": {
+      "title": "Equal Personhood",
+      "type": "boolean"
+    },
+    "claims_exhaust_person": {
+      "title": "Claims Exhaust Person",
+      "type": "boolean"
+    },
+    "vision_rank_determines_rights": {
+      "title": "Vision Rank Determines Rights",
+      "type": "boolean"
+    },
+    "forced_exclusive_national_register": {
+      "title": "Forced Exclusive National Register",
+      "type": "boolean"
+    },
+    "treaty_or_refusal_implicated": {
+      "title": "Treaty Or Refusal Implicated",
+      "type": "boolean"
+    },
+    "treaty_or_refusal_addressed": {
+      "title": "Treaty Or Refusal Addressed",
+      "type": "boolean"
+    },
+    "provenance": {
+      "const": "synthetic institutional test; no actual legal determination",
+      "title": "Provenance",
+      "type": "string"
+    }
+  },
+  "required": [
+    "decision_id",
+    "scenario_id",
+    "alternative",
+    "subject",
+    "poetic_state_interpretation",
+    "national_affiliations",
+    "assigned_legal_role",
+    "temporal_scope",
+    "classification_warrant",
+    "classification_source",
+    "asserting_authority",
+    "consequence",
+    "contestation",
+    "equal_personhood",
+    "claims_exhaust_person",
+    "vision_rank_determines_rights",
+    "forced_exclusive_national_register",
+    "treaty_or_refusal_implicated",
+    "treaty_or_refusal_addressed",
+    "provenance"
+  ],
+  "title": "Decision",
+  "type": "object"
+}

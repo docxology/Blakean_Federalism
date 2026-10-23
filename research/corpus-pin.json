@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "d54aae1809066dd8a835ac68d4d55c61f8642d61",
+  "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+  "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+  "projection_relative_path": "search/recovered/7b98377fe3e3f61c-1aefcc48975d51d4",
+  "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+  "unresolved_images": 28,
+  "scope_note": "Pinned private three-plane text projection; source/copy and page units, not unique works or complete oeuvre; 28 discovered image identifiers unresolved."
+}

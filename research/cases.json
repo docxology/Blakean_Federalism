@@ -1,0 +1,679 @@
+[
+  {
+    "decision_id": "A-bounded",
+    "scenario_id": "A",
+    "alternative": "One territory and several nations with bounded authority",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Provide portable services and language access",
+      "coercive": false,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "A-capture",
+    "scenario_id": "A",
+    "alternative": "One territory and several nations with capture",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Condition public services on one exclusive nationality registration",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": false,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": false,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": true,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "B-bounded",
+    "scenario_id": "B",
+    "alternative": "One nation across jurisdictions with bounded authority",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Cross-jurisdiction cultural agreement; no general police power",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Xeno-California",
+        "Neighbor jurisdiction by agreement"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Authorize limited cross-border cultural cooperation",
+      "coercive": false,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "B-capture",
+    "scenario_id": "B",
+    "alternative": "One nation across jurisdictions with capture",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Cross-jurisdiction cultural agreement; no general police power",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Every co-national everywhere"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Bind every co-national everywhere to the association decisions",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": true,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "C-bounded",
+    "scenario_id": "C",
+    "alternative": "New generation forms a public with bounded authority",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Recognize a revisable public without automatic sovereign powers",
+      "coercive": false,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "C-capture",
+    "scenario_id": "C",
+    "alternative": "New generation forms a public with capture",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "interpretive",
+      "competence_source": "Claim to express an eternal state",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Allocate police and tax powers solely from an asserted eternal-state interpretation",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "D-bounded",
+    "scenario_id": "D",
+    "alternative": "Officials rank communities by vision with bounded authority",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Allocate equal civic participation without vision ranking",
+      "coercive": false,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "D-capture",
+    "scenario_id": "D",
+    "alternative": "Officials rank communities by vision with capture",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Reserve civic office for a community ranked fourfold",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [],
+      "nonmember_standing": true,
+      "resource_decision": false,
+      "burden_allocation": "Not a fiscal allocation"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": false,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": true,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": false,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "E-bounded",
+    "scenario_id": "E",
+    "alternative": "Land and water conflict with bounded authority",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Allocate water duties, costs, remedies and appeal rights",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [
+        "p-migrant",
+        "p-downstream"
+      ],
+      "nonmember_standing": true,
+      "resource_decision": true,
+      "burden_allocation": "Hypothetical polluter/user charges with ability-to-pay review, protected essential water access, equalization, residual-risk review and treaty-sensitive adjudication"
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": true,
+    "treaty_or_refusal_addressed": true,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  },
+  {
+    "decision_id": "E-capture",
+    "scenario_id": "E",
+    "alternative": "Land and water conflict with capture",
+    "subject": {
+      "entity_id": "p-resident",
+      "kind": "person",
+      "label": "Resident with overlapping affiliations"
+    },
+    "poetic_state_interpretation": "Contested reading of relational possibility; no civic classification",
+    "national_affiliations": [
+      "n-longstanding",
+      "n-new-public"
+    ],
+    "assigned_legal_role": "Rights-bearing resident and participant",
+    "asserting_authority": {
+      "institution": {
+        "entity_id": "i-federal",
+        "kind": "institution",
+        "label": "Hypothetical accountable federal forum"
+      },
+      "issuing_jurisdiction": {
+        "entity_id": "j-common",
+        "kind": "jurisdiction",
+        "label": "Hypothetical shared jurisdiction; no single-nation identity"
+      },
+      "assigned_competence": "Limited service/rights/dispute competence under a hypothetical charter",
+      "competence_warrant": "stipulated_charter",
+      "competence_source": "Synthetic charter v0.1; not actual California law",
+      "reach": [
+        "Affected service area; personal rights beyond association membership"
+      ],
+      "enforcement_actor": "Hypothetical reviewable service authority",
+      "enforcement_limits": "No ancestry/vision test; due process; judicial challenge; explicit competence limits",
+      "issuing_level": "shared federal",
+      "public_reason": "Explain this limited service or resource decision to affected persons across narratives",
+      "representation_limits": "The institution does not claim to voice every affiliate or every affected nonmember"
+    },
+    "consequence": {
+      "action": "Approve wealthy water autonomy without costs or affected-nonmember standing",
+      "coercive": true,
+      "affected_persons": [
+        "p-resident"
+      ],
+      "affected_nonmembers": [
+        "p-migrant",
+        "p-downstream"
+      ],
+      "nonmember_standing": false,
+      "resource_decision": true,
+      "burden_allocation": ""
+    },
+    "contestation": {
+      "forum": "Independent accessible review forum; treaty relationship remains separately negotiated",
+      "voice": "Resident and nonmember standing, translation, funded access and internal dissent",
+      "exit": "Portable person-based rights; affiliation change does not require leaving home or erase legitimate debts",
+      "materially_supported_exit": true,
+      "revision": "Periodic competence review; affected persons can initiate change"
+    },
+    "equal_personhood": true,
+    "claims_exhaust_person": false,
+    "vision_rank_determines_rights": false,
+    "forced_exclusive_national_register": false,
+    "treaty_or_refusal_implicated": true,
+    "treaty_or_refusal_addressed": false,
+    "provenance": "synthetic institutional test; no actual legal determination",
+    "temporal_scope": "Hypothetical t0; classifications and competence remain revisable",
+    "classification_warrant": "normative",
+    "classification_source": "Project-authored synthetic case assumptions, not a source claim or current law"
+  }
+]

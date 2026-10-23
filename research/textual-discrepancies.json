@@ -1,0 +1,25 @@
+[
+  {
+    "id": "D01",
+    "local_passage_id": "erdman:141",
+    "e_page": "131",
+    "external_locator": "Milton32:14",
+    "url": "https://blake.lib.asu.edu/html/milton.html",
+    "status": "apparent omission/reading discrepancy; not adjudicated; local/ASU comparison requires edition and markup inspection"
+  },
+  {
+    "id": "D02",
+    "local_passage_id": "erdman:239",
+    "e_page": "229",
+    "external_locator": "Jerusalem73:46",
+    "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+    "status": "lexical discrepancy; not adjudicated; no automatic repair"
+  },
+  {
+    "id": "D03",
+    "query": "in great eternity",
+    "naive_first_result": "Milton local E134",
+    "intended_anchor": "Jerusalem54,E203",
+    "status": "first-match locator failed; corrected selection requires exact E-page and separate ASU work/plate/line check"
+  }
+]

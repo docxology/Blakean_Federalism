@@ -1,0 +1,72 @@
+[
+  {
+    "id": "T01",
+    "kind": "textual",
+    "claim": "Milton 32 distinguishes combinations, states and individuals; Imagination is not a state.",
+    "source": "Milton32:10–38,E131–132",
+    "status": "selected ASU text checked; copy collation pending"
+  },
+  {
+    "id": "T02",
+    "kind": "textual",
+    "claim": "Jerusalem52 and73 distinguish persons and permanent states.",
+    "source": "Jerusalem52,E200;73:44–45,E229",
+    "status": "selected ASU text checked; not a constitutional rule"
+  },
+  {
+    "id": "T03",
+    "kind": "textual_counterevidence",
+    "claim": "Emanation occurs in Great Eternity; election, amalgamation and dominion complicate the political bridge.",
+    "source": "Jerusalem43,54,88,92",
+    "status": "selected context checked; interpretation remains contested"
+  },
+  {
+    "id": "I01",
+    "kind": "user_proposed_extension",
+    "claim": "Federation contains STATES while NATIONS are temporal generations and productions; composition without capture.",
+    "source": "Supplied research scope",
+    "status": "research hypothesis, not Blake quotation or established national ontology"
+  },
+  {
+    "id": "N01",
+    "kind": "normative_proposal",
+    "claim": "Translation, passage, non-exhaustion and equal personhood constrain authority.",
+    "source": "Project reconstruction in dialogue with political comparators",
+    "status": "independent justification needed; no deduction from poetry"
+  },
+  {
+    "id": "I02",
+    "kind": "interpretive_extension",
+    "claim": "Classification-decision record separates entity,role,authority,warrant,consequence and contestation.",
+    "source": "Entomological Law §§2,11–13; §12.2/Figure13",
+    "status": "schema newly proposed here; source paper did not already contain it"
+  },
+  {
+    "id": "S01",
+    "kind": "speculative_countermodel",
+    "claim": "Broader cultural identification could intensify conformity rather than freedom.",
+    "source": "Shagor Rahman profile,Institute v3,pp124–130",
+    "status": "attributed speculative connection, not validated finding or Friedman theory"
+  },
+  {
+    "id": "S02",
+    "kind": "bounded_comparator",
+    "claim": "CRR prompts questions about institutional revision without making rupture emancipatory.",
+    "source": "Alexander Sabine April letter and phase-gating manuscript",
+    "status": "toy/model limits retained; no political optimum, no code replication"
+  },
+  {
+    "id": "F01",
+    "kind": "formal_software",
+    "claim": "Ten synthetic alternatives expose stipulated safeguard violations.",
+    "source": "research/cases.json and institutions.assess",
+    "status": "finite rule consistency, not legitimacy, legality or empirical treatment effect"
+  },
+  {
+    "id": "C01",
+    "kind": "corpus_software",
+    "claim": "Pinned projection and explicit-variant concordance retain source planes, roles and copy repetition.",
+    "source": "research/corpus-pin.json,queries.json,analysis-run.json",
+    "status": "retrieval identity/counts, not all-oeuvre coverage or transcription accuracy"
+  }
+]
