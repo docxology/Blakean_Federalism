@@ -7,8 +7,8 @@ import sqlite3
 import pytest
 
 from blakean_federalism.corpus import concordance, import_corpus, load_import, read_passages
-from blakean_federalism.models import Passage, QuerySpec, ResearchError
-from blakean_federalism.storage import digest, safe_path, write_new
+from blakean_federalism.models import FileReceipt, Passage, QuerySpec, ResearchError
+from blakean_federalism.storage import copy_new, digest, publish_projection, safe_path, write_new
 
 
 def test_import_is_independent_and_preserves_source(captured):
@@ -213,3 +213,37 @@ def test_import_refuses_a_dangling_destination_link(captured):
     dest.symlink_to(dest.parent / "absent")
     with pytest.raises(ResearchError, match="symlink_output"):
         import_corpus(source, dest, pin)
+
+
+def test_exclusive_copy_preserves_existing_file(tmp_path):
+    source = tmp_path / "source"
+    source.write_bytes(b"new bytes")
+    destination = tmp_path / "destination"
+    destination.write_bytes(b"prior owner")
+    with pytest.raises(ResearchError, match="occupied_output"):
+        copy_new(source, destination)
+    assert destination.read_bytes() == b"prior owner"
+
+
+def test_exclusive_copy_refuses_dangling_link(tmp_path):
+    source = tmp_path / "source"
+    source.write_bytes(b"new bytes")
+    destination = tmp_path / "destination"
+    destination.symlink_to(tmp_path / "absent")
+    with pytest.raises(ResearchError, match="occupied_output"):
+        copy_new(source, destination)
+    assert destination.is_symlink()
+
+
+def test_publication_cannot_replace_a_concurrently_created_empty_directory(tmp_path):
+    stage = tmp_path / "stage"
+    stage.mkdir()
+    (stage / "payload").write_bytes(b"data")
+    receipt = FileReceipt(path="payload", size=4, sha256=digest(stage / "payload"))
+    target = tmp_path / "other-owner"
+    target.mkdir()
+    original_inode = target.stat().st_ino
+    with pytest.raises(ResearchError, match="occupied_output"):
+        publish_projection(stage, target, (receipt,), "{}")
+    assert target.stat().st_ino == original_inode
+    assert list(target.iterdir()) == []

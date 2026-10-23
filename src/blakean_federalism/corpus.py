@@ -18,6 +18,7 @@ from .models import (
     Concordance,
     CorpusPin,
     CountRow,
+    FileReceipt,
     Hit,
     ImportReceipt,
     Passage,
@@ -27,7 +28,7 @@ from .models import (
     ResearchError,
     Role,
 )
-from .storage import digest, safe_path, verify_file
+from .storage import digest, publish_projection, safe_path, verify_file
 
 ROWS: Final = TypeAdapter(tuple[tuple[str, str, str], ...])
 
@@ -108,7 +109,12 @@ def import_corpus(data_root: Path, destination: Path, pin: CorpusPin) -> ImportR
         _ = shutil.copyfile(metadata, stage / "search-manifest.json")
         _ = shutil.copyfile(capture, stage / "capture-manifest.json")
         _ = (stage / "import-receipt.json").write_text(receipt.model_dump_json(indent=2) + "\n")
-        if digest(stage / "passages.sqlite") != pin.index_sha256:
+        checks = (
+            ("passages.sqlite", pin.index_sha256),
+            ("search-manifest.json", pin.projection_manifest_sha256),
+            ("capture-manifest.json", pin.captured_manifest_sha256),
+        )
+        if any(digest(stage / name) != expected for name, expected in checks):
             raise ResearchError("copy_integrity", str(stage))
         for r in projection.inputs:
             _ = verify_file(data_root / "recovery", r.path, r.size, r.sha256)
@@ -118,9 +124,11 @@ def import_corpus(data_root: Path, destination: Path, pin: CorpusPin) -> ImportR
             or digest(source) != pin.index_sha256
         ):
             raise ResearchError("source_changed", str(data_root))
-        if destination.exists():
-            raise ResearchError("occupied_output", str(destination))
-        _ = stage.rename(destination)
+        files = tuple(
+            FileReceipt(path=name, size=(stage / name).stat().st_size, sha256=expected)
+            for name, expected in checks
+        )
+        publish_projection(stage, destination, files, receipt.model_dump_json(indent=2) + "\n")
     return receipt
 
 

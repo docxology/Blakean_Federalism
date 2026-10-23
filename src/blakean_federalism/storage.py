@@ -3,10 +3,11 @@
 
 import hashlib
 import os
+import shutil
 import tempfile
 from pathlib import Path, PurePosixPath
 
-from .models import ResearchError
+from .models import FileReceipt, ResearchError
 
 
 def digest(path: Path) -> str:
@@ -49,3 +50,34 @@ def write_new(path: Path, content: str) -> None:
             os.link(stream.name, path)
         except FileExistsError as exc:
             raise ResearchError("occupied_output", str(path)) from exc
+
+
+def copy_new(source: Path, destination: Path) -> None:
+    """Copy into a new exclusive file; preserve any occupied destination."""
+    try:
+        with source.open("rb") as incoming, destination.open("xb") as outgoing:
+            shutil.copyfileobj(incoming, outgoing)
+            outgoing.flush()
+            os.fsync(outgoing.fileno())
+    except FileExistsError as exc:
+        raise ResearchError("occupied_output", str(destination)) from exc
+
+
+def publish_projection(
+    stage: Path,
+    destination: Path,
+    files: tuple[FileReceipt, ...],
+    receipt_json: str,
+) -> None:
+    """Reserve a new directory atomically; publish the reader's completion marker last."""
+    for entry in files:
+        _ = verify_file(stage, entry.path, entry.size, entry.sha256)
+    try:
+        destination.mkdir()
+    except FileExistsError as exc:
+        raise ResearchError("occupied_output", str(destination)) from exc
+    for entry in files:
+        copy_new(stage / entry.path, destination / entry.path)
+        _ = verify_file(destination, entry.path, entry.size, entry.sha256)
+    # A failed partial destination is retained and has no valid completion marker.
+    write_new(destination / "import-receipt.json", receipt_json)

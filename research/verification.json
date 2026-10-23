@@ -1,7 +1,7 @@
 {
   "status": "software_and_manual_qualification_passed",
-  "tests": 62,
-  "combined_coverage_percent": 96.07843137254902,
+  "tests": 65,
+  "combined_coverage_percent": 96.67359667359668,
   "coverage_floor": 90,
   "typing_errors": 0,
   "typing_warnings": 0,
@@ -34,7 +34,11 @@
     "Primary/XML role promotion",
     "Zero-query control",
     "Institutional capture alternatives",
-    "Lens and affiliation invariance"
+    "Lens and affiliation invariance",
+    "Concurrent empty-destination preservation",
+    "Exclusive copy refuses occupied files and dangling links",
+    "Original analysis producer and receipt preserved; unchanged analytical ASTs verified"
   ],
-  "scope": "Initial private research project; no claim all work packages or future scholarship are complete"
+  "scope": "Initial private research project; no claim all work packages or future scholarship are complete",
+  "current_source_receipt": "research/current-source.json"
 }
