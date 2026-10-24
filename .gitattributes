@@ -1,3 +1,8 @@
 * text=auto eol=lf
 # CSV receipts bind the exact standard writer bytes, including CRLF separators.
 research/*.csv -text
+
+# Preserve standard CSV separators without treating CR as trailing spaces.
+research/*.csv whitespace=cr-at-eol
+# Retain the upstream font license verbatim, including its spaces and final blank line.
+src/blakean_federalism/resources/fonts/bitstream-vera-license.txt -text whitespace=-blank-at-eol,-blank-at-eof

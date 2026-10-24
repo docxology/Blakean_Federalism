@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+- Portable offline evidence workbench, joint source-unit denominators and complete institutional rule traces.
+- Direct Pettit reading, bounded Clark preview and sharper recognition/contestation objections.
+- Whitespace safeguards, exact quotation multiplicities, HTTPS rights metadata and deterministic PDF reproduction.
+- Original corpus and result epochs preserved; new software and analysis receipts remain separate.
+
 ## 0.2.0 - 23 October 2026
 
 Expanded the private article with thirteen source-bound Blake quotations, sustained disagreements over permanence, nation, gender and theology, fuller federalism comparisons, treaty/refusal distinctions and a worked material-conflict comparison. Added a bounded reading update, copy observations and item-specific rights records.

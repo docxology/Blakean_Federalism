@@ -8,6 +8,7 @@ are exclusive new directories; no source or corpus data is rewritten.
 import argparse
 import io
 import json
+from functools import partial
 from html import escape
 from pathlib import Path
 
@@ -17,6 +18,7 @@ from markdown_it.token import Token
 from pypdf import PdfReader, PdfWriter
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen.canvas import Canvas
@@ -25,6 +27,7 @@ from reportlab.platypus import (
     SimpleDocTemplate,
 )
 
+from blakean_federalism import __version__
 from blakean_federalism.manuscript import ManuscriptSpec, validate_manuscript
 from blakean_federalism.models import ResearchError
 from blakean_federalism.storage import digest, safe_path
@@ -59,7 +62,7 @@ def style(name: str = "body", size: float = 10, **kwargs: object) -> ParagraphSt
         fontName=kwargs.pop("fontName", "Vera"),
         fontSize=size,
         leading=size * 1.28,
-        textColor=INK,
+        textColor=kwargs.pop("textColor", INK),
         spaceAfter=7,
         **kwargs,
     )
@@ -97,9 +100,19 @@ def box(
     accent: colors.Color = TEAL,
 ) -> None:
     canvas.setFillColor(PALE)
-    canvas.setStrokeColor(accent)
+    canvas.setStrokeColor(colors.HexColor("#cbd6d2"))
+    canvas.setLineWidth(0.5)
     canvas.roundRect(x, top - height, width, height, 7, fill=1, stroke=1)
-    bottom = text(canvas, escape(title), x + 11, top - 10, width - 22, 11, fontName="Vera-Bold")
+    bottom = text(
+        canvas,
+        escape(title),
+        x + 11,
+        top - 10,
+        width - 22,
+        11,
+        fontName="Vera-Bold",
+        textColor=accent,
+    )
     bottom = text(canvas, escape(description), x + 11, bottom - 7, width - 22, 9)
     if bottom < top - height + 8:
         raise ResearchError("diagram_overflow", title)
@@ -131,7 +144,7 @@ def footer(canvas: Canvas, number: int) -> None:
     canvas.line(MARGIN, 30, PAGE[0] - MARGIN, 30)
     canvas.setFont("Vera", 8)
     canvas.setFillColor(INK)
-    canvas.drawString(MARGIN, 18, "Blakean Federalism | 0.2.0 | Private research draft")
+    canvas.drawString(MARGIN, 18, f"Blakean Federalism | {__version__} | Private research draft")
     canvas.drawRightString(PAGE[0] - MARGIN, 18, str(number))
 
 
@@ -310,7 +323,6 @@ def opening_pages(spec: ManuscriptSpec, paths: dict[str, Path]) -> bytes:
         zip(titles, subtitles, ids, quote_ids, strict=True), start=1
     ):
         canvas.setFillColor(TEAL)
-        canvas.rect(0, 782, 612, 10, fill=1, stroke=0)
         text(
             canvas,
             "PRIVATE RESEARCH / DANIEL ARI FRIEDMAN / 23 OCTOBER 2026",
@@ -336,7 +348,7 @@ def opening_pages(spec: ManuscriptSpec, paths: dict[str, Path]) -> bytes:
         diagram(canvas, number)
         image_asset = next(a for a in spec.assets if a.asset_id == image_id)
         canvas.drawImage(
-            str(paths[image_id]),
+            ImageReader(io.BytesIO(paths[image_id].read_bytes())),
             MARGIN,
             59,
             width=116,
@@ -452,6 +464,7 @@ def body_pages(markdown: str) -> bytes:
     )
     doc.build(
         story,
+        canvasmaker=partial(Canvas, invariant=1),
         onFirstPage=lambda c, d: footer(c, d.page + 4),
         onLaterPages=lambda c, d: footer(c, d.page + 4),
     )
@@ -497,7 +510,7 @@ def atlas_pages(spec: ManuscriptSpec, paths: dict[str, Path], start: int) -> byt
             fontName="Vera-Bold",
         )
         canvas.drawImage(
-            str(paths[image_id]),
+            ImageReader(io.BytesIO(paths[image_id].read_bytes())),
             MARGIN,
             203,
             width=WIDTH,
@@ -562,17 +575,18 @@ def render(root: Path, output: Path) -> Path:
         {
             "/Title": "States Change: Blakean Federalism and composition without capture",
             "/Author": "Daniel Ari Friedman",
-            "/Subject": "Private research draft 0.2.0",
+            "/Subject": f"Private research draft {__version__}",
         }
     )
     pdf = io.BytesIO()
     writer.write(pdf)
     output.mkdir(parents=True, exist_ok=False)
-    target = output / "states-change-blakean-federalism-0.2.0.pdf"
+    target = output / f"states-change-blakean-federalism-{__version__}.pdf"
     with target.open("xb") as stream:
         stream.write(pdf.getvalue())
     receipt = {
-        "version": spec.version,
+        "version": __version__,
+        "input_schema_version": spec.version,
         "pdf_sha256": digest(target),
         "pages": body_count + 8,
         "front_pages": {str(i): name for i, name in enumerate(spec.fronts, start=1)},

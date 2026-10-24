@@ -1,0 +1,256 @@
+{
+  "version": "0.3.0",
+  "scope": "Author-run rendered QA for a bounded private research draft and offline workbench; not independent acceptance or accessibility conformance",
+  "pdf": {
+    "pdf_sha256": "fec1b5b6ce3a489ccf12af88095a34c4120c00e76322ff8db219db4fc4636862",
+    "pages": 24,
+    "inline_text_units_matched": 169,
+    "missing_text_units": [],
+    "fonts_embedded": [
+      "/AAAAAA+BitstreamVeraSans-Bold",
+      "/AAAAAA+BitstreamVeraSans-Oblique",
+      "/AAAAAA+BitstreamVeraSans-Roman"
+    ],
+    "front_physical_pages_verified": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "body_start": 5,
+    "outline_entries": 6,
+    "quotations_verified": 13,
+    "manual_review": "recorded separately after viewing every final page"
+  },
+  "pdf_raster_hashes": {
+    "page-01.png": "68cbf83535ab1ba23ed13fe73d7e9e0b243f1287779c5524119c99946bd4c3fb",
+    "page-02.png": "a817e87d36d6d798a444579db6596836989321f21811fff244aea5ea583637c7",
+    "page-03.png": "7cbfba0c0836f8942c866be3ce07704bdcbb39b339f490e19e9de9e4ab378835",
+    "page-04.png": "cc42da4a28e1ebc95a9fc170ea6868b69dc5fb15bcd75021690603c202fccea3",
+    "page-05.png": "dc4834593967e63c83ede5707e865aeffe57368499ca3fe613b09e5d125282d8",
+    "page-06.png": "24d8f1049fe2415d0236a33073a4de8a2f6028437a4bda3790afc831dcf1d13e",
+    "page-07.png": "63f157bd9a92a671bc5c30d5e2ab0f348ae224ab27a34ec35da80590b258c75e",
+    "page-08.png": "dd083019ce559c45ca33e42d7d6f2ae2f4e4ab9e296e933689c2b7d3963dd507",
+    "page-09.png": "cf2963dd6083aaccec039f56a7e170fdad582d3ac7fe81b5546b072ce34f3a06",
+    "page-10.png": "ba801ca02e3b9adc1b2468f72f8ba4d0c92329e51762ea1623bd709496715845",
+    "page-11.png": "458c2a44bbfd7f3b2dbc6e96e3d50f75b2a26937d4b926dcd36b592b33d9cf62",
+    "page-12.png": "673d730a18971d499aa2b02ba201e732667329cfc6e87c25dd8caee975479493",
+    "page-13.png": "439d63179cffe1f9419af5c6b13abb1ff647a366cbe0092c88041cbca7968492",
+    "page-14.png": "e7202d5b16329e67fffd5466d57b01ee6209c704c1450ffec4e2e1840c89d720",
+    "page-15.png": "fb8a7a6dffc9493ba658f3229d65a1e3e8c012556207b0e72ee73c9c3c708c4e",
+    "page-16.png": "1b210d0c9449fa4e179dd33a09f220e8e0c6f94171325d7b8b513ab4eb6b5c1e",
+    "page-17.png": "074697e6d805be1d032847937e8d6f7ad187a56d0da7a4a5c7832196098fe518",
+    "page-18.png": "c4f59508b282f9fe1f889df231b7f09e08d0e6f0167018ba47e80c6dce1ef6d7",
+    "page-19.png": "3a8232143d36310fd1c951df76a950054152a6da53e6b6085a8192b637de1039",
+    "page-20.png": "9a39028b640a8e85a81e3e4851a62d49c392f17bb8d73c149f053cedb49b55a8",
+    "page-21.png": "4f243ad96f1fc17f445947c87fbed5d388d5f444694fe68be98b0ef1b4ddccbb",
+    "page-22.png": "b90fa9bffe6f5f6e0959bb13e9cb89091ef52f4361d5cea4ee7a083116dae5ce",
+    "page-23.png": "c25390a2f0aec0fdf830830366950c1850bb6dfdaf19abf3816ff6ce04461175",
+    "page-24.png": "dc4a204891a82b18fb4a3340b4d973f5350a49c106055a37e25d741131d61e21"
+  },
+  "pdf_review": "All 24 pages covered by direct visual inspection and exact PNG-byte equivalence for unchanged pages; final page equivalence and inspected deltas retained. No clipped text or overlapping figures found.",
+  "workbench": {
+    "html_sha256": "6b079d1e84ce770ade52eb07cf6341772edc699f9c75edbde15fc1cfccf69535",
+    "data_sha256": "a85ae877d54dd328fca691c1e72d30053ec29b5cd7725f218118c29b11448547",
+    "html_bytes": 592890,
+    "dom_elements": 3572,
+    "viewports_css_px": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "emulation": "Chrome; 390px uses mobile/touch and DPR3. Offline and CPU4, reduced-motion explicitly applied together per emulation call.",
+    "capture_hashes": {
+      "final-corpus-320-text200.png": "875a59b3ae6897da9121aca9f83cb157b96708cf62a3eb3d4c63e5a0786bc9b9",
+      "final-cases-320-text200.png": "875a59b3ae6897da9121aca9f83cb157b96708cf62a3eb3d4c63e5a0786bc9b9",
+      "final-sources-320-text200.png": "875a59b3ae6897da9121aca9f83cb157b96708cf62a3eb3d4c63e5a0786bc9b9",
+      "final-corpus-390-light.png": "9d261cb040d76ee2e89ff06a8bf21c9f72c55c1c24f284eba89a95c2633e3c22",
+      "final-corpus-390-light-end.png": "9088002992def42b2b566de69697c5f95626ea66928ebf425d3808388b8d7423",
+      "final-cases-390-light.png": "cd8d053c2bd9869e412c7ed9dd22853f602539c18358e64bd9e6380a8d528ebc",
+      "final-cases-390-light-end.png": "0d825845e33945440a6c713694085817c4f78f3ff65c4f5a6e8dac5606cdd2dd",
+      "final-sources-390-light.png": "f0decae3bb9ca475acb21a8ffb45c0f9dbf6e1cd0b0200e8c0881a368e013490",
+      "final-sources-390-light-end.png": "768b3c910f14bfb8349b028222ffc398869c15796a9e9aa31ab793aca4b37ef1",
+      "final-corpus-390-dark.png": "4623812baf982a7e33812dbd881f411d8db3a343de6989088ff621a45aa22672",
+      "final-corpus-390-dark-end.png": "b82ae445c8c2e27bc40b31159b4db39652ea61f994a04f8cbac85b9c62615fbc",
+      "final-cases-390-dark.png": "c7c1ced821ae82f6e9cacfd6b255d2d90d996c58a8547de803fd557bfbad9bbf",
+      "final-cases-390-dark-end.png": "e86d0492328031f2db0c289ed6834a8f843cd3a3092b26389977cf42ba08cf04",
+      "final-sources-390-dark.png": "b4714478ae66fb6f3c79e68bd8a8412d3820faae61a872176d90f27dccf1a12b",
+      "final-sources-390-dark-end.png": "686d71807ef41426cd72de6d3ae8bd87710cf4b65cb0c9cd2d1d4aebafcfe284",
+      "final-corpus-768-light.png": "6ec5cd268629d1b6500e833b1669f737208a9ac4a3ec0ad4a75437ff53cd50c5",
+      "final-corpus-768-light-end.png": "820873f01a688c152cb821e4fd26c8b8505e0e8f6403463a90583e774e5e1af9",
+      "final-cases-768-light.png": "a7eeceb598b0f3fb8d7717f902a9e4fc8918deeb82ed9d1685e586e3810d5a65",
+      "final-cases-768-light-end.png": "4da2137282eba335871a7a5841176fd212a3ceed6ff0f533062cc161799d92df",
+      "final-sources-768-light.png": "2dceab443e025d284bcd30ac1271e39b6db79ec020458ee49c6aac9c990e1473",
+      "final-sources-768-light-end.png": "d9a5ddafd0ae060536141e3db476039ed70ec5fc69e808edb983bd8e905f7514",
+      "final-corpus-768-dark.png": "cfca69c154b574c3b1546c4afd05c9e86dd97a64279c4d9d662253576640606a",
+      "final-corpus-768-dark-end.png": "723f6a31c8c3936ff1ee9c686bb3f5c0f0927af678afdb33cc507792beb09977",
+      "final-cases-768-dark.png": "dbe24f5d918af6375121d5cd183bb5b978c1e73e7373ad9f8ef9c8e2a30b3fdf",
+      "final-cases-768-dark-end.png": "66a9d88883d5495c12dd42646874b84738aeab7da8c9c6c4b99db2d6cbf35c5b",
+      "final-sources-768-dark.png": "2de3e71347299ed558efbbbf9d6fa18ed5a9e90b844affafbe3a2fdc6dd56603",
+      "final-sources-768-dark-end.png": "55aeb21d5ab4badd5513c65deac3e4f59903799ccc984a25c4e989aa4823721e",
+      "final-corpus-1440-light.png": "fd45cfec207d2bf024b7d70f03c8b1e148e959ab47801d64c12f4dfdacf1f15a",
+      "final-corpus-1440-light-end.png": "37319b2aa22a630d9bfab11a2b90818f4c1feccc5f1c5b8ab715fd2c93216269",
+      "final-cases-1440-light.png": "0512a9667bc3821a2ad54b3372effeef0e9ceef1f0d0e802b403632c4c079063",
+      "final-cases-1440-light-end.png": "9133cb8ebf1a9c5352bfe49fc0d7a38938b6bc55aa6e1cd4cf45a605ba762528",
+      "final-sources-1440-light.png": "cfc998cc2f377f65468081ffaca6e958ca941f322192809a21e516db2f9b7ce9",
+      "final-sources-1440-light-end.png": "20a0702356e58addc77f2a6dc824e145d6dd65f3350c91f61f236d577b388d99",
+      "final-corpus-1440-dark.png": "cdeec38d2f92a6f5610b0ea77cc5134f765c9e145a1b66169db4d18b8ef2591f",
+      "final-corpus-1440-dark-end.png": "9b83c11701a842180d932048318f7fa41115a1bf18cdb546c3fb33ce2a02c13e",
+      "final-cases-1440-dark.png": "b981d1a9e19657b8ddbc848ff7bdbb2df07f6f11085169e83a48b1f3c3cf295c",
+      "final-cases-1440-dark-end.png": "fdcdee2b885d4c56de7739621dd1b88278083cf7bd85aa5b937bc909dce65b6d",
+      "final-sources-1440-dark.png": "ec31387ace3f7cf734f1925be3b6f5453c5e4f53e985764223784cca54623ffa",
+      "final-sources-1440-dark-end.png": "76b384f56709520e26ac7d378ac6352728cd192b091defc1d1f29abefbbf2f75",
+      "final-case-record-01.png": "1622739ea5373110a99c4aacc7e35942e00dfde8686857dfee58b222d1c095c8",
+      "final-case-record-02.png": "06a1a79943cd8ee91dffa0a68ab0cca50fdfaa3fbaf0fded7246c353dcc985bb",
+      "final-case-record-03.png": "b7ea0650614d1b3dbf6668132f2b5b1052177a63d9963220f91d301a68b33301",
+      "final-case-record-04.png": "2aa2a8142fc0ccbe8c48e9a01895854f0954635d516bc0e417e9ec1498e79e1f",
+      "final-case-record-05.png": "7dd61af4dff355fd78704a5da51e2a9f4ec9d16f0398812b1d40a93b5141701e",
+      "final-case-record-06.png": "bbfcb619560a2e8f2bd7820059af38b4a13bd90e344b89f866f5ad00b690ac7e",
+      "final-case-record-07.png": "4fe4b8b00caef7423b57410a047786589677454ee586e72cb9b1bf3eea5a8501",
+      "final-case-record-08.png": "aea0c3983cecf5010f239713159cb162c5b361a498dfa68016648163272e672d",
+      "final-case-record-09.png": "8d16084031d0c1c172fb43a3a124748ed8a5b365f3728736f642887969487e75",
+      "final-case-record-10.png": "726ad60e5dda4b74a7152e05abb12d093a157f9f07b2781ef1b86144b267c194",
+      "final-quotation-01.png": "d6e3d4c36dfa7f8dd4d4bb58a213436b02c2250d62cb2037f7fb9b0d1b0f43dd",
+      "final-quotation-02.png": "0046807ca7b3941770d338412e60b28549e5989f367a412c4aaecfd6574ce13d",
+      "final-quotation-03.png": "eca73c6b3fc21055433e764159e2cbc2977550e9f5c6dee003bc731021f0a1b4",
+      "final-quotation-04.png": "9ee409b3d42b4aeeae9079c81d5a57bc6a0b8594618b5d55f192ed7360d5efdc",
+      "final-quotation-05.png": "4fc2b8edbf6a96c609340fd666ca804a0c195191533ade55b47711f412035936",
+      "final-quotation-06.png": "c8336a5e31014a36056f513decc1f913b86ed72f648a655899134d0a1ca21feb",
+      "final-quotation-07.png": "046b9cc8d9b859ca85920e4eddeb52a0f531eae5b09218e17420b2cfbaf3dc5d",
+      "final-quotation-08.png": "31d2d82970d4b1923868161746a7e680fe16204ec4af42913f2745a043728d61",
+      "final-quotation-09.png": "bf515a04fa27323a2b2ef839f2434ae80ef5dc2bf6b4a1348051cf003329150a",
+      "final-quotation-10.png": "9279516a40b94b43cf15866c209dcffedca762924c6813098b3d98d5edcdc968",
+      "final-quotation-11.png": "2f228114068034738c802bab27575af32c5bea6568b8fa65a85bac56c839acd0",
+      "final-quotation-12.png": "fdfefb315ce1254aec5d2424ac78e36f8735107d809da19e3a7282bd8509a907",
+      "final-quotation-13.png": "d8955c8f79c114313ee3611955936c1ce5e7bc4ac48ad05d15338c7e25c8e611",
+      "final-forced-colors.png": "76c92632c6ca50cc2d37be9f47f7b51e6ff0d38671e8cf9ec023c7bbcbb6ae8d"
+    },
+    "record_and_quotation_inspection": "All ten case records and thirteen quotation records visually inspected. All 150 check states, ten exposed input records and 53 quotation segments match embedded typed data.",
+    "post_recovery_pixel_equivalence": "All 63 normal-state screenshots are byte-identical to the previously inspected pre-recovery-fix captures; fresh captures are retained.",
+    "text_200_at_320": "All three views and expanded disclosures remain within 320 CSS pixels.",
+    "forced_colors": {
+      "forced": true,
+      "reduced": true,
+      "overflow": false
+    },
+    "keyboard": {
+      "states": [
+        {
+          "focus": "tab-sources",
+          "selected": "tab-corpus",
+          "outline": "3px"
+        },
+        {
+          "focus": "tab-corpus",
+          "selected": "tab-corpus",
+          "outline": "3px"
+        },
+        {
+          "focus": "tab-sources",
+          "selected": "tab-corpus",
+          "outline": "3px"
+        },
+        {
+          "focus": "tab-sources",
+          "selected": "tab-sources",
+          "outline": "3px"
+        },
+        {
+          "focus": "tab-corpus",
+          "selected": "tab-sources",
+          "outline": "3px"
+        },
+        {
+          "focus": "tab-corpus",
+          "selected": "tab-corpus",
+          "outline": "3px"
+        }
+      ],
+      "disclosure": {
+        "open": true,
+        "record": "A-bounded"
+      }
+    },
+    "composition_control": {
+      "before": 9,
+      "during": 9,
+      "after": 0
+    },
+    "filter_settle_ms_at_cpu4": {
+      "samples": [
+        1.8999999994412065,
+        12.600000000558794,
+        11,
+        20.5,
+        14,
+        17.799999999813735,
+        14.700000000186265,
+        17.299999999813735,
+        16.09999999962747,
+        17.40000000037253,
+        17.200000000186265,
+        15.099999999627471,
+        18.200000000186265,
+        15.900000000372529,
+        17.699999999254942,
+        15.700000000186265,
+        17.100000000558794,
+        17.299999999813735,
+        17.299999999813735,
+        15.700000000186265
+      ],
+      "p95": 18.200000000186265,
+      "max": 20.5
+    },
+    "automatic_runtime_http_requests": 0,
+    "repeated_navigation_timings": [
+      {
+        "domInteractive": 129.70000000018626,
+        "duration": 139.6000000005588,
+        "fontsReadyAt": 788.1000000005588,
+        "automaticNetwork": 0
+      },
+      {
+        "domInteractive": 101.79999999981374,
+        "duration": 114.40000000037253,
+        "fontsReadyAt": 722.2999999998137,
+        "automaticNetwork": 0
+      },
+      {
+        "domInteractive": 294.29999999981374,
+        "duration": 324.5,
+        "fontsReadyAt": 937.9000000003725,
+        "automaticNetwork": 0
+      },
+      {
+        "domInteractive": 311.70000000018626,
+        "duration": 314.20000000018626,
+        "fontsReadyAt": 919.0999999996275,
+        "automaticNetwork": 0
+      },
+      {
+        "domInteractive": 258.3999999994412,
+        "duration": 261.09999999962747,
+        "fontsReadyAt": 900.3999999994412,
+        "automaticNetwork": 0
+      }
+    ],
+    "negative_controls": [
+      "Exact active-script-removal control retains all three static sections and native navigation.",
+      "Late initialization-failure control exposed a cleanup bug; corrected source restores native links, hides controls, shows the error and retains all 180 rows/13 quotations.",
+      "Pre-fix 320px/200%-text overflow is retained; corrected current source has no horizontal overflow."
+    ],
+    "transport": "T3 snapshot timed out twice; Chrome fallback used. CLI screenshot-path parsing errors retained; direct wrapper MCP client produced final captures successfully, with PNG signatures/dimensions verified."
+  },
+  "limits": [
+    "Browser-level JavaScript disabling unavailable: tool rejects chrome: settings URLs. The exact active-script-removal control tests no application JavaScript instead.",
+    "Screen-reader testing, physical-device testing, native 400% browser zoom and fresh-process cold-cache benchmarks were not run; 320px reflow and 200% text were tested.",
+    "Lighthouse navigation mode rejects file URLs. Desktop/mobile snapshot audits score accessibility100 and best-practices100; SEO60 and agentic-browsing50 retain private-file metadata/robots/llms failures. These are not full compliance or performance scores.",
+    "No new live catalog sweep, full illuminated-copy collation or empirical institutional validation."
+  ]
+}

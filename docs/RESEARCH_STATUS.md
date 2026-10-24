@@ -1,6 +1,6 @@
 # Research status
 
-This is an initial private research program and executable descriptive prototype, version 0.2.0. It is not a completed journal article, validated political theory, current legal opinion, or proof of Blake's metaphysics.
+This is an initial private research program and executable descriptive prototype, version 0.3.0. It is not a completed journal article, validated political theory, current legal opinion, or proof of Blake's metaphysics.
 
 The central hypothesis is composition without capture: the federation contains STATES in the proposed Blakean sense, while NATIONS are temporal productions, combinations and generations that may cross those states. Several nations may coexist without becoming a single nation. Containment preserves intelligibility, encounter and passage; it grants no automatic sovereign seat to a state such as Rahab or Satan.
 
@@ -12,3 +12,5 @@ Next scholarly gates include copy-specific collation, full critical reading of c
 
 
 The 0.2.0 manuscript adds thirteen source-bound Blake quotations, four original opening-page graphical abstracts, four item-specific LOC reproductions, a compact PDF route and deeper bounded scholarship. New reading and copy observations are recorded separately from historical ledgers. The original 0.1.0 concordance epoch remains unchanged.
+
+Version 0.3.0 adds direct Pettit working-paper/excerpt reading, Clark pp.167-168, a portable offline evidence workbench, source-unit denominators and complete fifteen-rule traces. Wright's continuous chapter remains unavailable. The 0.3.0 full concordance was rerun and compared with the unchanged historical result; equality preserves, rather than replaces, its original producer. Current qualification and rendered inspection are recorded in the new epoch.

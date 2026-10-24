@@ -1,0 +1,111 @@
+[
+  {
+    "decision_id": "A-bounded",
+    "admissible_under_proposed_rules": true,
+    "findings": [],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "A-capture",
+    "admissible_under_proposed_rules": false,
+    "findings": [
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body."
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive."
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support."
+      }
+    ],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "B-bounded",
+    "admissible_under_proposed_rules": true,
+    "findings": [],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "B-capture",
+    "admissible_under_proposed_rules": false,
+    "findings": [
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity."
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required."
+      }
+    ],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "C-bounded",
+    "admissible_under_proposed_rules": true,
+    "findings": [],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "C-capture",
+    "admissible_under_proposed_rules": false,
+    "findings": [
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence."
+      }
+    ],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "D-bounded",
+    "admissible_under_proposed_rules": true,
+    "findings": [],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "D-capture",
+    "admissible_under_proposed_rules": false,
+    "findings": [
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank."
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body."
+      }
+    ],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "E-bounded",
+    "admissible_under_proposed_rules": true,
+    "findings": [],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  },
+  {
+    "decision_id": "E-capture",
+    "admissible_under_proposed_rules": false,
+    "findings": [
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing."
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies."
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment."
+      }
+    ],
+    "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
+  }
+]

@@ -40,3 +40,9 @@ The five bounded alternatives meet the explicitly stipulated predicates; all fiv
 ## Local recovery boundary
 
 The upstream 8,481-file capture and backup remain in Blake; this project imports an independent text index, not all images. The original capture has 28 unresolved discovered image identifiers. The new Git repository contains project-authored research and metadata, not the ignored provider bodies, images, indexes, DOCX originals or backups.
+
+## Unit coverage in 0.3.0
+
+For query q and joint source plane/role category c, let n(c) be all pinned source units and m(q,c) the distinct matched units. Coverage is m/n when n is positive and undefined otherwise. States in primary reading: 264 occurrences, 60/199 units, 30.2%. These are repeated copy/page units, not independent samples or unique works. Do not sum matched units across queries. Structural empty categories are N/A, while an observed zero in a populated category is 0/n and 0%. No word-length normalization or inferential interval is implied.
+
+The workbench verifies all stored hit spans, source hashes and metadata, query fingerprint, unique memberships, full aggregate grid and counts against the independent copied index. This reconciliation does not independently prove retrieval completeness or literary meaning. A fresh full run is compared separately with the preserved original result.

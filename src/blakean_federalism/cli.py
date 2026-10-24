@@ -13,6 +13,7 @@ from pydantic import TypeAdapter
 from .corpus import concordance, import_corpus
 from .institutions import assess
 from .models import Assessment, Concordance, CorpusPin, CountRow, Decision, QuerySpec, ResearchError
+from .report import build_workbench, publish_workbench
 from .storage import write_new
 
 DEFAULT_PIN: Final = Path("research/corpus-pin.json")
@@ -90,6 +91,18 @@ def export_summary(
     writer.writerows(row.model_dump(mode="json") for row in result.rows)
     write_new(output, buffer.getvalue())
     typer.echo(f"{len(result.rows)} aggregate count rows exported; no source contexts.")
+
+
+@app.command("build-workbench")
+def build_workbench_command(
+    corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
+    concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
+    output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
+    readings: str = "research/scholarship-reading-0.3.0.json",
+) -> None:
+    require_ignored(output, "analysis_output")
+    report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
+    typer.echo(str(publish_workbench(report, output)))
 
 
 if __name__ == "__main__":

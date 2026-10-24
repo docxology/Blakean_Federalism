@@ -3,10 +3,10 @@
 
 import io
 import json
+import shutil
 
 import pytest
 from markdown_it import MarkdownIt
-from PIL import Image
 from pydantic import ValidationError
 from pypdf import PdfReader
 from reportlab.pdfgen.canvas import Canvas
@@ -18,76 +18,9 @@ from tools.acquire_manuscript import acquire
 from tools.render_manuscript import body_pages, box, fonts, inline, render, text
 
 
-@pytest.fixture
-def manuscript(tmp_path):
-    assets = []
-    for name in ("M32", "J52", "J54", "J73"):
-        path = tmp_path / (name + ".png")
-        Image.new("RGB", (20, 30), "white").save(path)
-        assets.append(
-            dict(
-                asset_id=name,
-                path=path.name,
-                url="https://example.org/image",
-                sha256=digest(path),
-                size=path.stat().st_size,
-                kind="image",
-                caption="Synthetic test image; not a Blake reproduction",
-                rights_basis="Test fixture",
-                credit="Test",
-                rights_url="https://example.org",
-            )
-        )
-    html = tmp_path / "source.html"
-    html.write_text(
-        '<br><a name="M1.1;E1"></a><font size="-2">locator</font>'
-        "Persons &amp; states<sup>editorial note</sup><br>"
-    )
-    assets.append(
-        dict(
-            asset_id="text",
-            path=html.name,
-            url="https://example.org/text",
-            sha256=digest(html),
-            size=html.stat().st_size,
-            kind="html",
-        )
-    )
-    quotes = [
-        dict(
-            quote_id=q,
-            asset_id="text",
-            locator="Synthetic M1.1; E1",
-            segments=[dict(anchor="M1.1;E1", occurrence=0, text="Persons & states")],
-            context="Synthetic test only",
-        )
-        for q in ("Q03", "Q05", "Q07", "Q08")
-    ]
-    spec = ManuscriptSpec.model_validate(
-        dict(
-            version="0.2.0",
-            assets=assets,
-            quotations=quotes,
-            fronts=["composition", "warrants", "authority", "countermodels"],
-        )
-    )
-    for folder in ("research", "docs/manuscript", "src/blakean_federalism"):
-        (tmp_path / folder).mkdir(parents=True)
-    (tmp_path / "research/manuscript-inputs.json").write_text(spec.model_dump_json())
-    (tmp_path / "docs/manuscript/states-change.md").write_text(
-        "# Synthetic article\n\n> Persons & states\n\n"
-        "A **real** PDF with *italics* and [source](https://example.org).\n"
-    )
-    (tmp_path / "docs/manuscript/references-and-rights.md").write_text(
-        "## Sources\n\nSynthetic rights.\n"
-    )
-    (tmp_path / "src/blakean_federalism/manuscript.py").write_text("# synthetic receipt binding\n")
-    return tmp_path, spec
-
-
 def test_real_source_and_pdf_roundtrip(manuscript):
     root, spec = manuscript
-    assert validate_manuscript(root, spec, "> Persons & states\n")
+    assert validate_manuscript(root, spec, "> Persons & states\n\n" * 4)
     target = render(root, root / "analysis_output/positive")
     reader = PdfReader(target)
     assert len(reader.pages) == 9
@@ -135,7 +68,7 @@ def test_real_source_and_pdf_roundtrip(manuscript):
 def test_real_negative_controls(manuscript, mutation):
     root, spec = manuscript
     data = spec.model_dump(mode="json")
-    markdown = "> Persons & states\n"
+    markdown = "> Persons & states\n\n" * 4
     if mutation == "fronts":
         data["fronts"].reverse()
     elif mutation == "duplicate_asset":
@@ -250,3 +183,55 @@ def test_acquisition_preserves_verified_inputs_and_rejects_unsafe_records(manusc
     else:
         with pytest.raises(ResearchError):
             acquire(root)
+
+
+@pytest.mark.parametrize("field", ["caption", "rights_basis", "credit", "rights_url"])
+def test_whitespace_cannot_supply_image_rights(manuscript, field):
+    root, spec = manuscript
+    assets = (spec.assets[0].model_copy(update={field: " \t "}), *spec.assets[1:])
+    with pytest.raises(ResearchError, match="image_rights"):
+        validate_manuscript(
+            root, spec.model_copy(update={"assets": assets}), "> Persons & states\n\n" * 4
+        )
+
+
+def test_duplicate_and_missing_quotation_multiplicities_fail(manuscript):
+    root, spec = manuscript
+    for copies in (3, 5):
+        with pytest.raises(ResearchError, match="manuscript_quotation"):
+            validate_manuscript(root, spec, "> Persons & states\n\n" * copies)
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "http://example.org",
+        "https://name:secret@example.org",
+        "https://example.org/a b",
+        "https://example.org/\\a",
+    ],
+)
+def test_unsafe_source_urls_fail_before_rendering(manuscript, url):
+    root, spec = manuscript
+    assets = (spec.assets[0].model_copy(update={"url": url}), *spec.assets[1:])
+    with pytest.raises(ResearchError, match="source_url"):
+        validate_manuscript(
+            root, spec.model_copy(update={"assets": assets}), "> Persons & states\n\n" * 4
+        )
+
+
+def test_layout_requires_the_selected_four_plate_images(manuscript):
+    root, spec = manuscript
+    with pytest.raises(ResearchError, match="image_set"):
+        validate_manuscript(
+            root, spec.model_copy(update={"assets": spec.assets[1:]}), "> Persons & states\n\n" * 4
+        )
+
+
+def test_pdf_is_byte_identical_across_independent_input_locations(manuscript):
+    root, _ = manuscript
+    second = root.parent / (root.name + "-different-location")
+    shutil.copytree(root, second)
+    first_pdf = render(root, root / "analysis_output/first")
+    second_pdf = render(second, second / "analysis_output/second")
+    assert first_pdf.read_bytes() == second_pdf.read_bytes()

@@ -27,3 +27,9 @@ Suppose a wealthy cultural association requests revenue autonomy while its water
 A bounded alternative assigns an enforceable duty to the water-service authority, creates funded nonmember standing, protects essential water access, and makes cost allocation and residual risk reviewable. Association affiliation does not excuse legitimate shared costs. An Indigenous people is not simply one more voluntary association: consent, treaty relationships and refusal require their own historical inquiry. The hypothetical record flags their omission; it cannot determine or replace them.
 
 Revision must be possible without forcing a dissident to abandon home, language, family or culture. Exit and voice are distinct protections. A review forum named in a JSON record may still be inaccessible in practice; real effectiveness must be observed. The proposed translation obligation requires accessible reasons and explicit representation limits, rather than a claim that the issuer speaks for every affected person.
+
+## Inspecting the checks in 0.3.0
+
+Assessment schema 2 retains all fifteen checks as passed/failed rule records, alongside the failed findings. Conditional nonviolations are visible, and the workbench exposes the underlying decision inputs. Whitespace-only authority, representation, contestation, reach and resource fields do not count as supplied. Historical findings-only results remain archived, rather than gaining invented passing checks.
+
+Voice, materially feasible exit and revision require distinct practical evidence. A stated appeal forum does not establish independence, affordable access or an effective remedy. Poetic-state and national-label ablation leaves these programmed assessments unchanged; this is not an empirical test of the labels' interpretive value.

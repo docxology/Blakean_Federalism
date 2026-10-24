@@ -4,7 +4,9 @@ import json
 import sqlite3
 
 import pytest
+from PIL import Image
 
+from blakean_federalism.manuscript import ManuscriptSpec
 from blakean_federalism.models import CorpusPin
 from blakean_federalism.storage import digest
 
@@ -88,3 +90,71 @@ def captured(tmp_path):
         scope_note="Synthetic test only",
     )
     return source, projection, pin, tmp_path / "imported", payloads
+
+
+@pytest.fixture
+def manuscript(tmp_path):
+    assets = []
+    for name in ("M32", "J52", "J54", "J73"):
+        path = tmp_path / (name + ".png")
+        Image.new("RGB", (20, 30), "white").save(path)
+        assets.append(
+            dict(
+                asset_id=name,
+                path=path.name,
+                url="https://example.org/image",
+                sha256=digest(path),
+                size=path.stat().st_size,
+                kind="image",
+                caption="Synthetic test image; not a Blake reproduction",
+                rights_basis="Test fixture",
+                credit="Test",
+                rights_url="https://example.org",
+            )
+        )
+    html = tmp_path / "source.html"
+    html.write_text(
+        '<br><a name="M1.1;E1"></a><font size="-2">locator</font>'
+        "Persons &amp; states<sup>editorial note</sup><br>"
+    )
+    assets.append(
+        dict(
+            asset_id="text",
+            path=html.name,
+            url="https://example.org/text",
+            sha256=digest(html),
+            size=html.stat().st_size,
+            kind="html",
+        )
+    )
+    quotes = [
+        dict(
+            quote_id=q,
+            asset_id="text",
+            locator="Synthetic M1.1; E1",
+            segments=[dict(anchor="M1.1;E1", occurrence=0, text="Persons & states")],
+            context="Synthetic test only",
+        )
+        for q in ("Q03", "Q05", "Q07", "Q08")
+    ]
+    spec = ManuscriptSpec.model_validate(
+        dict(
+            version="0.2.0",
+            assets=assets,
+            quotations=quotes,
+            fronts=["composition", "warrants", "authority", "countermodels"],
+        )
+    )
+    for folder in ("research", "docs/manuscript", "src/blakean_federalism"):
+        (tmp_path / folder).mkdir(parents=True)
+    (tmp_path / "research/manuscript-inputs.json").write_text(spec.model_dump_json())
+    (tmp_path / "docs/manuscript/states-change.md").write_text(
+        "# Synthetic article\n\n"
+        + "> Persons & states\n\n" * 4
+        + "A **real** PDF with *italics* and [source](https://example.org).\n"
+    )
+    (tmp_path / "docs/manuscript/references-and-rights.md").write_text(
+        "## Sources\n\nSynthetic rights.\n"
+    )
+    (tmp_path / "src/blakean_federalism/manuscript.py").write_text("# synthetic receipt binding\n")
+    return tmp_path, spec

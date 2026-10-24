@@ -4,7 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-federalism"
-version = "0.2.0"
+version = "0.3.0"
+readme = "README.md"
+authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
 requires-python = ">=3.11"
 dependencies = [
@@ -61,4 +63,4 @@ pythonVersion = "3.11"
 packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]

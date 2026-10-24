@@ -2,9 +2,11 @@
 """Verify manuscript quotations and selected assets before rendering any output."""
 
 import re
+from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Literal
+from urllib.parse import urlsplit
 
 from pydantic import Field
 from typing_extensions import override
@@ -110,27 +112,45 @@ def normalized(text: str) -> str:
     return " ".join(text.split())
 
 
+def require_https(url: str) -> None:
+    parsed = urlsplit(url)
+    if (
+        parsed.scheme != "https"
+        or not parsed.hostname
+        or parsed.username is not None
+        or "\\" in url
+        or any(char.isspace() for char in url)
+    ):
+        raise ResearchError("source_url", "A credential-free HTTPS source URL is required")
+
+
 def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict[str, Path]:
     """Reject changed sources, ambiguous IDs, unverified quotations and missing rights."""
     if spec.fronts != ("composition", "warrants", "authority", "countermodels"):
         raise ResearchError("front_pages", "Four explicit physical opening pages are required")
+    if {a.asset_id for a in spec.assets if a.kind == "image"} != {"M32", "J52", "J54", "J73"}:
+        raise ResearchError("image_set", "The four declared plate images are required")
     paths: dict[str, Path] = {}
     sources: dict[str, VerseParser] = {}
     for asset in spec.assets:
         if asset.asset_id in paths:
             raise ResearchError("duplicate_asset", asset.asset_id)
+        require_https(asset.url)
         path = verify_file(root, asset.path, asset.size, asset.sha256)
         paths[asset.asset_id] = path
         if asset.kind == "image" and not all(
-            (asset.caption, asset.rights_basis, asset.credit, asset.rights_url)
+            value.strip()
+            for value in (asset.caption, asset.rights_basis, asset.credit, asset.rights_url)
         ):
             raise ResearchError("image_rights", asset.asset_id)
+        if asset.kind == "image":
+            require_https(asset.rights_url)
         if asset.kind == "html":
             parser = VerseParser()
             parser.feed(path.read_text(encoding="utf-8"))
             parser.finish()
             sources[asset.asset_id] = parser
-    expected: set[str] = set()
+    expected: Counter[str] = Counter()
     identifiers: set[str] = set()
     for quote in spec.quotations:
         if quote.quote_id in identifiers or quote.asset_id not in sources:
@@ -142,9 +162,9 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
                 candidates[segment.occurrence] != segment.text
             ):
                 raise ResearchError("quotation_mismatch", quote.quote_id + ":" + segment.anchor)
-        expected.add(normalized(quote.text))
+        expected[normalized(quote.text)] += 1
     blocks = (m.group(0) for m in re.finditer(r"(?:^>[^\n]*(?:\n|$))+", markdown, re.MULTILINE))
-    actual = {normalized(re.sub(r"^> ?", "", block, flags=re.MULTILINE)) for block in blocks}
+    actual = Counter(normalized(re.sub(r"^> ?", "", block, flags=re.MULTILINE)) for block in blocks)
     if actual != expected:
         raise ResearchError("manuscript_quotation", "Blockquotes differ from verified ledger")
     return paths

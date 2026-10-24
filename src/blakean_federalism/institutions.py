@@ -1,7 +1,12 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 """Inspect explicit inferential transitions under proposed norms, without a freedom score."""
 
-from .models import Assessment, Decision, EntityKind, Finding, Warrant
+from .models import Assessment, Decision, EntityKind, Finding, RuleCheck, Warrant
+
+
+def specified(*values: str) -> bool:
+    """Whitespace cannot supply a missing warrant or remedy."""
+    return all(value.strip() for value in values)
 
 
 def assess(record: Decision) -> Assessment:
@@ -34,7 +39,7 @@ def assess(record: Decision) -> Assessment:
             "Political affiliation cannot be forced exclusive.",
         ),
         (
-            not authority.public_reason or not authority.representation_limits,
+            not specified(authority.public_reason, authority.representation_limits),
             "TRANSLATION_OBLIGATION",
             "Explain accessible reasons and representation limits.",
         ),
@@ -45,25 +50,26 @@ def assess(record: Decision) -> Assessment:
         ),
         (
             outcome.coercive
-            and not all(
-                (
+            and (
+                not specified(
                     authority.assigned_competence,
                     authority.competence_source,
-                    authority.reach,
                     authority.enforcement_actor,
                     authority.enforcement_limits,
                 )
+                or not authority.reach
+                or not specified(*authority.reach)
             ),
             "AUTHORITY_GAP",
             "Competence, reach and enforcement must be specified.",
         ),
         (
-            not contest.forum or not contest.voice or not contest.revision,
+            not specified(contest.forum, contest.voice, contest.revision),
             "CONTESTATION",
             "Appeal, voice and revision are required.",
         ),
         (
-            not contest.exit or not contest.materially_supported_exit,
+            not specified(contest.exit) or not contest.materially_supported_exit,
             "FORMAL_EXIT_ONLY",
             "Exit requires practical support.",
         ),
@@ -73,7 +79,7 @@ def assess(record: Decision) -> Assessment:
             "Affected nonmembers require standing.",
         ),
         (
-            outcome.resource_decision and not outcome.burden_allocation,
+            outcome.resource_decision and not specified(outcome.burden_allocation),
             "RESOURCE_GAP",
             "Name payers, residual risks and remedies.",
         ),
@@ -88,6 +94,10 @@ def assess(record: Decision) -> Assessment:
     )
     return Assessment(
         decision_id=record.decision_id,
+        checks=tuple(
+            RuleCheck(code=code, detail=detail, passed=not failed)
+            for failed, code, detail in violations
+        ),
         admissible_under_proposed_rules=not findings,
         findings=findings,
     )

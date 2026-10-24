@@ -106,3 +106,33 @@ def test_poetic_state_cannot_be_the_rights_bearing_subject():
         }
     )
     assert "SUBJECT_COLLAPSE" in {f.code for f in assess(record).findings}
+
+
+@pytest.mark.parametrize(
+    "field",
+    [
+        "public_reason",
+        "representation_limits",
+        "assigned_competence",
+        "competence_source",
+        "enforcement_actor",
+        "enforcement_limits",
+        "reach",
+    ],
+)
+def test_whitespace_is_an_exposed_authority_gap(field):
+    record = next(r for r in CASES if r.decision_id == "E-bounded")
+    value = (" ",) if field == "reach" else " \t "
+    authority = record.asserting_authority.model_copy(update={field: value})
+    result = assess(record.model_copy(update={"asserting_authority": authority}))
+    assert not result.admissible_under_proposed_rules
+    assert {f.code for f in result.findings} <= {"AUTHORITY_GAP", "TRANSLATION_OBLIGATION"}
+
+
+@pytest.mark.parametrize("record", CASES, ids=lambda r: r.decision_id)
+def test_every_stipulated_rule_has_an_inspectable_outcome(record):
+    result = assess(record)
+    assert result.schema_version == 2
+    assert len(result.checks) == len({c.code for c in result.checks}) == 15
+    assert {c.code for c in result.checks if not c.passed} == {f.code for f in result.findings}
+    assert result.admissible_under_proposed_rules == all(c.passed for c in result.checks)

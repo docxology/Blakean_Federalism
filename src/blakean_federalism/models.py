@@ -229,7 +229,16 @@ class Finding(FrozenModel):
     detail: str
 
 
+class RuleCheck(FrozenModel):
+    code: str
+    detail: str
+    passed: bool
+
+
 class Assessment(FrozenModel):
+    schema_version: Literal[2] = 2
+    checks: tuple[RuleCheck, ...]
+
     decision_id: str
     admissible_under_proposed_rules: bool
     findings: tuple[Finding, ...]

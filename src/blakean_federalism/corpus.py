@@ -154,6 +154,11 @@ def load_import(
     return receipt, passages
 
 
+def query_fingerprint(queries: tuple[QuerySpec, ...]) -> str:
+    payload = json.dumps([q.model_dump(mode="json") for q in queries], sort_keys=True).encode()
+    return hashlib.sha256(payload).hexdigest()
+
+
 def concordance(
     directory: Path,
     queries: tuple[QuerySpec, ...],
@@ -214,10 +219,9 @@ def concordance(
                         matched_source_documents=len(documents[key]),
                     )
                 )
-    query_bytes = json.dumps([q.model_dump(mode="json") for q in queries], sort_keys=True).encode()
     return Concordance(
         pin=receipt.corpus_pin,
-        query_sha256=hashlib.sha256(query_bytes).hexdigest(),
+        query_sha256=query_fingerprint(queries),
         scanned_source_documents=len(passages),
         rows=tuple(rows),
         hits=tuple(hits),

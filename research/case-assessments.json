@@ -1,11 +1,167 @@
 [
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "A-bounded",
     "admissible_under_proposed_rules": true,
     "findings": [],
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": false
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": false
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": false
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "A-capture",
     "admissible_under_proposed_rules": false,
     "findings": [
@@ -25,12 +181,168 @@
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "B-bounded",
     "admissible_under_proposed_rules": true,
     "findings": [],
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": false
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": false
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "B-capture",
     "admissible_under_proposed_rules": false,
     "findings": [
@@ -46,12 +358,168 @@
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "C-bounded",
     "admissible_under_proposed_rules": true,
     "findings": [],
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": false
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "C-capture",
     "admissible_under_proposed_rules": false,
     "findings": [
@@ -63,12 +531,168 @@
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "D-bounded",
     "admissible_under_proposed_rules": true,
     "findings": [],
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": false
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": false
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "D-capture",
     "admissible_under_proposed_rules": false,
     "findings": [
@@ -84,12 +708,168 @@
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": true
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": true
+      }
+    ],
     "decision_id": "E-bounded",
     "admissible_under_proposed_rules": true,
     "findings": [],
     "meaning": "Consistency with stipulated project norms, not legality, empirical freedom, political legitimacy, or a deduction from Blake."
   },
   {
+    "schema_version": 2,
+    "checks": [
+      {
+        "code": "ISSUER_TYPE",
+        "detail": "An asserting authority requires an institution.",
+        "passed": true
+      },
+      {
+        "code": "JURISDICTION_TYPE",
+        "detail": "Issuing jurisdiction differs from persons and reach.",
+        "passed": true
+      },
+      {
+        "code": "SUBJECT_COLLAPSE",
+        "detail": "Persons and collectives are not states or jurisdictions.",
+        "passed": true
+      },
+      {
+        "code": "CAPTURE",
+        "detail": "A role cannot exhaust a person's identity.",
+        "passed": true
+      },
+      {
+        "code": "VISION_HIERARCHY",
+        "detail": "Vision grants no civic rank.",
+        "passed": true
+      },
+      {
+        "code": "RIGHTS_FLOOR",
+        "detail": "Common standing must bind every body.",
+        "passed": true
+      },
+      {
+        "code": "FORCED_REGISTER",
+        "detail": "Political affiliation cannot be forced exclusive.",
+        "passed": true
+      },
+      {
+        "code": "TRANSLATION_OBLIGATION",
+        "detail": "Explain accessible reasons and representation limits.",
+        "passed": true
+      },
+      {
+        "code": "POETRY_TO_POWER",
+        "detail": "Interpretation or evidence alone grants no coercive competence.",
+        "passed": true
+      },
+      {
+        "code": "AUTHORITY_GAP",
+        "detail": "Competence, reach and enforcement must be specified.",
+        "passed": true
+      },
+      {
+        "code": "CONTESTATION",
+        "detail": "Appeal, voice and revision are required.",
+        "passed": true
+      },
+      {
+        "code": "FORMAL_EXIT_ONLY",
+        "detail": "Exit requires practical support.",
+        "passed": true
+      },
+      {
+        "code": "EXCLUDED_AFFECTED",
+        "detail": "Affected nonmembers require standing.",
+        "passed": false
+      },
+      {
+        "code": "RESOURCE_GAP",
+        "detail": "Name payers, residual risks and remedies.",
+        "passed": false
+      },
+      {
+        "code": "FORCED_INCORPORATION",
+        "detail": "Treaty and refusal require distinct treatment.",
+        "passed": false
+      }
+    ],
     "decision_id": "E-capture",
     "admissible_under_proposed_rules": false,
     "findings": [
