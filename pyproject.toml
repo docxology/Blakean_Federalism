@@ -61,4 +61,4 @@ pythonVersion = "3.11"
 packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes"]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]

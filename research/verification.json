@@ -32,7 +32,7 @@
     },
     {
       "name": "qualification-4.log",
-      "sha256": "310e539ab418268aaf61200fa75a851f412a1690cdbabfb95cf5379a751e73da"
+      "sha256": "6225878cf0428a4d4ce625a69e65cec248151557fb481823c4c4462ad57efd64"
     }
   ],
   "source_receipt": "research/current-source.json",
@@ -52,5 +52,6 @@
     "real text/diagram overflow",
     "unapproved recovery source and corrupt local input"
   ],
-  "scope": "Expanded private research draft and software; no whole-oeuvre, critical-edition, empirical-effectiveness or submission-ready claim"
+  "scope": "Expanded private research draft and software; no whole-oeuvre, critical-edition, empirical-effectiveness or submission-ready claim",
+  "qualification_epoch": "qualification-final-02"
 }

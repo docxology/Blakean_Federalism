@@ -24,7 +24,7 @@
     "tests/test_corpus.py": "1c71f9f1b8888843b67bdbe094c48dcbc385a51b8ae7b61a5c1ccbe38c477193",
     "tests/test_manuscript.py": "ebb7b7efa6f741ad90eabdd3ae408b84b4a3d4f3ced9e08e40c22db5be5a1ead",
     "tests/test_cli.py": "d2e0f5e51c61011481afbee8129e38efe128a4b3f35fdd9d8aa77d1335437fea",
-    "pyproject.toml": "5bbfe1d45d1f65a75ff31e9fdb9ae22f3050606d75a5951222149501ae6e17e3",
+    "pyproject.toml": "5b7d8d6e2fe916f0ea93aa6e6f8efd569473bc4ff0c2a41221e65592bd50cb11",
     "uv.lock": "0f1f3c0c5e60ba10c80eb2de471e1a7392b87064f8aa5a71b00323881e525a06"
   },
   "current_tests": 90,
@@ -50,5 +50,6 @@
     "local_data/manuscript/v0.2.0/image-cache-loc-milton-item-verified-raw.json": "faf23150cd77aba01682c33336390ac9b87497e611de1fbefeae73512d2424e9",
     "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-item-verified-raw.json": "891f757bf4bffb706198bb3f21ef2521f28f7ef8162e81c95e5ecd0eb45dd88a"
   },
-  "change_scope": "New quote/asset verifier, optional manuscript acquisition/render infrastructure, article and scholarship expansion; original analytical corpus/institution modules and original result epoch preserved."
+  "change_scope": "New quote/asset verifier, optional manuscript acquisition/render infrastructure, article and scholarship expansion; original analytical corpus/institution modules and original result epoch preserved.",
+  "qualification_epoch": "qualification-final-02"
 }
