@@ -234,7 +234,7 @@ Before manuscript-level claims:
 
 ### Retrieval record
 
-Direct requests were made from the qualified external environment with `PYTHONDONTWRITEBYTECODE=1`, `TMPDIR=/Volumes/GitVault/Local/tmp/source-work`, `UV_CACHE_DIR=/Volumes/GitVault/Local/caches/uv`, and `UV_LINK_MODE=copy`. Invocation used `uv run --no-sync --offline --project` with the Blake root and its specified external `.venv/bin/python`, followed by the `python` command. No dependency sync or installation occurred. Verified Python was **3.11.17**, with environment prefix on GitVault and base prefix `/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none`.
+Direct requests were made from the qualified external environment with `PYTHONDONTWRITEBYTECODE=1` and `UV_LINK_MODE=copy`. Task-specific temporary files (`TMPDIR`), the dependency cache (`UV_CACHE_DIR`), the project environment and the Python base interpreter were all verified to reside on the external GitVault volume. Invocation used `uv run --no-sync --offline --project` with the Blake root and its specified external `.venv/bin/python`, followed by the `python` command. No dependency sync or installation occurred. Verified Python was **3.11.17**. Exact historical machine locations remain in the private custody receipts; this release-facing memo uses portable environment-variable names.
 
 The retrieval script disables Requests' environment/netrc use, uses only public source requests, retains error responses, and writes exact returned bytes. PDF extraction used the installed `pdftotext -layout` command, without rendering. Every executed extraction returned zero with empty stderr.
 
