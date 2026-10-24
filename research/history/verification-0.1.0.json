@@ -1,0 +1,44 @@
+{
+  "status": "software_and_manual_qualification_passed",
+  "tests": 65,
+  "combined_coverage_percent": 96.67359667359668,
+  "coverage_floor": 90,
+  "typing_errors": 0,
+  "typing_warnings": 0,
+  "ruff_all_rules": "passed; documented project exceptions in pyproject",
+  "formatter": "passed",
+  "python": "3.11.17",
+  "runtime_prefixes_verified_on_gitvault": true,
+  "source_unchanged_during_checks": true,
+  "private_repository": {
+    "authenticated_metadata": {
+      "default_branch": "main",
+      "full_name": "docxology/Blakean_Federalism",
+      "html_url": "https://github.com/docxology/Blakean_Federalism",
+      "id": 1431591918,
+      "private": true
+    },
+    "anonymous_private_status": 404,
+    "anonymous_public_control_status": 200,
+    "private_body_not_retained": true
+  },
+  "independent_gate": "Separate exact-commit external gate receipt; no scholarly peer-review claim",
+  "retained_controls": [
+    "Changed byte inputs",
+    "Corrupt index and text payload hashes",
+    "Untrusted import pin",
+    "Source/output symlinks",
+    "Normalized traversal and overlap",
+    "Whole-word substring false positives",
+    "Literal regex characters",
+    "Primary/XML role promotion",
+    "Zero-query control",
+    "Institutional capture alternatives",
+    "Lens and affiliation invariance",
+    "Concurrent empty-destination preservation",
+    "Exclusive copy refuses occupied files and dangling links",
+    "Original analysis producer and receipt preserved; unchanged analytical ASTs verified"
+  ],
+  "scope": "Initial private research project; no claim all work packages or future scholarship are complete",
+  "current_source_receipt": "research/current-source.json"
+}

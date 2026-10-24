@@ -4,6 +4,10 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It is an initial research program and descriptive prototype, not a validated political theory or submission-ready article.
 
+## Manuscript 0.2.0
+
+Expanded close reading, thirteen verified Blake quotations, deeper scholarly disagreements and political comparators, four original opening graphical abstracts, and four item-specific LOC plate reproductions. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft.
+
 ## Start reading
 
 - [States Change article draft](docs/manuscript/states-change.md)
@@ -24,11 +28,11 @@ The classification-decision record is this project's interpretive extension from
 Keep source, environments, caches and temporary files on GitVault. Use the existing external Python 3.11 runtime. After verifying the mounted volume and acquiring the supported repository lease:
 
 ~~~bash
-uv sync --python 3.11
+uv sync --locked --python 3.11 --extra manuscript
 uv run pytest tests -q --cov=blakean_federalism --cov-branch --cov-fail-under=90
 uv run basedpyright
-uv run ruff check src tests
-uv run ruff format --check src tests
+uv run ruff check src tests tools
+uv run ruff format --check src tests tools
 ~~~
 
 Import an independent text projection from the existing Blake project. The source is read-only, and a destination must be new:

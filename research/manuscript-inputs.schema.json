@@ -1,0 +1,171 @@
+{
+  "$defs": {
+    "Asset": {
+      "additionalProperties": false,
+      "properties": {
+        "asset_id": {
+          "title": "Asset Id",
+          "type": "string"
+        },
+        "path": {
+          "title": "Path",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "size": {
+          "exclusiveMinimum": 0,
+          "title": "Size",
+          "type": "integer"
+        },
+        "kind": {
+          "enum": [
+            "html",
+            "image",
+            "rights"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "caption": {
+          "default": "",
+          "title": "Caption",
+          "type": "string"
+        },
+        "rights_basis": {
+          "default": "",
+          "title": "Rights Basis",
+          "type": "string"
+        },
+        "credit": {
+          "default": "",
+          "title": "Credit",
+          "type": "string"
+        },
+        "rights_url": {
+          "default": "",
+          "title": "Rights Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "asset_id",
+        "path",
+        "url",
+        "sha256",
+        "size",
+        "kind"
+      ],
+      "title": "Asset",
+      "type": "object"
+    },
+    "Quotation": {
+      "additionalProperties": false,
+      "properties": {
+        "quote_id": {
+          "title": "Quote Id",
+          "type": "string"
+        },
+        "asset_id": {
+          "title": "Asset Id",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        },
+        "segments": {
+          "items": {
+            "$ref": "#/$defs/Segment"
+          },
+          "minItems": 1,
+          "title": "Segments",
+          "type": "array"
+        },
+        "context": {
+          "title": "Context",
+          "type": "string"
+        }
+      },
+      "required": [
+        "quote_id",
+        "asset_id",
+        "locator",
+        "segments",
+        "context"
+      ],
+      "title": "Quotation",
+      "type": "object"
+    },
+    "Segment": {
+      "additionalProperties": false,
+      "properties": {
+        "anchor": {
+          "title": "Anchor",
+          "type": "string"
+        },
+        "occurrence": {
+          "minimum": 0,
+          "title": "Occurrence",
+          "type": "integer"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "anchor",
+        "occurrence",
+        "text"
+      ],
+      "title": "Segment",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "0.2.0",
+      "title": "Version",
+      "type": "string"
+    },
+    "assets": {
+      "items": {
+        "$ref": "#/$defs/Asset"
+      },
+      "title": "Assets",
+      "type": "array"
+    },
+    "quotations": {
+      "items": {
+        "$ref": "#/$defs/Quotation"
+      },
+      "title": "Quotations",
+      "type": "array"
+    },
+    "fronts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Fronts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "version",
+    "assets",
+    "quotations",
+    "fronts"
+  ],
+  "title": "ManuscriptSpec",
+  "type": "object"
+}

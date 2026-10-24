@@ -1,0 +1,112 @@
+[
+  {
+    "source": "Fallon",
+    "reading_status": "complete submitted manuscript",
+    "locator": "PDF 1-12 incl notes",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-fallon.pdf",
+    "sha256": "76c74959d0a8bbf40385a0f3a7b62502630f8329c236566a53854fd14f61e4ee",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Damrosch",
+    "reading_status": "selected pages",
+    "locator": "printed 15-21 / PDF 30-36; printed 18 = PDF 33",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-damrosch.pdf",
+    "sha256": "33e5116321de073b5f8949cf38a0d5285a015a724aa74a5402bc2072dc559255",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Lee",
+    "reading_status": "complete available excerpt",
+    "locator": "PDF 1-10, not complete introduction/book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-lee.pdf",
+    "sha256": "9474fa850e5e0b0a0bb5d8f1ca34f270c2763d8a684a9de07cdf3cdb97cd870a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Matthews",
+    "reading_status": "complete available excerpt",
+    "locator": "printed/PDF 1-10, not whole book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-matthews.pdf",
+    "sha256": "2b87d04cfe59b487d61ade9074f7bb172cb02851202899ee2bb7f8c98f25c055",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Nicolaidis",
+    "reading_status": "complete main argument",
+    "locator": "author PDF 1-16; no final-page collation",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-nicolaidis.pdf",
+    "sha256": "9512ab08d7e39ca961008a8299d2f402a57d91c8b25d892fa689107120f39840",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Baubock",
+    "reading_status": "complete main text",
+    "locator": "PDF 2-34; December 2001 version",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-baubock.pdf",
+    "sha256": "8a06a3916f8806add03f3fac1a75c25c9032193b8aa5d1929d1b39f9f91f603a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Ostrom",
+    "reading_status": "complete main text",
+    "locator": "printed 641-665 / PDF 1-25",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-ostrom.pdf",
+    "sha256": "2ca43cc3b526c54d0a5f8881ef08d4e4aa41b6be0665da8d8db84185c8b50b46",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Hooghe and Marks",
+    "reading_status": "complete main text",
+    "locator": "printed 233-241 / PDF 1-9",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-hooghe.pdf",
+    "sha256": "05debea70f04cec1c086cd5f48e5b03cad242a735bffafcc37ba52304408881f",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Henderson 2019",
+    "reading_status": "selected pages",
+    "locator": "printed 17-21,35-41",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-henderson2019.pdf",
+    "sha256": "e903db72f936ba891947727e4d2f055428d5f06e1f94e6e291b22edc80facfca",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "UNDRIP",
+    "reading_status": "complete preamble and 46 articles",
+    "locator": "official March 2008 printing of 2007 resolution",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-undrip-un.pdf",
+    "sha256": "08400f5c58ee77180b5b52e713d288a843f76f6e65ade006df5d9d493e8073ba",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Larrissy",
+    "reading_status": "publisher summary/metadata; chapter unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Clark",
+    "reading_status": "publisher abstract; cited pages reported through Fallon remain secondhand",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Wright",
+    "reading_status": "publisher description; cited original passages unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Henderson 1994",
+    "reading_status": "metadata/contents only; retrieval blocked",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Simpson",
+    "reading_status": "publisher synopsis/contents; book unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Pettit",
+    "reading_status": "publisher chapter abstract; full chapter not obtained",
+    "warrant": "No full-work reading upgrade"
+  }
+]
