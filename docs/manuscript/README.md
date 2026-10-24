@@ -1,24 +1,32 @@
 # Rebuild the private manuscript
 
-Version 0.3.0 extends the article to about 7,000 words plus a selected bibliography, four original vector graphical abstracts on physical pages 1-4, and a four-plate critical atlas. The paper remains a research draft requiring specialist criticism. The original 0.1.0 concordance and 0.2.0 qualification are preserved. Version 0.3.0 adds a fresh result epoch, direct contestability scholarship and an aggregate research workbench.
+Version 0.4.0 uses the actual PDF and HTML rendering infrastructure from a clean, commit-pinned checkout of [docxology/template](https://github.com/docxology/template). The pin, writer identities and citation profile are recorded in `research/template-rendering.json`. The canonical authoring files are `states-change.md`, `references-and-rights.md`, `references.bib`, `config.yaml` and `preamble.md`.
 
-Use the supported GitVault repository admission and external Python 3.11 runtime. Both Python prefixes, TMPDIR and cache bindings must resolve on the mounted volume. Install the optional renderer explicitly:
+The project uses its external Python 3.11 environment for preparation and verification. The pinned template uses a separately supplied compatible external Python environment. Verify both `sys.prefix` and `sys.base_prefix` for each environment, the mounted GitVault volume, external TMPDIR/cache bindings and the supported repository admission before execution. Dependencies include Pandoc, compatible pandoc-crossref, XeLaTeX, BibTeX and Poppler. Install the optional manuscript dependencies explicitly when provisioning; do not replace an active environment implicitly.
 
 ~~~bash
-uv sync --locked --extra manuscript
 uv run python -m tools.acquire_manuscript
-uv run python -m tools.render_manuscript --output analysis_output/manuscript/new-run
+uv run blakean render-manuscript \
+  --template-root "$TEMPLATE_REPO_ROOT" \
+  --template-python "$TEMPLATE_PYTHON" \
+  --output analysis_output/publication/new-run
 ~~~
 
-The acquisition command recovers only eleven individually hash-pinned manuscript inputs: five ASU HTML texts, four official LOC JPEGs and two item metadata/rights responses. No credentials are needed. Existing valid files are retained; changed bytes, unsafe paths, symlinks and unapproved source hosts fail. A changed remote page must be reviewed and repinned in a new source epoch; do not remove checksum checks to make recovery green. A failed partial input stays inspectable. The much larger recovered corpus is a separate custody object, governed by PRIVACY.md and corpus-pin.json.
+The template checkout must be clean and exactly match the recorded commit. Rendering invokes `PDFRenderer.render_combined` and `WebRenderer.render_combined` after the template's manuscript injection, without a substitute body renderer. `tools/render_manuscript.py` forwards to this command; its older helper API remains for historical compatibility tests. A source checkout is needed for the native worker. The core wheel still supports the separate offline evidence workbench without the optional PDF stack.
 
-The renderer reads the article, references-and-rights.md and research/manuscript-inputs.json. It verifies all input hashes and exact selected anchor lines before creating output. The final output directory must be new and within analysis_output. An occupied directory fails without replacing earlier evidence. The PDF, generation receipt and Bitstream Vera license are written together. The receipt says visual review is pending; generation never grants its own acceptance.
+Acquisition recovers only eleven individually hash-pinned inputs: five ASU HTML texts, four LOC JPEGs and two item metadata/rights responses. Existing valid files are retained. Changed bytes, unsafe paths, symlinks and unapproved hosts fail. A changed provider page requires a reviewed new source epoch. The larger recovered corpus is a separate local custody object under `PRIVACY.md` and `corpus-pin.json`. Modern scholarly PDFs remain local and ignored.
 
-Layout: US Letter, 39.6 point margins (13.97 mm), 10 point body with 12.8 point leading. Opening-page drawings are vector schematics, followed by the article on physical page 5. All four selected historical sheets appear again in a larger atlas with copy, date, credit and critical purpose. Font embedding and image scaling do not modify the captured provider inputs. Deterministic PDF metadata and content-addressed image objects support byte-identical rendering across independent input locations with pinned dependencies.
+Preparation revalidates the copied index, every stored concordance span, the quotation selection and source hashes before creating a new stage inside `analysis_output`. Occupied outputs are refused. A completion receipt is written only after the native PDF and HTML outputs pass their content and identity checks. A failed stage and its native log remain inspectable. Rendering never grants its own visual or scholarly acceptance.
 
-The renderer supports the current manuscript's explicit CommonMark subset: headings, paragraphs, blockquotes, emphasis, code spans and HTTPS links. Unsupported blocks, images or link schemes fail rather than disappear. Quotations are ordinary Markdown blockquotes and must match the structured ledger with exact multiplicities. The plate-52 right epigraph is separately reconstructed; the noncontiguous plate-88 excerpts declare their omission. Modern editorial locator/footnote type is excluded, spelling retained, and whitespace normalized. This is a selection verifier, not a general critical-edition parser.
+Layout is US Letter with 14 mm margins and 10 point body type. Graphical abstracts occupy physical pages 1–4, followed by the contents and article. Seven original schematic figures have vector PDF masters and high-resolution PNG derivatives. Four unchanged selected LOC sheets appear in a critical atlas with item-specific credits, dates and limits. The Bitstream Vera license accompanies the figure fonts. The manuscript-input version 0.2.0 remains the preserved selection epoch; package/output version 0.4.0 is separate.
 
-For qualification:
+Author formalisms as fenced Divs, for example `::: {.definition #def:typed title="Four typed sorts"}`, closed by `:::`. Refer to them with `[@def:typed]`. Counters are automatic within each kind. Equations use a display-math block followed by `{#eq:name}` and references `[@eq:name]`. Figures have `{#fig:name}` identifiers. Scholarly citations use `[@key, p. 17]` and an entry in `references.bib`; PDF uses natbib/BibTeX and HTML uses citeproc. The source validator rejects duplicate identifiers, unsupported or unclosed formalism blocks, unresolved references and manually numbered formalism titles. Normative axioms are explicitly proposed commitments; the propositions establish only the stated formal consequences.
+
+The verifier checks source and figure hashes, separate output identities, first-four-page content, actual HTML formalism headings, bibliography identifiers, compiled PDF citation keys, and the multiplicities of thirteen selected Blake quotations. It strips only Markdown hard-line-break syntax before quotation comparison. This is selection verification, not critical-edition collation. SOURCE_DATE_EPOCH and UTC are fixed, but byte-identical native rerendering is a separate empirical check rather than an assumed guarantee.
+
+The paper HTML uses the template's network MathJax profile. Its formulas need that CDN to typeset in a fresh browser. The research workbench remains a separate self-contained offline artifact. A rendering bundle can reproduce the bounded paper from included selected inputs; it is not full analytical reproduction or permission to redistribute the entire corpus.
+
+Qualification uses real files, PDFs, images and subprocesses:
 
 ~~~bash
 uv run pytest tests -q --cov=blakean_federalism --cov=tools --cov-branch --cov-report=term-missing
@@ -27,8 +35,4 @@ uv run ruff check src tests tools
 uv run ruff format --check src tests tools
 ~~~
 
-Core package typing retains ALL mode. Rendering/acquisition are separate infrastructure tools, tested with real files and real PDFs; fixed geometric coordinates and positional drawing primitives have documented lint exceptions. Application coverage must remain at least 90%; infrastructure at least 60%. Do not replace final visual inspection with text extraction. Rasterize every final page, inspect the opening four at full scale, inspect each article/reference/atlas page, and bind the resulting QA record to the PDF hash.
-
-The project remains private. Raw source captures, scholarship downloads, selected images and generated PDFs stay ignored. Private release assets may contain this bounded PDF, software packages and source only. No public Zenodo deposit or blanket corpus-image redistribution is part of this update.
-
-The manuscript-input version 0.2.0 identifies the preserved eleven-input selection epoch. The package and generated output version is recorded separately as 0.3.0; this update does not silently repin earlier source bytes.
+Application coverage must remain at least 90 percent and infrastructure at least 60 percent. Inspect every final PDF page and the live HTML separately; text extraction alone cannot establish layout quality. Bind the QA record to the actual output hashes. The repository and release remain private; no public Zenodo deposit or blanket corpus-image redistribution is authorized.

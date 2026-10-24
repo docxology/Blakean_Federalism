@@ -4,11 +4,11 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It is an initial research program and descriptive prototype, not a validated political theory or submission-ready article.
 
-## Manuscript and workbench 0.3.0
+## Manuscript and workbench 0.4.0
 
-Expanded close reading, thirteen verified Blake quotations, deeper scholarly disagreements and political comparators, four original opening graphical abstracts, and four item-specific LOC plate reproductions. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft.
+Expanded close reading, thirteen verified Blake quotations, deeper scholarly disagreements and political comparators, four original opening graphical abstracts, and four item-specific LOC plate reproductions. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft. The current route invokes the pinned `docxology/template` PDF and HTML renderers, with nine automatically numbered formalisms, five labeled equations and a shared citation database.
 
-The portable, offline research workbench reconciles 180 query/plane/role cells with source-unit denominators, displays all 150 checks across ten synthetic alternatives, and exposes quotation and reading provenance. [Workbench method and use](docs/research-workbench.md). The new scholarship pass adds direct Pettit reading and two continuous Clark pages while retaining Wright's access ceiling.
+The portable, offline research workbench reconciles 180 query/plane/role cells with source-unit denominators, displays all 150 checks across ten synthetic alternatives, and exposes quotation and reading provenance. [Workbench method and use](docs/research-workbench.md). The current scholarship pass adds complete articles by Henderson, Simpson, Mellor, Ostriker and Shachar to the retained Pettit and bounded Clark readings; Wright's continuous chapter remains unavailable.
 
 ## Start reading
 

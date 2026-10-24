@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0",
+  "status": "native_software_checks_passed_and_bounded_rendered_qa_recorded",
+  "tests": 157,
+  "coverage_percent": {
+    "application": 97.68177028451001,
+    "infrastructure": 91.24668435013263
+  },
+  "combined_coverage_percent": 95.85218702865761,
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "excluded_lines": 3,
+  "typing_errors": 0,
+  "typing_warnings": 0,
+  "ruff_all_rules": "passed with existing documented infrastructure/test exceptions",
+  "formatter": "passed",
+  "source_unchanged_during_qualification": true,
+  "qualification_epoch": "qualification-final-03",
+  "qualification_checks": [
+    {
+      "tool": "ruff",
+      "exit_code": 0,
+      "seconds": 0.10768270492553711,
+      "log": "qualification-1.log",
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "tool": "ruff",
+      "exit_code": 0,
+      "seconds": 0.022548913955688477,
+      "log": "qualification-2.log",
+      "sha256": "ba72d5ff990b6755459efa6266bf58b9f38733d193f2c3339b32245e476e5994"
+    },
+    {
+      "tool": "basedpyright",
+      "exit_code": 0,
+      "seconds": 26.540635108947754,
+      "log": "qualification-3.log",
+      "sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c"
+    },
+    {
+      "tool": "pytest",
+      "exit_code": 0,
+      "seconds": 44.88341498374939,
+      "log": "qualification-4.log",
+      "sha256": "9248747dc29dcf60092e578bf04e5d41469c0f25e6a42890ec55527c5a324edd"
+    }
+  ],
+  "source_receipt": "research/current-source.json",
+  "rendered_qa": "research/rendered-review-0.3.0.json",
+  "historical_qualification": "research/history/verification-0.2.0.json",
+  "independent_acceptance": "Separate exact-candidate/asset gate; author qualification does not grant independent acceptance",
+  "scope": "Private working draft/software. No whole-oeuvre, critical-edition, empirical-effectiveness, full accessibility-conformance or submission-ready claim."
+}

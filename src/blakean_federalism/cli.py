@@ -1,9 +1,12 @@
 # Copyright (c) 2026 Daniel Ari Friedman
-"""Finite local research commands; full texts and concordances remain ignored."""
+"Finite local research commands; full texts and concordances remain ignored."
 
 import csv
 import io
 import json
+import os
+import shutil
+import subprocess
 from pathlib import Path
 from typing import Annotated, Final
 
@@ -19,6 +22,8 @@ from .storage import write_new
 DEFAULT_PIN: Final = Path("research/corpus-pin.json")
 DEFAULT_QUERIES: Final = Path("research/queries.json")
 DEFAULT_CASES: Final = Path("research/cases.json")
+DEFAULT_CORPUS: Final = Path("local_data/corpus/blake-v0.2.0-qualified")
+DEFAULT_CONCORDANCE: Final = Path("analysis_output/concordance-v0.3.0.json")
 
 app = typer.Typer(no_args_is_help=True)
 
@@ -82,7 +87,7 @@ def export_summary(
     concordance_file: Annotated[Path, typer.Option(help="Private concordance JSON")],
     output: Annotated[Path, typer.Option(help="New aggregate-only CSV path")],
 ) -> None:
-    """Export only plane/role/count fields; source contexts and quotations cannot enter the CSV."""
+    "Export only plane/role/count fields; source contexts and quotations cannot enter the CSV."
     result = Concordance.model_validate_json(concordance_file.read_bytes())
     buffer = io.StringIO(newline="")
     fields = list(CountRow.model_fields)
@@ -98,11 +103,71 @@ def build_workbench_command(
     corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
     concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
     output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
-    readings: str = "research/scholarship-reading-0.3.0.json",
+    readings: str = "research/scholarship-reading-0.4.0.json",
 ) -> None:
     require_ignored(output, "analysis_output")
     report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
     typer.echo(str(publish_workbench(report, output)))
+
+
+@app.command("render-manuscript")
+def render_manuscript_command(
+    template_root: Annotated[
+        Path, typer.Option(help="Clean checkout at the declared template commit")
+    ],
+    template_python: Annotated[
+        Path, typer.Option(help="External compatible template environment Python")
+    ],
+    output: Annotated[Path, typer.Option(help="New ignored publication stage")],
+    corpus: Path = DEFAULT_CORPUS,
+    concordance_file: Path = DEFAULT_CONCORDANCE,
+    readings: str = "research/scholarship-reading-0.4.0.json",
+) -> None:
+    "Hydrate and render with docxology/template; content checks do not imply visual acceptance."
+    # Optional manuscript dependencies must not become core CLI import requirements.
+    from .publication import prepare_publication  # noqa: PLC0415
+    from .publication_verification import verify_publication  # noqa: PLC0415
+
+    require_ignored(output, "analysis_output")
+    root = Path.cwd()
+    worker = root / "tools/template_render.py"
+    uv = shutil.which("uv")
+    rasterizer = shutil.which("pdftoppm")
+    if uv is None or rasterizer is None or not worker.is_file():
+        raise ResearchError(
+            "publication_tools", "Require uv, pdftoppm and the project source checkout"
+        )
+    report = build_workbench(root, corpus, concordance_file, readings)
+    stage = prepare_publication(root, output, report, rasterizer)
+    environment = dict(os.environ)
+    _ = environment.pop("VIRTUAL_ENV", None)
+    environment["UV_PROJECT_ENVIRONMENT"] = str(template_python.absolute().parent.parent)
+    with (stage / "native-render.log").open("x") as log:
+        result = subprocess.run(  # noqa: S603 -- Explicit argv; selected source/runtime, no shell.
+            [
+                uv,
+                "run",
+                "--no-sync",
+                "--offline",
+                "--project",
+                str(template_root),
+                "--python",
+                str(template_python),
+                "python",
+                str(worker),
+                "--template-root",
+                str(template_root),
+                "--stage",
+                str(stage),
+            ],
+            stdout=log,
+            stderr=subprocess.STDOUT,
+            env=environment,
+            check=False,
+        )
+    if result.returncode:
+        raise ResearchError("template_render_failed", str(stage / "native-render.log"))
+    typer.echo(json.dumps(verify_publication(root, stage), indent=2))
 
 
 if __name__ == "__main__":

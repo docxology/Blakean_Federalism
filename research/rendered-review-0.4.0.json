@@ -1,0 +1,181 @@
+{
+  "version": "0.4.0",
+  "scope": "Author-run rendering and browser QA, separate from independent acceptance and scientific validity.",
+  "pdf_sha256": "9d5a34cca3270d1623b1a6431f4b00235765da5ca5f2a4b638883d8b9cd0e648",
+  "pages": 30,
+  "all_pages_inspected": true,
+  "method": "Direct inspection of all 30 pages and all changed final rasters; byte-identical later PDF reuses exact complete page evidence. Rasters bound below.",
+  "raster_hashes": {
+    "page-01.png": "9903bcc8f96ce4e460570047593521d026b825013edc85d4f747cfea52737110",
+    "page-02.png": "450f927496ceb2ba39b524784eac9f48bb97a97ca7718dbd6c242f0d7be862d4",
+    "page-03.png": "57e83e86d4e8a4cd8a6bac66edccc4c4c0218657037df756ca48e8c7c182ec96",
+    "page-04.png": "63bba3a27a8073c5e4814b5a8d8918c5b40b89c41ca9ad6d929667259990e151",
+    "page-05.png": "e46c6ab5b638bd45011162c19cf684bcf2bd6692d5b615949dfeab537a4a68f6",
+    "page-06.png": "9860e6595a9888f6b5a51b7aea04ec6bb7766ad88cafb6ae1ba67ae038f1560f",
+    "page-07.png": "6d701ff81a66861f9a5bf9ef75e1cb1f1d20a604d657b1f28b11d3c09c5e3c3f",
+    "page-08.png": "a51ef9a69040770b604fa9bea8b7d9209ae9465cafd4b482b2e5ebe219fcadfa",
+    "page-09.png": "29cfc4be368709f5a8bb267e4d392894104c3854b2b48c41c850ffef36a47442",
+    "page-10.png": "342f78e6a3e056cc2f336b3bfa56d54c5385fdbe992d931e6f9689b28c86f249",
+    "page-11.png": "fea51e52dd2cd805bdce3126a10273722a54229a775fe3a4ef82f4644dd9351a",
+    "page-12.png": "0840ed2c2b7b8cbc711dcc7f9a7a139d434f419dfe4a11f58127c81aa5a900ba",
+    "page-13.png": "49cb8e9b7d2007eeec3fd36fb88667fee48dd0cc80b4e9fcd5c2b612d5a8b0ab",
+    "page-14.png": "f662e0d8e0c8b1479ef8ccf371b8a801254d83ab54459a7aefeab66df3c1b6d9",
+    "page-15.png": "282306f7284d970c1dfa0e2259d71b49bf3e31f33e8369c0435f9d3a5ebb710c",
+    "page-16.png": "d6f4e9e4ee8bcaacf136c98e0f94f12932eb25d18809ef12247c460791d9cf11",
+    "page-17.png": "ab83ead8db0297982b31a85f11cf77b30738b302c7c7b8c017872bfe886d184b",
+    "page-18.png": "e699578b388d459e449f5fdeca3e1b72f9c0527cd3679910a4c7b966de714fe1",
+    "page-19.png": "387be675864ee954154b098be0504c698e0b74f82e6e01b5358f3ae3b5f82043",
+    "page-20.png": "08391dfd14726a6196979b225ea14037426d0bad571a33fdc2ac8761c0758151",
+    "page-21.png": "0c5158a3db5280ee9773a870cf3504624e38718598f55f762cb0069e88b5a0c6",
+    "page-22.png": "7f7123683093300a2ea1b85fc1b2584798a3d6b6493643982afcc6dc7f8ccd70",
+    "page-23.png": "eae283b937c071eacf782e38611ce2c6bdd60f976a039c88f1166b29a662cd60",
+    "page-24.png": "306c1a559feba72c24e3bbe96dab22f48f3ef9899c12ccb243720ebef315df1f",
+    "page-25.png": "94c06f3c5b9a8c141f452767d101067b969e3e52e8cf1b90aadf3e1ce6691203",
+    "page-26.png": "e5187cdc4d7d3278e974fe32b4a89abedaf09db3b6689b596a6947642936522d",
+    "page-27.png": "43f56c801ada5879c8e761070906e26443f44a30cb60c9ad5e9dd0b437589809",
+    "page-28.png": "71571ff60e2c742c540e05219ed579e6dc4df26e605d0be3bbabcea86571eab7",
+    "page-29.png": "a2974cf5970d1e79e18405351011bb58536c2797662a972d83709441a90def4c",
+    "page-30.png": "5e14158663970793e3dae0aa5acca8cf26a8e2766c45da80c73ae9b70a04f650"
+  },
+  "content": {
+    "pages": 30,
+    "verified_quotations": 13,
+    "formalism_numbers": {
+      "def:typed": "Definition 1",
+      "prop:no-transfer": "Proposition 1",
+      "def:decision": "Definition 2",
+      "ax:rights": "Axiom 1",
+      "ax:contest": "Axiom 2",
+      "rem:non-exhaustion": "Remark 1",
+      "def:trace": "Definition 3",
+      "prop:ablation": "Proposition 2",
+      "def:coverage": "Definition 4"
+    },
+    "equation_labels": [
+      "eq:relations",
+      "eq:decision",
+      "eq:trace",
+      "eq:ablation",
+      "eq:coverage"
+    ],
+    "figure_labels": [
+      "fig:typed-relations",
+      "fig:case-traces",
+      "fig:source-census"
+    ],
+    "resolved_bibliography_keys": [
+      "Friedman2024MathArtStream8William038",
+      "Friedman2025SynthesisAgentNiche021",
+      "Friedman2026ArchitectureFalseGodsWilliam115",
+      "Friedman2026BeforePragmatismHadName003",
+      "Friedman2026DoorsPerceptionAreThreshold007",
+      "Friedman2026FourfoldVisionWilliamBlake196",
+      "Friedman2026GoldenCompassLunarFlux004",
+      "Friedman2026MappingWilliamBlakeS179",
+      "baubock2001",
+      "blakeButts",
+      "blakeJerusalem",
+      "blakeMarriage",
+      "blakeMilton",
+      "clark2006",
+      "damrosch1980",
+      "fallon2015",
+      "friedman2026law",
+      "friedman2026meta",
+      "henderson2019",
+      "hoogheMarks2003",
+      "kymlicka1995",
+      "larrissy1994",
+      "lee2026",
+      "mappingCurrent",
+      "matthews2011",
+      "mellor1982",
+      "nicolaidis2013",
+      "ostriker1982",
+      "ostrom2010",
+      "pettit2005",
+      "pettit2012",
+      "rahman2025",
+      "sabine2026letter",
+      "sabine2026phase",
+      "shachar2001",
+      "shachar2005",
+      "simpson2007",
+      "simpson2014",
+      "undrip2007"
+    ],
+    "front_physical_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "outputs": {
+      "output/pdf/blakean_federalism_combined.pdf": "9d5a34cca3270d1623b1a6431f4b00235765da5ca5f2a4b638883d8b9cd0e648",
+      "output/web/index.html": "dcb72546028b13faec3e0aa8d8f703e977132aa38f5466104d9ebf747323342b"
+    },
+    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+    "scope": "Content/reference verification only; visual/browser review and independent acceptance remain separate"
+  },
+  "paper_browser": {
+    "paper_desktop": {
+      "width": 1200,
+      "scrollWidth": 1200,
+      "loaded": true,
+      "images": 10,
+      "math": 48,
+      "errors": 0,
+      "refs": 39,
+      "broken": [],
+      "linkColor": "rgb(35, 95, 90)",
+      "skipColor": "rgb(255, 255, 255)"
+    },
+    "paper_mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "tableWidth": 358,
+      "bodyWidth": 390
+    }
+  },
+  "workbench": {
+    "html_sha256": "628f14ca41678391cd2ede30165bda03a0a8f8670f943cfa8c6a49c9c19fd3ec",
+    "data_sha256": "8a6f494d6b54dd8b2f420f347e5b987dabac9021751fe83a6ef4a2e9d0a64e18",
+    "browser_results_sha256": "47e9e11d32cdc2713e2bea69acd5c39a639f364cf13f684c23cf320114c768c6",
+    "offline_file_interactions": true,
+    "phone_css_width": 390,
+    "mobile_caption_regression": "Retained red 10.09375 px width / 874.84375 px height; corrected full-width caption freshly measured and visually inspected.",
+    "rules": 150,
+    "cases": 10
+  },
+  "capture_hashes": {
+    "sources-phone-dark": "afb1184d05f849c7f608707c5bb565bb8283747600bb7a4cf38af6e1816bcfa6",
+    "cases-phone-light": "98fd709a501a168c9e97fb5797abbc0086fc95a7275d57df7a2e4fe91346bcaa",
+    "zero-na-phone": "c9b5cd4ca6974c013e2d5e70b9ebc9665ef40a70a8149d49af6bd81f5f0164a5",
+    "paper-formalism-desktop": "15d97fedd4539d81b7c2b794faa409392539498b9238243422689edbc2079f7b",
+    "paper-reading-phone": "7a54a3e4972c6bdc7b35cef57256483a8a9e16683daff0879263978d993b0d40",
+    "paper-skip-link-phone": "d4e8b93cff3704c4c8c86dea425d1ed0e2ccb06a3401d0f73d9a7ace26916501"
+  },
+  "rendering_reproduction": {
+    "archive": "blakean-federalism-0.4.0-rendering-bundle.zip",
+    "sha256": "8125a08fc21224320e6b3c72f0a374bcade5191258eeb7085e5d257f4b227ef8",
+    "bytes": 1960221,
+    "entries_verified": 30,
+    "restored_regular_files_verified": true,
+    "native_reexecution_exit": 0,
+    "pages": 30,
+    "all_page_text_equal": true,
+    "pdf_bytes_equal": true,
+    "html_bytes_equal": true,
+    "original_pdf_sha256": "9d5a34cca3270d1623b1a6431f4b00235765da5ca5f2a4b638883d8b9cd0e648",
+    "restored_pdf_sha256": "9d5a34cca3270d1623b1a6431f4b00235765da5ca5f2a4b638883d8b9cd0e648",
+    "scope": "Independent input-location rendering with existing external runtime; not fresh-machine analytical recovery."
+  },
+  "warnings": [
+    "Native TeX reports one unused table caption setup; no undefined-reference, missing-character or overfull-box warning."
+  ],
+  "limits": [
+    "Paper HTML needs its MathJax CDN in a fresh browser; workbench is separately offline.",
+    "Four selected sheets carry item-level no-known-restrictions advisories, not blanket clearance.",
+    "No whole-copy collation, institutional-effectiveness validation or full accessibility-conformance claim."
+  ]
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "source": "Fallon",
+    "reading_status": "complete submitted manuscript",
+    "locator": "PDF 1-12 incl notes",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-fallon.pdf",
+    "sha256": "76c74959d0a8bbf40385a0f3a7b62502630f8329c236566a53854fd14f61e4ee",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Damrosch",
+    "reading_status": "selected pages",
+    "locator": "printed 15-21 / PDF 30-36; printed 18 = PDF 33",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-damrosch.pdf",
+    "sha256": "33e5116321de073b5f8949cf38a0d5285a015a724aa74a5402bc2072dc559255",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Lee",
+    "reading_status": "complete available excerpt",
+    "locator": "PDF 1-10, not complete introduction/book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-lee.pdf",
+    "sha256": "9474fa850e5e0b0a0bb5d8f1ca34f270c2763d8a684a9de07cdf3cdb97cd870a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Matthews",
+    "reading_status": "complete available excerpt",
+    "locator": "printed/PDF 1-10, not whole book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-matthews.pdf",
+    "sha256": "2b87d04cfe59b487d61ade9074f7bb172cb02851202899ee2bb7f8c98f25c055",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Nicolaidis",
+    "reading_status": "complete main argument",
+    "locator": "author PDF 1-16; no final-page collation",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-nicolaidis.pdf",
+    "sha256": "9512ab08d7e39ca961008a8299d2f402a57d91c8b25d892fa689107120f39840",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Baubock",
+    "reading_status": "complete main text",
+    "locator": "PDF 2-34; December 2001 version",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-baubock.pdf",
+    "sha256": "8a06a3916f8806add03f3fac1a75c25c9032193b8aa5d1929d1b39f9f91f603a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Ostrom",
+    "reading_status": "complete main text",
+    "locator": "printed 641-665 / PDF 1-25",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-ostrom.pdf",
+    "sha256": "2ca43cc3b526c54d0a5f8881ef08d4e4aa41b6be0665da8d8db84185c8b50b46",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Hooghe and Marks",
+    "reading_status": "complete main text",
+    "locator": "printed 233-241 / PDF 1-9",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-hooghe.pdf",
+    "sha256": "05debea70f04cec1c086cd5f48e5b03cad242a735bffafcc37ba52304408881f",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "UNDRIP",
+    "reading_status": "complete preamble and 46 articles",
+    "locator": "official March 2008 printing of 2007 resolution",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-undrip-un.pdf",
+    "sha256": "08400f5c58ee77180b5b52e713d288a843f76f6e65ade006df5d9d493e8073ba",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Larrissy",
+    "reading_status": "publisher summary/metadata; chapter unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Clark",
+    "reading_status": "Continuous publisher preview pp.167-168; complete chapter/endnotes and p171 unread",
+    "warrant": "No full-work reading upgrade",
+    "url": "https://page-one.springer.com/pdf/preview/10.1057/9780230597068_10",
+    "sha256": "f961b8c016c31ec95f263b6d20fcd912104fd728dffc24c5a49e5fdd5f2e3d5d"
+  },
+  {
+    "source": "Wright",
+    "reading_status": "publisher description; cited original passages unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Henderson 1994",
+    "reading_status": "metadata/contents only; retrieval blocked",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Simpson",
+    "reading_status": "publisher synopsis/contents; book unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Pettit 1997 (no reading upgrade)",
+    "reading_status": "publisher chapter abstract; full chapter not obtained",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Julia M. Wright, Blake, Nationalism, and the Politics of Alienation (Ohio UP, 2004)",
+    "reading_status": "Publisher description, bibliographic formats; newer paperback page contents separately read; LIMIT: No continuous book chapter or substantive excerpt obtained; Wright p137 and p155 not directly read as pages",
+    "locator": "Publisher description, bibliographic formats; newer paperback page contents separately read",
+    "url": "https://www.ohioswallow.com/9780821415191/blake-nationalism-and-the-politics-of-alienation/",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-publisher.html",
+    "sha256": "6ef8bce18a363451cf1584bbdb57eb703dd13d22fc66fec5d5cda29e044c531b"
+  },
+  {
+    "source": "Wright, publisher contents",
+    "reading_status": "Contents: chapter 5 p111; chapter 6 p135; conclusion p169; LIMIT: Navigation only, not chapter reading",
+    "locator": "Contents: chapter 5 p111; chapter 6 p135; conclusion p169",
+    "url": "https://www.ohioswallow.com/9780821427514/blake-nationalism-and-the-politics-of-alienation/",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-publisher-new.html",
+    "sha256": "de476b7662c5c105d14e4660b8f5fe5c893937a04647d8e0fef5e7af51bf7f7f"
+  },
+  {
+    "source": "Wright, authorized Google Books preview",
+    "reading_status": "Restriction notice at requested p135; LIMIT: No page image or main text read; snippet retrieval is not continuous reading",
+    "locator": "Restriction notice at requested p135",
+    "url": "https://books.google.com/books?id=CjyGm-FGYlEC&pg=PA135",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-page135.html",
+    "sha256": "5f1e320ca57b4c65d54d12164c1c98184dcf081f4ac3d9dacc792ce55dc6682b"
+  },
+  {
+    "source": "Steve Clark, Jerusalem as Imperial Prophecy, in Steve Clark and David Worrall, eds., Blake, Nation and Empire (Palgrave Macmillan, 2006), 167-185; DOI 10.1057/9780230597068_10",
+    "reading_status": "Continuous printed pp167-168 = one-based PDF pp1-2; LIMIT: Opening portion of first subsection only; incomplete ending; endnotes and p171 unread; cited historians not independently read",
+    "locator": "Continuous printed pp167-168 = one-based PDF pp1-2",
+    "url": "https://page-one.springer.com/pdf/preview/10.1057/9780230597068_10",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-clark-preview.pdf",
+    "sha256": "f961b8c016c31ec95f263b6d20fcd912104fd728dffc24c5a49e5fdd5f2e3d5d"
+  },
+  {
+    "source": "Philip Pettit, Two-dimensional Democracy, National and International, IILJ Working Paper 2005/8 (NYU School of Law, 2005)",
+    "reading_status": "Continuous complete main argument printed pp1-21 = one-based PDF pp3-23, including notes; covers inspected; LIMIT: Not final journal edition; no independent proof verification, history replication or legal updating; references do not acquire reading credit",
+    "locator": "Continuous complete main argument printed pp1-21 = one-based PDF pp3-23, including notes; covers inspected",
+    "url": "https://www.iilj.org/wp-content/uploads/2016/08/Petit-Two-Dimensional-Democracy-National-and-International-2005.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-iilj.pdf",
+    "sha256": "de92b572856f82b1597a901c4dc2af7172bfc57a6ff89e20089da8be33bcf6db"
+  },
+  {
+    "source": "Philip Pettit, On the People's Terms: A Republican Theory and Model of Democracy (Cambridge UP, 2012), ISBN 9781107005112",
+    "reading_status": "Continuous complete available excerpt printed pp1-10 = one-based PDF pp1-10; LIMIT: Not complete introduction, chapter or book; chapters1-5 unread",
+    "locator": "Continuous complete available excerpt printed pp1-10 = one-based PDF pp1-10",
+    "url": "https://assets.cambridge.org/97811070/05112/excerpt/9781107005112_excerpt.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-terms-excerpt.pdf",
+    "sha256": "8dbeeb78693f87450589bf57f0772a3afc774a03dc9ffa6145812423fa594497"
+  },
+  {
+    "source": "Pettit, On the People's Terms, publisher frontmatter",
+    "reading_status": "Selected title, publication/copyright and contents pages; LIMIT: Frontmatter only; contents do not establish chapter reading",
+    "locator": "Selected title, publication/copyright and contents pages",
+    "url": "https://assets.cambridge.org/97811070/05112/frontmatter/9781107005112_frontmatter.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-frontmatter.pdf",
+    "sha256": "c65044059b748f5b99f1e0518e0c4ea254feca9b92e184c86924e2eb9f77df02"
+  },
+  {
+    "source": "James [Sa’ke’j] Youngblood Henderson — UN Declaration on the Rights of Indigenous Peoples and Treaty Federalism in Canada",
+    "reading_status": "complete_article",
+    "locator": "17-41; 42 blank running matter",
+    "url": "https://www.constitutionalstudies.ca/wp-content/uploads/2021/02/02_Henderson-4.pdf",
+    "sha256": "e903db72f936ba891947727e4d2f055428d5f06e1f94e6e291b22edc80facfca",
+    "cache_path": "local_data/research/v0.4.0/research-040-henderson-existing.pdf",
+    "warrant": "Complete article including embedded notes; cases, treaty documents, RCAP, cited books and 2026 law not independently checked"
+  },
+  {
+    "source": "Audra Simpson — On Ethnographic Refusal: Indigeneity, ‘Voice’ and Colonial Citizenship",
+    "reading_status": "complete_article",
+    "locator": "67-80",
+    "url": "https://junctures.org/index.php/junctures/article/download/66/60/108",
+    "sha256": "8da9e7d2a8a3e2f7dec4aca00ca3085e4f79cb25f1977b80efa6544d3f7b18a7",
+    "cache_path": "local_data/research/v0.4.0/research-040-simpson.pdf",
+    "warrant": "Complete article, acknowledgements and notes; not Mohawk Interruptus; reported ethnography and legal history not independently replicated/updated"
+  },
+  {
+    "source": "Anne K. Mellor — Blake’s Portrayal of Women",
+    "reading_status": "complete_article",
+    "locator": "148-155",
+    "url": "https://bq.blakearchive.org/pdfs/16.3.mellor.pdf",
+    "sha256": "de008d54751b7e921603e3ddb354fb038fc689efb3470da4a59ab15e7f58fde6",
+    "cache_path": "local_data/research/v0.4.0/research-040-mellor-curl.pdf",
+    "warrant": "Complete article and notes in extracted text; one page visually inspected; not full independent artwork/copy collation or biographical verification"
+  },
+  {
+    "source": "Alicia Ostriker — Desire Gratified and Ungratified: William Blake and Sexuality",
+    "reading_status": "complete_article",
+    "locator": "156-165",
+    "url": "https://bq.blakearchive.org/pdfs/16.3.ostriker.pdf",
+    "sha256": "d2e8446f89f0bfcd0826bb0344dc5c1a1c5fa483702c670c28cf601ad993b5ee",
+    "cache_path": "local_data/research/v0.4.0/research-040-ostriker-curl.pdf",
+    "warrant": "Complete article and notes; no independent verification of psychoanalytic/comparative references or new primary quotation collation"
+  },
+  {
+    "source": "Ayelet Shachar — Religion, State, and the Problem of Gender: New Modes of Citizenship and Governance in Diverse Societies",
+    "reading_status": "complete_article",
+    "locator": "49-88",
+    "url": "https://lawjournal.mcgill.ca/wp-content/uploads/pdf/410530-1225240850_Shachar.pdf",
+    "sha256": "38c3b55ea0238c90e74d9bad82e5daa966fa43d9809d64febe7bd0d48c30bc39",
+    "cache_path": "local_data/research/v0.4.0/research-040-shachar-official.pdf",
+    "warrant": "Complete article, contents, abstracts, and footnotes; historical examples read as reported; no current law, court-case, or implementation-effect verification; 2001 book unread"
+  }
+]

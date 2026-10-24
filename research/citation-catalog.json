@@ -1,0 +1,560 @@
+[
+  {
+    "key": "blakeMilton",
+    "type": "misc",
+    "fields": {
+      "author": "Blake, William",
+      "title": "Milton",
+      "year": "n.d.",
+      "howpublished": "ASU-hosted electronic Erdman transcription",
+      "url": "https://blake.lib.asu.edu/html/milton.html",
+      "note": "Primary text. Plate, line and Erdman-page locators are supplied with each selected passage."
+    },
+    "urls": []
+  },
+  {
+    "key": "blakeJerusalem",
+    "type": "misc",
+    "fields": {
+      "author": "Blake, William",
+      "title": "Jerusalem",
+      "year": "n.d.",
+      "howpublished": "ASU-hosted electronic Erdman transcription",
+      "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+      "note": "Primary text. Electronic transcription and illuminated copy impressions are separate source objects."
+    },
+    "urls": []
+  },
+  {
+    "key": "blakeMarriage",
+    "type": "misc",
+    "fields": {
+      "author": "Blake, William",
+      "title": "The Marriage of Heaven and Hell",
+      "year": "n.d.",
+      "howpublished": "ASU-hosted electronic Erdman transcription",
+      "url": "https://blake.lib.asu.edu/html/marriage_of_heaven_and_hell.html"
+    },
+    "urls": []
+  },
+  {
+    "key": "blakeButts",
+    "type": "misc",
+    "fields": {
+      "author": "Blake, William",
+      "title": "Letter to Thomas Butts, 22 November 1802",
+      "year": "1802",
+      "howpublished": "ASU-hosted electronic Erdman transcription",
+      "url": "https://blake.lib.asu.edu/html/Letters/23.htm"
+    },
+    "urls": []
+  },
+  {
+    "key": "fallon2015",
+    "type": "incollection",
+    "fields": {
+      "author": "Fallon, David",
+      "title": "Homelands: Blake, Albion, and the French Revolution",
+      "booktitle": "Home and Nation in British Literature from the English to the French Revolutions",
+      "editor": "Cousins, A. D. and Payne, Geoffrey",
+      "publisher": "Cambridge University Press",
+      "year": "2015",
+      "pages": "202--218",
+      "doi": "10.1017/CBO9781107587571.014",
+      "url": "https://sure.sunderland.ac.uk/id/eprint/6061/1/Homelands.pdf",
+      "note": "Reading and passage locators refer to the twelve-page submitted manuscript, not silently to published pagination."
+    },
+    "urls": []
+  },
+  {
+    "key": "damrosch1980",
+    "type": "book",
+    "fields": {
+      "author": "Damrosch, Jr., Leopold",
+      "title": "Symbol and Truth in Blake's Myth",
+      "publisher": "Princeton University Press",
+      "year": "1980",
+      "url": "https://api.pageplace.de/preview/DT0400.9781400853731_A23704199/preview-9781400853731_A23704199.pdf",
+      "note": "Selected authorized preview pages only."
+    },
+    "urls": []
+  },
+  {
+    "key": "larrissy1994",
+    "type": "incollection",
+    "fields": {
+      "author": "Larrissy, Edward",
+      "title": "Blake and Platonism",
+      "booktitle": "Platonism and the English Imagination",
+      "editor": "Baldwin, Anna and Hutton, Sarah",
+      "publisher": "Cambridge University Press",
+      "year": "1994",
+      "pages": "186--198",
+      "doi": "10.1017/CBO9780511553806.018",
+      "note": "Publisher summary and metadata only; chapter unread."
+    },
+    "urls": []
+  },
+  {
+    "key": "lee2026",
+    "type": "book",
+    "fields": {
+      "author": "Lee, Tara",
+      "title": "William Blake and Romantic Biology: Evolution, Originality, and Organic Form",
+      "publisher": "Cambridge University Press",
+      "year": "2026",
+      "doi": "10.1017/9781009626422",
+      "url": "https://assets.cambridge.org/97810096/26453/excerpt/9781009626453_excerpt.pdf",
+      "note": "Only the complete available ten-page introduction excerpt was read."
+    },
+    "urls": []
+  },
+  {
+    "key": "matthews2011",
+    "type": "book",
+    "fields": {
+      "author": "Matthews, Susan",
+      "title": "Blake, Sexuality and Bourgeois Politeness",
+      "publisher": "Cambridge University Press",
+      "year": "2011",
+      "url": "https://assets.cambridge.org/97805215/13579/excerpt/9780521513579_excerpt.pdf",
+      "note": "Available ten-page excerpt, not full-book reading."
+    },
+    "urls": []
+  },
+  {
+    "key": "clark2006",
+    "type": "incollection",
+    "fields": {
+      "author": "Clark, Steve",
+      "title": "Jerusalem as Imperial Prophecy",
+      "booktitle": "Blake, Nation and Empire",
+      "editor": "Clark, Steve and Worrall, David",
+      "publisher": "Palgrave Macmillan",
+      "year": "2006",
+      "pages": "167--185",
+      "doi": "10.1057/9780230597068_10",
+      "url": "https://page-one.springer.com/pdf/preview/10.1057/9780230597068_10",
+      "note": "Direct reading is limited to publisher preview pp.167--168."
+    },
+    "urls": []
+  },
+  {
+    "key": "nicolaidis2013",
+    "type": "article",
+    "fields": {
+      "author": "Nicolaïdis, Kalypso",
+      "title": "European Demoicracy and Its Crisis",
+      "journal": "JCMS: Journal of Common Market Studies",
+      "year": "2013",
+      "volume": "51",
+      "number": "2",
+      "pages": "351--369",
+      "doi": "10.1111/jcms.12006",
+      "url": "https://kalypsonicolaidis.com/wp-content/uploads/2021/11/Demoicracy-jcms-March-2013-1.pdf",
+      "note": "Passage locators use the online-first author manuscript pagination."
+    },
+    "urls": []
+  },
+  {
+    "key": "baubock2001",
+    "type": "techreport",
+    "fields": {
+      "author": "Bauböck, Rainer",
+      "title": "Territorial or Cultural Autonomy for National Minorities?",
+      "institution": "Austrian Academy of Sciences, Research Unit for Institutional Change and European Integration",
+      "number": "22",
+      "year": "2001",
+      "month": "December",
+      "url": "https://eif.univie.ac.at/downloads/workingpapers/IWE-Papers/WP22.pdf",
+      "note": "December revision, distinct from March Working Paper 15."
+    },
+    "urls": []
+  },
+  {
+    "key": "ostrom2010",
+    "type": "article",
+    "fields": {
+      "author": "Ostrom, Elinor",
+      "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+      "journal": "American Economic Review",
+      "year": "2010",
+      "volume": "100",
+      "number": "3",
+      "pages": "641--672",
+      "doi": "10.1257/aer.100.3.641",
+      "url": "https://web.pdx.edu/~nwallace/EHP/OstromPolyGov.pdf"
+    },
+    "urls": []
+  },
+  {
+    "key": "hoogheMarks2003",
+    "type": "article",
+    "fields": {
+      "author": "Hooghe, Liesbet and Marks, Gary",
+      "title": "Unraveling the Central State, but How? Types of Multi-level Governance",
+      "journal": "American Political Science Review",
+      "year": "2003",
+      "volume": "97",
+      "number": "2",
+      "pages": "233--243",
+      "doi": "10.1017/S0003055403000649",
+      "url": "https://garymarks.web.unc.edu/wp-content/uploads/sites/13018/2016/09/hooghe.marks_.unravelingcentralstate.apsr_.2003.pdf"
+    },
+    "urls": []
+  },
+  {
+    "key": "kymlicka1995",
+    "type": "book",
+    "fields": {
+      "author": "Kymlicka, Will",
+      "title": "Multicultural Citizenship",
+      "publisher": "Oxford University Press",
+      "year": "1995",
+      "doi": "10.1093/0198290918.001.0001",
+      "note": "Bounded comparator; no full-book reading credit."
+    },
+    "urls": []
+  },
+  {
+    "key": "shachar2001",
+    "type": "book",
+    "fields": {
+      "author": "Shachar, Ayelet",
+      "title": "Multicultural Jurisdictions",
+      "publisher": "Cambridge University Press",
+      "year": "2001",
+      "doi": "10.1017/CBO9780511490330",
+      "note": "Frontmatter, contents and author abstract; no full-book reading credit."
+    },
+    "urls": []
+  },
+  {
+    "key": "henderson2019",
+    "type": "article",
+    "fields": {
+      "author": "Henderson, James [Sa'ke'j] Youngblood",
+      "title": "UN Declaration on the Rights of Indigenous Peoples and Treaty Federalism in Canada",
+      "journal": "Review of Constitutional Studies",
+      "year": "2019",
+      "volume": "24",
+      "number": "1",
+      "pages": "17--42",
+      "url": "https://www.constitutionalstudies.ca/wp-content/uploads/2021/02/02_Henderson-4.pdf"
+    },
+    "urls": []
+  },
+  {
+    "key": "simpson2014",
+    "type": "book",
+    "fields": {
+      "author": "Simpson, Audra",
+      "title": "Mohawk Interruptus: Political Life Across the Borders of Settler States",
+      "publisher": "Duke University Press",
+      "year": "2014",
+      "doi": "10.1215/9780822376781",
+      "url": "https://www.dukeupress.edu/mohawk-interruptus",
+      "note": "Prior reading ceiling is publisher synopsis and contents; any new excerpt is separately logged."
+    },
+    "urls": []
+  },
+  {
+    "key": "undrip2007",
+    "type": "misc",
+    "fields": {
+      "author": "{United Nations General Assembly}",
+      "title": "United Nations Declaration on the Rights of Indigenous Peoples",
+      "year": "2007",
+      "howpublished": "A/RES/61/295, adopted 13 September 2007; March 2008 English printing",
+      "url": "https://www.un.org/esa/socdev/unpfii/documents/DRIPS_en.pdf",
+      "note": "Preamble and all46 articles read; not a current domestic-law determination."
+    },
+    "urls": []
+  },
+  {
+    "key": "pettit2005",
+    "type": "techreport",
+    "fields": {
+      "author": "Pettit, Philip",
+      "title": "Two-dimensional Democracy, National and International",
+      "institution": "Institute for International Law and Justice, New York University School of Law",
+      "number": "2005/8",
+      "year": "2005",
+      "url": "https://www.iilj.org/wp-content/uploads/2016/08/Petit-Two-Dimensional-Democracy-National-and-International-2005.pdf",
+      "note": "Complete working paper; not collated with later publication."
+    },
+    "urls": []
+  },
+  {
+    "key": "pettit2012",
+    "type": "book",
+    "fields": {
+      "author": "Pettit, Philip",
+      "title": "On the People's Terms: A Republican Theory and Model of Democracy",
+      "publisher": "Cambridge University Press",
+      "year": "2012",
+      "isbn": "9781107005112",
+      "url": "https://assets.cambridge.org/97811070/05112/excerpt/9781107005112_excerpt.pdf",
+      "note": "Complete available ten-page excerpt, not the full introduction or book."
+    },
+    "urls": []
+  },
+  {
+    "key": "friedman2026law",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Entomological Law: A Field Map of Insects as Evidence, Threat, Property, Product, Patient, and Weapon",
+      "year": "2026",
+      "doi": "10.5281/zenodo.21137277",
+      "url": "https://danielarifriedman.com/papers/2026_EntomologicalLaw/full_text.md",
+      "note": "Version1.0.0. The human classification-decision schema is the present project extension.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.21137277}"
+    },
+    "urls": []
+  },
+  {
+    "key": "rahman2025",
+    "type": "incollection",
+    "fields": {
+      "author": "Rahman, Shagor",
+      "title": "Myth of Objectivity",
+      "booktitle": "The Active Inference Institute and Active Inference Ecosystem",
+      "publisher": "Active Inference Institute",
+      "year": "2025",
+      "pages": "124--130",
+      "url": "https://danielarifriedman.com/papers/2025_AII_v3/full_text.md",
+      "note": "Contributor profile in collective report v3, deposit DOI10.5281/zenodo.17982447; speculative proposal, not validated result."
+    },
+    "urls": []
+  },
+  {
+    "key": "sabine2026letter",
+    "type": "misc",
+    "fields": {
+      "author": "Sabine, Alexander",
+      "title": "The Doors of Perception Are Mathematical: Coherence, Rupture, and Regeneration in Blake, Active Inference, and Quantum Physics",
+      "year": "2026",
+      "doi": "10.5281/zenodo.19388291",
+      "note": "April letter addressed to Daniel Friedman; deposited 2 April 2026. Selected passages read; no mathematical validation claimed.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.19388291}"
+    },
+    "urls": []
+  },
+  {
+    "key": "sabine2026phase",
+    "type": "incollection",
+    "fields": {
+      "author": "Sabine, Alexander",
+      "title": "Phase-Gating Across Precision Channels: Topological Constraints on Multi-channel Belief Update Dynamics",
+      "booktitle": "Artificial General Intelligence",
+      "series": "Lecture Notes in Artificial Intelligence",
+      "volume": "16855",
+      "publisher": "Springer",
+      "year": "2026",
+      "pages": "219--236",
+      "doi": "10.1007/978-3-032-33195-3_17",
+      "note": "Selected open-manuscript passages; published chapter not collated; simulation not replicated."
+    },
+    "urls": []
+  },
+  {
+    "key": "friedman2026meta",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Active Inference as a Meta-Pragmatic Framework: Executable Models, Evidence, and the Discipline of Revision",
+      "year": "2026",
+      "doi": "10.5281/zenodo.23397453",
+      "note": "Version identity and reading bounds retained in portfolio crosswalk.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.23397453}"
+    },
+    "urls": []
+  },
+  {
+    "key": "simpson2007",
+    "type": "article",
+    "fields": {
+      "author": "Simpson, Audra",
+      "title": "On Ethnographic Refusal: Indigeneity, `Voice' and Colonial Citizenship",
+      "journal": "Junctures: The Journal for Thematic Dialogue",
+      "year": "2007",
+      "number": "9",
+      "pages": "67--80",
+      "url": "https://junctures.org/index.php/junctures/article/view/66"
+    },
+    "urls": []
+  },
+  {
+    "key": "mellor1982",
+    "type": "article",
+    "fields": {
+      "author": "Mellor, Anne K.",
+      "title": "Blake's Portrayal of Women",
+      "journal": "Blake/An Illustrated Quarterly",
+      "year": "1982/1983",
+      "volume": "16",
+      "number": "3",
+      "pages": "148--155",
+      "note": "Winter 1982/1983",
+      "url": "https://bq.blakearchive.org/16.3.mellor"
+    },
+    "urls": []
+  },
+  {
+    "key": "ostriker1982",
+    "type": "article",
+    "fields": {
+      "author": "Ostriker, Alicia",
+      "title": "Desire Gratified and Ungratified: William Blake and Sexuality",
+      "journal": "Blake/An Illustrated Quarterly",
+      "year": "1982/1983",
+      "volume": "16",
+      "number": "3",
+      "pages": "156--165",
+      "note": "Winter 1982/1983",
+      "url": "https://bq.blakearchive.org/16.3.ostriker"
+    },
+    "urls": []
+  },
+  {
+    "key": "shachar2005",
+    "type": "article",
+    "fields": {
+      "author": "Shachar, Ayelet",
+      "title": "Religion, State, and the Problem of Gender: New Modes of Citizenship and Governance in Diverse Societies",
+      "journal": "McGill Law Journal",
+      "year": "2005",
+      "volume": "50",
+      "number": "1",
+      "pages": "49--88",
+      "url": "https://lawjournal.mcgill.ca/wp-content/uploads/pdf/410530-1225240850_Shachar.pdf"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2024MathArtStream8William038",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "MathArt Stream \\#8 \\textasciitilde{} William Blake and Active Inference",
+      "year": "2024",
+      "doi": "10.5281/zenodo.13711302",
+      "url": "https://danielarifriedman.com/papers/2024_MathArtBlake/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.13711302}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026BeforePragmatismHadName003",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Before Pragmatism Had a Name: Blake's \"America A Prophecy\" Anticipates American Anticipatory Epistemology",
+      "year": "2026",
+      "doi": "10.5281/zenodo.18984939",
+      "url": "https://danielarifriedman.com/papers/2026_BeforePragmatism/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. The March 12, 2026 extracted cover prints DOI 10.5281/zenodo.18807971; primary version record 18984939 is dated March 12, 2026 (record page labels v2, API version is unset). Printed DOI does not determine the archived version identity.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.18984939}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026FourfoldVisionWilliamBlake196",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Fourfold Vision: William Blake, Buckminster Fuller, and the Geometry of Omnirational Seeing",
+      "year": "2026",
+      "doi": "10.5281/zenodo.21388457",
+      "url": "https://danielarifriedman.com/papers/2026_FourfoldVision/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.21388457}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026MappingWilliamBlakeS179",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Mapping William Blake's Works: Evidence ledgers, source provenance, text-image diagnostics, and rights-bounded release controls",
+      "year": "2026",
+      "doi": "10.5281/zenodo.21047574",
+      "url": "https://danielarifriedman.com/papers/2026_MappingWilliamBlake/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.21047574}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026ArchitectureFalseGodsWilliam115",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "The Architecture of False Gods: William Blake, Professor Jiang, and the Active Inference Corrective to Single Vision",
+      "year": "2026",
+      "doi": "10.5281/zenodo.20144984",
+      "url": "https://danielarifriedman.com/papers/2026_BlakeJiang/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.20144984}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026DoorsPerceptionAreThreshold007",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "The Doors of Perception are the Threshold of Prediction: Active Inference and William Blake's Theory of Seeing",
+      "year": "2026",
+      "doi": "10.5281/zenodo.18600041",
+      "url": "https://danielarifriedman.com/papers/2026_DoorsOfPerception/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.18600041}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2026GoldenCompassLunarFlux004",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "The Golden Compass and the Lunar Flux: William Blake, Bimetallic Meta-stability, and the Architecture of Value",
+      "year": "2026",
+      "doi": "10.5281/zenodo.19335196",
+      "url": "https://danielarifriedman.com/papers/2026_Bimetalism/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. ",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.19335196}"
+    },
+    "urls": []
+  },
+  {
+    "key": "Friedman2025SynthesisAgentNiche021",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel",
+      "title": "Synthesis of Agent and Niche",
+      "year": "2025",
+      "doi": "10.5281/zenodo.17243488",
+      "url": "https://danielarifriedman.com/papers/2025_AgentAndNiche/full_text.md",
+      "note": "Cited retained portfolio extraction; earlier complete-extraction reading is reported in the supplied scope. This pass does not certify every image, citation or version. Local extraction cover prints DOI 10.5281/zenodo.17235138 and date 2025-09-30. Catalog metadata and primary record 17243488 identify v2 dated 2025-10-01. These observations are kept separate; the cover alone cannot establish artifact identity.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.17243488}"
+    },
+    "urls": []
+  },
+  {
+    "key": "mappingCurrent",
+    "type": "misc",
+    "fields": {
+      "author": "Friedman, Daniel Ari",
+      "title": "Mapping William Blake's Works: Evidence ledgers, source provenance, text-image diagnostics, and rights-bounded release controls",
+      "year": "2026",
+      "doi": "10.5281/zenodo.23601681",
+      "note": "Revised working paper 0.2.0, published 23 October 2026. Distinct from the earlier retained portfolio extraction 21047574; no retrospective text-reading upgrade.",
+      "howpublished": "\\url{https://doi.org/10.5281/zenodo.23601681}"
+    },
+    "urls": []
+  }
+]

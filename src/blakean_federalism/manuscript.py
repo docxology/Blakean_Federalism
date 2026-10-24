@@ -164,7 +164,10 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
                 raise ResearchError("quotation_mismatch", quote.quote_id + ":" + segment.anchor)
         expected[normalized(quote.text)] += 1
     blocks = (m.group(0) for m in re.finditer(r"(?:^>[^\n]*(?:\n|$))+", markdown, re.MULTILINE))
-    actual = Counter(normalized(re.sub(r"^> ?", "", block, flags=re.MULTILINE)) for block in blocks)
+    actual = Counter(
+        normalized(re.sub(r"\\\n", "\n", re.sub(r"^> ?", "", block, flags=re.MULTILINE)))
+        for block in blocks
+    )
     if actual != expected:
         raise ResearchError("manuscript_quotation", "Blockquotes differ from verified ledger")
     return paths

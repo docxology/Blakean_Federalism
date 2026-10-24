@@ -33,3 +33,5 @@ Both original DOCX files and their complete Markdown extractions are retained un
 | Restricted images, editions, annotations and bodies remain untracked | Independent local projection; ignored data/output directories; tracked-payload checks before push |
 
 The synthesis and executable rules remain project proposals. Integrating them does not imply final endorsement by Daniel of every institutional option, empirical confirmation of the program, or scholarly peer review.
+
+Version 0.4.0 adds native pinned-template PDF/HTML rendering, automatic formalism/equation/figure references, a shared 39-entry bibliography and five complete article readings. The expanded gender, refusal, remedial and foundational-jurisdiction objections remain attributed and distinguish the project proposals from source claims. Historical reading and concordance epochs remain preserved.

@@ -39,7 +39,7 @@
   "source_status": "Retrieved/indexed, not evidence of 21 new complete reads",
   "mapping_mirror_note": "Portfolio extraction still cites the earlier Mapping version. Corpus software and new manuscript are pinned to Blake v0.2.0, DOI 10.5281/zenodo.23601681; versions are not silently substituted.",
   "integration_recorded_at": "2026-10-23T22:40:16.059370+00:00",
-  "current_session_primary_passage_checks": "Selected ASU Milton 32; Jerusalem 31,43,52,54,73,88,92; America 11–13. No copy-specific collation.",
+  "current_session_primary_passage_checks": "Selected ASU Milton 32; Jerusalem 31,43,52,54,73,88,92; America 11\u201313. No copy-specific collation.",
   "manuscript_0_2_0": {
     "scholarship_reading_ledger": "research/scholarship-reading-0.2.0.json",
     "copy_observations": "docs/research/copy-observations-0.2.0.md",
@@ -62,5 +62,21 @@
     "synthetic_families": 5,
     "synthetic_alternatives": 10,
     "checks_per_alternative": 15
+  },
+  "template_manuscript_0_4_0": {
+    "scholarship_reading_ledger": "research/scholarship-reading-0.4.0.json",
+    "full_new_article_reads": 5,
+    "new_live_catalog_sweep": false,
+    "corpus_pin_unchanged": true,
+    "retained_analytical_run": "research/analysis-run-0.3.0.json",
+    "native_template_pin": "research/template-rendering.json",
+    "software_qualification": "research/verification.json",
+    "rendered_qa": "research/rendered-review-0.4.0.json",
+    "quotations": 13,
+    "selected_loc_sheets": 4,
+    "original_diagrams": 7,
+    "bibliography_entries": 39,
+    "numbered_formalisms": 9,
+    "labeled_equations": 5
   }
 }

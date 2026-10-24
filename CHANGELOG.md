@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 - 24 October 2026
+
+- Native, commit-pinned docxology/template PDF and HTML rendering, automatic formalism/equation/figure references, and a shared structured bibliography.
+- Expanded direct reading of Henderson, Simpson, Mellor, Ostriker and Shachar, with explicit refusal, gender, jurisdiction and remedial objections.
+- Four opening graphical abstracts, three body visualizations, a four-sheet critical atlas, 10 point type and 14 mm margins.
+- Source-bound publication preparation and verification, with real missing-reference, changed-input, quotation, rasterizer and output controls.
+- Preserved corpus and analytical producer epochs; no new empirical institutional result or whole-oeuvre claim.
+
 ## 0.3.0
 
 - Portable offline evidence workbench, joint source-unit denominators and complete institutional rule traces.

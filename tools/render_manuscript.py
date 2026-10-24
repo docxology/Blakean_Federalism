@@ -5,7 +5,6 @@ Optional manuscript dependencies are isolated from the analytical CLI. Outputs
 are exclusive new directories; no source or corpus data is rewritten.
 """
 
-import argparse
 import io
 import json
 from functools import partial
@@ -201,11 +200,11 @@ def diagram(canvas: Canvas, number: int) -> None:
             ),
             (
                 "INTERPRETIVE BRIDGE",
-                "Which contemporary construction is proposed, and which countertext resists it?",
+                ("Which contemporary construction is proposed, and which countertext resists it?"),
             ),
             (
                 "INSTITUTIONAL WARRANT",
-                "Who may decide, under what authority, with what remedies and material effects?",
+                ("Who may decide, under what authority, with what remedies and material effects?"),
             ),
         )
         for index, (title, description) in enumerate(entries):
@@ -611,10 +610,12 @@ def render(root: Path, output: Path) -> Path:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, required=True)
-    args = parser.parse_args()
-    print(render(Path.cwd(), args.output))
+    "Keep the historical helper API; route user-facing rendering through template."
+    import sys  # noqa: PLC0415
+
+    from blakean_federalism.cli import app  # noqa: PLC0415
+
+    app(["render-manuscript", *sys.argv[1:]])
 
 
 if __name__ == "__main__":

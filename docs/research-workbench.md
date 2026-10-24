@@ -5,7 +5,7 @@ The workbench is a portable HTML research folio, with embedded Bitstream Vera fo
 Build from a verified independent corpus import and concordance:
 
 ~~~bash
-uv run blakean build-workbench --corpus local_data/corpus/blake-v0.2.0-qualified --concordance-file analysis_output/concordance-v0.3.0.json --output analysis_output/workbench/new-run --readings research/scholarship-reading-0.3.0.json
+uv run blakean build-workbench --corpus local_data/corpus/blake-v0.2.0-qualified --concordance-file analysis_output/concordance-v0.3.0.json --output analysis_output/workbench/new-run --readings research/scholarship-reading-0.4.0.json
 ~~~
 
 Open research-workbench.html in a browser. Without JavaScript all three sections remain readable. Enhanced tabs use manual keyboard activation: arrows/Home/End move focus; Enter/Space activates. Filters match saved query names and explicit variants, not the corpus text. Clear search retains plane/role; Reset filters clears all. Native disclosures retain actual inputs and full bindings.

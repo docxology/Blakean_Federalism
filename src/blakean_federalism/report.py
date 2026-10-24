@@ -48,7 +48,7 @@ def build_workbench(
     root: Path,
     corpus: Path,
     concordance_file: Path,
-    readings: str = "research/scholarship-reading-0.3.0.json",
+    readings: str = "research/scholarship-reading-0.4.0.json",
 ) -> Workbench:
     """Reconcile the run against the verified independent projection before publication."""
     relative = (

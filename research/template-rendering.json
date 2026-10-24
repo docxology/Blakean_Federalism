@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/docxology/template",
+  "commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "writers": [
+    "infrastructure.rendering.pdf_renderer.PDFRenderer.render_combined",
+    "infrastructure.rendering.web_renderer.WebRenderer.render_combined"
+  ],
+  "formalism_filter": "infrastructure/rendering/formalism.lua",
+  "numbering": "Per-kind document-order formalism counters; pandoc-crossref for equations, figures and sections",
+  "bibliography": "PDF natbib/BibTeX; HTML citeproc; source references.bib",
+  "runtime": "Caller-supplied external compatible template Python; independently verified from the project Python",
+  "limits": [
+    "A pinned renderer execution is not independent template-code acceptance.",
+    "PDF visual inspection and HTML browser verification remain separate.",
+    "The paper HTML uses the template MathJax CDN profile; the research workbench remains a separate offline artifact."
+  ],
+  "source_date_epoch": 1792800000
+}
