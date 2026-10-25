@@ -1,0 +1,51 @@
+{
+  "version": "0.4.0",
+  "status": "software_and_bounded_native_rendered_qualification_passed",
+  "tests": 200,
+  "coverage_percent": {
+    "application": 97.9672131147541,
+    "infrastructure": 72.21052631578948
+  },
+  "combined_coverage_percent": 91.85,
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "qualification_epoch": "qualification-09",
+  "source_unchanged_during_qualification": true,
+  "typing_errors": 0,
+  "typing_warnings": 0,
+  "checks": [
+    {
+      "tool": "ruff",
+      "exit_code": 0,
+      "log": "check-0.log",
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "tool": "ruff",
+      "exit_code": 0,
+      "log": "check-1.log",
+      "sha256": "2bcbe8e6e763d11737554aa861ef6606aea9d87114a002aa9bd426ec920674cf"
+    },
+    {
+      "tool": "basedpyright",
+      "exit_code": 0,
+      "log": "check-2.log",
+      "sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c"
+    },
+    {
+      "tool": "pytest",
+      "exit_code": 0,
+      "log": "check-3.log",
+      "sha256": "7064f452e17a87275b5ebca1febe212831d4223c634b63106be0b29e1d01d24d"
+    }
+  ],
+  "qualification_receipt_sha256": "db2a634e2c8f7648ad26d21359f6acb6189207c7af3182abd1ba0041b922ab5b",
+  "coverage_json_sha256": "2588501e0177d1fe147f9d34257a21d7f55d08778f52fbf589a0abf9095eaf3f",
+  "native_worker_coverage_note": "Worker executes under the separate template Python and is not traced by the project coverage process. Its actual positive and retained failed executions are separately source-bound.",
+  "rendered_qa": "research/rendered-review-0.4.0.json",
+  "historical_qualification": "research/history/verification-0.3.0.json",
+  "independent_acceptance": "Separate exact-candidate and asset review; author qualification is not independent acceptance.",
+  "scope": "Private working draft/software. Further specialist criticism, wider scholarship and copy collation remain necessary."
+}

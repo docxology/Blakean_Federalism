@@ -25,8 +25,10 @@ The native bibliography records bibliographic identity. This ledger records what
 | [@rahman2025] | Contributor profile pp.124–130; speculative proposal, not report-wide authorship or validated effect. |
 | [@sabine2026letter; @sabine2026phase] | Prior selected passages; no full work/version collation, mathematical validation or simulation execution. |
 | [@friedman2026meta] | Earlier portfolio reading and version crosswalk; models, evidence and justified ends remain separate. |
+| [@makdisi1998] | Complete available introduction excerpt pp. 1–10; later Blake chapter and full book not read. |
+| [@swissConstitution2024] | Selected constitutional provisions in the English informational translation, text status 1 January 2024, published within the 1 March 2024 parliamentary manual. Printed pp. 1–3, 6, 8, 10–12, 20, 48–50, 52–54, 62. |
 
-## New complete-article contact
+## Article readings
 
 | Source | Actual new reading boundary |
 | :-- | :-- |
@@ -37,11 +39,11 @@ The native bibliography records bibliographic identity. This ledger records what
 
 ## Portfolio version discipline
 
-The lineage citations in the portfolio section retain the earlier reported complete-extraction reading and the exact index/version crosswalk. They do not certify a fresh complete reading, every image or secondary authority. The newer Mapping working paper is a separately checked publication identity; its DOI does not relabel the older mirror as newly read. Printed-cover discrepancies for Before Pragmatism and Agent and Niche remain in the retained ledger.
+The citations to earlier work retain the earlier reported complete-extraction reading and the exact index/version crosswalk. They do not certify a fresh complete reading, every image or secondary authority. The newer Mapping working paper is a separately checked publication identity; its DOI does not relabel the older mirror as newly read. Printed-cover discrepancies for Before Pragmatism and Agent and Niche remain in the retained ledger.
 
 ## Image rights and critical use
 
 The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 52, 54 and 73](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
 
-Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. These selections clear no other images or blanket fair-use claim. Restricted corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
+Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
 

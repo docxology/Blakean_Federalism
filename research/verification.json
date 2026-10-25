@@ -1,51 +1,32 @@
 {
-  "version": "0.4.0",
-  "status": "software_and_bounded_native_rendered_qualification_passed",
+  "version": "0.4.1",
+  "status": "software_and_native_render_qualified",
   "tests": 200,
   "coverage_percent": {
-    "application": 97.9672131147541,
+    "application": 98.19976771196283,
     "infrastructure": 72.21052631578948
   },
-  "combined_coverage_percent": 91.85,
   "coverage_floor": {
     "application": 90,
     "infrastructure": 60
   },
-  "qualification_epoch": "qualification-09",
-  "source_unchanged_during_qualification": true,
   "typing_errors": 0,
   "typing_warnings": 0,
-  "checks": [
-    {
-      "tool": "ruff",
-      "exit_code": 0,
-      "log": "check-0.log",
-      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
-    },
-    {
-      "tool": "ruff",
-      "exit_code": 0,
-      "log": "check-1.log",
-      "sha256": "2bcbe8e6e763d11737554aa861ef6606aea9d87114a002aa9bd426ec920674cf"
-    },
-    {
-      "tool": "basedpyright",
-      "exit_code": 0,
-      "log": "check-2.log",
-      "sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c"
-    },
-    {
-      "tool": "pytest",
-      "exit_code": 0,
-      "log": "check-3.log",
-      "sha256": "7064f452e17a87275b5ebca1febe212831d4223c634b63106be0b29e1d01d24d"
-    }
-  ],
-  "qualification_receipt_sha256": "db2a634e2c8f7648ad26d21359f6acb6189207c7af3182abd1ba0041b922ab5b",
-  "coverage_json_sha256": "2588501e0177d1fe147f9d34257a21d7f55d08778f52fbf589a0abf9095eaf3f",
-  "native_worker_coverage_note": "Worker executes under the separate template Python and is not traced by the project coverage process. Its actual positive and retained failed executions are separately source-bound.",
-  "rendered_qa": "research/rendered-review-0.4.0.json",
-  "historical_qualification": "research/history/verification-0.3.0.json",
-  "independent_acceptance": "Separate exact-candidate and asset review; author qualification is not independent acceptance.",
-  "scope": "Private working draft/software. Further specialist criticism, wider scholarship and copy collation remain necessary."
+  "qualification_artifacts": {
+    "tests-qualified.log": "c7e70bc0aa0fa3c0cc6af5f6e57bfa86ec8519ff98f34e4bca1469f3478d18dd",
+    "tests-qualified.xml": "eb0a25b6daeeae0786e4aa4490b8f38f4d5ddd529e79323506d36f684d2fb1c6",
+    "coverage-qualified.json": "4ca980ef4955efe4af05c999451afcbae02c459fbf49f3d7f8416ed10b642890",
+    "coverage-floors.json": "7f34dc9bd68cb171e35332235d88aa217fe0fc9519d7633921e83e2fc0934caf",
+    "ruff-final-03.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "typing-final.log": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
+    "format-final.log": "8d7a9fb1f423bec1378091f1aa6e3ebb3d45473cc6723a6a0a79d3531e7177b7",
+    "lock-check.log": "5421c9e79a3b3950b2728a6ab7dcffe3d13752e436081ece8317e539b0041659",
+    "browser-results.json": "4619ffea300458b899c29cd62e63ed68a57d18b0452482b82bc1496ef2e5976a",
+    "page-inspection-bindings-final.json": "5319f6c77ddbccd5ce8edaace3080fb5f3e1cb006adc1bca9111f0685a15d24d",
+    "research-integration-receipt.json": "6bc0418cc3ebf535de11b6e8bfe77a638b8b76f0c07976230e9edef2d2b57942"
+  },
+  "rendered_qa": "research/rendered-review-0.4.1.json",
+  "historical_qualification": "research/history/verification-0.4.0.json",
+  "native_worker_coverage_note": "The separate template Python worker is not traced by the project coverage process; native receipts bind its real execution.",
+  "scope": "Software qualification and rendered QA for the private research draft. Manuscript layout edits after the test run were checked by native rendering; analytical results retain their earlier producer."
 }

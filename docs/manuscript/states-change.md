@@ -1,19 +1,21 @@
 # Abstract {.unnumbered}
 
-This project develops a political interpretation of a distinction that ordinary constitutional language obscures. A federation may contain STATES in a proposed Blakean sense of enduring imaginative possibilities while sustaining NATIONS as temporal generations, combinations and productions. The nations need not map one-to-one onto those states, and their federation need not become a single nation. The argument is a contemporary construction in dialogue with Blake. It does not recover a federal constitution hidden in his poems. Its positive proposal is composition without capture: collective histories and creations matter, while no national formation, interpretive vocabulary or jurisdiction exhausts the persons participating in it. The institutional test asks whether a classification can be translated into accountable authority without converting poetic permanence into an eternal mandate. Entomological Law motivates separating the entity, assigned role, asserting institution, warrant and consequence; issuer, competence, reach and enforcement remain distinct. Rahman's cultural-precision proposal supplies a counter-model in which broader identification increases conformity rather than freedom. Five hypothetical Xeno-California cases expose difficulties involving membership, unequal resources, affected nonmembers, treaty relationships and refusal. An executable descriptive prototype checks openly stipulated safeguards. It supplies neither an empirical freedom measure nor a proof of political legitimacy.
+A federation can sustain several nations without becoming one nation. This article develops that claim through Blake's distinction between states and persons: STATES are enduring imaginative possibilities, while NATIONS are historical formations that articulate and recombine them. Its governing principle is composition without capture. Collective histories and creations matter, but no nation, interpretive vocabulary or jurisdiction exhausts its participants. Close readings of Milton and Jerusalem establish the state/person distinction and confront its nationalist, theological and gendered tensions. Comparison with demoicracy, non-domination, cultural autonomy and treaty federalism identifies what institutions must decide: who has standing, which body may act, who bears the cost and how a decision can be challenged. A classification-decision record separates the entity, assigned role and consequence from the issuer, competence, reach and enforcement of authority. Five hypothetical Xeno-California cases test these distinctions. An executable prototype evaluates fifteen explicit safeguards across ten case alternatives, and a corpus workbench supplies passage retrieval and source provenance.
 
 # The inversion and what is at stake {#sec:s1}
 
-The project begins with Daniel Ari Friedman's proposed inversion: the federation contains STATES in Blake's eternal sense, while NATIONS belong to historical production and generation. This retains a metaphysical ambition that would disappear if state were immediately translated into territorial government. A nation may articulate several imaginative possibilities; a possibility may recur in several nations. Their relation is many-to-many. A federation could sustain these different productions without demanding that one national narrative become the final image of the whole.
+The argument begins with an inversion: the federation contains STATES in Blake's eternal sense, while NATIONS belong to historical production and generation. This retains a metaphysical ambition that would disappear if state were immediately translated into territorial government. A nation may articulate several imaginative possibilities; a possibility may recur in several nations. Their relation is many-to-many. A federation could sustain these different productions without demanding that one national narrative become the final image of the whole.
 
 The political question arises when a collective formation claims the persons associated with it. A cultural body may offer language, memory, solidarity and self-government. Those goods do not automatically entitle its officers to control every member's employment, conscience or civic standing. A territorial institution may properly tax residents for shared infrastructure without claiming to embody their deepest identity. Non-capture therefore cannot mean the absence of binding decisions. It concerns the warrants, limits, consequences and contestability of those decisions.
 
 Temporal nations are not disposable approximations of a superior eternal order. The proverb about eternity's love for temporal productions motivates attention to particular creations: languages, relationships, public practices and achievements whose value need not depend on lasting forever. Neither does the proverb sanctify every historical production. A nation can make something worth preserving and sustain relations that require transformation. Its creativity and its authority remain separately assessable.
 
-This is a research hypothesis with three distinct burdens. Exegesis must establish what the selected Blake texts say. Reconstruction must defend the bridge from those texts to contemporary collective life. Institutional argument must justify actual powers to people who reject Blake's metaphysics. Success at the first burden does not discharge the other two.
+The argument proceeds through three tasks. Close reading establishes what the selected passages say in their dramatic and material contexts. Reconstruction develops a political account of persons, states and national generation. Institutional comparison asks how shared powers can be justified to people who hold different metaphysical commitments. Each task supplies a different kind of reason.
 
-The formulation can be made more precise without identifying people with national essences. Let P denote persons, S poetic-state interpretations, N temporal national formations and J coercive jurisdictions. An affiliation relation connects P and N; an interpretive relation connects N and S; an authorization relation connects a specified institution in J to a specified act. These relations have different domains and warrants. Affiliation does not entail authorization, interpretation does not entail jurisdiction, and a person's standing does not depend on assignment to an S. This is a new descriptive construction, not an extracted Blakean algebra.
+The formulation can be made more precise without identifying people with national essences. Let P denote persons, S poetic-state interpretations, N temporal national formations and J coercive jurisdictions. An affiliation relation connects P and N; an interpretive relation connects N and S; an authorization relation connects a specified institution in J to a specified act. These relations have different domains and warrants. Affiliation does not entail authorization, interpretation does not entail jurisdiction, and a person's standing does not depend on assignment to an S. The typed model records these distinctions explicitly.
 
+
+\Needspace{11\baselineskip}
 
 ::: {.definition #def:typed title="Four typed sorts and three relations"}
 A research structure uses sorts $P$ (represented persons), $S$ (poetic-state interpretations), $N$ (historically situated national formations), and $J$ (institutions claiming jurisdiction), together with a set $D$ of proposed decisions. Disjoint sort tags distinguish representations; they do not assert that social life falls into mutually exclusive communities. Affiliation $A$, interpretation $I$, and a *claimed* competence relation $C$ have distinct domains:
@@ -22,19 +24,22 @@ $$
 A\subseteq P\times N,\qquad I\subseteq N\times S,\qquad C\subseteq J\times D.
 $$ {#eq:relations}
 
-This is a contemporary descriptive construction. The sort $S$ contains interpretations, not a software certification of Blake's eternal ontology; $C$ records a claim, not valid authorization.
+The sort $S$ records interpretations of poetic states; $C$ records claims of competence for institutional assessment.
 :::
+
+\Needspace{11\baselineskip}
 
 ::: {.proposition #prop:no-transfer title="Typing does not transfer political authority"}
 For nonempty $J$ and $D$, fixing $A$ and $I$ in [@def:typed] does not determine $C$.
 
-*Proof.* Choose $j\in J$ and $d\in D$. The structures with $C_0=\varnothing$ and $C_1=\{(j,d)\}$ have identical sorts, affiliations and interpretations, and both satisfy [@eq:relations]. Their competence claims differ. Hence affiliations and interpretations alone do not entail a competence claim. Whether either claim is justified is a further normative and evidentiary question. This is a countermodel about the representation, not a proof of political freedom.
+*Proof.* Choose $j\in J$ and $d\in D$. The structures with $C_0=\varnothing$ and $C_1=\{(j,d)\}$ have identical sorts, affiliations and interpretations, and both satisfy [@eq:relations]. Their competence claims differ. Hence affiliations and interpretations alone do not entail a competence claim. Whether either claim is justified is a further normative and evidentiary question. The countermodel establishes the independence of the represented relations.
 :::
 
-The many-to-many map in [@fig:typed-relations] makes this limited result visible. Its separated jurisdiction layer is an argumentative obligation: connections across layers need warrants rather than an attractive connecting arrow.
+The many-to-many map in [@fig:typed-relations] displays this independence. Persons can sustain several affiliations; nations can draw on several state interpretations. The institution–decision relation occupies a separate layer because its warrant has to be supplied.
 
 ![Typed relations: persons may have several affiliations and nations several state interpretations. An institution's claimed competence is a distinct relation to a decision; no affiliation or interpretation arrow establishes authorization. Project-authored schematic, not an observed social network.](../figures/typed-relations.png){#fig:typed-relations width=95%}
 
+\Needspace{4\baselineskip}
 
 > Eternity is in love with the productions of time.
 
@@ -46,9 +51,13 @@ The proverb makes the temporal term affirmative: a friendship, language or publi
 
 Milton 32:10–38, E131–132, is the central textual anchor. The plate is also cited as 32[35], added plate e; an edition-neutral paper must retain that ambiguity until copy collation resolves the relation. In this passage combinations of individuals can express free brotherhood or tyrannical aggregation. The distinction directs attention to how people are combined, not simply to whether combination occurs. A nation or federation does not become emancipatory merely by aggregating more participants.
 
+\Needspace{4\baselineskip}
+
 > We are not Individuals but States: Combinations of Individuals
 
 Q01. William Blake, Milton 32:10, E131. [@blakeMilton].
+
+\Needspace{8\baselineskip}
 
 > But the Divine Humanity & Mercy gave us a Human Form as multitudes\
 > Because we were combind in Freedom & holy Brotherhood Vox Populi\
@@ -62,6 +71,8 @@ The dramatic setting matters. Milton converses on the Couch of Death with the Se
 
 The dimensions in line 18 do not themselves prove that measurement is tyrannical. The passage attacks their promotion into an exclusive holiness while imagination is called madness and blasphemy. A public body still needs budgets, population counts and water measurements. The reconstruction limits their claim to be sufficient descriptions of human existence. An institution that mistakes its register for a person repeats a pattern of reduction; the poem does not supply the correct administrative remedy.
 
+\Needspace{6\baselineskip}
+
 > Distinguish therefore States from Individuals in those States.\
 > States Change: but Individual Identities never change nor cease:\
 > You cannot go to Eternal Death in that which can never Die.
@@ -69,6 +80,8 @@ The dimensions in line 18 do not themselves prove that measurement is tyrannical
 Q03. William Blake, Milton 32:22-24, E132. [@blakeMilton].
 
 The contrast is not eternal collective states against replaceable persons: individual identities also endure. An account that preserves every state while sacrificing inconvenient individuals would fail at its textual center. Identity's endurance does not mean that an official can certify a person's unchanging real nature. The distinction should restrain the classifier's authority, including that of a benevolent Blake interpreter.
+
+\Needspace{10\baselineskip}
 
 > The Imagination is not a State: it is the Human Existence itself\
 > Affection or Love becomes a State, when divided from Imagination\
@@ -80,11 +93,12 @@ The contrast is not eternal collective states against replaceable persons: indiv
 
 Q04. William Blake, Milton 32:32-38, E132. [@blakeMilton].
 
-The sequence distinguishes several kinds of persistence and change. Memory and reason are states; a ratio can be created and annihilated; forms cannot. Imagination is expressly excluded from the inventory of states. A federation containing S therefore cannot claim to contain or exhaust Imagination. Even its inventory of enduring possibilities must remain revisable as an interpretation. This supports retaining rival models of statehood rather than encoding a definitive ontology and calling its persistence Blakean truth.
+Blake assigns endurance to individual identities and Forms while describing states that change, are created, or are annihilated. The proposed inversion needs a distinction within its own vocabulary. Here, an enduring state names a recurrent imaginative possibility; a nation names a historical formation through which such possibilities become articulate. Recurrence does not preserve the authority of a particular enactment. A national institution can lose its mandate while its history remains intelligible and its members retain their standing. Imagination exceeds this repertoire of interpretations, just as persons exceed an institution's account of them [@blakeMilton, 32:22–38, E132; @blakeJerusalem, plate 52, E200].
 
-The same passage separates states from the individual identities associated with them and distinguishes Imagination from a state. Both enduring identities and enduring states matter to the argument. It would invert the evidence to make individuals expendable temporal instances while assigning all permanence to collective forms. Nor can every use of state be treated as one immutable abstract essence: the passage names several different kinds of state and describes transformation. [@blakeMilton].
 
 Jerusalem 52, E200, and 73:44–45, E229, develop the distinction between persons and states through which they pass. The political extension proposed here is a guarantee that people may revise affiliations without losing basic standing. That extension is not a quotation or constitutional rule authored by Blake. The poems' theological, dramatic and visual organization must remain part of interpretation. A passage ledger is a reading instrument, not a replacement for reading the work. [@blakeJerusalem].
+
+\Needspace{7\baselineskip}
 
 > The Spiritual States of\
 > the Soul are all Eternal\
@@ -93,12 +107,16 @@ Jerusalem 52, E200, and 73:44–45, E229, develop the distinction between person
 
 Q05. William Blake, Jerusalem 52, right epigraph, E200. [@blakeJerusalem].
 
+\Needspace{5\baselineskip}
+
 > As the Pilgrim passes while the Country permanent remains\
 > So Men pass on: but States remain permanent for ever
 
 Q08. William Blake, Jerusalem 73:44-45, E229. [@blakeJerusalem].
 
 Q05 follows the right epigraph of plate 52, separately from its left epigraph and central heading; it is not numbered verse 1. Q08 is a simile of passage. A country remaining while a pilgrim moves through it does not establish that poetic states have territorial borders or governments. Passage can nevertheless organize a political question: what remains available to someone who leaves a collective classification? The proposed answer concerns portable standing, voice and practical means, rather than a metaphysical guarantee of effortless departure.
+
+\Needspace{7\baselineskip}
 
 > Albion hath enterd the State Satan! Be permanent O State!\
 > And be thou for ever accursed! that Albion may arise again:\
@@ -113,13 +131,15 @@ The eternity of Rahab or the availability of a state named Satan supplies a deci
 
 The Platonic hypothesis remains open. An essence model makes historical nations instances of stable forms; a possibility model treats states as recurrent relational possibilities; a dramatic model retains their place in a visionary narrative; a regulative model uses them to orient inquiry without constitutionalizing metaphysics. The present draft favors investigating possibility and drama while requiring publicly contestable institutional reasons. It does not claim that the corpus has settled this interpretive choice. The critical interlocutors developed below remain distinct from further leads in the annotated bibliography; their access and reading limits are preserved.
 
-The scholarly dispute cannot be reduced to pure Platonism against pure nominalism. Larrissy's publisher summary identifies a question about the extent and character of Blake's Neoplatonic inheritance, not an inventory of national archetypes; the chapter remains unread. Damrosch's selected printed pp.15-21 locate universality in particular manifestations and in Jesus, resisting detachable forms. His Cusanus comparison is explicitly distinguished from demonstrated influence (p.20 n.25). In the acquired preview, printed p.18 is PDF p.33, correcting the earlier conversion. [@larrissy1994]; [@damrosch1980].
+The dispute turns on the kind of permanence at stake. Larrissy frames Blake's Neoplatonic inheritance as a question of extent and character [@larrissy1994]. Damrosch locates universality in particular manifestations and in Jesus, resisting detachable forms; his Cusanus comparison is distinguished from a claim of demonstrated influence [@damrosch1980, pp. 15–21 and p. 20 n. 25]. The reconstruction accordingly treats recurrence as a relation among particular enactments rather than a national essence available for official certification.
 
-Lee's available introduction excerpt supplies another resistance to equating plasticity with emancipation: pre-existent form can protect identity against demands for indefinitely remaking life. The complete ten-page excerpt was read in the present research pass; the book and later chapters were not. A continually changing collective can still force people to adapt to an authorized future. A persistent claim about personhood may protect them against it. The institutional question concerns who invokes permanence or becoming, with what consequences. This is our political extension, not Lee's theory of federalism. [@lee2026].
+Lee's introduction complicates the equation of plasticity with emancipation: pre-existent form can protect identity against demands for indefinitely remaking life [@lee2026, pp. 1–10]. A continually changing collective can force people to adapt to an authorized future, while a persistent claim about personhood may protect them against it. The political question concerns who invokes permanence or becoming, and with what consequences.
 
 # Generation without biological nationalism {#sec:s3}
 
 Nation as the born or generations is the proposed conceptual extension, not an invented Blake quotation. Biological ancestry, historical founding, artistic production, migration, initiation into a practice and the emergence of a new public are different senses of generation. The theory cannot slide between them to make descent a citizenship test. A person not born locally must retain an arguable route into political membership; a person born within a recognized nation must retain the ability to dissent from its institutions.
+
+\Needspace{8\baselineskip}
 
 > In Great Eternity, every particular Form gives forth or Emanates\
 > Its own peculiar Light, & the Form is the Divine Vision\
@@ -135,11 +155,15 @@ Particularity is another constraint. Jerusalem 38, 55 and 91, alongside the crit
 
 Jerusalem 52 also contains polemic against Deists; its distinction between persons and states cannot simply be presented as an already secular guarantee of religious pluralism. Jerusalem 88 juxtaposes mutual interchange with a speaker's language of dominion. These contexts require a critical inheritance rather than an unqualified constitutional endorsement.
 
+\Needspace{6\baselineskip}
+
 > I elected Albion for my glory; I gave to him the Nations,\
 > Of the whole Earth. he was the Angel of my Presence: and all\
 > The Sons of God were Albions Sons: and Jerusalem was my joy.
 
 Q09. William Blake, Jerusalem 43:6-8, E191. [@blakeJerusalem].
+
+\Needspace{10\baselineskip}
 
 > What do I see? The Briton Saxon Roman Norman amalgamating\
 > In my Furnaces into One Nation the English: & taking refuge\
@@ -151,7 +175,9 @@ Q09. William Blake, Jerusalem 43:6-8, E191. [@blakeJerusalem].
 
 Q10. William Blake, Jerusalem 92:1-7, E252. [@blakeJerusalem].
 
-The countertexts are substantive. Jerusalem 43's election and gift-of-nations language, plate 92's amalgamation of historical peoples, and the closing vision complicate a straightforward pluralist reading. They invite criticism of Blake as well as criticism through Blake. National reciprocity in plate 27 must be read with these tensions; an unresolved E173/E174 edition discrepancy is retained rather than hidden. The program would fail exegetically if it selected only passages that already sound like contemporary liberal pluralism.
+The countertexts are substantive. Jerusalem 43's election and gift-of-nations language, plate 92's amalgamation of historical peoples, and the closing vision complicate a straightforward pluralist reading. They invite criticism of Blake as well as criticism through Blake. National reciprocity in plate 27 must be read with these tensions; for Jerusalem 27:85–88 this article follows the ASU transcription's E173 locator, while Fallon's submitted manuscript gives E174 [@blakeJerusalem; @fallon2015, submitted ms. p. 4]. The program would fail exegetically if it selected only passages that already sound like contemporary liberal pluralism.
+
+\Needspace{8\baselineskip}
 
 > When in Eternity Man converses with Man they enter\
 > Into each others Bosom (which are Universes of delight)\
@@ -163,26 +189,26 @@ Q11. William Blake, Jerusalem 88:3-5, 12-13, E246. Two excerpts; lines 6-11 omit
 
 Mutual interchange is followed, in the same speech, by a complaint about refusal of dominion. The omitted lines 6-11 describe embracing, separation, fear and emanations at the gates of humanity. A political appropriation must ask whether its ideal of union makes another person's refusal appear as a defect to overcome. The difficult context cannot be resolved by drawing equal nodes in a diagram.
 
-Fallon's complete submitted Homelands manuscript is the strongest newly read interlocutor on national mediation. PDF pp.1-4 examine situated vision and possessive Albion; pp.5-8 national manners and revolutionary disappointment; pp.9-12 destructive rooting and regenerative relations. The conclusion resists both possessive rootedness and abstract cosmopolitanism. It remains oriented toward Divine Humanity, not a defense of permanently plural constitutional peoples. Wright's detailed assimilation objection and Clark p.171 remain reported through Fallon. The current pass directly read only Clark's continuous opening pp.167-168: he challenges an assumed radical identity and situates the poem in a nationalist artistic economy, then develops provocative anti-Catholic and Tory-Ultra comparisons with a constitutional qualification. These are Clark's interpretations, not an uncontested historical verdict; the full chapter and its cited historians remain unread. [@fallon2015]; [@clark2006].
+National mediation and national possession are different relations. Fallon interprets the homeland as a setting for imaginative cultivation that opens toward other nations, while distinguishing regenerative growth from the Polypus's coercive aggregation. His explicit disagreement with Wright concerns whether this distinction holds: loving union may transform the character of relations or reproduce incorporation in a redemptive idiom [@fallon2015, submitted ms. pp. 10–12 and p. 12 n. 40]. Clark raises a different historical challenge by situating Jerusalem in a nationalist artistic economy [@clark2006, pp. 167–168]. Recognition of more national names leaves open the question of who can challenge the common account of what recognition means.
 
-A homeland can support memory and obligation without possessing its members. A mobile network can distribute extraction across borders. The character of relations matters more than a preference for roots or circulation. The proposal must also allow a people to challenge the language in which the federation recognizes it. Plurality under one compulsory final metaphysics would remain assimilationist.
+The temporal character of nations sharpens this requirement. Makdisi contrasts histories that absorb other peoples into one sequence of progress with Blake's heterogeneous prophetic present [@makdisi1998, pp. 1–3]. Nations can be historical productions without being ranked as earlier and later versions of the same authorized future. A community's refusal of the federation's self-description need not mark a failure to mature. The constitutional question is whether it can dispute that description while retaining voice, material security and an arguable claim to powers of its own.
 
-Matthews's publisher excerpt, pp.1-10, challenges accounts of late Blake as necessarily rejecting erotic life and historicizes the vocabulary of sex and sexuality. It reports competing feminist readings rather than eliminating difficulty by contextualization. Only that available excerpt was read, not the whole book or the critics it cites. A woman, religious dissenter or unaffiliated resident must be able to contest collective authority without accepting the designers' account of divine imagination. Historicizing Blake and justifying present powers are different tasks. [@matthews2011].
+Matthews historicizes the vocabulary of sex and sexuality and challenges the assumption that late Blake simply rejects erotic life [@matthews2011, pp. 1–10]. Historical context sharpens, rather than settles, the political question. A woman, dissenter or unaffiliated resident must be able to contest collective authority without accepting its account of divine imagination.
 
 Plural membership also leaves a second route to assimilation. A federation might recognize many communities while requiring every one to accept its final metaphysical description of humanity. The non-exhaustion rule must therefore constrain the federation's interpretive authority: people need standing to challenge the terms of recognition and the classifier's competence without first endorsing the poetic-state vocabulary. Historical creativity cannot warrant treating a people's refusal as imaginative immaturity. This is our contemporary objection and proposed burden of justification; it is not a newly verified claim from Wright's unavailable chapter.
 
 
 ## Gender and the supposedly universal subject
 
-Mellor's direct challenge is that imaginative reciprocity and sexual equality are different propositions. Her article questions whether brotherhood or androgyny already gives women equal agency (p.148), examines the gendered distribution of creative labor (pp.149–151), and interprets Jerusalem plate99 as an asymmetrical transformation (pp.151–152). Mutual dependence is not equal standing (p.153). Her concluding biographical inference about Catherine remains an attributed interpretation of reported materials, not biography independently established here [@mellor1982, pp. 148–155].
+Mellor distinguishes imaginative reciprocity from sexual equality. Brotherhood and androgyny can leave creative labor and authority unequally distributed; mutual dependence can coexist with subordination [@mellor1982, pp. 148–153]. Her reading of Jerusalem plate 99 challenges the apparent symmetry of the final transformation. The question for this reconstruction is therefore concrete: who can initiate a claim, interpret the common vocabulary, refuse a function and redistribute authority?
 
 The difficulty reaches the subject of our reconstruction. A grammar may insist that persons exceed classifications while reserving interpretation and decision for a privileged participant and assigning mediation, care or embodiment to others. Its universal person can therefore be partial before any classification begins. The test asks who may initiate a claim, refuse a function, interpret the shared vocabulary and redistribute authority. Neutral names for the sorts in [@def:typed] do not themselves remove a hierarchy built into their relations.
 
-Ostriker complicates both an entirely emancipatory Blake and a uniformly patriarchal system. Her four partly inconsistent orientations include liberation, complementarity, erotic confinement and female subordination (p.156). Oothoon's agency does not secure deliverance (pp.157–158); the late-poem critique presses the distribution of mediation and authority (pp.162–163). The conclusion rejects a simple linear replacement of one Blake by another (p.164); Erin is a qualified partial exception (p.165 n.16) [@ostriker1982]. Those four orientations are interpretive arguments, not a numerical constitutional architecture.
+Ostriker identifies four partly inconsistent orientations: liberation, complementarity, erotic confinement and female subordination. Oothoon's agency does not secure deliverance, and the late poems leave the distribution of mediation and authority contested [@ostriker1982, pp. 156–164]. These orientations cut across any simple story of an early emancipatory Blake followed by a uniformly patriarchal one. They direct attention to relationships within the proposed union, including the position of the person who refuses its promised harmony.
 
-These critics should be able to change the proposed inheritance. A passage promising deliverance cannot make every contrary relation a misunderstanding awaiting the same final harmony. A nation claiming to contribute to universal humanity must explain the standing of people who resist its image of union. If refusal can appear only as deficiency to be overcome, capture has returned at the interpretive level. We may retain a Blakean resource for criticism while declining a relation the poem presents as redemptive. That choice needs reasons beyond declaring the other reading insufficiently imaginative.
+Freedom to refuse must include the possibility of remaining. Mellor's criticism of gendered creative priority asks who determines the purposes of a shared world, even when everyone is said to contribute to it [@mellor1982, pp. 149–153]. Simpson's account of a person who affirms citizenship while contesting exclusion from membership puts a related problem in a different political setting [@simpson2007, pp. 76–78]. A person may reject an assigned role without wishing to abandon a people, place or relationship. Supported passage therefore needs a companion: standing to challenge the terms of participation from within. The federation must protect that challenge without requiring an exhaustive account of the claimant's identity or assuming that it originates the people's authority.
 
-The existing Q11 selection remains a useful adverse case: interchange and dominion coexist in its speech. Mellor's older Erdman pagination is not silently substituted for this paper's E246 locator. Neither critical essay supplies a new copy-specific image verdict. Equal circles in a diagram cannot decide whether a poetic transformation grants equal agency or freedom to withhold participation.
+Q11 places interchange and dominion in the same speech. Its juxtaposition tests the reconstruction more severely than a promise of union taken alone: the other participant's refusal must remain an action to answer, rather than a deficiency the whole is entitled to overcome.
 
 
 # Two architectures and a constitutional remainder {#sec:s4}
@@ -195,16 +221,16 @@ Architecture B distinguishes that imaginative constitution from a legal constitu
 
 Common personhood, bodily security, conscience, expression, due process, material access and contestability are independently introduced normative premises. They do not follow automatically from a poem. Differentiated arrangements may protect freedom where uniform administration reproduces dispossession; unequal institutional forms are not automatically unequal standing. But every asymmetry needs a reason, an affected population and a means of challenge.
 
-Three proposed mechanisms translate the grammar into institutional questions. A translation obligation requires accessible reasons across national narratives and an account of whom the deciding institution does not represent. A passage guarantee protects portable basic standing and practical affiliation change without eliminating legitimate continuing debts or duties. A non-exhaustion rule denies an organization's claim to speak every member's whole identity. None is presumed already endorsed as a final constitutional design.
+Three proposed mechanisms translate the grammar into institutional questions. A translation obligation requires accessible reasons across national narratives and an account of whom the deciding institution does not represent. A passage guarantee protects portable basic standing and practical affiliation change without eliminating legitimate continuing debts or duties. A non-exhaustion rule denies an organization's claim to speak every member's whole identity. Together, these mechanisms specify the institutional work of composition without capture.
 
 
 ## Translation without compulsory legibility
 
-Simpson's complete 2007 article makes refusal an issue of knowledge production as well as membership. Anthropology's possession of difference, sovereignty as method, gendered recognition and local disagreement are part of the argument (pp.67–75). The interview on pp.76–77 distinguishes lived citizenship from formal membership while withholding aspects of a personal predicament; the conclusion makes limits on recording integral to ethnographic responsibility (p.78). The situated treatment includes exclusion and disagreement within the community, not an unconditional endorsement of every boundary [@simpson2007, pp. 67–80]. The 2014 book remains a separate, unread object.
+Simpson makes refusal a question of knowledge production as well as membership. Her discussion of Kahnawake connects sovereignty, gendered recognition and local disagreement; the interview distinguishes lived citizenship from formal membership while withholding parts of a personal predicament. Stopping the recording becomes part of ethnographic responsibility [@simpson2007, pp. 67–78]. Translation, on this account, must attend to who controls the questions and the record.
 
 A passage guarantee should not require exhaustive legibility. A person may contest a classification without furnishing a replacement total identity. The translation obligation makes an institution's coercive act and competence answerable; it does not entitle the federation to complete cultural, familial or spiritual disclosure. Refusal of disclosure, membership, a particular decision and the forum's jurisdiction are different actions. None may be automatically recorded as missing data, administrative failure or assent.
 
-There is a hard converse: information protection cannot give officials an unlimited defense against people challenging exclusion. An affected person may need records a governing body prefers to withhold. A defensible procedure must identify the relevant decision, evidence, access rights, sensitive-information protections and the forum's warrant. Neither universal disclosure nor collective secrecy settles that conflict. The institutional procedure suggested here is our research proposal, not a method supplied by Simpson's ethnography.
+There is a hard converse: information protection cannot give officials an unlimited defense against people challenging exclusion. An affected person may need records a governing body prefers to withhold. A defensible procedure must identify the relevant decision, evidence, access rights, sensitive-information protections and the forum's warrant. Neither universal disclosure nor collective secrecy settles that conflict. The procedure must reconcile access to reasons with protection against compulsory disclosure.
 
 
 # Classification decisions and the institutional test {#sec:s5}
@@ -217,22 +243,23 @@ The Figure 13 caption, printed p.28/PDF p.30, associated with §12.2, supplies a
 
 The record also requires a contestation forum, voice, materially supported exit, revision, public reasons and representation limits. In resource decisions it asks who pays and who bears residual risk. Affected nonmembers must have standing. Treaty and refusal questions must receive their own treatment. Completing those fields does not prove that the described arrangements actually work; it makes missing warrants and exclusions inspectable.
 
-The software can flag a particular prohibited move, such as a vision ranking determining rights or a poetic interpretation serving as the sole basis for coercion. Its output means consistency with stipulated project safeguards. It does not mean lawful in California, politically legitimate, empirically emancipatory or metaphysically true. A body could fill in every field dishonestly; a person could face an inaccessible appeal despite a formally complete record. Evidence about practice would still be needed.
+The software flags specified transitions: a vision ranking determining rights, poetic interpretation serving as the sole warrant for coercion, or an affected population excluded from review. A completed record makes these claims available for inspection. Practical inquiry must then establish whether reasons are truthful, hearings accessible and remedies effective.
 
 Consider a recognition decision concerning a bilingual household. The entities are individual members, who retain standing; the role might be eligible users of a language service. The asserting body could be a municipal service board. Its competence requires a warrant to supply the service; its reach might be residents using specified facilities. An enforcement actor might recover a defined fee with reviewable limits. None of these statements authorizes the board to assign an eternal identity, govern the household abroad or suspend its ordinary franchise. This invented example exposes a transition the record must justify rather than hide within a national label.
 
 An Ostrom-informed extension asks who occupies a position, who can enter or leave it, what information is available, which actions are permitted, how choices are aggregated, and how costs and benefits are assigned. Authority to revise the rules must also be located. The present model records selected descriptive safeguards; it is not a complete Institutional Analysis and Development implementation. Field completion supplies no behavioral evidence.
 
 
-
 ## Who must activate review?
 
-The directly read Shachar article adds institutional detail beyond the earlier bounded materials for the 2001 book. Joint governance differentiates submatters, prohibits monopoly and identifies reversal points (pp.71–73). Independent legal advice and recorded choice are insufficient against loyalty pressures (pp.75–76). For the arbitration setting, review required before an award becomes enforceable shifts initiative away from the vulnerable party (pp.76–77); note89 includes secular as well as religious arbitration, and note90 proposes prior agreement on standards and potentially a joint body [@shachar2005]. These are contextual proposals, not evidence that overlapping authorities invariably reduce domination.
+Shachar's joint-governance proposal differentiates submatters, prohibits monopoly and identifies reversal points [@shachar2005, pp. 71–73]. Its treatment of arbitration also locates the burden of activating protection. Independent advice and recorded choice can leave loyalty pressures intact; review before an award becomes enforceable shifts initiative away from the vulnerable party [@shachar2005, pp. 75–77]. The mechanism matters because a right whose exercise jeopardizes housing, care or belonging may remain unused.
 
 Compare three arrangements while holding a person's dependency on housing, work and care constant. Exclusive association control may leave no effective remedy. A formal individual appeal may place every monetary and social cost on the dissenter. A defined review condition before enforcement may redistribute that burden, but can also create delay, professional gatekeeping or collusion. An unconditional public provision might reduce dependency more effectively than another jurisdictional forum. More institutions cannot become the result variable for freedom.
 
 A reviewer also needs justified competence, a standard, access to evidence, a workable timetable and means to make relief effective. Its funding, appointments, assumptions and accountability remain open to challenge. Protective review may be demanded by an excluded person and resisted as incorporation by a collective authority. The paper cannot pre-decide that conflict by calling either claim neutral. A jointly constituted forum is a candidate response whose warrant still has to be argued. Religious-arbitration proposals and treaty relationships cannot be assimilated into one class of voluntary associations.
 
+
+\Needspace{11\baselineskip}
 
 ::: {.definition #def:decision title="Classification and authority projection"}
 A compact analytical projection of a classification decision is
@@ -244,13 +271,19 @@ $$ {#eq:decision}
 where $e$ is the entity, $r$ its assigned role, $a$ the asserting institution, $w$ the stated classification and competence warrants, $\tau$ the temporal scope, $c$ the consequence, $\rho$ the affected reach, $\epsilon$ the enforcement actor and limits, and $q$ the contestation route. Issuing jurisdiction is a separately identified attribute of $a$; it is not interchangeable with reach or enforcement. The implemented decision schema expands this summary with distinct fields for rights, representation, costs, treaty/refusal treatment and revision. The tuple is an analytical projection, not the complete serialized schema [@friedman2026law, sec. 12.2 and Fig. 13].
 :::
 
+\Needspace{11\baselineskip}
+
 ::: {.axiom #ax:rights title="Proposed independent standing premise"}
 A person's basic standing is not conditional on a national affiliation, a poetic-state attribution, or an official's ranking of vision. This is an independently proposed normative premise of the institutional reconstruction. It is neither derived from [@def:typed] nor established by a Blake quotation.
 :::
 
+\Needspace{11\baselineskip}
+
 ::: {.axiom #ax:contest title="Proposed contestability premise"}
 An exercise of public power requires publicly assessable competence, affected-person standing, accessible challenge and a revisable account of its limits. Practical exit and voice must be considered separately; exit does not erase defensible continuing obligations. These are proposed criteria for criticism, not a complete constitution or a claim that affected-person standing resolves treaty jurisdiction [@pettit2005; @shachar2001].
 :::
+
+\Needspace{11\baselineskip}
 
 ::: {.remark #rem:non-exhaustion title="Non-exhaustion is not non-government"}
 An association may speak for a defined purpose without owning every member's voice. A jurisdiction may make a justified binding decision without representing every resident's identity. Non-exhaustion constrains the scope and warrant of representation; it cannot excuse unaccountable coercion by calling every institution merely partial.
@@ -261,37 +294,45 @@ An association may speak for a defined purpose without owning every member's voi
 
 Nicolaïdis's demoicracy is the closest concise comparator: plural peoples acting jointly without fusion into one demos. Her normative benchmark is not a description of every European practice, and an extension to overlapping intra-state nations requires new argument. Equal standing among peoples and equal influence among persons can conflict. The project must defend voting rules rather than promise that all forms of equality coincide. [@nicolaidis2013].
 
-The newly read Nicolaïdis author manuscript differentiates its normative benchmark from observed European Union (EU) practices. Author-PDF pp.7-8 bound the method geographically and resist universal export; pp.8-10 make non-domination and recognition jointly demanding; pp.12-15 address voting, rights, mediation and accountability. Its online-first pagination differs from final pp.351-369. Joint rule is a problem to solve, not a consequence of keeping several names for peoples. Mutual recognition must not mean endorsing other authorities' control of dissenters. This project extends the question to overlapping nations; it cannot inherit a solution through European vocabulary. [@nicolaidis2013].
+Nicolaïdis distinguishes a normative benchmark from observed European practice, develops recognition among demoi, and addresses voting, rights, mediation and accountability [@nicolaidis2013, author ms. pp. 7–16]. Joint rule concerns the terms on which people remain capable of governing together. Mutual recognition must therefore confront the control of dissenters within each constituent people as well as relations among its governing bodies.
 
-Kymlicka differentiates minority-rights claims; Shachar examines authority sharing and vulnerable insiders. Together they prevent recognition of a nation from becoming an undifferentiated entitlement to govern everyone classified within it. Exit cannot substitute for voice when departure costs housing, livelihood, language access or family relations. Their full institutional arguments require further reading beyond the bounded materials inspected here. [@kymlicka1995]; [@shachar2001].
+Kymlicka differentiates minority-rights claims; Shachar examines authority sharing and vulnerable insiders. Together they prevent recognition of a nation from becoming an undifferentiated entitlement to govern everyone classified within it. Exit cannot substitute for voice when departure costs housing, livelihood, language access or family relations. [@kymlicka1995]; [@shachar2001].
 
 Bauböck supplies a direct challenge to national-cultural autonomy based on politically consequential registers. A nominal choice among permitted identities may still impose exclusive identification, exclude mixed or new affiliations, and entangle franchise or taxation. Open cultural association and public jurisdiction must remain different relations. This objection cannot be answered by renaming an exclusive register fluid. [@baubock2001].
 
-The full December 2001 Bauböck working paper strengthens the objection beyond inconvenience. PDF pp.3-7 distinguish cultural liberty, recognition and political autonomy; pp.21-23 examine consequential affiliation, registers and exclusion of multiple identification; pp.24-26 resist separating cultural from general governmental interests. The conclusion generally favors territorial autonomy while retaining contextual exceptions. A many-to-many cultural map does not settle franchise. Giving a full public vote for every affiliation may duplicate influence; requiring one final affiliation restores exclusivity at the moment of decision. A response might distinguish equal general representation from several limited memberships, but must defend its scope, fiscal effects and provision for unrecognized people. Task-specific overlap does not by itself refute objections to nationality corporations exercising general public powers.
+Bauböck distinguishes cultural liberty, recognition and political autonomy, then examines consequential registers and the exclusion of multiple identification [@baubock2001, PDF pp. 3–7, 21–26]. A many-to-many cultural map leaves the franchise unsettled. A full public vote for every affiliation may duplicate influence; one compulsory final affiliation restores exclusivity at the point of decision. The response has to distinguish equal general representation from several limited memberships and defend its fiscal effects and provision for unrecognized people.
 
 Ostrom's polycentric governance asks about rules and performance; Hooghe and Marks distinguish general-purpose and task-specific architectures. Neither turns a cultural nation into a functional jurisdiction. Overlap can enable adaptation or diffuse responsibility. Water, labor, housing and revenue may resist tidy decomposition. Their historical California illustrations are not current evaluations of California institutions. [@ostrom2010]; [@hoogheMarks2003].
 
-Ostrom's complete main text, printed pp.641-665, separates resource properties, institutions and a framework of inquiry. Property is a bundle of rights (p.651); design principles are contextual regularities, not universal successful rules (pp.652-653). Her field and experimental evidence was read as reported evidence, not replicated. A Blakean interpretation cannot inherit empirical successes for a different institutional object. Performance requires observations of actual rules, people and material conditions. [@ostrom2010].
+Ostrom treats property as a bundle of rights and develops design principles as contextual regularities rather than universal rules [@ostrom2010, pp. 651–653]. This shifts the comparison from the number of governing bodies to the rules that organize entry, information, decisions, benefits and sanctions. A watershed authority must be assessed through those relations and the resource it governs.
 
-Hooghe and Marks's complete main text, pp.233-241, separates general-purpose Type I from task-specific Type II arrangements. Nonintersecting Type I memberships do not imply nonoverlapping competence: p.237 n.6 expressly permits overlap of competencies. Type II bodies often sit within Type I settings and have variable franchises (p.238); their democratic effects remain questions (p.241). Stable citizenship can coexist with shared water competence, and a functional body can exclude affected residents from its electorate. These are hypothetical distinctions, not results about California today. [@hoogheMarks2003].
+Hooghe and Marks distinguish general-purpose Type I from task-specific Type II arrangements. Nonintersecting Type I memberships can coexist with overlapping competencies; Type II bodies often operate within Type I settings and have variable franchises [@hoogheMarks2003, pp. 233–241, especially p. 237 n. 6]. Stable territorial citizenship can therefore coexist with shared water competence, while a functional body can still exclude affected residents from its electorate. Boundary overlap and democratic inclusion are separate questions.
 
-Indigenous treaty federalism and refusal pose a different question: a people may reject incorporation on the federation's terms. Henderson, Simpson and the scope's UN declaration references require specific historical and constitutional inquiry. They must not be absorbed into a menu of optional affinity associations. This draft makes no updated legal determination from those sources and does not treat a synthetic consent field as evidence of actual consent.
+Treaty federalism raises a prior question: a people may contest the federation's authority to incorporate it. This concerns the source of jurisdiction, rather than simply the range of cultural choices available within an accepted state. It changes what counts as agreement to the common institutions [@henderson2019; @simpson2007].
 
-Henderson's complete 2019 article is now read, upgrading the earlier selected pages. Treaty federalism is constitutive of Canadian authority in his argument, not an additional minority concession. Printed pp.21–25 distinguish inherent powers and continuing treaty relationships; pp.26–34 develop exclusion, reconciliation and overlapping or exclusive jurisdictions. His account retains territorial treaty governance rather than reducing it to portable identity (pp.34–35). Proposed structural and fiscal arrangements follow on pp.36–41. A tension must remain visible: p.38 suggests direct treaty representation could lessen reliance on consent, consultation and accommodation, while p.40 requires each Treaty Nation's legitimate consent to consolidation. Neither a universal consent rule nor representation alone can be attributed to him without qualification [@henderson2019]. His constitutional interpretation and proposals are not adopted as current legal determinations; the 1994 article remains metadata/contents only.
+Henderson treats treaty federalism as constitutive of Canadian authority, rather than an added minority concession. Inherent powers and continuing treaty relationships lead into a territorial account of treaty governance and proposals for structural and fiscal change [@henderson2019, pp. 21–41]. His institutional argument contains a consequential tension: direct treaty representation could lessen reliance on consent, consultation and accommodation (p. 38), while consolidation requires each Treaty Nation's legitimate consent (p. 40). Representation and agreement therefore have to be distinguished within the design itself.
 
 A federation cannot prove its title by first classifying every people as one of its constituents. Authority to recognize and allocate powers may itself be contested. The proposed record therefore needs a *jurisdictional remainder*: a question not presumed resolved when other fields are completed. This is our term. A people may negotiate without conceding that the forum originates its standing. Affiliation, residence, property claims, public competence and treaty relations remain separately describable, but decomposition does not make them materially independent. Dividing a land relationship into a language service and a water entitlement may discard the very claim under dispute.
 
 A delegate's presence, a mandate to negotiate, assent to a particular agreement and a continuing power to reopen it also differ. An ordinary shared decision cannot promise every person's agreement, yet a general majority cannot be assumed to dispose of every jurisdictional claim. The institutional task is to identify the form of agreement required for a decision and defend whose agreement counts. This proposed burden of justification remains contestable.
 
-The complete UN Declaration was read in its official March 2008 printing of the 2007 resolution. Articles 3-5 address self-determination and institutions; 18-19 participation and consultation toward consent; 25-28 land and redress; 32-35 projects and institutions; 36-37 cross-border relations and treaties. Articles 44 and 46 qualify selective reading through sex equality, human rights and territorial-integrity language. No universal veto or domestic enforceability finding is inferred. An ordinary association and a people asserting treaty relations must remain institutionally distinct. [@undrip2007].
+The UN Declaration connects self-determination and institutions (Articles 3–5), participation and consultation toward consent (18–19), land and redress (25–28), projects and institutions (32–35), and cross-border relations and treaties (36–37). Its sex-equality and human-rights provisions, alongside the territorial-integrity language of Article 46, require these claims to be read together [@undrip2007, Articles 3–5, 18–19, 25–28, 32–37, 44, 46]. A classification record must identify which relation and which decision are at issue.
 
-Pettit's directly read 2012 introduction excerpt, pp.1-10, makes non-capture more demanding than the absence of punishment. Asymmetric dependency can persist through control of housing, work or access; goodwill does not remove another's capacity to intervene (p.7). His distinction between protection from private power and protection from the protective state itself (pp.3-6) prevents treating any additional appeals authority as automatically emancipatory. Public interference need not dominate when appropriately controlled (p.10). This supports a quiet-domination counterexample without establishing any actual association's conduct. The 1997 book remains unread beyond its abstracts. [@pettit2012].
+Pettit's account makes non-capture more demanding than freedom from actual punishment. Dependency persists when someone controls access to housing, work or essential services, even if that power is exercised benevolently. Protection from private power and control of the protective state are separate requirements [@pettit2012, pp. 3–10]. A new appeals authority must therefore be assessed for the power it acquires as well as the protection it promises.
 
-The complete 2005 working paper distinguishes collective electoral authorization from control retained by persons in their plurality (printed pp.1-4). Its account of reactive, representative and anticipated contestation (pp.8-14) requires publicly available reasons and effective correction, while warning that representatives can become lobbies and appeals depend on impartiality. Voice, practical exit and revision are different burdens: a forum must hear a challenge; a person needs means to leave; rules and powers must be revisable. His expensive-exit example concerns international arrangements (p.15); its application to personal affiliation is an analogy proposed here, not his empirical finding. The institutional historical examples and aggregation argument were read as reported arguments, not independently replicated or updated. [@pettit2005].
+Pettit also distinguishes collective electoral authorization from the control retained by persons in their plurality. Reactive, representative and regulative contestation require public reasons and effective correction; representatives can nevertheless become lobbies, and appeals depend on impartiality [@pettit2005, pp. 1–4, 8–14]. Voice, practical exit and revision impose different demands: a forum must hear challenges, a person needs means to leave, and rules must be open to change.
 
-This changes what a future inquiry must observe. Low complaint or sanction counts could reflect trustworthy restraint, officials anticipating correction, residents fearing retaliation, or material dependence. A completed record cannot distinguish those possibilities. Ask who can obtain information, survive delay, secure an impartial hearing and make a remedy alter the original decision. Translation services and protectors themselves require scrutiny. Conversely, revising affiliation cannot automatically erase legitimate continuing duties or externalize common costs. These are proposed research questions, not effects demonstrated by the prototype.
+The relevant capacity is the power to make a challenge change what an authority may do. Pettit's account includes procedures that constrain decisions before a person must appeal [@pettit2005, pp. 9–14]. Shachar makes this concrete by proposing review as a condition of enforceability in family-law arbitration, with an agreed standard and an identified reviewing body [@shachar2005, pp. 75–77 and p. 76 nn. 89–90]. Applied to the hypothetical watershed, the comparison specifies who initiates scrutiny, who pays, what happens to essential provision during delay and whether relief can alter the allocation. A procedure that requires workers to risk their wages before it operates may preserve the dependency it promises to remedy.
 
-The new contribution is therefore not the discovery of multinational federalism, plural sovereignty or overlapping governance. The candidate contribution is a critical grammar connecting nonidentity, national generation and imaginative passage to inspectable institutional transitions. If established approaches already supply every useful institutional mechanism, the project must acknowledge that result and narrow its novelty claim.
+The contribution is a critical grammar joining nonidentity, national generation and imaginative passage to specific institutional transitions. Demoicracy supplies joint rule among plural peoples; autonomy and non-domination supply tests of power. Blake supplies a demanding account of the person who exceeds a present state. The proposed record asks where those accounts agree, where their demands conflict and what decision follows.
+
+## An institutional comparator: two chambers, resources and remedies
+
+The Swiss constitutional text examined here makes several equalities coexist through different institutions. Population-based representation in the National Council operates alongside a separate cantonal representation rule in the Council of States; federal parliamentary decisions require both chambers' agreement. Political rights cannot be exercised contemporaneously in several Cantons. Financial autonomy has its own provisions for sufficient resources and equalization [@swissConstitution2024, arts. 39(3), 47(2), 135, 149–150, 156(2)]. This historical English text, consolidated to 1 January 2024, identifies choices for the proposed federation: which units receive collective representation, how population affects influence, and how poorer participants obtain means to govern.
+
+Collective voice differs from a person's access to protection. The text ties the federal political franchise to Swiss citizenship and eligibility while providing procedural guarantees to every person, subject to specified conditions and exceptions [@swissConstitution2024, arts. 29–29a, 136]. Participation in an allocation hearing, access to legal assistance, a vote and a collective jurisdictional claim do different work. In the drought case, the federation must say which powers reach a migrant worker and what support makes them usable. Cantonal seats supply no answer to that question, and the court's jurisdiction and applicable-law provisions delimit the available remedy [@swissConstitution2024, arts. 189–190].
+
+The comparison separates territorial constituent units from cultural nations. It also exposes a substantive limit on treating any federation as a pluralist exemplar: Article 72(3) prohibits minarets [@swissConstitution2024, art. 72(3)]. Institutional diversity has to be examined alongside specific exclusions. Treaty relations pose the further question of the federation's title to decide, which a cantonal analogy does not settle.
 
 # Xeno California as a discriminating case program {#sec:s7}
 
@@ -324,10 +365,14 @@ Comparison must keep physical scarcity and the resource baseline explicit while 
 The record separates storage owner as property holder, supplier as service provider, watershed body as claimant of competence, and each enforcement actor. A valid scarcity measurement does not establish power to impose a levy; a valid levy does not establish that the board speaks every person's national identity. A successful cultural interpretation supplies neither warrant. The institutional test is useful when it locates these transitions clearly enough for opponents to dispute them.
 
 
-A further test concerns interim protection while the watershed body's title is disputed. Who must keep water flowing, who can survive delay, and which emergency measure protects life without being treated as a permanent settlement of title? A protective order may be demanded by a worker while its forum is rejected by a Treaty Nation. Neither the urgency nor the objection automatically disposes of the other warrant. The comparison must identify temporary duties, evidence, costs, duration and the procedure for revisiting the interim act. No current California facts or legal holdings are supplied by this invented scenario.
+A further test concerns interim protection while the watershed body's title is disputed. Who must keep water flowing, who can survive delay, and which emergency measure protects life without being treated as a permanent settlement of title? A protective order may be demanded by a worker while its forum is rejected by a Treaty Nation. Neither the urgency nor the objection automatically disposes of the other warrant. Compare the wealthy association's and the worker's ability to obtain interim relief under the same scarcity. Record the temporary duty, evidence, funding, duration and procedure for revisiting the act. No current California facts or legal holdings are supplied by this invented scenario.
 
-The executable E-bounded and E-capture records are narrower than this comparison. They test stipulated fields and prohibited transitions. They do not simulate E1-E3, calculate equitable allocations, establish consent or forecast ecological outcomes. Treating the green alternative as optimal policy would reproduce the movement from classification to authority that the article criticizes.
+The executable E-bounded and E-capture records test the stated safeguards. The E1–E3 comparison in [@fig:watershed-options] extends the argument by varying representation, decision scope and treaty relations while keeping the hypothetical scarcity in view.
 
+![Three arrangements for one hypothetical water conflict. E1 represents recognized associations, E2 uses a general territorial franchise, and E3 combines limited watershed competence with separate treaty negotiation and affected-person standing. The comparison organizes the questions developed in the text.](../figures/watershed-options.png){#fig:watershed-options width=98%}
+
+
+\Needspace{11\baselineskip}
 
 ::: {.definition #def:trace title="A stipulated rule trace"}
 Let $r_k(d)\in\{0,1\}$ be the result of safeguard predicate $k$ for a supplied decision, with $K=15$ in this implementation. The prototype's verdict is the conjunction
@@ -339,6 +384,8 @@ $$ {#eq:trace}
 This records consistency with the stipulated predicates. Conditional predicates may pass because their triggering condition is absent; a passing cell is not evidence that the condition was encountered or that a real safeguard works. The trace contains every evaluated predicate, rather than only failed findings. It is not a weighted freedom score, a legal determination, or a forecast.
 :::
 
+\Needspace{11\baselineskip}
+
 ::: {.proposition #prop:ablation title="Invariance under excluded descriptive labels"}
 Write $d=(x,\ell)$, where $x$ retains all tested safeguard and warrant fields and $\ell$ contains only the descriptive poetic-state and national-affiliation labels excluded from those predicates. If every $r_k$ depends only on $x$, then
 
@@ -349,18 +396,20 @@ $$ {#eq:ablation}
 *Proof.* Substituting either label assignment leaves each predicate unchanged; their conjunction in [@eq:trace] is therefore unchanged. The poetry-as-sole-warrant flag is held fixed in $x$, not erased with a descriptive label. The ten saved case comparisons instantiate this structural control; they do not establish that imaginative description has no effect in actual politics.
 :::
 
-The full check matrix in [@fig:case-traces] displays the stipulated verdicts alongside the limited countermodel of [@prop:ablation]. Passing bounded alternatives are deliberately constructed controls. Their green cells do not show institutional success.
+The matrix in [@fig:case-traces] displays every programmed result. Open teal marks record satisfied predicates, including untriggered conditions; filled rust marks locate violations. This makes the reason for each synthetic verdict visible alongside the descriptor-removal result of [@prop:ablation].
 
 ![All fifteen safeguard results for ten stipulated alternatives in five case families. Columns distinguish bounded and capture alternatives; a filled pass includes conditional checks whose trigger is absent. Failures identify violations of the project's proposed rules. No cell represents empirical effectiveness or legal authorization.](../figures/case-traces.png){#fig:case-traces width=98%}
 
 
 # Broader cultural identification can intensify capture {#sec:s8}
 
-Shagor Rahman's Myth of Objectivity profile in the 2025 Institute report, pp.124–130, proposes that broader cultural models can influence subordinate inference. Its developmental and artificial-intelligence claims remain speculative here. They belong to Rahman's contribution to a collective report, not to a theory newly attributed to Daniel Friedman. [@rahman2025].
+Rahman's Myth of Objectivity profile proposes that broader cultural models can influence subordinate inference [@rahman2025, pp. 124–130]. We use this speculative proposal to construct a counter-model: a federation may widen contextual understanding while strengthening conformity to a dominant prior.
 
-The counter-model matters because a federation could widen contextual understanding while strengthening conformity to a dominant prior. Greater social scale is consequently not an automatic measure of freedom or fourfold vision. Coordination and dissent protection need different outcomes. A system can achieve agreement by raising the cost of challenge rather than by making collective reasons more revisable.
+Coordination and dissent protection therefore need separate outcomes. Agreement can emerge from accessible reasons and revision, or from raising the cost of challenge. Graphical abstract 4 draws this distinction: the endpoint looks similar, but the available paths differ.
 
-A future model should vary control of communication, precision-setting power, information asymmetry and the material consequences of dissent while holding the coordination problem explicit. Rights constraints must remain independently justified. The current prototype deliberately supplies no scalar freedom score and infers nothing from the number of affiliations. Its controls prevent a built-in monotonic conclusion; they do not empirically establish Rahman's proposed mechanism.
+The comparison separates communication control, information asymmetry and the material consequences of dissent. It asks who sets the shared terms, whose disagreement is treated as noise, and whether a person can survive the cost of challenge. The prototype keeps rights and safeguards independent of affiliation count.
+
+\Needspace{9\baselineskip}
 
 > Now I a fourfold vision see\
 > And a fourfold vision is given to me\
@@ -371,29 +420,25 @@ A future model should vary control of communication, precision-setting power, in
 
 Q12. William Blake, Letter to Thomas Butts, 22 November 1802, verse 83-88, E722. [@blakeButts].
 
-Fourfold vision is treated as a discipline of partial perspectives and their relations. The poetic sequence supplies neither a diagnostic tool for ranking citizens nor evidence for four constitutional organs. The four opening graphical abstracts are an editorial arrangement requested for this draft. Their number has no constitutional or scientific significance.
+Fourfold vision guides attention to partial perspectives and their relations. In the institutional comparison, that means asking what each account reveals, what it excludes and how its claims can be challenged. The prototype varies the number of interpretive lenses while holding rights and safeguards fixed.
 
-A future comparison must separate coordination from protection of dissent. Arrangements can achieve equal agreement through accessible revision or through threats to livelihood. Broader cultural context might aid translation while its gatekeepers decide which disagreement counts as noise. Cultural scale, communication control, material dependency and remedies cannot become a single vision axis. This counter-model constrains the program without validating a new causal theory.
+This distinction joins the textual and institutional arguments. The person who passes through a state must retain standing when challenging the collective account of that state. Translation services, public reasons and review matter when they make that challenge practicable.
 
 # Coherence Rupture Regeneration and institutional revision {#sec:s9}
 
-Alexander Sabine's canonical expansion is Coherence–Rupture–Regeneration. The April 2026 letter and later phase-gating paper are interlocutors for examining accumulated practice, interruption and reconstruction. Repair can describe an application, but it does not replace Regeneration in the name. Golden Compass §19.4 already makes a portfolio connection; this project does not claim to introduce it there. [@sabine2026letter]; [@sabine2026phase].
+Coherence–Rupture–Regeneration offers a vocabulary for examining accumulated practice, interruption and reconstruction [@sabine2026letter; @sabine2026phase]. In institutional terms, the question is what survives revision: care relationships, language services, entitlements and unresolved claims may need continuity even when an abusive office is abolished.
 
-The letter's reported square-root-of-two optimum is conditional on its objective and allocation constraints. It provides no universal constitutional ratio. The inspected open phase-gating manuscript limits its setting, describes a toy simulation, retains an untested regeneration kernel and qualifies an earlier equation-identity claim. Manuscript pagination, the published chapter and code execution remain different evidence objects. No simulations were independently replicated for this project.
+Sabine's letter derives a square-root-of-two optimum for a specified allocation problem; the phase-gating paper develops a toy simulation with an untested regeneration kernel. Here their use is comparative: stabilization can preserve an exclusion, interruption can reopen a decision, and reconstruction can either redistribute authority or restore its monopoly. The constitutional assessment concerns rights, material security and the control of the revised institution.
 
-The political research question is how institutions can correct accumulated exclusions while preserving persons' rights, relationships and material security. Coherence may stabilize oppression; rupture may install another monopoly; regeneration may restore the arrangement that needed transformation. Amendment, negotiation, redistribution and abolition must be assessed by independent criteria. Nothing in the framework makes violence necessary or legitimate.
+Amendment, negotiation, redistribution and abolition are different forms of institutional revision. Each needs a trigger, an authorized procedure, continuity arrangements and an account of who pays. A change of officeholders leaves capture intact when it preserves the same unchecked power over dependent participants.
 
-Institutional revision makes the question concrete: what survives interruption? Care relationships, entitlements, language services and unresolved claims may need continuity even when an abusive office is abolished. Preserving them need not restore its monopoly. Conversely, a ritual of rupture can replace one sovereign interpreter with another. A future comparison should identify the revision trigger, who declares it, protections during transition, reconstruction costs and how dissenters contest the regenerated arrangement. These are political research questions, not deductions from a phase-gating equation.
+The decision record can follow a claim across this transition: who declares the interruption, which obligations continue, who authorizes the replacement and how dissenters reopen it. Regeneration becomes a question about redistributed powers and sustained relationships rather than a label that settles the outcome.
 
-# Portfolio continuity and targeted correction {#sec:s10}
+# Relation to earlier work {#sec:s10}
 
-Fourfold Vision supplies a methodological bridge by separating historical, formal, interpretive, software and rights warrants [@Friedman2026FourfoldVisionWilliamBlake196]. Mapping supplies corpus custody and provenance infrastructure [@Friedman2026MappingWilliamBlakeS179]. Doors supplies useful-boundary and person/state questions [@Friedman2026DoorsPerceptionAreThreshold007]; Agent and Niche provides relational ecology [@Friedman2025SynthesisAgentNiche021]; Golden Compass examines non-totalizing value and the recreation of domination [@Friedman2026GoldenCompassLunarFlux004]. Architecture of False Gods already discusses plural transnational cooperation [@Friedman2026ArchitectureFalseGodsWilliam115]. The Meta-Pragmatic Framework helps keep executable evidence distinct from justified ends [@friedman2026meta]. These lineage citations retain the version-specific extraction identities and reading ceilings; they do not transfer empirical support into the new institutional proposal.
+The reconstruction draws on earlier work connecting Blake, perception and methodological pluralism [@Friedman2026FourfoldVisionWilliamBlake196; @Friedman2026DoorsPerceptionAreThreshold007]. Its distinct task is institutional: to specify the relation between poetic states, historical nations and accountable decisions. The corpus tools supply passage provenance [@mappingCurrent], while the classification analysis supplies a method for following an entity across different institutional roles [@friedman2026law]. Models, executable evidence and justified ends retain separate functions [@friedman2026meta].
 
-The version crosswalk preserves the actual extraction read and its printed DOI where those differ from current metadata. The Mapping mirror in the live portfolio remains the earlier extraction; this project's corpus software is pinned to Blake v0.2.0 and the new working-paper DOI 10.5281/zenodo.23601681 [@mappingCurrent]. A later software publication does not silently make an older mirror its new text.
-
-Two proposed errata require full version comparison before any predecessor is changed [@Friedman2026BeforePragmatismHadName003; @Friedman2026ArchitectureFalseGodsWilliam115]. Before Pragmatism's supplemental America material is an excerpt with local numbering, not the complete poem. Angels and Governors must remain distinct. Architecture's attempted correction attributing Boston's Angel's refusal to Orc must itself be checked against the primary poem. This repository records the correction program; it does not publish unreviewed errata to other projects.
-
-The MathArt presentation is a distinct work [@Friedman2024MathArtStream8William038]; its documented code lives in an Active_InferAnts directory rather than a separate repository. A public 404 for the documented Fourfold project URL does not establish whether it is private, renamed or removed. Dedicated project repositories, portfolio mirrors, concept DOIs and version DOIs remain distinct.
+Version comparisons, related projects and proposed textual corrections are documented in the portfolio crosswalk. The article uses those materials as research context and develops its claims through the primary passages and political interlocutors examined here.
 
 # What the corpus analysis establishes {#sec:s11}
 
@@ -407,6 +452,8 @@ The source-bound workbench reconciles every stored occurrence and all {{COVERAGE
 
 The workbench additionally exposes all fifteen checks for each of ten alternatives in five synthetic case families, including rules whose conditions do not apply. Removing poetic-state and national-affiliation labels leaves these programmed assessments unchanged. That demonstrates the implementation's separation of interpretive labels and stipulated safeguards for these records; it does not test whether imaginative descriptions matter in political practice.
 
+
+\Needspace{11\baselineskip}
 
 ::: {.definition #def:coverage title="Source-unit coverage with an explicit denominator"}
 For query group $q$ and a fixed source-plane/role stratum $U_{pr}$, let $M_q$ be the set of units with at least one retained occurrence of a declared variant. Define
@@ -449,9 +496,9 @@ An ablation is especially important. Remove poetic-state descriptors while holdi
 
 The textual hypothesis loses force if its strongest passages cannot sustain the state/person distinction or if omitted countertexts substantially reverse the interpretation. The philosophical reconstruction loses its novelty if it adds only terminology to an existing account. The institutional proposal fails if it protects a minority by silencing a minority within it, makes exit feasible only for the wealthy, or lets functional overlap evade responsibility for harms.
 
-The positive sequence remains substantive article, then a typed compositional model once a concrete institutional operation is defined, then a critical text-image atlas with rival readings and rights-aware passage provenance. Category-theoretic or active-inference elaborations earn their place only by clarifying an actual problem. No Markov blanket supplies a border, and no optimization objective supplies justice.
+The research sequence begins with the article's textual and institutional comparisons, develops a typed decision model around a concrete operation, and then expands the critical text-image atlas. More elaborate formalisms earn their place by clarifying who acts, who is affected and how the act can be challenged.
 
-For the article to become submission-ready, the expanded reading still needs wider authorized scholarship and specialist challenge; central plates require copy-specific collation; portfolio errata require version comparison; and specialists in Blake and multinational or Indigenous constitutional politics need to criticize the argument. A result that the metaphysical grammar remains useful while the proposed institutions add little must remain acceptable. That willingness to lose a claim is part of composition without capture: the program must not claim possession of its own possible conclusions.
+The next stage combines copy-specific collation, criticism by Blake and federalism scholars, and comparison of the proposed decision procedure with existing institutions. The central question is whether the states/nations distinction changes what can be heard, challenged or revised in a concrete dispute.
 
 
 A particularly strong rival explanation is that independently defended political principles do all useful institutional work while the poetic vocabulary merely ornaments them, or even obscures a gendered or assimilative premise. The descriptor-removal result must leave that rival a genuine opportunity to win. Its programmed invariance establishes neither practical uselessness nor practical benefit of imaginative description. Future reception evidence would have to identify whose reasons became audible, which assumption changed, and whether this occurred without compelled metaphysical assent. Contradictory poetic resources can remain productive without becoming a guarantee that the proposed synthesis is right.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 — 25 October 2026
+
+- Redesign all four graphical abstracts and analytical figures with interwoven forms, a differentiated authority diagram and paired case traces.
+- Add a three-arrangement watershed comparison.
+- Tighten the argument, consolidate reading limits and replace the portfolio tour with scholarly context.
+- Retain the native pinned template renderer, exact Blake quotations, corpus custody and automatic numbering.
+
 ## 0.4.0 - 24 October 2026
 
 - Native, commit-pinned docxology/template PDF and HTML rendering, automatic formalism/equation/figure references, and a shared structured bibliography.

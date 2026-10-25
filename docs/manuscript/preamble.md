@@ -2,6 +2,7 @@
 
 ```latex
 \usepackage{graphicx}
+\usepackage{needspace}
 \usepackage{listings}
 \renewenvironment{quote}{\list{}{\rightmargin\leftmargin}\item\relax\begin{minipage}{\linewidth}}{\end{minipage}\endlist}
 \setcitestyle{authoryear,round,semicolon}

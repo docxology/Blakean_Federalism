@@ -2,19 +2,18 @@
   "paper": {
     "title": "States Change",
     "subtitle": "Blakean Federalism and composition without capture",
-    "date": "24 October 2026 · Private research draft 0.4.0",
-    "version": "0.4.0",
+    "date": "25 October 2026 \u00b7 Research draft 0.4.1",
+    "version": "0.4.1",
     "description": "Private source-bound research draft on poetic states, temporal nations, and accountable authority.",
     "cover": {
       "image": "../figures/abstract-1.png",
-      "alt": "Graphical abstract1: persons, temporal nations, poetic states and claimed institutional competence remain distinct."
+      "alt": "Interwoven historical nations, plural personal affiliations and recurring poetic-state interpretations."
     }
   },
   "authors": [
     {
       "name": "Daniel Ari Friedman",
-      "orcid": "0000-0001-6232-9096",
-      "affiliation": "Active Inference Institute"
+      "orcid": "0000-0001-6232-9096"
     }
   ],
   "metadata": {

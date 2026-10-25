@@ -107,7 +107,15 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "th, td {white-space: normal; overflow-wrap: anywhere;}",
         ".figure-full-size-link {left: auto; transform: none; width: 100%; max-width: 100%;}",
         "mjx-container[display] {max-width: 100%; overflow-x: auto;}",
+        ".graphical-cover img {width: 100%; height: auto;}",
         "</style>",
+        '<figure class="graphical-cover" id="graphical-cover">',
+        '<a href="../figures/abstract-1.png" aria-label="Open cover abstract at full size">',
+        (
+            '<img src="../figures/abstract-1.png" alt="Interwoven national formations, '
+            'plural affiliations and recurring poetic-state interpretations." /></a>'
+        ),
+        "<figcaption>Composition without capture.</figcaption></figure>",
         "```",
         "",
         r"\setcounter{page}{2}",
@@ -115,9 +123,24 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "",
     ]
     titles = (
-        "Text, reconstruction and public reasons",
-        "Make authority inspectable",
-        "Scale does not establish freedom",
+        "From passage to public reasons",
+        "Anatomy of a public decision",
+        "Agreement and the freedom to dissent",
+    )
+    descriptions = (
+        (
+            "Close reading identifies a passage and its context. Reconstruction develops "
+            "the political distinction. Institutional comparison specifies powers, "
+            "costs and review."
+        ),
+        (
+            "A proposed water levy separates the issuing body, its competence, affected reach "
+            "and enforcement. Reasons, standing and review make each claim answerable."
+        ),
+        (
+            "Agreement can emerge through translation and revision or through dependence and "
+            "gatekeeping. The comparison asks what it costs to challenge the shared decision."
+        ),
     )
     for number, title in enumerate(titles, start=2):
         front.extend(
@@ -125,16 +148,12 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 f"# Graphical abstract {number}: {title} {{.unnumbered .unlisted}}",
                 "",
                 (
-                    "![Project-authored schematic; the argument and its limitations "
+                    "![Project-authored graphical abstract; the argument and sources "
                     "are developed in the article.]"
                     f"(../figures/abstract-{number}.png){{#fig:abstract-{number} width=98%}}"
                 ),
                 "",
-                (
-                    "The diagram proposes questions and distinctions. It does not "
-                    "establish literary validity, political legitimacy or "
-                    "institutional effectiveness."
-                ),
+                descriptions[number - 2],
                 "",
                 r"\clearpage",
                 "",
@@ -166,10 +185,8 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 f"Credit: {asset.credit}. {asset.rights_basis}. [Item rights]({asset.rights_url}).",
                 "",
                 (
-                    "Uncropped historical impression, proportionally scaled for "
-                    "text-image criticism. Transcription and impression are not the "
-                    "same edition; no whole-copy collation or blanket corpus "
-                    "clearance is claimed."
+                    "Uncropped historical impression, proportionally scaled. "
+                    "The passage transcription is identified separately in the article."
                 ),
                 "",
                 r"\clearpage",

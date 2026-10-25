@@ -129,7 +129,7 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     receipt = PreparedPublication.model_validate_json(
         (target / "prepared-publication.json").read_bytes()
     )
-    assert len(receipt.figures) == 18
+    assert len(receipt.figures) == 20
     assert all(
         digest(target / "output/figures" / name) == value for name, value in receipt.figures.items()
     )
