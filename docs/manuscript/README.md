@@ -35,4 +35,4 @@ uv run ruff check src tests tools
 uv run ruff format --check src tests tools
 ~~~
 
-Application coverage must remain at least 90 percent and infrastructure at least 60 percent. Inspect every final PDF page and the live HTML separately; text extraction alone cannot establish layout quality. Bind the QA record to the actual output hashes. The repository and release remain private; no public Zenodo deposit or blanket corpus-image redistribution is authorized.
+Application coverage must remain at least 90 percent and infrastructure at least 60 percent; read both totals from the per-file report, since one combined floor cannot express two separate targets. The top-level README command enforces the application floor with its `--cov-fail-under` value. Inspect every final PDF page and the live HTML separately; text extraction alone cannot establish layout quality. Bind the QA record to the actual output hashes. The repository and release remain private; no public Zenodo deposit or blanket corpus-image redistribution is authorized.
