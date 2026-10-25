@@ -101,13 +101,24 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "```{=html}",
         "<style>",
         "html {color-scheme: light;}",
-        "a:any-link:not(.skip-link) {color: #235f5a;}",
+        "a:any-link, a:any-link *, #TOC a:any-link {color: #b00020 !important;}",
+        "h1, h2, h3, h4, h5, h6 {color: #000 !important; border-color: #b00020 !important;}",
+        "html, body, main, article {color: #000 !important; background: #fff !important;}",
+        ":root {--brand-1:#b00020 !important; --web-bg:#fff !important;",
+        "--web-surface:#fff !important; --web-text:#000 !important;",
+        "--web-border:#ccc !important;}",
+        "th, pre, code {background:#f2f2f2 !important; color:#000 !important;}",
+        ".toc, #TOC {background:#f2f2f2 !important; border-color:#ccc !important;}",
+        ".skip-link {background:#fff !important;}",
+        "img, .figure img {border-color:#ccc !important;}",
+        "*:focus-visible {outline-color:#b00020 !important;}",
         ".table-scroll > table {table-layout: fixed; width: 100%; min-width: 100%;}",
         ".table-scroll col {width: auto !important;}",
         "th, td {white-space: normal; overflow-wrap: anywhere;}",
         ".figure-full-size-link {left: auto; transform: none; width: 100%; max-width: 100%;}",
         "mjx-container[display] {max-width: 100%; overflow-x: auto;}",
         ".graphical-cover img {width: 100%; height: auto;}",
+        "figure img {height: auto !important;}",
         "</style>",
         '<figure class="graphical-cover" id="graphical-cover">',
         '<a href="../figures/abstract-1.png" aria-label="Open cover abstract at full size">',
@@ -123,24 +134,17 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "",
     ]
     titles = (
-        "From passage to public reasons",
-        "Anatomy of a public decision",
-        "Agreement and the freedom to dissent",
+        "Scholarly disagreements and institutional questions",
+        "A decision from classification to revision",
+        "Corpus retrieval and synthetic decision traces",
     )
     descriptions = (
         (
-            "Close reading identifies a passage and its context. Reconstruction develops "
-            "the political distinction. Institutional comparison specifies powers, "
-            "costs and review."
+            "Six disputes connect passages to permanence, nation, gender, refusal, "
+            "opposition and review."
         ),
-        (
-            "A proposed water levy separates the issuing body, its competence, affected reach "
-            "and enforcement. Reasons, standing and review make each claim answerable."
-        ),
-        (
-            "Agreement can emerge through translation and revision or through dependence and "
-            "gatekeeping. The comparison asks what it costs to challenge the shared decision."
-        ),
+        "Six stages trace a water decision through roles, powers, burdens, challenge and revision.",
+        "The pinned source census and passage counts accompany every synthetic case-pair result.",
     )
     for number, title in enumerate(titles, start=2):
         front.extend(
@@ -164,9 +168,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     atlas: list[str] = [
         r"\clearpage",
         "",
-        "# Critical plate atlas {#sec:atlas}",
+        "# Plate sources and credits {#sec:atlas}",
         "",
-        ("Copies, dates, source transcriptions and rights are distinct evidence objects."),
+        (
+            "Six uncropped Library of Congress reproductions accompany the main-text readings. "
+            "The item-attached advisory reports no known U.S. restrictions; it is not a CC0 "
+            "license. Each caption identifies the impression separately from the ASU transcription."
+        ),
         "",
     ]
     for asset in report.images:
@@ -177,19 +185,9 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             [
                 f"## {asset.asset_id}: selected impression",
                 "",
-                (
-                    f"![{asset.caption}](../figures/{target.name})"
-                    f"{{#fig:plate-{asset.asset_id} height=5.5in}}"
-                ),
+                asset.caption,
                 "",
-                f"Credit: {asset.credit}. {asset.rights_basis}. [Item rights]({asset.rights_url}).",
-                "",
-                (
-                    "Uncropped historical impression, proportionally scaled. "
-                    "The passage transcription is identified separately in the article."
-                ),
-                "",
-                r"\clearpage",
+                f"Credit: {asset.credit}. [Item rights]({asset.rights_url}).",
                 "",
             ]
         )

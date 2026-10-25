@@ -235,3 +235,24 @@ def test_pdf_is_byte_identical_across_independent_input_locations(manuscript):
     first_pdf = render(root, root / "analysis_output/first")
     second_pdf = render(second, second / "analysis_output/second")
     assert first_pdf.read_bytes() == second_pdf.read_bytes()
+
+
+@pytest.mark.parametrize("missing", [None, "J27", "J99", "unexpected"])
+def test_new_selection_requires_exact_six_plates_while_old_epoch_stays_valid(manuscript, missing):
+    root, spec = manuscript
+    markdown = "> Persons & states\n\n" * 4
+    assert validate_manuscript(root, spec, markdown)
+    data = spec.model_dump(mode="json")
+    data["version"] = "0.5.0"
+    template = next(a for a in data["assets"] if a["kind"] == "image")
+    data["assets"].extend([template | {"asset_id": name} for name in ("J27", "J99")])
+    if missing in ("J27", "J99"):
+        data["assets"] = [a for a in data["assets"] if a["asset_id"] != missing]
+    if missing == "unexpected":
+        data["assets"].append(template | {"asset_id": "J100"})
+    current = ManuscriptSpec.model_validate(data)
+    if missing is None:
+        assert len(validate_manuscript(root, current, markdown)) == len(current.assets)
+    else:
+        with pytest.raises(ResearchError, match="image_set"):
+            validate_manuscript(root, current, markdown)

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-federalism"
-version = "0.4.1"
+version = "0.5.0"
 readme = "README.md"
 authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
@@ -53,6 +53,7 @@ max-complexity = 15
 # Native imports follow explicit selection of the pinned template source; stdout is a worker result.
 "tools/render_manuscript.py" = ["PLR0913", "PLR0917", "PLR2004", "T201"]
 "src/blakean_federalism/publication_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/figure_style.py" = ["PLR0913", "PLR0917"]
 # Figure primitives expose positional geometry; numeric thresholds are visual layout values.
 "src/blakean_federalism/cli.py" = ["PLR0913", "PLR0917"]
 # Click command signatures expose explicit options rather than an opaque options bag.

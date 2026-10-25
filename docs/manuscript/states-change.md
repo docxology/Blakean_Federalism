@@ -93,6 +93,9 @@ The contrast is not eternal collective states against replaceable persons: indiv
 
 Q04. William Blake, Milton 32:32-38, E132. [@blakeMilton].
 
+
+![Milton, copy D, leaf 35 (text M32). The separation of individual identities, changing states and imagination occupies one designed page. LOC, Rosenwald Collection, item 48031331; approximately 1815?.](../figures/plate-M32.jpg){#fig:plate-M32 height=3.8in}
+
 Blake assigns endurance to individual identities and Forms while describing states that change, are created, or are annihilated. The proposed inversion needs a distinction within its own vocabulary. Here, an enduring state names a recurrent imaginative possibility; a nation names a historical formation through which such possibilities become articulate. Recurrence does not preserve the authority of a particular enactment. A national institution can lose its mandate while its history remains intelligible and its members retain their standing. Imagination exceeds this repertoire of interpretations, just as persons exceed an institution's account of them [@blakeMilton, 32:22–38, E132; @blakeJerusalem, plate 52, E200].
 
 
@@ -107,12 +110,18 @@ Jerusalem 52, E200, and 73:44–45, E229, develop the distinction between person
 
 Q05. William Blake, Jerusalem 52, right epigraph, E200. [@blakeJerusalem].
 
+
+![Jerusalem 52, copy I. The two epigraphs flank To the Deists: their placement distinguishes the statement on persons and permanent states from a continuous numbered verse. Posthumous impression, approximately 1832?; LOC, Rosenwald Collection, item 48038103.](../figures/plate-J52.jpg){#fig:plate-J52 height=3.8in}
+
 \Needspace{5\baselineskip}
 
 > As the Pilgrim passes while the Country permanent remains\
 > So Men pass on: but States remain permanent for ever
 
 Q08. William Blake, Jerusalem 73:44-45, E229. [@blakeJerusalem].
+
+
+![Jerusalem 73, copy I. The pilgrim simile shares a sheet with Los’s work at the anvil, placing passage within a scene of labor and provision. Posthumous impression, approximately 1832?; LOC, Rosenwald Collection, item 48038103.](../figures/plate-J73.jpg){#fig:plate-J73 height=3.8in}
 
 Q05 follows the right epigraph of plate 52, separately from its left epigraph and central heading; it is not numbered verse 1. Q08 is a simile of passage. A country remaining while a pilgrim moves through it does not establish that poetic states have territorial borders or governments. Passage can nevertheless organize a political question: what remains available to someone who leaves a collective classification? The proposed answer concerns portable standing, voice and practical means, rather than a metaphysical guarantee of effortless departure.
 
@@ -150,6 +159,9 @@ Nation as the born or generations is the proposed conceptual extension, not an i
 Q07. William Blake, Jerusalem 54:1-5, E203. [@blakeJerusalem].
 
 Emanation also resists a simple temporal production function. Jerusalem 54:1–5, E203, places emanation in Great Eternity. Its gendered, relational and theological dimensions cannot simply be replaced by a nation-making operator. The formal prototype therefore uses explicit affiliation and classification fields rather than claiming that nations computationally emanate from eternal states.
+
+
+![Jerusalem 54, copy I. The opening emanation passage and the diagram of Reason, Pity, Wrath and Desire occupy the same page. Posthumous impression, approximately 1832?; LOC, Rosenwald Collection, item 48038103.](../figures/plate-J54.jpg){#fig:plate-J54 height=3.8in}
 
 Particularity is another constraint. Jerusalem 38, 55 and 91, alongside the critique of consuming abstraction in plate 10, require the program to ask whether its categories obscure the lives they describe. Generalized national essences would undermine the intended distinction between persons and states. Conversely, refusing all categories would not eliminate the actual administrative powers through which services, sanctions and benefits are distributed. The task is to make classifications partial, warranted and challengeable.
 
@@ -198,9 +210,36 @@ Matthews historicizes the vocabulary of sex and sexuality and challenges the ass
 Plural membership also leaves a second route to assimilation. A federation might recognize many communities while requiring every one to accept its final metaphysical description of humanity. The non-exhaustion rule must therefore constrain the federation's interpretive authority: people need standing to challenge the terms of recognition and the classifier's competence without first endorsing the poetic-state vocabulary. Historical creativity cannot warrant treating a people's refusal as imaginative immaturity. This is our contemporary objection and proposed burden of justification; it is not a newly verified claim from Wright's unavailable chapter.
 
 
+## Exchange makes national particularity relational
+
+The closing stanza of *To the Jews* names a mutual action rather than the merger of lands into one national subject:
+
+
+\Needspace{9\baselineskip}
+
+> In my Exchanges every Land\
+> Shall walk, & mine in every Land,\
+> Mutual shall build Jerusalem:\
+> Both heart in heart & hand in hand.
+
+Q14. William Blake, Jerusalem 27:85–88, E173. [@blakeJerusalem].
+
+The grammar joins distinct agents through exchange: each land walks in the other's exchanges, and both build. The reciprocal terms support a relation among national productions rather than a single owner of the universal. Yet the prose address framing this stanza makes religious claims about Jews and the Bible. Reciprocity in the verse cannot erase the conversionary and supersessionist pressure a reader may find in that address. A federation that adopts the exchange image has to defend participation without demanding a common redemptive history. Fallon’s account of a situated national opening and the competing incorporation reading therefore confront the same material page [@fallon2015, submitted ms. pp. 4, 10–12; @blakeJerusalem, plate 27, E171–174].
+
+
+![Jerusalem 27, To the Jews, copy I. The closing exchange stanza appears in the right verse column below the prose address. Posthumous impression, approximately 1832?; LOC, Rosenwald Collection, item 48038103.](../figures/plate-J27.jpg){#fig:plate-J27 height=3.8in}
+
+The exchange image changes the institutional question from how many cultures are recognized to who controls the exchange. A language service can widen participation while a compulsory identity register narrows it. The proposed decision record therefore distinguishes the provider, recipient, assigned role and public consequence. The parties need power to negotiate terms, refuse an offered classification and contest the institution that certifies their common good.
+
+Kaplan connects this address to the poem's criticism of patriarchal possession: a family elevated over the rest of the world can become an instrument of destruction [@kaplan1996Patriarchy, pp. 68–69]. This gives the national argument an internal rather than merely external test. A nation can participate in exchange while retaining an exclusive right to decide which members embody its authentic history. Conversely, a federation can condemn national self-enclosure while absorbing every people's account of its origins into its own story. The proposed reconstruction must refuse both privileges. A people should be able to dispute a common narrative without thereby surrendering its voice in shared affairs; its officers should face challenges from those whom its own narrative misrecognizes.
+
+Heppner's reading of the early drawing catalogued as Butlin 92 makes the woman-city an agent rather than simply a destination. He proposes reading a supposed number as Gog's name and understands the descending Jerusalem as driving him away. His comparison with biblical narratives and earlier designs makes compositional transformation consequential: the image can generate a prophetic relation rather than merely reproduce an antecedent text [@heppner1986Jerusalem, pp. 4–5, 9–10]. This reading prevents us from treating every female personification as passive by definition. It also opens a harder question for the political reconstruction: whose agency is represented when a nation appears as a woman? The force of a collective personification cannot stand in for the powers of the women, workers or dissenters associated with it.
+
 ## Gender and the supposedly universal subject
 
 Mellor distinguishes imaginative reciprocity from sexual equality. Brotherhood and androgyny can leave creative labor and authority unequally distributed; mutual dependence can coexist with subordination [@mellor1982, pp. 148–153]. Her reading of Jerusalem plate 99 challenges the apparent symmetry of the final transformation. The question for this reconstruction is therefore concrete: who can initiate a claim, interpret the common vocabulary, refuse a function and redistribute authority?
+
+Kaplan's central distinction sharpens the manuscript's gender objection. An attack on possessive patriarchs need not produce equal authority between genders. A brotherhood can redistribute power among men while leaving women responsible for the relations through which that fraternity becomes possible [@kaplan1996Patriarchy, pp. 70–71, 77–78]. The relevant rival interpretation therefore accepts much of the emancipatory reading before challenging its conclusion. Deliverance from jealous ownership, criticism of punitive morality and affirmation of sexual life may coexist with a hierarchy of creative subjects and emanated participants. Listing those emancipatory commitments does not answer the objection. The reconstruction has to explain which relations it can inherit and which it must transform.
 
 The difficulty reaches the subject of our reconstruction. A grammar may insist that persons exceed classifications while reserving interpretation and decision for a privileged participant and assigning mediation, care or embodiment to others. Its universal person can therefore be partial before any classification begins. The test asks who may initiate a claim, refuse a function, interpret the shared vocabulary and redistribute authority. Neutral names for the sorts in [@def:typed] do not themselves remove a hierarchy built into their relations.
 
@@ -210,6 +249,25 @@ Freedom to refuse must include the possibility of remaining. Mellor's criticism 
 
 Q11 places interchange and dominion in the same speech. Its juxtaposition tests the reconstruction more severely than a promise of union taken alone: the other participant's refusal must remain an action to answer, rather than a deficiency the whole is entitled to overcome.
 
+
+\Needspace{9\baselineskip}
+
+> All Human Forms identified even Tree Metal Earth & Stone. all\
+> Human Forms identified, living going forth & returning wearied\
+> Into the Planetary lives of Years Months Days & Hours reposing\
+> And then Awaking into his Bosom in the Life of Immortality.\
+> And I heard the Name of their Emanations they are named Jerusalem
+
+Q15. William Blake, Jerusalem 99:1–5, E258–259. [@blakeJerusalem].
+
+The ending moves through years, months, days and hours into renewed life; it neither abandons temporal rhythms nor supplies an institutional voting rule. Plate 99 places the naming of emanations above a design of intertwined forms. Read alongside the dominion language of Q11, this juxtaposition turns the distribution of agency into a question for the theory: who names the shared life, and who can refuse an assigned part in it? Mellor’s account of gendered creative priority and Ostriker’s analysis of female bodies make the attractive image of union answerable to these questions [@mellor1982, pp. 149–153; @ostriker1982, pp. 162–165]. A shared world needs participants who can interpret and revise its terms, including from within a continuing relationship.
+
+
+The plate 99 dispute makes that test unusually precise. Kaplan disagrees with Mellor's interpretation of Jerusalem's musculature, attributing it instead to problems of drawing and the influence of Michelangelo. He nevertheless locates absorption in the embrace and its narrative setting [@kaplan1996Patriarchy, p. 82 n. 27]. Agreement on the political objection thus does not establish agreement on its visual evidence. A stronger response must distinguish the contested bodily feature from the relation inferred between the figures. It cannot dismiss the larger criticism merely by offering another explanation of musculature, or certify that criticism by treating bodily appearance as an unambiguous code.
+
+The final five lines also complicate a complete disappearance thesis: their last act names the emanations Jerusalem [@blakeJerusalem, 99:1–5, E258–259]. Naming can register persistence without establishing an equal capacity to initiate, refuse or judge. Conversely, an image of union need not by itself demonstrate the elimination of every difference. The issue is what account of agency makes these features cohere. The political construction should therefore treat reciprocal union and assimilation as rival readings whose explanatory burdens remain visible. Its own commitment is that common life must leave participants able to contest their assigned part. That commitment cannot depend on proving that the poem's conclusion has already achieved it.
+
+![Jerusalem 99, copy I. The final five lines stand above intertwined human forms. The design makes union visible while leaving the distribution of agency open to interpretation. Posthumous impression, approximately 1832?; LOC, Rosenwald Collection, item 48038103.](../figures/plate-J99.jpg){#fig:plate-J99 height=3.8in}
 
 # Two architectures and a constitutional remainder {#sec:s4}
 
@@ -232,6 +290,18 @@ A passage guarantee should not require exhaustive legibility. A person may conte
 
 There is a hard converse: information protection cannot give officials an unlimited defense against people challenging exclusion. An affected person may need records a governing body prefers to withhold. A defensible procedure must identify the relevant decision, evidence, access rights, sensitive-information protections and the forum's warrant. Neither universal disclosure nor collective secrecy settles that conflict. The procedure must reconcile access to reasons with protection against compulsory disclosure.
 
+
+## Counterpublics and the means of contestation
+
+Fraser makes the right to remain collective as well as individual. Her counterpublics provide settings in which subordinated people develop interpretations of their needs and identities; their withdrawal and regrouping can support intervention in wider public debate. She also warns that counterpublics can reproduce exclusion [@fraser1992PublicSphere, pp. 122–124]. A federation should therefore protect the formation of opposition within and across recognized nations without equating every opposition with a new sovereign unit. A women's forum, a workers' publication or an unaffiliated residents' assembly may need resources and access to common institutions while refusing the claim to represent an entire people. Cultural plurality cannot be measured only by the organizations already awarded seats.
+
+Her argument about participation also exceeds the removal of formal barriers: unequal social relations can continue to structure discussion after a forum admits everyone [@fraser1992PublicSphere, pp. 118–121]. In this reconstruction, reimbursement for a hearing cannot be assumed to neutralize dependence on an employer or an association that controls housing. Support must reach the conditions under which people prepare, speak and return to daily life. A study should therefore examine who can lose work, care or accommodation through contestation, alongside who appears on a participant list.
+
+This changes what the translation obligation must secure. A claimant needs more than permission to submit reasons in an authorized language: people need places and time to formulate reasons together before presenting them to a body they oppose. Funding only official national representatives can make dissent dependent on the very institutions it challenges. A possible arrangement would support independent meeting space, interpretation, childcare and circulation of arguments, with allocation criteria that opponents can themselves question. These are proposals for the present reconstruction. They do not follow from labeling a group a counterpublic, and their effect would depend on whether participants actually control the relevant means.
+
+Fraser distinguishes publics that form opinion from those that also make decisions, then raises the accountability of decision-making bodies to people affected outside them [@fraser1992PublicSphere, pp. 134–136]. That distinction exposes a weakness in a record that simply names a consultation forum. A resident may be fully heard while every consequential power remains elsewhere. The record must identify what can change after an intervention: the agenda, the evidence considered, an allocation, an enforcement condition or the rule of representation. Different bodies can carry different powers, but the connection between argument and decision must be stated. Independence from officials and influence over officials are separate institutional achievements.
+
+This also prevents counterpublics from becoming another compulsory national taxonomy. People may organize around an injury that crosses languages and histories, or around an exclusion inside a recognized community. They need not prove a distinct collective essence to secure a hearing. The federation's obligation would concern access and power for the specified dispute, not the certification of an additional permanent identity. A shared world remains open when its participants can create new sites of argument without obtaining prior approval for their account of who they are.
 
 # Classification decisions and the institutional test {#sec:s5}
 
@@ -334,6 +404,18 @@ Collective voice differs from a person's access to protection. The text ties the
 
 The comparison separates territorial constituent units from cultural nations. It also exposes a substantive limit on treating any federation as a pluralist exemplar: Article 72(3) prohibits minarets [@swissConstitution2024, art. 72(3)]. Institutional diversity has to be examined alongside specific exclusions. Treaty relations pose the further question of the federation's title to decide, which a cantonal analogy does not settle.
 
+## Revising the procedures of recognition
+
+Tully places the governing procedure within the dispute. His dialogical approach allows challenges to norms of recognition and to the procedures through which those norms are negotiated; reasonable disagreement need not disappear after a settlement [@tully2006Recognition, pp. 24–27]. This supplies a more demanding interpretation of revision than an amendment field. A person can have a route to appeal while being forbidden to challenge the categories that made the decision possible. The reconstruction should distinguish correcting a mistaken classification, changing its consequences, revising the classification rule and contesting the institution's authority to impose that rule. Success at one level cannot be presumed to settle the others.
+
+Non-finality does not require every decision to wait for unanimity. Tully distinguishes dialogue from decision-making and retains other institutions as checks where negotiation leaves minorities vulnerable. He also asks whether ostensibly inclusive negotiations are governed at a distance through their agendas and resource inequalities [@tully2006Recognition, pp. 29–31]. Our response must therefore specify how an act can bind provisionally while its basis remains contestable. A decision could have an effective date, a review trigger and continuing protective duties without declaring that participation ratifies the forum's entire jurisdiction. Equally, repeated negotiation should not allow those who control essential resources to postpone relief indefinitely. A timetable distributes power when some parties can survive delay and others cannot.
+
+National continuity and public contestation need different guarantees. A nation may sustain language, institutions and a claim to self-government across generations; a public may organize around one controversy and dissolve when its work changes. Giving each public a constituent veto would allow organizational multiplication to reorder the federation without a defended rule. Giving only established nations agenda rights would let inherited recognition suppress emerging opposition. A possible division would protect collective self-government through specified competences while securing direct channels for people contesting their exercise. Its legitimacy would depend on the relation between the two, including who may reopen their boundaries. Neither the age of an institution nor the novelty of its challengers determines that answer.
+
+In the hypothetical drought, this would separate three questions currently liable to collapse. Workers need drinking water and a practicable role in decisions affecting their lives. A Treaty Nation may contest the watershed body's title to allocate water. Residents may challenge an upstream association's control of storage while declining membership in it. These claims concern intersecting material relations but do not carry identical warrants. A temporary provision agreement should identify who undertakes the duty, who funds it, what participation authorizes and which jurisdictional claims remain unsettled. The preservation of a claim cannot itself supply water; the supply of water cannot silently extinguish the claim.
+
+Remaining together consequently requires more than portable standing and toleration of disagreement. Participants need means to develop opposition, powers through which it can affect decisions and routes to contest the procedures that distribute those powers. They may continue to disagree about the federation's story, their own representative institutions and the proper source of common authority. Composition without capture names a defensible task only if these disagreements can alter the arrangement while people retain the conditions of participation. Its political value lies in exposing the points where such alteration is blocked, including by the reconstruction's own account of reconciliation.
+
 # Xeno California as a discriminating case program {#sec:s7}
 
 Xeno-California is a hypothetical stress test, not a blank description of California or a proposal imposed on actual peoples. Its cases must keep land, labor, infrastructure, power and affected nonmembers visible. Each case has two machine-readable alternatives; their labels identify stipulated design differences, not observed political outcomes.
@@ -358,7 +440,7 @@ Alternative E1 gives recognized associations exclusive representation. It appear
 
 Alternative E2 creates one territorial rule with equal per-person voting. It protects a general franchise and avoids duplicating votes through affiliations. It can still subordinate a treaty relationship to an ordinary majority and conceal unequal starting entitlements to storage. Uniform procedure may govern an unequal baseline. The question concerns which equality is specified and whether the body imposing it has established its jurisdiction.
 
-Alternative E3 gives a watershed body limited competence while requiring separately identified treaty negotiations, general resident standing, worker representation, public hydrological evidence and review. It distinguishes emergency drinking-water protection from longer-term allocation and compensation, identifies who can revise rules and assigns compliance costs. This is a candidate for investigation, not a declared correct constitution. Multiple forums may slow action, fragment accountability or let powerful actors move disputes to favorable venues. Emergency powers could become permanent and appeals remain unaffordable.
+Alternative E3 gives a watershed body limited competence while requiring separately identified treaty negotiations, general resident standing, worker representation, public hydrological evidence and review. It distinguishes emergency drinking-water protection from longer-term allocation and compensation, identifies who can revise rules and assigns compliance costs. This alternative places a further burden on the comparison: Multiple forums may slow action, fragment accountability or let powerful actors move disputes to favorable venues. Emergency powers could become permanent and appeals remain unaffordable.
 
 Comparison must keep physical scarcity and the resource baseline explicit while changing institutional rules. It should record access to water, costs, ability to secure a hearing, ability to survive delay and power to revise the arrangement. Essential provision cannot depend on buying national membership. Translation needs funding, reciprocal language access and limits protecting knowledge a people has reason not to disclose. Affected-person standing must confront rather than silently override self-determination. Counting affected individuals does not settle a treaty-specific jurisdictional dispute.
 
@@ -396,16 +478,18 @@ $$ {#eq:ablation}
 *Proof.* Substituting either label assignment leaves each predicate unchanged; their conjunction in [@eq:trace] is therefore unchanged. The poetry-as-sole-warrant flag is held fixed in $x$, not erased with a descriptive label. The ten saved case comparisons instantiate this structural control; they do not establish that imaginative description has no effect in actual politics.
 :::
 
-The matrix in [@fig:case-traces] displays every programmed result. Open teal marks record satisfied predicates, including untriggered conditions; filled rust marks locate violations. This makes the reason for each synthetic verdict visible alongside the descriptor-removal result of [@prop:ablation].
+The matrix in [@fig:case-traces] displays every programmed result. Open black marks record satisfied predicates, including untriggered conditions; filled red marks locate violations. This makes the reason for each synthetic verdict visible alongside the descriptor-removal result of [@prop:ablation].
 
-![All fifteen safeguard results for ten stipulated alternatives in five case families. Columns distinguish bounded and capture alternatives; a filled pass includes conditional checks whose trigger is absent. Failures identify violations of the project's proposed rules. No cell represents empirical effectiveness or legal authorization.](../figures/case-traces.png){#fig:case-traces width=98%}
+![All fifteen safeguard results for ten stipulated alternatives in five case families. Columns distinguish bounded and capture alternatives; a satisfied predicate includes conditional checks whose trigger is absent. Failures identify violations of the project's proposed rules. No cell represents empirical effectiveness or legal authorization.](../figures/case-traces.png){#fig:case-traces width=98%}
 
 
 # Broader cultural identification can intensify capture {#sec:s8}
 
 Rahman's Myth of Objectivity profile proposes that broader cultural models can influence subordinate inference [@rahman2025, pp. 124–130]. We use this speculative proposal to construct a counter-model: a federation may widen contextual understanding while strengthening conformity to a dominant prior.
 
-Coordination and dissent protection therefore need separate outcomes. Agreement can emerge from accessible reasons and revision, or from raising the cost of challenge. Graphical abstract 4 draws this distinction: the endpoint looks similar, but the available paths differ.
+Coordination and dissent protection therefore need separate outcomes. Agreement can emerge from accessible reasons and revision, or from raising the cost of challenge. The agreement routes in [@fig:agreement-routes] draw this distinction: the endpoint looks similar, but the available paths differ.
+
+![Two routes to agreement: translation and revision keep challenge open; dependency and gatekeeping make it costly.](../figures/agreement-routes.png){#fig:agreement-routes width=98%}
 
 The comparison separates communication control, information asymmetry and the material consequences of dissent. It asks who sets the shared terms, whose disagreement is treated as noise, and whether a person can survive the cost of challenge. The prototype keeps rights and safeguards independent of affiliation count.
 
@@ -478,13 +562,21 @@ The census in [@fig:source-census] visualizes the denominator before presenting 
 
 Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
 
-Thirteen displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown backslash line-break syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. This verifies reproducible selection, not a critical edition or an interpretation validated by software.
+Fifteen displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown backslash line-break syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
-Four official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
+Six official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 
-The uncropped provider images are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
+The six uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
 
 The selected copy-D leaf places as multitudes marginally beside the human-form passage. The selected J73 sheet reads howl in the spectres passage. These support specific local comparisons without repairing the retained recovered transcription or settling every variant. The old discrepancy docket remains historical; a new collation note records these limited observations. ASU's edition and the Library of Congress (LOC) impressions are different source objects, and agreement on selected passages does not make them one edition.
+
+## Production, design and interpretive authority
+
+Composition without capture must constrain the scholar who reconstructs it. An interpretation can give every person several affiliations yet reserve to its author the power to decide what those affiliations ultimately mean. Its generosity then depends on a monopoly over the common description. The question is whether a participant can contest the account of humanity through which inclusion is offered while continuing to share institutions, resources and obligations. A defensible reconstruction must allow disagreement with its poetic vocabulary to count as political argument. Otherwise, passage between states remains available only within a world whose interpretive boundaries someone else has fixed.
+
+Viscomi supplies a methodological restraint on this authority. His account of the workshop makes production part of meaning and resists both excusing execution in the name of vision and decoding every mark as a symbol. Decoration can organize attention while also serving the practical requirements of etching and inking [@viscomi1982Workshop, author reprint web pp. 3–8, compilation PDF pp. 60–65]. The implication here is that neither an attractive political reading nor an exact transcription exhausts an illuminated page. A claim about reciprocity needs an account of dramatic speech and visual relations; a claim about a particular mark needs alternatives that include medium and execution. Interpretation becomes more answerable when it identifies what could defeat it.
+
+This restraint does not place political criticism in suspension until technical experts agree. It makes expertise itself limited and challengeable. A printmaker can question an inference from a mark to an intention without deciding whether a narrative legitimates domination. A feminist reading can expose a distribution of agency without pretending that every contour was planned to encode it. The manuscript should consequently state separately what a feature looks like, what process may explain it and what political significance the proposed interpretation assigns it. No participant in that inquiry gains an unlimited authority from having supplied one kind of evidence.
 
 ## When would computation add something?
 

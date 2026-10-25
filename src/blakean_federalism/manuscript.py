@@ -47,7 +47,7 @@ class Quotation(FrozenModel):
 
 
 class ManuscriptSpec(FrozenModel):
-    version: Literal["0.2.0"]
+    version: Literal["0.2.0", "0.5.0"]
     assets: tuple[Asset, ...]
     quotations: tuple[Quotation, ...]
     fronts: tuple[str, ...]
@@ -128,8 +128,12 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
     """Reject changed sources, ambiguous IDs, unverified quotations and missing rights."""
     if spec.fronts != ("composition", "warrants", "authority", "countermodels"):
         raise ResearchError("front_pages", "Four explicit physical opening pages are required")
-    if {a.asset_id for a in spec.assets if a.kind == "image"} != {"M32", "J52", "J54", "J73"}:
-        raise ResearchError("image_set", "The four declared plate images are required")
+    expected_images = {
+        "0.2.0": {"M32", "J52", "J54", "J73"},
+        "0.5.0": {"M32", "J52", "J54", "J73", "J27", "J99"},
+    }[spec.version]
+    if {a.asset_id for a in spec.assets if a.kind == "image"} != expected_images:
+        raise ResearchError("image_set", "The exact selected plate set is required")
     paths: dict[str, Path] = {}
     sources: dict[str, VerseParser] = {}
     for asset in spec.assets:

@@ -1,5 +1,5 @@
 # Copyright (c) 2026 Daniel Ari Friedman
-"Recover only the eleven explicitly selected manuscript inputs into ignored storage."
+"Recover only the explicitly selected manuscript inputs into ignored storage."
 
 import argparse
 import hashlib
@@ -13,7 +13,7 @@ from blakean_federalism.models import ResearchError
 from blakean_federalism.storage import safe_path, verify_file
 
 HOSTS = frozenset({"blake.lib.asu.edu", "tile.loc.gov", "www.loc.gov"})
-PREFIX = Path("local_data/manuscript/v0.2.0")
+PREFIXES = (Path("local_data/manuscript/v0.2.0"), Path("local_data/manuscript/v0.5.0"))
 
 
 def check_url(url: str) -> None:
@@ -29,7 +29,10 @@ def acquire(root: Path) -> int:
     targets = []
     for asset in spec.assets:
         relative = Path(asset.path)
-        if not relative.is_relative_to(PREFIX) or ".." in relative.parts:
+        if (
+            not any(relative.is_relative_to(prefix) for prefix in PREFIXES)
+            or ".." in relative.parts
+        ):
             raise ResearchError("acquisition_boundary", asset.path)
         target = root / relative
         if any(part.is_symlink() for part in (target, *target.parents)):

@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from pypdf import PdfReader
 from reportlab.pdfgen.canvas import Canvas
 from typer.testing import CliRunner
 
@@ -129,7 +130,7 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     receipt = PreparedPublication.model_validate_json(
         (target / "prepared-publication.json").read_bytes()
     )
-    assert len(receipt.figures) == 20
+    assert len(receipt.figures) == 22
     assert all(
         digest(target / "output/figures" / name) == value for name, value in receipt.figures.items()
     )
@@ -391,3 +392,25 @@ def test_cli_retains_failed_real_native_invocation(publication_source, monkeypat
     assert log.is_file()
     assert log.stat().st_size > 0
     assert not (log.parent / "native-render-receipt.json").exists()
+
+
+def test_evidence_abstract_distinguishes_absent_state_query_from_measured_zero(publication_source):
+    root, report, rasterizer = publication_source
+    other = tuple(x.model_copy(update={"query_id": "another"}) for x in report.coverage)
+    absent = report.model_copy(update={"coverage": other})
+    generate_figures(absent, root / "absent-state", rasterizer)
+    assert (
+        "N/A / query absent"
+        in PdfReader(root / "absent-state/abstract-4.pdf").pages[0].extract_text()
+    )
+    zero = tuple(
+        x.model_copy(
+            update={"occurrences": 0, "matched_source_documents": 0, "coverage_fraction": 0.0}
+        )
+        for x in report.coverage
+    )
+    generate_figures(report.model_copy(update={"coverage": zero}), root / "zero-state", rasterizer)
+    content = PdfReader(root / "zero-state/abstract-4.pdf").pages[0].extract_text()
+    assert "0.0% unit coverage" in content
+    assert "0 occurrences" in content
+    assert "N/A / query absent" not in content

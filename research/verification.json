@@ -1,32 +1,34 @@
 {
-  "version": "0.4.1",
+  "version": "0.5.0",
   "status": "software_and_native_render_qualified",
-  "tests": 200,
+  "tests": 205,
+  "focused_css_delta_tests": 2,
   "coverage_percent": {
-    "application": 98.19976771196283,
+    "application": 98.28634604754008,
     "infrastructure": 72.21052631578948
   },
   "coverage_floor": {
     "application": 90,
     "infrastructure": 60
   },
-  "typing_errors": 0,
-  "typing_warnings": 0,
   "qualification_artifacts": {
-    "tests-qualified.log": "c7e70bc0aa0fa3c0cc6af5f6e57bfa86ec8519ff98f34e4bca1469f3478d18dd",
-    "tests-qualified.xml": "eb0a25b6daeeae0786e4aa4490b8f38f4d5ddd529e79323506d36f684d2fb1c6",
-    "coverage-qualified.json": "4ca980ef4955efe4af05c999451afcbae02c459fbf49f3d7f8416ed10b642890",
-    "coverage-floors.json": "7f34dc9bd68cb171e35332235d88aa217fe0fc9519d7633921e83e2fc0934caf",
-    "ruff-final-03.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
-    "typing-final.log": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
-    "format-final.log": "8d7a9fb1f423bec1378091f1aa6e3ebb3d45473cc6723a6a0a79d3531e7177b7",
-    "lock-check.log": "5421c9e79a3b3950b2728a6ab7dcffe3d13752e436081ece8317e539b0041659",
-    "browser-results.json": "4619ffea300458b899c29cd62e63ed68a57d18b0452482b82bc1496ef2e5976a",
-    "page-inspection-bindings-final.json": "5319f6c77ddbccd5ce8edaace3080fb5f3e1cb006adc1bca9111f0685a15d24d",
-    "research-integration-receipt.json": "6bc0418cc3ebf535de11b6e8bfe77a638b8b76f0c07976230e9edef2d2b57942"
+    "qualification-03/checks.json": "9fdfab1cc41d60af6829bce41823b7fd537a0611f388862d14996e45b3afef40",
+    "qualification-03/check-4.log": "e63ad2b24bb45771916a5ab530e7ae30f33eaff2258990f8ea81fd4fa77109af",
+    "qualification-03/tests.xml": "4818eddf3eddcaa1e389bd616416cace969f3d9fae74ab59eb0d89961e8ff278",
+    "qualification-03/coverage.json": "88a66eaec71035bd557a0ccd7f98452081805ce465c9f069113c047b5ec5ff9e",
+    "qualification-03/source-bindings.json": "00096d53eb6aa7924a37f151c688807bb260acb1a5f9c4c2d60a8ad54e773416",
+    "css-and-aspect-delta-qualification.json": "27846604d1af845bc49af1b8df287b9b1aa3dfe1185d27cab9fccfc508454da1",
+    "css-and-aspect-delta-tests.log": "a04b7cf548763fe1cd618556187d0199fa717f27d0bb722c18838daf602baca4",
+    "coverage-floors.json": "12492ed3dbfd6ca65338949ff2372f946e2b734d2ca5d60398b47a3631f45434",
+    "browser-results-v5.json": "d5bdb3e1cb140723265a43bf20ffe89ca72315ebad3a999e530f4cddc29fb252",
+    "workbench-browser-results-v5.json": "13f0c3719021f22e385e6015cae0e2ffbcfe81acc63616d9797305991993db15",
+    "extra-browser-results-v5.json": "f694d057e4a96c2821e6508c5d722146ef68b3c47260ac37f911be514e61b639",
+    "page-inspection-bindings-final.json": "dad4d3d324e9258295b1c43d0a4758f40aba94084863d66989df21f7b9c21c75",
+    "research-integration-final.json": "48d3e52f005d99e3c19b194138514c37510386e0c8b87c4a7186ec6c41264388",
+    "pdf-controls-v5.json": "b1e21d2887c027627b037d2cbebbbcc54dbb4d787e694b4b3b5114728632cc01"
   },
-  "rendered_qa": "research/rendered-review-0.4.1.json",
-  "historical_qualification": "research/history/verification-0.4.0.json",
-  "native_worker_coverage_note": "The separate template Python worker is not traced by the project coverage process; native receipts bind its real execution.",
-  "scope": "Software qualification and rendered QA for the private research draft. Manuscript layout edits after the test run were checked by native rendering; analytical results retain their earlier producer."
+  "rendered_qa": "research/rendered-review-0.5.0.json",
+  "historical_qualification": "research/history/verification-0.4.1.json",
+  "qualification_reuse": "Full suite binds all software before two exact HTML CSS literals for link descendants and proportional image heights. The reconstruction hash and two real-file delta tests bind that final change; native browser checks verify every link descendant and image aspect ratio. Later changes to the two manuscript Markdown files are qualified by native rendering and page comparison.",
+  "native_worker_coverage_note": "The separate native-template Python worker is not traced by project coverage; its actual execution has a source-bound receipt."
 }

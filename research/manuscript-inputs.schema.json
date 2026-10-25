@@ -134,7 +134,10 @@
   "additionalProperties": false,
   "properties": {
     "version": {
-      "const": "0.2.0",
+      "enum": [
+        "0.2.0",
+        "0.5.0"
+      ],
       "title": "Version",
       "type": "string"
     },

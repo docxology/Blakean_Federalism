@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.0 — 25 October 2026
+
+- Black, white and red manuscript/workbench theme; red hyperlinks and neutral chart roles.
+- Four denser opening visual abstracts with source locators, scholarly disputes, decision stages and source-bound counts; nine original vector figures.
+- Six uncropped LOC plates beside their main-text readings, including new Jerusalem 27 and 99 acquisitions and two verified quotations. Preserve the earlier selection epoch.
+- Five primary-author readings deepen production, gender, counterpublics, decision power and revisable recognition; page-specific citations and source ledger accompany the argument.
+- Split geometric primitives, opening abstracts and body figures into separate modules; current-schema and real-PDF controls distinguish absent queries from measured zero.
+
+
 ## 0.4.1 — 25 October 2026
 
 - Redesign all four graphical abstracts and analytical figures with interwoven forms, a differentiated authority diagram and paired case traces.

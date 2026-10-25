@@ -1,0 +1,285 @@
+{
+  "created_at": "2026-10-25T20:57:42Z",
+  "scope": "Evidence leaf only; snapshot-bound; no project modifications, Git mutations, publication, credentials, messages or subagents.",
+  "core_new_readings": [
+    {
+      "key": "viscomi1982Workshop",
+      "name": "Joseph Viscomi, The Workshop (1982)",
+      "reading_status": "complete_named_article_or_chapter",
+      "range": {
+        "journal": "404-409 (metadata only)",
+        "author_web_reprint": "1-11, complete including notes",
+        "compilation_pdf": "58-68"
+      },
+      "method": "Continuous pdftotext -layout reading; author reprint self-identifies journal origin; Crossref and JSTOR metadata checked.",
+      "limits": "No final journal collation. The 68-page compilation contains other essays; complete-reading credit is only for its last article.",
+      "artifacts": [
+        {
+          "path": "raw/viscomi-workshop.body",
+          "bytes": 1861645,
+          "sha256": "3b75d60d6778139269f86cd6c83233753fb3446e2adbee567ae690a3d02bc507"
+        },
+        {
+          "path": "raw/viscomi-selected-workshop.txt",
+          "bytes": 16792,
+          "sha256": "3c45e4d43404f2a9d70aece48581ca47108ea534b398b542125ecdbaad980a2b"
+        },
+        {
+          "path": "raw/viscomi-doi-metadata.body",
+          "bytes": 1406,
+          "sha256": "fca2168d9a83a99ef03cc13773322ca3f050aa5df7602c7c8bd518c84fac2c57"
+        }
+      ]
+    },
+    {
+      "key": "heppner1986Jerusalem",
+      "name": "Christopher Heppner, Blake’s The New Jerusalem Descending (1986)",
+      "reading_status": "complete_named_article_or_chapter",
+      "range": {
+        "printed": "4-11, all notes",
+        "official_pdf": "2-9 (cover at PDF 1)",
+        "figures": "printed 6-8, all three viewed"
+      },
+      "method": "Continuous official HTML reading, with journal PDF illustration inspection.",
+      "limits": "Original drawing not inspected. Name/title identification remains attributed, not authenticated. Historical applications conjectural. Later response discovered, unread.",
+      "artifacts": [
+        {
+          "path": "raw/heppner-1986.body",
+          "bytes": 62215,
+          "sha256": "90e35d353aa1791e6782e60f7f91ab448cdaa83abe474a9127d3ccf44b227a11"
+        },
+        {
+          "path": "raw/heppner-1986.txt",
+          "bytes": 28266,
+          "sha256": "f3818eacf215704c9942351e043fbd35883abc1adffe4ef48019ca3cbb0b61e2"
+        },
+        {
+          "path": "raw/heppner-pdf.body",
+          "bytes": 2656863,
+          "sha256": "da2f6ce8df3f23a64a0cf6f39a58354ccdede657c5b0325fc7b48278f9648e79"
+        }
+      ]
+    },
+    {
+      "key": "kaplan1996Patriarchy",
+      "name": "Marc Kaplan, Jerusalem and the Origins of Patriarchy (Winter 1996/7)",
+      "reading_status": "complete_named_article_or_chapter",
+      "range": {
+        "printed": "68-82, complete including notes 1-27",
+        "official_pdf": "2-16 (cover at PDF 1)",
+        "visual_check": "printed 82, PDF 16"
+      },
+      "method": "Continuous official HTML reading; key final page/note checked against journal facsimile.",
+      "limits": "Lerner model, historical evidence and whole-corpus generalizations not independently verified. No J99 original-copy collation.",
+      "artifacts": [
+        {
+          "path": "raw/kaplan-html.body",
+          "bytes": 151357,
+          "sha256": "c47ed5ba293a6f264b83f4cb8abd91c0f5cccce22409dd6139cf11d76a669c3b"
+        },
+        {
+          "path": "raw/kaplan-html.txt",
+          "bytes": 86337,
+          "sha256": "b0a288ba4bfd4687b075d61ee2e37f316cb06083a4975854dbba5e0af0b4df33"
+        },
+        {
+          "path": "raw/kaplan-pdf.body",
+          "bytes": 4694347,
+          "sha256": "4205dffe157233c9c7cc605df87c6fd96767ed4be071651e2961a69cafa5c948"
+        }
+      ]
+    },
+    {
+      "key": "fraser1992PublicSphere",
+      "name": "Nancy Fraser, Rethinking the Public Sphere (1992 chapter)",
+      "reading_status": "complete_named_article_or_chapter",
+      "range": {
+        "printed": "109-142 including acknowledgements and notes 1-37",
+        "scan_pdf": "2 right (109), 3-18 (110-141), 19 left (142)",
+        "excluded_neighbors": "108 and 143 belong to other authors",
+        "visual_checks": [
+          "PDF 2, rotated full spread",
+          "PDF 9 upright, 122-123",
+          "PDF 15 upright, 134-135"
+        ]
+      },
+      "method": "pdftotext returned exit zero with zero text. Initial psm 3 OCR misoriented. Tesseract psm 1 orientation-aware OCR produced continuous text; every chapter page/notes read. Selected spreads checked visually.",
+      "limits": "Image-only course scan, not publisher original retrieval. OCR errors remain. 1990 Social Text article not collated/read; use chapter pagination and metadata.",
+      "artifacts": [
+        {
+          "path": "raw/fraser-unm.body",
+          "bytes": 3289938,
+          "sha256": "d884b67908c2c1630386a67989a7b9177f11f3c5d855a98f2c79d0439eead91d"
+        },
+        {
+          "path": "receipts/fraser-osd.json",
+          "bytes": 2070,
+          "sha256": "d2ad58262d1a49c83908c2a93a6153666a65a74097c66a306616f25ba5a48e30"
+        },
+        {
+          "path": "raw/fraser-02-osd.txt",
+          "bytes": 3508,
+          "sha256": "879d7dadf105887f157f84f91d7c264abd9e3e9d4fb64482c2fd7fd2fffeb6ca"
+        },
+        {
+          "path": "raw/fraser-03-osd.txt",
+          "bytes": 4857,
+          "sha256": "32e914069c94e29cab31590effdc353a1c0d14bfe5dad2500b95f307d15e5ee1"
+        },
+        {
+          "path": "raw/fraser-04-osd.txt",
+          "bytes": 4566,
+          "sha256": "c77c0d790f596a57920cd41ba94ded7169b909fb5bd0dd4ee6aef15016b17a84"
+        },
+        {
+          "path": "raw/fraser-05-osd.txt",
+          "bytes": 4978,
+          "sha256": "227a67efed27c168b91948007c5182a820da28433a4e3cd5c8495a328a3b2b57"
+        },
+        {
+          "path": "raw/fraser-06-osd.txt",
+          "bytes": 4758,
+          "sha256": "12309c015a5210cf31ac37d28d93ab87ac62d808ac1b1038830bd409be0c8c41"
+        },
+        {
+          "path": "raw/fraser-07-osd.txt",
+          "bytes": 4504,
+          "sha256": "a18283bf80b8f009c896998d7248f741554233581efba394d2c2ad6aa10c03f2"
+        },
+        {
+          "path": "raw/fraser-08-osd.txt",
+          "bytes": 4659,
+          "sha256": "7a4b361d6828f2feb593693294032ad9190a163c3d5481cc7413a6e27bbf564e"
+        },
+        {
+          "path": "raw/fraser-09-osd.txt",
+          "bytes": 4730,
+          "sha256": "cf70607d751f227763bd33ef9e03a6f2b7e2a0eacbed2ee6994755b127e8b316"
+        },
+        {
+          "path": "raw/fraser-10-osd.txt",
+          "bytes": 4894,
+          "sha256": "75745e6d992c948a3066277628be10574999a9a3df426ffdb876b1e27546c0ef"
+        },
+        {
+          "path": "raw/fraser-11-osd.txt",
+          "bytes": 4844,
+          "sha256": "9d7b24dda12db47553a4a7eef1c4c0596626c9b2b087d51b7ba3b0fd76b7e013"
+        },
+        {
+          "path": "raw/fraser-12-osd.txt",
+          "bytes": 4523,
+          "sha256": "da7c692f34243ee7fec5cfe7f81f33070136655b9180827034128ffeadca35b2"
+        },
+        {
+          "path": "raw/fraser-13-osd.txt",
+          "bytes": 4747,
+          "sha256": "d2d996e29d649837c44699f6ca63ccf58cedb4d468feaf423312ad10b5e1cfbe"
+        },
+        {
+          "path": "raw/fraser-14-osd.txt",
+          "bytes": 4675,
+          "sha256": "fc1b3c311486cfcd1b0e812b5867755147abaf88437bbd66831b265d30b4850a"
+        },
+        {
+          "path": "raw/fraser-15-osd.txt",
+          "bytes": 4747,
+          "sha256": "690ccf8fd5f469ae98ea0d55977dc80ee1902ddff31689b53e99c68134fc8641"
+        },
+        {
+          "path": "raw/fraser-16-osd.txt",
+          "bytes": 4518,
+          "sha256": "00e4b339b86ec68bfb254046b34f2ca320c53b29d379f350d839537a3114d625"
+        },
+        {
+          "path": "raw/fraser-17-osd.txt",
+          "bytes": 7270,
+          "sha256": "cbf415c32eb2750afa1ce0fe7b7b59860f8a1f85d298a17ff16e5f86561bbc63"
+        },
+        {
+          "path": "raw/fraser-18-osd.txt",
+          "bytes": 7674,
+          "sha256": "454408bb383b8f81f32858e53a1e6af7a402e9f792e30b5f43eff0c701915c44"
+        },
+        {
+          "path": "raw/fraser-19-osd.txt",
+          "bytes": 3930,
+          "sha256": "f83146ec5e042c0a5c221fde7ff5244e4511a6f532e62a5e4b64f8a79d27d559"
+        }
+      ]
+    },
+    {
+      "key": "tully2006Recognition",
+      "name": "James Tully, Reconciling Struggles over the Recognition of Minorities (2006)",
+      "reading_status": "complete_named_article_or_chapter",
+      "range": {
+        "printed": "15-33, complete argument, notes and references",
+        "publisher_pdf": "25-43",
+        "metadata_pages": "PDF 3-5 title/copyright/contents"
+      },
+      "method": "Continuous pdftotext -layout reading; publisher sample includes complete chapter.",
+      "limits": "Historical constitutional discussion only; no current-case update, full book reading or reading credit for Young and other references. Cache stem tully-2005 is acquisition label, not date.",
+      "artifacts": [
+        {
+          "path": "raw/tully-2005.body",
+          "bytes": 133181,
+          "sha256": "0314e535ee604ada41e2d564858b2d7f49af836d0f287f20a825fc53066bdc2b"
+        },
+        {
+          "path": "raw/tully-2005.txt",
+          "bytes": 108993,
+          "sha256": "83dae0197b5dd9233a64b65ad16098579fefb153f14529d0e9bb8c9c9ce6b190"
+        }
+      ]
+    }
+  ],
+  "primary_verification": {
+    "source": "ASU electronic Jerusalem transcription",
+    "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+    "read": [
+      "complete plate 27 prose and 88 lines",
+      "complete plate 99 five lines and end matter",
+      "neighboring end of 98"
+    ],
+    "artifact": {
+      "path": "raw/jerusalem-asu.body",
+      "bytes": 713630,
+      "sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2"
+    },
+    "observations": [
+      "J27:85-88 E173; following prose E174",
+      "Kaplan p69 printed 27:76-80; ASU corresponding quatrain 77-80",
+      "J99:1-4 E258; J99:5 E259"
+    ],
+    "ceiling": "No illuminated-copy collation; no new Blake quotations proposed."
+  },
+  "additional_leads": [
+    {
+      "name": "Viscomi, Blake after Blake",
+      "cache": "raw/viscomi-after.body",
+      "read": "PDF 1-10 only",
+      "used_in_proposed_paragraphs": false
+    },
+    {
+      "name": "Viscomi, Reading, Drawing, Seeing Illuminated Books",
+      "cache": "raw/viscomi-workshop.body",
+      "read": "web pages 1-3 and closing publication note only",
+      "used_in_proposed_paragraphs": false
+    },
+    {
+      "name": "Tully, Multinational Democracies introduction",
+      "cache": "raw/tully-multinational.body",
+      "read": "discovery snippets and pagination only",
+      "used_in_proposed_paragraphs": false
+    }
+  ],
+  "inherited_limits": "No new full reading of Wright, Clark or Makdisi; prior source ceilings preserved. Prior focused docs and bibliography are context, not transferred reading credit.",
+  "method_limits": [
+    "No independent replication of historical or empirical sources cited by the five authors",
+    "No current-law validation",
+    "No complete visual audit",
+    "No publication/readiness verdict",
+    "Original proposed applications distinguished from source arguments"
+  ],
+  "supplemental_input_receipt": "receipts/supplemental-input.json"
+}

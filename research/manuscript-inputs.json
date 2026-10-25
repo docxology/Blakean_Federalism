@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.5.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -104,6 +104,30 @@
       "sha256": "891f757bf4bffb706198bb3f21ef2521f28f7ef8162e81c95e5ecd0eb45dd88a",
       "size": 627233,
       "kind": "rights"
+    },
+    {
+      "asset_id": "J27",
+      "path": "local_data/manuscript/v0.5.0/loc-J27.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0027/full/pct:25.0/0/default.jpg",
+      "sha256": "19e97700b73cb306609ec85aa30b80dfa814d43c779c28049ead80c4f54b83f0",
+      "size": 328937,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 27, posthumous impression, approximately 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J99",
+      "path": "local_data/manuscript/v0.5.0/loc-J99.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0099/full/pct:25.0/0/default.jpg",
+      "sha256": "337f2a3e2cc076bb7ec0953b523f256cc8de9a0a4c31d94213594aaaaa616f67",
+      "size": 248322,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 99, posthumous impression, approximately 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
     }
   ],
   "quotations": [
@@ -475,6 +499,67 @@
         }
       ],
       "context": "One of the Proverbs of Hell in a dialogic work; not universal approval of every product."
+    },
+    {
+      "quote_id": "Q14",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 27:85–88, E173",
+      "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
+      "segments": [
+        {
+          "anchor": "J27.85;E173",
+          "occurrence": 0,
+          "text": "In my Exchanges every Land"
+        },
+        {
+          "anchor": "J27.86;E173",
+          "occurrence": 0,
+          "text": "Shall walk, & mine in every Land,"
+        },
+        {
+          "anchor": "J27.87;E173",
+          "occurrence": 0,
+          "text": "Mutual shall build Jerusalem:"
+        },
+        {
+          "anchor": "J27.88;E173",
+          "occurrence": 0,
+          "text": "Both heart in heart & hand in hand."
+        }
+      ]
+    },
+    {
+      "quote_id": "Q15",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 99:1–5, E258–259",
+      "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
+      "segments": [
+        {
+          "anchor": "J99.1;E258",
+          "occurrence": 0,
+          "text": "All Human Forms identified even Tree Metal Earth & Stone. all"
+        },
+        {
+          "anchor": "J99.2;E258",
+          "occurrence": 0,
+          "text": "Human Forms identified, living going forth & returning wearied"
+        },
+        {
+          "anchor": "J99.3;E258",
+          "occurrence": 0,
+          "text": "Into the Planetary lives of Years Months Days & Hours reposing"
+        },
+        {
+          "anchor": "J99.4;E258",
+          "occurrence": 0,
+          "text": "And then Awaking into his Bosom in the Life of Immortality."
+        },
+        {
+          "anchor": "J99.5;E259",
+          "occurrence": 0,
+          "text": "And I heard the Name of their Emanations they are named Jerusalem"
+        }
+      ]
     }
   ],
   "fronts": [

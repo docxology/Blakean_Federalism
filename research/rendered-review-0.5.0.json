@@ -1,0 +1,49 @@
+{
+  "version": "0.5.0",
+  "native_template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native_render_receipt_sha256": "3011c77060dede146b37cb7fb361d2f89963e7ebe0853b713fa0954e110df34e",
+  "pdf_sha256": "e948429faac608a24c283fa11ffe3e894fbf77e487dcde52fb3b0bdf0dd8962d",
+  "html_sha256": "c1ddb26af9454d8c67b0e183228b305ccc00ecab03a187499f392ef2be28936e",
+  "pages": 34,
+  "opening_graphical_abstract_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "original_vector_figures": 9,
+  "selected_historical_sheets": 6,
+  "main_text_historical_sheets": [
+    "M32",
+    "J52",
+    "J73",
+    "J54",
+    "J27",
+    "J99"
+  ],
+  "verified_quotations": 15,
+  "numbered_formalisms": 9,
+  "labeled_equations": 5,
+  "resolved_references": 40,
+  "visual_review": "All 34 page images inspected; exact byte-identical page reuse and final changed-page inspections are bound in the page-inspection receipt.",
+  "theme": {
+    "paper": "black, white, red and neutral rules",
+    "all_hyperlinks_and_descendants": "#b00020",
+    "workbench_light_link": "#b00020",
+    "workbench_dark_link": "#ff6b7f",
+    "historical_artwork": "original unmodified colour"
+  },
+  "browser": {
+    "widths": [
+      1200,
+      390
+    ],
+    "loaded_images": 15,
+    "math_expressions": 48,
+    "math_errors": 0,
+    "broken_internal_links": 0,
+    "cover_abstract_present": true,
+    "offline_workbench": true
+  },
+  "scope": "Author-run software/rendered QA for the private research draft; independent acceptance recorded separately."
+}

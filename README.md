@@ -2,13 +2,13 @@
 
 Private research on **composition without capture**: a federation contains STATES in the proposed Blakean sense, while NATIONS are temporal generations, combinations and productions. Several nations can coexist without becoming one nation. Poetic states, persons, national formations and coercive jurisdictions remain distinct.
 
-This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It is an initial research program and descriptive prototype, not a validated political theory or submission-ready article.
+This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript and workbench 0.4.1
+## Manuscript and workbench 0.5.0
 
-Expanded close reading, thirteen verified Blake quotations, deeper scholarly disagreements and political comparators, four redesigned opening graphical abstracts, four analytical diagrams, and four item-specific LOC plate reproductions. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft. The current route invokes the pinned `docxology/template` PDF and HTML renderers, with nine automatically numbered formalisms, five labeled equations and a shared citation database.
+Expanded close reading, fifteen verified Blake quotations, deeper scholarly disagreements and political comparators, four dense opening graphical abstracts in black, white and red, five body diagrams, and six item-specific LOC plates in the main text. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft. The current route invokes the pinned `docxology/template` PDF and HTML renderers, with nine automatically numbered formalisms, five labeled equations and a shared citation database.
 
-The portable, offline research workbench reconciles 180 query/plane/role cells with source-unit denominators, displays all 150 checks across ten synthetic alternatives, and exposes quotation and reading provenance. [Workbench method and use](docs/research-workbench.md). The scholarship adds complete articles by Henderson, Simpson, Mellor, Ostriker and Shachar to the retained Pettit and bounded Clark readings; Wright's continuous chapter remains unavailable.
+The portable, offline research workbench reconciles 180 query/plane/role cells with source-unit denominators, displays all 150 checks across ten synthetic alternatives, and exposes quotation and reading provenance. [Workbench method and use](docs/research-workbench.md). The scholarship adds complete articles by Henderson, Simpson, Mellor, Ostriker and Shachar to the retained Pettit and bounded Clark readings; The new pass adds Viscomi, Heppner, Kaplan, Fraser and Tully on production, gendered agency, counterpublics and recognition procedures; Wright's continuous chapter remains unavailable.
 
 ## Start reading
 
