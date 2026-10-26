@@ -1,0 +1,382 @@
+{
+  "$defs": {
+    "CorpusPin": {
+      "additionalProperties": false,
+      "properties": {
+        "upstream_commit": {
+          "title": "Upstream Commit",
+          "type": "string"
+        },
+        "captured_manifest_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Captured Manifest Sha256",
+          "type": "string"
+        },
+        "projection_manifest_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Projection Manifest Sha256",
+          "type": "string"
+        },
+        "projection_relative_path": {
+          "title": "Projection Relative Path",
+          "type": "string"
+        },
+        "index_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Index Sha256",
+          "type": "string"
+        },
+        "unresolved_images": {
+          "minimum": 0,
+          "title": "Unresolved Images",
+          "type": "integer"
+        },
+        "scope_note": {
+          "title": "Scope Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "upstream_commit",
+        "captured_manifest_sha256",
+        "projection_manifest_sha256",
+        "projection_relative_path",
+        "index_sha256",
+        "unresolved_images",
+        "scope_note"
+      ],
+      "title": "CorpusPin",
+      "type": "object"
+    },
+    "Plane": {
+      "enum": [
+        "reading",
+        "erdman",
+        "xml"
+      ],
+      "title": "Plane",
+      "type": "string"
+    },
+    "Role": {
+      "enum": [
+        "primary",
+        "editorial",
+        "unverified"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "SearchFacet": {
+      "additionalProperties": false,
+      "properties": {
+        "work_id": {
+          "title": "Work Id",
+          "type": "string"
+        },
+        "plane": {
+          "$ref": "#/$defs/Plane"
+        },
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "source_units": {
+          "minimum": 1,
+          "title": "Source Units",
+          "type": "integer"
+        },
+        "matched_units": {
+          "minimum": 0,
+          "title": "Matched Units",
+          "type": "integer"
+        },
+        "occurrences": {
+          "minimum": 0,
+          "title": "Occurrences",
+          "type": "integer"
+        },
+        "word_tokens": {
+          "minimum": 0,
+          "title": "Word Tokens",
+          "type": "integer"
+        },
+        "occurrences_per_10000_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Occurrences Per 10000 Tokens"
+        }
+      },
+      "required": [
+        "work_id",
+        "plane",
+        "role",
+        "source_units",
+        "matched_units",
+        "occurrences",
+        "word_tokens"
+      ],
+      "title": "SearchFacet",
+      "type": "object"
+    },
+    "SearchHit": {
+      "additionalProperties": false,
+      "properties": {
+        "term": {
+          "title": "Term",
+          "type": "string"
+        },
+        "passage_id": {
+          "title": "Passage Id",
+          "type": "string"
+        },
+        "work_id": {
+          "title": "Work Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "edition_id": {
+          "title": "Edition Id",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        },
+        "source_url": {
+          "title": "Source Url",
+          "type": "string"
+        },
+        "rights": {
+          "title": "Rights",
+          "type": "string"
+        },
+        "plane": {
+          "$ref": "#/$defs/Plane"
+        },
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "text_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Text Sha256",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 1,
+          "title": "End",
+          "type": "integer"
+        },
+        "expression": {
+          "title": "Expression",
+          "type": "string"
+        },
+        "context": {
+          "title": "Context",
+          "type": "string"
+        },
+        "context_start": {
+          "minimum": 0,
+          "title": "Context Start",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "term",
+        "passage_id",
+        "work_id",
+        "title",
+        "edition_id",
+        "locator",
+        "source_url",
+        "rights",
+        "plane",
+        "role",
+        "text_sha256",
+        "start",
+        "end",
+        "expression",
+        "context",
+        "context_start"
+      ],
+      "title": "SearchHit",
+      "type": "object"
+    },
+    "SearchRequest": {
+      "additionalProperties": false,
+      "properties": {
+        "terms": {
+          "items": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Terms",
+          "type": "array"
+        },
+        "mode": {
+          "default": "any",
+          "enum": [
+            "any",
+            "all"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Role"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "primary"
+        },
+        "plane": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Plane"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "work_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Work Id"
+        },
+        "whole_words": {
+          "default": true,
+          "title": "Whole Words",
+          "type": "boolean"
+        },
+        "limit": {
+          "default": 100,
+          "maximum": 1000,
+          "minimum": 1,
+          "title": "Limit",
+          "type": "integer"
+        },
+        "context_chars": {
+          "default": 120,
+          "maximum": 500,
+          "minimum": 0,
+          "title": "Context Chars",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "terms"
+      ],
+      "title": "SearchRequest",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "request": {
+      "$ref": "#/$defs/SearchRequest"
+    },
+    "corpus_pin": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CorpusPin"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "scanned_source_units": {
+      "minimum": 0,
+      "title": "Scanned Source Units",
+      "type": "integer"
+    },
+    "eligible_source_units": {
+      "minimum": 0,
+      "title": "Eligible Source Units",
+      "type": "integer"
+    },
+    "total_occurrences": {
+      "minimum": 0,
+      "title": "Total Occurrences",
+      "type": "integer"
+    },
+    "matched_source_units": {
+      "minimum": 0,
+      "title": "Matched Source Units",
+      "type": "integer"
+    },
+    "returned_hits": {
+      "minimum": 0,
+      "title": "Returned Hits",
+      "type": "integer"
+    },
+    "truncated": {
+      "title": "Truncated",
+      "type": "boolean"
+    },
+    "facets": {
+      "items": {
+        "$ref": "#/$defs/SearchFacet"
+      },
+      "title": "Facets",
+      "type": "array"
+    },
+    "hits": {
+      "items": {
+        "$ref": "#/$defs/SearchHit"
+      },
+      "title": "Hits",
+      "type": "array"
+    }
+  },
+  "required": [
+    "request",
+    "scanned_source_units",
+    "eligible_source_units",
+    "total_occurrences",
+    "matched_source_units",
+    "returned_hits",
+    "truncated",
+    "facets",
+    "hits"
+  ],
+  "title": "SearchResult",
+  "type": "object"
+}

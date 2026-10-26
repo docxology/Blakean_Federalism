@@ -10,6 +10,7 @@ from .models import ResearchError
 from .publication_contract import manuscript_contract, source_bindings
 from .publication_figures import generate_figures
 from .publication_models import PreparedPublication, TemplateRendering
+from .search_study import SearchStudy
 from .storage import copy_new, digest, safe_path, verify_file, write_new
 from .workbench_models import Workbench
 
@@ -22,6 +23,7 @@ SOURCE_NAMES = (
     "research/manuscript-inputs.json",
     "research/template-rendering.json",
     "research/citation-catalog.json",
+    "research/search-study-0.8.0.json",
 )
 
 
@@ -94,7 +96,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     raw = output / "manuscript"
     raw.mkdir()
     figures = output / "output/figures"
-    generated = generate_figures(report, figures, rasterizer)
+    search_study = SearchStudy.model_validate_json(safe_path(root, SOURCE_NAMES[8]).read_bytes())
+    if (
+        search_study.corpus_pin != report.corpus_pin
+        or search_study.source_units != report.source_units
+    ):
+        raise ResearchError("search_study_pin", "Search study must match the publication corpus")
+    generated = generate_figures(report, figures, rasterizer, search_study)
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
     front: list[str] = [
@@ -183,7 +191,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "# Plate sources and credits {#sec:atlas}",
         "",
         (
-            "Ten uncropped Library of Congress reproductions accompany the main-text readings. "
+            f"{len(report.images)} uncropped LOC reproductions accompany the main-text readings. "
             "The item-attached advisory reports no known U.S. restrictions; it is not a CC0 "
             "license. Each caption identifies the impression separately from the ASU transcription."
         ),
@@ -197,9 +205,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             [
                 f"**{asset.asset_id}: selected impression.**",
                 "",
-                asset.caption,
-                "",
-                f"Credit: {asset.credit}. [Item rights]({asset.rights_url}).",
+                " ".join(
+                    (
+                        asset.caption,
+                        f"Credit: {asset.credit}.",
+                        f"[Item rights]({asset.rights_url}).",
+                    )
+                ),
                 "",
             ]
         )

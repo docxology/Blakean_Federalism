@@ -1,0 +1,144 @@
+{
+  "created_at": "2026-10-26T17:45:37.143690+00:00",
+  "purpose": "Research-only bounded reading ledger, not cumulative project ledger replacement",
+  "new_scholarly_readings": [
+    {
+      "id": "moyer2014Cotton",
+      "type": "scholarly_journal_article",
+      "author": "James F. Moyer",
+      "title": "“The Daughters Weave their Work in loud cries”: Blake, Slavery, and Cotton",
+      "publication": "Blake/An Illustrated Quarterly 48.3, Winter 2014-15",
+      "url": "https://bq.blakearchive.org/48.3.moyer",
+      "raw_path": "raw/moyer-curl.body",
+      "sha256": "2cf875c4c597debee83e899cd4e9f70a73361e287de5213525e8cf61d998ffe1",
+      "derived_text": "derived/moyer-numbered.txt",
+      "derived_sha256": "727fa02769a6790c26df4cd814cfc4bc2015fde90604ca9cfbcd385a7b6687d1",
+      "reading_status": "complete_named_article_prose_notes_captions_and_references",
+      "ranges_read": {
+        "publisher_numbered_prose_paragraphs": "1-33, continuous; heading The Daughters of Albion in the Cotton Nexus also read",
+        "inline_note_blocks": "all 22, including initial acknowledgement/source note; internal cited works not independently read",
+        "captions": "header Jerusalem E plate59 caption and illustrations1-2",
+        "references": "complete Works Cited list, bibliographic inspection only",
+        "visuals": "publisher reproductions of illustrations1 and2 individually inspected; header crop not visually inspected"
+      },
+      "locator_map": "derived/moyer-locator-map.json",
+      "excluded": "No book, dissertation, parliamentary report, or article cited by Moyer acquires reading credit. No all-copy collation or original museum-object inspection. Historical workforce statistics not independently verified. No PDF-version collation; HTML original is the read object.",
+      "new_reading_credit": true,
+      "deduplication_check": {
+        "against": "snapshot/research/scholarship-reading-0.7.0.json",
+        "prior_ledger_sha256": "1c963993d38d30ca638a003e3aab36ae5a4732240cc20c1999ed7dfefd0b5372",
+        "author_matches_in_prior_credited_source_names": [],
+        "matching_raw_hashes": [],
+        "note": "No matching credited author/title or raw digest in cumulative ledger. Existing docs mention Mitchell’s unread book; that book remains unread."
+      }
+    },
+    {
+      "id": "mitchell1975Judgment",
+      "type": "scholarly_seminar_discussion_paper",
+      "author": "W. J. T. Mitchell",
+      "title": "Blake's Visions of the Last Judgment: Some Problems in Interpretation",
+      "publication": "MLA Blake Seminar pamphlet, 28 December 1975; Blake Newsletter, An Illustrated Quarterly",
+      "url": "https://bq.blakearchive.org/pdfs/issues/9.2b.pdf",
+      "raw_path": "raw/mitchell-issue-curl.body",
+      "sha256": "9457f22af4c573e1ba57c007da0b00ff3d3f24fcba105805f489fc6125be1174",
+      "reading_status": "complete_named_paper_text_and_accompanying_diagrams",
+      "ranges_read": {
+        "one_based_pdf_pages": "8-10, continuous complete text; sectionI andII page8, sectionII ending andIII page9, III ending andIV page10",
+        "diagrams": "PDF11, all three viewed individually within this page: Pollok House, Petworth House, Rosenwald Collection",
+        "other_context": "PDF1 title/seminar cover text and PDF2 editorial note, plate list and imprint read; PDF12 advertisement metadata glimpsed in extraction inventory only",
+        "direct_page_inspection": "complete rendered PDF8,9,10 and11 viewed; text extraction is not the sole page-boundary evidence"
+      },
+      "excluded": "No complete reading credit for remaining booklet material, cited Roe/Grabar/Duppa books or Mitchell’s later Blake’s Composite Art. Original drawings and historic engravings not independently inspected. Hypotheses are attributed, not accepted as independently established.",
+      "new_reading_credit": true,
+      "deduplication_check": {
+        "against": "snapshot/research/scholarship-reading-0.7.0.json",
+        "prior_ledger_sha256": "1c963993d38d30ca638a003e3aab36ae5a4732240cc20c1999ed7dfefd0b5372",
+        "author_matches_in_prior_credited_source_names": [],
+        "matching_raw_hashes": [],
+        "note": "No matching credited author/title or raw digest in cumulative ledger. Existing docs mention Mitchell’s unread book; that book remains unread."
+      }
+    }
+  ],
+  "primary_context_readings": [
+    {
+      "id": "asu-jerusalem",
+      "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+      "raw_path": "raw/asu-jerusalem.body",
+      "sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2",
+      "read_ranges": [
+        "Jerusalem16:1-69 E159-161",
+        "Jerusalem55:1-69 E204-205",
+        "Jerusalem59:1-55 E208-209",
+        "Jerusalem67:1-62 E220-221"
+      ],
+      "credit": "selected primary-context reading/rechecking only; previously credited passages are not new scholarly readings",
+      "complete_work_read": false,
+      "quoted_leads": "primary-passages.json",
+      "source_type": "ASU-hosted electronic Erdman transcription; not an original manuscript or copy-specific engraved impression"
+    },
+    {
+      "id": "asu-marginalia",
+      "url": "https://blake.lib.asu.edu/html/marginalia.html",
+      "raw_path": "raw/asu-marginalia.body",
+      "sha256": "d6a9ba3d921e79b927429fbafef862420a7fab3a1eef45b193a9c2bb282ffea3",
+      "read_ranges": [
+        "TXTReyn-xcvii;E641 occurrences0-2",
+        "AnnReyn-xcvii;E641 occurrences0-2",
+        "TXTReyn-xcviii;E641 occurrences0-1",
+        "AnnReyn-xcviii;E641 occurrences0-1"
+      ],
+      "credit": "host text and Blake responses rechecked; whole annotation collection unread",
+      "complete_work_read": false,
+      "quoted_leads": "primary-passages.json",
+      "source_type": "ASU-hosted electronic Erdman transcription; not an original manuscript or copy-specific engraved impression"
+    },
+    {
+      "id": "asu-marriage",
+      "url": "https://blake.lib.asu.edu/html/marriage_of_heaven_and_hell.html",
+      "raw_path": "raw/asu-marriage.body",
+      "sha256": "19aa9a334d2ea1a01df97d14f7640d69ac5a2bc7b04bfccca928ed14c1e39699",
+      "read_ranges": [
+        "MHH21 E42-43 through MHH24 E43-44"
+      ],
+      "credit": "selected continuous plates21-24 only; whole work not assigned new complete-reading credit",
+      "complete_work_read": false,
+      "quoted_leads": "primary-passages.json",
+      "source_type": "ASU-hosted electronic Erdman transcription; not an original manuscript or copy-specific engraved impression"
+    },
+    {
+      "id": "asu-last-judgment",
+      "url": "https://blake.lib.asu.edu/html/descriptions_of_last_judgment.html",
+      "raw_path": "raw/asu-last-judgment.body",
+      "sha256": "4ef2ab0d225c2e8b45a2b0034ceb0afc7fe36920eb1e0668b1ef6aba0ad8a3fc",
+      "read_ranges": [
+        "VLJ-N80;E556 occurrences0-6",
+        "VLJ-N79;E556 occurrences0-11",
+        "VLJ-N76[b];E556 occurrences0-8",
+        "VLJ-N76[b];E557 occurrences0-10",
+        "VLJ-N84;E561 occurrences0-28",
+        "VLJ-N85;E561 occurrences0-3"
+      ],
+      "credit": "selected locator-label ranges only, not complete notebook pages or whole description; some labels lack HTML anchors",
+      "complete_work_read": false,
+      "quoted_leads": "primary-passages.json",
+      "source_type": "ASU-hosted electronic Erdman transcription; not an original manuscript or copy-specific engraved impression"
+    }
+  ],
+  "project_context": {
+    "snapshot-manifest": "snapshot-manifest.json",
+    "manuscript": "Read opening close readings, national/gender discussion and corpus/quotation method. Source sections with synthetic institutional proofs inspected as context, not independently audited. Full 868-line file snapshotted; no full source-code, numerical recomputation or publication review.",
+    "reading-ledger": "Entire cumulative scholarship-reading-0.7.0.json read in two displayed ranges; prior reading-ledger files snapshotted for duplicate control.",
+    "references": "Existing references.bib inventory inspected; selected scholarly and primary entries read. No bibliography key is itself a reading credit.",
+    "docs_research": "Relevant current scholarship-expansion0.5.0 and0.6.0, corpus-statistics0.6.0, scholarship-density0.7.0, urizen-context0.7.0, scholarship-revision0.4.1 and copy-observations0.2.0 read/inspected; remaining documents searched for source-title and prior-reading references, not assigned full reading credit.",
+    "baseline": "fb5a5fdabae4acce720bfecbd100d3004e2de26b as provided by parent; no Git command used to verify it."
+  },
+  "unread_acquisitions": [
+    {
+      "url": "https://bq.blakearchive.org/39.3.white",
+      "raw_path": "raw/white-curl.body",
+      "sha256": "abeba27aaa9ca68848c4b4be9a8b18fbbc981b6ca9568721dbbc5a9bf74a3177",
+      "status": "acquired, discovery title/snippets only; article not read; no substantive citation or reading credit"
+    }
+  ],
+  "limits": "Complete refers to the named text object and declared parts, not every image, source version or work cited. No scientific replication, legal updating, project test run or publication acceptance."
+}

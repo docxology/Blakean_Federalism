@@ -1,0 +1,103 @@
+{
+  "$defs": {
+    "Plane": {
+      "enum": [
+        "reading",
+        "erdman",
+        "xml"
+      ],
+      "title": "Plane",
+      "type": "string"
+    },
+    "Role": {
+      "enum": [
+        "primary",
+        "editorial",
+        "unverified"
+      ],
+      "title": "Role",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "terms": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 8,
+      "minItems": 1,
+      "title": "Terms",
+      "type": "array"
+    },
+    "mode": {
+      "default": "any",
+      "enum": [
+        "any",
+        "all"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "role": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Role"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "primary"
+    },
+    "plane": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Plane"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "work_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Work Id"
+    },
+    "whole_words": {
+      "default": true,
+      "title": "Whole Words",
+      "type": "boolean"
+    },
+    "limit": {
+      "default": 100,
+      "maximum": 1000,
+      "minimum": 1,
+      "title": "Limit",
+      "type": "integer"
+    },
+    "context_chars": {
+      "default": 120,
+      "maximum": 500,
+      "minimum": 0,
+      "title": "Context Chars",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "terms"
+  ],
+  "title": "SearchRequest",
+  "type": "object"
+}

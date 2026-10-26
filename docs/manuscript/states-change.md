@@ -167,6 +167,12 @@ The building description names the materials of a durable relation: pity, affect
 
 ![Jerusalem 12, copy I. The materials of Golgonooza appear in the central building passage, followed by Jerusalem wandering outside the gate. Figures and vertical forms occupy the right margin; the fourfold city follows below. The complete sheet preserves that sequence. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J12.jpg){#fig:plate-J12 height=3.8in}
 
+## Distance changes how a person, state and nation appear
+
+A Vision of the Last Judgment unsettles a strict lexical division between eternal states and temporal nations. Blake first distinguishes Moses and Abraham as persons from the states signified by their names. He then describes those states appearing as one man at a distance and as multitudes of nations when approached. Nations participate here in visionary representation, while the apparent individual changes with the observer’s distance. The political reconstruction therefore distinguishes historical national formations from persons without treating those categories as Blake’s exhaustive taxonomy [@blakeLastJudgment, notebook p. 76, second passage, E556–557].
+
+Mitchell asks whether Blake’s pictures communicate the exemption of individuals from damnation that an interpreter derives from the writings. His seminar paper ends with an interpretive hypothesis, while its diagrams keep the geometrical reading open. The disagreement supplies a discipline for this article’s visual models: their separate nodes display proposed distinctions; their arrangement does not establish a reconciled social whole. A diagram of affiliations must remain answerable to the people represented and to competing accounts of the relation [@mitchell1975Judgment, secs. II–IV, PDF pp. 8–11].
+
 ## Endurance grants no mandate to rule
 
 The eternity of Rahab or the availability of a state named Satan supplies a decisive limit on the reconstruction. Availability or intelligibility does not make a state desirable. A federation that contains states might preserve the ability to recognize, encounter and pass through a harmful condition without authorizing its domination. Giving every state a sovereign seat would confuse a vocabulary for understanding experience with a rule for allocating coercion.
@@ -557,6 +563,28 @@ Blake pairs Art and Science with minutely organized particulars. The preceding c
 
 ![Jerusalem 55, copy I. The Seven Eyes, plowing, care for the Little-ones and minutely organized Art and Science share a densely written sheet. The lower-half passages juxtapose mutual provision with the demand to demonstrate minute particulars, grounding the section’s question of who supplies care and who must prove deservingness. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J55.jpg){#fig:plate-J55 height=3.8in}
 
+## Delight in common work can coexist with exhausting dependence
+
+Moyer reads Blake’s textile imagery across Visions, America, The Four Zoas, Milton and Jerusalem as a relation between metropolitan labor and plantation slavery. His comparison follows the production process and its distribution of power, rather than treating every reference to weaving as a single symbol. It suggests a complementary corpus search: follow work, employment, buying, chains and daughters alongside national names. The question is who compels activity, possesses its products and can interrupt the arrangement [@moyer2014Cotton, paras. 3–10, 14–16, 33].
+
+Jerusalem 59 combines affirmative feeling with an exhausting division of labor. The daughters work through hunger and interrupted sleep; they also take delight in their work and continue repairing their wheels. Their attachment does not resolve who receives its benefits or who can change its terms.
+
+\Needspace{10\baselineskip}
+
+> Yet the intoxicating delight that they take in their work\
+> Obliterates every other evil; none pities their tears\
+> Yet they regard not pity & they expect no one to pity\
+> For they labour for life & love, regardless of any one\
+> But the poor Spectres that they work for, always incessantly
+
+Q25. William Blake, Jerusalem 59:34–38, E209. [@blakeJerusalem].
+
+Read beside the provision at Los’s porches in plate 73, this scene asks whether assistance changes recipients’ capacities or sustains a laboring dependence. The institutional question is whether participants can interrupt the work, contest its allocation and redirect its benefits while retaining food, shelter and standing. Continued participation and a shared language of love do not answer that question [@blakeJerusalem, 59:26–55, E209; 73:44–54, E229].
+
+![Jerusalem 59, copy I. The central wheel and paired figures divide a sheet whose lower text follows the daughters’ labor, hunger, delight and repair of their tools. The typeset excerpt selects lines 34–38 from this longer scene; the surrounding sheet keeps the labor process visible. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J59.jpg){#fig:plate-J59 height=3.8in}
+
+Moyer’s juxtaposition of this labor with Blake’s Moore & Co. textile advertisement also makes genre and commission consequential. A commercial image of national industry and a prophetic representation of its costs may belong to one maker without asserting the same position. Search results need the work’s address and production setting as well as its author. The decision record extends that question to collective images: who commissions the image of a public, whom does it address, and whose work sustains its authority [@moyer2014Cotton, paras. 18–24]?
+
 ## A worked material conflict
 
 Suppose, solely for comparison, a drought requires reduced withdrawals. A prosperous cultural association owns upstream storage; a Treaty Nation contests the source of the authority's jurisdiction; migrant workers need safe drinking water and wages; downstream residents bear ecological and health risks. These are stipulated parties, not claims about named California communities. Collective identities neither determine hydrology nor distribute costs. A proposal must identify existing obligations, evidence of scarcity, infrastructure control and the bodies authorized to negotiate or decide.
@@ -569,7 +597,7 @@ Alternative E3 gives a watershed body limited competence while requiring separat
 
 Comparison must keep physical scarcity and the resource baseline explicit while changing institutional rules. It should record access to water, costs, ability to secure a hearing, ability to survive delay and power to revise the arrangement. Essential provision cannot depend on buying national membership. Translation needs funding, reciprocal language access and limits protecting knowledge a people has reason not to disclose. Affected-person standing must confront rather than silently override self-determination. Counting affected individuals does not settle a treaty-specific jurisdictional dispute.
 
-The record separates storage owner as property holder, supplier as service provider, watershed body as claimant of competence, and each enforcement actor. A valid scarcity measurement does not establish power to impose a levy; a valid levy does not establish that the board speaks every person's national identity. A successful cultural interpretation supplies neither warrant. The institutional test is useful when it locates these transitions clearly enough for opponents to dispute them.
+The record separates storage owner as property holder, supplier as service provider, watershed body as claimant of competence, and each enforcement actor. A valid scarcity measurement does not establish power to impose a levy; a valid levy does not establish that the board speaks every person's national identity. A successful cultural interpretation supplies neither warrant. The institutional test locates these transitions so opponents can dispute them.
 
 
 A further test concerns interim protection while the watershed body's title is disputed. Who must keep water flowing, who can survive delay, and which emergency measure protects life without being treated as a permanent settlement of title? A protective order may be demanded by a worker while its forum is rejected by a Treaty Nation. Neither the urgency nor the objection automatically disposes of the other warrant. Compare the wealthy association's and the worker's ability to obtain interim relief under the same scarcity. Record the temporary duty, evidence, funding, duration and procedure for revisiting the act. No current California facts or legal holdings are supplied by this invented scenario.
@@ -816,15 +844,39 @@ Nations and states share nine of seventeen source families in their union: Jacca
 The computational contribution is a ranked set of comparisons with inspectable denominators: Urizen for state density; non-Jerusalem families for particulars and emanation; and the four person/identity-bearing families for testing the proposed state/person relation. The manuscript's quoted passages then supply speech, sequence, image and argumentative context. The retrieval and the reading perform connected tasks.
 
 
+## Corpus-wide retrieval follows an argument back to its source units
+
+The fixed query groups support a stable comparison across versions. The new search engine also accepts ad hoc words and exact phrases across all 2,067 imported units. Its default selection is primary text; role, source plane and recorded work ID can be selected independently. An alternative query accepts any of its terms. A conjunctive query requires every term within the same stored source unit. The latter identifies a shared document context; a reading extract may encompass a whole poem, so conjunction does not imply a shared sentence or dramatic speaker.
+
+Search preserves the source spelling and punctuation. Unicode casefolding supports case-insensitive matching, with each folded character mapped back to its original text offset. A match must align with complete source characters. Literal phrases retain their spaces and line breaks; the interface offers substring matching separately from whole-word boundaries. Search results include the edition, locator, source URL, role, rights statement, original-text hash and exact span. These fields let a reader reopen a passage and distinguish the text being interpreted from the layers through which it was retrieved.
+
+::: {.definition #def:search-scope title="Search counts precede the displayed sample"}
+For the eligible source-unit set $U$, let $H_q(u)$ be the nonoverlapping, character-aligned literal matches for query term $q$ in unit $u$. An alternative query admits units with any nonempty $H_q(u)$; a conjunctive query admits units for which every $H_q(u)$ is nonempty. Write the admitted units as $M$. The occurrence count and matched-unit count are
+
+$$
+O=\sum_{u\in M}\sum_{q\in Q}\lvert H_q(u)\rvert,\qquad B=\lvert M\rvert.
+$$ {#eq:search-counts}
+
+The result limit selects the first $L$ records from the deterministic ordering of term-labeled matches. It does not change $O$, $B$, the source-family facets or their eligible token denominators. Different overlapping query terms retain separate match records.
+:::
+
+The literal-search study in [@fig:literal-search-strata] compares six deliberately narrow searches across the source layers and retains a seventh nonsense query. Separating liberty from freedom makes the lexical choice inspectable; searching minute particulars and general forms as literal phrases distinguishes those formulations from the broader particulars query. The figure reports exact counts and matched units in each role. An editorial occurrence may identify commentary worth consulting, but its source label prevents it from being counted as another primary Blake utterance.
+
+![Literal words and phrases across the imported corpus. Each cell gives all term matches and matched source units in its role; bars share a zero-based count scale. The primary column contains reading extracts, the editorial column includes mixed Erdman pages and four XML units, and unverified sources retain their original label. The seven-query aggregate is generated independently of the saved concordance; the nonsense control returns zero. Phrase matching preserves literal whitespace and stored copies remain separate.](../figures/literal-search-strata.png){#fig:literal-search-strata width=98%}
+
+Within the primary extracts, liberty occurs 55 times in 17 units, while freedom occurs six times in six units. Minute particulars has 21 matches and general forms five; both phrase searches match four units in the recorded Jerusalem family. The interface exposes their constituent texts so that four retained witnesses do not become four independent works. Keeping liberty and freedom separate also makes an interpretive choice visible before combining them into a broader lexical group.
+
+The local search workspace connects these counts to passage cards, highlighted spans and a source-family distribution. Its role/plane matrix and family table use the full matched set before the display cap; the exported result records the same request and pin. This makes a specific comparison possible: select a lexical cluster, inspect where its occurrences concentrate, then read the passages that supply the concentration. A frequency table can direct the next comparison without deciding which speaker, national formation or institutional claim deserves endorsement.
+
 ## Reading, quotation and image method
 
 Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
 
-Twenty-four displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
+Twenty-five displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
-Ten official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
+Eleven official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 
-The ten uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
+The eleven uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
 
 The selected copy-D leaf places as multitudes marginally beside the human-form passage. The selected J73 sheet reads howl in the spectres passage. These support specific local comparisons without repairing the retained recovered transcription or settling every variant. The old discrepancy docket remains historical; a new collation note records these limited observations. ASU's edition and the Library of Congress (LOC) impressions are different source objects, and agreement on selected passages does not make them one edition.
 

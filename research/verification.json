@@ -1,9 +1,9 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "status": "software_and_native_render_qualified",
-  "tests": 268,
+  "tests": 324,
   "coverage_percent": {
-    "application": 98.13235891189606,
+    "application": 97.73440223074242,
     "infrastructure": 72.21052631578948
   },
   "coverage_floor": {
@@ -11,25 +11,28 @@
     "infrastructure": 60
   },
   "qualification_artifacts": {
-    "qualification-03/checks.json": "50cd0a8be22ec326e2a193df774117baf35bae5d863f2f264558490054c2c7f0",
-    "qualification-03/check-4.log": "e417e7a06588e29affee8d15390a6899534989ee2aacf52e036ac7a00217f073",
-    "qualification-03/tests.xml": "0d0060b0ed062ac92784109006de9963d689465cd5eb8a7cee0473498c3e86f5",
-    "qualification-03/coverage.json": "129eff0fc45eb8eab1620bb55c5aaa3e583199dfdfaa8ebc7f4381a2808f9ee2",
-    "qualification-03/source-bindings.json": "63ee4a8a6be0b7d4150a66fcb9f50ef010a8bb56ad54ee1f8b9694ddb81555f7",
-    "coverage-floors.json": "f98dc5ad27660759d3be26075a28286aa786b0b65029cf471d6613a9212fa71b",
-    "page-inspection-final.json": "a2d4e7628bf732c519969ee4996964664c58cdba24f7c4391ee70e9845e403ab",
-    "figure-inspection-final.json": "8fe59e9c6cb60612107311ef21f39368103983cdeca15fa3d9615c52f0060892",
-    "browser-inspection-final.json": "2a639e596f490a733c5ddccb448056f23ce1afebe1658cce2feff2933b419e67",
-    "browser-results-070.json": "fb9236a006f95d5a4883f2f47f4eef12a4c4ca7a74451d39e80c0a4b56c1566e",
-    "final-workbench-browser-results-070.json": "3d1f040920a71721ffcbdc37cc0d5a3140bef8654dceb781058729cd889b9ae4",
-    "research-integration-final.json": "63cf814c2ec97c742bb40eedd40beda305e3b714be1e4723e96fc19131d18058",
-    "manual-analysis-final.json": "6bc623b9e04a691e6d7e5fa4025ac435ef238f0eb48dc1e02835dcdaa01c79d5",
-    "pdf-controls.json": "228f67197a767f3422c017aae9e9ddfeede7efdf1232559ed02548bd482e77c3",
-    "bibliography-parser-receipt.json": "ec1d4ed1ef51bfbea26436f443b7a65e9068e3ba97d9a596fe0de9e5347abd7f",
-    "page-final-delta.json": "2e66f913b159a82dd4687acdb1bcb3f9c0f8c89d9b4b150b00b4c3c08541622c"
+    "qualification-05/checks.json": "55c32d4778173ab3a5f9653e18b94b30b61f0ed3ef8892547251a157dcbe1b54",
+    "qualification-05/check-4.log": "c2da5df2b8b084518a3159543dd1c0cc4db3a267bbd5c62f89a1d5c5cd845385",
+    "qualification-05/tests.xml": "b8b3d39c2250b03360a9b0b337a546233b046e39d81997eeb53ab96d3a5e09dd",
+    "qualification-05/coverage.json": "29558b9fe7ba2070dd578ea67605e26a2235e896f4b1d72939747e3e31a74a8c",
+    "qualification-05/source-bindings.json": "ba9edfce764b716e7601c30a13da5d40e2032dc1b0b1dbdeea4683a0eba0c79d",
+    "coverage-final-binding.json": "0497f10a3ebacc4fa76bc9750f2139074cd3d576424f243d987a1678f1beca1b",
+    "page-inspection-final.json": "52def6c97f56fa2c80863def65f4defd88c95207d45c04a7992eeb6468db06f6",
+    "figure-inspection-final.json": "009675c97215a1ebd2d05591607665aa23f895f8794ee32a971dc96b68619f27",
+    "browser-inspection-final.json": "6044b31f5551ae4ea69e622cbedb50e86de1442673a38e54973ebbfa71d90a59",
+    "browser-results-080-final.json": "12fd9b5a08b2ead64165a60b24084932cef85279e8f5e50017a898533f114536",
+    "final-workbench-browser-results-080.json": "7545de3d4613e447d8870dd9e6a93fe18b4a3f16f279211eed74e8c1b1535b2c",
+    "browser-search-results.json": "b164de7b31d8aa128f90e4ab812a52149beff9cfa850637a0308ad3f6f8bf418",
+    "research-integration-final.json": "0e21e34e601346f68a9a8b01e2ac320293a5479848cf02c141e9bf931ab8bea8",
+    "manual-analysis-final.json": "127d3bc0696c5dd435267700a6e3106abdd9a7b6a97fbe2fb400336e52795ef1",
+    "bibliography-parser.json": "4bc447e437ecf206f5bad4efb3fc6e238cda5bfc79361368c4edc06c85a05065",
+    "search-production-receipt.json": "9543e4cb8abcf55f046c22674ab4e4449e6d36fadd021de758325e05a759362f",
+    "search-leaf/qualification-complete.json": "f289aed586616db1aa6d2edb3b5d2fe912938e5a8df42aed89f4d7721392fd63",
+    "ui-leaf/handoff.json": "5bd3db6611731614a32778470ad458f98d6a164e9983b353ed65d87cfe32cea1",
+    "new-image-custody.json": "b530b93b60cd2986a299b10d0b6c89e96f8e8b4bbbc791eacf444969f43d29eb"
   },
-  "rendered_qa": "research/rendered-review-0.7.0.json",
-  "historical_qualification": "research/history/verification-0.6.0.json",
-  "qualification_reuse": "All46 software/test/build/lock bindings remain identical to the268-test run. Later Markdown and bibliography edits passed fresh actual template PDF/HTML rendering, native BibTeX parsing, page-byte comparison and browser QA.",
-  "native_worker_coverage_note": "Separate native-template Python execution is source-bound by its own receipt; application coverage excludes that process."
+  "rendered_qa": "research/rendered-review-0.8.0.json",
+  "historical_qualification": "research/history/verification-0.7.0.json",
+  "qualification_reuse": "Final source bindings match the 324-test run. Subsequent reading-ledger display wording passed fresh native05 preparation/render; PDF and HTML remain byte-identical to the visually inspected native04.",
+  "native_worker_coverage_note": "Separate native-template execution has its own source-bound receipt."
 }

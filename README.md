@@ -4,13 +4,26 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript, analyses and workbench 0.7.0
+## Manuscript, analyses and workbench 0.8.0
 
-The article brings twenty-four verified Blake quotations and ten identified LOC sheets into its main-text readings. Thirteen original vector figures include four opening graphical abstracts. Seven redesigned figures add matched families/extracts, named deletion endpoints, directional overlap measures, exact repair bundles, and five-function comparisons of agreement and dependency. Fourteen formalisms and nine equations are automatically numbered by the pinned docxology/template route. The 49 cited references connect collective vision, national reception, material printing, public art and the conditions of effective contestation. [Render and source instructions](docs/manuscript/README.md).
+The article brings twenty-five verified Blake quotations and eleven identified LOC sheets into its main-text readings. Fourteen original vector figures include four opening graphical abstracts. Seven redesigned figures add matched families/extracts, named deletion endpoints, directional overlap measures, exact repair bundles, and five-function comparisons of agreement and dependency. Fifteen formalisms and ten equations are automatically numbered by the pinned docxology/template route. The 52 cited references connect collective vision, national reception, material printing, public art and the conditions of effective contestation. [Render and source instructions](docs/manuscript/README.md).
 
-The new [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
+The 0.7.0 [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
 
-The offline workbench reconciles all 180 query/plane/role cells and 150 baseline checks, separates active satisfied/failed rules from inactive conditions, and exposes the new analytical summaries, minimum bundles and complete text-free analytical data. The new scholarship reads Herrstrom’s complete prose and notes, Ferber’s complete prose/notes/discography, and selected Essick–Viscomi sections. [Reading and integration](docs/research/scholarship-density-0.7.0.md). [Workbench use](docs/research-workbench.md).
+The offline workbench reconciles all 180 query/plane/role cells and 150 baseline checks, separates active satisfied/failed rules from inactive conditions, and exposes the new analytical summaries, minimum bundles and complete text-free analytical data. The 0.8.0 scholarship reads Moyer’s complete article and Mitchell’s complete seminar paper, adds a Last Judgment countertext on visionary nations and follows textile work through hunger, delight and dependence. [New readings](docs/research/corpus-search-scholarship-0.8.0.md); [prior readings](docs/research/scholarship-density-0.7.0.md). [Workbench use](docs/research-workbench.md).
+
+## Search the whole imported corpus
+
+The [local search workspace](docs/corpus-search.md) searches arbitrary words and phrases across 2,067 imported source units, with primary text selected by default. Choose alternatives or require all terms in one source unit, filter source roles/planes/families, inspect exact highlighted spans and open source records. Family distributions and the source-layer matrix retain all counts before pagination. The full-text workspace remains local and ignored; the distributable evidence workbench contains aggregates.
+
+~~~bash
+uv run blakean search-corpus --term "minute particulars" --output analysis_output/particulars.json
+uv run blakean search-corpus --term state --term individual --mode all --limit 200 --output analysis_output/state-person.json
+uv run blakean build-search-workspace --output analysis_output/corpus-search/new-run
+uv run blakean search-study --output analysis_output/literal-study.json
+~~~
+
+Open the generated index.html directly in a browser. No server or runtime network is required.
 
 ## Start reading
 

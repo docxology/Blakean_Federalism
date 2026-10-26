@@ -31,10 +31,14 @@ from .publication_body import (
     draw_watershed,
 )
 from .publication_evidence import evidence
+from .search_figure import draw_search_study
+from .search_study import SearchStudy
 from .workbench_models import Workbench
 
 
-def generate_figures(report: Workbench, output: Path, rasterizer: str) -> dict[str, str]:
+def generate_figures(
+    report: Workbench, output: Path, rasterizer: str, search_study: SearchStudy | None = None
+) -> dict[str, str]:
     """Write new deterministic vector masters and PNG derivatives."""
     directory = Path(__file__).parent / "resources/fonts"
     _registry(pdfmetrics).registerFont(TTFont("BF-Vera", str(directory / "Vera.ttf")))
@@ -62,9 +66,12 @@ def generate_figures(report: Workbench, output: Path, rasterizer: str) -> dict[s
         )
         if report.institutional_experiments is not None:
             drawings["counterfactual-repairs"] = partial(repairs, report=report)
+    if search_study is not None:
+        drawings["literal-search-strata"] = partial(draw_search_study, study=search_study)
     for name, drawing in drawings.items():
         stream = io.BytesIO()
         analytical = name in {
+            "literal-search-strata",
             "case-traces",
             "copy-balanced-rates",
             "source-sensitivity",

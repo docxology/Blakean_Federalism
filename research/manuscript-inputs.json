@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -186,6 +186,18 @@
       "kind": "html",
       "caption": "The [First] Book of Urizen, ASU-hosted electronic Erdman transcription.",
       "rights_basis": "Selected public-domain primary verse; ASU transcription and retained illuminated copies remain distinct source objects."
+    },
+    {
+      "asset_id": "J59",
+      "path": "local_data/manuscript/v0.8.0/loc-jerusalem-0059.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0059/full/pct:25.0/0/default.jpg",
+      "sha256": "7992a2139c359e05bc38b6a8bd9f3010d22a7a8105fab5ec38b982c56529b4dd",
+      "size": 305485,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters’ labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
     }
   ],
   "quotations": [
@@ -885,6 +897,39 @@
         }
       ],
       "context": "Enclosure and bodily labor precede the condensation into nations, peoples and tongues; national generation includes pain, gender and continual building/decay."
+    },
+    {
+      "quote_id": "Q25",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem59:34–38, E209",
+      "segments": [
+        {
+          "anchor": "J59.34;E209",
+          "occurrence": 0,
+          "text": "Yet the intoxicating delight that they take in their work"
+        },
+        {
+          "anchor": "J59.35;E209",
+          "occurrence": 0,
+          "text": "Obliterates every other evil; none pities their tears"
+        },
+        {
+          "anchor": "J59.36;E209",
+          "occurrence": 0,
+          "text": "Yet they regard not pity & they expect no one to pity"
+        },
+        {
+          "anchor": "J59.37;E209",
+          "occurrence": 0,
+          "text": "For they labour for life & love, regardless of any one"
+        },
+        {
+          "anchor": "J59.38;E209",
+          "occurrence": 0,
+          "text": "But the poor Spectres that they work for, always incessantly"
+        }
+      ],
+      "context": "Read 59:26–55 on hunger, delight, labor and repair beside provision at 73:44–54."
     }
   ],
   "fronts": [

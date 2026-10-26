@@ -28,6 +28,7 @@ from blakean_federalism.publication_verification import (
     verify_references,
 )
 from blakean_federalism.report import build_workbench
+from blakean_federalism.search_study import build_search_study
 from blakean_federalism.storage import digest
 
 from .test_workbench import observed as observations_fixture
@@ -146,6 +147,10 @@ def publication_source(prepared):
     article.write_text(article.read_text() + "\n" + FORMAL)
     (root / "docs/manuscript/references.bib").write_text(BIB)
     report = build_workbench(root, corpus, result)
+    _, units = load_import(corpus, report.corpus_pin)
+    (root / "research/search-study-0.8.0.json").write_text(
+        build_search_study(units, report.corpus_pin).model_dump_json()
+    )
     rasterizer = shutil.which("pdftoppm")
     assert rasterizer is not None, "Install the documented Poppler toolchain"
     return root, report, rasterizer
@@ -158,7 +163,7 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     receipt = PreparedPublication.model_validate_json(
         (target / "prepared-publication.json").read_bytes()
     )
-    assert len(receipt.figures) == 22
+    assert len(receipt.figures) == 24
     assert all(
         digest(target / "output/figures" / name) == value for name, value in receipt.figures.items()
     )

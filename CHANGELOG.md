@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — corpus-wide literal search
+
+- Search arbitrary literal words and phrases across the verified corpus; retain exact source spans, hashes and source roles.
+- Add a standalone local offline search workspace with source-family distributions, role/plane counts and source-linked contexts.
+- Add an aggregate literal-search comparison, an automatically numbered search formalism and a new source-stratum figure.
+- Extend the scholarship through source-bound close reading and preserve the original concordance producer.
+
 ## 0.7.0 — 26 October 2026
 
 - Integrate Herrstrom, Ferber and selected Essick–Viscomi readings into passage, national expression, protective authority and production. Correct claim locators and reading credit; protect proper names in BibTeX and retain bare-month fields in the citation catalog.

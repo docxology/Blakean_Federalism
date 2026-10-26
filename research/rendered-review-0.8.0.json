@@ -1,0 +1,49 @@
+{
+  "version": "0.8.0",
+  "native_template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native_render_receipt_sha256": "6895f8a2f2a2751bc7b4f78275ef7eeb76f257c7fbdc63ece6d5906990769cb3",
+  "pdf_sha256": "6d3c3bd91c034a623da4955d992cca465146578d33d2a8c7669d66277e44abf9",
+  "html_sha256": "88bef77628c218d89a17bfa674be219f6ae582233bc297f7f45386744a2bfc87",
+  "pages": 50,
+  "opening_graphical_abstract_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "original_vector_figures": 14,
+  "selected_historical_sheets": 11,
+  "verified_quotations": 25,
+  "numbered_formalisms": 15,
+  "labeled_equations": 10,
+  "resolved_references": 52,
+  "bibliography_entries": 58,
+  "visual_review": "All 50 final pages covered by individual inspection and exact raster reuse. All new art and diagram originals and all 19 current captures inspected individually.",
+  "theme": {
+    "paper": "black, white, red",
+    "hyperlinks": "#b00020",
+    "historical_art": "unmodified original colours"
+  },
+  "qualification_artifacts": {
+    "qualification-05/checks.json": "55c32d4778173ab3a5f9653e18b94b30b61f0ed3ef8892547251a157dcbe1b54",
+    "qualification-05/check-4.log": "c2da5df2b8b084518a3159543dd1c0cc4db3a267bbd5c62f89a1d5c5cd845385",
+    "qualification-05/tests.xml": "b8b3d39c2250b03360a9b0b337a546233b046e39d81997eeb53ab96d3a5e09dd",
+    "qualification-05/coverage.json": "29558b9fe7ba2070dd578ea67605e26a2235e896f4b1d72939747e3e31a74a8c",
+    "qualification-05/source-bindings.json": "ba9edfce764b716e7601c30a13da5d40e2032dc1b0b1dbdeea4683a0eba0c79d",
+    "coverage-final-binding.json": "0497f10a3ebacc4fa76bc9750f2139074cd3d576424f243d987a1678f1beca1b",
+    "page-inspection-final.json": "52def6c97f56fa2c80863def65f4defd88c95207d45c04a7992eeb6468db06f6",
+    "figure-inspection-final.json": "009675c97215a1ebd2d05591607665aa23f895f8794ee32a971dc96b68619f27",
+    "browser-inspection-final.json": "6044b31f5551ae4ea69e622cbedb50e86de1442673a38e54973ebbfa71d90a59",
+    "browser-results-080-final.json": "12fd9b5a08b2ead64165a60b24084932cef85279e8f5e50017a898533f114536",
+    "final-workbench-browser-results-080.json": "7545de3d4613e447d8870dd9e6a93fe18b4a3f16f279211eed74e8c1b1535b2c",
+    "browser-search-results.json": "b164de7b31d8aa128f90e4ab812a52149beff9cfa850637a0308ad3f6f8bf418",
+    "research-integration-final.json": "0e21e34e601346f68a9a8b01e2ac320293a5479848cf02c141e9bf931ab8bea8",
+    "manual-analysis-final.json": "127d3bc0696c5dd435267700a6e3106abdd9a7b6a97fbe2fb400336e52795ef1",
+    "bibliography-parser.json": "4bc447e437ecf206f5bad4efb3fc6e238cda5bfc79361368c4edc06c85a05065",
+    "search-production-receipt.json": "9543e4cb8abcf55f046c22674ab4e4449e6d36fadd021de758325e05a759362f",
+    "search-leaf/qualification-complete.json": "f289aed586616db1aa6d2edb3b5d2fe912938e5a8df42aed89f4d7721392fd63",
+    "ui-leaf/handoff.json": "5bd3db6611731614a32778470ad458f98d6a164e9983b353ed65d87cfe32cea1",
+    "new-image-custody.json": "b530b93b60cd2986a299b10d0b6c89e96f8e8b4bbbc791eacf444969f43d29eb"
+  },
+  "scope": "Author-run qualification and manual QA. Independent acceptance recorded separately."
+}

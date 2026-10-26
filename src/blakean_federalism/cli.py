@@ -17,8 +17,22 @@ from .corpus import concordance, import_corpus, load_import
 from .corpus_statistics import analyze_corpus
 from .institutional_experiments import run_experiment
 from .institutions import assess
-from .models import Assessment, Concordance, CorpusPin, CountRow, Decision, QuerySpec, ResearchError
+from .models import (
+    Assessment,
+    Concordance,
+    CorpusPin,
+    CountRow,
+    Decision,
+    Plane,
+    QuerySpec,
+    ResearchError,
+    Role,
+)
 from .report import build_workbench, publish_workbench
+from .search import search_corpus
+from .search_models import SearchRequest
+from .search_study import build_search_study
+from .search_workspace import build_search_workspace
 from .storage import write_new
 
 DEFAULT_PIN: Final = Path("research/corpus-pin.json")
@@ -61,6 +75,82 @@ def analyze(
         f"{result.scanned_source_documents} source documents; {len(result.hits)} occurrences"
     )
     typer.echo("Saved spans, source roles and editions support close reading.")
+
+
+@app.command("search-corpus")
+def search_corpus_command(
+    term: Annotated[
+        list[str], typer.Option("--term", help="Literal word or phrase; repeat for alternatives")
+    ],
+    output: Annotated[Path, typer.Option(help="New ignored source-bound result JSON")],
+    *,
+    corpus: Path = DEFAULT_CORPUS,
+    pin: Path = DEFAULT_PIN,
+    mode: str = "any",
+    role: Role | None = None,
+    plane: Plane | None = None,
+    work_id: str | None = None,
+    all_sources: bool = False,
+    substring: bool = False,
+    limit: int = 100,
+    context_chars: int = 120,
+) -> None:
+    """Search literal Unicode text across the verified corpus, independently of saved queries."""
+    require_ignored(output, "analysis_output")
+    if all_sources and role is not None:
+        raise ResearchError("search_role", "Choose --all-sources or --role")
+    request = SearchRequest.model_validate(
+        {
+            "terms": tuple(term),
+            "mode": mode,
+            "role": None if all_sources else (role or Role.PRIMARY),
+            "plane": plane,
+            "work_id": work_id,
+            "whole_words": not substring,
+            "limit": limit,
+            "context_chars": context_chars,
+        }
+    )
+    result = search_corpus(corpus, CorpusPin.model_validate_json(pin.read_bytes()), request)
+    write_new(output, result.model_dump_json(indent=2) + "\n")
+    typer.echo(
+        "".join(
+            (
+                f"{result.total_occurrences} occurrences; ",
+                f"{result.matched_source_units}/{result.eligible_source_units} eligible units; ",
+                f"{result.returned_hits} returned",
+            )
+        )
+    )
+
+
+@app.command("build-search-workspace")
+def build_search_workspace_command(
+    output: Annotated[
+        Path, typer.Option(help="New ignored directory containing local full-text search")
+    ],
+    corpus: Path = DEFAULT_CORPUS,
+    pin: Path = DEFAULT_PIN,
+) -> None:
+    """Build a standalone offline full-text workspace; keep this artifact local."""
+    require_ignored(output, "analysis_output")
+    typer.echo(
+        str(build_search_workspace(corpus, CorpusPin.model_validate_json(pin.read_bytes()), output))
+    )
+
+
+@app.command("search-study")
+def search_study_command(
+    output: Annotated[Path, typer.Option(help="New aggregate-only search study JSON")],
+    corpus: Path = DEFAULT_CORPUS,
+    pin: Path = DEFAULT_PIN,
+) -> None:
+    """Compare seven literal searches across every imported source role."""
+    expected = CorpusPin.model_validate_json(pin.read_bytes())
+    _, passages = load_import(corpus, expected)
+    result = build_search_study(passages, expected)
+    write_new(output, result.model_dump_json(indent=2) + "\n")
+    typer.echo(f"{result.source_units} source units; {len(result.queries)} literal queries")
 
 
 @app.command("assess-cases")
@@ -148,7 +238,7 @@ def build_workbench_command(
     corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
     concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
     output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
-    readings: str = "research/scholarship-reading-0.7.0.json",
+    readings: str = "research/scholarship-reading-0.8.0.json",
 ) -> None:
     require_ignored(output, "analysis_output")
     report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
@@ -166,7 +256,7 @@ def render_manuscript_command(
     output: Annotated[Path, typer.Option(help="New ignored publication stage")],
     corpus: Path = DEFAULT_CORPUS,
     concordance_file: Path = DEFAULT_CONCORDANCE,
-    readings: str = "research/scholarship-reading-0.7.0.json",
+    readings: str = "research/scholarship-reading-0.8.0.json",
 ) -> None:
     "Hydrate with docxology/template and verify references, sources and quotations."
     # Optional manuscript dependencies must not become core CLI import requirements.

@@ -28,3 +28,8 @@ The Corpus view includes pooled/equal-family rates for all twenty queries. The c
 Use corpus-statistics and experiment-cases to export either analysis independently. Outputs must be new ignored analysis_output paths. Both commands run without manuscript rendering dependencies. The former verifies the imported corpus; the latter retains all changed field paths and replacement values in its catalog. [Corpus definitions](research/corpus-statistics-0.6.0.md) and [experimental definitions](research/institutional-experiments-0.6.0.md).
 
 The HTML embeds a compact manifest that binds the complete companion JSON by SHA-256. All reading views, filters, cases and source records remain in the HTML; detailed statistical strata stay in the JSON, with no automatic file or network retrieval. The raw HTML budget remains 768 KiB.
+
+
+## Search beyond saved groups
+
+Use the separate [local fulltext workspace](corpus-search.md) for arbitrary words and phrases. It searches all imported units with role/plane/family filters, retains exact source spans and compares source-family coverage before the display cap. The aggregate workbench remains compact and distributable within the private release; fulltext search and result contexts stay local and ignored.

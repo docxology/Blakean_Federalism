@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Cite the exact private software version used; this research draft is not peer reviewed."
 type: software
 title: Blakean Federalism
-version: 0.7.0
+version: 0.8.0
 date-released: 2026-10-26
 authors:
   - family-names: Friedman

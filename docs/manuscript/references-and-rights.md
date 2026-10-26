@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-four selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-five selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -45,7 +45,7 @@ The citations to earlier work retain the earlier reported complete-extraction re
 
 ## Image rights and critical use
 
-The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 61, 73, 91 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
+The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 59, 61, 73, 91 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
 
 Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
 
@@ -70,7 +70,7 @@ The original image bodies remain uncropped. Jerusalem 27 and 99 come from the sa
 
 The source ledger retains retrieval failures, cache hashes and the exact versions used. New readings do not change the recorded status of Wright, Clark or the Makdisi book beyond its available introduction.
 
-\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
 
 ## Urizen context and refrain audit
 
@@ -85,3 +85,12 @@ The new primary reading covers plates 4, 10–13 and 28 in the ASU electronic tr
 | [@essickViscomi2002Color] | Selected continuous printed pp. 74–77 and 98–102, with notes in those ranges. Middle evidentiary sections and the opposing book were not read. |
 
 Jerusalem contexts were read at 45:1–44, 53:1–29, 73:1–54 and 91:1–58 in the ASU transcription. Q23–Q24 bind the provision and national-generation passages to that captured input. The access ledger retains unsuccessful Elliott publisher requests and discovery excerpts separately; they supply no substantive citation or reading credit.
+
+
+## Labor, visionary scale and corpus-wide search
+
+The new scholarly readings are Moyer’s complete numbered article prose (paragraphs 1–33), all 22 inline note blocks, captions and works cited, and Mitchell’s complete seminar paper (§§ I–IV, PDF pp. 8–10) with the three diagrams on PDF p. 11. Moyer’s two publisher illustrations were inspected. Mitchell’s later book and the works cited by either author receive no new reading credit [@moyer2014Cotton; @mitchell1975Judgment].
+
+Selected ASU contexts include Jerusalem 16:1–69, 55:1–69, 59:1–55 and 67:1–62; Marriage 21–24; the Reynolds host text and annotations at E641; and selected Last Judgment locator-label passages at E556–557 and E561. These are selected-context readings. The Last Judgment page’s printed N76[b] locator has no matching HTML anchor. Its countertext is paraphrased with the notebook/Erdman locator; Q25 uses Jerusalem 59’s actual line anchors. The cumulative ledger is research/scholarship-reading-0.8.0.json; the bounded source ledger is research/scholarship-source-ledger-0.8.0.json.
+
+Jerusalem 59 is the eleventh uncropped LOC reproduction. Its lower text places delight, hunger and labor within the same designed sheet. The item-attached rights advisory, copy I identity and posthumous dating are retained from the same identified LOC item 48038103. The literal-search study records all role/family counts separately from the fulltext workspace. Fulltext search output remains local and ignored.
