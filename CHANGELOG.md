@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0 — notation, visual arguments and close reading
+
+- Add a source-bound front notation table with live references and native PDF/HTML placement checks; distinguish mathematical operators and model contexts.
+- Redesign all fourteen vector figures with typed countermodels, decision feedback, directly labeled matrices, aligned rates and explicit unit/family/subset denominators.
+- Add four verified Blake excerpts, the complete White article reading and uncropped Jerusalem 98; preserve source witnesses and reading ledgers.
+- Reject inconsistent serialized statistical measures while preserving valid zero and undefined denominators. Corpus/search and finite institutional calculations are unchanged.
+
 ## 0.8.0 — corpus-wide literal search
 
 - Search arbitrary literal words and phrases across the verified corpus; retain exact source spans, hashes and source roles.

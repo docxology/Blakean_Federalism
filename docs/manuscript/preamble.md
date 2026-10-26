@@ -12,7 +12,7 @@
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{example}[theorem]{Example}
 \let\BFOriginalContents\tableofcontents
-\newcommand{\BFcontents}{\begingroup\fontsize{8.5}{9.5}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
+\newcommand{\BFcontents}{\begingroup\fontsize{8}{8.5}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}

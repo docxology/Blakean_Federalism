@@ -37,7 +37,7 @@ For nonempty $J$ and $D$, fixing $A$ and $I$ in [@def:typed] does not determine 
 
 The many-to-many map in [@fig:typed-relations] displays this independence. Persons can sustain several affiliations; nations can draw on several state interpretations. The institution–decision relation occupies a separate layer because its warrant has to be supplied.
 
-![Typed relations: persons may have several affiliations and nations several state interpretations. An institution's claimed competence is a distinct relation to a decision; no affiliation or interpretation arrow establishes authorization. Solid links show affiliation A, dashed links interpretation I, and the separate C relation records a competence claim.](../figures/typed-relations.png){#fig:typed-relations width=95%}
+![Two structures retain the same persons, national formations, poetic-state readings, affiliations and interpretations. World 0 records no institutional competence claim; World 1 records the claim (j,d). Solid and dashed links remain identical while the red claim changes, making Proposition 1's countermodel visible. The claim still requires an independent warrant.](../figures/typed-relations.png){#fig:typed-relations width=95%}
 
 \Needspace{4\baselineskip}
 
@@ -361,6 +361,23 @@ Q20. William Blake, Jerusalem 61:17–23, E212. Selected excerpt. [@blakeJerusal
 
 Joseph reports the dream-voice after Mary's challenge to his rejection and his embrace of her. The speech questions forgiveness conditional on payment or purity while retaining perpetual mutual sacrifice. Its religious relation supplies the terms of the difficulty. In the institutional reconstruction, a claimant regains basic standing without first accepting an association's judgment of their character, reconciling with its officials or ending criticism. A person harmed by an office need not forgive it to obtain protection. Accountability can still address the act, evidence, restitution and prevention of further harm.
 
+Jerusalem makes the distinction between persons and states a condition of forgiveness, rather than simply a theory of identity:
+
+\Needspace{11\baselineskip}
+
+> Learn therefore O Sisters to distinguish the Eternal Human\
+> That walks about among the stones of fire in bliss & woe\
+> Alternate! from those States or Worlds in which the Spirit travels:\
+> This is the only means to Forgiveness of Enemies[.]
+
+Q27. William Blake, Jerusalem 49:72–75, E199. [@blakeJerusalem].
+
+Erin's address has just described heavens feeding upon condemned souls, then refused to identify Luvah with the state named Satan. Deliverance recurs “time after time”: it cannot depend on certifying that a person has finally acquired an immaculate identity. The enemy remains someone whose present relation can change. This is more demanding than tolerating harmless difference, since the distinction operates amid accusations, sacrifice and the enjoyment of another's condemnation [@blakeJerusalem, 49:60–75, E199].
+
+The passage also resists an easy administrative translation. Erin calls distinguishing person and state the *only* means to forgiveness; the ensuing response asks that the remembrance of sin be taken away. That religious demand cannot settle what an institution should preserve as evidence of injury. Nor can an office require a harmed person to forgive an adversary, abandon a complaint or endorse the office's account of reconciliation. A public record may need to retain what happened precisely so that the victim does not have to recount it repeatedly [@blakeJerusalem, 50:18–30, E200].
+
+Durable evidence differs from a permanent civic sentence. It can preserve an account of a harmful act, impose a warranted protective restriction and assign restitution without treating the person as the exhaustive embodiment of the wrong. Revision needs its own conditions: which evidence could change the restriction, who hears the request, and what protections continue for those exposed to renewed harm? Passage concerns the conditions under which relations can alter; it does not require that every injured participant resume the relation. Forgiveness supplies a challenge to punitive identification while leaving the institutional duties of protection and accountability to be defended.
+
 ![Jerusalem 61, copy I. Joseph and Mary’s exchange leads into the dream-voice about debt, purity and forgiveness, then Mary’s song and the infant/cross sequence. Small forms accompany the right margin. This sheet stages the dialogue discussed here; it is distinct from the watercolor analyzed by Heppner. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J61.jpg){#fig:plate-J61 height=3.8in}
 
 # From imaginative federation to shared rule and self-rule {#sec:s4}
@@ -379,6 +396,26 @@ Three proposed mechanisms translate the grammar into institutional questions. A 
 ## Making together can change the vocabulary of the whole
 
 Viscomi's reconstruction of illuminated printing places invention within execution: graphic experiments could generate projects that did not precede the technique. The finished composite does not establish either a prior illustrated plan or an original rejection of the marketplace [@viscomi2012Invention, secs. II–IV, especially sec. IV, paras. beginning “With no page designs” and “Illuminated printing evolved”]. This bears directly on the states–nations inversion. If nations only selected from a complete repertoire already known to the theorist, temporal production would rearrange possibilities while the theorist retained authority over their meaning. Composition must also allow collective work to change what participants can perceive and articulate.
+
+The ending of Jerusalem gives imaginative production a reciprocal, dramatic form:
+
+\Needspace{11\baselineskip}
+
+> And they conversed together in Visionary forms dramatic which bright\
+> Redounded from their Tongues in thunderous majesty, in Visions\
+> In new Expanses, creating exemplars of Memory and of Intellect\
+> Creating Space, Creating Time according to the wonders Divine\
+> Of Human Imagination, throughout all the Three Regions immense
+
+Q29. William Blake, Jerusalem 98:28–32, E257–258. Selected excerpt; the sentence continues into line 33. [@blakeJerusalem].
+
+Conversation here produces exemplars, memory and intellectual relations. Its participants do more than exchange finished objects in a common space: the space and time of encounter also change. Read with national generation, this makes inheritance productive. A shared public can make something through which its members remember differently, rather than merely distribute recognized traditions among predetermined seats. The reconstruction must leave room for such changes without requiring them to count as the birth of a new nation.
+
+Conversation follows armed, fourfold annihilation; the creatures proceed irresistibly, and participants walk as One Man according to fitness and order. Discourse varies with organs of perception, yet the final covenant also claims an embracing unity. The passage can support a strong reading of transformed common life as well as the worry that reconciliation leaves no place from which to refuse [@blakeJerusalem, 98:1–27, 33–54, E257–258].
+
+For this political construction, conversation has to permit a change in what the whole can say about itself. A worker's account might reorganize a cultural dispute around hours and wages; a people's objection might turn consultation into negotiation over jurisdiction. Neither change follows merely from including another voice in a diagram. The record should preserve the initial question, the proposed reframing, who can authorize a changed decision and which objections remain unresolved. Common making then has a consequence that can be examined: participants acquire power to alter the terms under which they are understood, while retaining the means to continue the dispute.
+
+![Jerusalem 98, copy I. An upper band of intertwined forms and a lower procession of creatures frame the dense text. Q29 selects the central account of conversation creating memory, space and time; the complete sheet retains its surrounding annihilation, irresistible movement and national imagery. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J98.jpg){#fig:plate-J98 height=3.8in}
 
 A new public can reveal a relation missing from the initial classification. A language dispute might become a dispute about working hours once participants describe how translation is provided. Revision then changes the object of deliberation, rather than moving a person between established labels. The decision record should retain that change and its reasons. Recurrence remains intelligible without making the current vocabulary complete.
 
@@ -410,6 +447,23 @@ This also prevents counterpublics from becoming another compulsory national taxo
 Entomological Law follows organisms through different evidentiary, regulatory, property, protective and moral roles. Its §§2 and 11–13 motivate inspection of the institutional translations that make the same entity visible in different ways. The human political extension borrows this discipline of description. It neither equates human persons with regulated insects nor makes dignity depend on a classifier's recognition. [@friedman2026law].
 
 The classification-decision record in this project is explicitly new. It separates the person or collective, any claimed poetic-state interpretation, national affiliations, assigned legal role, temporal scope, classification warrant, asserting institution, competence warrant and consequence. An assertion of authority is not its validation. A correct classification does not automatically authorize the body asserting it to impose the proposed consequence.
+
+Jerusalem 74 describes a further danger: a record may preserve its authority by closing the range of experience that can count against it.
+
+\Needspace{11\baselineskip}
+
+> The Spectre is the Reasoning Power in Man; & when separated\
+> From Imagination, and closing itself as in steel, in a Ratio\
+> Of the Things of Memory. It thence frames Laws & Moralities\
+> To destroy Imagination! the Divine Body, by Martyrdoms & Wars
+
+Q26. William Blake, Jerusalem 74:10–13, E229. [@blakeJerusalem].
+
+The temporal sequence matters. Reason becomes destructive through separation, enclosure and the use of remembered things to frame an exclusive rule. The target is a relation among faculties and their products. It is insufficient to identify one institution as rational and another as imaginative, then transfer power to the latter. Indeed, the same plate asks for understanding of Divine Law, implicates Los in driving people from their mountains, and describes the division of sixteen into twelve by cruel laws. A classification can help bring about the population it subsequently claims merely to describe [@blakeJerusalem, 74:14–32, E229–230].
+
+White reads this passage through the difference between a revisable ratio of experience and a system that prevents further knowledge. His argument joins Blake's defense of practical art and science to criticism of their philosophical overextension [@white2005Science, pp. 108–109, 116–117, 122–123]. That interpretation supports retaining measurement while questioning its sufficiency. His insistence on the truth of immediate experience also leaves a political difficulty: an official's asserted certainty cannot determine which testimony others must accept [@white2005Science, pp. 108–109, 123].
+
+The decision record therefore needs more than a correction box. It must allow a claimant to show that its existing categories miss the relevant injury. A language-service file may need to become a record of unpaid translation work; an affiliation dispute may reveal an employment dependency. The institution must identify who can revise the question, suspend an adverse consequence and preserve provision while the revision occurs. Otherwise, impeccable records of earlier decisions can supply the steel in which a present grievance is enclosed.
 
 The Figure 13 caption, printed p. 28/PDF p. 30, associated with §12.2, supplies a particularly concrete warning: issuing jurisdiction does not establish reach or enforcement [@friedman2026law, sec. 12.2, Fig. 13]. The prototype consequently records issuer and level, competence source, affected reach, enforcement actor and limits separately. Counting institutions, members or citations does not weight legal importance or assign constitutional authority.
 
@@ -606,7 +660,7 @@ Follow the work needed to keep E3’s challenge alive: notice, translation, emer
 
 The executable E-bounded and E-capture records test the stated safeguards. The E1–E3 comparison in [@fig:watershed-options] extends the argument by varying representation, decision scope and treaty relations while keeping the hypothetical scarcity in view.
 
-![Three arrangements for the same stipulated water scarcity. Six rows compare voice, warrant and scope, treaty relations, review burden, costs and means, and interim duties. E1 represents recognized associations; E2 uses a general territorial franchise; E3 separates limited watershed competence, treaty negotiation and affected-person standing. Owner, supplier, competent decision body and enforcer are distinct roles. Questions in E1–E2 cells identify duties still to be assigned; E3 exposes delay and forum-shopping risks alongside interim provision.](../figures/watershed-options.png){#fig:watershed-options width=98%}
+![One stipulated scarcity supports three proposed authorization routes: associations, territory and limited watershed competence. The common resource baseline separates storage ownership and supply duties from affected residents, workers and nonmembers. Each route identifies a different franchise, mandate, treaty treatment and objection. Every route must allocate costs, fund hearings and maintain interim provision; the diagram does not assign existing legal powers.](../figures/watershed-options.png){#fig:watershed-options width=98%}
 
 
 \Needspace{11\baselineskip}
@@ -635,7 +689,7 @@ $$ {#eq:ablation}
 
 The matrix in [@fig:case-traces] displays every programmed result. Open black marks record active satisfied predicates, filled red marks locate violations, and grey dashes identify conditions absent from a record. This makes the reason for each synthetic verdict visible alongside the descriptor-removal result of [@prop:ablation].
 
-![Fifteen safeguards across ten synthetic alternatives. Each case family pairs a bounded (+) and capture (−) record. Open black marks show active satisfied rules, filled red marks show violations and grey dashes mark absent triggering conditions. Rows retain the same rule order as the executable assessment; columns retain case order. This separates actual safeguard satisfaction from a conditional pass.](../figures/case-traces.png){#fig:case-traces width=98%}
+![All 150 safeguard checks for ten stipulated records are shown in paired bounded (+) and capture (-) columns. Open circles identify active satisfied checks, red crossed circles active violations and grey dashes absent trigger conditions. Right-margin counts show violations per predicate; lower totals reconcile 107 active satisfied, 11 violated and 32 condition-absent checks. The matrix records the program's case assessments.](../figures/case-traces.png){#fig:case-traces width=98%}
 
 
 ## Counterfactual repair with the material dispute held fixed
@@ -661,7 +715,7 @@ There are $2^{12}=4,096$ subsets per decision and 40,960 overall. They produce 3
 
 Each capture alternative has one inclusion-minimal bundle. A requires equal personhood, open affiliation and supported exit; B requires non-capture and contestation; C requires the charter intervention; D requires unranked rights and equal personhood; E requires nonmember standing, burden allocation and treaty/refusal treatment ([@fig:counterfactual-repairs]). Every bounded alternative has the empty bundle. The result makes the designed deficits visible and identifies exactly which recorded changes address them.
 
-![Minimum safeguard bundles for five failed synthetic records, with exact operator IDs, cardinalities and bundle counts. A requires 3 changes, B 2, C 1, D 2 and E 3; charter supplies C’s missing decision warrant. Each row also reports admissible subsets out of 4,096 and distinct resulting records. All ten baselines produce 25,600 admissible subsets out of 40,960 and 31 distinct records: inactive operators account for repeated outcomes. Action labels, affected populations and material obligations stay fixed.](../figures/counterfactual-repairs.png){#fig:counterfactual-repairs width=98%}
+![Minimum safeguard bundles for five failed synthetic records, with exact operator IDs, cardinalities and bundle counts. A requires 3 changes, B 2, C 1, D 2 and E 3; charter supplies C’s missing decision warrant. Each row also reports admissible subsets out of 4,096 and distinct resulting records; bars encode the exact admissible fraction on a common 0–1 domain. All ten baselines produce 25,600 admissible subsets out of 40,960 and 31 distinct records: inactive operators account for repeated outcomes. Action labels, affected populations and material obligations stay fixed.](../figures/counterfactual-repairs.png){#fig:counterfactual-repairs width=98%}
 
 ## Complementarity appears at admission, not as an extra resolved rule
 
@@ -697,7 +751,7 @@ Rahman's Myth of Objectivity profile proposes that broader cultural models can i
 
 Coordination and dissent protection therefore need separate outcomes. Agreement can emerge from accessible reasons and revision, or from raising the cost of challenge. The agreement routes in [@fig:agreement-routes] draw this distinction: the endpoint looks similar, but the available paths differ.
 
-![The same outward assent can arise with different powers to contest it. Five functions distinguish the proposed routes: access to information, voice, material means, review and revision. Public reasons, funded challenge, interim provision, effective remedies and reopening power make assent revisable; gatekeeping and dependency concentrate control over those functions. The diagram develops the scale–freedom countermodel discussed here [@rahman2025, pp. 124–130; @pettit2005, pp. 6–9; @fraser1992PublicSphere, pp. 132–136].](../figures/agreement-routes.png){#fig:agreement-routes width=98%}
+![Two conceptual routes converge on the same outward agreement. The upper path makes reasons challengeable, participation supported and review effective; the lower path links controlled recognition and conditional services to persistent exposure. The differentiating comparison asks what happens when participants contest the act while retaining provision. The arrows organize rival explanations, rather than estimate causal effects.](../figures/agreement-routes.png){#fig:agreement-routes width=98%}
 
 The comparison separates communication control, information asymmetry and the material consequences of dissent. It asks who sets the shared terms, whose disagreement is treated as noise, and whether a person can survive the cost of challenge. The prototype keeps rights and safeguards independent of affiliation count.
 
@@ -711,6 +765,25 @@ The comparison separates communication control, information asymmetry and the ma
 > From Single vision & Newtons sleep
 
 Q12. William Blake, Letter to Thomas Butts, 22 November 1802, verse 83-88, E722. [@blakeButts].
+
+The same letter gives the visionary sequence a troublesome particular:
+
+\Needspace{11\baselineskip}
+
+> What to others a trifle appears\
+> Fills me full of smiles or tears\
+> For double the vision my Eyes do see\
+> And a double vision is always with me\
+> With my inward Eye \'tis an old Man grey\
+> With my outward a Thistle across my way
+
+Q28. William Blake, Letter to Thomas Butts, 22 November 1802, verse 25–30, E721. [@blakeButts].
+
+The outward object remains a thistle while the inward account encounters an old man. Vision adds an address and an affective claim to something others dismiss as trivial. The letter's commercial and domestic setting matters: Blake asks about a remaining canvas and drawings ordered by Butts, while the verse stages competing obligations to patrons, friends, wife and sister. Its visionary enlargement occurs within work and dependency [@blakeButts, opening prose, E720; verse 31–68, E721–722].
+
+Yet recognition does not guarantee care. The speaker kicks the thistle from its root, and later names the old man weltering on his path. The account moves toward the fourfold declaration through wrath, threatened poverty, familial strain and heavens dropping human blood. Reading only the final six lines would conceal how uncertain the relation between expanded perception and changed conduct remains [@blakeButts, verse 41–82, E721–722].
+
+The institutional comparison should therefore ask what an additional perspective enables its holder to do to someone else. Hearing a worker's dependency can support protection, but an official might instead incorporate it into a more effective scheme of control. The same outward agreement can persist in either case. A useful study would record whether the changed description alters a proposed consequence, gives the affected person a new power of challenge, or merely increases the administrator's interpretive reach. The vision does not earn public authority by being richer. It must become answerable through the decisions and relationships it changes.
 
 Fourfold vision guides attention to partial perspectives and their relations. In the institutional comparison, that means asking what each account reveals, what it excludes and how its claims can be challenged. The prototype varies the number of interpretive lenses while holding rights and safeguards fixed.
 
@@ -742,16 +815,16 @@ The twenty fixed query groups include one zero-hit control. Variants are literal
 
 The census in [@fig:source-census] separates primary, editorial and unverified material before any thematic comparison. Every one of the twenty new primary occurrence/matched-unit totals agrees with the preserved concordance. The new statistical report has its own producer and input fingerprint.
 
-![Corpus inventory by source plane and role. Reading contains 199 primary and 341 unverified units; Erdman contains 796 editorial units; XML contains 4 editorial and 727 unverified units. Bar lengths share one scale and segment labels give exact counts. The statistical comparisons that follow use the 199 primary reading extracts.](../figures/source-census.png){#fig:source-census width=95%}
+![The three source planes share one zero-based stored-unit scale. Segment colors distinguish primary reading extracts, editorial material and unverified text; exact counts below each bar retain zero categories and the small four-unit editorial XML segment. The lower totals reconcile role counts with all imported units. Stored copies, pages and XML records remain separate from claims about unique works.](../figures/source-census.png){#fig:source-census width=95%}
 
 \Needspace{11\baselineskip}
 
 ::: {.definition #def:coverage title="Coverage and token-normalized retrieval"}
-For primary units $U$, let $t_u$ count Unicode word tokens, $c_{uq}$ count occurrences of the declared variants of query $q$, and $h_{uq}=1$ exactly when $c_{uq}>0$. For a subset $B\subseteq U$,
+For primary units $U$, let $t_u$ count Unicode word tokens, $c_{uq}$ count occurrences of the declared variants of query $q$, and $h_{uq}=1$ exactly when $c_{uq}>0$. For a subset $V\subseteq U$,
 
 $$
-C_q(B)=\frac{\sum_{u\in B}h_{uq}}{\lvert B\rvert},\qquad
-R_q(B)=10^4\frac{\sum_{u\in B}c_{uq}}{\sum_{u\in B}t_u}.
+C_q(V)=\frac{\sum_{u\in V}h_{uq}}{\lvert V\rvert},\qquad
+R_q(V)=10^4\frac{\sum_{u\in V}c_{uq}}{\sum_{u\in V}t_u}.
 $$ {#eq:coverage}
 
 Coverage is undefined for an empty subset; rate is undefined for a zero token denominator. A populated denominator with no matches gives zero. Whole-word phrase variants contribute one occurrence while their constituent words remain tokens in the denominator.
@@ -826,12 +899,12 @@ The analysis computes pairwise overlap in three universes: retained primary extr
 \Needspace{11\baselineskip}
 
 ::: {.definition #def:association title="Overlap, conditional presence and lift"}
-In a declared universe of $n$ units, let $A_q$ and $A_r$ be the presence sets for two queries. Define
+In a declared universe of $n$ units, let $X_q$ and $X_r$ be the presence sets for two queries. Define
 
 $$
-J(q,r)=\frac{\lvert A_q\cap A_r\rvert}{\lvert A_q\cup A_r\rvert},\quad
-P(r\mid q)=\frac{\lvert A_q\cap A_r\rvert}{\lvert A_q\rvert},\quad
-L(q,r)=\frac{n\lvert A_q\cap A_r\rvert}{\lvert A_q\rvert\lvert A_r\rvert}.
+\operatorname{Jac}(q,r)=\frac{\lvert X_q\cap X_r\rvert}{\lvert X_q\cup X_r\rvert},\quad
+\Pr(r\mid q)=\frac{\lvert X_q\cap X_r\rvert}{\lvert X_q\rvert},\quad
+\operatorname{Lift}(q,r)=\frac{n\lvert X_q\cap X_r\rvert}{\lvert X_q\rvert\lvert X_r\rvert}.
 $$ {#eq:association}
 
 Each expression is undefined when its denominator is zero. The universe and presence sets travel with every reported value. Presence in one full extraction records shared textual coverage, including distant or opposed passages.
@@ -854,15 +927,15 @@ Search preserves the source spelling and punctuation. Unicode casefolding suppor
 For the eligible source-unit set $U$, let $H_q(u)$ be the nonoverlapping, character-aligned literal matches for query term $q$ in unit $u$. An alternative query admits units with any nonempty $H_q(u)$; a conjunctive query admits units for which every $H_q(u)$ is nonempty. Write the admitted units as $M$. The occurrence count and matched-unit count are
 
 $$
-O=\sum_{u\in M}\sum_{q\in Q}\lvert H_q(u)\rvert,\qquad B=\lvert M\rvert.
+O=\sum_{u\in M}\sum_{q\in Q}\lvert H_q(u)\rvert,\qquad B_{\mathrm{match}}=\lvert M\rvert.
 $$ {#eq:search-counts}
 
-The result limit selects the first $L$ records from the deterministic ordering of term-labeled matches. It does not change $O$, $B$, the source-family facets or their eligible token denominators. Different overlapping query terms retain separate match records.
+The result limit selects the first $L$ records from the deterministic ordering of term-labeled matches. It does not change $O$, $B_{\mathrm{match}}$, the source-family facets or their eligible token denominators. Different overlapping query terms retain separate match records.
 :::
 
 The literal-search study in [@fig:literal-search-strata] compares six deliberately narrow searches across the source layers and retains a seventh nonsense query. Separating liberty from freedom makes the lexical choice inspectable; searching minute particulars and general forms as literal phrases distinguishes those formulations from the broader particulars query. The figure reports exact counts and matched units in each role. An editorial occurrence may identify commentary worth consulting, but its source label prevents it from being counted as another primary Blake utterance.
 
-![Literal words and phrases across the imported corpus. Each cell gives all term matches and matched source units in its role; bars share a zero-based count scale. The primary column contains reading extracts, the editorial column includes mixed Erdman pages and four XML units, and unverified sources retain their original label. The seven-query aggregate is generated independently of the saved concordance; the nonsense control returns zero. Phrase matching preserves literal whitespace and stored copies remain separate.](../figures/literal-search-strata.png){#fig:literal-search-strata width=98%}
+![Literal words and phrases across the imported corpus. Each cell gives all term matches, matched source units and distinct matching family IDs in its role; headers give eligible unit and family denominators. Bars share a zero-based count scale. The primary column contains reading extracts, the editorial column includes mixed Erdman pages and four XML units, and unverified sources retain their original label. The seven-query aggregate is generated independently of the saved concordance; the nonsense control returns zero. Phrase matching preserves literal whitespace and stored copies remain separate.](../figures/literal-search-strata.png){#fig:literal-search-strata width=98%}
 
 Within the primary extracts, liberty occurs 55 times in 17 units, while freedom occurs six times in six units. Minute particulars has 21 matches and general forms five; both phrase searches match four units in the recorded Jerusalem family. The interface exposes their constituent texts so that four retained witnesses do not become four independent works. Keeping liberty and freedom separate also makes an interpretive choice visible before combining them into a broader lexical group.
 
@@ -872,11 +945,11 @@ The local search workspace connects these counts to passage cards, highlighted s
 
 Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
 
-Twenty-five displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
+Twenty-nine displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
-Eleven official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
+Twelve official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 
-The eleven uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
+The twelve uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
 
 The selected copy-D leaf places as multitudes marginally beside the human-form passage. The selected J73 sheet reads howl in the spectres passage. These support specific local comparisons without repairing the retained recovered transcription or settling every variant. The old discrepancy docket remains historical; a new collation note records these limited observations. ASU's edition and the Library of Congress (LOC) impressions are different source objects, and agreement on selected passages does not make them one edition.
 

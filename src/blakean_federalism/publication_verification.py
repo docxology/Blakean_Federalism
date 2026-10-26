@@ -75,6 +75,30 @@ def verify_opening(pages: list[str]) -> None:
             raise ResearchError("rendered_opening", f"Physical page {index + 1}")
 
 
+def verify_notation(pages: list[str], html: str) -> list[int]:
+    """Require the actual notation table before the numbered argument in both editions."""
+    start = html.find('id="sec:notation"')
+    body = html.find('id="sec:s1"')
+    table = html.find("<table", start)
+    end = html.find("</table>", table)
+    if start < 0 or body <= start or not (start < table < end < body):
+        raise ResearchError(
+            "rendered_notation", "Front notation table absent or after the argument"
+        )
+    if "Symbol" not in html[table:end] or "Meaning" not in html[table:end]:
+        raise ResearchError("rendered_notation", "Notation table headings are missing")
+    found = [
+        i + 1
+        for i, page in enumerate(pages)
+        if "Notation and reading conventions" in page and "Symbol" in page and "Meaning" in page
+    ]
+    if len(found) != 1 or found[0] not in (5, 6, 7):
+        raise ResearchError(
+            "rendered_notation", "Notation must appear in the physical front matter"
+        )
+    return found
+
+
 def verify_publication(root: Path, stage: Path) -> dict[str, object]:
     prepared = PreparedPublication.model_validate_json(
         safe_path(stage, "prepared-publication.json").read_bytes()
@@ -107,6 +131,7 @@ def verify_publication(root: Path, stage: Path) -> dict[str, object]:
     document.feed(html)
     verify_references(prepared.contract, document, html, pdf_text)
     verify_opening(pages)
+    notation_pages = verify_notation(pages, html)
     aux = safe_path(stage, "output/pdf/_combined_manuscript.aux").read_text()
     pdf_keys = {match.group(1) for match in re.finditer(r"\\bibcite\{([^}]+)\}", aux)}
     if pdf_keys != set(prepared.contract.cited_bibliography_keys):
@@ -125,6 +150,7 @@ def verify_publication(root: Path, stage: Path) -> dict[str, object]:
         raise ResearchError("rendered_quotation", ", ".join(missing))
     result: dict[str, object] = {
         "pages": len(pages),
+        "notation_physical_pages": notation_pages,
         "verified_quotations": len(spec.quotations),
         "formalism_numbers": prepared.contract.formalism_numbers,
         "equation_labels": prepared.contract.equation_labels,

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-federalism"
-version = "0.8.0"
+version = "0.9.0"
 readme = "README.md"
 authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
@@ -54,6 +54,7 @@ max-complexity = 15
 "tools/render_manuscript.py" = ["PLR0913", "PLR0917", "PLR2004", "T201"]
 "src/blakean_federalism/publication_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/publication_body.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/publication_abstracts.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/publication_evidence.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/analysis_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/search_figure.py" = ["PLR2004"]

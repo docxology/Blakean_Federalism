@@ -24,6 +24,7 @@ SOURCE_NAMES = (
     "research/template-rendering.json",
     "research/citation-catalog.json",
     "research/search-study-0.8.0.json",
+    "docs/manuscript/notation.md",
 )
 
 
@@ -85,8 +86,10 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     appendix = safe_path(root, SOURCE_NAMES[1]).read_text()
     spec = ManuscriptSpec.model_validate_json(safe_path(root, SOURCE_NAMES[5]).read_bytes())
     assets = validate_manuscript(root, spec, article + "\n\n" + appendix)
+    notation = safe_path(root, "docs/manuscript/notation.md").read_text()
     contract = manuscript_contract(
-        article + "\n\n" + appendix, safe_path(root, SOURCE_NAMES[2]).read_text()
+        notation + "\n\n" + article + "\n\n" + appendix,
+        safe_path(root, SOURCE_NAMES[2]).read_text(),
     )
     variables = manuscript_variables(report)
     try:
@@ -105,6 +108,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     generated = generate_figures(report, figures, rasterizer, search_study)
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
+    write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
     front: list[str] = [
         "```{=html}",
         "<style>",
@@ -142,24 +146,43 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "",
     ]
     titles = (
-        "Scholarly disagreements and institutional questions",
-        "A decision from classification to revision",
-        "Corpus comparisons and minimum safeguard repairs",
+        "Disagreement changes the institutional design",
+        "A water levy from classification to effective review",
+        "Observed text and finite safeguard comparisons",
     )
     descriptions = (
         (
-            "Six disputes connect passages to permanence, nation, gender, refusal, "
-            "opposition and review."
+            "Three paired tensions connect permanence, reciprocity and protection to "
+            "standing, interpretive authority and contestable review."
         ),
-        "Six stages trace a water decision through roles, powers, burdens, challenge and revision.",
-        "Compare token rates, family weights, minimum repairs and active safeguard counts.",
+        (
+            "A branched decision map separates classification, competence, "
+            "reach and enforcement, with challenge and interim duties "
+            "feeding back into the act."
+        ),
+        (
+            "Paired rates compare pooled copies and equal-family weighting; "
+            "minimum bundles expose the programmed deficits of five "
+            "synthetic capture records."
+        ),
     )
     captions = (
-        "Six disputes connect permanence, nation, gender, refusal and review to public power.",
-        "A water levy connects entity, role, competence, reach, material burdens and review.",
         (
-            "Four layers connect the source inventory, weighting, deletion/overlap comparisons "
-            "and exact safeguard interventions."
+            "Three pairs of scholarly arguments converge on distinct design "
+            "questions: what may change, who interprets, and who can "
+            "challenge the reviewer."
+        ),
+        (
+            "The proposed water levy separates entity and role from issuing "
+            "authority, affected reach, enforcement and consequence. Red "
+            "feedback paths return challenge and interim duties to the "
+            "decision."
+        ),
+        (
+            "Observed textual coverage and paired token rates appear above a "
+            "separate finite-intervention panel. Red filled and black open "
+            "marks distinguish pooled and equal-family rates; stacked dots "
+            "count minimum interventions."
         ),
     )
     for number, title in enumerate(titles, start=2):
@@ -193,7 +216,9 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         (
             f"{len(report.images)} uncropped LOC reproductions accompany the main-text readings. "
             "The item-attached advisory reports no known U.S. restrictions; it is not a CC0 "
-            "license. Each caption identifies the impression separately from the ASU transcription."
+            "license. Each caption identifies the impression separately "
+            "from the ASU transcription. "
+            f"Credits: {'; '.join(dict.fromkeys(asset.credit for asset in report.images))}."
         ),
         "",
     ]
@@ -208,7 +233,6 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 " ".join(
                     (
                         asset.caption,
-                        f"Credit: {asset.credit}.",
                         f"[Item rights]({asset.rights_url}).",
                     )
                 ),
@@ -227,6 +251,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         ),
         source_order=(
             "00_graphical_abstracts.md",
+            "01_notation.md",
             "states-change.md",
             "references-and-rights.md",
             "90_atlas.md",

@@ -1,5 +1,5 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -195,6 +195,18 @@
       "size": 305485,
       "kind": "image",
       "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters’ labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J98",
+      "path": "local_data/manuscript/v0.9.0/loc-jerusalem-0098.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0098/full/pct:25.0/0/default.jpg",
+      "sha256": "05c927fffa56f0a902ea490a28b7faee154cf88c5728ea66f379dec085f557e0",
+      "size": 284368,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 98. Conversation and visionary production within the closing sequence; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
       "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
       "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
       "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
@@ -930,6 +942,133 @@
         }
       ],
       "context": "Read 59:26–55 on hunger, delight, labor and repair beside provision at 73:44–54."
+    },
+    {
+      "quote_id": "Q26",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 74:10–13, E229",
+      "segments": [
+        {
+          "anchor": "J74.10;E229",
+          "occurrence": 0,
+          "text": "The Spectre is the Reasoning Power in Man; & when separated"
+        },
+        {
+          "anchor": "J74.11;E229",
+          "occurrence": 0,
+          "text": "From Imagination, and closing itself as in steel, in a Ratio"
+        },
+        {
+          "anchor": "J74.12;E229",
+          "occurrence": 0,
+          "text": "Of the Things of Memory. It thence frames Laws & Moralities"
+        },
+        {
+          "anchor": "J74.13;E229",
+          "occurrence": 0,
+          "text": "To destroy Imagination! the Divine Body, by Martyrdoms & Wars"
+        }
+      ],
+      "context": "The Spectre is reason separated from imagination and self-enclosed in remembered ratios. Read entire J74, including Divine Law, Los driving people away, and cruel division of sixteen into twelve; not a general rejection of reason, measurement or law."
+    },
+    {
+      "quote_id": "Q27",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 49:72–75, E199",
+      "segments": [
+        {
+          "anchor": "J49.72;E199",
+          "occurrence": 0,
+          "text": "Learn therefore O Sisters to distinguish the Eternal Human"
+        },
+        {
+          "anchor": "J49.73;E199",
+          "occurrence": 0,
+          "text": "That walks about among the stones of fire in bliss & woe"
+        },
+        {
+          "anchor": "J49.74;E199",
+          "occurrence": 0,
+          "text": "Alternate! from those States or Worlds in which the Spirit travels:"
+        },
+        {
+          "anchor": "J49.75;E199",
+          "occurrence": 0,
+          "text": "This is the only means to Forgiveness of Enemies[.]"
+        }
+      ],
+      "context": "Erin addresses the Daughters of Beulah. Person/state distinction enables forgiveness of enemies amid punitive heavens and Luvah/Satan differentiation. J50 proceeds to remembrance of sin; no institutional duty to forget evidence or require a victim to forgive follows."
+    },
+    {
+      "quote_id": "Q28",
+      "asset_id": "butts",
+      "locator": "Letter to Thomas Butts, 22 November 1802, verse 25–30, E721",
+      "segments": [
+        {
+          "anchor": "L23.verse25Butts11'02;E721",
+          "occurrence": 0,
+          "text": "What to others a trifle appears"
+        },
+        {
+          "anchor": "L23.verse26Butts11'02;E721",
+          "occurrence": 0,
+          "text": "Fills me full of smiles or tears"
+        },
+        {
+          "anchor": "L23.verse27Butts11'02;E721",
+          "occurrence": 0,
+          "text": "For double the vision my Eyes do see"
+        },
+        {
+          "anchor": "L23.verse28Butts11'02;E721",
+          "occurrence": 0,
+          "text": "And a double vision is always with me"
+        },
+        {
+          "anchor": "L23.verse29Butts11'02;E721",
+          "occurrence": 0,
+          "text": "With my inward Eye 'tis an old Man grey"
+        },
+        {
+          "anchor": "L23.verse30Butts11'02;E721",
+          "occurrence": 0,
+          "text": "With my outward a Thistle across my way"
+        }
+      ],
+      "context": "Double vision of a thistle/old man in a commissioned-work and family context. The speaker destroys the thistle at41–42, and the old man welters at53–54. The fourfold declaration at83–88 is already Q12 and is not proposed again."
+    },
+    {
+      "quote_id": "Q29",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 98:28–32, E257–258",
+      "segments": [
+        {
+          "anchor": "J98.28;E257",
+          "occurrence": 0,
+          "text": "And they conversed together in Visionary forms dramatic which bright"
+        },
+        {
+          "anchor": "J98.29;E257",
+          "occurrence": 0,
+          "text": "Redounded from their Tongues in thunderous majesty, in Visions"
+        },
+        {
+          "anchor": "J98.30;E258",
+          "occurrence": 0,
+          "text": "In new Expanses, creating exemplars of Memory and of Intellect"
+        },
+        {
+          "anchor": "J98.31;E258",
+          "occurrence": 0,
+          "text": "Creating Space, Creating Time according to the wonders Divine"
+        },
+        {
+          "anchor": "J98.32;E258",
+          "occurrence": 0,
+          "text": "Of Human Imagination, throughout all the Three Regions immense"
+        }
+      ],
+      "context": "Selected five-line excerpt; sentence continues into98:33. Conversation creates exemplars, space and time. Entire plate also contains annihilation, irresistible movement, One Man, fitness/order and the covenant; creative reciprocity is not demonstrated equal political standing."
     }
   ],
   "fronts": [

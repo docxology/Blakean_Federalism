@@ -23,6 +23,7 @@ from blakean_federalism.publication_figures import generate_figures
 from blakean_federalism.publication_models import NativeReceipt, PreparedPublication
 from blakean_federalism.publication_verification import (
     NumberedBlocks,
+    verify_notation,
     verify_opening,
     verify_publication,
     verify_references,
@@ -143,6 +144,10 @@ def publication_source(prepared):
         shutil.copyfile(original / name, target)
     (root / "tools").mkdir()
     shutil.copyfile(original / "tools/template_render.py", root / "tools/template_render.py")
+    (root / "docs/manuscript/notation.md").write_text(
+        "# Notation and reading conventions {.unnumbered}\n\n| Symbol | "
+        "Meaning |\n|---|---|\n| P | Persons |\n\n[@def:trial]\n"
+    )
     article = root / "docs/manuscript/states-change.md"
     article.write_text(article.read_text() + "\n" + FORMAL)
     (root / "docs/manuscript/references.bib").write_text(BIB)
@@ -237,6 +242,9 @@ def test_matrix_rejects_incomplete_or_misaligned_traces(publication_source, chan
 
 def html_fixture():
     return (
+        '<h1 id="sec:notation">Notation and reading conventions</h1>'
+        "<table><tr><th>Symbol</th><th>Meaning</th></tr><tr><td>P</td><td>Persons</td></tr></table>"
+        '<h1 id="sec:s1">Argument</h1>'
         '<div id="def:trial"><strong>Definition 1 (Trial).</strong> A '
         'statement.</div><div id="ref-a">A citation</div><span '
         'id="eq:x">(1)</span>'
@@ -305,6 +313,7 @@ def serialized_editions(publication_source):
         "Graphical abstract 2",
         "Graphical abstract 3",
         "Graphical abstract 4",
+        "Notation and reading conventions Symbol Meaning",
         "Definition 1 (Trial).",
     ]:
         canvas.drawString(50, 700, text)
@@ -377,6 +386,7 @@ def test_complete_verifier_detects_changed_source_and_output(serialized_editions
             "Graphical abstract 2",
             "Graphical abstract 3",
             "Graphical abstract 4",
+            "Notation and reading conventions Symbol Meaning",
             "Definition 1 (Trial).",
         ]:
             canvas.drawString(50, 700, text)
@@ -449,5 +459,37 @@ def test_evidence_abstract_distinguishes_absent_state_query_from_measured_zero(p
         report.model_copy(update={"corpus_statistics": zero_stats}), root / "zero-state", rasterizer
     )
     content = PdfReader(root / "zero-state/abstract-4.pdf").pages[0].extract_text()
-    assert "states\n0\n0.00\n0.00" in content
+    assert "states\n0/1\n0.00 / 0.00" in content
     assert "N/A / query absent" not in content
+
+
+@pytest.mark.parametrize(
+    "change", ["positive", "missing", "late", "no_table", "no_headers", "wrong_page"]
+)
+def test_notation_is_a_real_front_table_in_both_editions(change):
+    html = html_fixture()
+    pages = [
+        "States Change",
+        "Graphical abstract 2",
+        "Graphical abstract 3",
+        "Graphical abstract 4",
+        "Contents",
+        "Notation and reading conventions Symbol Meaning",
+        "Argument",
+    ]
+    if change == "missing":
+        html = html.replace('id="sec:notation"', 'id="absent"')
+    if change == "late":
+        html = '<h1 id="sec:s1">Argument</h1>' + html.replace('id="sec:s1"', 'id="later"')
+    if change == "no_table":
+        html = html.replace("<table>", "<aside>").replace("</table>", "</aside>")
+    if change == "no_headers":
+        html = html.replace("Symbol", "Unlabeled")
+    if change == "wrong_page":
+        pages[5] = "Contents"
+        pages.extend(["Argument", "Notation and reading conventions Symbol Meaning"])
+    if change == "positive":
+        assert verify_notation(pages, html) == [6]
+    else:
+        with pytest.raises(ResearchError, match="rendered_notation"):
+            verify_notation(pages, html)

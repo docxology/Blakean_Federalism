@@ -3,7 +3,9 @@
 
 from typing import Literal
 
-from .models import Digest, FrozenModel, Plane, QuerySpec, Role
+from pydantic import Field, model_validator
+
+from .models import Digest, FrozenModel, Plane, QuerySpec, ResearchError, Role
 
 
 class SourceCensus(FrozenModel):
@@ -24,12 +26,26 @@ class SourceUnit(FrozenModel):
 
 
 class Measure(FrozenModel):
-    source_units: int
-    tokens: int
-    occurrences: int
-    matched_units: int
+    source_units: int = Field(ge=0)
+    tokens: int = Field(ge=0)
+    occurrences: int = Field(ge=0)
+    matched_units: int = Field(ge=0)
     rate_per_10000_tokens: float | None
     coverage_fraction: float | None
+
+    @model_validator(mode="after")
+    def reconcile_denominators(self) -> "Measure":
+        if self.matched_units > min(self.source_units, self.occurrences):
+            raise ResearchError("measure_membership", "Matched units exceed units or occurrences")
+        if not self.source_units and self.occurrences:
+            raise ResearchError("measure_membership", "An empty source set cannot contain matches")
+        rate = 10000 * self.occurrences / self.tokens if self.tokens else None
+        coverage = self.matched_units / self.source_units if self.source_units else None
+        if self.rate_per_10000_tokens != rate or self.coverage_fraction != coverage:
+            raise ResearchError(
+                "measure_denominator", "Stored rate or coverage differs from its counts"
+            )
+        return self
 
 
 class QueryMeasure(FrozenModel):

@@ -1,0 +1,221 @@
+{
+  "created_at": "2026-10-26T21:03:19.399Z",
+  "scope": "Bounded delta ledger for this research leaf. Prior scholarship remains historical credit; no rereading or upgrade is inferred from indexing.",
+  "inputs": {
+    "manuscript": {
+      "path": "snapshot/states-change.md",
+      "sha256": "4674c87da54c195ca5127f7dd819930d4c434618dc2cd7da2f04cb21ea147a6d",
+      "read": "Full920-line snapshot, continuous displayed ranges1–240,241–430,431–650,651–920; no independent audit of numerical/legal/runtime claims."
+    },
+    "prior_quotations": {
+      "path": "snapshot/manuscript-inputs.json",
+      "sha256": "c3a1ac0b89c8ca7d2c004b8e5ba57621dea0b0b2feca4f0aa7d5c8a363f4b66f",
+      "read": "All semantic JSON quotation records, asset sources and context fields;25 quotations /106 segments."
+    },
+    "prior_reading_credit": {
+      "path": "snapshot/scholarship-reading-0.8.0.json",
+      "sha256": "5412de9d18e1c48451a3fe85fc81c3b3c1001101672a40bd0f9f296caec72a91",
+      "read": "All entries read via full semantic JSON serialization, after partial human-readable windows were output-truncated; no extra reading credit for previously read works."
+    }
+  },
+  "primary_context_readings": [
+    {
+      "id": "asu-jerusalem",
+      "source_sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2",
+      "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+      "ranges": [
+        "J48:20–64, E197–198; speaker-setting context",
+        "J49:1–77 and J50:1–30, E198–200; continuous Erin address and ensuing response",
+        "J74:1–57, E229–230; entire plate",
+        "J98:1–56, E257–258; entire plate",
+        "J13:1–66, E156–158 and J14:1–34, E158; building, memory and passage context"
+      ],
+      "derived_files": [
+        "rawcaches/context-1.txt",
+        "rawcaches/context-2.txt",
+        "rawcaches/context-3.txt",
+        "rawcaches/context-4.txt",
+        "rawcaches/context-supplement-1.txt",
+        "rawcaches/context-supplement-2.txt"
+      ],
+      "status": "selected_contiguous_contexts_read",
+      "complete_work": false
+    },
+    {
+      "id": "asu-butts",
+      "source_sha256": "9cfa71e9385508e4e165ebfd845690b0721429634c5a5d105b81c3b5f0600156",
+      "url": "https://blake.lib.asu.edu/html/Letters/23.htm",
+      "ranges": [
+        "Letter23 opening prose; verse1–88; closing prose and postscript, E720–723"
+      ],
+      "derived_files": [
+        "rawcaches/context-6.txt"
+      ],
+      "status": "complete_named_letter_text_read_in_ASU_version",
+      "complete_collected_letters": false,
+      "technical_note": "First verse has real anchor happiness and an editorial L23.verse1 label, rather than a named L23.verse1… anchor. It was read directly in cached HTML; proposed Q28 uses unique real verse25–30 anchors. No invented verse1 anchor."
+    },
+    {
+      "id": "asu-marriage",
+      "source_sha256": "19aa9a334d2ea1a01df97d14f7640d69ac5a2bc7b04bfccca928ed14c1e39699",
+      "url": "https://blake.lib.asu.edu/html/marriage_of_heaven_and_hell.html",
+      "ranges": [
+        "MHH22–24 anchor records, E43–44; preceding paragraph begins onplate21 and was not read in full"
+      ],
+      "derived_files": [
+        "rawcaches/context-5.txt"
+      ],
+      "status": "selected_contiguous_context_read",
+      "complete_work": false
+    }
+  ],
+  "new_scholarly_readings": [
+    {
+      "id": "white2005Science",
+      "author": "Harry White",
+      "title": "Blake’s Resolution to the War Between Science and Philosophy",
+      "publication": "Blake/An Illustrated Quarterly39.3 (Winter2005/2006),108–125",
+      "url": "https://bq.blakearchive.org/39.3.white",
+      "raw_path": "rawcaches/white.cached.html",
+      "raw_sha256": "abeba27aaa9ca68848c4b4be9a8b18fbbc981b6ca9568721dbbc5a9bf74a3177",
+      "reading_status": "complete_official_HTML_article_prose_all_inline_notes_and_bibliography",
+      "locators": {
+        "main_prose": "printed108–123",
+        "notes": "1–87, inline at callouts",
+        "works_cited": "printed124–125",
+        "locator_anchors": "p108 throughp125 in official HTML"
+      },
+      "read_pages": [
+        {
+          "printed_page": 108,
+          "path": "rawcaches/white-page-108.txt",
+          "sha256": "fd38e795ee66b086f733716695871496a5ca8089118503977237c0a816d2db8b",
+          "extracted_whitespace_words": 902
+        },
+        {
+          "printed_page": 109,
+          "path": "rawcaches/white-page-109.txt",
+          "sha256": "9372b1678cf340046f00e42ca9b6425b61fdda5c7aab8c5bde669e17033407a1",
+          "extracted_whitespace_words": 965
+        },
+        {
+          "printed_page": 110,
+          "path": "rawcaches/white-page-110.txt",
+          "sha256": "071b1372fa293cac807bf64550dc1c0532bd1c55208fe659fd2392be837ccdb5",
+          "extracted_whitespace_words": 1024
+        },
+        {
+          "printed_page": 111,
+          "path": "rawcaches/white-page-111.txt",
+          "sha256": "3a5f746f1ae7309103a83410aed615bd1b42cb240b1370227c70e7d5fe894a2e",
+          "extracted_whitespace_words": 993
+        },
+        {
+          "printed_page": 112,
+          "path": "rawcaches/white-page-112.txt",
+          "sha256": "af99b13b146a7622801fc624acd740e2d29ae7971c3ba8e953977ddfc7f621b6",
+          "extracted_whitespace_words": 1036
+        },
+        {
+          "printed_page": 113,
+          "path": "rawcaches/white-page-113.txt",
+          "sha256": "c6fe3a35ab73d1b6ce399f35521f7a063d39cd79e94a6fb75e4fa4cb36448cfa",
+          "extracted_whitespace_words": 1054
+        },
+        {
+          "printed_page": 114,
+          "path": "rawcaches/white-page-114.txt",
+          "sha256": "c7e2404c607b57d3e93adc20c42e4353807a3a87f8816a50257aafb297a912cf",
+          "extracted_whitespace_words": 963
+        },
+        {
+          "printed_page": 115,
+          "path": "rawcaches/white-page-115.txt",
+          "sha256": "ccd70d5de031bb738a37104a57e92d962848200fbabdd875507511fd205f6a15",
+          "extracted_whitespace_words": 996
+        },
+        {
+          "printed_page": 116,
+          "path": "rawcaches/white-page-116.txt",
+          "sha256": "5037e9fe2ac645ddf1dd59263286ce6100e72db7e32244fe3b3d25006b825556",
+          "extracted_whitespace_words": 1038
+        },
+        {
+          "printed_page": 117,
+          "path": "rawcaches/white-page-117.txt",
+          "sha256": "d16fb8110f162bd682c9bdc5ae40d3fdf6ddf532a59debd3f893e2d97f8acd30",
+          "extracted_whitespace_words": 1076
+        },
+        {
+          "printed_page": 118,
+          "path": "rawcaches/white-page-118.txt",
+          "sha256": "5658cdff7534c7647e19a60fc3958752f28afaeabcca0f9d654987fd7bbd8368",
+          "extracted_whitespace_words": 1076
+        },
+        {
+          "printed_page": 119,
+          "path": "rawcaches/white-page-119.txt",
+          "sha256": "61f4f5805a118701bb2f5978565aab30ffcdc9f3f8dd2fd86cbb16a9e9973c63",
+          "extracted_whitespace_words": 977
+        },
+        {
+          "printed_page": 120,
+          "path": "rawcaches/white-page-120.txt",
+          "sha256": "66e4effd7d8511666e29f5bcc1b2afb6fd10db31cf4fdb45f637e495a278b2cd",
+          "extracted_whitespace_words": 1007
+        },
+        {
+          "printed_page": 121,
+          "path": "rawcaches/white-page-121.txt",
+          "sha256": "48aea4d431c2100395f5c85eb5a34eb1e8343493d7460d534614c3a03a2046e5",
+          "extracted_whitespace_words": 1131
+        },
+        {
+          "printed_page": 122,
+          "path": "rawcaches/white-page-122.txt",
+          "sha256": "f8c26a49c89a765b2f1e20521121ece5ae6411d4251176230ef8f5ed2b8c2b21",
+          "extracted_whitespace_words": 1025
+        },
+        {
+          "printed_page": 123,
+          "path": "rawcaches/white-page-123.txt",
+          "sha256": "928595a4574200539dafc64699c0af21f051510b48c6ee5c1098c868fed7ed03",
+          "extracted_whitespace_words": 973
+        },
+        {
+          "printed_page": 124,
+          "path": "rawcaches/white-page-124.txt",
+          "sha256": "4e10cabcb960d06b5452f222cc29344944e01535e74d30365714a28691422dd8",
+          "extracted_whitespace_words": 813
+        },
+        {
+          "printed_page": 125,
+          "path": "rawcaches/white-page-125.txt",
+          "sha256": "a256aaaa433a88ed5103e69cf0fbed293b71785955fccce8cf6dd826f834d823",
+          "extracted_whitespace_words": 129
+        }
+      ],
+      "deduplication": {
+        "against": "snapshot/scholarship-reading-0.8.0.json",
+        "prior_ledger_sha256": "5412de9d18e1c48451a3fe85fc81c3b3c1001101672a40bd0f9f296caec72a91",
+        "matching_author_title_or_source_hash": [],
+        "new_reading_credit": true,
+        "cache_reuse_note": "Official body was already cached during earlier pass but absent from credited cumulative ledger. New credit concerns actual full reading now; acquisition is not new."
+      },
+      "exclusions": "No PDF collation or original-artwork inspection. No reading credit for87notes’ cited sources. Historical, logical, scientific and priority claims are White’s arguments, not independently established results.",
+      "discussion_use": "pp108–109,116–117,122–123 for practical science, revisability and the contestability problem posed by immediate certainty."
+    }
+  ],
+  "supplementary_caches_not_whole_readings": [
+    "asu-marginalia.cached.html",
+    "asu-last-judgment.cached.html",
+    "asu-milton.cached.html",
+    "asu-urizen.cached.html"
+  ],
+  "retained_failures": [
+    "receipts/local-pinned-search.json: invalid first role filter; false zeros explicitly corrected in v2",
+    "receipts/web-failures.json: tool-side White timeout, origin HTTP and body unavailable",
+    "receipts/operational-notes.json"
+  ],
+  "limits": "No source-code audit, scientific replication, legal updating, manuscript integration, tests, builds, renderers, image inspection, acceptance verdict or publication."
+}

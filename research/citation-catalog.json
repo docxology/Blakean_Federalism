@@ -833,5 +833,21 @@
       "note": "Notebook p. 76, second passage, E556--557; the ASU printed locator is VLJ-N76[b]"
     },
     "urls": []
+  },
+  {
+    "key": "white2005Science",
+    "type": "article",
+    "fields": {
+      "author": "White, Harry",
+      "title": "Blake's Resolution to the War Between Science and Philosophy",
+      "journal": "Blake/An Illustrated Quarterly",
+      "volume": "39",
+      "number": "3",
+      "year": "2005",
+      "note": "Winter 2005/2006; official HTML version read, including all notes and works cited",
+      "pages": "108--125",
+      "url": "https://bq.blakearchive.org/39.3.white"
+    },
+    "urls": []
   }
 ]

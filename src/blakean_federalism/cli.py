@@ -238,7 +238,7 @@ def build_workbench_command(
     corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
     concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
     output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
-    readings: str = "research/scholarship-reading-0.8.0.json",
+    readings: str = "research/scholarship-reading-0.9.0.json",
 ) -> None:
     require_ignored(output, "analysis_output")
     report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
@@ -256,7 +256,7 @@ def render_manuscript_command(
     output: Annotated[Path, typer.Option(help="New ignored publication stage")],
     corpus: Path = DEFAULT_CORPUS,
     concordance_file: Path = DEFAULT_CONCORDANCE,
-    readings: str = "research/scholarship-reading-0.8.0.json",
+    readings: str = "research/scholarship-reading-0.9.0.json",
 ) -> None:
     "Hydrate with docxology/template and verify references, sources and quotations."
     # Optional manuscript dependencies must not become core CLI import requirements.

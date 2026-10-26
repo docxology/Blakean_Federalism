@@ -4,9 +4,13 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript, analyses and workbench 0.8.0
+## Manuscript, notation and visual arguments 0.9.0
 
-The article brings twenty-five verified Blake quotations and eleven identified LOC sheets into its main-text readings. Fourteen original vector figures include four opening graphical abstracts. Seven redesigned figures add matched families/extracts, named deletion endpoints, directional overlap measures, exact repair bundles, and five-function comparisons of agreement and dependency. Fifteen formalisms and ten equations are automatically numbered by the pinned docxology/template route. The 52 cited references connect collective vision, national reception, material printing, public art and the conditions of effective contestation. [Render and source instructions](docs/manuscript/README.md).
+A [front notation table](docs/manuscript/notation.md) introduces the typed sorts, affiliation/interpretation/competence relations, decision fields, safeguard operations and corpus statistics. Cross-references lead to the automatically numbered definitions and equations. Jaccard, conditional presence and lift use distinct operators; corpus subsets and matched-unit counts are distinguished from intervention bundles.
+
+All fourteen vector figures have been redesigned: four opening abstracts, a two-world competence countermodel, a source census, all 150 case checks, water-authorization routes, rival agreement paths and five quantitative comparisons. Wider aligned axes, direct query names, exact family/unit denominators, minimum-repair fractions and clearer feedback paths make the visual arguments inspectable. The theme remains black, white and red, with red hyperlinks.
+
+Twenty-nine verified quotation records and twelve identified LOC sheets accompany the main-text readings. Four new excerpts address closed categories, forgiveness and retained evidence, the thistle/old-man sequence behind double vision, and conversation that creates its terms of encounter. White's complete article sharpens the discussion of practical science and revisable experience. Fifteen formalisms, ten equations and figures are numbered by the pinned docxology/template route; 53 cited references have structured bibliography records. [New close readings](docs/research/notation-close-reading-0.9.0.md); [render and source instructions](docs/manuscript/README.md).
 
 The 0.7.0 [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
 
@@ -27,6 +31,7 @@ Open the generated index.html directly in a browser. No server or runtime networ
 
 ## Start reading
 
+- [Notation and reading conventions](docs/manuscript/notation.md)
 - [States Change article draft](docs/manuscript/states-change.md)
 - [Institutional design and five Xeno-California case pairs](docs/institutional-design.md)
 - [Primary-source research and objections](docs/research/primary-source-research.md)

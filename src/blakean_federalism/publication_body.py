@@ -1,169 +1,142 @@
 # Copyright (c) 2026 Daniel Ari Friedman
-"""Source-bound body figures and deterministic vector/raster output."""
+"""Typed countermodels, source strata and accountable decision paths as vector diagrams."""
+
+from math import ceil, hypot
 
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen.canvas import Canvas
 
-from .figure_style import (
-    BLACK as INK,
-)
-from .figure_style import (
-    GREY,
-    MUTED,
-)
-from .figure_style import (
-    RED as RUST,
-)
-from .figure_style import (
-    WHITE as PAPER,
-)
-from .figure_style import (
-    circle as _circle,
-)
-from .figure_style import (
-    curve as _curve,
-)
-from .figure_style import (
-    footer as _footer,
-)
-from .figure_style import (
-    header as _header,
-)
-from .figure_style import (
-    label as _label,
-)
-from .figure_style import (
-    line as _line,
-)
-from .figure_style import (
-    text as _text,
-)
+from .figure_style import BLACK, GREY, MUTED, RED, WHITE, circle, curve, label, line, text
 from .institutional_interventions import rule_is_triggered
 from .models import ResearchError
 from .workbench_models import Workbench
 
 
-def draw_agreement_routes(c: Canvas) -> None:
-    _header(
-        c,
-        "R",
-        "Agreement leaves the route in question",
-        "Conceptual comparison: the same outward assent can conceal different powers to dissent",
-    )
-    _text(c, "FUNCTION", 20, 270, 110, 9, MUTED)
-    _text(c, "TRANSLATION + REVISION", 145, 270, 177, 10, INK)
-    _text(c, "DEPENDENCY + GATEKEEPING", 339, 270, 181, 10, RUST)
-    rows = (
-        (
-            "Information",
-            "Public reasons can be challenged",
-            "Gatekeeper controls credible accounts",
-        ),
-        (
-            "Voice",
-            "Interpretation need not disclose total identity",
-            "Recognition requires the authorized story",
-        ),
-        (
-            "Material means",
-            "Fund participation and interim provision",
-            "Wages or services depend on compliance",
-        ),
-        ("Review", "Named forum can change the act", "Appeal exists but cannot alter exposure"),
-        (
-            "Revision",
-            "Mandate expires; rules can be reopened",
-            "Temporary assent becomes lasting authority",
-        ),
-    )
-    for i, (title, open_route, closed_route) in enumerate(rows):
-        y = 240 - i * 34
-        _text(c, title, 20, y, 112, 9, MUTED)
-        _text(c, open_route, 145, y, 177, 9)
-        _text(c, closed_route, 339, y, 181, 9, RUST)
-        _line(c, 20, y - 28, 520, y - 28, GREY, 0.5)
-    _text(c, "OBSERVABLE: agreement", 20, 61, 190, 9)
-    _text(c, "UNRESOLVED: who can contest it, with what means?", 220, 61, 300, 9, RUST)
-    _footer(
-        c,
-        "Conceptual countermodel from Rahman and Pettit; assent alone does not identify its route.",
-    )
+def _heading(c: Canvas, title: str, subtitle: str) -> None:
+    text(c, title, 20, 428, 500, 19)
+    text(c, subtitle, 20, 400, 500, 9.5, MUTED)
+    line(c, 20, 375, 520, 375, RED, 1.5)
+
+
+def _arrow(c: Canvas, x: float, y: float, xx: float, yy: float, color: str = BLACK) -> None:
+    line(c, x, y, xx, yy, color, 1.2)
+    dx, dy = xx - x, yy - y
+    length = hypot(dx, dy)
+    if length:
+        ux, uy = dx / length, dy / length
+        line(c, xx, yy, xx - 6 * ux + 3 * uy, yy - 6 * uy - 3 * ux, color, 1.2)
+        line(c, xx, yy, xx - 6 * ux - 3 * uy, yy - 6 * uy + 3 * ux, color, 1.2)
+
+
+def _foot(c: Canvas, value: str) -> None:
+    line(c, 20, 38, 520, 38)
+    text(c, value, 20, 29, 500, 8.5, MUTED)
 
 
 def draw_relations(c: Canvas) -> None:
-    _header(
+    _heading(
         c,
-        "A I C",
-        "Affiliation is not authorization",
-        "Solid lines: affiliation A / dashed lines: interpretation I / separate relation C",
+        "One social graph, two competence claims",
+        "Countermodel to automatic authorization / identical affiliations A and interpretations I",
     )
-    persons = ((80, 222), (196, 222), (312, 222))
-    nations = ((106, 150), (272, 150))
-    states = ((80, 78), (196, 78), (312, 78))
-    for p, n in ((0, 0), (1, 0), (1, 1), (2, 1)):
-        x, y = persons[p]
-        end, ey = nations[n]
-        _curve(c, (x, y - 12, x, y - 35, end, ey + 35, end, ey + 12), INK, 1.5)
-    for n, s in ((0, 0), (0, 1), (1, 1), (1, 2)):
-        x, y = nations[n]
-        end, ey = states[s]
-        c.setDash(3, 2)
-        _curve(c, (x, y - 12, x, y - 35, end, ey + 35, end, ey + 12), INK)
+    for left, title, claimed in (
+        (20, "WORLD 0 / C is empty", False),
+        (280, "WORLD 1 / C contains (j,d)", True),
+    ):
+        text(c, title, left, 361, 240, 10, RED)
+        persons = [(left + 42, 307), (left + 118, 307), (left + 194, 307)]
+        nations = [(left + 69, 235), (left + 168, 235)]
+        states = [(left + 42, 163), (left + 118, 163), (left + 194, 163)]
+        for pi, ni in ((0, 0), (1, 0), (1, 1), (2, 1)):
+            x, y = persons[pi]
+            xx, yy = nations[ni]
+            curve(c, (x, y - 13, x, y - 37, xx, yy + 37, xx, yy + 13), BLACK, 1)
+        c.setDash(3, 3)
+        for ni, si in ((0, 0), (0, 1), (1, 1), (1, 2)):
+            x, y = nations[ni]
+            xx, yy = states[si]
+            curve(c, (x, y - 13, x, y - 37, xx, yy + 37, xx, yy + 13), BLACK, 1)
         c.setDash()
-    for points, prefix, color in ((persons, "P", INK), (nations, "N", INK), (states, "S", INK)):
-        for index, (x, y) in enumerate(points, 1):
-            _circle(c, x, y, 12, color)
-            _label(c, prefix + str(index), x, y - 3, 8, color)
-    _text(c, "Persons", 22, 258, 130, 10)
-    _text(c, "A / affiliation", 156, 258, 180, 10, INK)
-    _line(c, 355, 61, 355, 272, GREY)
-    _label(c, "C / claimed competence", 444, 252, 9, RUST)
-    _circle(c, 444, 208, 20, RUST)
-    _label(c, "J1", 444, 204, 12, RUST)
-    _line(c, 444, 187, 444, 137, RUST, 2)
-    _circle(c, 444, 116, 20, RUST)
-    _label(c, "d1", 444, 112, 12, RUST)
-    _text(c, "Institution / decision", 376, 78, 150, 10, RUST)
-    _footer(c, "Illustrative relations. C can change while A and I remain fixed (Proposition 1).")
+        for nodes, prefix in ((persons, "p"), (nations, "n"), (states, "s")):
+            for i, (x, y) in enumerate(nodes, 1):
+                circle(c, x, y, 13, BLACK)
+                label(c, prefix + str(i), x, y - 3, 9)
+        circle(c, left + 65, 91, 14, RED)
+        circle(c, left + 173, 91, 14, RED)
+        label(c, "j", left + 65, 88, 10, RED)
+        label(c, "d", left + 173, 88, 10, RED)
+        if claimed:
+            _arrow(c, left + 80, 91, left + 158, 91, RED)
+            label(c, "claim C", left + 119, 111, 8, RED)
+        else:
+            label(c, "no claim", left + 119, 111, 8, MUTED)
+        label(c, "Persons P", left + 118, 335, 9)
+        label(c, "Nations N", left + 118, 261, 9)
+        label(c, "State readings S", left + 118, 137, 9)
+        text(c, "Institution j / proposed decision d", left + 22, 61, 218, 8, RED)
+    line(c, 268, 58, 268, 360, GREY, 0.6)
+    _foot(c, "Solid: A. Dashed: I. Both worlds satisfy the typing; only C changes (Proposition 1).")
 
 
 def draw_census(c: Canvas, report: Workbench) -> None:
     census = {(x.plane.value, x.role.value): x.source_units for x in report.coverage}
-    _header(
+    planes = ("reading", "erdman", "xml")
+    roles = ("primary", "editorial", "unverified")
+    total = sum(census.get((p, role), 0) for p in planes for role in roles)
+    if total != report.source_units:
+        raise ResearchError("publication_census", "Source strata do not sum to the imported units")
+    _heading(
         c,
-        "n",
-        "Count the source units first",
-        "Copies, retained pages and XML units / roles from the pinned index",
+        "One index, three source layers",
+        "Stored-unit counts / common zero-based scale / source roles remain separate",
     )
-    colors = {"primary": RUST, "editorial": INK, "unverified": "#bbbbbb"}
-    maximum = max(
-        sum(census.get((p, role), 0) for role in colors) for p in ("reading", "erdman", "xml")
-    )
-    for index, plane in enumerate(("reading", "erdman", "xml")):
-        y = 243 - index * 65
-        _text(c, plane.upper(), 20, y + 3, 85, 10)
-        x = 116.0
-        total = 0
-        for role, color in colors.items():
-            count = census.get((plane, role), 0)
-            width = count / maximum * 338 if maximum else 0
+    maximum = max((sum(census.get((p, role), 0) for role in roles) for p in planes), default=0)
+    maximum = ceil(maximum / 100) * 100 if maximum > 100 else maximum
+    colors = (RED, BLACK, "#c8c8c8")
+    for i, plane in enumerate(planes):
+        y = 325 - i * 76
+        text(c, plane.upper(), 20, y + 11, 88, 11)
+        x = 119.0
+        counts = [census.get((plane, role), 0) for role in roles]
+        for count, color in zip(counts, colors, strict=True):
+            width = 330 * count / maximum if maximum else 0
             c.setFillColor(HexColor(color))
-            c.rect(x, y - 20, width, 27, stroke=0, fill=1)
-            if width > 32:
-                _label(
-                    c, str(count), x + width / 2, y - 11, 10, INK if role == "unverified" else PAPER
+            c.rect(x, y - 14, width, 27, fill=1, stroke=0)
+            if width > 33:
+                label(
+                    c, str(count), x + width / 2, y - 5, 10, BLACK if color == colors[2] else WHITE
                 )
             x += width
-            total += count
-        _text(c, str(total), 468, y, 56, 12)
-    _text(c, "XML includes 4 editorial units", 116, 140, 310, 9, MUTED)
-    for index, (role, color) in enumerate(colors.items()):
-        x = 116 + index * 131
-        _circle(c, x + 4, 72, 4, color, color)
-        _text(c, role, x + 15, 79, 112, 9)
-    _footer(
+        text(c, f"{sum(counts):,}", 468, y + 10, 52, 15)
+        text(
+            c,
+            " / ".join(f"{count} {role}" for count, role in zip(counts, roles, strict=True)),
+            119,
+            y - 24,
+            390,
+            8.5,
+            MUTED,
+        )
+    for value in (maximum * i / 4 for i in range(5)):
+        if maximum and value <= maximum:
+            x = 119 + 330 * value / maximum
+            line(c, x, 132, x, 127, BLACK, 0.7)
+            label(c, f"{value:g}", x, 114, 8, MUTED)
+    line(c, 119, 132, 449, 132, BLACK, 0.7)
+    for i, (role, color) in enumerate(zip(roles, colors, strict=True)):
+        x = 20 + i * 170
+        n = sum(census.get((p, role), 0) for p in planes)
+        c.setFillColor(HexColor(color))
+        c.rect(x, 85, 9, 9, fill=1, stroke=0)
+        text(c, role.upper(), x + 15, 99, 148, 8.5)
+        text(c, f"{n:,}", x + 15, 83, 148, 18, RED if role == "primary" else BLACK)
+    _foot(
         c,
-        f"{report.source_units:,} units across planes; copies and pages are not unique works.",
+        (
+            f"{total:,} retained units. Small editorial XML segment: "
+            f"{census.get(('xml', 'editorial'), 0)} units. Copies are not "
+            f"unique works."
+        ),
     )
 
 
@@ -173,109 +146,174 @@ def draw_rule_matrix(c: Canvas, report: Workbench) -> None:
     codes = [x.code for x in report.cases[0].assessment.checks]
     if any([x.code for x in case.assessment.checks] != codes for case in report.cases):
         raise ResearchError("publication_checks", "Case check orders differ")
-    _text(c, "FIFTEEN RULES / TEN ALTERNATIVES", 20, 431, 500, 17)
-    _text(c, "Each case pairs a bounded record (+) with a capture record (-).", 20, 406, 500, 10)
-    for index, case in enumerate(report.cases):
-        label = case.record.decision_id.replace("-bounded", "+").replace("-capture", "-")
-        x = 231 + 29 * index
-        if index % 2 == 0:
-            c.setFillColor(HexColor("#f2f2f2"))
-            c.rect(x - 12, 60, 53, 327, fill=1, stroke=0)
-        _label(c, label, x, 372, 9)
-    failures = 0
+    _heading(
+        c,
+        "Where the ten records fail",
+        "Fifteen safeguard predicates / paired bounded (+) and capture (-) records",
+    )
+    counts = {"satisfied": 0, "violated": 0, "absent": 0}
+    for column, case in enumerate(report.cases):
+        x = 231 + 27 * column
+        if column % 2 == 0:
+            c.setFillColor(HexColor("#f3f3f3"))
+            c.rect(x - 12, 61, 52, 293, fill=1, stroke=0)
+        name = case.record.decision_id.replace("-bounded", "+").replace("-capture", "-")
+        label(c, name, x, 356, 9)
+    text(c, "RULE", 20, 365, 190, 8, MUTED)
+    label(c, "FAIL", 514, 356, 8, RED)
     for row, code in enumerate(codes):
-        y = 346 - row * 19
-        _text(c, code.replace("_", " "), 20, y + 5, 192, 9)
-        _line(c, 20, y - 7, 520, y - 7, "#dddddd", 0.4)
+        y = 334 - row * 18
+        text(c, code.replace("_", " "), 20, y + 6, 192, 8.6)
+        line(c, 20, y - 7, 520, y - 7, GREY, 0.45)
+        failures = 0
         for column, case in enumerate(report.cases):
-            x = 231 + 29 * column
-            passed = case.assessment.checks[row].passed
+            x = 231 + 27 * column
             if not rule_is_triggered(case.record, code):
-                _line(c, x - 4, y, x + 4, y, "#888888", 1)
-            elif passed:
-                _circle(c, x, y, 4.5, INK, PAPER, 1)
+                line(c, x - 4, y, x + 4, y, "#888888", 1)
+                counts["absent"] += 1
+            elif case.assessment.checks[row].passed:
+                circle(c, x, y, 3.8, BLACK)
+                counts["satisfied"] += 1
             else:
                 failures += 1
-                _circle(c, x, y, 6.4, RUST, RUST)
-                _line(c, x - 2, y - 2, x + 2, y + 2, PAPER, 1)
-                _line(c, x - 2, y + 2, x + 2, y - 2, PAPER, 1)
-    _circle(c, 26, 51, 4.5, INK)
-    _text(c, "Active / satisfied", 37, 57, 133, 9)
-    _circle(c, 183, 51, 6, RUST, RUST)
-    _label(c, "x", 183, 48, 8, PAPER)
-    _text(c, "Active / violated", 196, 57, 129, 9)
-    _text(c, f"{failures} recorded violations", 346, 57, 173, 9)
-    _line(c, 20, 36, 520, 36)
-    _text(
+                counts["violated"] += 1
+                circle(c, x, y, 5.5, RED, RED)
+                line(c, x - 2, y - 2, x + 2, y + 2, WHITE, 1)
+                line(c, x - 2, y + 2, x + 2, y - 2, WHITE, 1)
+        label(c, str(failures), 514, y - 3, 8, RED if failures else MUTED)
+    circle(c, 24, 51, 3.8, BLACK)
+    text(c, f"{counts['satisfied']} active / satisfied", 34, 57, 157, 8.5)
+    circle(c, 204, 51, 5, RED, RED)
+    text(c, f"{counts['violated']} active / violated", 214, 57, 145, 8.5, RED)
+    line(c, 387, 51, 395, 51, MUTED)
+    text(c, f"{counts['absent']} condition absent", 402, 57, 118, 8.5)
+    _foot(
         c,
         (
-            "Grey dash: condition not triggered. Every mark retains "
-            "the same fixed rule and case order."
+            "All 150 checks are shown. Right margin counts active violations "
+            "per rule; absent conditions stay distinct."
         ),
-        20,
-        28,
-        500,
-        9,
-        MUTED,
     )
 
 
 def draw_watershed(c: Canvas) -> None:
-    _header(
+    _heading(
         c,
-        "E",
-        "Who decides about the water?",
-        "Same hypothetical scarcity / distinct warrants, representation and unresolved duties",
+        "One scarcity, three ways to authorize action",
+        "Hypothetical water dispute / the affected parties and resource baseline stay fixed",
     )
-    for x, title in ((130, "E1 / ASSOCIATIONS"), (262, "E2 / TERRITORY"), (394, "E3 / WATERSHED")):
-        _text(c, title, x, 272, 126, 9, RUST)
-    rows = (
-        ("Voice", "Recognized bodies", "Resident franchise", "Residents + workers"),
-        ("Warrant / scope", "Association mandate", "Territorial mandate", "Limited water task"),
+    text(c, "COMMON MATERIAL BASELINE", 20, 359, 500, 9, RED)
+    text(c, "Storage owner", 20, 333, 110, 10)
+    _arrow(c, 114, 321, 169, 321)
+    text(c, "Supplier", 181, 333, 75, 10)
+    _arrow(c, 245, 321, 300, 321)
+    text(c, "Residents / workers / nonmembers", 310, 333, 210, 10)
+    text(c, "Property control", 20, 312, 130, 8.5, MUTED)
+    text(c, "Service duties", 181, 312, 105, 8.5, MUTED)
+    text(c, "Drinking water, wages, ecological harm", 310, 312, 210, 8.5, MUTED)
+    line(c, 20, 286, 520, 286, BLACK, 0.6)
+    options = (
         (
-            "Treaty relation",
-            "Folded into membership",
-            "Subject to general rule",
-            "Separate negotiation",
+            20,
+            "E1",
+            "Associations",
+            "Recognized bodies",
+            "Association mandate",
+            "Membership absorbs treaty claim",
+            "Who remains off the rolls?",
         ),
         (
-            "Review burden",
-            "Who is left off rolls?",
-            "Whose title is assumed?",
-            "Who reviews the forum?",
+            192,
+            "E2",
+            "Territory",
+            "Resident franchise",
+            "Territorial mandate",
+            "General rule assumes shared title",
+            "Whose prior title is assumed?",
         ),
         (
-            "Costs / means",
-            "Agenda power of wealth",
-            "Unequal storage baseline",
-            "Assign compliance costs",
-        ),
-        (
-            "Interim duties",
-            "Who supplies nonmembers?",
-            "Who bears delay?",
-            "Emergency supply vs. lasting allocation",
+            364,
+            "E3",
+            "Watershed",
+            "Residents + workers",
+            "Limited water competence",
+            "Separate treaty negotiation",
+            "Who can challenge the forum?",
         ),
     )
-    for i, row in enumerate(rows):
-        y = 245 - i * 29
-        _text(c, row[0], 20, y, 102, 8.5, MUTED)
-        for j, value in enumerate(row[1:]):
-            _text(c, value, 130 + 132 * j, y, 124, 8.5)
-        _line(c, 20, y - 25, 520, y - 25, GREY, 0.5)
-    _text(
+    for x, code, title, voice, mandate, treaty, question in options:
+        text(c, code, x, 272, 35, 15, RED)
+        text(c, title, x + 33, 270, 123, 12)
+        _arrow(c, x + 78, 241, x + 78, 219, RED)
+        text(c, voice, x, 211, 156, 10)
+        text(c, mandate, x, 184, 156, 9, MUTED)
+        line(c, x, 157, x + 156, 157, GREY, 0.6)
+        text(c, treaty, x, 146, 156, 9)
+        text(c, question, x, 108, 156, 9, RED)
+    line(c, 20, 76, 520, 76, BLACK, 0.6)
+    text(c, "IN EVERY ROUTE", 20, 66, 108, 8.5, RED)
+    text(
         c,
-        "Owner / supplier / competent body / enforcer: distinct roles, each requiring a warrant.",
-        20,
-        62,
-        500,
+        "Allocate compliance costs; fund hearings; preserve interim supply and review.",
+        131,
+        66,
+        389,
         9,
-        RUST,
     )
-    _footer(
+    _foot(
         c,
         (
-            "Compare access, funding, relief and revision; E3 remains exposed to "
-            "forum-shopping and delay."
+            "Owner, supplier, deciding body and enforcer have distinct "
+            "roles. Water urgency does not settle jurisdiction."
+        ),
+    )
+
+
+def draw_agreement_routes(c: Canvas) -> None:
+    _heading(
+        c,
+        "The same assent can follow different routes",
+        "Conceptual identification problem / compare the means to contest agreement",
+    )
+    text(c, "TRANSLATION + REVISION", 20, 359, 375, 11)
+    text(c, "Public reasons", 20, 324, 125, 10)
+    text(c, "Open to challenge", 20, 303, 125, 9, MUTED)
+    _arrow(c, 141, 310, 178, 310)
+    text(c, "Participation", 190, 324, 125, 10)
+    text(c, "Funded hearing; plural accounts", 190, 303, 145, 9, MUTED)
+    _arrow(c, 326, 310, 364, 310)
+    text(c, "Effective review", 376, 324, 144, 10)
+    text(c, "Forum can change the act", 376, 303, 144, 9, MUTED)
+    curve(c, (445, 286, 445, 250, 370, 250, 335, 222), BLACK, 1.2)
+    text(c, "DEPENDENCY + GATEKEEPING", 20, 175, 375, 11, RED)
+    text(c, "Controlled account", 20, 140, 150, 10, RED)
+    text(c, "Gatekeeper defines credibility", 20, 119, 150, 9, MUTED)
+    _arrow(c, 161, 126, 190, 126, RED)
+    text(c, "Conditional access", 202, 140, 143, 10, RED)
+    text(c, "Wages or services need compliance", 202, 119, 143, 9, MUTED)
+    _arrow(c, 346, 126, 374, 126, RED)
+    text(c, "Power persists", 386, 140, 134, 10, RED)
+    text(c, "Appeal cannot alter exposure", 386, 119, 134, 9, MUTED)
+    curve(c, (445, 157, 445, 190, 370, 190, 335, 206), RED, 1.2)
+    c.setFillColor(HexColor(WHITE))
+    c.setStrokeColor(HexColor(BLACK))
+    c.ellipse(176, 197, 336, 234, fill=1, stroke=1)
+    label(c, "OBSERVED AGREEMENT", 256, 211, 10)
+    text(c, "Assent does not identify the route", 20, 228, 145, 9, RED)
+    line(c, 20, 82, 520, 82, GREY, 0.6)
+    text(c, "DISCRIMINATING TEST", 20, 71, 145, 9, RED)
+    text(
+        c,
+        "Can participants retain provision, challenge a decision and revise its mandate?",
+        174,
+        71,
+        346,
+        9,
+    )
+    _foot(
+        c,
+        (
+            "Rahman supplies the conformity question; Pettit directs "
+            "attention to actual control over public power."
         ),
     )

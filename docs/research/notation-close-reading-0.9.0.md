@@ -1,0 +1,9 @@
+# Revision, forgiveness and the conduct of vision
+
+Four new displayed excerpts extend the article's existing claims. Jerusalem 74:10-13, E229, connects reason separated from imagination to a closed ratio of remembered things and the production of laws. Jerusalem 49:72-75, E199, joins the person/state distinction to forgiveness of enemies; the discussion distinguishes retained evidence and protection from a permanent civic identity. Butts letter 23, verse25-30, E721, supplies the thistle/old-man particular behind the later fourfold declaration and reads its violence in the full letter. Jerusalem 98:28-32, E257-258, makes conversation productive of exemplars, memory, space and time; its armed surrounding sequence remains in the discussion and the complete LOC sheet.
+
+The quoted ASU text is bound to real named anchors, occurrence indices and source-body hashes in manuscript-inputs.json. All four insertion paragraphs were reconciled with the frozen research snapshot rather than applied at stale line numbers. The root retained six verified leads and selected four. No source copy was silently repaired or conflated with a LOC impression.
+
+Harry White, “Blake's Resolution to the War Between Science and Philosophy,” Blake/An Illustrated Quarterly39.3 (Winter2005/2006),108-125, was read completely in the official HTML version, including87notes and works cited. The practical-science and immediate-experience arguments sharpen the discussion of revisable classifications. Reading does not extend to his cited sources or independently establish his historical/scientific comparisons. Official source: https://bq.blakearchive.org/39.3.white.
+
+Raw scholarly bodies and the complete82-file research packet are retained locally under ignored local_data/research/v0.9.0/evidence-packet. The cumulative and delta reading ledgers remain separate. Source search failures, the corrected primary-role query and unsuccessful web response are preserved in that packet.

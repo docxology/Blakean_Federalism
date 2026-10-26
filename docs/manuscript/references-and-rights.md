@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-five selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-nine selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -45,7 +45,7 @@ The citations to earlier work retain the earlier reported complete-extraction re
 
 ## Image rights and critical use
 
-The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 59, 61, 73, 91 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
+The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 59, 61, 73, 91, 98 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
 
 Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
 
@@ -94,3 +94,10 @@ The new scholarly readings are Moyer’s complete numbered article prose (paragr
 Selected ASU contexts include Jerusalem 16:1–69, 55:1–69, 59:1–55 and 67:1–62; Marriage 21–24; the Reynolds host text and annotations at E641; and selected Last Judgment locator-label passages at E556–557 and E561. These are selected-context readings. The Last Judgment page’s printed N76[b] locator has no matching HTML anchor. Its countertext is paraphrased with the notebook/Erdman locator; Q25 uses Jerusalem 59’s actual line anchors. The cumulative ledger is research/scholarship-reading-0.8.0.json; the bounded source ledger is research/scholarship-source-ledger-0.8.0.json.
 
 Jerusalem 59 is the eleventh uncropped LOC reproduction. Its lower text places delight, hunger and labor within the same designed sheet. The item-attached rights advisory, copy I identity and posthumous dating are retained from the same identified LOC item 48038103. The literal-search study records all role/family counts separately from the fulltext workspace. Fulltext search output remains local and ignored.
+
+
+## Revisable categories, forgiveness and the conduct of vision
+
+The new reading is White's complete official HTML article, printed pp. 108-125, including all 87 notes and the works cited. His practical-science interpretation and appeal to immediate experience inform the classification discussion; the article's cited sources and comparisons with later physics receive no additional reading credit [@white2005Science].
+
+Q26-Q29 select verified ASU lines from Jerusalem 74, 49 and 98 and the 22 November 1802 Butts letter. Contiguous contexts include all J74 and J98, J48:20-64, J49:1-77 and J50:1-30, J13 with the opening J14, and the complete named Butts letter in this electronic version. These readings distinguish revisions of a category from compulsory forgiveness and distinguish expanded perception from changed conduct. The twelfth uncropped LOC sheet is Jerusalem 98, copy I, from the same identified item and advisory as the earlier Jerusalem impressions. The cumulative ledger is research/scholarship-reading-0.9.0.json; the bounded delta is research/scholarship-source-ledger-0.9.0.json.

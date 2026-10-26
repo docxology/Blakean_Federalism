@@ -258,7 +258,7 @@ def test_new_selection_requires_exact_six_plates_while_old_epoch_stays_valid(man
             validate_manuscript(root, current, markdown)
 
 
-@pytest.mark.parametrize("version", ["0.6.0", "0.7.0", "0.8.0"])
+@pytest.mark.parametrize("version", ["0.6.0", "0.7.0", "0.8.0", "0.9.0"])
 @pytest.mark.parametrize("missing", [None, "J55", "J91", "J99", "unexpected"])
 def test_ten_plate_epoch_requires_every_identified_impression(manuscript, missing, version):
     root, spec = manuscript
@@ -268,8 +268,10 @@ def test_ten_plate_epoch_requires_every_identified_impression(manuscript, missin
     data["assets"].extend(
         [template | {"asset_id": name} for name in ("J27", "J99", "J55", "J91", "J12", "J61")]
     )
-    if version == "0.8.0":
+    if version in ("0.8.0", "0.9.0"):
         data["assets"].append(template | {"asset_id": "J59"})
+    if version == "0.9.0":
+        data["assets"].append(template | {"asset_id": "J98"})
     if missing == "unexpected":
         data["assets"].append(template | {"asset_id": "J100"})
     elif missing:

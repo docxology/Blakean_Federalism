@@ -54,12 +54,12 @@ def test_rate_labels_keep_copy_and_family_denominators_distinct(tmp_path):
 def test_endpoint_labels_identify_omission_and_ties(tmp_path):
     content = render_text(tmp_path, "deletions", sensitivity, unequal_families())
     # Removing alpha leaves no states; either other omission leaves 3/6 * 10000.
-    assert "0.00\nalpha\n5000.00\nbeta (+1 tied)" in content
+    assert "0.00 omit alpha / 5000.00 omit beta (+1 tied)" in content
 
 
 def test_directional_conditionals_are_not_jaccard_and_reject_reversal(tmp_path):
     content = render_text(tmp_path, "overlap", cooccurrence, unequal_families())
-    expected = "P(nations|states) 1.00; P(states|nations) 0.50; lift 1.50"
+    expected = "Pr(nations|states) 1.00; Pr(states|nations) 0.50; lift 1.50"
     assert expected in content
-    assert "P(nations|states) 0.50; P(states|nations) 1.00" not in content
+    assert "Pr(nations|states) 0.50; Pr(states|nations) 1.00" not in content
     assert "0.50" in content  # Jaccard uses one shared / two either families.

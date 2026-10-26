@@ -1,196 +1,153 @@
 # Copyright (c) 2026 Daniel Ari Friedman
-"""Four information-rich visual abstracts for the article's distinct arguments."""
+"""Typed relations, interpretive tensions, and accountable decisions in vector form."""
 
+from math import atan2, cos, sin
+
+from reportlab.lib.colors import HexColor
 from reportlab.pdfgen.canvas import Canvas
 
-from .figure_style import (
-    BLACK,
-    GREY,
-    MUTED,
-    RED,
-    WHITE,
-    circle,
-    curve,
-    label,
-    line,
-    petal,
-    ribbon,
-    text,
-)
+from .figure_style import BLACK, MUTED, RED, WHITE, circle, label, line, text
 
 
 def _heading(c: Canvas, number: str, title: str, subtitle: str) -> None:
-    text(c, number, 18, 503, 34, 11, RED)
-    text(c, title, 58, 505, 464, 19)
-    text(c, subtitle, 58, 477, 464, 10, MUTED)
-    line(c, 18, 452, 522, 452, RED, 2)
+    text(c, number, 20, 503, 32, 11, RED)
+    text(c, title, 55, 505, 465, 21)
+    text(c, subtitle, 55, 477, 465, 10, MUTED)
+    line(c, 20, 458, 520, 458, RED, 1.5)
 
 
 def _foot(c: Canvas, value: str) -> None:
-    line(c, 18, 38, 522, 38, BLACK, 0.6)
-    text(c, value, 18, 29, 504, 9, MUTED)
+    line(c, 20, 38, 520, 38, BLACK, 0.6)
+    text(c, value, 20, 31, 500, 9, MUTED)
+
+
+def _arrow(
+    c: Canvas, x: float, y: float, ex: float, ey: float, color: str = BLACK, *, dashed: bool = False
+) -> None:
+    c.saveState()
+    if dashed:
+        c.setDash(3, 3)
+    line(c, x, y, ex, ey, color, 1)
+    c.setDash()
+    angle = atan2(ey - y, ex - x)
+    for delta in (-0.45, 0.45):
+        line(c, ex, ey, ex - 5 * cos(angle + delta), ey - 5 * sin(angle + delta), color, 1)
+    c.restoreState()
+
+
+def _box(
+    c: Canvas,
+    x: float,
+    y: float,
+    width: float,
+    height: float,
+    title: str,
+    detail: str,
+    color: str = BLACK,
+) -> None:
+    c.setStrokeColor(HexColor(color))
+    c.setFillColor(HexColor(WHITE))
+    c.setLineWidth(1)
+    c.rect(x, y - height, width, height, stroke=1, fill=1)
+    text(c, title, x + 9, y - 8, width - 18, 10, color)
+    text(c, detail, x + 9, y - 25, width - 18, 9)
 
 
 def composition(c: Canvas) -> None:
     _heading(
         c,
         "01",
-        "States recur. Nations compose.",
-        "A federation can sustain plural nations without becoming one nation",
+        "Composition without capture",
+        "Different relations carry different warrants; no layer grants the next its power.",
     )
-    text(c, "STATES / S", 18, 431, 100, 10, RED)
-    text(c, "Recurrent imaginative possibilities", 18, 412, 103, 9)
-    for x, name, turn in ((174, "S1", 0), (311, "S2", 30), (448, "S1", 0)):
-        petal(c, x, 417, BLACK, turn)
-        label(c, name, x, 394, 9)
-    for points in (
-        (174, 386, 166, 367, 175, 354, 205, 347),
-        (311, 386, 296, 369, 245, 353, 205, 347),
-        (311, 386, 322, 360, 344, 343, 367, 328),
-        (448, 386, 443, 364, 407, 343, 367, 328),
-    ):
+    text(c, "POETIC STATES / S", 20, 442, 160, 11)
+    text(c, "Recurrent possibilities, represented through interpretations", 210, 442, 310, 9, MUTED)
+    for x, name in ((135, "s1"), (270, "s2"), (405, "s3")):
+        c.setStrokeColor(HexColor(BLACK))
+        c.setLineWidth(1)
+        c.ellipse(x - 33, 393, x + 33, 420)
+        label(c, name, x, 402, 11)
+    for x, ex in ((135, 185), (270, 185), (270, 355), (405, 355), (135, 355)):
+        c.saveState()
         c.setDash(3, 3)
-        curve(c, points, BLACK, 0.9)
-        c.setDash()
-    text(c, "NATIONS / N", 18, 350, 100, 10, RED)
-    text(c, "Historical combinations and productions", 18, 331, 100, 9)
-    ribbon(c, 119, 341, BLACK)
-    ribbon(c, 254, 321, RED, -1)
-    label(c, "N1", 202, 329, 11)
-    label(c, "N2", 431, 307, 11, RED)
-    text(c, "PERSONS / P", 18, 279, 103, 10, RED)
-    for x, end in ((150, 170), (246, 221), (349, 374), (473, 438)):
-        curve(c, (x, 270, x - 14, 284, end + 16, 299, end, 305), BLACK)
-        circle(c, x, 263, 7, BLACK)
-    curve(c, (246, 270, 263, 291, 302, 297, 328, 309), BLACK)
-    text(c, "Plural affiliations; standing survives a change of affiliation", 120, 247, 398, 10)
-    line(c, 18, 224, 522, 224, RED, 1.5)
+        line(c, x, 393, ex, 340, BLACK, 0.8)
+        c.restoreState()
+    text(c, "I: interpretation", 20, 374, 120, 9, RED)
+    text(c, "many-to-many", 410, 374, 110, 9, MUTED)
+    for x, name in ((185, "n1"), (355, "n2")):
+        _box(c, x - 47, 340, 94, 33, name, "")
+    text(c, "NATIONAL FORMATIONS / N", 20, 337, 110, 10)
+    text(c, "Historical productions", 410, 337, 110, 9, MUTED)
+    for x, ex in ((95, 185), (210, 185), (210, 355), (325, 355), (445, 355)):
+        line(c, x, 246, ex, 307, BLACK, 0.85)
+    for x, name in ((95, "p1"), (210, "p2"), (325, "p3"), (445, "p4")):
+        circle(c, x, 235, 12, BLACK)
+        label(c, name, x, 231, 9)
+    text(c, "A: affiliation", 20, 274, 100, 9, RED)
+    text(c, "PERSONS / P", 20, 212, 120, 11)
+    text(c, "Plural affiliation; no compulsory final identity", 155, 212, 365, 10)
+    _arrow(c, 95, 179, 445, 179, RED)
+    text(c, "PASSAGE: change affiliation while retaining basic standing", 65, 170, 440, 10, RED)
+    line(c, 20, 145, 520, 145, BLACK, 0.7)
+    text(c, "SEPARATE AUTHORITY LAYER", 20, 135, 250, 10, RED)
+    _box(c, 20, 114, 145, 45, "Institution / J", "Issuing jurisdiction")
+    _arrow(c, 165, 91, 350, 91, RED)
+    label(c, "C: claimed competence", 258, 102, 9, RED)
+    _box(c, 350, 114, 170, 45, "Proposed decision / D", "Warrant, reach, review")
     text(
         c,
-        "A: persons x nations   I: nations x state readings   C: institution x decision",
-        18,
-        214,
-        504,
-        10,
+        "A and I do not determine C. Recurrence does not confer an eternal mandate.",
+        20,
+        61,
+        500,
+        9,
     )
-    text(
-        c,
-        "Affiliation and interpretation leave the competence claim to be justified.",
-        18,
-        194,
-        504,
-        10,
-        RED,
-    )
-    text(c, "PRIMARY TEXT", 18, 164, 240, 11, RED)
-    text(c, "INSTITUTIONAL CONSEQUENCE", 285, 164, 237, 11, RED)
-    pairs = (
-        (
-            "Milton 32:22-24 / E132",
-            "Persons endure; present states change.",
-            "Basic standing",
-            "A person exceeds the current register.",
-        ),
-        (
-            "Milton 32:32-38 / E132",
-            "Imagination exceeds the states named.",
-            "Limited representation",
-            "No body speaks a member's whole identity.",
-        ),
-        (
-            "Jerusalem 52 + 73 / E200, E229",
-            "Permanent states and persons in passage.",
-            "Passage, voice, revision",
-            "Specify means, forums and continuing duties.",
-        ),
-    )
-    for index, (source, claim, title, consequence) in enumerate(pairs):
-        y = 143 - index * 32
-        text(c, source, 18, y, 247, 9)
-        text(c, claim, 18, y - 13, 247, 9, MUTED)
-        text(c, title, 285, y, 237, 9)
-        text(c, consequence, 285, y - 13, 237, 9, MUTED)
-    _foot(c, "The reconstruction connects poetic nonidentity to accountable public decisions.")
+    _foot(c, "Textual anchors: Milton 32:22-38 / E132; Jerusalem 52 / E200; 73 / E229.")
 
 
 def scholarship(c: Canvas) -> None:
     _heading(
         c,
         "02",
-        "Six disputes shape the federation",
-        "Textual and political interlocutors change the questions asked of a federation",
+        "Disagreement changes the design",
+        "Selected arguments constrain three institutional questions; arrows mark reconstruction.",
     )
-    columns = (
-        (18, 108, "PROBLEM"),
-        (138, 188, "SCHOLARLY TENSION"),
-        (340, 182, "INSTITUTIONAL QUESTION"),
-    )
-    for x, width, title in columns:
-        text(c, title, x, 433, width, 10, RED)
-    rows = (
+    # Each fork brings distinct arguments into one design question, not a consensus.
+    blocks = (
         (
-            "PERMANENCE",
-            "Milton 32; Jerusalem 52",
-            "Damrosch / Lee",
-            "Particular forms and identity versus compulsory remaking.",
-            "Which mandate can end while persons retain standing?",
+            440,
+            "PERMANENCE ≠ POSSESSION",
+            ("Damrosch, pp. 15-21", "Universality in particular forms"),
+            ("Lee, pp. 1-10", "Identity can resist forced remaking"),
+            "What may change without taking away standing?",
         ),
         (
-            "NATION",
-            "Jerusalem 27, 43, 92",
-            "Fallon / Clark",
-            "Situated mediation versus incorporation into one authorized future.",
-            "Can a people dispute the common story while remaining a participant?",
+            317,
+            "RECIPROCITY ≠ EQUAL AUTHORITY",
+            ("Fallon, ms. pp. 10-12", "National opening; incorporation disputed"),
+            ("Mellor, pp. 148-153", "Creative reciprocity can retain hierarchy"),
+            "Who can interpret, refuse a role and govern?",
         ),
         (
-            "GENDER",
-            "Jerusalem 88 + 99",
-            "Mellor / Kaplan",
-            "Gendered creative priority; rival readings of the final embrace.",
-            "Who interprets, refuses a role and helps govern the shared world?",
-        ),
-        (
-            "REFUSAL",
-            "Standing and disclosure",
-            "Simpson / Pettit",
-            "Access to reasons differs from compulsory cultural legibility.",
-            "Can someone challenge a classification without narrating a total identity?",
-        ),
-        (
-            "OPPOSITION",
-            "Counterpublics and recognition",
-            "Fraser / Tully",
-            "Collective voice needs means; procedures of recognition can be reopened.",
-            "Can organized dissent change both the decision and the rules of hearing?",
-        ),
-        (
-            "REVIEW",
-            "Power and remedies",
-            "Shachar / Henderson",
-            "Protection may require review; the reviewer's jurisdiction remains arguable.",
-            "Who initiates, pays for and can contest protective intervention?",
+            194,
+            "PROTECTION ≠ CONTROL",
+            ("Simpson, pp. 67-78", "Refusal limits compulsory disclosure"),
+            ("Shachar, pp. 75-77", "Review before enforceability shifts burden"),
+            "Who initiates review—and can contest its authority?",
         ),
     )
-    for index, (problem, source, authors, tension, question) in enumerate(rows):
-        y = 408 - index * 55
-        text(c, problem, 18, y, 108, 11)
-        text(c, source, 18, y - 19, 108, 9, MUTED)
-        text(c, authors, 138, y, 188, 10, RED)
-        text(c, tension, 138, y - 16, 188, 9)
-        text(c, question, 340, y, 182, 9.5)
-        line(c, 18, y - 51, 522, y - 51, GREY, 0.6)
-    text(
-        c,
-        "Who can remain and contest the terms of combination?",
-        18,
-        62,
-        504,
-        10,
-        RED,
-    )
+    for y, title, left, right, question in blocks:
+        text(c, title, 20, y, 500, 11, RED)
+        text(c, left[0], 20, y - 23, 230, 10)
+        text(c, left[1], 20, y - 40, 230, 9, MUTED)
+        text(c, right[0], 295, y - 23, 225, 10)
+        text(c, right[1], 295, y - 40, 225, 9, MUTED)
+        _arrow(c, 135, y - 66, 235, y - 83)
+        _arrow(c, 405, y - 66, 305, y - 83)
+        text(c, question, 55, y - 88, 445, 12, RED)
     _foot(
         c,
-        "Page-specific arguments, contrary passages and reading records are developed in the text.",
+        "Read as tensions, not a unified doctrine. Primary countertexts: Jerusalem 43, 88, 92, 99.",
     )
 
 
@@ -198,66 +155,56 @@ def decision(c: Canvas) -> None:
     _heading(
         c,
         "03",
-        "A water decision in six stages",
-        "Worked example: a proposed water levy amid contested membership and jurisdiction",
+        "Who can make a water levy bind?",
+        "Hypothetical accountability map: classification, authority and remedy remain distinct.",
     )
-    stages = (
+    _box(c, 20, 440, 145, 58, "ENTITY", "Affected person or collective")
+    _box(c, 205, 440, 145, 58, "ASSIGNED ROLE", "User, worker, resident or treaty claimant")
+    _arrow(c, 165, 411, 205, 411)
+    text(c, "Classification needs a stated warrant", 367, 429, 153, 10, RED)
+    _box(c, 20, 357, 145, 71, "ISSUER", "Board in J; name its issuing jurisdiction separately")
+    _box(c, 205, 357, 145, 71, "PROPOSED ACT / D", "Levy, term and competence source")
+    _arrow(c, 165, 325, 205, 325)
+    label(c, "C", 185, 333, 10, RED)
+    _arrow(c, 277, 382, 277, 357)
+    _box(c, 385, 357, 135, 71, "REACH", "Upstream + downstream; affected nonmembers")
+    _arrow(c, 350, 325, 385, 325)
+    _box(c, 205, 258, 145, 65, "ENFORCER", "Named actor; coercive powers and limits")
+    _arrow(c, 277, 286, 277, 258)
+    _box(c, 385, 258, 135, 65, "CONSEQUENCE", "Access, levy, ability to pay; residual risk")
+    _arrow(c, 350, 227, 385, 227)
+    _arrow(c, 452, 286, 452, 258)
+    text(c, "Authority to issue ≠ reach ≠ power to compel", 20, 272, 160, 10, RED)
+    _box(
+        c,
+        20,
+        164,
+        330,
+        69,
+        "CHALLENGE + INTERIM DUTIES",
         (
-            "ENTITY / ROLE",
-            "Resident, water user, worker and treaty claimant are separately described roles.",
+            "Fund participation; maintain essential water during delay. Name "
+            "reviewer, deadline and effective remedy."
         ),
+        RED,
+    )
+    _arrow(c, 452, 193, 452, 130, RED)
+    _arrow(c, 452, 130, 350, 130, RED)
+    text(c, "burdens trigger scrutiny", 370, 181, 75, 9, RED)
+    # Explicit feedback to the act and a separate challenge to the issuer.
+    _arrow(c, 277, 164, 277, 193, RED, dashed=True)
+    _arrow(c, 175, 164, 175, 301, RED, dashed=True)
+    _arrow(c, 175, 301, 165, 301, RED, dashed=True)
+    text(c, "contest title", 22, 190, 65, 9, RED)
+    text(c, "remedy / revise", 286, 188, 65, 9, RED)
+    text(c, "COMPARE AT FIXED SCARCITY", 20, 82, 500, 10, RED)
+    text(
+        c, "E1 associations  /  E2 territory  /  E3 watershed + treaty negotiation", 20, 63, 500, 10
+    )
+    _foot(
+        c,
         (
-            "ISSUER / COMPETENCE",
-            "Name the board, the proposed act and the delegation or agreement invoked.",
-        ),
-        (
-            "REACH / ENFORCEMENT",
-            "Identify affected upstream and downstream people, the enforcing actor and its limits.",
-        ),
-        (
-            "MATERIAL BURDENS",
-            "Specify water access, costs, ability to pay, wages and residual risks.",
-        ),
-        (
-            "CHALLENGE / INTERIM DUTIES",
-            "Locate review, its funding and the duty to maintain essential provision during delay.",
-        ),
-        (
-            "REVISION / DISPUTED TITLE",
-            "Record expiry, rule-change powers and a challenge to the forum's jurisdiction.",
+            "The forum's jurisdiction remains challengeable. This diagram "
+            "asserts no current legal power."
         ),
     )
-    line(c, 31, 420, 31, 118, RED, 1.5)
-    for index, (title, detail) in enumerate(stages):
-        y = 426 - index * 55
-        circle(c, 31, y - 9, 10, RED, WHITE)
-        label(c, str(index + 1), 31, y - 12, 10, RED)
-        text(c, title, 54, y, 290, 10, RED)
-        text(c, detail, 54, y - 17, 290, 10)
-    line(c, 360, 126, 360, 435, GREY)
-    for index, (title, detail) in enumerate(
-        (
-            ("AFFILIATION / STANDING", "A national label does not allocate every public right."),
-            (
-                "VOICE / AGREEMENT",
-                "Representation, consent to an act and a power to reopen it differ.",
-            ),
-            (
-                "WARRANT / EXECUTION",
-                "Issuing a decision, reaching people and compelling compliance differ.",
-            ),
-        )
-    ):
-        y = 425 - index * 102
-        text(c, title, 378, y, 144, 10, RED)
-        text(c, detail, 378, y - 27, 144, 10)
-    line(c, 18, 100, 522, 100, BLACK)
-    text(c, "COMPARE AT THE SAME SCARCITY", 18, 89, 504, 10, RED)
-    for x, title, detail in (
-        (18, "E1 / associations", "Recognized bodies"),
-        (190, "E2 / territory", "Resident franchise"),
-        (362, "E3 / watershed", "Limited task + treaty negotiation"),
-    ):
-        text(c, title, x, 70, 160, 10)
-        text(c, detail, x, 56, 160, 8.5, MUTED)
-    _foot(c, "The record follows entity, role, authority, consequence, contestation and revision.")

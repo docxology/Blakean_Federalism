@@ -70,15 +70,7 @@ def generate_figures(
         drawings["literal-search-strata"] = partial(draw_search_study, study=search_study)
     for name, drawing in drawings.items():
         stream = io.BytesIO()
-        analytical = name in {
-            "literal-search-strata",
-            "case-traces",
-            "copy-balanced-rates",
-            "source-sensitivity",
-            "term-associations",
-            "counterfactual-repairs",
-        }
-        height = 520 if name.startswith("abstract-") else (445 if analytical else 345)
+        height = 520 if name.startswith("abstract-") else 445
         c = Canvas(stream, pagesize=(540, height), invariant=1)
         c.setFillColor(HexColor(PAPER))
         c.rect(0, 0, 540, height, fill=1, stroke=0)
