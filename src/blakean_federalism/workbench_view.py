@@ -7,8 +7,13 @@ from html import escape
 from importlib.resources import files
 from typing import TYPE_CHECKING
 
+from .institutional_interventions import rule_is_triggered
 from .manuscript import require_https
 from .models import Plane, Role
+from .workbench_analysis_view import experiment_records, statistics_records
+
+if TYPE_CHECKING:
+    from .models import Decision
 
 if TYPE_CHECKING:
     from .workbench_models import Workbench
@@ -73,6 +78,12 @@ def coverage_rows(report: "Workbench") -> str:
     return "".join(rows)
 
 
+def check_status(record: "Decision", code: str, *, passed: bool) -> str:
+    if not rule_is_triggered(record, code):
+        return "Condition absent"
+    return "Satisfied" if passed else "Violation"
+
+
 def case_records(report: "Workbench") -> str:
     records: list[str] = []
     for trace in report.cases:
@@ -83,7 +94,7 @@ def case_records(report: "Workbench") -> str:
                     (
                         f'<li class="check"><code>{text(check.code)}</code>',
                         '<span class="check-result">',
-                        f"{('No violation' if check.passed else 'Violation')}</span>",
+                        f"{check_status(record, check.code, passed=check.passed)}</span>",
                         f"{text(check.detail)}</li>",
                     )
                 )
@@ -94,9 +105,9 @@ def case_records(report: "Workbench") -> str:
             "Inspect actual decision inputs", f"<pre>{text(record.model_dump_json(indent=2))}</pre>"
         )
         outcome = (
-            "No stipulated violation"
+            "Safeguards satisfied"
             if result.admissible_under_proposed_rules
-            else "Stipulated violation found"
+            else "Safeguard violations"
         )
         ablation = (
             "same programmed assessment"
@@ -111,9 +122,9 @@ def case_records(report: "Workbench") -> str:
                     f"· {text(record.alternative)}</h3><p>{text(record.scenario_id)} · ",
                     f"{outcome}</p>",
                     f'</header><p class="meta">All {len(result.checks)} checks are shown. ',
-                    "“No violation” can mean that a conditional rule was not triggered; ",
-                    "inspect the actual inputs. These are synthetic records, not measured ",
-                    f'institutions.</p><ul class="checks">{checks}</ul><p>Poetic/national ',
+                    "Conditions absent are marked separately from active safeguards. ",
+                    "These are synthetic records.</p>",
+                    f'<ul class="checks">{checks}</ul><p>Poetic/national ',
                     f"label ablation: {ablation}.</p>",
                     f"{inputs}</article>",
                 )
@@ -227,6 +238,8 @@ def sections(report: "Workbench") -> dict[str, str]:
         "@@ROWCOUNT@@": str(len(report.coverage)),
         "@@ROWS@@": coverage_rows(report),
         "@@CASES@@": case_records(report),
+        "@@STATISTICS@@": statistics_records(report),
+        "@@EXPERIMENTS@@": experiment_records(report),
         "@@SOURCES@@": source_records(report),
         "@@BINDINGS@@": disclosure("Inspect input and producer bindings", bindings),
         "@@LIMITS@@": limits,

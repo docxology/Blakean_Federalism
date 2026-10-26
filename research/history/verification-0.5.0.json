@@ -1,0 +1,34 @@
+{
+  "version": "0.5.0",
+  "status": "software_and_native_render_qualified",
+  "tests": 205,
+  "focused_css_delta_tests": 2,
+  "coverage_percent": {
+    "application": 98.28634604754008,
+    "infrastructure": 72.21052631578948
+  },
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "qualification_artifacts": {
+    "qualification-03/checks.json": "9fdfab1cc41d60af6829bce41823b7fd537a0611f388862d14996e45b3afef40",
+    "qualification-03/check-4.log": "e63ad2b24bb45771916a5ab530e7ae30f33eaff2258990f8ea81fd4fa77109af",
+    "qualification-03/tests.xml": "4818eddf3eddcaa1e389bd616416cace969f3d9fae74ab59eb0d89961e8ff278",
+    "qualification-03/coverage.json": "88a66eaec71035bd557a0ccd7f98452081805ce465c9f069113c047b5ec5ff9e",
+    "qualification-03/source-bindings.json": "00096d53eb6aa7924a37f151c688807bb260acb1a5f9c4c2d60a8ad54e773416",
+    "css-and-aspect-delta-qualification.json": "27846604d1af845bc49af1b8df287b9b1aa3dfe1185d27cab9fccfc508454da1",
+    "css-and-aspect-delta-tests.log": "a04b7cf548763fe1cd618556187d0199fa717f27d0bb722c18838daf602baca4",
+    "coverage-floors.json": "12492ed3dbfd6ca65338949ff2372f946e2b734d2ca5d60398b47a3631f45434",
+    "browser-results-v5.json": "d5bdb3e1cb140723265a43bf20ffe89ca72315ebad3a999e530f4cddc29fb252",
+    "workbench-browser-results-v5.json": "13f0c3719021f22e385e6015cae0e2ffbcfe81acc63616d9797305991993db15",
+    "extra-browser-results-v5.json": "f694d057e4a96c2821e6508c5d722146ef68b3c47260ac37f911be514e61b639",
+    "page-inspection-bindings-final.json": "dad4d3d324e9258295b1c43d0a4758f40aba94084863d66989df21f7b9c21c75",
+    "research-integration-final.json": "48d3e52f005d99e3c19b194138514c37510386e0c8b87c4a7186ec6c41264388",
+    "pdf-controls-v5.json": "b1e21d2887c027627b037d2cbebbbcc54dbb4d787e694b4b3b5114728632cc01"
+  },
+  "rendered_qa": "research/rendered-review-0.5.0.json",
+  "historical_qualification": "research/history/verification-0.4.1.json",
+  "qualification_reuse": "Full suite binds all software before two exact HTML CSS literals for link descendants and proportional image heights. The reconstruction hash and two real-file delta tests bind that final change; native browser checks verify every link descendant and image aspect ratio. Later changes to the two manuscript Markdown files are qualified by native rendering and page comparison.",
+  "native_worker_coverage_note": "The separate native-template Python worker is not traced by project coverage; its actual execution has a source-bound receipt."
+}

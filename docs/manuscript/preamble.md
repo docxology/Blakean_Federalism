@@ -11,7 +11,8 @@
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{example}[theorem]{Example}
-\let\BFcontents\tableofcontents
+\let\BFOriginalContents\tableofcontents
+\newcommand{\BFcontents}{\begingroup\fontsize{9}{10.5}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}

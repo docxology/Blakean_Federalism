@@ -1,0 +1,661 @@
+work_id,titles,source_units,tokens,query_id,occurrences,matched_units,rate_per_10000_tokens
+abel,The Ghost of Abel,2,1438,albion,0,0,0.0
+abel,The Ghost of Abel,2,1438,brotherhood,4,2,27.816411682892905
+abel,The Ghost of Abel,2,1438,contraries,0,0,0.0
+abel,The Ghost of Abel,2,1438,emanation,0,0,0.0
+abel,The Ghost of Abel,2,1438,eternity,8,2,55.63282336578581
+abel,The Ghost of Abel,2,1438,exchange,0,0,0.0
+abel,The Ghost of Abel,2,1438,generation,0,0,0.0
+abel,The Ghost of Abel,2,1438,imagination,8,2,55.63282336578581
+abel,The Ghost of Abel,2,1438,law,0,0,0.0
+abel,The Ghost of Abel,2,1438,liberty,0,0,0.0
+abel,The Ghost of Abel,2,1438,nations,0,0,0.0
+abel,The Ghost of Abel,2,1438,negation,0,0,0.0
+abel,The Ghost of Abel,2,1438,negative_control,0,0,0.0
+abel,The Ghost of Abel,2,1438,particulars,0,0,0.0
+abel,The Ghost of Abel,2,1438,persons,0,0,0.0
+abel,The Ghost of Abel,2,1438,rahab,0,0,0.0
+abel,The Ghost of Abel,2,1438,satan,6,2,41.72461752433936
+abel,The Ghost of Abel,2,1438,states,0,0,0.0
+abel,The Ghost of Abel,2,1438,tyranny,0,0,0.0
+abel,The Ghost of Abel,2,1438,vision,4,2,27.816411682892905
+ahania,The Book of Ahania,1,1589,albion,0,0,0.0
+ahania,The Book of Ahania,1,1589,brotherhood,0,0,0.0
+ahania,The Book of Ahania,1,1589,contraries,0,0,0.0
+ahania,The Book of Ahania,1,1589,emanation,0,0,0.0
+ahania,The Book of Ahania,1,1589,eternity,9,1,56.6393958464443
+ahania,The Book of Ahania,1,1589,exchange,1,1,6.293266205160478
+ahania,The Book of Ahania,1,1589,generation,2,1,12.586532410320956
+ahania,The Book of Ahania,1,1589,imagination,0,0,0.0
+ahania,The Book of Ahania,1,1589,law,0,0,0.0
+ahania,The Book of Ahania,1,1589,liberty,0,0,0.0
+ahania,The Book of Ahania,1,1589,nations,0,0,0.0
+ahania,The Book of Ahania,1,1589,negation,0,0,0.0
+ahania,The Book of Ahania,1,1589,negative_control,0,0,0.0
+ahania,The Book of Ahania,1,1589,particulars,0,0,0.0
+ahania,The Book of Ahania,1,1589,persons,0,0,0.0
+ahania,The Book of Ahania,1,1589,rahab,0,0,0.0
+ahania,The Book of Ahania,1,1589,satan,0,0,0.0
+ahania,The Book of Ahania,1,1589,states,0,0,0.0
+ahania,The Book of Ahania,1,1589,tyranny,0,0,0.0
+ahania,The Book of Ahania,1,1589,vision,0,0,0.0
+america,America a Prophecy,13,37451,albion,64,13,17.088996288483617
+america,America a Prophecy,13,37451,brotherhood,13,13,3.471202371098235
+america,America a Prophecy,13,37451,contraries,0,0,0.0
+america,America a Prophecy,13,37451,emanation,0,0,0.0
+america,America a Prophecy,13,37451,eternity,93,13,24.832447731702757
+america,America a Prophecy,13,37451,exchange,0,0,0.0
+america,America a Prophecy,13,37451,generation,54,13,14.418840618408053
+america,America a Prophecy,13,37451,imagination,0,0,0.0
+america,America a Prophecy,13,37451,law,49,13,13.08376278337027
+america,America a Prophecy,13,37451,liberty,0,0,0.0
+america,America a Prophecy,13,37451,nations,12,12,3.2041868040906785
+america,America a Prophecy,13,37451,negation,0,0,0.0
+america,America a Prophecy,13,37451,negative_control,0,0,0.0
+america,America a Prophecy,13,37451,particulars,0,0,0.0
+america,America a Prophecy,13,37451,persons,0,0,0.0
+america,America a Prophecy,13,37451,rahab,0,0,0.0
+america,America a Prophecy,13,37451,satan,0,0,0.0
+america,America a Prophecy,13,37451,states,14,13,3.7382179381057914
+america,America a Prophecy,13,37451,tyranny,0,0,0.0
+america,America a Prophecy,13,37451,vision,38,13,10.146591546287148
+aro,All Religions are One,1,271,albion,0,0,0.0
+aro,All Religions are One,1,271,brotherhood,0,0,0.0
+aro,All Religions are One,1,271,contraries,0,0,0.0
+aro,All Religions are One,1,271,emanation,0,0,0.0
+aro,All Religions are One,1,271,eternity,0,0,0.0
+aro,All Religions are One,1,271,exchange,0,0,0.0
+aro,All Religions are One,1,271,generation,0,0,0.0
+aro,All Religions are One,1,271,imagination,0,0,0.0
+aro,All Religions are One,1,271,law,0,0,0.0
+aro,All Religions are One,1,271,liberty,0,0,0.0
+aro,All Religions are One,1,271,nations,1,1,36.90036900369004
+aro,All Religions are One,1,271,negation,0,0,0.0
+aro,All Religions are One,1,271,negative_control,0,0,0.0
+aro,All Religions are One,1,271,particulars,0,0,0.0
+aro,All Religions are One,1,271,persons,1,1,36.90036900369004
+aro,All Religions are One,1,271,rahab,0,0,0.0
+aro,All Religions are One,1,271,satan,0,0,0.0
+aro,All Religions are One,1,271,states,0,0,0.0
+aro,All Religions are One,1,271,tyranny,0,0,0.0
+aro,All Religions are One,1,271,vision,0,0,0.0
+b-los,The Book of Los,1,1176,albion,0,0,0.0
+b-los,The Book of Los,1,1176,brotherhood,0,0,0.0
+b-los,The Book of Los,1,1176,contraries,0,0,0.0
+b-los,The Book of Los,1,1176,emanation,0,0,0.0
+b-los,The Book of Los,1,1176,eternity,5,1,42.51700680272109
+b-los,The Book of Los,1,1176,exchange,0,0,0.0
+b-los,The Book of Los,1,1176,generation,1,1,8.503401360544217
+b-los,The Book of Los,1,1176,imagination,0,0,0.0
+b-los,The Book of Los,1,1176,law,0,0,0.0
+b-los,The Book of Los,1,1176,liberty,0,0,0.0
+b-los,The Book of Los,1,1176,nations,0,0,0.0
+b-los,The Book of Los,1,1176,negation,0,0,0.0
+b-los,The Book of Los,1,1176,negative_control,0,0,0.0
+b-los,The Book of Los,1,1176,particulars,0,0,0.0
+b-los,The Book of Los,1,1176,persons,0,0,0.0
+b-los,The Book of Los,1,1176,rahab,0,0,0.0
+b-los,The Book of Los,1,1176,satan,0,0,0.0
+b-los,The Book of Los,1,1176,states,0,0,0.0
+b-los,The Book of Los,1,1176,tyranny,0,0,0.0
+b-los,The Book of Los,1,1176,vision,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,albion,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,brotherhood,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,contraries,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,emanation,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,eternity,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,exchange,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,generation,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,imagination,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,law,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,liberty,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,nations,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,negation,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,negative_control,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,particulars,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,persons,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,rahab,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,satan,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,states,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,tyranny,0,0,0.0
+bb125,The Order in which the Songs of Innocence & of Experience ought to be paged & placed,1,216,vision,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,albion,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,brotherhood,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,contraries,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,emanation,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,eternity,3,1,8.9632506722438
+bb126,The Pickering Manuscript,1,3347,exchange,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,generation,11,1,32.865252464893935
+bb126,The Pickering Manuscript,1,3347,imagination,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,law,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,liberty,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,nations,2,1,5.975500448162534
+bb126,The Pickering Manuscript,1,3347,negation,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,negative_control,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,particulars,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,persons,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,rahab,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,satan,0,0,0.0
+bb126,The Pickering Manuscript,1,3347,states,2,1,5.975500448162534
+bb126,The Pickering Manuscript,1,3347,tyranny,3,1,8.9632506722438
+bb126,The Pickering Manuscript,1,3347,vision,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,albion,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,brotherhood,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,contraries,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,emanation,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,eternity,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,exchange,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,generation,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,imagination,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,law,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,liberty,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,nations,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,negation,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,negative_control,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,particulars,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,persons,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,rahab,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,satan,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,states,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,tyranny,0,0,0.0
+bb134,"Accounts March 1823 to November 1825 | Receipt to Thomas Butts, 9 September 1806 | Receipt, 3 March 1806 (for 12 May 1805 to March 1806) | Receipt, John Linnell,  18 May 1829 | Receipt, John Linnell, 1 March 1822 | Receipt, John Linnell, 12 August 1818 | Receipt, John Linnell, 14 July 1826 | Receipt, John Linnell, 19 September 1818 | Receipt, John Linnell, 27 August 1819 | Receipt, John Linnell, 30 April 1821 | Receipt, John Linnell, 30 December 1819 | Receipt, John Linnell, 31 December 1818 | Receipt, John Linnell, 9 November 1818 | Receipt, Mrs. Charles Aders, 29 July 1826 | Receipt, Thomas Butts, 10 August 1809 | Receipt, Thomas Butts, 10 July 1809 | Receipt, Thomas Butts, 13 July 1807 | Receipt, Thomas Butts, 14 April 1810 | Receipt, Thomas Butts, 14 January 1808 | Receipt, Thomas Butts, 14 July 1810 | Receipt, Thomas Butts, 15 October 1806 | Receipt, Thomas Butts, 16 January 1810 | Receipt, Thomas Butts, 18 December 1810 | Receipt, Thomas Butts, 2 June 1807 | Receipt, Thomas Butts, 20 September 1810 | Receipt, Thomas Butts, 22 January 1805 | Receipt, Thomas Butts, 25 November 1809 | Receipt, Thomas Butts, 29 February 1808 | Receipt, Thomas Butts, 29 July 1808 | Receipt, Thomas Butts, 3 March 1807 | Receipt, Thomas Butts, 3 March 1810 | Receipt, Thomas Butts, 3 November 1808 | Receipt, Thomas Butts, 30 June 1806 | Receipt, Thomas Butts, 30 June 1810 | Receipt, Thomas Butts, 4 October 1809 | Receipt, Thomas Butts, 6 October 1807 | Receipt, Thomas Butts, 7 April 1809 | Receipt, Thomas Butts, 7 December 1808 | Receipt, Thomas Butts, 7 September 1805",39,1441,vision,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,albion,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,brotherhood,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,contraries,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,emanation,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,eternity,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,exchange,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,generation,3,1,19.986675549633578
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,imagination,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,law,1,1,6.662225183211192
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,liberty,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,nations,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,negation,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,negative_control,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,particulars,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,persons,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,rahab,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,satan,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,states,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,tyranny,0,0,0.0
+bb196,'then She bore Pale desire' and 'Woe cried the muse',1,1501,vision,0,0,0.0
+bb203,Tiriel,1,4134,albion,0,0,0.0
+bb203,Tiriel,1,4134,brotherhood,1,1,2.4189646831156266
+bb203,Tiriel,1,4134,contraries,0,0,0.0
+bb203,Tiriel,1,4134,emanation,0,0,0.0
+bb203,Tiriel,1,4134,eternity,2,1,4.837929366231253
+bb203,Tiriel,1,4134,exchange,0,0,0.0
+bb203,Tiriel,1,4134,generation,2,1,4.837929366231253
+bb203,Tiriel,1,4134,imagination,0,0,0.0
+bb203,Tiriel,1,4134,law,2,1,4.837929366231253
+bb203,Tiriel,1,4134,liberty,0,0,0.0
+bb203,Tiriel,1,4134,nations,1,1,2.4189646831156266
+bb203,Tiriel,1,4134,negation,0,0,0.0
+bb203,Tiriel,1,4134,negative_control,0,0,0.0
+bb203,Tiriel,1,4134,particulars,0,0,0.0
+bb203,Tiriel,1,4134,persons,0,0,0.0
+bb203,Tiriel,1,4134,rahab,0,0,0.0
+bb203,Tiriel,1,4134,satan,0,0,0.0
+bb203,Tiriel,1,4134,states,0,0,0.0
+bb203,Tiriel,1,4134,tyranny,2,1,4.837929366231253
+bb203,Tiriel,1,4134,vision,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,albion,1,1,22.026431718061673
+bb206,[Prospectus] To the Public,1,454,brotherhood,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,contraries,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,emanation,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,eternity,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,exchange,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,generation,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,imagination,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,law,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,liberty,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,nations,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,negation,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,negative_control,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,particulars,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,persons,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,rahab,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,satan,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,states,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,tyranny,0,0,0.0
+bb206,[Prospectus] To the Public,1,454,vision,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,albion,2,1,1.9122287025528253
+bb32,A Descriptive Catalogue,1,10459,brotherhood,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,contraries,2,1,1.9122287025528253
+bb32,A Descriptive Catalogue,1,10459,emanation,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,eternity,5,1,4.780571756382063
+bb32,A Descriptive Catalogue,1,10459,exchange,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,generation,7,1,6.692800458934888
+bb32,A Descriptive Catalogue,1,10459,imagination,3,1,2.868343053829238
+bb32,A Descriptive Catalogue,1,10459,law,2,1,1.9122287025528253
+bb32,A Descriptive Catalogue,1,10459,liberty,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,nations,10,1,9.561143512764126
+bb32,A Descriptive Catalogue,1,10459,negation,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,negative_control,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,particulars,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,persons,2,1,1.9122287025528253
+bb32,A Descriptive Catalogue,1,10459,rahab,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,satan,3,1,2.868343053829238
+bb32,A Descriptive Catalogue,1,10459,states,2,1,1.9122287025528253
+bb32,A Descriptive Catalogue,1,10459,tyranny,0,0,0.0
+bb32,A Descriptive Catalogue,1,10459,vision,7,1,6.692800458934888
+bb37,'A Fairy leapt',1,94,albion,0,0,0.0
+bb37,'A Fairy leapt',1,94,brotherhood,0,0,0.0
+bb37,'A Fairy leapt',1,94,contraries,0,0,0.0
+bb37,'A Fairy leapt',1,94,emanation,0,0,0.0
+bb37,'A Fairy leapt',1,94,eternity,0,0,0.0
+bb37,'A Fairy leapt',1,94,exchange,0,0,0.0
+bb37,'A Fairy leapt',1,94,generation,0,0,0.0
+bb37,'A Fairy leapt',1,94,imagination,0,0,0.0
+bb37,'A Fairy leapt',1,94,law,0,0,0.0
+bb37,'A Fairy leapt',1,94,liberty,0,0,0.0
+bb37,'A Fairy leapt',1,94,nations,0,0,0.0
+bb37,'A Fairy leapt',1,94,negation,0,0,0.0
+bb37,'A Fairy leapt',1,94,negative_control,0,0,0.0
+bb37,'A Fairy leapt',1,94,particulars,0,0,0.0
+bb37,'A Fairy leapt',1,94,persons,0,0,0.0
+bb37,'A Fairy leapt',1,94,rahab,0,0,0.0
+bb37,'A Fairy leapt',1,94,satan,0,0,0.0
+bb37,'A Fairy leapt',1,94,states,0,0,0.0
+bb37,'A Fairy leapt',1,94,tyranny,0,0,0.0
+bb37,'A Fairy leapt',1,94,vision,0,0,0.0
+bb49,The French Revolution,1,4809,albion,0,0,0.0
+bb49,The French Revolution,1,4809,brotherhood,0,0,0.0
+bb49,The French Revolution,1,4809,contraries,0,0,0.0
+bb49,The French Revolution,1,4809,emanation,0,0,0.0
+bb49,The French Revolution,1,4809,eternity,6,1,12.476606363069244
+bb49,The French Revolution,1,4809,exchange,0,0,0.0
+bb49,The French Revolution,1,4809,generation,3,1,6.238303181534622
+bb49,The French Revolution,1,4809,imagination,0,0,0.0
+bb49,The French Revolution,1,4809,law,4,1,8.317737575379496
+bb49,The French Revolution,1,4809,liberty,2,1,4.158868787689748
+bb49,The French Revolution,1,4809,nations,18,1,37.42981908920773
+bb49,The French Revolution,1,4809,negation,0,0,0.0
+bb49,The French Revolution,1,4809,negative_control,0,0,0.0
+bb49,The French Revolution,1,4809,particulars,0,0,0.0
+bb49,The French Revolution,1,4809,persons,0,0,0.0
+bb49,The French Revolution,1,4809,rahab,0,0,0.0
+bb49,The French Revolution,1,4809,satan,0,0,0.0
+bb49,The French Revolution,1,4809,states,0,0,0.0
+bb49,The French Revolution,1,4809,tyranny,0,0,0.0
+bb49,The French Revolution,1,4809,vision,3,1,6.238303181534622
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,albion,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,brotherhood,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,contraries,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,emanation,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,eternity,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,exchange,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,generation,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,imagination,1,1,8.097165991902834
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,law,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,liberty,1,1,8.097165991902834
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,nations,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,negation,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,negative_control,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,particulars,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,persons,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,rahab,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,satan,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,states,2,1,16.194331983805668
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,tyranny,0,0,0.0
+bb69,Descriptions of 'L'Allegro' and 'Il Penseroso' Designs,1,1235,vision,0,0,0.0
+bb74,An Island in the Moon,1,5909,albion,0,0,0.0
+bb74,An Island in the Moon,1,5909,brotherhood,0,0,0.0
+bb74,An Island in the Moon,1,5909,contraries,0,0,0.0
+bb74,An Island in the Moon,1,5909,emanation,0,0,0.0
+bb74,An Island in the Moon,1,5909,eternity,1,1,1.6923337282112032
+bb74,An Island in the Moon,1,5909,exchange,0,0,0.0
+bb74,An Island in the Moon,1,5909,generation,0,0,0.0
+bb74,An Island in the Moon,1,5909,imagination,1,1,1.6923337282112032
+bb74,An Island in the Moon,1,5909,law,5,1,8.461668641056017
+bb74,An Island in the Moon,1,5909,liberty,0,0,0.0
+bb74,An Island in the Moon,1,5909,nations,7,1,11.846336097478423
+bb74,An Island in the Moon,1,5909,negation,0,0,0.0
+bb74,An Island in the Moon,1,5909,negative_control,0,0,0.0
+bb74,An Island in the Moon,1,5909,particulars,0,0,0.0
+bb74,An Island in the Moon,1,5909,persons,0,0,0.0
+bb74,An Island in the Moon,1,5909,rahab,0,0,0.0
+bb74,An Island in the Moon,1,5909,satan,0,0,0.0
+bb74,An Island in the Moon,1,5909,states,2,1,3.3846674564224064
+bb74,An Island in the Moon,1,5909,tyranny,0,0,0.0
+bb74,An Island in the Moon,1,5909,vision,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,albion,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,brotherhood,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,contraries,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,emanation,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,eternity,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,exchange,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,generation,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,imagination,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,law,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,liberty,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,nations,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,negation,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,negative_control,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,particulars,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,persons,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,rahab,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,satan,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,states,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,tyranny,0,0,0.0
+bbwba1,The Phoenix to Mrs Butts,1,162,vision,0,0,0.0
+but828,Genesis,1,2587,albion,0,0,0.0
+but828,Genesis,1,2587,brotherhood,3,1,11.596443757247778
+but828,Genesis,1,2587,contraries,0,0,0.0
+but828,Genesis,1,2587,emanation,0,0,0.0
+but828,Genesis,1,2587,eternity,0,0,0.0
+but828,Genesis,1,2587,exchange,0,0,0.0
+but828,Genesis,1,2587,generation,2,1,7.730962504831852
+but828,Genesis,1,2587,imagination,0,0,0.0
+but828,Genesis,1,2587,law,0,0,0.0
+but828,Genesis,1,2587,liberty,0,0,0.0
+but828,Genesis,1,2587,nations,0,0,0.0
+but828,Genesis,1,2587,negation,0,0,0.0
+but828,Genesis,1,2587,negative_control,0,0,0.0
+but828,Genesis,1,2587,particulars,0,0,0.0
+but828,Genesis,1,2587,persons,0,0,0.0
+but828,Genesis,1,2587,rahab,0,0,0.0
+but828,Genesis,1,2587,satan,0,0,0.0
+but828,Genesis,1,2587,states,0,0,0.0
+but828,Genesis,1,2587,tyranny,0,0,0.0
+but828,Genesis,1,2587,vision,0,0,0.0
+europe,Europe a Prophecy,14,32241,albion,39,13,12.096398995068391
+europe,Europe a Prophecy,14,32241,brotherhood,0,0,0.0
+europe,Europe a Prophecy,14,32241,contraries,0,0,0.0
+europe,Europe a Prophecy,14,32241,emanation,0,0,0.0
+europe,Europe a Prophecy,14,32241,eternity,93,14,28.845259142086164
+europe,Europe a Prophecy,14,32241,exchange,0,0,0.0
+europe,Europe a Prophecy,14,32241,generation,74,14,22.95214168295028
+europe,Europe a Prophecy,14,32241,imagination,0,0,0.0
+europe,Europe a Prophecy,14,32241,law,0,0,0.0
+europe,Europe a Prophecy,14,32241,liberty,0,0,0.0
+europe,Europe a Prophecy,14,32241,nations,1,1,0.3101640767966254
+europe,Europe a Prophecy,14,32241,negation,0,0,0.0
+europe,Europe a Prophecy,14,32241,negative_control,0,0,0.0
+europe,Europe a Prophecy,14,32241,particulars,0,0,0.0
+europe,Europe a Prophecy,14,32241,persons,0,0,0.0
+europe,Europe a Prophecy,14,32241,rahab,0,0,0.0
+europe,Europe a Prophecy,14,32241,satan,0,0,0.0
+europe,Europe a Prophecy,14,32241,states,1,1,0.3101640767966254
+europe,Europe a Prophecy,14,32241,tyranny,14,13,4.342297075152755
+europe,Europe a Prophecy,14,32241,vision,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,albion,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,brotherhood,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,contraries,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,emanation,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,eternity,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,exchange,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,generation,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,imagination,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,law,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,liberty,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,nations,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,negation,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,negative_control,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,particulars,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,persons,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,rahab,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,satan,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,states,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,tyranny,0,0,0.0
+gates-child,For Children: The Gates of Paradise,2,292,vision,2,2,68.4931506849315
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,albion,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,brotherhood,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,contraries,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,emanation,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,eternity,3,3,12.903225806451612
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,exchange,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,generation,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,imagination,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,law,4,4,17.204301075268816
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,liberty,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,nations,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,negation,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,negative_control,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,particulars,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,persons,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,rahab,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,satan,4,4,17.204301075268816
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,states,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,tyranny,0,0,0.0
+gates-sexes,For the Sexes: The Gates of Paradise,4,2325,vision,4,4,17.204301075268816
+homer,On Homers Poetry [and] On Virgil,3,1098,albion,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,brotherhood,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,contraries,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,emanation,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,eternity,6,3,54.6448087431694
+homer,On Homers Poetry [and] On Virgil,3,1098,exchange,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,generation,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,imagination,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,law,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,liberty,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,nations,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,negation,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,negative_control,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,particulars,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,persons,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,rahab,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,satan,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,states,3,3,27.3224043715847
+homer,On Homers Poetry [and] On Virgil,3,1098,tyranny,0,0,0.0
+homer,On Homers Poetry [and] On Virgil,3,1098,vision,0,0,0.0
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,albion,1602,5,81.08928932982386
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,brotherhood,64,5,3.2395221704798542
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,contraries,45,5,2.2777890261186475
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,emanation,380,5,19.234662887224136
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,eternity,550,5,27.839643652561247
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,exchange,4,4,0.2024701356549909
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,generation,180,5,9.11115610447459
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,imagination,75,5,3.796315043531079
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,law,191,5,9.667948977525814
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,liberty,36,4,1.822231220894918
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,nations,250,5,12.65438347843693
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,negation,28,4,1.4172909495849362
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,negative_control,0,0,0.0
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,particulars,76,4,3.846932577444827
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,persons,58,5,2.935816966997368
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,rahab,98,5,4.9605183235472765
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,satan,115,5,5.821016400080988
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,states,101,5,5.11237092528852
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,tyranny,12,4,0.6074104069649726
+jerusalem,Jerusalem The Emanation of The Giant Albion,5,197560,vision,309,5,15.640817979348046
+laocoon,Laocoön,2,1212,albion,0,0,0.0
+laocoon,Laocoön,2,1212,brotherhood,0,0,0.0
+laocoon,Laocoön,2,1212,contraries,0,0,0.0
+laocoon,Laocoön,2,1212,emanation,0,0,0.0
+laocoon,Laocoön,2,1212,eternity,6,2,49.504950495049506
+laocoon,Laocoön,2,1212,exchange,0,0,0.0
+laocoon,Laocoön,2,1212,generation,2,2,16.501650165016503
+laocoon,Laocoön,2,1212,imagination,8,2,66.00660066006601
+laocoon,Laocoön,2,1212,law,0,0,0.0
+laocoon,Laocoön,2,1212,liberty,0,0,0.0
+laocoon,Laocoön,2,1212,nations,2,2,16.501650165016503
+laocoon,Laocoön,2,1212,negation,0,0,0.0
+laocoon,Laocoön,2,1212,negative_control,0,0,0.0
+laocoon,Laocoön,2,1212,particulars,0,0,0.0
+laocoon,Laocoön,2,1212,persons,0,0,0.0
+laocoon,Laocoön,2,1212,rahab,0,0,0.0
+laocoon,Laocoön,2,1212,satan,6,2,49.504950495049506
+laocoon,Laocoön,2,1212,states,2,2,16.501650165016503
+laocoon,Laocoön,2,1212,tyranny,0,0,0.0
+laocoon,Laocoön,2,1212,vision,4,2,33.00330033003301
+mhh,The Marriage of Heaven and Hell,12,43548,albion,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,brotherhood,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,contraries,27,9,6.200055111600992
+mhh,The Marriage of Heaven and Hell,12,43548,emanation,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,eternity,125,11,28.703958850004593
+mhh,The Marriage of Heaven and Hell,12,43548,exchange,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,generation,42,11,9.644530173601543
+mhh,The Marriage of Heaven and Hell,12,43548,imagination,9,9,2.0666850372003305
+mhh,The Marriage of Heaven and Hell,12,43548,law,59,12,13.548268577202167
+mhh,The Marriage of Heaven and Hell,12,43548,liberty,20,11,4.5926334160007345
+mhh,The Marriage of Heaven and Hell,12,43548,nations,45,9,10.333425186001653
+mhh,The Marriage of Heaven and Hell,12,43548,negation,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,negative_control,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,particulars,10,10,2.2963167080003672
+mhh,The Marriage of Heaven and Hell,12,43548,persons,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,rahab,0,0,0.0
+mhh,The Marriage of Heaven and Hell,12,43548,satan,27,9,6.200055111600992
+mhh,The Marriage of Heaven and Hell,12,43548,states,9,9,2.0666850372003305
+mhh,The Marriage of Heaven and Hell,12,43548,tyranny,10,10,2.2963167080003672
+mhh,The Marriage of Heaven and Hell,12,43548,vision,0,0,0.0
+milton,Milton a Poem,4,75986,albion,184,4,24.214986971284183
+milton,Milton a Poem,4,75986,brotherhood,22,4,2.895270181349196
+milton,Milton a Poem,4,75986,contraries,25,4,3.290079751533177
+milton,Milton a Poem,4,75986,emanation,38,4,5.00092122233043
+milton,Milton a Poem,4,75986,eternity,412,4,54.22051430526676
+milton,Milton a Poem,4,75986,exchange,2,2,0.2632063801226542
+milton,Milton a Poem,4,75986,generation,66,4,8.685810544047587
+milton,Milton a Poem,4,75986,imagination,26,4,3.4216829415945043
+milton,Milton a Poem,4,75986,law,50,4,6.580159503066354
+milton,Milton a Poem,4,75986,liberty,2,2,0.2632063801226542
+milton,Milton a Poem,4,75986,nations,84,4,11.054667965151475
+milton,Milton a Poem,4,75986,negation,20,4,2.6320638012265416
+milton,Milton a Poem,4,75986,negative_control,0,0,0.0
+milton,Milton a Poem,4,75986,particulars,2,2,0.2632063801226542
+milton,Milton a Poem,4,75986,persons,26,4,3.4216829415945043
+milton,Milton a Poem,4,75986,rahab,46,4,6.053746742821046
+milton,Milton a Poem,4,75986,satan,318,4,41.84981443950201
+milton,Milton a Poem,4,75986,states,64,4,8.422604163924934
+milton,Milton a Poem,4,75986,tyranny,14,4,1.8424446608585792
+milton,Milton a Poem,4,75986,vision,70,4,9.212223304292896
+nnr,There is No Natural Religion,7,1327,albion,0,0,0.0
+nnr,There is No Natural Religion,7,1327,brotherhood,0,0,0.0
+nnr,There is No Natural Religion,7,1327,contraries,0,0,0.0
+nnr,There is No Natural Religion,7,1327,emanation,0,0,0.0
+nnr,There is No Natural Religion,7,1327,eternity,1,1,7.535795026375283
+nnr,There is No Natural Religion,7,1327,exchange,0,0,0.0
+nnr,There is No Natural Religion,7,1327,generation,0,0,0.0
+nnr,There is No Natural Religion,7,1327,imagination,0,0,0.0
+nnr,There is No Natural Religion,7,1327,law,0,0,0.0
+nnr,There is No Natural Religion,7,1327,liberty,0,0,0.0
+nnr,There is No Natural Religion,7,1327,nations,0,0,0.0
+nnr,There is No Natural Religion,7,1327,negation,0,0,0.0
+nnr,There is No Natural Religion,7,1327,negative_control,0,0,0.0
+nnr,There is No Natural Religion,7,1327,particulars,0,0,0.0
+nnr,There is No Natural Religion,7,1327,persons,0,0,0.0
+nnr,There is No Natural Religion,7,1327,rahab,0,0,0.0
+nnr,There is No Natural Religion,7,1327,satan,0,0,0.0
+nnr,There is No Natural Religion,7,1327,states,0,0,0.0
+nnr,There is No Natural Religion,7,1327,tyranny,0,0,0.0
+nnr,There is No Natural Religion,7,1327,vision,0,0,0.0
+s-inn,Songs of Innocence,15,42117,albion,0,0,0.0
+s-inn,Songs of Innocence,15,42117,brotherhood,12,12,2.8492057838877414
+s-inn,Songs of Innocence,15,42117,contraries,0,0,0.0
+s-inn,Songs of Innocence,15,42117,emanation,0,0,0.0
+s-inn,Songs of Innocence,15,42117,eternity,0,0,0.0
+s-inn,Songs of Innocence,15,42117,exchange,0,0,0.0
+s-inn,Songs of Innocence,15,42117,generation,30,15,7.123014459719354
+s-inn,Songs of Innocence,15,42117,imagination,0,0,0.0
+s-inn,Songs of Innocence,15,42117,law,0,0,0.0
+s-inn,Songs of Innocence,15,42117,liberty,0,0,0.0
+s-inn,Songs of Innocence,15,42117,nations,0,0,0.0
+s-inn,Songs of Innocence,15,42117,negation,0,0,0.0
+s-inn,Songs of Innocence,15,42117,negative_control,0,0,0.0
+s-inn,Songs of Innocence,15,42117,particulars,0,0,0.0
+s-inn,Songs of Innocence,15,42117,persons,0,0,0.0
+s-inn,Songs of Innocence,15,42117,rahab,0,0,0.0
+s-inn,Songs of Innocence,15,42117,satan,0,0,0.0
+s-inn,Songs of Innocence,15,42117,states,0,0,0.0
+s-inn,Songs of Innocence,15,42117,tyranny,0,0,0.0
+s-inn,Songs of Innocence,15,42117,vision,8,8,1.8994705225918276
+s-los,The Song of Los,6,5055,albion,6,6,11.869436201780415
+s-los,The Song of Los,6,5055,brotherhood,0,0,0.0
+s-los,The Song of Los,6,5055,contraries,0,0,0.0
+s-los,The Song of Los,6,5055,emanation,0,0,0.0
+s-los,The Song of Los,6,5055,eternity,30,6,59.347181008902076
+s-los,The Song of Los,6,5055,exchange,0,0,0.0
+s-los,The Song of Los,6,5055,generation,0,0,0.0
+s-los,The Song of Los,6,5055,imagination,0,0,0.0
+s-los,The Song of Los,6,5055,law,18,6,35.60830860534124
+s-los,The Song of Los,6,5055,liberty,0,0,0.0
+s-los,The Song of Los,6,5055,nations,6,6,11.869436201780415
+s-los,The Song of Los,6,5055,negation,0,0,0.0
+s-los,The Song of Los,6,5055,negative_control,0,0,0.0
+s-los,The Song of Los,6,5055,particulars,0,0,0.0
+s-los,The Song of Los,6,5055,persons,0,0,0.0
+s-los,The Song of Los,6,5055,rahab,0,0,0.0
+s-los,The Song of Los,6,5055,satan,0,0,0.0
+s-los,The Song of Los,6,5055,states,0,0,0.0
+s-los,The Song of Los,6,5055,tyranny,0,0,0.0
+s-los,The Song of Los,6,5055,vision,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,albion,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,brotherhood,28,15,3.619628729510316
+songsie,Songs of Innocence and of Experience,15,77356,contraries,13,12,1.6805419101297896
+songsie,Songs of Innocence and of Experience,15,77356,emanation,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,eternity,30,15,3.878173638761053
+songsie,Songs of Innocence and of Experience,15,77356,exchange,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,generation,77,15,9.95397900615337
+songsie,Songs of Innocence and of Experience,15,77356,imagination,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,law,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,liberty,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,nations,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,negation,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,negative_control,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,particulars,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,persons,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,rahab,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,satan,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,states,13,12,1.6805419101297896
+songsie,Songs of Innocence and of Experience,15,77356,tyranny,0,0,0.0
+songsie,Songs of Innocence and of Experience,15,77356,vision,15,15,1.9390868193805264
+thel,The Book of Thel,16,23019,albion,0,0,0.0
+thel,The Book of Thel,16,23019,brotherhood,0,0,0.0
+thel,The Book of Thel,16,23019,contraries,0,0,0.0
+thel,The Book of Thel,16,23019,emanation,0,0,0.0
+thel,The Book of Thel,16,23019,eternity,31,16,13.467135844302533
+thel,The Book of Thel,16,23019,exchange,0,0,0.0
+thel,The Book of Thel,16,23019,generation,32,16,13.901559581215517
+thel,The Book of Thel,16,23019,imagination,0,0,0.0
+thel,The Book of Thel,16,23019,law,0,0,0.0
+thel,The Book of Thel,16,23019,liberty,0,0,0.0
+thel,The Book of Thel,16,23019,nations,0,0,0.0
+thel,The Book of Thel,16,23019,negation,0,0,0.0
+thel,The Book of Thel,16,23019,negative_control,0,0,0.0
+thel,The Book of Thel,16,23019,particulars,0,0,0.0
+thel,The Book of Thel,16,23019,persons,0,0,0.0
+thel,The Book of Thel,16,23019,rahab,0,0,0.0
+thel,The Book of Thel,16,23019,satan,0,0,0.0
+thel,The Book of Thel,16,23019,states,0,0,0.0
+thel,The Book of Thel,16,23019,tyranny,0,0,0.0
+thel,The Book of Thel,16,23019,vision,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,albion,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,brotherhood,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,contraries,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,emanation,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,eternity,240,7,109.83479016978627
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,exchange,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,generation,21,7,9.6105441398563
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,imagination,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,law,27,7,12.356413894100957
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,liberty,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,nations,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,negation,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,negative_control,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,particulars,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,persons,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,rahab,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,satan,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,states,49,7,22.424602992998032
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,tyranny,0,0,0.0
+urizen,The Book of Urizen | The First Book of Urizen,7,21851,vision,7,7,3.203514713285433
+vda,Visions of the Daughters of Albion,18,40985,albion,84,18,20.495303159692572
+vda,Visions of the Daughters of Albion,18,40985,brotherhood,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,contraries,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,emanation,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,eternity,117,16,28.547029401000366
+vda,Visions of the Daughters of Albion,18,40985,exchange,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,generation,68,16,16.5914358911797
+vda,Visions of the Daughters of Albion,18,40985,imagination,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,law,33,16,8.051726241307795
+vda,Visions of the Daughters of Albion,18,40985,liberty,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,nations,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,negation,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,negative_control,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,particulars,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,persons,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,rahab,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,satan,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,states,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,tyranny,0,0,0.0
+vda,Visions of the Daughters of Albion,18,40985,vision,0,0,0.0

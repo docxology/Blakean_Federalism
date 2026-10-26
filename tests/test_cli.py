@@ -147,3 +147,69 @@ def test_aggregate_export_excludes_source_payload_fields(captured):
         rows = list(csv.DictReader(stream))
     assert set(rows[0]) == {"query_id", "plane", "role", "occurrences", "matched_source_documents"}
     assert sum(int(row["occurrences"]) for row in rows) == 4
+
+
+def test_new_statistics_cli_preserves_denominators_and_refuses_overwrite(captured):
+    source, _, pin, _, _ = captured
+    workspace = source.parent
+    (workspace / "research").mkdir()
+    (workspace / "research/corpus-pin.json").write_text(pin.model_dump_json())
+    (workspace / "research/queries.json").write_text(
+        '[{"query_id":"states","variants":["state","states"],"note":"fixture"}]'
+    )
+    import_corpus(source, workspace / "local_data/corpus", pin)
+    with chdir(workspace):
+        first = CliRunner().invoke(
+            app,
+            [
+                "corpus-statistics",
+                "--corpus",
+                "local_data/corpus",
+                "--output",
+                "analysis_output/stats.json",
+            ],
+        )
+        assert first.exit_code == 0, first.output
+        original = (workspace / "analysis_output/stats.json").read_bytes()
+        result = json.loads(original)
+        assert result["primary_source_units"] == 1
+        assert result["queries"][0]["copy_retaining"]["occurrences"] == 3
+        repeated = CliRunner().invoke(
+            app,
+            [
+                "corpus-statistics",
+                "--corpus",
+                "local_data/corpus",
+                "--output",
+                "analysis_output/stats.json",
+            ],
+        )
+    assert repeated.exit_code != 0
+    assert (workspace / "analysis_output/stats.json").read_bytes() == original
+
+
+def test_new_experiment_cli_reports_declared_and_distinct_counts(tmp_path):
+    records = CASES
+    cases = tmp_path / "cases.json"
+    cases.write_text(TypeAdapter(tuple[Decision, ...]).dump_json(records[:1]).decode())
+    with chdir(tmp_path):
+        result = CliRunner().invoke(
+            app,
+            [
+                "experiment-cases",
+                "--cases",
+                str(cases),
+                "--output",
+                "analysis_output/experiment.json",
+            ],
+        )
+        assert result.exit_code == 0, result.output
+        payload = json.loads((tmp_path / "analysis_output/experiment.json").read_text())
+        assert payload["total_subsets"] == 4096
+        assert payload["total_distinct_states"] == 1
+        assert payload["decisions"][0]["minimal_bundles"] == [[]]
+        refused = CliRunner().invoke(
+            app, ["experiment-cases", "--cases", str(cases), "--output", "research/leak.json"]
+        )
+    assert refused.exit_code != 0
+    assert not (tmp_path / "research/leak.json").exists()

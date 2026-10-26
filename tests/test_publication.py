@@ -11,9 +11,12 @@ from pypdf import PdfReader
 from reportlab.pdfgen.canvas import Canvas
 from typer.testing import CliRunner
 
+from blakean_federalism.analysis_figures import FOCUS
 from blakean_federalism.cli import app
+from blakean_federalism.corpus import load_import
+from blakean_federalism.corpus_statistics import analyze_corpus
 from blakean_federalism.manuscript import validate_manuscript
-from blakean_federalism.models import ResearchError
+from blakean_federalism.models import QuerySpec, ResearchError
 from blakean_federalism.publication import SOURCE_NAMES, manuscript_variables, prepare_publication
 from blakean_federalism.publication_contract import manuscript_contract
 from blakean_federalism.publication_figures import generate_figures
@@ -396,21 +399,25 @@ def test_cli_retains_failed_real_native_invocation(publication_source, monkeypat
 
 def test_evidence_abstract_distinguishes_absent_state_query_from_measured_zero(publication_source):
     root, report, rasterizer = publication_source
-    other = tuple(x.model_copy(update={"query_id": "another"}) for x in report.coverage)
-    absent = report.model_copy(update={"coverage": other})
+    _, passages = load_import(root / "local_data/imported", report.corpus_pin)
+    absent_stats = analyze_corpus(
+        passages, (QuerySpec(query_id="another", variants=("absent",), note="control"),)
+    )
+    absent = report.model_copy(update={"corpus_statistics": absent_stats})
     generate_figures(absent, root / "absent-state", rasterizer)
     assert (
         "N/A / query absent"
         in PdfReader(root / "absent-state/abstract-4.pdf").pages[0].extract_text()
     )
-    zero = tuple(
-        x.model_copy(
-            update={"occurrences": 0, "matched_source_documents": 0, "coverage_fraction": 0.0}
-        )
-        for x in report.coverage
+    zero_stats = analyze_corpus(
+        passages,
+        tuple(
+            QuerySpec(query_id=q, variants=("missing_control_" + q,), note="control") for q in FOCUS
+        ),
     )
-    generate_figures(report.model_copy(update={"coverage": zero}), root / "zero-state", rasterizer)
+    generate_figures(
+        report.model_copy(update={"corpus_statistics": zero_stats}), root / "zero-state", rasterizer
+    )
     content = PdfReader(root / "zero-state/abstract-4.pdf").pages[0].extract_text()
-    assert "0.0% unit coverage" in content
-    assert "0 occurrences" in content
+    assert "states\n0\n0.00\n0.00" in content
     assert "N/A / query absent" not in content

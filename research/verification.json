@@ -1,10 +1,9 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "status": "software_and_native_render_qualified",
-  "tests": 205,
-  "focused_css_delta_tests": 2,
+  "tests": 259,
   "coverage_percent": {
-    "application": 98.28634604754008,
+    "application": 98.06265457543282,
     "infrastructure": 72.21052631578948
   },
   "coverage_floor": {
@@ -12,23 +11,28 @@
     "infrastructure": 60
   },
   "qualification_artifacts": {
-    "qualification-03/checks.json": "9fdfab1cc41d60af6829bce41823b7fd537a0611f388862d14996e45b3afef40",
-    "qualification-03/check-4.log": "e63ad2b24bb45771916a5ab530e7ae30f33eaff2258990f8ea81fd4fa77109af",
-    "qualification-03/tests.xml": "4818eddf3eddcaa1e389bd616416cace969f3d9fae74ab59eb0d89961e8ff278",
-    "qualification-03/coverage.json": "88a66eaec71035bd557a0ccd7f98452081805ce465c9f069113c047b5ec5ff9e",
-    "qualification-03/source-bindings.json": "00096d53eb6aa7924a37f151c688807bb260acb1a5f9c4c2d60a8ad54e773416",
-    "css-and-aspect-delta-qualification.json": "27846604d1af845bc49af1b8df287b9b1aa3dfe1185d27cab9fccfc508454da1",
-    "css-and-aspect-delta-tests.log": "a04b7cf548763fe1cd618556187d0199fa717f27d0bb722c18838daf602baca4",
-    "coverage-floors.json": "12492ed3dbfd6ca65338949ff2372f946e2b734d2ca5d60398b47a3631f45434",
-    "browser-results-v5.json": "d5bdb3e1cb140723265a43bf20ffe89ca72315ebad3a999e530f4cddc29fb252",
-    "workbench-browser-results-v5.json": "13f0c3719021f22e385e6015cae0e2ffbcfe81acc63616d9797305991993db15",
-    "extra-browser-results-v5.json": "f694d057e4a96c2821e6508c5d722146ef68b3c47260ac37f911be514e61b639",
-    "page-inspection-bindings-final.json": "dad4d3d324e9258295b1c43d0a4758f40aba94084863d66989df21f7b9c21c75",
-    "research-integration-final.json": "48d3e52f005d99e3c19b194138514c37510386e0c8b87c4a7186ec6c41264388",
-    "pdf-controls-v5.json": "b1e21d2887c027627b037d2cbebbbcc54dbb4d787e694b4b3b5114728632cc01"
+    "qualification-04/checks.json": "686536d230ee18a17afa050c9508368a01290fc93f18654544e04ba16cac6264",
+    "qualification-04/check-4.log": "09ecfdcc42fc76eb05717e897e360ba718ea2a5adc289b3aad1ae9bf0c77105a",
+    "qualification-04/tests.xml": "8caec372555b3c6abda4e5c2b54f8861e0b11c53d99f5c273b4fbaad8bee4492",
+    "qualification-04/coverage.json": "5a55ba4e81ccc21cb156206e3149f3f3d4af948d29b5a63f9d8d78bb5dc0c406",
+    "qualification-04/source-bindings.json": "ab5f2f56660668709bfe20650b8bc8810094d76a4b9e8f2259b8ca936e7dca13",
+    "coverage-floors.json": "59b06847b4b2429fedf66e3353c2f9d74a7ce406ea1bc3ffcf7b92837aebf11d",
+    "page-inspection-bindings-final.json": "ece927fd3c2aff84972cfa507f3ff6be0476154172b2658d9fdf200864a61551",
+    "figure-inspection-bindings-final.json": "873f5fbe9bf2921aba57cf3997aa1074ec5fc6b23709cee201a5ad780fb9275d",
+    "browser-inspection-final.json": "2a7e0f3e5fe2e5f6375936ca754e0aa046d0a492556c256b705ca08611df71be",
+    "browser-results-v7.json": "72cc57ea173119972fd60d50b1fa6315271b24896f4348bdc4871df5e95863c8",
+    "final-workbench-browser-results-v9.json": "0b3237f17c8267f83d0f58b2fd1b6758e6a78251a32672ea07eb9d3d702f8f2e",
+    "research-integration-final.json": "0159dc48d39e12d8cfcea9fdac530f1adc48071d0ac78355af8a3f9bf094083e",
+    "manual-analysis-exports.json": "39bc0bc35140260f78064363c0e2073f792d3155b6c6ab0500ae0123aca57c90",
+    "pdf-controls-v6.json": "e2f1a580782b91101e398ca214ce0e574c861b1f7cb5643616124a8057c9941e",
+    "technical-review.md": "f2aa9b9fabcbc776afaed94bbd2599c0a92064119338a9ea771adef99aee31e3",
+    "technical-delta-review.md": "f486ea664fbb83635981a6e0380cacce4ff0c4225861148e1a19749be821233d",
+    "caption-final-delta.json": "6b0c5444be71dae1307892e7003a804ecc2bfa4b6b95fc99d88fd2e1083d8da8",
+    "ledger-heading-delta.json": "92aaa62253730d945f69a1df956492b66c5a2a93bc255fa062194f3ea53a5ee5",
+    "readme-acquisition-delta.json": "b84b81e73c99f6ab02ce9e3f0f9fb87cd8cc98ea2977d0b20ae266fc17c1f7eb"
   },
-  "rendered_qa": "research/rendered-review-0.5.0.json",
-  "historical_qualification": "research/history/verification-0.4.1.json",
-  "qualification_reuse": "Full suite binds all software before two exact HTML CSS literals for link descendants and proportional image heights. The reconstruction hash and two real-file delta tests bind that final change; native browser checks verify every link descendant and image aspect ratio. Later changes to the two manuscript Markdown files are qualified by native rendering and page comparison.",
-  "native_worker_coverage_note": "The separate native-template Python worker is not traced by project coverage; its actual execution has a source-bound receipt."
+  "rendered_qa": "research/rendered-review-0.6.0.json",
+  "historical_qualification": "research/history/verification-0.5.0.json",
+  "qualification_reuse": "All45 qualified software/test/build/lock bindings remain identical to the full259-test run. Later Markdown caption, TOC and heading-spacing changes are qualified by fresh native rendering, every-page image comparison and browser QA.",
+  "native_worker_coverage_note": "Separate native-template Python execution is source-bound in its own receipt and is not traced by application coverage."
 }

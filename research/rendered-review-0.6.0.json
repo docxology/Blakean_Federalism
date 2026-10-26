@@ -1,0 +1,81 @@
+{
+  "version": "0.6.0",
+  "native_template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native_render_receipt_sha256": "e5faa02e09e431b79ba1ec3882a19231a466a1ee35ca3700d40ed5b269e5f03f",
+  "pdf_sha256": "6fcb9d6623995b56cb89e4deb1f439ec112676f60b0dd757a3dafbba50a5aded",
+  "html_sha256": "dc0496df5b050df467ae8d6d0432feb00789727a82b8b153326b6c06dd24cb31",
+  "pages": 46,
+  "opening_graphical_abstract_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "original_vector_figures": 13,
+  "selected_historical_sheets": 10,
+  "main_text_historical_sheets": [
+    "M32",
+    "J52",
+    "J54",
+    "J73",
+    "J27",
+    "J99",
+    "J55",
+    "J91",
+    "J12",
+    "J61"
+  ],
+  "verified_quotations": 20,
+  "numbered_formalisms": 14,
+  "labeled_equations": 9,
+  "resolved_references": 45,
+  "visual_review": "All46 pages inspected; six final changed pages re-viewed and forty unchanged page images matched by bytes. All13 original diagrams and all10 original LOC images inspected. Fourteen current browser captures inspected.",
+  "theme": {
+    "paper": "black, white, red and neutral rules",
+    "all_hyperlinks_and_descendants": "#b00020",
+    "workbench_light_link": "#b00020",
+    "workbench_dark_link": "#ff6b7f",
+    "historical_artwork": "original unmodified colour"
+  },
+  "browser": {
+    "widths": [
+      1200,
+      390
+    ],
+    "loaded_images": 23,
+    "math_expressions": 82,
+    "math_errors": 0,
+    "broken_internal_links": 0,
+    "cover_abstract_present": true,
+    "offline_workbench": true,
+    "manual_keyboard_tabs": true,
+    "checks": {
+      "active_satisfied": 107,
+      "violated": 11,
+      "condition_absent": 32
+    },
+    "html_bytes": 540923
+  },
+  "qualification_artifacts": {
+    "qualification-04/checks.json": "686536d230ee18a17afa050c9508368a01290fc93f18654544e04ba16cac6264",
+    "qualification-04/check-4.log": "09ecfdcc42fc76eb05717e897e360ba718ea2a5adc289b3aad1ae9bf0c77105a",
+    "qualification-04/tests.xml": "8caec372555b3c6abda4e5c2b54f8861e0b11c53d99f5c273b4fbaad8bee4492",
+    "qualification-04/coverage.json": "5a55ba4e81ccc21cb156206e3149f3f3d4af948d29b5a63f9d8d78bb5dc0c406",
+    "qualification-04/source-bindings.json": "ab5f2f56660668709bfe20650b8bc8810094d76a4b9e8f2259b8ca936e7dca13",
+    "coverage-floors.json": "59b06847b4b2429fedf66e3353c2f9d74a7ce406ea1bc3ffcf7b92837aebf11d",
+    "page-inspection-bindings-final.json": "ece927fd3c2aff84972cfa507f3ff6be0476154172b2658d9fdf200864a61551",
+    "figure-inspection-bindings-final.json": "873f5fbe9bf2921aba57cf3997aa1074ec5fc6b23709cee201a5ad780fb9275d",
+    "browser-inspection-final.json": "2a7e0f3e5fe2e5f6375936ca754e0aa046d0a492556c256b705ca08611df71be",
+    "browser-results-v7.json": "72cc57ea173119972fd60d50b1fa6315271b24896f4348bdc4871df5e95863c8",
+    "final-workbench-browser-results-v9.json": "0b3237f17c8267f83d0f58b2fd1b6758e6a78251a32672ea07eb9d3d702f8f2e",
+    "research-integration-final.json": "0159dc48d39e12d8cfcea9fdac530f1adc48071d0ac78355af8a3f9bf094083e",
+    "manual-analysis-exports.json": "39bc0bc35140260f78064363c0e2073f792d3155b6c6ab0500ae0123aca57c90",
+    "pdf-controls-v6.json": "e2f1a580782b91101e398ca214ce0e574c861b1f7cb5643616124a8057c9941e",
+    "technical-review.md": "f2aa9b9fabcbc776afaed94bbd2599c0a92064119338a9ea771adef99aee31e3",
+    "technical-delta-review.md": "f486ea664fbb83635981a6e0380cacce4ff0c4225861148e1a19749be821233d",
+    "caption-final-delta.json": "6b0c5444be71dae1307892e7003a804ecc2bfa4b6b95fc99d88fd2e1083d8da8",
+    "ledger-heading-delta.json": "92aaa62253730d945f69a1df956492b66c5a2a93bc255fa062194f3ea53a5ee5",
+    "readme-acquisition-delta.json": "b84b81e73c99f6ab02ce9e3f0f9fb87cd8cc98ea2977d0b20ae266fc17c1f7eb"
+  },
+  "scope": "Author-run software, content, rendered and browser QA; independent acceptance separately recorded."
+}

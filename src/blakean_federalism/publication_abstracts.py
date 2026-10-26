@@ -1,7 +1,6 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 """Four information-rich visual abstracts for the article's distinct arguments."""
 
-from reportlab.lib.colors import HexColor
 from reportlab.pdfgen.canvas import Canvas
 
 from .figure_style import (
@@ -18,7 +17,6 @@ from .figure_style import (
     ribbon,
     text,
 )
-from .workbench_models import Workbench
 
 
 def _heading(c: Canvas, number: str, title: str, subtitle: str) -> None:
@@ -263,97 +261,3 @@ def decision(c: Canvas) -> None:
         text(c, title, x, 70, 160, 10)
         text(c, detail, x, 56, 160, 8.5, MUTED)
     _foot(c, "The record follows entity, role, authority, consequence, contestation and revision.")
-
-
-def evidence(c: Canvas, report: Workbench) -> None:
-    _heading(
-        c,
-        "04",
-        "Corpus retrieval and rule traces",
-        "Two executable operations: locate passages and inspect explicitly programmed safeguards",
-    )
-    for x, value, title in (
-        (18, f"{report.source_units:,}", "SOURCE UNITS"),
-        (149, str(len(report.query_groups)), "QUERY GROUPS"),
-        (280, f"{report.stored_occurrences:,}", "STORED HITS"),
-        (411, str(len(report.coverage)), "COVERAGE CELLS"),
-    ):
-        text(c, value, x, 433, 111, 24, RED)
-        text(c, title, x, 400, 111, 9)
-    line(c, 18, 376, 522, 376, BLACK)
-    text(c, "KNOW THE DENOMINATOR", 18, 363, 245, 11, RED)
-    census = {(x.plane.value, x.role.value): x.source_units for x in report.coverage}
-    maximum = max(
-        sum(census.get((p, role), 0) for role in ("primary", "editorial", "unverified"))
-        for p in ("reading", "erdman", "xml")
-    )
-    for index, plane in enumerate(("reading", "erdman", "xml")):
-        y = 333 - index * 31
-        text(c, plane, 18, y, 56, 9)
-        x = 81.0
-        for role, color in (("primary", RED), ("editorial", BLACK), ("unverified", "#bbbbbb")):
-            count = census.get((plane, role), 0)
-            width = 148 * count / maximum if maximum else 0
-            c.setFillColor(HexColor(color))
-            c.rect(x, y - 13, width, 14, fill=1, stroke=0)
-            x += width
-        text(
-            c,
-            str(
-                sum(census.get((plane, role), 0) for role in ("primary", "editorial", "unverified"))
-            ),
-            240,
-            y,
-            45,
-            9,
-        )
-    text(c, "Red: primary / black: editorial / grey: unverified", 18, 242, 267, 8.5)
-    state = next(
-        (
-            x
-            for x in report.coverage
-            if x.query_id == "states" and x.plane.value == "reading" and x.role.value == "primary"
-        ),
-        None,
-    )
-    text(c, "STATES / PRIMARY READING", 304, 363, 218, 11, RED)
-    if state is not None:
-        text(c, f"{state.matched_source_documents} / {state.source_units} units", 304, 335, 218, 18)
-        fraction = (
-            f"{100 * state.coverage_fraction:.1f}%"
-            if state.coverage_fraction is not None
-            else "N/A"
-        )
-        text(c, f"{fraction} unit coverage", 304, 306, 218, 12, RED)
-        text(c, f"{state.occurrences} occurrences", 304, 281, 218, 12)
-    else:
-        text(c, "N/A / query absent", 304, 335, 218, 14)
-    text(c, "Copies, pages and XML remain distinct source units.", 304, 255, 218, 9)
-    line(c, 18, 224, 522, 224, BLACK)
-    text(c, "FIVE SYNTHETIC CASE PAIRS", 18, 214, 300, 11, RED)
-    text(c, "Violations: bounded / capture", 326, 214, 196, 9)
-    issues = (
-        "A / shared territory",
-        "B / cross-border nation",
-        "C / a generation becomes public",
-        "D / vision ranking",
-        "E / water, costs and treaty claims",
-    )
-    for index, title in enumerate(issues):
-        y = 187 - index * 23
-        text(c, title, 18, y, 312, 10)
-        pair = report.cases[2 * index : 2 * index + 2]
-        counts = [sum(not x.passed for x in case.assessment.checks) for case in pair]
-        text(c, " / ".join(str(x) for x in counts), 411, y, 111, 11, RED)
-        line(c, 18, y - 17, 522, y - 17, GREY, 0.5)
-    checks = sum(len(case.assessment.checks) for case in report.cases)
-    failures = sum(not x.passed for case in report.cases for x in case.assessment.checks)
-    text(
-        c,
-        f"{checks} checks / {failures} recorded violations / full inputs and per-rule traces",
-        18,
-        62,
-        504,
-        10,
-    )
-    _foot(c, "Counts support passage finding; the case verdicts express the supplied safeguards.")

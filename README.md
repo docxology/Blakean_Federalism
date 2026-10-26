@@ -4,11 +4,13 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript and workbench 0.5.0
+## Manuscript, analyses and workbench 0.6.0
 
-Expanded close reading, fifteen verified Blake quotations, deeper scholarly disagreements and political comparators, four dense opening graphical abstracts in black, white and red, five body diagrams, and six item-specific LOC plates in the main text. [Rebuild and layout instructions](docs/manuscript/README.md) explain local acquisition, rights, source verification and final PDF inspection. The article remains a private research draft. The current route invokes the pinned `docxology/template` PDF and HTML renderers, with nine automatically numbered formalisms, five labeled equations and a shared citation database.
+The article brings twenty verified Blake quotations and ten identified LOC sheets into its main-text readings. Thirteen original vector figures include four opening graphical abstracts, copy-balanced rate comparisons, source-family deletion sensitivity, lexical overlap and minimum safeguard repairs. Fourteen formalisms and nine equations are automatically numbered by the pinned docxology/template route. The 45 cited references include new studies of illuminated printing, visual particularity, the 1809 exhibition and the difference between reprieve and release. [Render and source instructions](docs/manuscript/README.md).
 
-The portable, offline research workbench reconciles 180 query/plane/role cells with source-unit denominators, displays all 150 checks across ten synthetic alternatives, and exposes quotation and reading provenance. [Workbench method and use](docs/research-workbench.md). The scholarship adds complete articles by Henderson, Simpson, Mellor, Ostriker and Shachar to the retained Pettit and bounded Clark readings; The new pass adds Viscomi, Heppner, Kaplan, Fraser and Tully on production, gendered agency, counterpublics and recognition procedures; Wright's continuous chapter remains unavailable.
+The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
+
+The offline workbench reconciles all 180 query/plane/role cells and 150 baseline checks, separates active satisfied/failed rules from inactive conditions, and exposes the new analytical summaries, minimum bundles and complete text-free analytical data. Three complete new article readings and a substantial selected reading deepen the relation of production, public images, care and contestation. [Workbench use](docs/research-workbench.md).
 
 ## Start reading
 
@@ -23,7 +25,7 @@ The portable, offline research workbench reconciles 180 query/plane/role cells w
 - [Corpus observations](docs/corpus-observations.md)
 - [Privacy and local recovery](PRIVACY.md)
 
-The classification-decision record is this project's interpretive extension from Entomological Law, not an existing schema in that paper. Rahman's broader-culture/conformity proposal remains attributed to Rahman and speculative. No larger-scale-equals-freer inference, civic vision hierarchy, four-organ constitution or political square-root-of-two law is encoded.
+The classification-decision record extends the role distinctions in Entomological Law. Rahman motivates the comparison between agreement through translation and agreement through dependency. The executable safeguards keep civic standing independent of official vision rankings and interpretive labels.
 
 ## Run locally
 
@@ -51,6 +53,11 @@ uv run blakean export-summary \
   --output analysis_output/aggregate-new-run.csv
 uv run blakean assess-cases \
   --output analysis_output/cases-new-run.json
+uv run blakean corpus-statistics \
+  --corpus local_data/corpus/blake-v0.2.0 \
+  --output analysis_output/statistics-new-run.json
+uv run blakean experiment-cases \
+  --output analysis_output/interventions-new-run.json
 ~~~
 
 Set external TMPDIR, UV_CACHE_DIR and UV_LINK_MODE=copy as described in the GitVault contract. Verify both sys.prefix and sys.base_prefix resolve on GitVault. Global Python selection alone does not establish that. A fresh machine must provision the compatible external runtime before syncing.

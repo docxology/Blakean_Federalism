@@ -13,7 +13,11 @@ from blakean_federalism.models import ResearchError
 from blakean_federalism.storage import safe_path, verify_file
 
 HOSTS = frozenset({"blake.lib.asu.edu", "tile.loc.gov", "www.loc.gov"})
-PREFIXES = (Path("local_data/manuscript/v0.2.0"), Path("local_data/manuscript/v0.5.0"))
+PREFIXES = (
+    Path("local_data/manuscript/v0.2.0"),
+    Path("local_data/manuscript/v0.5.0"),
+    Path("local_data/manuscript/v0.6.0"),
+)
 
 
 def check_url(url: str) -> None:

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0 — 25 October 2026
+
+- Add source-family and token-normalized corpus statistics, exact-text sensitivity, concentration, finite deletion ranges and three co-occurrence universes.
+- Add finite safeguard interventions, trigger accounting, minimal bundles, shared-field diagnostics and pair admission interactions; preserve affected populations and material obligations.
+- Add CLI exports and source-bound analytical workbench summaries, with standalone core-package support.
+- Add four quantitative vector figures and rebuild the fourth graphical abstract; distinguish inactive conditions in the case matrix and undefined rates in every chart.
+- Integrate four further Blake studies, five verified quotations and four uncropped LOC sheets; reorganize the argument into longer descriptive section titles and focused subsections.
+- Separate analytical views, vector generation and body figures; retain the mathematical counterexample and real null/single-family PDF controls.
+
+
 ## 0.5.0 — 25 October 2026
 
 - Black, white and red manuscript/workbench theme; red hyperlinks and neutral chart roles.

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "S01",
+    "bibliography_key": "viscomi2012Invention",
+    "author": "Joseph Viscomi",
+    "title": "Blake's Invention of Illuminated Printing, 1788",
+    "publication": "BRANCH",
+    "date": "March 2012",
+    "status": "complete_article_text_and_notes",
+    "new_relative_to_supplied_0_5_ledger": true,
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/viscomi-invention.body",
+      "sha256": "dab5097dacc057acf36210eb1a11f43035cb35d046a6aa4ae2111b0352f326c4",
+      "retrieved_utc": "2026-10-25T22:37:00.976668+00:00",
+      "requested_url": "https://branchcollective.org/?ps_articles=joseph-viscomi-blakes-invention-of-illuminated-printing-1788",
+      "effective_url": "https://branchcollective.org/?ps_articles=joseph-viscomi-blakes-invention-of-illuminated-printing-1788",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "reading_locator": {
+      "online": "Complete main text, sections I (unnumbered opening), II, III, IV; works cited; endnotes 1-21",
+      "cache_lines": "text/viscomi-invention.txt:29-125 main argument; 129-133 citation metadata; 135-197 works cited; 199-241 notes",
+      "claim_locators": {
+        "technique_origin": "II, paragraphs beginning Each of these hypotheses and In Island; III early experiments",
+        "execution_invention": "IV, paragraphs beginning We know that (line 115), With no page designs (117), To fully appreciate (119)",
+        "market_motive": "IV, Illuminated printing evolved (121) and Blake could work (123)"
+      }
+    },
+    "argument_used": "Execution can generate new projects; the eventual composite does not establish an initial anti-market intention.",
+    "limits": [
+      "No complete reading credit for Blake and the Idea of the Book or other cited sources.",
+      "Linked artworks not all separately viewed; no independent replication of printmaking or dating.",
+      "Unpaginated HTML: section, incipit and cached-line locators are supplied; no invented journal pagination."
+    ]
+  },
+  {
+    "id": "S02",
+    "bibliography_key": "heppner1983Adultery",
+    "author": "Christopher Heppner",
+    "title": "The Woman Taken in Adultery: An Essay on Blake's Style of Designing",
+    "publication": "Blake/An Illustrated Quarterly 17.2 (Fall 1983), 44-60",
+    "status": "complete_article_text_and_notes",
+    "new_relative_to_supplied_0_5_ledger": true,
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/heppner-adultery-pdf.body",
+      "sha256": "900b78aa03c986c37ebaeded6777b2b9a4da5c5dcba945ee94e801feb2f1a564",
+      "retrieved_utc": "2026-10-25T22:37:00.974411+00:00",
+      "requested_url": "https://bq.blakearchive.org/pdfs/17.2.heppner.pdf",
+      "effective_url": "https://bq.blakearchive.org/pdfs/17.2.heppner.pdf",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "supporting_html": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/heppner-adultery-html.body",
+      "sha256": "5c5d51d2085d12b1354aff9f7953820b92a0ce114b0a02dc06d69d1cc153fffa",
+      "retrieved_utc": "2026-10-25T22:37:00.975527+00:00",
+      "requested_url": "https://bq.blakearchive.org/17.2.heppner",
+      "effective_url": "https://bq.blakearchive.org/17.2.heppner",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "reading_locator": {
+      "printed": "44-60, all main text and notes 1-38",
+      "one_based_pdf": "2-18; cover PDF 1",
+      "extracted_text": "text/heppner-adultery-pdf.pdf-002.txt through pdf-018.txt",
+      "direct_visual": "Printed 46/PDF4 (figure1); printed52/PDF10; printed59/PDF17",
+      "claim_locators": {
+        "bound_woman_and_agency": "49-50, PDF7-8",
+        "unwritten_words_and_release": "51-54, PDF9-12",
+        "particularity_simplification": "55-56 and 59, PDF13-14 and17"
+      }
+    },
+    "argument_used": "Reprieve differs from release; visual simplification need not abolish discriminating human significance.",
+    "limits": [
+      "Original watercolor not inspected; journal facsimile figure1 directly viewed.",
+      "Not all comparative artwork images visually inspected; complete credit is for article text and notes.",
+      "Original 1970 Erdman page references differ from modern ASU locators; new primary quotations use ASU, not Heppner.",
+      "No independent authentication of the suggested yod, biblical history or claimed precedents.",
+      "Adjacent James Bogan poem on printed60/PDF18 is excluded from article credit."
+    ]
+  },
+  {
+    "id": "S03",
+    "bibliography_key": "matthews2010Gallery",
+    "author": "Susan Matthews",
+    "title": "An Alternative National Gallery: Blake's 1809 Exhibition and the Attack on Evangelical Culture",
+    "publication": "Tate Papers 14 (Autumn 2010)",
+    "status": "complete_article_text_and_notes",
+    "new_relative_to_supplied_0_5_ledger": true,
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/matthews-tate.body",
+      "sha256": "59c31a1bc1372460022b439ca8b64de52c8272ef40caea703e8f5f1ca9d9aa13",
+      "retrieved_utc": "2026-10-25T22:37:38.116381+00:00",
+      "requested_url": "https://www.tate.org.uk/research/tate-papers/14/an-alternative-national-gallery-blakes-1809-exhibition-and-the-attack-on-evangelical-culture",
+      "effective_url": "https://www.tate.org.uk/research/tate-papers/14/an-alternative-national-gallery-blakes-1809-exhibition-and-the-attack-on-evangelical-culture",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "reading_locator": {
+      "online": "Complete article argument; notes1-67; acknowledgements; official How to cite",
+      "cache_lines": "text/matthews-tate.txt:231-381 main argument; 383-653 numbered notes; 655-681 acknowledgements and metadata",
+      "claim_locators": {
+        "national_collection": "paragraph beginning Blakes 1809 exhibition can be seen, line261, notes18-28",
+        "evangelical_counterreading": "Andrew Lincoln has argued, line315, notes42-44",
+        "Jane_Shore": "Blakes decision to include, line329, notes48-49",
+        "public_address": "The failure of the 1809 exhibition, line370, notes65-66",
+        "conclusion": "Looking back, line381, note67"
+      }
+    },
+    "argument_used": "National visual culture regulates whose bodies appear as exemplary or shameful; evangelical echoes can be contested as parody.",
+    "limits": [
+      "Not the already read 2011 book excerpt; no duplicate complete-reading credit.",
+      "Hypotheses about influence and intentions remain attributed to Matthews.",
+      "Historical sources in 67 notes not independently read; original paintings and the complete 1809 catalogue not fully collated.",
+      "Malformed it> text in first paragraph and inline fn] markup around note47 retained in cache; do not quote these as repaired text.",
+      "Unpaginated official HTML: incipit, note anchor and cache-line locators replace unavailable print pages."
+    ]
+  },
+  {
+    "id": "S04",
+    "bibliography_key": "viscomi2022Turner",
+    "author": "Joseph Viscomi",
+    "title": "William Blake's 1818 Letter to Dawson Turner and Later Career as Graphic Artist",
+    "publication": "BRANCH",
+    "date": "March 2022",
+    "status": "substantial_selected_sections_not_complete_article",
+    "new_relative_to_supplied_0_5_ledger": true,
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/viscomi-turner.body",
+      "sha256": "3b600fa1a1e5cce9b01e8f66bbc28b835c4a54f81fb5e966383eea572f47581b",
+      "retrieved_utc": "2026-10-25T22:37:00.976633+00:00",
+      "requested_url": "https://branchcollective.org/?ps_articles=joseph-viscomi-william-blakes-1818-letter-to-dawson-turner-and-later-career-as-graphic-artist",
+      "effective_url": "https://branchcollective.org/?ps_articles=joseph-viscomi-william-blakes-1818-letter-to-dawson-turner-and-later-career-as-graphic-artist",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "reading_locator": {
+      "continuous": "Sections II and III complete, text/viscomi-turner.txt:203-249",
+      "additional_selected": "Context from section I, lines181-201; ending lines329-345; notes13-28, lines500-530; introductory lines41-47 inspected during discovery",
+      "claim_locators": {
+        "composite_autonomy": "SectionII paragraphs Questioning Blakes verity (211), As noted Thomson (219)",
+        "alternative_motives": "SectionII Blakes three possible reasons (229), sectionIII Blake really was redirecting (247)"
+      }
+    },
+    "argument_used": "An image can remain part of a composite and acquire autonomous uses; refusal to extract is not self-explanatory.",
+    "limits": [
+      "No complete-reading credit for sections I, IV, V or all notes.",
+      "Figures not separately visually inspected; no stock or provenance replication.",
+      "Mitchell is encountered as quoted by Viscomi, not independently read.",
+      "Date of article is2022; 1818 is the historical letter date."
+    ]
+  },
+  {
+    "id": "D01",
+    "author": "Susan Matthews",
+    "title": "Happy Copulation: Blake, visual enthusiasm and gallery culture",
+    "status": "cached_unread",
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/matthews-erudit.body",
+      "sha256": "cc0ffe742cc3a9e325af28d0ce059461d9138334ef93f3087a44c56589b4b14e",
+      "retrieved_utc": "2026-10-25T22:37:39.207666+00:00",
+      "requested_url": "https://www.erudit.org/en/journals/ron/2007-n46-ron1782/016140ar/",
+      "effective_url": "https://www.erudit.org/en/journals/ron/2007-n46-ron1782/016140ar/",
+      "http_status": 200,
+      "curl_exit": 0
+    },
+    "limits": [
+      "Acquired as alternative route; not used for substantive claims or reading credit."
+    ]
+  },
+  {
+    "id": "F01",
+    "title": "I must Create a System: The System of William Blakes Prophetic Books",
+    "status": "retrieval_blocked_unread",
+    "cache": {
+      "path": "local_data/research/v0.6.0/evidence-packet/raw/system-2026.body",
+      "sha256": "64c67bb0967bf6944d5faed02001fe41a38420fb27e7b5947a2a42cc61c9f8df",
+      "retrieved_utc": "2026-10-25T22:37:00.978864+00:00",
+      "requested_url": "https://academic.oup.com/camqtly/article/55/1/1/8859135",
+      "effective_url": "https://academic.oup.com/camqtly/article/55/1/1/8859135",
+      "http_status": 403,
+      "curl_exit": 0
+    },
+    "limits": [
+      "HTTP403 challenge body; search excerpt is discovery only; author, complete bibliography and argument not verified."
+    ]
+  }
+]

@@ -13,7 +13,9 @@ from typing import Annotated, Final
 import typer
 from pydantic import TypeAdapter
 
-from .corpus import concordance, import_corpus
+from .corpus import concordance, import_corpus, load_import
+from .corpus_statistics import analyze_corpus
+from .institutional_experiments import run_experiment
 from .institutions import assess
 from .models import Assessment, Concordance, CorpusPin, CountRow, Decision, QuerySpec, ResearchError
 from .report import build_workbench, publish_workbench
@@ -58,7 +60,7 @@ def analyze(
     typer.echo(
         f"{result.scanned_source_documents} source documents; {len(result.hits)} occurrences"
     )
-    typer.echo("Retrieval leads only; no semantic, absence-across-oeuvre or legitimacy inference.")
+    typer.echo("Saved spans, source roles and editions support close reading.")
 
 
 @app.command("assess-cases")
@@ -74,7 +76,50 @@ def assess_cases(
     write_new(
         output, TypeAdapter(tuple[Assessment, ...]).dump_json(assessments, indent=2).decode() + "\n"
     )
-    typer.echo(f"{len(assessments)} stipulated cases assessed; no empirical or legal verdict.")
+    typer.echo(f"{len(assessments)} synthetic records assessed; every safeguard check retained.")
+
+
+@app.command("corpus-statistics")
+def corpus_statistics_command(
+    output: Annotated[Path, typer.Option(help="New ignored statistics JSON path")],
+    corpus: Path = DEFAULT_CORPUS,
+    queries: Path = DEFAULT_QUERIES,
+    pin: Path = DEFAULT_PIN,
+) -> None:
+    """Compare copy-retaining, exact-text and equal-family primary corpus measures."""
+    require_ignored(output, "analysis_output")
+    _, passages = load_import(corpus, CorpusPin.model_validate_json(pin.read_bytes()))
+    specs = TypeAdapter(tuple[QuerySpec, ...]).validate_json(queries.read_bytes())
+    result = analyze_corpus(passages, specs)
+    write_new(output, result.model_dump_json(indent=2) + "\n")
+    typer.echo(
+        "".join(
+            (
+                f"{result.primary_source_units} primary units; {result.primary_work_groups} ",
+                f"source families; {result.primary_tokens} tokens",
+            )
+        )
+    )
+
+
+@app.command("experiment-cases")
+def experiment_cases_command(
+    output: Annotated[Path, typer.Option(help="New ignored finite-experiment JSON path")],
+    cases: Path = DEFAULT_CASES,
+) -> None:
+    """Enumerate declared safeguard changes while preserving material conditions."""
+    require_ignored(output, "analysis_output")
+    records = TypeAdapter(tuple[Decision, ...]).validate_json(cases.read_bytes())
+    result = run_experiment(records)
+    write_new(output, result.model_dump_json(indent=2) + "\n")
+    typer.echo(
+        "".join(
+            (
+                f"{result.total_subsets} subsets; {result.total_distinct_states} ",
+                "distinct resulting records",
+            )
+        )
+    )
 
 
 @app.command("export-schemas")
@@ -103,7 +148,7 @@ def build_workbench_command(
     corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
     concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
     output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
-    readings: str = "research/scholarship-reading-0.5.0.json",
+    readings: str = "research/scholarship-reading-0.6.0.json",
 ) -> None:
     require_ignored(output, "analysis_output")
     report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
@@ -121,9 +166,9 @@ def render_manuscript_command(
     output: Annotated[Path, typer.Option(help="New ignored publication stage")],
     corpus: Path = DEFAULT_CORPUS,
     concordance_file: Path = DEFAULT_CONCORDANCE,
-    readings: str = "research/scholarship-reading-0.5.0.json",
+    readings: str = "research/scholarship-reading-0.6.0.json",
 ) -> None:
-    "Hydrate and render with docxology/template; content checks do not imply visual acceptance."
+    "Hydrate with docxology/template and verify references, sources and quotations."
     # Optional manuscript dependencies must not become core CLI import requirements.
     from .publication import prepare_publication  # noqa: PLC0415
     from .publication_verification import verify_publication  # noqa: PLC0415

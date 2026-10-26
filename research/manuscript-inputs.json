@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -125,6 +125,54 @@
       "size": 248322,
       "kind": "image",
       "caption": "William Blake, Jerusalem, copy I, plate 99, posthumous impression, approximately 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J55",
+      "path": "local_data/manuscript/v0.6.0/loc-J55.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0055/full/pct:25.0/0/default.jpg",
+      "sha256": "a02a238cab51287f1fc7b95c93758baf9fb621e28e398da774e9791a9f0fea19",
+      "size": 296871,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 55, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J91",
+      "path": "local_data/manuscript/v0.6.0/loc-J91.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0091/full/pct:25.0/0/default.jpg",
+      "sha256": "f9b1fc89b6a35cf1093c31be461cc647fce1150182e855a014e46460ea46a220",
+      "size": 292805,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 91, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J12",
+      "path": "local_data/manuscript/v0.6.0/loc-J12.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0012/full/pct:25.0/0/default.jpg",
+      "sha256": "ea43757bb486ef9a84585698e7c9d535903405e8325f79f84ea7441409835207",
+      "size": 297030,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 12, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J61",
+      "path": "local_data/manuscript/v0.6.0/loc-J61.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0061/full/pct:25.0/0/default.jpg",
+      "sha256": "615e724af1c0871245b6fe2da037506a8ac0f7ac02ae0adf0a5fbf9a51f0c75a",
+      "size": 280508,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 61, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
       "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
       "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
       "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
@@ -503,7 +551,7 @@
     {
       "quote_id": "Q14",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 27:85–88, E173",
+      "locator": "Jerusalem 27:85\u201388, E173",
       "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
       "segments": [
         {
@@ -531,7 +579,7 @@
     {
       "quote_id": "Q15",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 99:1–5, E258–259",
+      "locator": "Jerusalem 99:1\u20135, E258\u2013259",
       "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
       "segments": [
         {
@@ -560,6 +608,181 @@
           "text": "And I heard the Name of their Emanations they are named Jerusalem"
         }
       ]
+    },
+    {
+      "quote_id": "Q16",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 55:51\u201353, E205",
+      "segments": [
+        {
+          "anchor": "J55.51;E205",
+          "occurrence": 0,
+          "text": "Labour well the Minute Particulars, attend to the Little-ones:"
+        },
+        {
+          "anchor": "J55.52;E205",
+          "occurrence": 0,
+          "text": "And those who are in misery cannot remain so long"
+        },
+        {
+          "anchor": "J55.53;E205",
+          "occurrence": 0,
+          "text": "If we do but our duty: labour well the teeming Earth."
+        }
+      ],
+      "context": "The Seven Eyes address labor, misery and prevention before the plowing scene."
+    },
+    {
+      "quote_id": "Q17",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 55:60\u201363, E205",
+      "segments": [
+        {
+          "anchor": "J55.60;E205",
+          "occurrence": 0,
+          "text": "He who would do good to another, must do it in Minute Particulars"
+        },
+        {
+          "anchor": "J55.61;E205",
+          "occurrence": 0,
+          "text": "General Good is the plea of the scoundrel hypocrite flatterer:"
+        },
+        {
+          "anchor": "J55.62;E205",
+          "occurrence": 0,
+          "text": "For Art & Science cannot exist but in minutely organized Particulars"
+        },
+        {
+          "anchor": "J55.63;E205",
+          "occurrence": 0,
+          "text": "And not in generalizing Demonstrations of the Rational Power."
+        }
+      ],
+      "context": "The plowing and the Seven Eyes connect works and minutely organized particulars with the critique of general good."
+    },
+    {
+      "quote_id": "Q18",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 91:26\u201331, E251",
+      "segments": [
+        {
+          "anchor": "J91.26;E251",
+          "occurrence": 0,
+          "text": "You accumulate Particulars, & murder by analyzing, that you"
+        },
+        {
+          "anchor": "J91.27;E251",
+          "occurrence": 0,
+          "text": "May take the aggregate; & you call the aggregate Moral Law:"
+        },
+        {
+          "anchor": "J91.28;E251",
+          "occurrence": 0,
+          "text": "And you call that Swelld & bloated Form; a Minute Particular."
+        },
+        {
+          "anchor": "J91.29;E251",
+          "occurrence": 0,
+          "text": "But General Forms have their vitality in Particulars: & every"
+        },
+        {
+          "anchor": "J91.30;E251",
+          "occurrence": 0,
+          "text": "Particular is a Man; a Divine Member of the Divine Jesus."
+        },
+        {
+          "anchor": "J91.31;E251",
+          "occurrence": 0,
+          "text": "So Los cried at his Anvil in the horrible darkness weeping!"
+        }
+      ],
+      "context": "Los addresses the Spectre at his anvil; the speech is followed by the Spectre's stupendous works and Los's coercion."
+    },
+    {
+      "quote_id": "Q19",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 12:30\u201336, E155",
+      "segments": [
+        {
+          "anchor": "J12.30;E155",
+          "occurrence": 0,
+          "text": "The stones are pity, and the bricks, well wrought affections:"
+        },
+        {
+          "anchor": "J12.31;E155",
+          "occurrence": 0,
+          "text": "Enameld with love & kindness, & the tiles engraven gold"
+        },
+        {
+          "anchor": "J12.32;E155",
+          "occurrence": 0,
+          "text": "Labour of merciful hands: the beams & rafters are forgiveness:"
+        },
+        {
+          "anchor": "J12.33;E155",
+          "occurrence": 0,
+          "text": "The mortar & cement of the work, tears of honesty: the nails,"
+        },
+        {
+          "anchor": "J12.34;E155",
+          "occurrence": 0,
+          "text": "And the screws & iron braces, are well wrought blandishments,"
+        },
+        {
+          "anchor": "J12.35;E155",
+          "occurrence": 0,
+          "text": "And well contrived words, firm fixing, never forgotten,"
+        },
+        {
+          "anchor": "J12.36;E155",
+          "occurrence": 0,
+          "text": "Always comforting the remembrance: the floors, humility,"
+        }
+      ],
+      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43\u201344."
+    },
+    {
+      "quote_id": "Q20",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 61:17\u201323, E212",
+      "segments": [
+        {
+          "anchor": "J61.17;E212",
+          "occurrence": 0,
+          "text": "Saying, Doth Jehovah Forgive a Debt only on condition that it shall"
+        },
+        {
+          "anchor": "J61.18;E212",
+          "occurrence": 0,
+          "text": "Be Payed? Doth he Forgive Pollution only on conditions of Purity"
+        },
+        {
+          "anchor": "J61.19;E212",
+          "occurrence": 0,
+          "text": "That Debt is not Forgiven! That Pollution is not Forgiven"
+        },
+        {
+          "anchor": "J61.20;E212",
+          "occurrence": 0,
+          "text": "Such is the Forgiveness of the Gods, the Moral Virtues of the"
+        },
+        {
+          "anchor": "J61.21;E212",
+          "occurrence": 0,
+          "text": "Heathen, whose tender Mercies are Cruelty. But Jehovahs Salvation"
+        },
+        {
+          "anchor": "J61.22;E212",
+          "occurrence": 0,
+          "text": "Is without Money & without Price, in the Continual Forgiveness of Sins"
+        },
+        {
+          "anchor": "J61.23;E212",
+          "occurrence": 0,
+          "text": "In the Perpetual Mutual Sacrifice in Great Eternity! for behold!"
+        }
+      ],
+      "context": "Joseph reports a dream-voice on conditional forgiveness following Mary's challenge to rejection; mutual sacrifice remains within the excerpt."
     }
   ],
   "fronts": [

@@ -256,3 +256,26 @@ def test_new_selection_requires_exact_six_plates_while_old_epoch_stays_valid(man
     else:
         with pytest.raises(ResearchError, match="image_set"):
             validate_manuscript(root, current, markdown)
+
+
+@pytest.mark.parametrize("missing", [None, "J55", "J91", "J99", "unexpected"])
+def test_ten_plate_epoch_requires_every_identified_impression(manuscript, missing):
+    root, spec = manuscript
+    data = spec.model_dump(mode="json")
+    data["version"] = "0.6.0"
+    template = next(a for a in data["assets"] if a["kind"] == "image")
+    data["assets"].extend(
+        [template | {"asset_id": name} for name in ("J27", "J99", "J55", "J91", "J12", "J61")]
+    )
+    if missing == "unexpected":
+        data["assets"].append(template | {"asset_id": "J100"})
+    elif missing:
+        data["assets"] = [a for a in data["assets"] if a["asset_id"] != missing]
+    current = ManuscriptSpec.model_validate(data)
+    if missing is None:
+        assert len(validate_manuscript(root, current, "> Persons & states\n\n" * 4)) == len(
+            current.assets
+        )
+    else:
+        with pytest.raises(ResearchError, match="image_set"):
+            validate_manuscript(root, current, "> Persons & states\n\n" * 4)

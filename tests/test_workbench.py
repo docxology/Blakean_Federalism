@@ -2,6 +2,8 @@
 """Real projection and report controls; no mocked I/O or derived political score."""
 
 import json
+import re
+from hashlib import sha256
 from pathlib import Path
 
 import pytest
@@ -151,7 +153,7 @@ def prepared(manuscript, observed):
     (root / "research/queries.json").write_bytes(
         TypeAdapter(tuple[QuerySpec, ...]).dump_json(queries)
     )
-    (root / "research/scholarship-reading-0.5.0.json").write_text(
+    (root / "research/scholarship-reading-0.6.0.json").write_text(
         json.dumps(
             [
                 dict(
@@ -188,6 +190,18 @@ def test_report_is_static_escaped_and_binds_real_inputs(prepared, monkeypatch):
     target = publish_workbench(report, root / "analysis_output/portable")
     assert target.is_file()
     assert json.loads((target.parent / "workbench-data.json").read_text())["source_units"] == 2
+    embedded = re.search(
+        r'<script type="application/json" id="workbench-data">(.*?)</script>', html, re.DOTALL
+    )
+    assert embedded is not None
+    manifest = json.loads(embedded[1])
+    assert (
+        manifest["data_sha256"]
+        == sha256((target.parent / "workbench-data.json").read_bytes()).hexdigest()
+    )
+    assert manifest["counts"]["checks"] == 150
+    assert len(html.encode()) <= 768 * 1024
+
     with pytest.raises(FileExistsError):
         publish_workbench(report, target.parent)
     assert target.read_text() == html
@@ -251,7 +265,7 @@ def test_stale_case_trace_is_rejected():
 
 def test_reading_links_and_hashes_are_retained(prepared):
     root, corpus, result = prepared
-    path = root / "research/scholarship-reading-0.5.0.json"
+    path = root / "research/scholarship-reading-0.6.0.json"
     path.write_text(
         json.dumps(
             [

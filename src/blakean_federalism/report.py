@@ -13,6 +13,8 @@ from pydantic import TypeAdapter
 
 from . import __version__
 from .corpus import load_import
+from .corpus_statistics import analyze_corpus
+from .institutional_experiments import run_experiment
 from .institutions import assess
 from .manuscript import ManuscriptSpec, validate_manuscript
 from .models import (
@@ -48,7 +50,7 @@ def build_workbench(
     root: Path,
     corpus: Path,
     concordance_file: Path,
-    readings: str = "research/scholarship-reading-0.5.0.json",
+    readings: str = "research/scholarship-reading-0.6.0.json",
 ) -> Workbench:
     """Reconcile the run against the verified independent projection before publication."""
     relative = (
@@ -102,6 +104,12 @@ def build_workbench(
     package = files("blakean_federalism")
     producer_names = (
         "__init__.py",
+        "corpus_statistics.py",
+        "corpus_statistics_models.py",
+        "_corpus_statistics_core.py",
+        "institutional_experiment_models.py",
+        "institutional_experiments.py",
+        "institutional_interventions.py",
         "report.py",
         "observations.py",
         "institutions.py",
@@ -113,6 +121,7 @@ def build_workbench(
         "resources/workbench.css",
         "resources/workbench.js",
         "workbench_view.py",
+        "workbench_analysis_view.py",
         "workbench_models.py",
         "resources/fonts/Vera.ttf",
         "resources/fonts/VeraBd.ttf",
@@ -125,6 +134,8 @@ def build_workbench(
     }
     return Workbench(
         producer_version=__version__,
+        corpus_statistics=analyze_corpus(passages, queries),
+        institutional_experiments=run_experiment(records),
         corpus_pin=pin,
         source_units=receipt.passages,
         query_groups=queries,
@@ -159,6 +170,37 @@ def stylesheet() -> str:
     return css
 
 
+def report_data(report: Workbench) -> str:
+    """Canonical companion bytes shared by the HTML binding and JSON export."""
+    return report.model_dump_json(indent=2) + "\n"
+
+
+def html_manifest(report: Workbench) -> dict[str, object]:
+    """Keep the offline interface bounded while binding the complete companion data."""
+    stats = report.corpus_statistics
+    return {
+        "schema_version": report.schema_version,
+        "producer_version": report.producer_version,
+        "data_sha256": hashlib.sha256(report_data(report).encode()).hexdigest(),
+        "corpus_pin": report.corpus_pin.model_dump(mode="json"),
+        "source_units": report.source_units,
+        "stored_occurrences": report.stored_occurrences,
+        "query_groups": [q.model_dump(mode="json") for q in report.query_groups],
+        "counts": {
+            "coverage_cells": len(report.coverage),
+            "case_alternatives": len(report.cases),
+            "checks": sum(len(c.assessment.checks) for c in report.cases),
+            "quotations": len(report.quotations),
+            "images": len(report.images),
+        },
+        "statistics_source_sha256": stats.source_sha256 if stats is not None else None,
+        "statistics_query_sha256": stats.query_sha256 if stats is not None else None,
+        "reading": [r.model_dump(mode="json") for r in report.reading],
+        "inputs": [r.model_dump(mode="json") for r in report.inputs],
+        "producer_sources": report.producer_sources,
+    }
+
+
 def html_document(report: Workbench) -> str:
     """Inline package-owned resources, escape data for script context, forbid network fetches."""
     directory = files("blakean_federalism").joinpath("resources")
@@ -166,7 +208,7 @@ def html_document(report: Workbench) -> str:
     css = stylesheet()
     script = directory.joinpath("workbench.js").read_text(encoding="utf-8")
     payload = (
-        report.model_dump_json()
+        json.dumps(html_manifest(report), ensure_ascii=False, separators=(",", ":"))
         .replace("<", r"\u003c")
         .replace(">", r"\u003e")
         .replace("&", r"\u0026")
@@ -197,7 +239,7 @@ def publish_workbench(report: Workbench, destination: Path) -> Path:
     ):
         raise ResearchError("report_output", "Use a new regular directory under analysis_output")
     html = html_document(report)
-    data = report.model_dump_json(indent=2) + "\n"
+    data = report_data(report)
     destination.mkdir(parents=True, exist_ok=False)
     target = destination / "research-workbench.html"
     write_new(target, html)

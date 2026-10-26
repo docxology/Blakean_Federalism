@@ -5,6 +5,8 @@ from typing import Literal
 
 from pydantic import model_validator
 
+from .corpus_statistics_models import CorpusStatistics
+from .institutional_experiment_models import InstitutionalExperiment
 from .institutions import assess
 from .manuscript import Asset, Quotation
 from .models import (
@@ -47,8 +49,10 @@ class CaseTrace(FrozenModel):
 
 
 class Workbench(FrozenModel):
-    schema_version: Literal[1] = 1
+    schema_version: Literal[1, 2] = 2
     producer_version: str
+    corpus_statistics: CorpusStatistics | None = None
+    institutional_experiments: InstitutionalExperiment | None = None
     corpus_pin: CorpusPin
     source_units: int
     query_groups: tuple[QuerySpec, ...]
@@ -63,10 +67,8 @@ class Workbench(FrozenModel):
     inputs: tuple[FileReceipt, ...]
     producer_sources: dict[str, Digest]
     limits: tuple[str, ...] = (
-        "Source units retain copies, pages and XML; they are not unique Blake works.",
-        "Matched units / source units in the same plane/role; empty categories are undefined.",
-        "Retrieval locates passages; it does not establish endorsement or whole-oeuvre absence.",
-        "Synthetic consistency is not legality, institutional effectiveness or a freedom score.",
-        "Label ablation concerns programmed checks, not empirical interpretive value.",
-        "Reading, transcription, image rights and political interpretation have separate warrants.",
+        "Corpus units retain copies, pages and source roles; coverage keeps its own denominator.",
+        "Token and source-family denominators accompany each lexical association.",
+        "Synthetic cases expose safeguards, fixed material context and intervention fields.",
+        "Each quotation, image and reading has its own source, locator and rights record.",
     )

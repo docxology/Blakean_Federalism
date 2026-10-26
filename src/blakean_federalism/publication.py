@@ -136,7 +136,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     titles = (
         "Scholarly disagreements and institutional questions",
         "A decision from classification to revision",
-        "Corpus retrieval and synthetic decision traces",
+        "Corpus comparisons and minimum safeguard repairs",
     )
     descriptions = (
         (
@@ -144,7 +144,12 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             "opposition and review."
         ),
         "Six stages trace a water decision through roles, powers, burdens, challenge and revision.",
-        "The pinned source census and passage counts accompany every synthetic case-pair result.",
+        "Compare token rates, family weights, minimum repairs and active safeguard counts.",
+    )
+    captions = (
+        "Six disputes connect permanence, nation, gender, refusal and review to public power.",
+        "A water levy connects entity, role, competence, reach, material burdens and review.",
+        "Pooled/family rates, minimum repairs and active/inactive checks retain explicit counts.",
     )
     for number, title in enumerate(titles, start=2):
         front.extend(
@@ -152,9 +157,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 f"# Graphical abstract {number}: {title} {{.unnumbered .unlisted}}",
                 "",
                 (
-                    "![Project-authored graphical abstract; the argument and sources "
-                    "are developed in the article.]"
-                    f"(../figures/abstract-{number}.png){{#fig:abstract-{number} width=98%}}"
+                    "".join(
+                        (
+                            f"![{captions[number - 2]}]",
+                            f"(../figures/abstract-{number}.png)",
+                            f"{{#fig:abstract-{number} width=98%}}",
+                        )
+                    )
                 ),
                 "",
                 descriptions[number - 2],
@@ -171,7 +180,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         "# Plate sources and credits {#sec:atlas}",
         "",
         (
-            "Six uncropped Library of Congress reproductions accompany the main-text readings. "
+            "Ten uncropped Library of Congress reproductions accompany the main-text readings. "
             "The item-attached advisory reports no known U.S. restrictions; it is not a CC0 "
             "license. Each caption identifies the impression separately from the ASU transcription."
         ),

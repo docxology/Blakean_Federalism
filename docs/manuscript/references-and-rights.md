@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts] | Fifteen selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts] | Twenty selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p.18 = PDF pp. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -28,6 +28,8 @@ The native bibliography records bibliographic identity. This ledger records what
 | [@makdisi1998] | Complete available introduction excerpt pp. 1–10; later Blake chapter and full book not read. |
 | [@swissConstitution2024] | Selected constitutional provisions in the English informational translation, text status 1 January 2024, published within the 1 March 2024 parliamentary manual. Printed pp. 1–3, 6, 8, 10–12, 20, 48–50, 52–54, 62. |
 
+\Needspace{12\baselineskip}
+
 ## Article readings
 
 | Source | Actual new reading boundary |
@@ -43,7 +45,7 @@ The citations to earlier work retain the earlier reported complete-extraction re
 
 ## Image rights and critical use
 
-The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 27, 52, 54, 73 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
+The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 61, 73, 91 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
 
 Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
 
@@ -54,3 +56,18 @@ Uncropped JPEGs are scaled proportionally for criticism of text-image relations,
 Viscomi’s complete author reprint, Heppner’s article, Kaplan’s article, Fraser’s 1992 chapter and Tully’s 2006 chapter were read in the identified versions. Viscomi supplies workshop and execution alternatives to symbolic decoding; Heppner supplies an active woman-city reading; Kaplan disputes Mellor’s visual explanation while sustaining a critique of masculine authority. Fraser connects collective opinion formation to decision power, and Tully puts recognition procedures themselves within revision. The article cites the specific pages used [@viscomi1982Workshop; @heppner1986Jerusalem; @kaplan1996Patriarchy; @fraser1992PublicSphere; @tully2006Recognition].
 
 The original image bodies remain uncropped. Jerusalem 27 and 99 come from the same identified copy-I item as plates 52, 54 and 73. Their additional purposes are to examine reciprocal exchange within the religious address and to compare final union with the distribution of agency. Captions identify the impressions; typeset quotations identify the ASU transcription. The source catalogue supplies the item-attached rights advisory and credit for each sheet.
+
+
+## Further readings on invention, public art and release
+
+| Source | Reading and locator |
+| :-- | :-- |
+| [@viscomi2012Invention] | Complete unpaginated HTML essay, works cited and notes 1–21. Sections and paragraph incipits identify the cited passages. |
+| [@heppner1983Adultery] | Complete article and notes 1–38, printed pp. 44–60 / PDF pp. 2–18. Journal facsimile inspected, rather than the original watercolor. |
+| [@matthews2010Gallery] | Complete unpaginated official HTML article, notes 1–67 and acknowledgements. Paragraph incipits and note numbers identify the cited passages. |
+| [@viscomi2022Turner] | Sections II–III read continuously, with surrounding contexts, ending and selected notes. Other sections retain selected-reading status. |
+| [@blakeFlaxman1801] | Selected paragraph 3 and immediate context in the ASU transcription, E718. |
+
+The source ledger retains retrieval failures, cache hashes and the exact versions used. New readings do not change the recorded status of Wright, Clark or the Makdisi book beyond its available introduction.
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
