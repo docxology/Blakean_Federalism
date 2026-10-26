@@ -1,0 +1,64 @@
+{
+  "version": "0.7.0",
+  "native_template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native_render_receipt_sha256": "ad294f1043bba12d0344e2b8f82b190e3e42d220fdf7294e1c41deb3383e180b",
+  "pdf_sha256": "ba57989123411d8754747cb31fa9acb85ce67b8ebb61046e0148d03f6ec91a25",
+  "html_sha256": "1cad4470ebf742323567a5e45b21421eb839473e1f075b7765a3c74ab82835e6",
+  "pages": 47,
+  "opening_graphical_abstract_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "original_vector_figures": 13,
+  "selected_historical_sheets": 10,
+  "verified_quotations": 24,
+  "numbered_formalisms": 14,
+  "labeled_equations": 9,
+  "resolved_references": 49,
+  "bibliography_entries": 55,
+  "visual_review": "Root inspected all47 pages of native01 and all8 changed final pages;39 final pages matched by raster bytes. All13 original diagrams inspected; all10 placements/captions rechecked and prior original-image inspections reused through exact hashes. All14 current browser captures inspected.",
+  "theme": {
+    "paper": "black, white, red and neutral rules",
+    "hyperlinks_and_descendants": "#b00020",
+    "historical_art": "original unmodified colours"
+  },
+  "browser": {
+    "widths": [
+      1200,
+      390
+    ],
+    "loaded_images": 23,
+    "math_expressions": 82,
+    "math_errors": 0,
+    "broken_internal_links": 0,
+    "offline_workbench": true,
+    "manual_keyboard_tabs": true,
+    "checks": {
+      "active_satisfied": 107,
+      "violated": 11,
+      "condition_absent": 32
+    },
+    "html_bytes": 549616
+  },
+  "qualification_artifacts": {
+    "qualification-03/checks.json": "50cd0a8be22ec326e2a193df774117baf35bae5d863f2f264558490054c2c7f0",
+    "qualification-03/check-4.log": "e417e7a06588e29affee8d15390a6899534989ee2aacf52e036ac7a00217f073",
+    "qualification-03/tests.xml": "0d0060b0ed062ac92784109006de9963d689465cd5eb8a7cee0473498c3e86f5",
+    "qualification-03/coverage.json": "129eff0fc45eb8eab1620bb55c5aaa3e583199dfdfaa8ebc7f4381a2808f9ee2",
+    "qualification-03/source-bindings.json": "63ee4a8a6be0b7d4150a66fcb9f50ef010a8bb56ad54ee1f8b9694ddb81555f7",
+    "coverage-floors.json": "f98dc5ad27660759d3be26075a28286aa786b0b65029cf471d6613a9212fa71b",
+    "page-inspection-final.json": "a2d4e7628bf732c519969ee4996964664c58cdba24f7c4391ee70e9845e403ab",
+    "figure-inspection-final.json": "8fe59e9c6cb60612107311ef21f39368103983cdeca15fa3d9615c52f0060892",
+    "browser-inspection-final.json": "2a639e596f490a733c5ddccb448056f23ce1afebe1658cce2feff2933b419e67",
+    "browser-results-070.json": "fb9236a006f95d5a4883f2f47f4eef12a4c4ca7a74451d39e80c0a4b56c1566e",
+    "final-workbench-browser-results-070.json": "3d1f040920a71721ffcbdc37cc0d5a3140bef8654dceb781058729cd889b9ae4",
+    "research-integration-final.json": "63cf814c2ec97c742bb40eedd40beda305e3b714be1e4723e96fc19131d18058",
+    "manual-analysis-final.json": "6bc623b9e04a691e6d7e5fa4025ac435ef238f0eb48dc1e02835dcdaa01c79d5",
+    "pdf-controls.json": "228f67197a767f3422c017aae9e9ddfeede7efdf1232559ed02548bd482e77c3",
+    "bibliography-parser-receipt.json": "ec1d4ed1ef51bfbea26436f443b7a65e9068e3ba97d9a596fe0de9e5347abd7f",
+    "page-final-delta.json": "2e66f913b159a82dd4687acdb1bcb3f9c0f8c89d9b4b150b00b4c3c08541622c"
+  },
+  "scope": "Author-run qualification and manual QA; independent acceptance recorded separately."
+}

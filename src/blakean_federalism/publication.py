@@ -149,7 +149,10 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     captions = (
         "Six disputes connect permanence, nation, gender, refusal and review to public power.",
         "A water levy connects entity, role, competence, reach, material burdens and review.",
-        "Pooled/family rates, minimum repairs and active/inactive checks retain explicit counts.",
+        (
+            "Four layers connect the source inventory, weighting, deletion/overlap comparisons "
+            "and exact safeguard interventions."
+        ),
     )
     for number, title in enumerate(titles, start=2):
         front.extend(
@@ -192,7 +195,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         copy_new(source, target)
         atlas.extend(
             [
-                f"## {asset.asset_id}: selected impression",
+                f"**{asset.asset_id}: selected impression.**",
                 "",
                 asset.caption,
                 "",

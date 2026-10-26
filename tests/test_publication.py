@@ -107,6 +107,31 @@ def test_verse_hardbreak_is_syntax_not_a_spelling_normalization(manuscript):
         validate_manuscript(root, spec, text.replace("states", "sta\\tes", 1))
 
 
+def test_escaped_straight_apostrophe_preserves_source_punctuation(manuscript):
+    root, spec = manuscript
+    source = root / "source.html"
+    source.write_text(source.read_text().replace("Persons &amp; states", "And form'd laws"))
+    assets = tuple(
+        asset.model_copy(update={"sha256": digest(source), "size": source.stat().st_size})
+        if asset.asset_id == "text"
+        else asset
+        for asset in spec.assets
+    )
+    quotes = tuple(
+        quote.model_copy(
+            update={"segments": (quote.segments[0].model_copy(update={"text": "And form'd laws"}),)}
+        )
+        for quote in spec.quotations
+    )
+    current = spec.model_copy(update={"assets": assets, "quotations": quotes})
+    markdown = "> And form\\'d laws\n\n" * 4
+    assert validate_manuscript(root, current, markdown)
+    with pytest.raises(ResearchError, match="manuscript_quotation"):
+        validate_manuscript(root, current, markdown.replace("\\'", chr(0x2019)))
+    with pytest.raises(ResearchError, match="manuscript_quotation"):
+        validate_manuscript(root, current, markdown.replace("form", "for"))
+
+
 @pytest.fixture
 def publication_source(prepared):
     root, corpus, result = prepared

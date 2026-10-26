@@ -1,0 +1,95 @@
+[
+  {
+    "bibliography_key": "herrstrom1981Cherubim",
+    "author": "David Sten Herrstrom",
+    "reading_status": "complete_article_prose_and_notes",
+    "locator": {
+      "printed_main": "64-75",
+      "printed_notes": "75-77, integrated earlier in HTML",
+      "one_based_pdf": "2-15; generated cover PDF1",
+      "text_ranges": [
+        {
+          "first_line": 25,
+          "last_line": 1021,
+          "whitespace_words": 12017
+        }
+      ]
+    },
+    "cache": {
+      "path": "local_data/research/v0.7.0/evidence-packet/raw/herrstrom-html.body",
+      "sha256": "bf8c13b413ae92b988f8d240ada79dee751571c3f2611beb219239a5790b3f0c",
+      "size": 122618
+    },
+    "url": "https://bq.blakearchive.org/15.2.herrstrom",
+    "limits": [
+      "No artworks or diagrams directly visually inspected.",
+      "Ezekiel, Boehme, Parkhurst, Bloom, Mitchell, Raine and the other cited authors not independently read here.",
+      "Historical influence and twenty-eight-transformation scheme remain Herrstrom's attributed arguments, not independently established facts.",
+      "HTML main-page markers end at75 because endnotes are integrated. Bibliographic extent is64-77, confirmed by the official PDF cover and notes."
+    ]
+  },
+  {
+    "bibliography_key": "ferber2000Hymn",
+    "author": "Michael Ferber",
+    "reading_status": "complete_prose_notes_and_discography_score_excluded",
+    "locator": {
+      "printed_read": "82-89",
+      "excluded": "Score reproductions90-94",
+      "one_based_pdf": "Read prose corresponds toPDF2-9; scoresPDF10-14 excluded",
+      "text_ranges": [
+        {
+          "first_line": 25,
+          "last_line": 584,
+          "whitespace_words": 7772
+        }
+      ]
+    },
+    "cache": {
+      "path": "local_data/research/v0.7.0/evidence-packet/raw/bq-ferber-html.body",
+      "sha256": "932c31f2187d8eb8a43b80582d090f7629b13f13cfb937d3c6e348ab8b84a51d",
+      "size": 92827
+    },
+    "url": "https://bq.blakearchive.org/34.3.ferber",
+    "limits": [
+      "No recordings listened to; no musical-score or performance verification.",
+      "Parry/Bridges correspondence, suffrage documents, film scenes and labor history known here through Ferber only.",
+      "Do not assert workers sang the hymn in the1926 General Strike; Ferber explicitly could not confirm it.",
+      "Do not silently accept Ferber's preferred interpretation of the opening questions over Goslee's rival; Goslee article unread."
+    ]
+  },
+  {
+    "bibliography_key": "essickViscomi2002Color",
+    "author": "Robert N. Essick and Joseph Viscomi",
+    "reading_status": "selected_continuous_opening_and_ending",
+    "locator": {
+      "printed_read": "74-77 and98-102",
+      "notes_read": "1-10 and28-32, as integrated in selected ranges",
+      "one_based_pdf": "2-5 and26-30; generated coverPDF1",
+      "text_ranges": [
+        {
+          "first_line": 25,
+          "last_line": 307,
+          "whitespace_words": 3852
+        },
+        {
+          "first_line": 1495,
+          "last_line": 1770,
+          "whitespace_words": 3374
+        }
+      ],
+      "metadata_only_inspection": "Works cited opening, HTML1771-1895; excluded from substantive word credit"
+    },
+    "cache": {
+      "path": "local_data/research/v0.7.0/evidence-packet/raw/essick-viscomi-html.body",
+      "sha256": "ab0a128a3d9163a443694cfc772d8abd037e9eeb46a5bc76566975ed92b8ec23",
+      "size": 207609
+    },
+    "url": "https://bq.blakearchive.org/35.3.essick",
+    "limits": [
+      "Printed78-97, notes11-27 and the entire middle evidentiary argument not newly read.",
+      "No independent recreation of printing or direct examination of originals/81-color-figure supplement.",
+      "Phillips's book and response not read; do not treat this as independent resolution of the technical controversy.",
+      "No new credit for the already completed Viscomi Workshop/Invention readings or the previously selected Turner essay."
+    ]
+  }
+]

@@ -258,11 +258,12 @@ def test_new_selection_requires_exact_six_plates_while_old_epoch_stays_valid(man
             validate_manuscript(root, current, markdown)
 
 
+@pytest.mark.parametrize("version", ["0.6.0", "0.7.0"])
 @pytest.mark.parametrize("missing", [None, "J55", "J91", "J99", "unexpected"])
-def test_ten_plate_epoch_requires_every_identified_impression(manuscript, missing):
+def test_ten_plate_epoch_requires_every_identified_impression(manuscript, missing, version):
     root, spec = manuscript
     data = spec.model_dump(mode="json")
-    data["version"] = "0.6.0"
+    data["version"] = version
     template = next(a for a in data["assets"] if a["kind"] == "image")
     data["assets"].extend(
         [template | {"asset_id": name} for name in ("J27", "J99", "J55", "J91", "J12", "J61")]

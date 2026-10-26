@@ -47,28 +47,46 @@ def draw_agreement_routes(c: Canvas) -> None:
     _header(
         c,
         "R",
-        "Two routes to agreement",
-        "Compare coordination with the conditions under which people can dissent",
+        "Agreement leaves the route in question",
+        "Conceptual comparison: the same outward assent can conceal different powers to dissent",
     )
-    _circle(c, 65, 172, 22, INK)
-    _label(c, "Public", 65, 168, 10)
-    _curve(c, (87, 177, 170, 184, 145, 238, 220, 238), INK, 4)
-    _curve(c, (87, 167, 170, 158, 145, 110, 220, 110), RUST, 4)
-    _text(c, "TRANSLATION + REVISION", 175, 271, 310, 12, INK)
-    _text(c, "DEPENDENCY + GATEKEEPING", 175, 145, 335, 12, RUST)
-    for dy in (-18, 0, 18):
-        _curve(c, (220, 238, 280, 238 + dy, 327, 238 + dy, 380, 238 + dy), INK)
-        _circle(c, 380, 238 + dy, 4, INK)
-        _curve(c, (220, 110 + dy, 285, 110 + dy, 292, 110, 326, 110), RUST)
-    _line(c, 326, 90, 326, 131, RUST, 5)
-    _line(c, 326, 110, 380, 110, RUST, 2)
-    _circle(c, 380, 110, 4, RUST)
-    for y in (238, 110):
-        _text(c, "Agreement", 403, y + 6, 110, 11)
-    _text(c, "Challenge stays open", 260, 207, 250, 10, INK)
-    _text(c, "Challenge becomes costly", 260, 77, 250, 10, RUST)
+    _text(c, "FUNCTION", 20, 270, 110, 9, MUTED)
+    _text(c, "TRANSLATION + REVISION", 145, 270, 177, 10, INK)
+    _text(c, "DEPENDENCY + GATEKEEPING", 339, 270, 181, 10, RUST)
+    rows = (
+        (
+            "Information",
+            "Public reasons can be challenged",
+            "Gatekeeper controls credible accounts",
+        ),
+        (
+            "Voice",
+            "Interpretation need not disclose total identity",
+            "Recognition requires the authorized story",
+        ),
+        (
+            "Material means",
+            "Fund participation and interim provision",
+            "Wages or services depend on compliance",
+        ),
+        ("Review", "Named forum can change the act", "Appeal exists but cannot alter exposure"),
+        (
+            "Revision",
+            "Mandate expires; rules can be reopened",
+            "Temporary assent becomes lasting authority",
+        ),
+    )
+    for i, (title, open_route, closed_route) in enumerate(rows):
+        y = 240 - i * 34
+        _text(c, title, 20, y, 112, 9, MUTED)
+        _text(c, open_route, 145, y, 177, 9)
+        _text(c, closed_route, 339, y, 181, 9, RUST)
+        _line(c, 20, y - 28, 520, y - 28, GREY, 0.5)
+    _text(c, "OBSERVABLE: agreement", 20, 61, 190, 9)
+    _text(c, "UNRESOLVED: who can contest it, with what means?", 220, 61, 300, 9, RUST)
     _footer(
-        c, "Conceptual contrast prompted by Rahman's profile and Pettit's account of domination."
+        c,
+        "Conceptual countermodel from Rahman and Pettit; assent alone does not identify its route.",
     )
 
 
@@ -207,39 +225,57 @@ def draw_watershed(c: Canvas) -> None:
         c,
         "E",
         "Who decides about the water?",
-        "Three institutional arrangements for the same hypothetical scarcity",
+        "Same hypothetical scarcity / distinct warrants, representation and unresolved duties",
     )
-    headings = (
-        (181, "E1 / ASSOCIATIONS", INK),
-        (302, "E2 / TERRITORY", INK),
-        (423, "E3 / WATERSHED", INK),
-    )
+    for x, title in ((130, "E1 / ASSOCIATIONS"), (262, "E2 / TERRITORY"), (394, "E3 / WATERSHED")):
+        _text(c, title, x, 272, 126, 9, RUST)
     rows = (
         ("Voice", "Recognized bodies", "Resident franchise", "Residents + workers"),
+        ("Warrant / scope", "Association mandate", "Territorial mandate", "Limited water task"),
         (
             "Treaty relation",
             "Folded into membership",
             "Subject to general rule",
             "Separate negotiation",
         ),
-        ("Decision scope", "Association mandate", "Territorial mandate", "Limited water task"),
         (
-            "Hard question",
+            "Review burden",
             "Who is left off rolls?",
             "Whose title is assumed?",
             "Who reviews the forum?",
         ),
+        (
+            "Costs / means",
+            "Agenda power of wealth",
+            "Unequal storage baseline",
+            "Assign compliance costs",
+        ),
+        (
+            "Interim duties",
+            "Who supplies nonmembers?",
+            "Who bears delay?",
+            "Emergency supply vs. lasting allocation",
+        ),
     )
-    for x, title, color in headings:
-        _text(c, title, x, 264, 114, 9, color)
-        _line(c, x, 243, x + 111, 243, color, 2)
-    for index, row in enumerate(rows):
-        top = 225 - index * 40
-        _text(c, row[0], 20, top, 149, 10, MUTED)
-        for column, value in enumerate(row[1:]):
-            _text(c, value, 181 + 121 * column, top, 111, 9)
-        _line(c, 20, top - 30, 520, top - 30, GREY, 0.5)
+    for i, row in enumerate(rows):
+        y = 245 - i * 29
+        _text(c, row[0], 20, y, 102, 8.5, MUTED)
+        for j, value in enumerate(row[1:]):
+            _text(c, value, 130 + 132 * j, y, 124, 8.5)
+        _line(c, 20, y - 25, 520, y - 25, GREY, 0.5)
+    _text(
+        c,
+        "Owner / supplier / competent body / enforcer: distinct roles, each requiring a warrant.",
+        20,
+        62,
+        500,
+        9,
+        RUST,
+    )
     _footer(
         c,
-        "Compare water access, costs, effective challenge and revision at the same scarcity.",
+        (
+            "Compare access, funding, relief and revision; E3 remains exposed to "
+            "forum-shopping and delay."
+        ),
     )

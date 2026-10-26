@@ -1,0 +1,794 @@
+{
+  "version": "0.6.0",
+  "assets": [
+    {
+      "asset_id": "milton",
+      "path": "local_data/manuscript/v0.2.0/asu-milton.html",
+      "url": "https://blake.lib.asu.edu/html/milton.html",
+      "sha256": "78db6880df225633790ff8bc485940cd3e873d707ef3235e4c1ecda15cd5cc8c",
+      "size": 327676,
+      "kind": "html"
+    },
+    {
+      "asset_id": "jerusalem",
+      "path": "local_data/manuscript/v0.2.0/asu-jerusalem.html",
+      "url": "https://blake.lib.asu.edu/html/jerusalem.html",
+      "sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2",
+      "size": 713630,
+      "kind": "html"
+    },
+    {
+      "asset_id": "marriage",
+      "path": "local_data/manuscript/v0.2.0/asu-marriage.html",
+      "url": "https://blake.lib.asu.edu/html/marriage_of_heaven_and_hell.html",
+      "sha256": "19aa9a334d2ea1a01df97d14f7640d69ac5a2bc7b04bfccca928ed14c1e39699",
+      "size": 106010,
+      "kind": "html"
+    },
+    {
+      "asset_id": "butts",
+      "path": "local_data/manuscript/v0.2.0/asu-butts.html",
+      "url": "https://blake.lib.asu.edu/html/Letters/23.htm",
+      "sha256": "9cfa71e9385508e4e165ebfd845690b0721429634c5a5d105b81c3b5f0600156",
+      "size": 57967,
+      "kind": "html"
+    },
+    {
+      "asset_id": "america",
+      "path": "local_data/manuscript/v0.2.0/asu-america.html",
+      "url": "https://blake.lib.asu.edu/html/america_a_prophecy.html",
+      "sha256": "c1a0137d472d808a6c25fefef21392aab8311c3c612c90f599c81a2638005f4e",
+      "size": 89908,
+      "kind": "html"
+    },
+    {
+      "asset_id": "M32",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-milton-scan035.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1810:035/full/pct:25.0/0/default.jpg",
+      "sha256": "70804332847c5b68d1e3fca139612eb52a7188edf34e3ff6569adf7082a78acf",
+      "size": 140581,
+      "kind": "image",
+      "caption": "William Blake, Milton, copy D, leaf numbered 35 (text cited as M32), 1804 [i.e. 1815?]. Relief-etched, hand-colored page. Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48031331.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48031331/#rights-and-access"
+    },
+    {
+      "asset_id": "J52",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-scan052.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0052/full/pct:25.0/0/default.jpg",
+      "sha256": "92c748a6d01c9c6344dc399a79e138559746f3d620fbe2192bee837a0c965a63",
+      "size": 338434,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 52, To the Deists, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J54",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-scan054.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0054/full/pct:25.0/0/default.jpg",
+      "sha256": "5eb348c15b2c968637c9639bf50ef65ee4841c92f701064caf9d3075d507ffad",
+      "size": 273444,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 54, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J73",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-scan073.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0073/full/pct:25.0/0/default.jpg",
+      "sha256": "0386431e2eac6bd1fe6ee4d43a835a6bc524a073725e42b9f326d2b65e6973a2",
+      "size": 286948,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 73, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "milton-rights",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-milton-item-verified-raw.json",
+      "url": "https://www.loc.gov/item/48031331/?fo=json",
+      "sha256": "faf23150cd77aba01682c33336390ac9b87497e611de1fbefeae73512d2424e9",
+      "size": 112620,
+      "kind": "rights"
+    },
+    {
+      "asset_id": "jerusalem-rights",
+      "path": "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-item-verified-raw.json",
+      "url": "https://www.loc.gov/item/48038103/?fo=json",
+      "sha256": "891f757bf4bffb706198bb3f21ef2521f28f7ef8162e81c95e5ecd0eb45dd88a",
+      "size": 627233,
+      "kind": "rights"
+    },
+    {
+      "asset_id": "J27",
+      "path": "local_data/manuscript/v0.5.0/loc-J27.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0027/full/pct:25.0/0/default.jpg",
+      "sha256": "19e97700b73cb306609ec85aa30b80dfa814d43c779c28049ead80c4f54b83f0",
+      "size": 328937,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 27, posthumous impression, approximately 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J99",
+      "path": "local_data/manuscript/v0.5.0/loc-J99.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0099/full/pct:25.0/0/default.jpg",
+      "sha256": "337f2a3e2cc076bb7ec0953b523f256cc8de9a0a4c31d94213594aaaaa616f67",
+      "size": 248322,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 99, posthumous impression, approximately 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J55",
+      "path": "local_data/manuscript/v0.6.0/loc-J55.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0055/full/pct:25.0/0/default.jpg",
+      "sha256": "a02a238cab51287f1fc7b95c93758baf9fb621e28e398da774e9791a9f0fea19",
+      "size": 296871,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 55, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J91",
+      "path": "local_data/manuscript/v0.6.0/loc-J91.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0091/full/pct:25.0/0/default.jpg",
+      "sha256": "f9b1fc89b6a35cf1093c31be461cc647fce1150182e855a014e46460ea46a220",
+      "size": 292805,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 91, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J12",
+      "path": "local_data/manuscript/v0.6.0/loc-J12.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0012/full/pct:25.0/0/default.jpg",
+      "sha256": "ea43757bb486ef9a84585698e7c9d535903405e8325f79f84ea7441409835207",
+      "size": 297030,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 12, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "J61",
+      "path": "local_data/manuscript/v0.6.0/loc-J61.jpg",
+      "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0061/full/pct:25.0/0/default.jpg",
+      "sha256": "615e724af1c0871245b6fe2da037506a8ac0f7ac02ae0adf0a5fbf9a51f0c75a",
+      "size": 280508,
+      "kind": "image",
+      "caption": "William Blake, Jerusalem, copy I, plate 61, posthumous impression, ca. 1832? (title-page date 1804). Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
+      "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
+      "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    }
+  ],
+  "quotations": [
+    {
+      "quote_id": "Q01",
+      "asset_id": "milton",
+      "locator": "Milton 32:10, E131",
+      "segments": [
+        {
+          "anchor": "M32.10;E131",
+          "occurrence": 0,
+          "text": "We are not Individuals but States: Combinations of Individuals"
+        }
+      ],
+      "context": "Seven Angels converse; not a constitutional pronouncement."
+    },
+    {
+      "quote_id": "Q02",
+      "asset_id": "milton",
+      "locator": "Milton 32:14-18, E131-132",
+      "segments": [
+        {
+          "anchor": "M32.14;E131",
+          "occurrence": 0,
+          "text": "But the Divine Humanity & Mercy gave us a Human Form as multitudes"
+        },
+        {
+          "anchor": "M32.15;E131",
+          "occurrence": 0,
+          "text": "Because we were combind in Freedom & holy Brotherhood Vox Populi"
+        },
+        {
+          "anchor": "M32.16;E132",
+          "occurrence": 0,
+          "text": "While those combind by Satans Tyranny first in the blood of War"
+        },
+        {
+          "anchor": "M32.17;E132",
+          "occurrence": 0,
+          "text": "And Sacrifice &, next, in Chains of imprisonment: are Shapeless Rocks"
+        },
+        {
+          "anchor": "M32.18;E132",
+          "occurrence": 0,
+          "text": "Retaining only Satans Mathematic Holiness, Length: Bredth & Highth"
+        }
+      ],
+      "context": "Freedom and coercive aggregation contrasted. ASU text retains as multitudes, printed marginally in copy D."
+    },
+    {
+      "quote_id": "Q03",
+      "asset_id": "milton",
+      "locator": "Milton 32:22-24, E132",
+      "segments": [
+        {
+          "anchor": "M32.22;E132",
+          "occurrence": 0,
+          "text": "Distinguish therefore States from Individuals in those States."
+        },
+        {
+          "anchor": "M32.23;E132",
+          "occurrence": 0,
+          "text": "States Change: but Individual Identities never change nor cease:"
+        },
+        {
+          "anchor": "M32.24;E132",
+          "occurrence": 0,
+          "text": "You cannot go to Eternal Death in that which can never Die."
+        }
+      ],
+      "context": "Individual identities are not expendable instances of collective forms."
+    },
+    {
+      "quote_id": "Q04",
+      "asset_id": "milton",
+      "locator": "Milton 32:32-38, E132",
+      "segments": [
+        {
+          "anchor": "M32.32;E132",
+          "occurrence": 0,
+          "text": "The Imagination is not a State: it is the Human Existence itself"
+        },
+        {
+          "anchor": "M32.33;E132",
+          "occurrence": 0,
+          "text": "Affection or Love becomes a State, when divided from Imagination"
+        },
+        {
+          "anchor": "M32.34;E132",
+          "occurrence": 0,
+          "text": "The Memory is a State always, & the Reason is a State"
+        },
+        {
+          "anchor": "M32.35;E132",
+          "occurrence": 0,
+          "text": "Created to be Annihilated & a new Ratio Created"
+        },
+        {
+          "anchor": "M32.36;E132",
+          "occurrence": 0,
+          "text": "Whatever can be Created can be Annihilated Forms cannot"
+        },
+        {
+          "anchor": "M32.37;E132",
+          "occurrence": 0,
+          "text": "The Oak is cut down by the Ax, the Lamb falls by the Knife"
+        },
+        {
+          "anchor": "M32.38;E132",
+          "occurrence": 0,
+          "text": "But their Forms Eternal Exist, For-ever. Amen Halle[l]ujah"
+        }
+      ],
+      "context": "Imagination is not a state; created ratios differ from eternal forms."
+    },
+    {
+      "quote_id": "Q05",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 52, right epigraph, E200",
+      "segments": [
+        {
+          "anchor": "J52;E200",
+          "occurrence": 0,
+          "text": "The Spiritual States of"
+        },
+        {
+          "anchor": "J52;E200",
+          "occurrence": 1,
+          "text": "the Soul are all Eternal"
+        },
+        {
+          "anchor": "J52;E200RahabisanTotheDeists.",
+          "occurrence": 0,
+          "text": "Distinguish between the"
+        },
+        {
+          "anchor": "J52;E200EternalState",
+          "occurrence": 0,
+          "text": "Man, & his present State"
+        }
+      ],
+      "context": "Right epigraph reconstructed in its own reading order; small-type location labels and left/central column layout omitted. No invented verse numbering."
+    },
+    {
+      "quote_id": "Q06",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 31:13-16, E177-178",
+      "segments": [
+        {
+          "anchor": "J31.13;E177",
+          "occurrence": 0,
+          "text": "Albion hath enterd the State Satan! Be permanent O State!"
+        },
+        {
+          "anchor": "J31.14;E177",
+          "occurrence": 0,
+          "text": "And be thou for ever accursed! that Albion may arise again:"
+        },
+        {
+          "anchor": "J31.15;E178",
+          "occurrence": 0,
+          "text": "And be thou created into a State! I go forth to Create"
+        },
+        {
+          "anchor": "J31.16;E178",
+          "occurrence": 0,
+          "text": "States: to deliver Individuals evermore! Amen."
+        }
+      ],
+      "context": "Permanence of an accursed state is compatible with deliverance of persons."
+    },
+    {
+      "quote_id": "Q07",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 54:1-5, E203",
+      "segments": [
+        {
+          "anchor": "J54.1;E203",
+          "occurrence": 0,
+          "text": "In Great Eternity, every particular Form gives forth or Emanates"
+        },
+        {
+          "anchor": "J54.2;E203",
+          "occurrence": 0,
+          "text": "Its own peculiar Light, & the Form is the Divine Vision"
+        },
+        {
+          "anchor": "J54.3;E203",
+          "occurrence": 0,
+          "text": "And the Light is his Garment This is Jerusalem in every Man"
+        },
+        {
+          "anchor": "J54.4;E203",
+          "occurrence": 0,
+          "text": "A Tent & Tabernacle of Mutual Forgiveness Male & Female Clothings."
+        },
+        {
+          "anchor": "J54.5;E203",
+          "occurrence": 0,
+          "text": "And Jerusalem is called Liberty among the Children of Albion"
+        }
+      ],
+      "context": "Emanation occurs in Great Eternity; it cannot simply mean temporal birth."
+    },
+    {
+      "quote_id": "Q08",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 73:44-45, E229",
+      "segments": [
+        {
+          "anchor": "J73.44;E229",
+          "occurrence": 0,
+          "text": "As the Pilgrim passes while the Country permanent remains"
+        },
+        {
+          "anchor": "J73.45;E229",
+          "occurrence": 0,
+          "text": "So Men pass on: but States remain permanent for ever"
+        }
+      ],
+      "context": "Pilgrimage is a simile, not a jurisdictional map."
+    },
+    {
+      "quote_id": "Q09",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 43:6-8, E191",
+      "segments": [
+        {
+          "anchor": "J43.6;E191",
+          "occurrence": 0,
+          "text": "I elected Albion for my glory; I gave to him the Nations,"
+        },
+        {
+          "anchor": "J43.7;E191",
+          "occurrence": 0,
+          "text": "Of the whole Earth. he was the Angel of my Presence: and all"
+        },
+        {
+          "anchor": "J43.8;E191",
+          "occurrence": 0,
+          "text": "The Sons of God were Albions Sons: and Jerusalem was my joy."
+        }
+      ],
+      "context": "Election and gift of nations complicate a straightforward pluralist reconstruction."
+    },
+    {
+      "quote_id": "Q10",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 92:1-7, E252",
+      "segments": [
+        {
+          "anchor": "J92.1;E252",
+          "occurrence": 0,
+          "text": "What do I see? The Briton Saxon Roman Norman amalgamating"
+        },
+        {
+          "anchor": "J92.2;E252",
+          "occurrence": 0,
+          "text": "In my Furnaces into One Nation the English: & taking refuge"
+        },
+        {
+          "anchor": "J92.3;E252",
+          "occurrence": 0,
+          "text": "In the Loins of Albion. The Canaanite united with the fugitive"
+        },
+        {
+          "anchor": "J92.4;E252",
+          "occurrence": 0,
+          "text": "Hebrew, whom she divided into Twelve, & sold into Egypt"
+        },
+        {
+          "anchor": "J92.5;E252",
+          "occurrence": 0,
+          "text": "Then scatterd the Egyptian & Hebrew to the four Winds!"
+        },
+        {
+          "anchor": "J92.6;E252",
+          "occurrence": 0,
+          "text": "This sinful Nation Created in our Furnaces & Looms is Albion"
+        },
+        {
+          "anchor": "J92.7;E252",
+          "occurrence": 0,
+          "text": "So Los spoke. Enitharmon answerd in great terror in Lambeths Vale"
+        }
+      ],
+      "context": "Los names English amalgamation and calls the nation sinful; generation does not imply approval."
+    },
+    {
+      "quote_id": "Q11",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 88:3-5, 12-13, E246",
+      "segments": [
+        {
+          "anchor": "J88.3;E246",
+          "occurrence": 0,
+          "text": "When in Eternity Man converses with Man they enter"
+        },
+        {
+          "anchor": "J88.4;E246",
+          "occurrence": 0,
+          "text": "Into each others Bosom (which are Universes of delight)"
+        },
+        {
+          "anchor": "J88.5;E246",
+          "occurrence": 0,
+          "text": "In mutual interchange. and first their Emanations meet"
+        },
+        {
+          "anchor": "J88.12;E246",
+          "occurrence": 0,
+          "text": "How then can I ever again be united as Man with Man"
+        },
+        {
+          "anchor": "J88.13;E246",
+          "occurrence": 0,
+          "text": "While thou my Emanation refusest my Fibres of dominion."
+        }
+      ],
+      "context": "Noncontiguous excerpts; omitted lines 6-11 are explicitly indicated in attribution, not silently continuous."
+    },
+    {
+      "quote_id": "Q12",
+      "asset_id": "butts",
+      "locator": "Letter to Thomas Butts, 22 November 1802, verse 83-88, E722",
+      "segments": [
+        {
+          "anchor": "L23.verse83Butts11'02;E722",
+          "occurrence": 0,
+          "text": "Now I a fourfold vision see"
+        },
+        {
+          "anchor": "L23.verse84Butts11'02;E722",
+          "occurrence": 0,
+          "text": "And a fourfold vision is given to me"
+        },
+        {
+          "anchor": "L23.verse85Butts11'02;E722",
+          "occurrence": 0,
+          "text": "Tis fourfold in my supreme delight"
+        },
+        {
+          "anchor": "L23.verse86Butts11'02;E722",
+          "occurrence": 0,
+          "text": "And three fold in soft Beulahs night"
+        },
+        {
+          "anchor": "L23.verse87Butts11'02;E722",
+          "occurrence": 0,
+          "text": "And twofold Always. May God us keep"
+        },
+        {
+          "anchor": "L23.verse88Butts11'02;E722",
+          "occurrence": 0,
+          "text": "From Single vision & Newtons sleep"
+        }
+      ],
+      "context": "Visionary sequence, not a ranked franchise or organ count."
+    },
+    {
+      "quote_id": "Q13",
+      "asset_id": "marriage",
+      "locator": "The Marriage of Heaven and Hell, plate 7, E36",
+      "segments": [
+        {
+          "anchor": "MHH7;E36",
+          "occurrence": 0,
+          "text": "Eternity is in love with the productions of time."
+        }
+      ],
+      "context": "One of the Proverbs of Hell in a dialogic work; not universal approval of every product."
+    },
+    {
+      "quote_id": "Q14",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 27:85\u201388, E173",
+      "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
+      "segments": [
+        {
+          "anchor": "J27.85;E173",
+          "occurrence": 0,
+          "text": "In my Exchanges every Land"
+        },
+        {
+          "anchor": "J27.86;E173",
+          "occurrence": 0,
+          "text": "Shall walk, & mine in every Land,"
+        },
+        {
+          "anchor": "J27.87;E173",
+          "occurrence": 0,
+          "text": "Mutual shall build Jerusalem:"
+        },
+        {
+          "anchor": "J27.88;E173",
+          "occurrence": 0,
+          "text": "Both heart in heart & hand in hand."
+        }
+      ]
+    },
+    {
+      "quote_id": "Q15",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 99:1\u20135, E258\u2013259",
+      "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
+      "segments": [
+        {
+          "anchor": "J99.1;E258",
+          "occurrence": 0,
+          "text": "All Human Forms identified even Tree Metal Earth & Stone. all"
+        },
+        {
+          "anchor": "J99.2;E258",
+          "occurrence": 0,
+          "text": "Human Forms identified, living going forth & returning wearied"
+        },
+        {
+          "anchor": "J99.3;E258",
+          "occurrence": 0,
+          "text": "Into the Planetary lives of Years Months Days & Hours reposing"
+        },
+        {
+          "anchor": "J99.4;E258",
+          "occurrence": 0,
+          "text": "And then Awaking into his Bosom in the Life of Immortality."
+        },
+        {
+          "anchor": "J99.5;E259",
+          "occurrence": 0,
+          "text": "And I heard the Name of their Emanations they are named Jerusalem"
+        }
+      ]
+    },
+    {
+      "quote_id": "Q16",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 55:51\u201353, E205",
+      "segments": [
+        {
+          "anchor": "J55.51;E205",
+          "occurrence": 0,
+          "text": "Labour well the Minute Particulars, attend to the Little-ones:"
+        },
+        {
+          "anchor": "J55.52;E205",
+          "occurrence": 0,
+          "text": "And those who are in misery cannot remain so long"
+        },
+        {
+          "anchor": "J55.53;E205",
+          "occurrence": 0,
+          "text": "If we do but our duty: labour well the teeming Earth."
+        }
+      ],
+      "context": "The Seven Eyes address labor, misery and prevention before the plowing scene."
+    },
+    {
+      "quote_id": "Q17",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 55:60\u201363, E205",
+      "segments": [
+        {
+          "anchor": "J55.60;E205",
+          "occurrence": 0,
+          "text": "He who would do good to another, must do it in Minute Particulars"
+        },
+        {
+          "anchor": "J55.61;E205",
+          "occurrence": 0,
+          "text": "General Good is the plea of the scoundrel hypocrite flatterer:"
+        },
+        {
+          "anchor": "J55.62;E205",
+          "occurrence": 0,
+          "text": "For Art & Science cannot exist but in minutely organized Particulars"
+        },
+        {
+          "anchor": "J55.63;E205",
+          "occurrence": 0,
+          "text": "And not in generalizing Demonstrations of the Rational Power."
+        }
+      ],
+      "context": "The plowing and the Seven Eyes connect works and minutely organized particulars with the critique of general good."
+    },
+    {
+      "quote_id": "Q18",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 91:26\u201331, E251",
+      "segments": [
+        {
+          "anchor": "J91.26;E251",
+          "occurrence": 0,
+          "text": "You accumulate Particulars, & murder by analyzing, that you"
+        },
+        {
+          "anchor": "J91.27;E251",
+          "occurrence": 0,
+          "text": "May take the aggregate; & you call the aggregate Moral Law:"
+        },
+        {
+          "anchor": "J91.28;E251",
+          "occurrence": 0,
+          "text": "And you call that Swelld & bloated Form; a Minute Particular."
+        },
+        {
+          "anchor": "J91.29;E251",
+          "occurrence": 0,
+          "text": "But General Forms have their vitality in Particulars: & every"
+        },
+        {
+          "anchor": "J91.30;E251",
+          "occurrence": 0,
+          "text": "Particular is a Man; a Divine Member of the Divine Jesus."
+        },
+        {
+          "anchor": "J91.31;E251",
+          "occurrence": 0,
+          "text": "So Los cried at his Anvil in the horrible darkness weeping!"
+        }
+      ],
+      "context": "Los addresses the Spectre at his anvil; the speech is followed by the Spectre's stupendous works and Los's coercion."
+    },
+    {
+      "quote_id": "Q19",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 12:30\u201336, E155",
+      "segments": [
+        {
+          "anchor": "J12.30;E155",
+          "occurrence": 0,
+          "text": "The stones are pity, and the bricks, well wrought affections:"
+        },
+        {
+          "anchor": "J12.31;E155",
+          "occurrence": 0,
+          "text": "Enameld with love & kindness, & the tiles engraven gold"
+        },
+        {
+          "anchor": "J12.32;E155",
+          "occurrence": 0,
+          "text": "Labour of merciful hands: the beams & rafters are forgiveness:"
+        },
+        {
+          "anchor": "J12.33;E155",
+          "occurrence": 0,
+          "text": "The mortar & cement of the work, tears of honesty: the nails,"
+        },
+        {
+          "anchor": "J12.34;E155",
+          "occurrence": 0,
+          "text": "And the screws & iron braces, are well wrought blandishments,"
+        },
+        {
+          "anchor": "J12.35;E155",
+          "occurrence": 0,
+          "text": "And well contrived words, firm fixing, never forgotten,"
+        },
+        {
+          "anchor": "J12.36;E155",
+          "occurrence": 0,
+          "text": "Always comforting the remembrance: the floors, humility,"
+        }
+      ],
+      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43\u201344."
+    },
+    {
+      "quote_id": "Q20",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 61:17\u201323, E212",
+      "segments": [
+        {
+          "anchor": "J61.17;E212",
+          "occurrence": 0,
+          "text": "Saying, Doth Jehovah Forgive a Debt only on condition that it shall"
+        },
+        {
+          "anchor": "J61.18;E212",
+          "occurrence": 0,
+          "text": "Be Payed? Doth he Forgive Pollution only on conditions of Purity"
+        },
+        {
+          "anchor": "J61.19;E212",
+          "occurrence": 0,
+          "text": "That Debt is not Forgiven! That Pollution is not Forgiven"
+        },
+        {
+          "anchor": "J61.20;E212",
+          "occurrence": 0,
+          "text": "Such is the Forgiveness of the Gods, the Moral Virtues of the"
+        },
+        {
+          "anchor": "J61.21;E212",
+          "occurrence": 0,
+          "text": "Heathen, whose tender Mercies are Cruelty. But Jehovahs Salvation"
+        },
+        {
+          "anchor": "J61.22;E212",
+          "occurrence": 0,
+          "text": "Is without Money & without Price, in the Continual Forgiveness of Sins"
+        },
+        {
+          "anchor": "J61.23;E212",
+          "occurrence": 0,
+          "text": "In the Perpetual Mutual Sacrifice in Great Eternity! for behold!"
+        }
+      ],
+      "context": "Joseph reports a dream-voice on conditional forgiveness following Mary's challenge to rejection; mutual sacrifice remains within the excerpt."
+    }
+  ],
+  "fronts": [
+    "composition",
+    "warrants",
+    "authority",
+    "countermodels"
+  ]
+}

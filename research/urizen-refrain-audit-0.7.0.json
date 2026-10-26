@@ -1,0 +1,81 @@
+{
+  "method": "Case-insensitive whole-word states? retrieval; match containment within whitespace-flexible a state of dismal woe in each primary urizen source unit",
+  "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+  "query": "states",
+  "work_id": "urizen",
+  "primary_units": 7,
+  "state_hits": 49,
+  "refrain_occurrences": 49,
+  "units": [
+    {
+      "passage_id": "archive:urizen.a",
+      "edition_id": "archive:urizen.a",
+      "copy_id": "urizen.a",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.a.xml",
+      "text_sha256": "88142fa30b92bcbe10dffc56a849faf97e9e471b43e626561599838490a5bb78",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.b",
+      "edition_id": "archive:urizen.b",
+      "copy_id": "urizen.b",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.b.xml",
+      "text_sha256": "04c11c2bd4695effb13aae9b717953d82af6fb8d531f2e0648fa1e88da111918",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.c",
+      "edition_id": "archive:urizen.c",
+      "copy_id": "urizen.c",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.c.xml",
+      "text_sha256": "b1602b89c6ad89c3c1080c464832bbd87930d97b65e05147bad7703b2cdb41a7",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.d",
+      "edition_id": "archive:urizen.d",
+      "copy_id": "urizen.d",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.d.xml",
+      "text_sha256": "09457eea22232d280b016fdb5373f4f2c87fad4352c43a013d069c071f8b7e10",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.f",
+      "edition_id": "archive:urizen.f",
+      "copy_id": "urizen.f",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.f.xml",
+      "text_sha256": "12719b25277168e16ad2cd126a7a89df2e0e4cf085f55e3b9a4065b452e7f5f1",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.g",
+      "edition_id": "archive:urizen.g",
+      "copy_id": "urizen.g",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.g.xml",
+      "text_sha256": "efca9f58da41041673aa604ebe2ebbd7aa4b2b6697c376b5c77e19d6f2cf77b2",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    },
+    {
+      "passage_id": "archive:urizen.j",
+      "edition_id": "archive:urizen.j",
+      "copy_id": "urizen.j",
+      "source_url": "https://raw.githubusercontent.com/blakearchive/data/7063e9ea8b13d18bd5a585e87610164fd75d3f60/works/urizen.j.xml",
+      "text_sha256": "3bb2c64cbfca974c2e394ad91d318d105817321539db1e723be5893a1df6993f",
+      "state_hits": 7,
+      "refrain_occurrences": 7,
+      "all_state_hits_in_refrain": true
+    }
+  ]
+}

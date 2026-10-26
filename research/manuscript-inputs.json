@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -176,6 +176,16 @@
       "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
       "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
       "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
+    },
+    {
+      "asset_id": "urizen",
+      "path": "local_data/manuscript/v0.7.0/book-of-urizen.html",
+      "url": "https://blake.lib.asu.edu/html/book_of_urizen.html",
+      "sha256": "9bc9d111b2d694b7fa060174894c00cd07eaea68f88a50757e85ee4be2e7ecba",
+      "size": 104043,
+      "kind": "html",
+      "caption": "The [First] Book of Urizen, ASU-hosted electronic Erdman transcription.",
+      "rights_basis": "Selected public-domain primary verse; ASU transcription and retained illuminated copies remain distinct source objects."
     }
   ],
   "quotations": [
@@ -551,7 +561,7 @@
     {
       "quote_id": "Q14",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 27:85\u201388, E173",
+      "locator": "Jerusalem 27:85–88, E173",
       "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
       "segments": [
         {
@@ -579,7 +589,7 @@
     {
       "quote_id": "Q15",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 99:1\u20135, E258\u2013259",
+      "locator": "Jerusalem 99:1–5, E258–259",
       "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
       "segments": [
         {
@@ -612,7 +622,7 @@
     {
       "quote_id": "Q16",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:51\u201353, E205",
+      "locator": "Jerusalem 55:51–53, E205",
       "segments": [
         {
           "anchor": "J55.51;E205",
@@ -635,7 +645,7 @@
     {
       "quote_id": "Q17",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:60\u201363, E205",
+      "locator": "Jerusalem 55:60–63, E205",
       "segments": [
         {
           "anchor": "J55.60;E205",
@@ -663,7 +673,7 @@
     {
       "quote_id": "Q18",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 91:26\u201331, E251",
+      "locator": "Jerusalem 91:26–31, E251",
       "segments": [
         {
           "anchor": "J91.26;E251",
@@ -701,7 +711,7 @@
     {
       "quote_id": "Q19",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 12:30\u201336, E155",
+      "locator": "Jerusalem 12:30–36, E155",
       "segments": [
         {
           "anchor": "J12.30;E155",
@@ -739,12 +749,12 @@
           "text": "Always comforting the remembrance: the floors, humility,"
         }
       ],
-      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43\u201344."
+      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43–44."
     },
     {
       "quote_id": "Q20",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 61:17\u201323, E212",
+      "locator": "Jerusalem 61:17–23, E212",
       "segments": [
         {
           "anchor": "J61.17;E212",
@@ -783,6 +793,98 @@
         }
       ],
       "context": "Joseph reports a dream-voice on conditional forgiveness following Mary's challenge to rejection; mutual sacrifice remains within the excerpt."
+    },
+    {
+      "quote_id": "Q21",
+      "asset_id": "urizen",
+      "locator": "The [First] Book of Urizen 4:34–40, E72",
+      "segments": [
+        {
+          "anchor": "BU4.34;E72",
+          "occurrence": 0,
+          "text": "8. Laws of peace, of love, of unity:"
+        },
+        {
+          "anchor": "BU4.35;E72",
+          "occurrence": 0,
+          "text": "Of pity, compassion, forgiveness."
+        },
+        {
+          "anchor": "BU4.36;E72",
+          "occurrence": 0,
+          "text": "Let each chuse one habitation:"
+        },
+        {
+          "anchor": "BU4.37;E72",
+          "occurrence": 0,
+          "text": "His ancient infinite mansion:"
+        },
+        {
+          "anchor": "BU4.38;E72",
+          "occurrence": 0,
+          "text": "One command, one joy one desire,"
+        },
+        {
+          "anchor": "BU4.39;E72",
+          "occurrence": 0,
+          "text": "One curse, one weight, one measure"
+        },
+        {
+          "anchor": "BU4.40;E72",
+          "occurrence": 0,
+          "text": "One King, one God, one Law."
+        }
+      ],
+      "context": "Urizen concludes laws of peace, love, unity, pity, compassion and forgiveness with one command, joy, desire, measure, king, god and law; Eternals respond with rage."
+    },
+    {
+      "quote_id": "Q22",
+      "asset_id": "urizen",
+      "locator": "The [First] Book of Urizen 28:6–7, E83",
+      "segments": [
+        {
+          "anchor": "BU28.6;E83",
+          "occurrence": 0,
+          "text": "And form'd laws of prudence, and call'd them"
+        },
+        {
+          "anchor": "BU28.7;E83",
+          "occurrence": 0,
+          "text": "The eternal laws of God"
+        }
+      ],
+      "context": "The children mourn and build tombs before naming their prudential laws eternal divine laws; neighboring cities become mutually imperceptible."
+    },
+    {
+      "quote_id": "Q23",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 73:49, E229",
+      "segments": [
+        {
+          "anchor": "J73.49;E229",
+          "occurrence": 0,
+          "text": "The Sons of Los clothe them & feed, & provide houses & gardens"
+        }
+      ],
+      "context": "Los’s sons provide clothing, food, houses and gardens for spectres; the surrounding work includes feuds, weapons and creation/destruction."
+    },
+    {
+      "quote_id": "Q24",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 53:7–8, E202",
+      "segments": [
+        {
+          "anchor": "J53.7;E202",
+          "occurrence": 0,
+          "text": "Inclosing all the Children of Los time after time."
+        },
+        {
+          "anchor": "J53.8;E202",
+          "occurrence": 0,
+          "text": "Their Giant forms condensing into Nations & Peoples & Tongues"
+        }
+      ],
+      "context": "Enclosure and bodily labor precede the condensation into nations, peoples and tongues; national generation includes pain, gender and continual building/decay."
     }
   ],
   "fronts": [

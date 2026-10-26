@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0 — 26 October 2026
+
+- Integrate Herrstrom, Ferber and selected Essick–Viscomi readings into passage, national expression, protective authority and production. Correct claim locators and reading credit; protect proper names in BibTeX and retain bare-month fields in the citation catalog.
+- Bind four additional Blake quotations, bringing the selected total to 24; retain all ten identified LOC sheets. Audit all 49 primary Urizen state hits against the repeated refrain.
+- Redesign seven of thirteen vector figures with explicit denominators, named deletion endpoints, directional presence/lift, operator bundles and institutional duties; rewrite captions and compact the plate-source appendix.
+- Extend exact ten-image selection controls to the 0.7 epoch and add unequal-family numerical PDF oracles. Preserve historical analytical producers and the original concordance.
+
 ## 0.6.0 — 25 October 2026
 
 - Add source-family and token-normalized corpus statistics, exact-text sensitivity, concentration, finite deletion ranges and three co-occurrence universes.

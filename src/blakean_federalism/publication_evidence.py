@@ -4,7 +4,8 @@
 from reportlab.pdfgen.canvas import Canvas
 
 from .analysis_figures import number
-from .figure_style import BLACK, GREY, MUTED, RED, circle, line, text
+from .corpus_statistics_models import CorpusStatistics
+from .figure_style import BLACK, GREY, MUTED, RED, line, text
 from .workbench_models import Workbench
 
 
@@ -45,7 +46,7 @@ def evidence(c: Canvas, report: Workbench) -> None:
         queries = {q.query_id: q for q in stats.queries}
         for i, query in enumerate(("states", "persons", "nations", "particulars", "imagination")):
             row = queries.get(query)
-            y = 322 - i * 23
+            y = 322 - i * 18
             text(c, query, 18, y, 120, 10)
             if row is None:
                 text(c, "N/A / query absent", 160, y, 320, 10, MUTED)
@@ -57,58 +58,118 @@ def evidence(c: Canvas, report: Workbench) -> None:
         c,
         "Rates per 10,000 tokens. Source families retain the archive's work-ID grouping.",
         18,
-        202,
+        224,
         504,
         9,
         MUTED,
     )
-    line(c, 18, 181, 522, 181, BLACK)
+    line(c, 18, 207, 522, 207, BLACK)
+    if stats is not None:
+        _comparisons(c, stats)
+    line(c, 18, 159, 522, 159, BLACK)
     experiment = report.institutional_experiments
-    text(c, "MINIMUM SAFEGUARD REPAIRS", 18, 170, 300, 11, RED)
+    text(c, "FINITE REPAIRS / MINIMUM OPERATOR BUNDLES", 18, 150, 504, 10, RED)
     if experiment is not None:
-        active_satisfied = experiment.baseline_active_checks - experiment.baseline_failed_checks
         rows = [d for d in experiment.decisions if d.baseline_failed_rules]
         for i, row in enumerate(rows):
-            x = 18 + i * 104
-            text(c, row.decision_id.split("-")[0], x, 145, 94, 11)
-            for j in range(row.minimum_cardinality or 0):
-                circle(c, x + 7 + j * 17, 117, 5, RED, RED)
+            bundles = [
+                " + ".join(op.value for op in b)
+                for b in row.minimal_bundles
+                if len(b) == row.minimum_cardinality
+            ]
+            text(c, row.decision_id.split("-")[0], 18, 132 - i * 13, 22, 8.5, RED)
+            text(c, " OR ".join(bundles) if bundles else "None", 40, 132 - i * 13, 482, 8)
         text(
             c,
             "".join(
                 (
-                    f"{experiment.total_subsets:,} subsets / {experiment.total_distinct_states} ",
-                    "distinct records",
+                    f"{experiment.total_admissible_subsets:,}/{experiment.total_subsets:,} ",
+                    "admissible subsets / ",
+                    f"{experiment.total_distinct_states} distinct records",
                 )
             ),
             18,
-            95,
+            61,
             504,
-            11,
+            9,
         )
+        active = experiment.baseline_active_checks - experiment.baseline_failed_checks
         text(
             c,
             "".join(
                 (
-                    f"Baseline: {active_satisfied} ",
-                    f"active satisfied / {experiment.baseline_failed_checks} ",
-                    f"failed / {experiment.baseline_inactive_checks} ",
-                    "inactive",
+                    f"Baseline: {active} active satisfied / ",
+                    f"{experiment.baseline_failed_checks} failed / ",
+                    f"{experiment.baseline_inactive_checks} inactive",
                 )
             ),
             18,
-            74,
+            46,
             504,
-            10,
+            8,
             RED,
         )
-    line(c, 18, 47, 522, 47, GREY)
+    line(c, 18, 31, 522, 31, GREY)
     text(
         c,
-        "Results retain source identity, denominators, declared operations and protected context.",
+        (
+            "Source-family counts guide close reading; synthetic records expose the "
+            "exact safeguards changed."
+        ),
         18,
-        35,
+        24,
         504,
-        9,
+        8,
         MUTED,
     )
+
+
+def _comparisons(c: Canvas, stats: CorpusStatistics) -> None:
+    row = next((q for q in stats.queries if q.query_id == "particulars"), None)
+    if row is not None:
+        defined = [
+            (o.remaining.rate_per_10000_tokens, o.omitted_work_id)
+            for o in row.leave_one_work_out
+            if o.remaining.rate_per_10000_tokens is not None
+        ]
+        if defined:
+            low, high = min(defined), max(defined)
+            text(
+                c,
+                "".join(
+                    (
+                        f"Particulars deletion range: {number(low[0])} (omit {low[1]}) to ",
+                        f"{number(high[0])} (omit {high[1]}).",
+                    )
+                ),
+                18,
+                197,
+                504,
+                9,
+            )
+        else:
+            text(c, "Particulars: N/A: no defined deletion rate", 18, 197, 504, 9)
+    pair = next(
+        (
+            p
+            for p in stats.cooccurrences
+            if p.universe == "work_presence"
+            and {p.left_query, p.right_query} == {"liberty", "particulars"}
+        ),
+        None,
+    )
+    if pair is not None:
+        text(
+            c,
+            "".join(
+                (
+                    f"Liberty / particulars: Jaccard {number(pair.jaccard)}; ",
+                    f"shared {pair.both_matches}/{pair.either_matches} families; ",
+                    f"lift {number(pair.lift)}.",
+                )
+            ),
+            18,
+            180,
+            504,
+            9,
+        )

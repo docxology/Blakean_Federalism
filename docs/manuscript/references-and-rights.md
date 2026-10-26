@@ -4,9 +4,9 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts] | Twenty selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-four selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
-| [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p.18 = PDF pp. 33. |
+| [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
 | [@lee2026] | Complete available ten-page introduction excerpt; not complete introduction or book. |
 | [@matthews2011] | Available pp.1–10 and selected frontmatter; underlying cited critics not read. |
@@ -21,7 +21,7 @@ The native bibliography records bibliographic identity. This ledger records what
 | [@undrip2007] | Complete preamble and 46 articles in official March 2008 printing; no current legal determination. |
 | [@pettit2005] | Complete working paper and notes, printed pp. 1–21 / PDF pp. 3–23; not later publication collation. |
 | [@pettit2012] | All ten available introductory excerpt pages; not complete introduction or book. |
-| [@friedman2026law] | Earlier complete extracted-text report; focal §§2,11–13 and Figure 13 rechecked. Human decision schema is this project extension. |
+| [@friedman2026law] | Selected-context reading of §§2, 11–13 and captions, with PDF text spot-checks; §§3–10 were not read completely. Figure 13 was rechecked. The human decision schema is this project’s extension. |
 | [@rahman2025] | Contributor profile pp.124–130; speculative proposal, not report-wide authorship or validated effect. |
 | [@sabine2026letter; @sabine2026phase] | Prior selected passages; no full work/version collation, mathematical validation or simulation execution. |
 | [@friedman2026meta] | Earlier portfolio reading and version crosswalk; models, evidence and justified ends remain separate. |
@@ -71,3 +71,17 @@ The original image bodies remain uncropped. Jerusalem 27 and 99 come from the sa
 The source ledger retains retrieval failures, cache hashes and the exact versions used. New readings do not change the recorded status of Wright, Clark or the Makdisi book beyond its available introduction.
 
 \addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
+## Urizen context and refrain audit
+
+The new primary reading covers plates 4, 10–13 and 28 in the ASU electronic transcription, E71–77 and E83, including the seven repeated state-refrain locations. Quotations Q21–Q22 retain the source’s spelling and punctuation. The separate copied-corpus audit checks all 49 states matches in seven retained primary Urizen inputs against the refrain; this is occurrence/context verification, with source identities and hashes, rather than copy collation [@blakeUrizen].
+
+## Collective vision, national reception and material impressions
+
+| Study | Actual reading boundary |
+| :-- | :-- |
+| [@herrstrom1981Cherubim] | Complete official article prose and integrated notes 1–19, printed pp. 64–77; main prose ends p. 75. |
+| [@ferber2000Hymn] | Complete prose, notes 1–33 and discography, printed pp. 82–89; score images pp. 90–94 excluded. |
+| [@essickViscomi2002Color] | Selected continuous printed pp. 74–77 and 98–102, with notes in those ranges. Middle evidentiary sections and the opposing book were not read. |
+
+Jerusalem contexts were read at 45:1–44, 53:1–29, 73:1–54 and 91:1–58 in the ASU transcription. Q23–Q24 bind the provision and national-generation passages to that captured input. The access ledger retains unsuccessful Elliott publisher requests and discovery excerpts separately; they supply no substantive citation or reading credit.
