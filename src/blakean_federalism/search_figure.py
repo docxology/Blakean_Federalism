@@ -1,6 +1,8 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 """Literal retrieval counts with matched-unit and family denominators."""
 
+from math import ceil
+
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen.canvas import Canvas
 
@@ -33,6 +35,7 @@ def draw_search_study(c: Canvas, study: SearchStudy) -> None:
         )
         or 1
     )
+    maximum = ceil(maximum / 60) * 60
     for column, role in enumerate(roles):
         x = 144 + column * 128
         facets = [f for f in study.queries[0].facets if f.role == role]
@@ -48,10 +51,10 @@ def draw_search_study(c: Canvas, study: SearchStudy) -> None:
             8,
             MUTED,
         )
-        for i in range(3):
-            at = x + 112 * i / 2
+        for i in range(4):
+            at = x + 112 * i / 3
             line(c, at, 84, at, 321, GREY, 0.4)
-            label(c, f"{maximum * i / 2:g}", at, 326, 7, MUTED)
+            label(c, f"{maximum * i / 3:g}", at, 326, 7, MUTED)
     text(c, "LITERAL QUERY", 20, 330, 110, 8, MUTED)
     for row, query in enumerate(rows):
         y = 313 - row * 39

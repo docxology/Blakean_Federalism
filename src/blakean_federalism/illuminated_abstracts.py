@@ -15,6 +15,7 @@ from .illuminated_style import arrow, footer, heading, plate, prose, register_se
 from .institutional_experiment_models import InstitutionalExperiment
 from .manuscript import Quotation
 from .models import ResearchError
+from .publication_body import record_arrow
 from .workbench_models import Workbench
 
 _MAX_BASELINES = 5
@@ -228,53 +229,57 @@ def _decision(c: Canvas, source: _Sources) -> None:
     prose(c, source.verse("Q23"), (20, 118, 140, 58), size=11, font="BF-Serif-Italic")
     prose(c, "Jerusalem 73:49 / E229 (Q23)", (20, 57, 140, 12), size=9, color=MUTED)
     cells = (
-        (180, 432, "ENTITY", "Person, public or collective affected by the levy."),
-        (360, 432, "ASSIGNED ROLE", "User, worker, resident or treaty claimant."),
         (
             180,
-            350,
-            "ISSUER + JURISDICTION",
-            "Board names its charter, territory and reviewable competence.",
+            432,
+            "ENTITY / ROLE",
+            "Person, worker, resident or treaty claimant affected by the levy.",
         ),
-        (
-            360,
-            350,
-            "PROPOSED ACT + WARRANT",
-            "Levy, period, reasons and claimed C relation to the act.",
-        ),
+        (360, 432, "ISSUER / WARRANT", "Board, charter and reviewable claim of competence."),
         (
             180,
-            268,
+            260,
             "REACH / ENFORCER",
-            "Upstream, downstream and nonmembers. Name enforcing actor and coercive limits.",
+            "Upstream, downstream, nonmembers; enforcing actor and coercive limits.",
         ),
-        (360, 268, "CONSEQUENCE", "Water access, payment burden, residual harm and who bears it."),
+        (360, 260, "CONSEQUENCE", "Water access, payment burden and who bears residual harm."),
     )
     for x, top, title, detail in cells:
-        line(c, x, top, x + 160, top, RED, 1)
-        prose(c, title, (x, top - 8, 160, 23), size=9, color=RED)
-        prose(c, detail, (x, top - 33, 160, 39), size=10, font="BF-Serif")
-    for y in (395, 313, 231):
-        arrow(c, (343, y), (357, y))
-    arrow(c, (439, 360), (439, 350))
-    arrow(c, (260, 278), (260, 268))
-    line(c, 180, 181, 520, 181, RED, 1)
+        line(c, x, top, x + 160, top, BLACK, 1)
+        prose(c, title, (x, top - 8, 160, 14), size=9, color=RED)
+        prose(c, detail, (x, top - 28, 160, 48), size=10, font="BF-Serif")
+    record_arrow(c, 260, 354, 310, 330)
+    record_arrow(c, 440, 354, 390, 330)
+    line(c, 250, 330, 450, 330, RED, 1.2)
+    prose(c, "PROPOSED ACT d / TIME", (250, 322, 200, 15), size=10, color=RED)
     prose(
-        c, "CHALLENGE / INTERIM DUTIES / EFFECTIVE REMEDY", (180, 172, 340, 25), size=10, color=RED
+        c, "Water levy: period, reasons and scope.", (250, 302, 200, 25), size=10, font="BF-Serif"
     )
+    record_arrow(c, 310, 277, 260, 263)
+    record_arrow(c, 390, 277, 440, 263)
+    record_arrow(c, 260, 182, 310, 163)
+    record_arrow(c, 440, 182, 390, 163)
+    line(c, 180, 163, 520, 163, RED, 1)
+    prose(c, "FUNDED CHALLENGE / INTERIM PROVISION", (180, 155, 340, 15), size=10, color=RED)
     prose(
         c,
-        """Fund participation. Maintain essential water during review. Name the
-reviewer, deadline, binding remedy and route to challenge the forum itself.""",
-        (180, 143, 340, 40),
+        """Maintain essential water. Name reviewer, deadline and binding remedy.
+Allow challenge to the forum itself.""",
+        (180, 133, 340, 40),
         size=11,
         font="BF-Serif",
     )
-    arrow(c, (176, 115), (169, 115))
-    arrow(c, (169, 115), (169, 313), dashed=True)
-    arrow(c, (169, 313), (177, 313))
-    prose(c, "RECORD -> CHECK -> REVISE", (180, 92, 340, 14), size=10, color=RED)
-    prose(c, "EXCLUDED_AFFECTED / RESOURCE_GAP / CONTESTATION", (180, 71, 340, 24), size=9)
+    arrow(c, (180, 97), (170, 97))
+    arrow(c, (170, 97), (170, 342), dashed=True)
+    arrow(c, (170, 342), (350, 342), dashed=True)
+    arrow(c, (350, 342), (350, 331))
+    prose(c, "REVISION: act, warrant or forum", (180, 82, 340, 15), size=10, color=RED)
+    prose(
+        c,
+        "Red dashed feedback = revision; black arrows = record relationships.",
+        (180, 62, 340, 22),
+        size=9,
+    )
     footer(
         c,
         """Accountability map: classification, competence, reach, enforcement and remedy.
@@ -370,7 +375,7 @@ def _repairs(c: Canvas, experiment: InstitutionalExperiment) -> None:
     line(c, 20, 133, 520, 133, RED, 1)
     prose(
         c,
-        "FINITE INTERVENTIONS / failed baseline -> minimum interventions",
+        f"FINITE INTERVENTIONS / {len(experiment.catalog)} available operators",
         (20, 126, 500, 16),
         size=10,
         color=RED,
@@ -380,7 +385,7 @@ def _repairs(c: Canvas, experiment: InstitutionalExperiment) -> None:
         x = 20 + index * 100
         name = row.decision_id.split("-")[0]
         minimum = "N/A" if row.minimum_cardinality is None else str(row.minimum_cardinality)
-        prose(c, f"{name}  {minimum}", (x, 104, 92, 25), size=15, font="BF-Serif-Bold")
+        prose(c, f"{name} · minimum {minimum}", (x, 104, 96, 25), size=10, font="BF-Serif-Bold")
         count = len(row.baseline_failed_rules)
         prose(c, f"{count} failed rule" + ("s" if count != 1 else ""), (x, 85, 92, 13), size=9)
         prose(c, f"admit {row.admissible_subsets}/{row.subset_count}", (x, 71, 92, 13), size=9)

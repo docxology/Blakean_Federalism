@@ -25,8 +25,9 @@ def _heading(c: Canvas, title: str, subtitle: str) -> None:
 
 def _ceiling(values: list[float]) -> float:
     maximum = max(values, default=1) or 1
-    step = math.pow(10, math.floor(math.log10(maximum))) / 2
-    return math.ceil(maximum / step) * step
+    scale = math.pow(10, math.floor(math.log10(maximum / 4)))
+    step = next(v * scale for v in (1, 2, 5, 10) if v * scale >= maximum / 4)
+    return 4 * step
 
 
 def _axis(c: Canvas, maximum: float, x: float, width: float, bottom: float, top: float) -> None:
@@ -41,8 +42,8 @@ def _axis(c: Canvas, maximum: float, x: float, width: float, bottom: float, top:
 def rates(c: Canvas, stats: CorpusStatistics) -> None:
     _heading(
         c,
-        "Copies change the statistical emphasis",
-        "Occurrences per 10,000 tokens · pooled copies in red / equal-family mean in black",
+        "Pooled text and equal-family weighting",
+        "Per 10,000 tokens · red circle: pooled / black square: equal-family mean",
     )
     rows = {q.query_id: q for q in stats.queries}
     maximum = _ceiling(
@@ -56,10 +57,11 @@ def rates(c: Canvas, stats: CorpusStatistics) -> None:
             if v is not None
         ]
     )
-    _axis(c, maximum, 128, 280, 69, 349)
-    text(c, "POOLED / EQUAL", 422, 367, 98, 8, MUTED)
+    _axis(c, maximum, 128, 190, 82, 349)
+    text(c, "POOLED / EQUAL", 330, 367, 110, 8, MUTED)
+    text(c, "EXACT TEXT", 447, 367, 73, 8, MUTED)
     for i, query in enumerate(FOCUS):
-        y = 329 - 34 * i
+        y = 329 - 32 * i
         row = rows[query]
         families = sum(
             any(m.query_id == query and m.measure.occurrences > 0 for m in st.queries)
@@ -68,14 +70,20 @@ def rates(c: Canvas, stats: CorpusStatistics) -> None:
         )
         text(c, query, 20, y + 9, 104, 10)
         text(c, f"{row.copy_retaining.occurrences:,} occurrences", 20, y - 6, 104, 8, MUTED)
-        pooled = row.copy_retaining.rate_per_10000_tokens
-        equal = row.work_balanced_rate_per_10000_tokens
-        for value, dy, color in ((pooled, 3, RED), (equal, -3, BLACK)):
-            if value is not None:
-                end = 128 + 280 * value / maximum
-                line(c, 128, y + dy, end, y + dy, color, 1.6)
-                circle(c, end, y + dy, 2.5, color, color)
-        text(c, f"{number(pooled)} / {number(equal)}", 422, y + 10, 98, 9)
+        pooled, equal = (
+            row.copy_retaining.rate_per_10000_tokens,
+            row.work_balanced_rate_per_10000_tokens,
+        )
+        if pooled is not None and equal is not None:
+            line(c, 128 + 190 * pooled / maximum, y, 128 + 190 * equal / maximum, y, MUTED, 1)
+        if pooled is not None:
+            circle(c, 128 + 190 * pooled / maximum, y, 3, RED, RED)
+        if equal is not None:
+            c.setFillColor(HexColor(BLACK))
+            c.rect(125 + 190 * equal / maximum, y - 3, 6, 6, fill=1, stroke=0)
+        text(c, f"{number(pooled)} / {number(equal)}", 330, y + 9, 110, 9)
+        text(c, number(row.exact_text.rate_per_10000_tokens), 447, y + 9, 73, 9)
+        text(c, f"{row.exact_text.occurrences:,} hits", 447, y - 6, 73, 8, MUTED)
         text(
             c,
             "".join(
@@ -90,25 +98,39 @@ def rates(c: Canvas, stats: CorpusStatistics) -> None:
             7.8,
             MUTED,
         )
-    line(c, 20, 60, 520, 60)
+    line(c, 20, 70, 520, 70)
+    exact = rows[FOCUS[0]].exact_text
     text(
         c,
         "".join(
             (
-                f"Pooled denominator: {stats.primary_tokens:,} tokens. Equal mean: ",
-                "positive-token families only.",
+                f"Pooled denominator: {stats.primary_tokens:,} tokens / ",
+                f"{stats.primary_source_units} units.",
             )
         ),
         20,
-        51,
+        62,
         500,
         8.5,
     )
     text(
         c,
-        "Presence counts families and individual extracts; occurrences count every match.",
+        "".join(
+            (
+                f"Exact-text denominator: {exact.tokens:,} tokens / {exact.source_units} units; ",
+                f"{len(stats.exact_duplicate_groups)} identical-text groups.",
+            )
+        ),
         20,
-        34,
+        47,
+        500,
+        8.5,
+    )
+    text(
+        c,
+        "Equal mean: positive-token families. Rounded rates can conceal changed counts.",
+        20,
+        31,
         500,
         8,
         MUTED,
@@ -119,7 +141,7 @@ def sensitivity(c: Canvas, stats: CorpusStatistics) -> None:
     _heading(
         c,
         "Which omissions change the pooled rate?",
-        "Rates per 10,000 tokens · finite deletion range in grey / complete collection in red",
+        "Rates per 10,000 tokens · all deletions in grey / complete collection in red",
     )
     rows = {q.query_id: q for q in stats.queries}
     ranges = {
@@ -140,32 +162,59 @@ def sensitivity(c: Canvas, stats: CorpusStatistics) -> None:
         ]
     )
     _axis(c, maximum, 128, 280, 70, 349)
-    text(c, "MAX HIT SHARE", 431, 367, 89, 8, MUTED)
+    text(c, "LARGEST FAMILY", 419, 367, 101, 8, MUTED)
     for i, query in enumerate(FOCUS):
         y = 330 - i * 34
         row = rows[query]
         text(c, query, 20, y + 6, 104, 10)
         share = row.maximum_work_occurrence_share
-        text(c, "N/A" if share is None else f"{share:.0%}", 448, y + 6, 70, 12)
+        contributions = [
+            (m.measure.occurrences, str(st.key[0]))
+            for st in stats.strata
+            if st.dimension == "work"
+            for m in st.queries
+            if m.query_id == query
+        ]
+        hits, family = max(contributions, default=(0, "N/A"))
+        text(c, family if share is not None else "N/A", 419, y + 12, 101, 8)
+        text(
+            c,
+            "N/A" if share is None else f"{hits}/{row.copy_retaining.occurrences} ({share:.0%})",
+            419,
+            y,
+            101,
+            8,
+        )
         if ranges[query]:
             lower, upper = min(v for v, _ in ranges[query]), max(v for v, _ in ranges[query])
             lo, hi = 128 + 280 * lower / maximum, 128 + 280 * upper / maximum
-            line(c, lo, y, hi, y, MUTED, 4)
+            line(c, lo, y, hi, y, GREY, 1)
+            for value, _ in ranges[query]:
+                at = 128 + 280 * value / maximum
+                line(c, at, y - 4, at, y + 4, MUTED, 0.6)
             for at in (lo, hi):
                 line(c, at, y - 4, at, y + 4, MUTED, 1)
             endpoints: list[str] = []
             for value in (lower, upper):
                 ids = sorted(k for v, k in ranges[query] if v == value)
                 endpoints.append(
-                    f"{number(value)} omit {ids[0]}"
-                    + (f" (+{len(ids) - 1} tied)" if len(ids) > 1 else "")
+                    "".join(
+                        (
+                            f"{number(value)} omit {ids[0]}",
+                            (f" (+{len(ids) - 1} tied)" if len(ids) > 1 else ""),
+                        )
+                    ),
                 )
             text(c, "  /  ".join(endpoints), 128, y - 9, 390, 7.8, MUTED)
         else:
             text(
                 c,
-                "N/A: no defined deletion rate; pooled "
-                + number(row.copy_retaining.rate_per_10000_tokens),
+                "".join(
+                    (
+                        "N/A: no defined deletion rate; pooled ",
+                        number(row.copy_retaining.rate_per_10000_tokens),
+                    )
+                ),
                 128,
                 y - 9,
                 390,
@@ -186,7 +235,7 @@ def sensitivity(c: Canvas, stats: CorpusStatistics) -> None:
     )
     text(
         c,
-        "Endpoints: first omitted ID + tie count. Max hit share: largest family share.",
+        "Endpoints: first omitted ID + ties. Largest family: hits / all query hits.",
         20,
         33,
         500,
@@ -206,7 +255,15 @@ def cooccurrence(c: Canvas, stats: CorpusStatistics) -> None:
         for p in stats.cooccurrences
         if p.universe == "work_presence"
     }
-    matches = {q.query_id: q.copy_retaining.matched_units for q in stats.queries}
+    families = {
+        q: {
+            str(st.key[0])
+            for st in stats.strata
+            if st.dimension == "work"
+            and any(m.query_id == q and m.measure.occurrences for m in st.queries)
+        }
+        for q in FOCUS
+    }
     left, bottom, width, height = 116, 143, 50, 23
     for i, query in enumerate(FOCUS):
         c.saveState()
@@ -216,10 +273,17 @@ def cooccurrence(c: Canvas, stats: CorpusStatistics) -> None:
         c.setFont("BF-Vera", 9)
         c.drawString(0, 0, query)
         c.restoreState()
-        text(c, query, 20, bottom + height * (8 - i) - 6, 92, 9)
+        text(
+            c,
+            f"{query} {len(families[query])}/{stats.primary_work_groups}",
+            20,
+            bottom + height * (8 - i) - 4,
+            94,
+            8.5,
+        )
         for j, other in enumerate(FOCUS):
             value = (
-                (1.0 if matches[query] else None)
+                (1.0 if families[query] else None)
                 if i == j
                 else (pairs.get((query, other)) or pairs[(other, query)]).jaccard
             )
@@ -236,7 +300,13 @@ def cooccurrence(c: Canvas, stats: CorpusStatistics) -> None:
                 WHITE if value is not None and value > 0.7 else BLACK,
             )
     line(c, 20, 132, 520, 132, RED)
-    text(c, "DIRECTION MATTERS", 20, 124, 500, 9, RED)
+    text(c, "DIRECTION MATTERS", 20, 124, 260, 9, RED)
+    for i in range(5):
+        shade = 255 - round(195 * i / 4)
+        c.setFillColor(HexColor(f"#{shade:02x}{shade:02x}{shade:02x}"))
+        c.rect(385 + 19 * i, 113, 19, 9, fill=1, stroke=0)
+    label(c, "0", 378, 114, 8)
+    label(c, "1", 488, 114, 8)
     for i, (left_query, right_query) in enumerate(
         (("states", "nations"), ("liberty", "particulars"))
     ):
@@ -258,7 +328,12 @@ def cooccurrence(c: Canvas, stats: CorpusStatistics) -> None:
         )
         text(
             c,
-            f"{p.both_matches} shared / {p.either_matches} either families",
+            "".join(
+                (
+                    f"{p.both_matches} shared / {p.either_matches} either: ",
+                    ", ".join(sorted(families[left_query] & families[right_query])),
+                )
+            ),
             20,
             93 - i * 25,
             500,
@@ -296,99 +371,101 @@ def repairs(c: Canvas, report: Workbench) -> None:
         return
     _heading(
         c,
-        "Minimum safeguards for failed records",
-        "Synthetic finite enumeration · fixed actions, populations, coercion and material duties",
+        "Repair bundles across the finite family",
+        "Fixed actions, populations and material duties · exact declared operator IDs",
     )
     rows = [d for d in experiment.decisions if d.baseline_failed_rules]
-    text(c, "BASELINE / FAILED RULES", 20, 366, 145, 8, MUTED)
-    text(c, "MINIMUM OPERATOR BUNDLE", 175, 366, 224, 8, MUTED)
-    text(c, "ADMISSIBLE / TESTED", 407, 366, 113, 8, MUTED)
+    text(c, "FAILED RECORD / MINIMUM BUNDLE", 20, 367, 235, 8, MUTED)
+    text(c, "ADMISSIBLE / TESTED BY BUNDLE SIZE", 274, 367, 246, 8, MUTED)
+    sizes = range(len(experiment.catalog) + 1)
+    for k in sizes:
+        label(c, str(k), 281 + 18 * k, 342, 8, MUTED)
     for i, row in enumerate(rows):
-        y = 345 - i * 49
-        text(c, row.decision_id, 20, y, 140, 10)
-        text(
-            c,
-            ", ".join(code.replace("_", " ").lower() for code in row.baseline_failed_rules),
-            20,
-            y - 15,
-            140,
-            8,
-            MUTED,
-        )
+        y = 325 - i * 44
         bundles = [
             " + ".join(op.value for op in bundle)
             for bundle in row.minimal_bundles
             if len(bundle) == row.minimum_cardinality
         ]
+        minimum = "N/A" if row.minimum_cardinality is None else str(row.minimum_cardinality)
         text(
             c,
-            "N/A" if row.minimum_cardinality is None else str(row.minimum_cardinality),
-            175,
-            y,
-            25,
-            18,
+            f"{row.decision_id} · minimum {minimum} · {len(bundles)} bundle(s)",
+            20,
+            y + 6,
+            247,
+            9,
             RED,
         )
-        text(c, " OR ".join(bundles) if bundles else "None", 204, y, 195, 8.3)
+        text(c, " OR ".join(bundles) if bundles else "None", 20, y - 8, 247, 8.3)
+        for k, (admitted, tested) in enumerate(
+            zip(row.admissible_by_size, row.subsets_by_size, strict=True)
+        ):
+            x = 274 + 18 * k
+            c.setFillColor(HexColor(GREY))
+            c.rect(x, y - 14, 14, 20, fill=1, stroke=0)
+            if tested:
+                c.setFillColor(HexColor(BLACK))
+                c.rect(x, y - 14, 14, 20 * admitted / tested, fill=1, stroke=0)
+            else:
+                label(c, "N/A", x + 7, y - 7, 6)
         text(
             c,
-            f"minimum {row.minimum_cardinality}; {len(bundles)} bundle(s)",
-            204,
-            y - 31,
-            195,
-            7.5,
-            MUTED,
+            "".join(
+                (
+                    f"{row.admissible_subsets:,}/{row.subset_count:,} subsets; ",
+                    f"{row.distinct_states} distinct records",
+                )
+            ),
+            274,
+            y - 18,
+            246,
+            8,
         )
-        text(c, f"{row.admissible_subsets:,}/{row.subset_count:,}", 407, y, 113, 10)
-        line(c, 407, y - 19, 520, y - 19, GREY, 4)
-        if row.subset_count:
-            line(
-                c,
-                407,
-                y - 19,
-                407 + 113 * row.admissible_subsets / row.subset_count,
-                y - 19,
-                BLACK,
-                4,
-            )
-        text(c, f"{row.distinct_states} distinct records", 407, y - 28, 113, 8, MUTED)
-        line(c, 20, y - 44, 520, y - 44, GREY, 0.5)
+        line(c, 20, y - 35, 520, y - 35, GREY, 0.5)
+    text(
+        c,
+        "Strip height: admissible / tested at each size, 0 to 1. Not success probability.",
+        20,
+        99,
+        500,
+        8,
+    )
     text(
         c,
         "".join(
             (
                 f"ALL {len(experiment.decisions)} RECORDS: ",
                 f"{experiment.total_admissible_subsets:,}/{experiment.total_subsets:,} ",
-                f"admissible subsets; {experiment.total_distinct_states} distinct records",
+                "admissible subsets; ",
+                f"{experiment.total_distinct_states} distinct records",
             )
         ),
         20,
-        89,
+        82,
         500,
         10,
         RED,
     )
-    text(
-        c,
-        "Bars: admissible fraction (0 to 1); inactive operators repeat unchanged outcomes.",
-        20,
-        63,
-        500,
-        8,
-    )
-    bounded_subsets = sum(
-        d.admissible_subsets for d in experiment.decisions if not d.baseline_failed_rules
-    )
+    bounded = [d for d in experiment.decisions if not d.baseline_failed_rules]
     text(
         c,
         "".join(
             (
-                f"{len(experiment.decisions) - len(rows)} bounded baselines: minimum 0. ",
-                f"{bounded_subsets:,} admissible subsets in these programmed records.",
+                f"{len(bounded)} bounded baselines: minimum 0; ",
+                f"{sum(d.admissible_subsets for d in bounded):,} admissible subsets.",
             )
         ),
         20,
-        44,
+        55,
+        500,
+        8,
+    )
+    text(
+        c,
+        "Distinct resulting records include admissible and inadmissible outcomes.",
+        20,
+        37,
         500,
         8,
         MUTED,

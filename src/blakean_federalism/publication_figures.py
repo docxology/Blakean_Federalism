@@ -16,6 +16,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen.canvas import Canvas
 
 from .analysis_figures import FOCUS, cooccurrence, rates, repairs, sensitivity
+from .federated_comparison_figure import draw_federated_comparison
 from .figure_style import (
     WHITE as PAPER,
 )
@@ -66,6 +67,8 @@ def generate_figures(
     }
     if artwork is not None:
         drawings.update(illuminated_drawings(report, artwork))
+        if report.producer_version == "0.12.0":
+            drawings["federated-inference-authority"] = draw_federated_comparison
     stats = report.corpus_statistics
     if stats is not None and set(FOCUS) <= {q.query_id for q in stats.queries}:
         drawings.update(
