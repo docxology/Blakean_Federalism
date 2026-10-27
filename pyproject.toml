@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-federalism"
-version = "0.10.0"
+version = "0.11.0"
 readme = "README.md"
 authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"

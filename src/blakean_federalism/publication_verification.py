@@ -1,6 +1,7 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 "Verify reference identity and complete selected quotations in actual PDF/HTML bytes."
 
+import io
 import json
 import re
 import unicodedata
@@ -8,6 +9,7 @@ from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 
+from PIL import Image
 from pypdf import PdfReader
 from typing_extensions import override
 
@@ -16,6 +18,8 @@ from .models import ResearchError
 from .publication_contract import source_bindings
 from .publication_models import NativeReceipt, PreparedPublication, ReferenceContract
 from .storage import digest, safe_path, write_new
+
+OPENING_PAGE_COUNT = 4
 
 
 class NumberedBlocks(HTMLParser):
@@ -75,6 +79,25 @@ def verify_opening(pages: list[str]) -> None:
             raise ResearchError("rendered_opening", f"Physical page {index + 1}")
 
 
+def verify_opening_images(reader: PdfReader, figures: Path) -> None:
+    """Verify each actual opening illustration, not merely its page heading."""
+    if len(reader.pages) < OPENING_PAGE_COUNT:
+        raise ResearchError("rendered_opening_image", "Four physical pages required")
+    for index in range(OPENING_PAGE_COUNT):
+        with Image.open(safe_path(figures, f"abstract-{index + 1}.png")) as original:
+            expected = original.convert("RGB")
+            pixels = expected.tobytes()
+            size = expected.size
+        matched = False
+        for embedded in reader.pages[index].images:
+            with Image.open(io.BytesIO(embedded.data)) as actual:
+                if actual.size == size and actual.convert("RGB").tobytes() == pixels:
+                    matched = True
+                    break
+        if not matched:
+            raise ResearchError("rendered_opening_image", f"Physical page {index + 1}")
+
+
 def verify_notation(pages: list[str], html: str) -> list[int]:
     """Require the actual notation table before the numbered argument in both editions."""
     start = html.find('id="sec:notation"')
@@ -131,6 +154,7 @@ def verify_publication(root: Path, stage: Path) -> dict[str, object]:
     document.feed(html)
     verify_references(prepared.contract, document, html, pdf_text)
     verify_opening(pages)
+    verify_opening_images(pdf, safe_path(stage, "output/figures/abstract-1.png").parent)
     notation_pages = verify_notation(pages, html)
     aux = safe_path(stage, "output/pdf/_combined_manuscript.aux").read_text()
     pdf_keys = {match.group(1) for match in re.finditer(r"\\bibcite\{([^}]+)\}", aux)}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.11.0 — illuminated composition and accountable common life
+
+- Redraw all four graphical abstracts with uncropped Blake plates, embedded serif epigraphs, typed relations, scholarly disputes and directly labeled evidence.
+- Remove the inversion framing; develop the relations among persons, poetic states, national formations and institutions through close reading.
+- Add four verified quotation groups and two identified LOC sheets: 36 quotation records, 148 exact segments and 14 historical plates.
+- Independently check all 22 notation entries against definitions and implementation; clarify local indices, undefined minima and per-term nonoverlapping matches.
+- Preserve the corpus, search calculations, original producer receipts and 47-entry scholarship reading ledger.
+
 ## 0.10.0 — creation, notation and word-window retrieval
 
 - Refactor the opening around systems and deliverance, with two new scholarly readings, three verified Blake excerpts and a comprehensive one-paragraph abstract.

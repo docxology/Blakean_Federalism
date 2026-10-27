@@ -22,6 +22,7 @@ from .figure_style import (
 from .figure_style import (
     registry as _registry,
 )
+from .illuminated_abstracts import illuminated_drawings
 from .proximity_figure import draw_proximity_study
 from .proximity_study import ProximityStudy
 from .publication_abstracts import composition, decision, scholarship
@@ -44,6 +45,8 @@ def generate_figures(
     rasterizer: str,
     search_study: SearchStudy | None = None,
     proximity_study: ProximityStudy | None = None,
+    *,
+    artwork: dict[str, Path] | None = None,
 ) -> dict[str, str]:
     """Write new deterministic vector masters and PNG derivatives."""
     directory = Path(__file__).parent / "resources/fonts"
@@ -61,6 +64,8 @@ def generate_figures(
         "watershed-options": draw_watershed,
         "agreement-routes": draw_agreement_routes,
     }
+    if artwork is not None:
+        drawings.update(illuminated_drawings(report, artwork))
     stats = report.corpus_statistics
     if stats is not None and set(FOCUS) <= {q.query_id for q in stats.queries}:
         drawings.update(

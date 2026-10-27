@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from PIL import Image
 from pypdf import PdfReader
 from reportlab.pdfgen.canvas import Canvas
 from typer.testing import CliRunner
@@ -26,6 +27,7 @@ from blakean_federalism.publication_verification import (
     NumberedBlocks,
     verify_notation,
     verify_opening,
+    verify_opening_images,
     verify_publication,
     verify_references,
 )
@@ -133,6 +135,30 @@ def test_escaped_straight_apostrophe_preserves_source_punctuation(manuscript):
         validate_manuscript(root, current, markdown.replace("\\'", chr(0x2019)))
     with pytest.raises(ResearchError, match="manuscript_quotation"):
         validate_manuscript(root, current, markdown.replace("form", "for"))
+
+
+def test_escaped_double_hyphen_preserves_two_source_characters(manuscript):
+    root, spec = manuscript
+    source = root / "source.html"
+    source.write_text(source.read_text().replace("Persons &amp; states", "Parts--the"))
+    assets = tuple(
+        asset.model_copy(update={"sha256": digest(source), "size": source.stat().st_size})
+        if asset.asset_id == "text"
+        else asset
+        for asset in spec.assets
+    )
+    quotes = tuple(
+        quote.model_copy(
+            update={"segments": (quote.segments[0].model_copy(update={"text": "Parts--the"}),)}
+        )
+        for quote in spec.quotations
+    )
+    current = spec.model_copy(update={"assets": assets, "quotations": quotes})
+    markdown = "> Parts\\-\\-the\n\n" * 4
+    assert validate_manuscript(root, current, markdown)
+    for changed in (markdown.replace("\\-\\-", "-", 1), markdown.replace("the", "them", 1)):
+        with pytest.raises(ResearchError, match="manuscript_quotation"):
+            validate_manuscript(root, current, changed)
 
 
 @pytest.fixture
@@ -303,6 +329,35 @@ def test_opening_is_checked_by_physical_page(change):
             verify_opening(pages)
 
 
+@pytest.mark.parametrize("change", ["positive", "floated_fourth", "wrong_fourth", "short"])
+def test_opening_requires_the_correct_embedded_image_on_each_page(tmp_path, change):
+    for number in range(1, 5):
+        Image.new("RGB", (30 + number, 40), (number * 40, 0, 0)).save(
+            tmp_path / f"abstract-{number}.png"
+        )
+    target = tmp_path / "opening.pdf"
+    canvas = Canvas(str(target))
+    for number in range(1, 6 if change != "short" else 4):
+        canvas.drawString(20, 700, f"Graphical abstract {number}")
+        image_number = number
+        if change == "floated_fourth" and number == 4:
+            image_number = 0
+        elif change == "floated_fourth" and number == 5:
+            image_number = 4
+        elif change == "wrong_fourth" and number == 4:
+            image_number = 3
+        if 1 <= image_number <= 4:
+            canvas.drawImage(str(tmp_path / f"abstract-{image_number}.png"), 20, 200)
+        canvas.showPage()
+    canvas.save()
+    reader = PdfReader(target)
+    if change == "positive":
+        verify_opening_images(reader, tmp_path)
+    else:
+        with pytest.raises(ResearchError, match="rendered_opening_image"):
+            verify_opening_images(reader, tmp_path)
+
+
 @pytest.fixture
 def serialized_editions(publication_source):
     # Synthetic serialization controls, not evidence of a native template execution.
@@ -312,14 +367,19 @@ def serialized_editions(publication_source):
     pdf = stage / "output/pdf/test.pdf"
     pdf.parent.mkdir()
     canvas = Canvas(str(pdf))
-    for text in [
-        "States Change",
-        "Graphical abstract 2",
-        "Graphical abstract 3",
-        "Graphical abstract 4",
-        "Notation and reading conventions Symbol Meaning",
-        "Definition 1 (Trial).",
-    ]:
+    for index, text in enumerate(
+        [
+            "States Change",
+            "Graphical abstract 2",
+            "Graphical abstract 3",
+            "Graphical abstract 4",
+            "Notation and reading conventions Symbol Meaning",
+            "Definition 1 (Trial).",
+        ],
+        start=1,
+    ):
+        if index <= 4:
+            canvas.drawImage(str(stage / f"output/figures/abstract-{index}.png"), 50, 100, 400, 385)
         canvas.drawString(50, 700, text)
         if text.startswith("Definition"):
             for i in range(4):

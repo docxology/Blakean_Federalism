@@ -47,7 +47,7 @@ class Quotation(FrozenModel):
 
 
 class ManuscriptSpec(FrozenModel):
-    version: Literal["0.2.0", "0.5.0", "0.6.0", "0.7.0", "0.8.0", "0.9.0", "0.10.0"]
+    version: Literal["0.2.0", "0.5.0", "0.6.0", "0.7.0", "0.8.0", "0.9.0", "0.10.0", "0.11.0"]
     assets: tuple[Asset, ...]
     quotations: tuple[Quotation, ...]
     fronts: tuple[str, ...]
@@ -162,6 +162,22 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
             "J59",
             "J98",
         },
+        "0.11.0": {
+            "M32",
+            "J52",
+            "J54",
+            "J73",
+            "J27",
+            "J99",
+            "J55",
+            "J91",
+            "J12",
+            "J61",
+            "J59",
+            "J98",
+            "J1",
+            "J100",
+        },
     }[spec.version]
     if {a.asset_id for a in spec.assets if a.kind == "image"} != expected_images:
         raise ResearchError("image_set", "The exact selected plate set is required")
@@ -201,9 +217,9 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
     blocks = (m.group(0) for m in re.finditer(r"(?:^>[^\n]*(?:\n|$))+", markdown, re.MULTILINE))
     actual = Counter(
         normalized(
-            re.sub(r"\\\n", "\n", re.sub(r"^> ?", "", block, flags=re.MULTILINE)).replace(
-                "\\'", "'"
-            )
+            re.sub(r"\\\n", "\n", re.sub(r"^> ?", "", block, flags=re.MULTILINE))
+            .replace("\\'", "'")
+            .replace("\\-", "-")
         )
         for block in blocks
     )

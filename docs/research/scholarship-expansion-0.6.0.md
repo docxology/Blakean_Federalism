@@ -74,7 +74,7 @@ The counterpressure is unusually clear in Blake’s letter to Flaxman of 19 Octo
 
 ## Objections to carry into revision
 
-1. **The fixed-repertoire objection changes the thesis itself.** If enduring states mean a complete inventory known to the theorist, execution-generated invention is difficult to accommodate. Defend recurrence without completeness, or acknowledge that the new scholarship weakens the initial inversion.
+1. **The fixed-repertoire objection changes the thesis itself.** If enduring states mean a complete inventory known to the theorist, execution-generated invention is difficult to accommodate. Defend recurrence without completeness, or acknowledge that the new scholarship qualifies a strict division between eternal states and temporal nations.
 2. **Mercy may retain a sovereign giver.** Heppner’s bound woman makes the issue visible but does not settle it. A release procedure should be a claimable obligation with an accountable actor; otherwise compassionate authority can preserve dependency.
 3. **Prevention may expand surveillance.** Jerusalem 55’s appeal to particulars cannot justify acquiring unlimited personal information. Specify a relevant injury and the minimum evidence needed to prevent it, with a challenge to the collection itself.
 4. **Public art is no transparent measure of inclusion.** Matthews offers a historical interpretation, including conjectural links, not evidence that an exhibition redistributed power. The proposed institutional extension needs authority over access and selection to be made contestable.

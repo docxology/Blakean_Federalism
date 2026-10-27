@@ -1,12 +1,14 @@
 # Abstract {.unnumbered}
 
-A federation can sustain several nations without becoming one nation. This article develops composition without capture: collective histories, solidarities and institutions can make a common world without possessing the persons who participate in it. Its proposed inversion places STATES, understood as enduring imaginative possibilities, within a federation whose NATIONS are historical productions and combinations. Close readings of Milton, Jerusalem and the Last Judgment prose distinguish persons from states while confronting passages in which states change, nations appear within eternity, and imaginative creation employs coercion. Blake scholarship on particularity, national mediation, gendered agency, practical science and artistic production turns these tensions into questions about who makes, interprets and revises a common form. The argument distinguishes affiliation, interpretation and claimed institutional competence; a typed countermodel shows that the first two relations do not determine the third. Comparison with demoicracy, cultural autonomy, polycentric governance, non-domination and treaty federalism then specifies standing, jurisdiction, material obligations and effective challenge. A classification-decision record follows an act from its named entity and assigned role through issuer, warrants, consequence, affected reach and enforcement. Five hypothetical Xeno-California conflicts supply ten alternatives evaluated against fifteen explicit safeguards. Exhaustive examination of 40,960 intervention subsets identifies minimum repairs and distinguishes bundles from the 31 distinct resulting records. A source-bound corpus analysis separates 2,067 imported units by role and plane, compares pooled and equal-family rates across 199 primary extracts, and measures copy repetition, deletion sensitivity and query overlap. Extended literal search preserves original-text offsets, source identities and counts before the display cap; optional word windows identify every occurrence participating in a complete nearby combination. Graphical abstracts, analytical diagrams, Blake plates and a front notation table connect the literary argument to these inspectable constructions. The resulting account joins shared rule to continuing powers of interpretation, provision, refusal and revision: a national formation contributes to a federation through what it enables people to make together, without acquiring an exhaustive title to their identities or future acts.
+A federation can sustain several nations without becoming one nation. This article develops composition without capture: collective histories, solidarities and institutions can make a common world without possessing the persons who participate in it. It distinguishes poetic states, persons and historical national formations: states name recurrent imaginative possibilities, nations give particular histories to collective life, and neither exhausts the persons who participate in them. Close readings of Milton, Jerusalem and the Last Judgment prose distinguish persons from states while confronting passages in which states change, nations appear within eternity, and imaginative creation employs coercion. Blake scholarship on particularity, national mediation, gendered agency, practical science and artistic production turns these tensions into questions about who makes, interprets and revises a common form. The argument distinguishes affiliation, interpretation and claimed institutional competence; a typed countermodel shows that the first two relations do not determine the third. Comparison with demoicracy, cultural autonomy, polycentric governance, non-domination and treaty federalism then specifies standing, jurisdiction, material obligations and effective challenge. A classification-decision record follows an act from its named entity and assigned role through issuer, warrants, consequence, affected reach and enforcement. Five hypothetical Xeno-California conflicts supply ten alternatives evaluated against fifteen explicit safeguards. Exhaustive examination of 40,960 intervention subsets identifies minimum repairs and distinguishes bundles from the 31 distinct resulting records. A source-bound corpus analysis separates 2,067 imported units by role and plane, compares pooled and equal-family rates across 199 primary extracts, and measures copy repetition, deletion sensitivity and query overlap. Extended literal search preserves original-text offsets, source identities and counts before the display cap; optional word windows identify every occurrence participating in a complete nearby combination. Graphical abstracts, analytical diagrams, Blake plates and a front notation table connect the literary argument to these inspectable constructions. The resulting account joins shared rule to continuing powers of interpretation, provision, refusal and revision: a national formation contributes to a federation through what it enables people to make together, without acquiring an exhaustive title to their identities or future acts.
 
 # Creating a common world without possessing its participants {#sec:s1}
 
-## Los creates a system while striving to deliver individuals from systems
+![Jerusalem frontispiece, copy I, plate 1. A clothed figure carries a radiant lamp through an arch: passage has a body, an instrument and a threshold. The cover uses this complete image beside the article's relational diagram; the modern labels are separate from Blake's design. LOC, Rosenwald Collection, item 48038103, 2003 scan 1; posthumous impression, approximately 1832?.](../figures/plate-J1.jpg){#fig:plate-J1 height=3.5in}
 
-Los's declaration in Jerusalem makes the problem of collective order urgent before it becomes constitutional:
+## Creating a system, releasing its participants: Los and the authority of the maker
+
+Los's declaration in *Jerusalem* makes collective order a problem of making: who creates its form, whose labor sustains it, and who can alter what it demands?
 
 \Needspace{6\baselineskip}
 
@@ -27,9 +29,37 @@ The next plate names the object of Los's continuing labor:
 
 Q31. William Blake, Jerusalem 11:5, E154. [@blakeJerusalem].
 
-Chains, furnaces and the felt pain of threatened persons surround that labor. The value of a system cannot be settled by its creator's independence. Its consequences for those within its reach matter. Plate 12 complicates even the opposition between system and release: mathematical fixation gives falsehood a body that can be cast off, and demonstrative science turns an adversary's weapon against him [@blakeJerusalem, 11:1–7, E154; 12:10–15, E155]. Making a claim definite can expose its limits. A model, register or constitution becomes politically dangerous when its definiteness closes the possibility of challenging what it leaves out.
+Chains, furnaces and the felt pain of threatened persons surround that labor. The value of a system cannot be settled by its creator's independence. Blake makes *“Individuals”* the objects of deliverance, including those whose pain frustrates the maker's preferred design. Its consequences for those within its reach matter. Plate 12 complicates even the opposition between system and release: mathematical fixation gives falsehood a body that can be cast off, and demonstrative science turns an adversary's weapon against him [@blakeJerusalem, 11:1–7, E154; 12:10–15, E155]. Making a claim definite can expose its limits. A model, register or constitution becomes politically dangerous when its definiteness closes the possibility of challenging what it leaves out.
 
-## States change, persons endure, and national productions matter
+## Words, letters and national arts: composition begins with organized differences
+
+Blake's public address in *Jerusalem* describes the craft of a common form before the poem's visionary institutions unfold:
+
+\Needspace{7\baselineskip}
+
+> Every word and every letter is studied and put into its fit\
+> place: the terrific numbers are reserved for the terrific\
+> parts\-\-the mild & gentle, for the mild & gentle parts, and the\
+> prosaic, for inferior parts: all are necessary to each other.
+
+Q33. William Blake, Jerusalem 3, prose, E146. [@blakeJerusalem].
+
+The differences concern cadence, syllable and tone, not interchangeable units inside an already completed plan. Each mode acquires force through its placement among others. The phrase *“all are necessary to each other”* joins particularity to relation; it also retains the evaluative distinction between terrific, gentle and *“inferior”* parts. A political reconstruction must ask who assigns those places and who can dispute the ranking. Mellor's account of unequal creative agency makes that question unavoidable, while Viscomi's account of invention during execution prevents the organizer's initial design from becoming the last word [@mellor1982, pp. 148–153; @viscomi2012Invention, secs. II–IV].
+
+Blake immediately gives artistic organization national stakes:
+
+\Needspace{7\baselineskip}
+
+> Poetry Fetter\'d, Fetters the Human Race! Nations are Destroy\'d,\
+> or Flourish, in proportion as Their Poetry Painting and Music,\
+> are Destroy\'d or Flourish! The Primeval State of Man, was Wisdom,\
+> Art, and Science.
+
+Q34. William Blake, Jerusalem 3, prose, E146. [@blakeJerusalem].
+
+A nation takes shape through practices of expression, making, memory and address. A governing organization can claim to protect that life while restricting who publishes, learns, makes or speaks in its name. Stefanis's analysis of the exhibition and catalogue shows how selection and presentation seek public authority; Matthews's reading of Jane Shore asks whose embodied life appears among the nation's exemplary figures [@stefanis2010Reasoned, concluding comparison; @matthews2010Gallery, notes 18–28, 42–49, 67]. The federal question concerns control over these conditions of cultural production as well as the distribution of seats. A language body that supports teaching and translation need not control its members' complete political voice. A common institution should make artistic and intellectual participation possible without requiring assent to one authorized national image.
+
+## Persons exceed their states; national histories give common forms their particular life
 
 The central distinction appears in Milton's instruction on combination:
 
@@ -43,7 +73,7 @@ Q03. William Blake, Milton 32:22-24, E132. [@blakeMilton].
 
 The Seven Angels distinguish combination in freedom and brotherhood from combination through war, sacrifice and imprisonment. The issue is how a multitude is composed, rather than whether it is a multitude. Individual identities also endure; the contrast is not an eternal collective against expendable persons. Imagination itself is not a state [@blakeMilton, 32:8–38, E131–132]. An official therefore cannot acquire a person's identity by classifying the state through which that person passes.
 
-The proposed inversion is that a federation contains STATES as imaginative possibilities, while NATIONS are historical formations through which possibilities become articulate. A nation may disclose several possibilities; a possibility may recur across several national histories. Their relation is many-to-many. This is a constructive distinction made through Blake, whose Last Judgment prose also describes states appearing as multitudes of nations. It must answer to that visionary use rather than pretend to supply an exhaustive dictionary of his terms [@blakeLastJudgment, notebook p. 76, second passage, E556–557]. Damrosch's account of universality in particular manifestations reinforces the need to resist a detachable essence that an institution could certify as a people's real nature [@damrosch1980, pp. 15–21, especially p. 20 n. 25].
+A federation sustains relations among imaginative possibilities and the historical national formations through which they become articulate. A nation may disclose several possibilities; a possibility may recur across several national histories. Their relation is many-to-many. This is a constructive distinction made through Blake, whose Last Judgment prose also describes states appearing as multitudes of nations. It must answer to that visionary use rather than pretend to supply an exhaustive dictionary of his terms [@blakeLastJudgment, notebook p. 76, second passage, E556–557]. Damrosch's account of universality in particular manifestations reinforces the need to resist a detachable essence that an institution could certify as a people's real nature [@damrosch1980, pp. 15–21, especially p. 20 n. 25].
 
 Temporal production has affirmative value:
 
@@ -61,7 +91,7 @@ Stefanis makes selection a material practice. Blake's 1809 exhibition and Descri
 
 Mellor's objection concerns the agency distributed within the shared form. Inclusive fraternity and androgyny can preserve a division in which masculine creation directs feminine embodiment; Ostriker's partly inconsistent orientations prevent a single story of emancipation from settling the issue [@mellor1982, pp. 148–153; @ostriker1982, pp. 156–164]. Participation must include powers to originate, revise and refuse a form, alongside a place within it. The nation that includes everyone symbolically can still reserve those powers to a few.
 
-## Affiliation, interpretation and competence require different warrants
+## From poetic distinction to public authority: affiliation, interpretation and competence
 
 Composition without capture names the political commitment developed here. Languages, memories, solidarities and shared achievements can sustain collective life without giving an organization an exhaustive claim over its participants. Nor does non-capture abolish binding decisions. A territorial body may tax residents for water infrastructure without claiming to embody their deepest identity; a cultural body may sustain a language without controlling every member's employment or conscience.
 
@@ -143,7 +173,7 @@ Q04. William Blake, Milton 32:32-38, E132. [@blakeMilton].
 
 ![Milton, copy D, leaf 35 (text M32). Individual identities, changing states and imagination occupy one designed sheet: the page holds together distinctions that a political translation must preserve. The typeset quotation follows the ASU transcription; this impression supplies the visual context. LOC, Rosenwald Collection, item 48031331; approximately 1815?.](../figures/plate-M32.jpg){#fig:plate-M32 height=3.8in}
 
-Blake assigns endurance to individual identities and Forms while describing states that change, are created, or are annihilated. The proposed inversion needs a distinction within its own vocabulary. Here, an enduring state names a recurrent imaginative possibility; a nation names a historical formation through which such possibilities become articulate. Recurrence does not preserve the authority of a particular enactment. A national institution can lose its mandate while its history remains intelligible and its members retain their standing. Imagination exceeds this repertoire of interpretations, just as persons exceed an institution's account of them [@blakeMilton, 32:22–38, E132; @blakeJerusalem, plate 52, E200].
+Blake assigns endurance to individual identities and Forms while describing states that change, are created, or are annihilated. The distinction between states and national formations must accommodate that difference. Here, an enduring state names a recurrent imaginative possibility; a nation names a historical formation through which such possibilities become articulate. Recurrence does not preserve the authority of a particular enactment. A national institution can lose its mandate while its history remains intelligible and its members retain their standing. Imagination exceeds this repertoire of interpretations, just as persons exceed an institution's account of them [@blakeMilton, 32:22–38, E132; @blakeJerusalem, plate 52, E200].
 
 
 ## Passage through permanent states
@@ -415,7 +445,7 @@ Jerusalem makes the distinction between persons and states a condition of forgiv
 
 Q27. William Blake, Jerusalem 49:72–75, E199. [@blakeJerusalem].
 
-Erin's address has just described heavens feeding upon condemned souls, then refused to identify Luvah with the state named Satan. Deliverance recurs “time after time”: it cannot depend on certifying that a person has finally acquired an immaculate identity. The enemy remains someone whose present relation can change. This is more demanding than tolerating harmless difference, since the distinction operates amid accusations, sacrifice and the enjoyment of another's condemnation [@blakeJerusalem, 49:60–75, E199].
+Erin's address has just described heavens feeding upon condemned souls, then refused to identify Luvah with the state named Satan. Deliverance recurs *“time after time”*: it cannot depend on certifying that a person has finally acquired an immaculate identity. The enemy remains someone whose present relation can change. This is more demanding than tolerating harmless difference, since the distinction operates amid accusations, sacrifice and the enjoyment of another's condemnation [@blakeJerusalem, 49:60–75, E199].
 
 The passage also resists an easy administrative translation. Erin calls distinguishing person and state the *only* means to forgiveness; the ensuing response asks that the remembrance of sin be taken away. That religious demand cannot settle what an institution should preserve as evidence of injury. Nor can an office require a harmed person to forgive an adversary, abandon a complaint or endorse the office's account of reconciliation. A public record may need to retain what happened precisely so that the victim does not have to recount it repeatedly [@blakeJerusalem, 50:18–30, E200].
 
@@ -425,7 +455,7 @@ Durable evidence differs from a permanent civic sentence. It can preserve an acc
 
 # From imaginative federation to shared rule and self-rule {#sec:s4}
 
-Architecture A is a federation of enduring relational possibilities. Historical nations articulate, combine and transform those possibilities through particular practices. The federal whole is enacted in translation, encounter, common work, hospitality, disagreement and passage. It is not exclusively embodied by a dominant nation. This preserves the distinctive states/nations inversion.
+Architecture A is a federation of enduring relational possibilities. Historical nations articulate, combine and transform those possibilities through particular practices. The federal whole is enacted in translation, encounter, common work, hospitality, disagreement and passage. It is not exclusively embodied by a dominant nation. National formations contribute particular histories and practices without acquiring ownership of the possibilities they disclose or of the people who sustain them.
 
 At this level federality names a philosophical grammar. It does not yet specify shared rule and self-rule, public revenue, adjudication or representation. Containment means that possibilities remain intelligible and encounterable, not that every possible condition receives a political entitlement. Whether this grammar adds explanatory value beyond existing pluralist thought is a live question.
 
@@ -436,9 +466,9 @@ Common personhood, bodily security, conscience, expression, due process, materia
 Three proposed mechanisms translate the grammar into institutional questions. A translation obligation requires accessible reasons across national narratives and an account of whom the deciding institution does not represent. A passage guarantee protects portable basic standing and practical affiliation change without eliminating legitimate continuing debts or duties. A non-exhaustion rule denies an organization's claim to speak every member's whole identity. Together, these mechanisms specify the institutional work of composition without capture.
 
 
-## Making together can change the vocabulary of the whole
+## Illuminated printing and visionary conversation: making the common world changes its forms
 
-Viscomi's reconstruction of illuminated printing places invention within execution: graphic experiments could generate projects that did not precede the technique. The finished composite does not establish either a prior illustrated plan or an original rejection of the marketplace [@viscomi2012Invention, secs. II–IV, especially sec. IV, paras. beginning “With no page designs” and “Illuminated printing evolved”]. This bears directly on the states–nations inversion. If nations only selected from a complete repertoire already known to the theorist, temporal production would rearrange possibilities while the theorist retained authority over their meaning. Composition must also allow collective work to change what participants can perceive and articulate.
+Viscomi's reconstruction of illuminated printing places invention within execution: graphic experiments could generate projects that did not precede the technique. The finished composite does not establish either a prior illustrated plan or an original rejection of the marketplace [@viscomi2012Invention, secs. II–IV, especially sec. IV, paras. beginning “With no page designs” and “Illuminated printing evolved”]. This changes how the relation between poetic states and national formations should be understood. If nations only selected from a complete repertoire already known to the theorist, temporal production would rearrange possibilities while the theorist retained authority over their meaning. Composition must also allow collective work to change what participants can perceive and articulate.
 
 The ending of Jerusalem gives imaginative production a reciprocal, dramatic form:
 
@@ -455,6 +485,20 @@ Q29. William Blake, Jerusalem 98:28–32, E257–258. Selected excerpt; the sent
 Conversation here produces exemplars, memory and intellectual relations. Its participants do more than exchange finished objects in a common space: the space and time of encounter also change. Read with national generation, this makes inheritance productive. A shared public can make something through which its members remember differently, rather than merely distribute recognized traditions among predetermined seats. The reconstruction must leave room for such changes without requiring them to count as the birth of a new nation.
 
 Conversation follows armed, fourfold annihilation; the creatures proceed irresistibly, and participants walk as One Man according to fitness and order. Discourse varies with organs of perception, yet the final covenant also claims an embracing unity. The passage can support a strong reading of transformed common life as well as the worry that reconciliation leaves no place from which to refuse [@blakeJerusalem, 98:1–27, 33–54, E257–258].
+
+The later lines make perception reciprocal while preserving an encompassing common form:
+
+\Needspace{6\baselineskip}
+
+> Which vary according as the Organs of Perception vary & they walked\
+> To & fro in Eternity as One Man reflecting each in each & clearly seen\
+> And seeing: according to fitness & order. And I heard Jehovah speak
+
+Q35. William Blake, Jerusalem 98:38–40, E258. [@blakeJerusalem].
+
+*“Reflecting each in each”* describes more than adjacent identities: what each participant can see depends on relations with others. Yet *“One Man”*, *“fitness & order”* and Jehovah's ensuing speech keep hierarchy and theological unity within the passage. The institutional argument must therefore locate powers of response inside the common arrangement. Who can correct a representative, change the terms of recognition or challenge the forum while retaining access to its resources? Fraser's distinction between opinion formation and decision power gives this question a practical edge: mutual visibility matters politically when an intervention can change an agenda, an allocation or an enforceable act [@fraser1992PublicSphere, pp. 134–136].
+
+![Jerusalem 100, copy I. Three figures, celestial forms and implements occupy the final engraved sheet. Its provider portrait orientation, including sideways figures, is retained. Read beside the ending's reciprocal perception, the design extends attention to embodied relations and making; the three figures are not assigned constitutional offices. LOC, Rosenwald Collection, item 48038103, 2003 scan 100; posthumous impression, approximately 1832?.](../figures/plate-J100.jpg){#fig:plate-J100 height=3.4in}
 
 For this political construction, conversation has to permit a change in what the whole can say about itself. A worker's account might reorganize a cultural dispute around hours and wages; a people's objection might turn consultation into negotiation over jurisdiction. Neither change follows merely from including another voice in a diagram. The record should preserve the initial question, the proposed reframing, who can authorize a changed decision and which objections remain unresolved. Common making then has a consequence that can be examined: participants acquire power to alter the terms under which they are understood, while retaining the means to continue the dispute.
 
@@ -695,6 +739,23 @@ Read beside the provision at Los’s porches in plate 73, this scene asks whethe
 
 Moyer’s juxtaposition of this labor with Blake’s Moore & Co. textile advertisement also makes genre and commission consequential. A commercial image of national industry and a prophetic representation of its costs may belong to one maker without asserting the same position. Search results need the work’s address and production setting as well as its author. The decision record extends that question to collective images: who commissions the image of a public, whom does it address, and whose work sustains its authority [@moyer2014Cotton, paras. 18–24]?
 
+## Desolating taxation makes the distribution of burdens a federal question
+
+The ending of *Jerusalem* returns from visionary conversation to the political economy of nations:
+
+\Needspace{9\baselineskip}
+
+> Where are the Kingdoms of the World & all their glory that grew on Desolation\
+> The Fruit of Albions Poverty Tree when the Triple Headed Gog-Magog Giant\
+> Of Albion Taxed the Nations into Desolation & then gave the Spectrous Oath\
+> Such is the Cry from all the Earth from the Living Creatures of the Earth\
+> And from the great City of Golgonooza in the Shadowy Generation\
+> And from the Thirty-two Nations of the Earth among the Living Creatures
+
+Q36. William Blake, Jerusalem 98:51–56, E258. [@blakeJerusalem].
+
+The question joins kingdoms' glory to the desolation on which it grew. *“Albions Poverty Tree”* makes deprivation productive for power, while the cry passes through living creatures, Golgonooza and the nations. National plurality survives in this account of transformed relations; recognition alone does not answer the complaint against extraction. A water levy must therefore disclose who pays, who benefits, whose livelihood is threatened and who can obtain a remedy before deprivation makes a hearing useless. This reading directs attention to the distribution of burdens. Shared provision still requires revenue: the decision record states its purpose, issuer, competence warrant, affected reach and challenge route. The point of comparison is whether a common charge sustains the conditions of participation or consumes them [@blakeJerusalem, 98:41–56, E258; @ostrom2010, pp. 653–663; @pettit2005, pp. 8–14].
+
 ## A worked material conflict
 
 Suppose, solely for comparison, a drought requires reduced withdrawals. A prosperous cultural association owns upstream storage; a Treaty Nation contests the source of the authority's jurisdiction; migrant workers need safe drinking water and wages; downstream residents bear ecological and health risks. These are stipulated parties, not claims about named California communities. Collective identities neither determine hydrology nor distribute costs. A proposal must identify existing obligations, evidence of scarcity, infrastructure control and the bodies authorized to negotiate or decide.
@@ -917,7 +978,7 @@ Concentration is sharper for other vocabularies. Jerusalem supplies 380 of 418 e
 
 ## Repetition, bodily constraint and the making of eternal law
 
-Urizen has the highest state rate among the three prophetic source families compared above, but its 49 matches have one repeated form. Each of the seven retained primary copies contains seven occurrences of the refrain “a state of dismal woe”; every state-query match in those copies falls within that phrase. The seven copies are byte-distinct, so exact-text deduplication leaves this repetition intact. The source-bound context audit identifies all seven inputs and their text hashes. This is a different dependence from an accidentally duplicated file.
+Urizen has the highest state rate among the three prophetic source families compared above, but its 49 matches have one repeated form. Each of the seven retained primary copies contains seven occurrences of the refrain *“a state of dismal woe”*; every state-query match in those copies falls within that phrase. The seven copies are byte-distinct, so exact-text deduplication leaves this repetition intact. The source-bound context audit identifies all seven inputs and their text hashes. This is a different dependence from an accidentally duplicated file.
 
 In the ASU transcription, the refrain closes successive ages in the production of Urizen’s body: spine and ribs, heart, eyes, ears, nostrils, throat and tongue, then limbs. Los’s labor constructs a bounded sensorium through chains, rivets and furnaces; he eventually shrinks from the task [@blakeUrizen, 10:25–44, 11:1–27, 13:1–23, E75–77]. The repeated condition carries the sequence’s affective force. Its seven occurrences do not perform the same argumentative work as Milton’s explicit distinction between individuals and states. A lexical comparison becomes stronger when it identifies that difference.
 
@@ -1027,11 +1088,11 @@ System with imagination occurs in thirteen shared units document-wide and none w
 
 Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
 
-Thirty-two displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
+Thirty-six displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break, escaped-hyphen and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
-Twelve official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
+Fourteen official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 
-The twelve uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images. No blanket fair-use result is asserted for restricted editions or unrelated images.
+The fourteen uncropped provider images appear beside the readings they inform and are scaled proportionally. Their critical purposes concern text and ornament, the opposing epigraphs around To the Deists, the diagram naming Reason, Pity, Wrath, Desire and This World, and Los's anvil amid labor, weapons and provision. Typeset quotations make the argument accessible without requiring miniature engraved lettering to carry it. Source and rights notes explain the choice of these identified historical images.
 
 The selected copy-D leaf places as multitudes marginally beside the human-form passage. The selected J73 sheet reads howl in the spectres passage. These support specific local comparisons without repairing the retained recovered transcription or settling every variant. The old discrepancy docket remains historical; a new collation note records these limited observations. ASU's edition and the Library of Congress (LOC) impressions are different source objects, and agreement on selected passages does not make them one edition.
 

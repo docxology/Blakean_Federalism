@@ -73,28 +73,39 @@ def _abstract_captions(report: Workbench) -> tuple[str, str, str]:
         raise ResearchError(
             "publication_statistics", "Abstract requires observed and synthetic data"
         )
+    failed_count = sum(bool(row.baseline_failed_rules) for row in experiment.decisions)
+    art = any(asset.asset_id == "J1" for asset in report.images)
     return (
-        (
-            "Three pairs of scholarly arguments motivate the project's proposed design "
-            "questions: what may change, who interprets, and who can "
-            "challenge the reviewer."
+        "".join(
+            (
+                "Jerusalem 52 and its person/state epigraph accompany " if art else "",
+                "three pairs of scholarly arguments framing the design questions: ",
+                "what may change, who interprets, and who can challenge the reviewer.",
+            )
         ),
-        (
-            "The proposed water levy separates entity and role from issuing "
-            "authority, affected reach, enforcement and consequence. Red "
-            "feedback paths return challenge and interim duties to the "
-            "decision."
+        "".join(
+            (
+                "Jerusalem 55 and its injunction to labor for those in misery accompany "
+                if art
+                else "",
+                "a water levy separating entity and role from issuing authority, affected reach, ",
+                "enforcement and consequence. Red feedback paths return challenge and interim ",
+                "duties to the decision.",
+            )
         ),
-        (
-            "Eight lexical rows give occurrences, matched/eligible units and families, "
-            "pooled and equal-family token rates across "
-            f"{observed.primary_source_units} primary extracts, "
-            f"{observed.primary_work_groups} families and {observed.primary_tokens:,} tokens. "
-            "A separate finite-intervention panel counts "
-            f"{experiment.total_admissible_subsets:,} admissible subsets among "
-            f"{experiment.total_subsets:,} tested, producing "
-            f"{experiment.total_distinct_states} distinct records. "
-            "These are programmed comparisons of hypothetical decisions."
+        "".join(
+            (
+                "Jerusalem 91 frames " if art else "",
+                "eight lexical comparisons: occurrences, matched/eligible units and families, ",
+                "and pooled/equal-family rates ",
+                f"({observed.primary_source_units} primary extracts; ",
+                f"{observed.primary_work_groups} families; {observed.primary_tokens:,} tokens). ",
+                f"{failed_count} failed baselines give ",
+                "failed-rule counts, minimum interventions and ",
+                f"admissible subsets. Totals cover all {len(experiment.decisions)} alternatives: ",
+                f"{experiment.total_admissible_subsets:,}/{experiment.total_subsets:,} ",
+                f"admissible subsets, {experiment.total_distinct_states} distinct records.",
+            )
         ),
     )
 
@@ -157,7 +168,14 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     raw.mkdir()
     figures = output / "output/figures"
     search_study, proximity_study = _publication_studies(root, report)
-    generated = generate_figures(report, figures, rasterizer, search_study, proximity_study)
+    generated = generate_figures(
+        report,
+        figures,
+        rasterizer,
+        search_study,
+        proximity_study,
+        artwork=assets if spec.version == "0.11.0" else None,
+    )
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
     write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
@@ -189,10 +207,21 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         '<figure class="graphical-cover" id="graphical-cover">',
         '<a href="../figures/abstract-1.png" aria-label="Open cover abstract at full size">',
         (
-            '<img src="../figures/abstract-1.png" alt="Interwoven national formations, '
+            '<img src="../figures/abstract-1.png" alt="Jerusalem frontispiece, '
+            "italic quotations, national formations, "
             'plural affiliations and recurring poetic-state interpretations." /></a>'
         ),
-        "<figcaption>Composition without capture.</figcaption></figure>",
+        (
+            "<figcaption>Composition without capture. "
+            + (
+                """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
+approximately 1832?. Original plate beside the article's distinct affiliation,
+interpretation and competence relations."""
+                if spec.version == "0.11.0"
+                else "Affiliation, interpretation and claimed competence."
+            )
+            + "</figcaption></figure>"
+        ),
         "```",
         "",
         r"\setcounter{page}{2}",
@@ -218,12 +247,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         (
             "Eight focus rows give exact occurrence, unit and family coverage, "
             "pooled rates and equal-family means; "
-            "minimum bundles expose the programmed deficits of five "
+            "minimum intervention counts expose the programmed deficits of five "
             "synthetic capture records."
         ),
     )
     captions = _abstract_captions(report)
     for number, title in enumerate(titles, start=2):
+        width = 92 if number == len(titles) + 1 else 98
         front.extend(
             [
                 f"# Graphical abstract {number}: {title} {{.unnumbered .unlisted}}",
@@ -233,7 +263,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                         (
                             f"![{captions[number - 2]}]",
                             f"(../figures/abstract-{number}.png)",
-                            f"{{#fig:abstract-{number} width=98%}}",
+                            f"{{#fig:abstract-{number} width={width}%}}",
                         )
                     )
                 ),

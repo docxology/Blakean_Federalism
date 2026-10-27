@@ -4,9 +4,11 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript, notation and corpus proximity 0.10.0
+## Illuminated graphical abstracts and close reading 0.11.0
 
-The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Thirty-two source-verified quotation records and twelve identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
+The four opening figures combine original Blake plates, serif epigraphs, explicit relations and source-bound evidence. The argument distinguishes persons, poetic states, national formations and institutions. All 22 notation entries were independently checked against definitions and implementation.
+
+The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Thirty-six source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 
 The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Sixteen formalisms and eleven equations use the pinned docxology/template route; 55 cited references have structured bibliography records.
 

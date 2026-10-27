@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Thirty-two selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Thirty-six selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -45,9 +45,9 @@ The citations to earlier work retain the earlier reported complete-extraction re
 
 ## Image rights and critical use
 
-The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 12, 27, 52, 54, 55, 59, 61, 73, 91, 98 and 99](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
+The historical Library of Congress impressions carry item-attached no-known-U.S.-restrictions advisories, qualified for other jurisdictions and users' own status determination; these are not CC0. Credit: Rare Book and Special Collections Division, Lessing J. Rosenwald Collection. Sources: [Milton copy D, leaf 35](https://www.loc.gov/item/48031331/#rights-and-access); [Jerusalem copy I, plates 1, 12, 27, 52, 54, 55, 59, 61, 73, 91, 98, 99 and 100](https://www.loc.gov/item/48038103/#rights-and-access), posthumous impressions. Complete copy/date credits accompany the atlas.
 
-Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. Vector abstracts are project-authored schematics; the embedded font license accompanies the PDF. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
+Uncropped JPEGs are scaled proportionally for criticism of text-image relations, not as collection substitutes. Other corpus resources stay private and ignored. The graphical abstracts combine project-authored diagrams with these credited historical reproductions. The embedded figure-font licenses accompany the source package and rendering inputs. [Copyright Office guidance](https://www.copyright.gov/fair-use/more-info.html).
 
 
 
@@ -106,3 +106,8 @@ Q26-Q29 select verified ASU lines from Jerusalem 74, 49 and 98 and the 22 Novemb
 ## Creating systems, artistic selection and the authority to revise
 
 The new complete readings are Stefanis's official Tate article, including all 53 notes, and Stephen Clark's complete BQ review, printed pp.68–70. The review receives review credit; Birenbaum's book receives none. Selected rereadings cover White pp.116–117 and Mellor pp.148–150 with the continuation at p.151. Jerusalem plates 7–12 supply the continuous primary context for Q30–Q32. The three new quotations retain exact ASU anchors, spelling and punctuation, including Mans and Falshood. They use the already verified Jerusalem source body; no plate rights or copy identity changes. Cumulative and delta ledgers are research/scholarship-reading-0.10.0.json and research/scholarship-source-ledger-0.10.0.json. [@stefanis2010Reasoned; @clark1995Birenbaum]
+
+
+## Organized poetic differences, national arts and fiscal power
+
+The 0.11.0 primary-text additions read Jerusalem 3's prose address and selected ending contexts, J97–99. Q33–Q36 retain seventeen exact source segments, extending the ledger to 36 quotation records and 148 segments. The ASU Jerusalem source body is unchanged. The frontispiece and final plate use copy I's identified 2003 scans 1 and 100, uncropped and in the provider's orientation. The cumulative scholarship ledger is research/scholarship-reading-0.11.0.json; its 47 reading entries preserve the previous reading bounds. These primary-text additions add no complete-article reading credit. The research packet retains the successful image/metadata responses and the later LOC access refusal.
