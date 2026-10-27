@@ -67,7 +67,7 @@ def generate_figures(
     }
     if artwork is not None:
         drawings.update(illuminated_drawings(report, artwork))
-        if report.producer_version in ("0.12.0", "0.13.0"):
+        if report.producer_version in ("0.12.0", "0.13.0", "0.14.0"):
             drawings["federated-inference-authority"] = draw_federated_comparison
     stats = report.corpus_statistics
     if stats is not None and set(FOCUS) <= {q.query_id for q in stats.queries}:

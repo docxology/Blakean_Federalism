@@ -37,6 +37,7 @@ def illuminated(prepared):
     )
     report = report.model_copy(
         update={
+            "producer_version": "0.13.0",
             "quotations": spec.quotations,
             "corpus_statistics": unequal_families(),
         }

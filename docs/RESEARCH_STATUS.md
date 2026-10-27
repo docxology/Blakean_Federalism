@@ -1,6 +1,6 @@
 # Research status
 
-This is an initial private research program and executable descriptive prototype, version 0.4.0. It is not a completed journal article, validated political theory, current legal opinion, or proof of Blake's metaphysics.
+The private research program combines a scholarly article, a source-bound corpus workbench and an executable institutional comparison. Version 0.14.0 develops the opening figures and their analytical interpretation.
 
 The central hypothesis is composition without capture: the federation contains STATES in the proposed Blakean sense, while NATIONS are temporal productions, combinations and generations that may cross those states. Several nations may coexist without becoming a single nation. Containment preserves intelligibility, encounter and passage; it grants no automatic sovereign seat to a state such as Rahab or Satan.
 
@@ -22,3 +22,5 @@ Version 0.11.0 redraws the four opening figures with original Blake plates and s
 Version 0.12.0 adds Friston et al. (2024) and the version-specific Robust Belief Sharing deposit (1.1.0), with selected-full-text reading records. Figures expose exact-text sensitivity, family spread, safeguard activation and bundle-size profiles using existing saved analyses. A conceptual comparison separates evidence weighting from standing and decision warrant.
 
 Version 0.13.0 adds four exact quotation records (eight segments) and two scholarly readings: Frosch's complete 1979 review and Ritchie's complete 2025 article text. The cumulative reading ledger has 51 entries; prior statuses remain unchanged. The article distinguishes common standing from uniform treatment, protection from displaced burdens, release from continuing dependency, and participation from assent to a common interpretation. Forty quotation records, 156 segments and 60 cited references accompany the unchanged 22-row notation and sixteen formalisms.
+
+Version 0.14.0 adds independently checked, text-free abstract diagnostics and replaces the four opening layouts. It partitions intervention totals by baseline admissibility and recomputes top-family shares and deletion endpoints from the stored primary-unit table. No new reading credit, quotations, corpus acquisition or full-text search epoch is introduced.

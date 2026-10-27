@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "producer_version": "0.14.0",
+  "corpus_pin": {
+    "upstream_commit": "d54aae1809066dd8a835ac68d4d55c61f8642d61",
+    "captured_manifest_sha256": "7b98377fe3e3f61cf8dd8781d47e5854876c490472419df61b1a7d6689186e96",
+    "projection_manifest_sha256": "dbab64e36cf44dbf15965e1fed27a33d062a7da0067b1ec3b15699b342c42e0d",
+    "projection_relative_path": "search/recovered/7b98377fe3e3f61c-1aefcc48975d51d4",
+    "index_sha256": "8f6cfd5ab62403a50ffdb2c31925fb13daf2e2b226e405334e1a42e03d62b699",
+    "unresolved_images": 28,
+    "scope_note": "Pinned private three-plane text projection; source/copy and page units, not unique works or complete oeuvre; 28 discovered image identifiers unresolved."
+  },
+  "source_workbench_sha256": "14432e44c2e16c58041be968186fa784538e3a687b5402ef0107b76e2efd0c91",
+  "source_workbench_producer": "0.13.0",
+  "query_sha256": "830a2488167547e606bd8b61f24cda914f9dabdd7f1a9ae903ddc2b182750fe1",
+  "primary_unit_source_sha256": "f4897dfe00229f7175838cce8765e3dc1dd8b9c1d304477ff978de2dc3ca31f2",
+  "query_diagnostics": [
+    {
+      "query_id": "states",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 264,
+      "matched_units": 60,
+      "positive_token_families": 33,
+      "matched_families": 13,
+      "pooled_rate": 4.097819928753813,
+      "equal_family_rate": 3.4862415203632926,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 101,
+      "top_family_share": 0.38257575757575757,
+      "loo_min_rate": 3.4544034807533492,
+      "loo_min_family_ids": [
+        "urizen"
+      ],
+      "loo_max_rate": 4.427674553572216,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "persons",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 87,
+      "matched_units": 11,
+      "positive_token_families": 33,
+      "matched_families": 4,
+      "pooled_rate": 1.3504179310665974,
+      "equal_family_rate": 1.3687908368131738,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 58,
+      "top_family_share": 0.6666666666666666,
+      "loo_min_rate": 0.6492270839629717,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 1.5346919767361864,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "nations",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 439,
+      "matched_units": 45,
+      "positive_token_families": 33,
+      "matched_families": 13,
+      "pooled_rate": 6.814177836071681,
+      "equal_family_rate": 5.153334748839175,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 250,
+      "top_family_share": 0.5694760820045558,
+      "loo_min_rate": 4.231169616172471,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 7.74402043433547,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "eternity",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 1776,
+      "matched_units": 125,
+      "positive_token_families": 33,
+      "matched_families": 22,
+      "pooled_rate": 27.567152247980193,
+      "equal_family_rate": 20.958934294439647,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 550,
+      "top_family_share": 0.3096846846846847,
+      "loo_min_rate": 24.003139413542065,
+      "loo_min_family_ids": [
+        "milton"
+      ],
+      "loo_max_rate": 30.799680360705533,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "liberty",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 61,
+      "matched_units": 19,
+      "positive_token_families": 33,
+      "matched_families": 5,
+      "pooled_rate": 0.9468447562650855,
+      "equal_family_rate": 0.5737607817154815,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 36,
+      "top_family_share": 0.5901639344262295,
+      "loo_min_rate": 0.5596785206577342,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 1.076048397481694,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "law",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 445,
+      "matched_units": 72,
+      "positive_token_families": 33,
+      "matched_families": 13,
+      "pooled_rate": 6.907310107179722,
+      "equal_family_rate": 4.433111488654975,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 191,
+      "top_family_share": 0.42921348314606744,
+      "loo_min_rate": 5.686333769882579,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 7.849861260317276,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "particulars",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 88,
+      "matched_units": 16,
+      "positive_token_families": 33,
+      "matched_families": 3,
+      "pooled_rate": 1.365939976251271,
+      "equal_family_rate": 0.19413502016872267,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 76,
+      "top_family_share": 0.8636363636363636,
+      "loo_min_rate": 0.2686456899157124,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 1.5523321143998208,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    },
+    {
+      "query_id": "imagination",
+      "source_units": 199,
+      "tokens": 644245,
+      "occurrences": 131,
+      "matched_units": 25,
+      "positive_token_families": 33,
+      "matched_families": 8,
+      "pooled_rate": 2.033387919192233,
+      "equal_family_rate": 4.35096817642791,
+      "top_family_ids": [
+        "jerusalem"
+      ],
+      "top_family_occurrences": 75,
+      "top_family_share": 0.5725190839694656,
+      "loo_min_rate": 1.2536798862733245,
+      "loo_min_family_ids": [
+        "jerusalem"
+      ],
+      "loo_max_rate": 2.3108580339360967,
+      "loo_max_family_ids": [
+        "songsie"
+      ]
+    }
+  ],
+  "repair_diagnostics": {
+    "cases": [
+      {
+        "decision_id": "A-bounded",
+        "baseline_failed_rules": [],
+        "minimal_bundles": [
+          []
+        ],
+        "essential_interventions": [],
+        "minimum_cardinality": 0,
+        "subset_count": 4096,
+        "admissible_subsets": 4096,
+        "distinct_states": 1,
+        "admissible_by_size": [
+          1,
+          12,
+          66,
+          220,
+          495,
+          792,
+          924,
+          792,
+          495,
+          220,
+          66,
+          12,
+          1
+        ],
+        "admission_fraction": 1.0,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "A-capture",
+        "baseline_failed_rules": [
+          "RIGHTS_FLOOR",
+          "FORCED_REGISTER",
+          "FORMAL_EXIT_ONLY"
+        ],
+        "minimal_bundles": [
+          [
+            "equal_personhood",
+            "open_affiliation",
+            "supported_exit"
+          ]
+        ],
+        "essential_interventions": [
+          "equal_personhood",
+          "open_affiliation",
+          "supported_exit"
+        ],
+        "minimum_cardinality": 3,
+        "subset_count": 4096,
+        "admissible_subsets": 512,
+        "distinct_states": 8,
+        "admissible_by_size": [
+          0,
+          0,
+          0,
+          1,
+          9,
+          36,
+          84,
+          126,
+          126,
+          84,
+          36,
+          9,
+          1
+        ],
+        "admission_fraction": 0.125,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "B-bounded",
+        "baseline_failed_rules": [],
+        "minimal_bundles": [
+          []
+        ],
+        "essential_interventions": [],
+        "minimum_cardinality": 0,
+        "subset_count": 4096,
+        "admissible_subsets": 4096,
+        "distinct_states": 1,
+        "admissible_by_size": [
+          1,
+          12,
+          66,
+          220,
+          495,
+          792,
+          924,
+          792,
+          495,
+          220,
+          66,
+          12,
+          1
+        ],
+        "admission_fraction": 1.0,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "B-capture",
+        "baseline_failed_rules": [
+          "CAPTURE",
+          "CONTESTATION"
+        ],
+        "minimal_bundles": [
+          [
+            "noncapture",
+            "contestation"
+          ]
+        ],
+        "essential_interventions": [
+          "noncapture",
+          "contestation"
+        ],
+        "minimum_cardinality": 2,
+        "subset_count": 4096,
+        "admissible_subsets": 1024,
+        "distinct_states": 4,
+        "admissible_by_size": [
+          0,
+          0,
+          1,
+          10,
+          45,
+          120,
+          210,
+          252,
+          210,
+          120,
+          45,
+          10,
+          1
+        ],
+        "admission_fraction": 0.25,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "C-bounded",
+        "baseline_failed_rules": [],
+        "minimal_bundles": [
+          []
+        ],
+        "essential_interventions": [],
+        "minimum_cardinality": 0,
+        "subset_count": 4096,
+        "admissible_subsets": 4096,
+        "distinct_states": 1,
+        "admissible_by_size": [
+          1,
+          12,
+          66,
+          220,
+          495,
+          792,
+          924,
+          792,
+          495,
+          220,
+          66,
+          12,
+          1
+        ],
+        "admission_fraction": 1.0,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "C-capture",
+        "baseline_failed_rules": [
+          "POETRY_TO_POWER"
+        ],
+        "minimal_bundles": [
+          [
+            "charter"
+          ]
+        ],
+        "essential_interventions": [
+          "charter"
+        ],
+        "minimum_cardinality": 1,
+        "subset_count": 4096,
+        "admissible_subsets": 2048,
+        "distinct_states": 2,
+        "admissible_by_size": [
+          0,
+          1,
+          11,
+          55,
+          165,
+          330,
+          462,
+          462,
+          330,
+          165,
+          55,
+          11,
+          1
+        ],
+        "admission_fraction": 0.5,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "D-bounded",
+        "baseline_failed_rules": [],
+        "minimal_bundles": [
+          []
+        ],
+        "essential_interventions": [],
+        "minimum_cardinality": 0,
+        "subset_count": 4096,
+        "admissible_subsets": 4096,
+        "distinct_states": 1,
+        "admissible_by_size": [
+          1,
+          12,
+          66,
+          220,
+          495,
+          792,
+          924,
+          792,
+          495,
+          220,
+          66,
+          12,
+          1
+        ],
+        "admission_fraction": 1.0,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "D-capture",
+        "baseline_failed_rules": [
+          "VISION_HIERARCHY",
+          "RIGHTS_FLOOR"
+        ],
+        "minimal_bundles": [
+          [
+            "unranked_rights",
+            "equal_personhood"
+          ]
+        ],
+        "essential_interventions": [
+          "unranked_rights",
+          "equal_personhood"
+        ],
+        "minimum_cardinality": 2,
+        "subset_count": 4096,
+        "admissible_subsets": 1024,
+        "distinct_states": 4,
+        "admissible_by_size": [
+          0,
+          0,
+          1,
+          10,
+          45,
+          120,
+          210,
+          252,
+          210,
+          120,
+          45,
+          10,
+          1
+        ],
+        "admission_fraction": 0.25,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "E-bounded",
+        "baseline_failed_rules": [],
+        "minimal_bundles": [
+          []
+        ],
+        "essential_interventions": [],
+        "minimum_cardinality": 0,
+        "subset_count": 4096,
+        "admissible_subsets": 4096,
+        "distinct_states": 1,
+        "admissible_by_size": [
+          1,
+          12,
+          66,
+          220,
+          495,
+          792,
+          924,
+          792,
+          495,
+          220,
+          66,
+          12,
+          1
+        ],
+        "admission_fraction": 1.0,
+        "unique_minimal_bundle": true
+      },
+      {
+        "decision_id": "E-capture",
+        "baseline_failed_rules": [
+          "EXCLUDED_AFFECTED",
+          "RESOURCE_GAP",
+          "FORCED_INCORPORATION"
+        ],
+        "minimal_bundles": [
+          [
+            "nonmember_standing",
+            "burden_allocation",
+            "treaty_and_refusal"
+          ]
+        ],
+        "essential_interventions": [
+          "nonmember_standing",
+          "burden_allocation",
+          "treaty_and_refusal"
+        ],
+        "minimum_cardinality": 3,
+        "subset_count": 4096,
+        "admissible_subsets": 512,
+        "distinct_states": 8,
+        "admissible_by_size": [
+          0,
+          0,
+          0,
+          1,
+          9,
+          36,
+          84,
+          126,
+          126,
+          84,
+          36,
+          9,
+          1
+        ],
+        "admission_fraction": 0.125,
+        "unique_minimal_bundle": true
+      }
+    ],
+    "baseline_admissible": {
+      "decisions": 5,
+      "subset_count": 20480,
+      "admissible_subsets": 20480,
+      "distinct_states": 5,
+      "admission_fraction": 1.0
+    },
+    "baseline_failing": {
+      "decisions": 5,
+      "subset_count": 20480,
+      "admissible_subsets": 5120,
+      "distinct_states": 26,
+      "admission_fraction": 0.25
+    },
+    "total_subsets": 40960,
+    "total_admissible_subsets": 25600,
+    "total_distinct_states": 31
+  },
+  "producer_source_sha256": {
+    "src/blakean_federalism/abstract_analysis.py": "3b465896bce58d929154161648169a0dacf84359f62c7ace07cd98c8d3a5849c",
+    "src/blakean_federalism/abstract_analysis_models.py": "881c5a7dd14a5631fc39b7b40e292bb7b579b6bd8a9ea349da592b7fd6058c2c"
+  },
+  "scope": "New text-free arithmetic diagnostics from the retained workbench. Original concordance and literal/proximity study epochs are preserved."
+}

@@ -205,6 +205,11 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     )
     assert receipt.variables["SOURCE_UNITS"] == "2"
     assert receipt.variables["CASE_CHECKS"] == "150"
+    preamble = (target / "manuscript/preamble.md").read_text()
+    assert "{{ANALYTICAL_ABSTRACTS}}" not in preamble
+    assert "{{COVER_ABSTRACT_CAPTION}}" not in preamble
+    assert "\\ifnum0=1" in preamble
+    assert receipt.variables["COVER_ABSTRACT_CAPTION"] in preamble
     assert receipt.variables["STATES_PRIMARY_PERCENT"] == "100.0"
     atlas = (target / "manuscript/90_atlas.md").read_text()
     tokens = MarkdownIt().parse(atlas)

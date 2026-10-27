@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.14.0 - analytical graphical abstracts
+
+- Redesign all four opening figures with restrained typography, explicit relations, a six-row reading comparison, an essential-intervention matrix and a source-weighting sensitivity plot.
+- Expand all four captions, including an explanatory caption on the PDF cover, with precise encodings, denominators, locators and scholarly citations.
+- Recompute family concentration and deletion diagnostics; independently reconstruct admissible intervention subsets from minimal bundles.
+- Separate failing and already-admissible baseline totals; retain the 40 quotation records, 60 references and front notation.
+
 ## 0.13.0 — close reading, typography and figure integration
 
 - Add four source-verified Blake quotations and contextual readings of unequal law, opposition, restraint and release.

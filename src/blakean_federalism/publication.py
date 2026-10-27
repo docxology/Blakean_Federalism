@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from . import __version__
+from .abstract_captions import analytical_captions, cover_caption, uses_analytical_abstracts
 from .manuscript import ManuscriptSpec, validate_manuscript
 from .models import ResearchError
 from .proximity_study import ProximityStudy
@@ -57,6 +58,8 @@ def manuscript_variables(report: Workbench) -> dict[str, str]:
         if state and state.coverage_fraction is not None
         else "N/A",
         "VERSION": __version__,
+        "ANALYTICAL_ABSTRACTS": "1" if uses_analytical_abstracts(report) else "0",
+        "COVER_ABSTRACT_CAPTION": cover_caption(),
         "SOURCE_UNITS": f"{report.source_units:,}",
         "OCCURRENCES": f"{report.stored_occurrences:,}",
         "COVERAGE_CELLS": str(len(report.coverage)),
@@ -67,6 +70,8 @@ def manuscript_variables(report: Workbench) -> dict[str, str]:
 
 
 def _abstract_captions(report: Workbench) -> tuple[str, str, str]:
+    if uses_analytical_abstracts(report):
+        return analytical_captions(report)[1:]
     observed = report.corpus_statistics
     experiment = report.institutional_experiments
     if observed is None or experiment is None:
@@ -133,6 +138,49 @@ def _publication_studies(root: Path, report: Workbench) -> tuple[SearchStudy, Pr
     return historical, nearby
 
 
+def _abstract_labels(*, current: bool) -> tuple[tuple[str, str, str], tuple[str, str, str]]:
+    if current:
+        return (
+            (
+                "Passages and institutional tests",
+                "Repair structure across five conflicts",
+                ("Source weighting and lexical evidence"),
+            ),
+            ("", "", ""),
+        )
+    return (
+        (
+            "Disagreement changes the institutional design",
+            ("A water levy from classification to effective review"),
+            ("Observed text and finite safeguard comparisons"),
+        ),
+        (
+            (
+                "Read each row from "
+                "passage through "
+                "scholarly "
+                "disagreement to "
+                "institutional "
+                "question."
+            ),
+            ("Read the two inputs into the act, then its effects and the routes for revision."),
+            ("Compare source weighting above and finite intervention sets below."),
+        ),
+    )
+
+
+def _copy_authoring_sources(root: Path, raw: Path, variables: dict[str, str]) -> None:
+    for name in SOURCE_NAMES[:5]:
+        source, target = safe_path(root, name), raw / Path(name).name
+        if source.name == "preamble.md":
+            value = source.read_text()
+            for key in ("ANALYTICAL_ABSTRACTS", "COVER_ABSTRACT_CAPTION"):
+                value = value.replace("{{" + key + "}}", variables[key])
+            write_new(target, value)
+        else:
+            copy_new(source, target)
+
+
 def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer: str) -> Path:
     """Validate before reserving a stage; never reuse another run's output tree."""
     root = root.absolute()
@@ -175,10 +223,9 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         rasterizer,
         search_study,
         proximity_study,
-        artwork=assets if spec.version in ("0.11.0", "0.12.0", "0.13.0") else None,
+        artwork=assets if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0") else None,
     )
-    for name in SOURCE_NAMES[:5]:
-        copy_new(safe_path(root, name), raw / Path(name).name)
+    _copy_authoring_sources(root, raw, variables)
     write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
     front: list[str] = [
         "```{=html}",
@@ -221,13 +268,18 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             'plural affiliations and recurring poetic-state interpretations." /></a>'
         ),
         (
-            "<figcaption>Composition without capture. "
+            "<figcaption>"
             + (
-                """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
+                cover_caption()
+                if uses_analytical_abstracts(report)
+                else "Composition without capture. "
+                + (
+                    """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
 approximately 1832?. Original plate beside the article's distinct affiliation,
 interpretation and competence relations."""
-                if spec.version in ("0.11.0", "0.12.0", "0.13.0")
-                else "Affiliation, interpretation and claimed competence."
+                    if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0")
+                    else "Affiliation, interpretation and claimed competence."
+                )
             )
             + "</figcaption></figure>"
         ),
@@ -237,16 +289,7 @@ interpretation and competence relations."""
         r"\thispagestyle{plain}",
         "",
     ]
-    titles = (
-        "Disagreement changes the institutional design",
-        "A water levy from classification to effective review",
-        "Observed text and finite safeguard comparisons",
-    )
-    descriptions = (
-        "Read each row from passage through scholarly disagreement to institutional question.",
-        "Read the two inputs into the act, then its effects and the routes for revision.",
-        "Compare source weighting above and finite intervention sets below.",
-    )
+    titles, descriptions = _abstract_labels(current=uses_analytical_abstracts(report))
     captions = _abstract_captions(report)
     for number, title in enumerate(titles, start=2):
         width = 92 if number == len(titles) + 1 else 98

@@ -4,11 +4,13 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Close reading, differentiated provision and accountable remedies 0.13.0
+## Analytical graphical abstracts 0.14.0
+
+The four opening figures now show a typed relational example, six passage-to-institution comparisons, exact repair requirements and family-weighting sensitivity. Fuller captions identify what each encoding means and connect the results to the argument. [Methods and numerical interpretation](docs/research/abstract-analysis-0.14.0.md).
 
 Four additional verified passages examine differentiated law, opposition, restraint and usable release. New readings of Frosch and Ritchie sharpen the distinction between forgiving persons and accepting their claims, and the authority carried by reproduced images. [New research](docs/research/close-reading-layout-0.13.0.md).
 
-The four opening figures combine original Blake plates, serif epigraphs, explicit relations and source-bound evidence. The argument distinguishes persons, poetic states, national formations and institutions. All 22 notation entries were independently checked against definitions and implementation.
+The opening figures use a historical Blake frontispiece, italic quotations, explicit relations and source-bound comparisons. The argument distinguishes persons, poetic states, national formations and institutions. All 22 notation entries were independently checked against definitions and implementation.
 
 The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Forty source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 

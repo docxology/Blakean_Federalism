@@ -3,6 +3,11 @@
 ```latex
 \usepackage{graphicx}
 \usepackage{needspace}
+\usepackage{etoolbox}
+\ifnum{{ANALYTICAL_ABSTRACTS}}=1\relax
+\AtBeginDocument{\floatplacement{figure}{H}}
+\AtEndEnvironment{titlepage}{\par\vspace{4pt}{\small\raggedright\textbf{Graphical abstract 1.} {{COVER_ABSTRACT_CAPTION}}\par}}
+\fi
 \usepackage{listings}
 \captionsetup[figure]{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,skip=6pt}
 \renewenvironment{quote}{%
@@ -24,7 +29,7 @@
 \renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3em}}
 \makeatother
 \let\BFOriginalContents\tableofcontents
-\newcommand{\BFcontents}{\begingroup\fontsize{8}{8}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
+\newcommand{\BFcontents}{\floatplacement{figure}{tbp}\begingroup\fontsize{8}{8}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}

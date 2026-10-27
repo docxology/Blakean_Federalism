@@ -9,6 +9,7 @@ from pathlib import Path
 from reportlab.pdfgen.canvas import Canvas
 
 from .analysis_figures import FOCUS
+from .analytical_abstracts import analytical_drawings
 from .corpus_statistics_models import CorpusStatistics
 from .figure_style import BLACK, MUTED, RED, circle, curve, label, line
 from .illuminated_style import arrow, footer, heading, plate, prose, register_serif_fonts
@@ -60,6 +61,8 @@ def illuminated_drawings(
     failed = [row for row in experiment.decisions if row.baseline_failed_rules]
     if len(failed) > _MAX_BASELINES:
         raise ResearchError("figure_case_layout", "At most five failed baselines fit this figure")
+    if report.producer_version == "0.14.0":
+        return analytical_drawings(report, artwork)
     register_serif_fonts()
     source = _Sources(report, dict(artwork), quotes, stats, experiment)
     return {
