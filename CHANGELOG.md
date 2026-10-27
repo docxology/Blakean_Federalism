@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.12.0 — federated inference and denser visual explanations
+
+- Cite and discuss both requested federated-belief-sharing sources, with exact publication identities and selected-reading locators.
+- Separate shared coordinates, message reliability and aggregation from standing, decision warrant and effective challenge.
+- Enrich figures and captions with saved family, exact-text, activation and intervention-size information.
+- Preserve corpus, search and institutional analytical producers; regenerate publication graphics from existing recorded data.
+
 ## 0.11.0 — illuminated composition and accountable common life
 
 - Redraw all four graphical abstracts with uncropped Blake plates, embedded serif epigraphs, typed relations, scholarly disputes and directly labeled evidence.

@@ -1,0 +1,390 @@
+[
+  {
+    "source": "Fallon",
+    "reading_status": "complete submitted manuscript",
+    "locator": "PDF 1-12 incl notes",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-fallon.pdf",
+    "sha256": "76c74959d0a8bbf40385a0f3a7b62502630f8329c236566a53854fd14f61e4ee",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Damrosch",
+    "reading_status": "selected pages",
+    "locator": "printed 15-21 / PDF 30-36; printed 18 = PDF 33",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-damrosch.pdf",
+    "sha256": "33e5116321de073b5f8949cf38a0d5285a015a724aa74a5402bc2072dc559255",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Lee",
+    "reading_status": "complete available excerpt",
+    "locator": "PDF 1-10, not complete introduction/book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-lee.pdf",
+    "sha256": "9474fa850e5e0b0a0bb5d8f1ca34f270c2763d8a684a9de07cdf3cdb97cd870a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Matthews",
+    "reading_status": "complete available excerpt",
+    "locator": "printed/PDF 1-10, not whole book",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-matthews.pdf",
+    "sha256": "2b87d04cfe59b487d61ade9074f7bb172cb02851202899ee2bb7f8c98f25c055",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Nicolaidis",
+    "reading_status": "complete main argument",
+    "locator": "author PDF 1-16; no final-page collation",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-nicolaidis.pdf",
+    "sha256": "9512ab08d7e39ca961008a8299d2f402a57d91c8b25d892fa689107120f39840",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Baubock",
+    "reading_status": "complete main text",
+    "locator": "PDF 2-34; December 2001 version",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-baubock.pdf",
+    "sha256": "8a06a3916f8806add03f3fac1a75c25c9032193b8aa5d1929d1b39f9f91f603a",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Ostrom",
+    "reading_status": "complete main text",
+    "locator": "printed 641-665 / PDF 1-25",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-ostrom.pdf",
+    "sha256": "2ca43cc3b526c54d0a5f8881ef08d4e4aa41b6be0665da8d8db84185c8b50b46",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Hooghe and Marks",
+    "reading_status": "complete main text",
+    "locator": "printed 233-241 / PDF 1-9",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-hooghe.pdf",
+    "sha256": "05debea70f04cec1c086cd5f48e5b03cad242a735bffafcc37ba52304408881f",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "UNDRIP",
+    "reading_status": "complete preamble and 46 articles",
+    "locator": "official March 2008 printing of 2007 resolution",
+    "cache_path": "local_data/research/v0.2.0/scholarship-cache-se01-undrip-un.pdf",
+    "sha256": "08400f5c58ee77180b5b52e713d288a843f76f6e65ade006df5d9d493e8073ba",
+    "warrant": "delegated research pass; not empirical replication or reading all cited sources"
+  },
+  {
+    "source": "Larrissy",
+    "reading_status": "publisher summary/metadata; chapter unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Clark",
+    "reading_status": "Continuous publisher preview pp.167-168; complete chapter/endnotes and p171 unread",
+    "warrant": "No full-work reading upgrade",
+    "url": "https://page-one.springer.com/pdf/preview/10.1057/9780230597068_10",
+    "sha256": "f961b8c016c31ec95f263b6d20fcd912104fd728dffc24c5a49e5fdd5f2e3d5d"
+  },
+  {
+    "source": "Wright",
+    "reading_status": "publisher description; cited original passages unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Henderson 1994",
+    "reading_status": "metadata/contents only; retrieval blocked",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Simpson",
+    "reading_status": "publisher synopsis/contents; book unread",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Pettit 1997 (no reading upgrade)",
+    "reading_status": "publisher chapter abstract; full chapter not obtained",
+    "warrant": "No full-work reading upgrade"
+  },
+  {
+    "source": "Julia M. Wright, Blake, Nationalism, and the Politics of Alienation (Ohio UP, 2004)",
+    "reading_status": "Publisher description, bibliographic formats; newer paperback page contents separately read; LIMIT: No continuous book chapter or substantive excerpt obtained; Wright p137 and p155 not directly read as pages",
+    "locator": "Publisher description, bibliographic formats; newer paperback page contents separately read",
+    "url": "https://www.ohioswallow.com/9780821415191/blake-nationalism-and-the-politics-of-alienation/",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-publisher.html",
+    "sha256": "6ef8bce18a363451cf1584bbdb57eb703dd13d22fc66fec5d5cda29e044c531b"
+  },
+  {
+    "source": "Wright, publisher contents",
+    "reading_status": "Contents: chapter 5 p111; chapter 6 p135; conclusion p169; LIMIT: Navigation only, not chapter reading",
+    "locator": "Contents: chapter 5 p111; chapter 6 p135; conclusion p169",
+    "url": "https://www.ohioswallow.com/9780821427514/blake-nationalism-and-the-politics-of-alienation/",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-publisher-new.html",
+    "sha256": "de476b7662c5c105d14e4660b8f5fe5c893937a04647d8e0fef5e7af51bf7f7f"
+  },
+  {
+    "source": "Wright, authorized Google Books preview",
+    "reading_status": "Restriction notice at requested p135; LIMIT: No page image or main text read; snippet retrieval is not continuous reading",
+    "locator": "Restriction notice at requested p135",
+    "url": "https://books.google.com/books?id=CjyGm-FGYlEC&pg=PA135",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-wright-page135.html",
+    "sha256": "5f1e320ca57b4c65d54d12164c1c98184dcf081f4ac3d9dacc792ce55dc6682b"
+  },
+  {
+    "source": "Steve Clark, Jerusalem as Imperial Prophecy, in Steve Clark and David Worrall, eds., Blake, Nation and Empire (Palgrave Macmillan, 2006), 167-185; DOI 10.1057/9780230597068_10",
+    "reading_status": "Continuous printed pp167-168 = one-based PDF pp1-2; LIMIT: Opening portion of first subsection only; incomplete ending; endnotes and p171 unread; cited historians not independently read",
+    "locator": "Continuous printed pp167-168 = one-based PDF pp1-2",
+    "url": "https://page-one.springer.com/pdf/preview/10.1057/9780230597068_10",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-clark-preview.pdf",
+    "sha256": "f961b8c016c31ec95f263b6d20fcd912104fd728dffc24c5a49e5fdd5f2e3d5d"
+  },
+  {
+    "source": "Philip Pettit, Two-dimensional Democracy, National and International, IILJ Working Paper 2005/8 (NYU School of Law, 2005)",
+    "reading_status": "Continuous complete main argument printed pp1-21 = one-based PDF pp3-23, including notes; covers inspected; LIMIT: Not final journal edition; no independent proof verification, history replication or legal updating; references do not acquire reading credit",
+    "locator": "Continuous complete main argument printed pp1-21 = one-based PDF pp3-23, including notes; covers inspected",
+    "url": "https://www.iilj.org/wp-content/uploads/2016/08/Petit-Two-Dimensional-Democracy-National-and-International-2005.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-iilj.pdf",
+    "sha256": "de92b572856f82b1597a901c4dc2af7172bfc57a6ff89e20089da8be33bcf6db"
+  },
+  {
+    "source": "Philip Pettit, On the People's Terms: A Republican Theory and Model of Democracy (Cambridge UP, 2012), ISBN 9781107005112",
+    "reading_status": "Continuous complete available excerpt printed pp1-10 = one-based PDF pp1-10; LIMIT: Not complete introduction, chapter or book; chapters1-5 unread",
+    "locator": "Continuous complete available excerpt printed pp1-10 = one-based PDF pp1-10",
+    "url": "https://assets.cambridge.org/97811070/05112/excerpt/9781107005112_excerpt.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-terms-excerpt.pdf",
+    "sha256": "8dbeeb78693f87450589bf57f0772a3afc774a03dc9ffa6145812423fa594497"
+  },
+  {
+    "source": "Pettit, On the People's Terms, publisher frontmatter",
+    "reading_status": "Selected title, publication/copyright and contents pages; LIMIT: Frontmatter only; contents do not establish chapter reading",
+    "locator": "Selected title, publication/copyright and contents pages",
+    "url": "https://assets.cambridge.org/97811070/05112/frontmatter/9781107005112_frontmatter.pdf",
+    "cache_path": "local_data/research/v0.3.0/scholarship-030-pettit-frontmatter.pdf",
+    "sha256": "c65044059b748f5b99f1e0518e0c4ea254feca9b92e184c86924e2eb9f77df02"
+  },
+  {
+    "source": "James [Sa’ke’j] Youngblood Henderson — UN Declaration on the Rights of Indigenous Peoples and Treaty Federalism in Canada",
+    "reading_status": "complete_article",
+    "locator": "17-41; 42 blank running matter",
+    "url": "https://www.constitutionalstudies.ca/wp-content/uploads/2021/02/02_Henderson-4.pdf",
+    "sha256": "e903db72f936ba891947727e4d2f055428d5f06e1f94e6e291b22edc80facfca",
+    "cache_path": "local_data/research/v0.4.0/research-040-henderson-existing.pdf",
+    "warrant": "Complete article including embedded notes; cases, treaty documents, RCAP, cited books and 2026 law not independently checked"
+  },
+  {
+    "source": "Audra Simpson — On Ethnographic Refusal: Indigeneity, ‘Voice’ and Colonial Citizenship",
+    "reading_status": "complete_article",
+    "locator": "67-80",
+    "url": "https://junctures.org/index.php/junctures/article/download/66/60/108",
+    "sha256": "8da9e7d2a8a3e2f7dec4aca00ca3085e4f79cb25f1977b80efa6544d3f7b18a7",
+    "cache_path": "local_data/research/v0.4.0/research-040-simpson.pdf",
+    "warrant": "Complete article, acknowledgements and notes; not Mohawk Interruptus; reported ethnography and legal history not independently replicated/updated"
+  },
+  {
+    "source": "Anne K. Mellor — Blake’s Portrayal of Women",
+    "reading_status": "complete_article",
+    "locator": "148-155",
+    "url": "https://bq.blakearchive.org/pdfs/16.3.mellor.pdf",
+    "sha256": "de008d54751b7e921603e3ddb354fb038fc689efb3470da4a59ab15e7f58fde6",
+    "cache_path": "local_data/research/v0.4.0/research-040-mellor-curl.pdf",
+    "warrant": "Complete article and notes in extracted text; one page visually inspected; not full independent artwork/copy collation or biographical verification"
+  },
+  {
+    "source": "Alicia Ostriker — Desire Gratified and Ungratified: William Blake and Sexuality",
+    "reading_status": "complete_article",
+    "locator": "156-165",
+    "url": "https://bq.blakearchive.org/pdfs/16.3.ostriker.pdf",
+    "sha256": "d2e8446f89f0bfcd0826bb0344dc5c1a1c5fa483702c670c28cf601ad993b5ee",
+    "cache_path": "local_data/research/v0.4.0/research-040-ostriker-curl.pdf",
+    "warrant": "Complete article and notes; no independent verification of psychoanalytic/comparative references or new primary quotation collation"
+  },
+  {
+    "source": "Ayelet Shachar — Religion, State, and the Problem of Gender: New Modes of Citizenship and Governance in Diverse Societies",
+    "reading_status": "complete_article",
+    "locator": "49-88",
+    "url": "https://lawjournal.mcgill.ca/wp-content/uploads/pdf/410530-1225240850_Shachar.pdf",
+    "sha256": "38c3b55ea0238c90e74d9bad82e5daa966fa43d9809d64febe7bd0d48c30bc39",
+    "cache_path": "local_data/research/v0.4.0/research-040-shachar-official.pdf",
+    "warrant": "Complete article, contents, abstracts, and footnotes; historical examples read as reported; no current law, court-case, or implementation-effect verification; 2001 book unread"
+  },
+  {
+    "source": "Makdisi 1998",
+    "reading_status": "complete available excerpt",
+    "locator": "printed/PDF 1–10; not full introduction, later chapters or book",
+    "cache_path": "local_data/research/v0.4.1/makdisi-excerpt.pdf",
+    "sha256": "c011027248a3c01840380cb24c0e0a7e6b7b9c500d611d89de8e63f156482d9d",
+    "warrant": "Primary publication read in the 25 October research pass; reading boundaries above."
+  },
+  {
+    "source": "Swiss constitutional text, January 2024",
+    "reading_status": "selected constitutional provisions",
+    "locator": "printed constitutional pp.1–3,6,8,10–12,20,48–50,52–54,62; PDF offset +4; manual status March 2024",
+    "cache_path": "local_data/research/v0.4.1/swiss-2024.pdf",
+    "sha256": "e705946bc2735ea8c9d11d2f1d71ed956a70c77d552f440e2e236cea6ce222b9",
+    "warrant": "Primary publication read in the 25 October research pass; reading boundaries above."
+  },
+  {
+    "source": "Joseph Viscomi, The Workshop (1982)",
+    "reading_status": "Complete named article/chapter in identified reprint or version; No final journal collation. The 68-page compilation contains other essays; complete-reading credit is only for its last article.",
+    "locator": "{\"journal\": \"404-409 (metadata only)\", \"author_web_reprint\": \"1-11, complete including notes\", \"compilation_pdf\": \"58-68\"}",
+    "cache_path": "local_data/research/v0.5.0/raw/viscomi-workshop.body",
+    "sha256": "3b75d60d6778139269f86cd6c83233753fb3446e2adbee567ae690a3d02bc507",
+    "warrant": "Primary-author source reading recorded in research/scholarship-source-ledger-0.5.0.json"
+  },
+  {
+    "source": "Christopher Heppner, Blake’s The New Jerusalem Descending (1986)",
+    "reading_status": "Complete named article/chapter in identified reprint or version; Original drawing not inspected. Name/title identification remains attributed, not authenticated. Historical applications conjectural. Later response discovered, unread.",
+    "locator": "{\"printed\": \"4-11, all notes\", \"official_pdf\": \"2-9 (cover at PDF 1)\", \"figures\": \"printed 6-8, all three viewed\"}",
+    "cache_path": "local_data/research/v0.5.0/raw/heppner-1986.body",
+    "sha256": "90e35d353aa1791e6782e60f7f91ab448cdaa83abe474a9127d3ccf44b227a11",
+    "warrant": "Primary-author source reading recorded in research/scholarship-source-ledger-0.5.0.json"
+  },
+  {
+    "source": "Marc Kaplan, Jerusalem and the Origins of Patriarchy (Winter 1996/7)",
+    "reading_status": "Complete named article/chapter in identified reprint or version; Lerner model, historical evidence and whole-corpus generalizations not independently verified. No J99 original-copy collation.",
+    "locator": "{\"printed\": \"68-82, complete including notes 1-27\", \"official_pdf\": \"2-16 (cover at PDF 1)\", \"visual_check\": \"printed 82, PDF 16\"}",
+    "cache_path": "local_data/research/v0.5.0/raw/kaplan-html.body",
+    "sha256": "c47ed5ba293a6f264b83f4cb8abd91c0f5cccce22409dd6139cf11d76a669c3b",
+    "warrant": "Primary-author source reading recorded in research/scholarship-source-ledger-0.5.0.json"
+  },
+  {
+    "source": "Nancy Fraser, Rethinking the Public Sphere (1992 chapter)",
+    "reading_status": "Complete named article/chapter in identified reprint or version; Image-only course scan, not publisher original retrieval. OCR errors remain. 1990 Social Text article not collated/read; use chapter pagination and metadata.",
+    "locator": "{\"printed\": \"109-142 including acknowledgements and notes 1-37\", \"scan_pdf\": \"2 right (109), 3-18 (110-141), 19 left (142)\", \"excluded_neighbors\": \"108 and 143 belong to other authors\", \"visual_checks\": [\"PDF 2, rotated full spread\", \"PDF 9 upright, 122-123\", \"PDF 15 upright, 134-135\"]}",
+    "cache_path": "local_data/research/v0.5.0/raw/fraser-unm.body",
+    "sha256": "d884b67908c2c1630386a67989a7b9177f11f3c5d855a98f2c79d0439eead91d",
+    "warrant": "Primary-author source reading recorded in research/scholarship-source-ledger-0.5.0.json"
+  },
+  {
+    "source": "James Tully, Reconciling Struggles over the Recognition of Minorities (2006)",
+    "reading_status": "Complete named article/chapter in identified reprint or version; Historical constitutional discussion only; no current-case update, full book reading or reading credit for Young and other references. Cache stem tully-2005 is acquisition label, not date.",
+    "locator": "{\"printed\": \"15-33, complete argument, notes and references\", \"publisher_pdf\": \"25-43\", \"metadata_pages\": \"PDF 3-5 title/copyright/contents\"}",
+    "cache_path": "local_data/research/v0.5.0/raw/tully-2005.body",
+    "sha256": "0314e535ee604ada41e2d564858b2d7f49af836d0f287f20a825fc53066bdc2b",
+    "warrant": "Primary-author source reading recorded in research/scholarship-source-ledger-0.5.0.json"
+  },
+  {
+    "source": "Joseph Viscomi, Blake's Invention of Illuminated Printing, 1788",
+    "reading_status": "complete article text and notes",
+    "locator": "Complete main text, sections I (unnumbered opening), II, III, IV; works cited; endnotes 1-21",
+    "url": "https://branchcollective.org/?ps_articles=joseph-viscomi-blakes-invention-of-illuminated-printing-1788",
+    "sha256": "dab5097dacc057acf36210eb1a11f43035cb35d046a6aa4ae2111b0352f326c4"
+  },
+  {
+    "source": "Christopher Heppner, The Woman Taken in Adultery: An Essay on Blake's Style of Designing",
+    "reading_status": "complete article text and notes",
+    "locator": "44-60, all main text and notes 1-38; 2-18; cover PDF 1",
+    "url": "https://bq.blakearchive.org/pdfs/17.2.heppner.pdf",
+    "sha256": "900b78aa03c986c37ebaeded6777b2b9a4da5c5dcba945ee94e801feb2f1a564"
+  },
+  {
+    "source": "Susan Matthews, An Alternative National Gallery: Blake's 1809 Exhibition and the Attack on Evangelical Culture",
+    "reading_status": "complete article text and notes",
+    "locator": "Complete article argument; notes1-67; acknowledgements; official How to cite",
+    "url": "https://www.tate.org.uk/research/tate-papers/14/an-alternative-national-gallery-blakes-1809-exhibition-and-the-attack-on-evangelical-culture",
+    "sha256": "59c31a1bc1372460022b439ca8b64de52c8272ef40caea703e8f5f1ca9d9aa13"
+  },
+  {
+    "source": "Joseph Viscomi, William Blake's 1818 Letter to Dawson Turner and Later Career as Graphic Artist",
+    "reading_status": "substantial selected sections not complete article",
+    "locator": "Sections II and III complete, text/viscomi-turner.txt:203-249; Context from section I, lines181-201; ending lines329-345; notes13-28, lines500-530; introductory lines41-47 inspected during discovery",
+    "url": "https://branchcollective.org/?ps_articles=joseph-viscomi-william-blakes-1818-letter-to-dawson-turner-and-later-career-as-graphic-artist",
+    "sha256": "3b600fa1a1e5cce9b01e8f66bbc28b835c4a54f81fb5e966383eea572f47581b"
+  },
+  {
+    "source": "William Blake, The [First] Book of Urizen",
+    "reading_status": "selected primary passages and all seven state-refrain locations",
+    "locator": "4:1–50, E71–72; 10–13, E74–77; 28:1–24, E83; ASU electronic transcription",
+    "url": "https://blake.lib.asu.edu/html/book_of_urizen.html",
+    "sha256": "9bc9d111b2d694b7fa060174894c00cd07eaea68f88a50757e85ee4be2e7ecba",
+    "cache_path": "local_data/manuscript/v0.7.0/book-of-urizen.html"
+  },
+  {
+    "source": "David Sten Herrstrom — Blake's Transformations of Ezekiel's Cherubim Vision in Jerusalem",
+    "reading_status": "complete_article_prose_and_notes",
+    "locator": "{\"printed_main\": \"64-75\", \"printed_notes\": \"75-77, integrated earlier in HTML\", \"one_based_pdf\": \"2-15; generated cover PDF1\", \"text_ranges\": [{\"first_line\": 25, \"last_line\": 1021, \"whitespace_words\": 12017}]}",
+    "url": "https://bq.blakearchive.org/15.2.herrstrom",
+    "cache_path": "local_data/research/v0.7.0/evidence-packet/raw/herrstrom-html.body",
+    "sha256": "bf8c13b413ae92b988f8d240ada79dee751571c3f2611beb219239a5790b3f0c"
+  },
+  {
+    "source": "Michael Ferber — Blake's Jerusalem as a Hymn",
+    "reading_status": "complete_prose_notes_and_discography_score_excluded",
+    "locator": "{\"printed_read\": \"82-89\", \"excluded\": \"Score reproductions90-94\", \"one_based_pdf\": \"Read prose corresponds toPDF2-9; scoresPDF10-14 excluded\", \"text_ranges\": [{\"first_line\": 25, \"last_line\": 584, \"whitespace_words\": 7772}]}",
+    "url": "https://bq.blakearchive.org/34.3.ferber",
+    "cache_path": "local_data/research/v0.7.0/evidence-packet/raw/bq-ferber-html.body",
+    "sha256": "932c31f2187d8eb8a43b80582d090f7629b13f13cfb937d3c6e348ab8b84a51d"
+  },
+  {
+    "source": "Robert N. Essick and Joseph Viscomi — An Inquiry into William Blake's Method of Color Printing",
+    "reading_status": "selected_continuous_opening_and_ending",
+    "locator": "{\"printed_read\": \"74-77 and98-102\", \"notes_read\": \"1-10 and28-32, as integrated in selected ranges\", \"one_based_pdf\": \"2-5 and26-30; generated coverPDF1\", \"text_ranges\": [{\"first_line\": 25, \"last_line\": 307, \"whitespace_words\": 3852}, {\"first_line\": 1495, \"last_line\": 1770, \"whitespace_words\": 3374}], \"metadata_only_inspection\": \"Works cited opening, HTML1771-1895; excluded from substantive word credit\"}",
+    "url": "https://bq.blakearchive.org/35.3.essick",
+    "cache_path": "local_data/research/v0.7.0/evidence-packet/raw/essick-viscomi-html.body",
+    "sha256": "ab0a128a3d9163a443694cfc772d8abd037e9eeb46a5bc76566975ed92b8ec23"
+  },
+  {
+    "source": "James F. Moyer, “The Daughters Weave their Work in loud cries”: Blake, Slavery, and Cotton",
+    "reading_status": "Complete article prose, notes, captions and references",
+    "locator": "Numbered prose paragraphs 1–33; all 22 inline notes; captions and works cited. Publisher illustrations 1–2 inspected.",
+    "url": "https://bq.blakearchive.org/48.3.moyer",
+    "cache_path": "local_data/research/v0.8.0/evidence-packet/raw/moyer-curl.body",
+    "sha256": "2cf875c4c597debee83e899cd4e9f70a73361e287de5213525e8cf61d998ffe1",
+    "warrant": "Named publisher HTML text read; cited works not independently read."
+  },
+  {
+    "source": "W. J. T. Mitchell, Blake's Visions of the Last Judgment: Some Problems in Interpretation",
+    "reading_status": "Complete seminar paper; accompanying diagrams inspected",
+    "locator": "Sections I–IV, PDF pp. 8–10; three diagrams on PDF p. 11.",
+    "url": "https://bq.blakearchive.org/pdfs/issues/9.2b.pdf",
+    "cache_path": "local_data/research/v0.8.0/evidence-packet/raw/mitchell-issue-curl.body",
+    "sha256": "9457f22af4c573e1ba57c007da0b00ff3d3f24fcba105805f489fc6125be1174",
+    "warrant": "Named 1975 paper and diagrams read; later book not read."
+  },
+  {
+    "source": "Harry White, Blake's Resolution to the War Between Science and Philosophy",
+    "reading_status": "Complete official HTML article, all 87 notes and works cited",
+    "locator": "Printed pp. 108-125; main prose pp. 108-123.",
+    "url": "https://bq.blakearchive.org/39.3.white",
+    "cache_path": "local_data/research/v0.9.0/evidence-packet/rawcaches/white.cached.html",
+    "sha256": "abeba27aaa9ca68848c4b4be9a8b18fbbc981b6ca9568721dbbc5a9bf74a3177",
+    "warrant": "Practical science, revisable experience and immediate certainty read as White's argument; cited sources and later-physics comparisons not independently validated."
+  },
+  {
+    "source": "Konstantinos Stefanis, Reasoned Exhibitions: Blake in 1809 and Reynolds in 1813",
+    "citation_key": "stefanis2010Reasoned",
+    "reading_status": "Complete official HTML research article text, all 53 notes, acknowledgements, author and citation metadata actually read",
+    "locator": "Tate Papers 14, Autumn 2010",
+    "url": "https://www.tate.org.uk/research/tate-papers/14/reasoned-exhibitions-blake-in-1809-and-reynolds-in-1813",
+    "cache_path": "local_data/research/v0.10.0/raw/stefanis2010-curl.body",
+    "sha256": "703062b0c75ae9553546cce7388eb1281d713e4808c417162cd282ad8f1fcd11",
+    "genre": "research article",
+    "limits": "Cited monographs, archival minutes, advertisements and artworks not independently read or inspected; article claims remain attributed to Stefanis."
+  },
+  {
+    "source": "Stephen Clark, Harvey Birenbaum, Between Blake and Nietzsche: The Reality of Culture",
+    "citation_key": "clark1995Birenbaum",
+    "reading_status": "Complete official HTML review essay actually read",
+    "locator": "Blake/An Illustrated Quarterly 29.2, Fall 1995, 68-70",
+    "url": "https://bq.blakearchive.org/29.2.clark",
+    "cache_path": "local_data/research/v0.10.0/raw/clark1995-curl.body",
+    "sha256": "84ecb67301b8f902c1466252527de45d5145dff1e98bcdf729641ef74aad4b77",
+    "genre": "scholarly book review essay",
+    "limits": "Review genre retained. Birenbaum 1992 and Frye books not obtained or read; no book credit."
+  },
+  {
+    "source": "Friston et al. (2024), Federated inference and belief sharing",
+    "reading_status": "Selected complete sections of full-text JATS XML; not complete article/supplement reading",
+    "locator": "Sections 3.1–3.2, substantial 4 and 5 including 5.1–5.2, and 7; equations 6–15 and figure captions 3–11; section 6 partial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38056542/",
+    "cache_path": "local_data/research/v0.12.0/friston-federated-fulltext.xml",
+    "sha256": "997d0eb8ec3bcc28a000d9cc0d45ff6d308db5378f197ddd2dda0c0bf10d111b",
+    "warrant": "Read-only delegated primary-source review; no numerical reproduction or original-figure visual inspection"
+  },
+  {
+    "source": "Friedman (2026), Robust Belief Sharing in Federated Active Inference, version 1.1.0",
+    "reading_status": "Selected extracted full-text pages; not complete 90-page manuscript or supplement reading",
+    "locator": "Physical 16–19 (printed 15–18), 24, 35, 41, 45, 50, 52–54; sections 5.7–5.9, 7.1, 7.5, 8.3–8.5, 8.15; Theorem 5 and Corollary 6",
+    "url": "https://zenodo.org/records/22149133",
+    "cache_path": "local_data/research/v0.12.0/robust-belief-sharing-v1.1.0.pdf",
+    "sha256": "8ca4d13e9316d4640184b8fdeb9300a000bf9e8203946b21aef1fe5c23caf729",
+    "warrant": "Read-only delegated selected-source reading plus root verification of physical 16–19; version DOI 22149133 differs from concept DOI 21864003"
+  }
+]

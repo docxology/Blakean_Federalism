@@ -78,33 +78,34 @@ def _abstract_captions(report: Workbench) -> tuple[str, str, str]:
     return (
         "".join(
             (
-                "Jerusalem 52 and its person/state epigraph accompany " if art else "",
-                "three pairs of scholarly arguments framing the design questions: ",
-                "what may change, who interprets, and who can challenge the reviewer.",
+                "Jerusalem 52 accompanies " if art else "",
+                "three rows connecting person/state distinction, collective interpretation and ",
+                "contestable review. Each aligns a Blake passage, two scholarly readings and ",
+                "the institutional question their disagreement makes necessary.",
             )
         ),
         "".join(
             (
-                "Jerusalem 55 and its injunction to labor for those in misery accompany "
-                if art
-                else "",
-                "a water levy separating entity and role from issuing authority, affected reach, ",
-                "enforcement and consequence. Red feedback paths return challenge and interim ",
-                "duties to the decision.",
+                "Jerusalem 55 accompanies " if art else "",
+                "one hypothetical water levy. Entity/role and issuer/warrant ",
+                "enter the proposed act; ",
+                "reach/enforcement and consequence describe its effects. ",
+                "Funded challenge and interim ",
+                "water provision return revision to the act, its warrant or its reviewing forum.",
             )
         ),
         "".join(
             (
                 "Jerusalem 91 frames " if art else "",
-                "eight lexical comparisons: occurrences, matched/eligible units and families, ",
-                "and pooled/equal-family rates ",
-                f"({observed.primary_source_units} primary extracts; ",
+                "eight lexical comparisons: occurrences, unit/family coverage ",
+                "and pooled/equal-family ",
+                f"rates ({observed.primary_source_units} primary extracts; ",
                 f"{observed.primary_work_groups} families; {observed.primary_tokens:,} tokens). ",
-                f"{failed_count} failed baselines give ",
-                "failed-rule counts, minimum interventions and ",
-                f"admissible subsets. Totals cover all {len(experiment.decisions)} alternatives: ",
-                f"{experiment.total_admissible_subsets:,}/{experiment.total_subsets:,} ",
-                f"admissible subsets, {experiment.total_distinct_states} distinct records.",
+                f"Below, {failed_count} failed baselines give minimum changes among ",
+                f"{len(experiment.catalog)} interventions. ",
+                f"All {len(experiment.decisions)} alternatives ",
+                f"produce {experiment.total_admissible_subsets:,}/{experiment.total_subsets:,} ",
+                f"admissible subsets and {experiment.total_distinct_states} distinct records.",
             )
         ),
     )
@@ -174,7 +175,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         rasterizer,
         search_study,
         proximity_study,
-        artwork=assets if spec.version == "0.11.0" else None,
+        artwork=assets if spec.version in ("0.11.0", "0.12.0") else None,
     )
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
@@ -217,7 +218,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
 approximately 1832?. Original plate beside the article's distinct affiliation,
 interpretation and competence relations."""
-                if spec.version == "0.11.0"
+                if spec.version in ("0.11.0", "0.12.0")
                 else "Affiliation, interpretation and claimed competence."
             )
             + "</figcaption></figure>"
@@ -234,22 +235,9 @@ interpretation and competence relations."""
         "Observed text and finite safeguard comparisons",
     )
     descriptions = (
-        (
-            "Three paired scholarly tensions and proposed tests connect permanence, "
-            "reciprocity and protection to "
-            "standing, interpretive authority and contestable review."
-        ),
-        (
-            "A branched decision map separates classification, competence, "
-            "reach and enforcement, with challenge and interim duties "
-            "feeding back into the act."
-        ),
-        (
-            "Eight focus rows give exact occurrence, unit and family coverage, "
-            "pooled rates and equal-family means; "
-            "minimum intervention counts expose the programmed deficits of five "
-            "synthetic capture records."
-        ),
+        "Read each row from passage through scholarly disagreement to institutional question.",
+        "Read the two inputs into the act, then its effects and the routes for revision.",
+        "Compare source weighting above and finite intervention sets below.",
     )
     captions = _abstract_captions(report)
     for number, title in enumerate(titles, start=2):

@@ -15,7 +15,7 @@
 \renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3em}}
 \makeatother
 \let\BFOriginalContents\tableofcontents
-\newcommand{\BFcontents}{\begingroup\fontsize{8}{8.5}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
+\newcommand{\BFcontents}{\begingroup\fontsize{8}{8}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
