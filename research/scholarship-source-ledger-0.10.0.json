@@ -1,0 +1,33 @@
+{
+  "version": "0.10.0",
+  "scope": "New opening readings and primary contexts; earlier reading credit remains in the cumulative ledger.",
+  "baseline": "1fd34f78f5df3f05c7d3d18b8935930f9c008561",
+  "retained_delta_ledger": "local_data/research/v0.10.0/reading-ledger.json",
+  "retained_delta_sha256": "dfbacce57d83fec4a7cfad02cf64f20de53285e4a8e3dc3c4a24e6242e445ded",
+  "new_scholarly_readings": [
+    {
+      "source": "Konstantinos Stefanis, Reasoned Exhibitions: Blake in 1809 and Reynolds in 1813",
+      "citation_key": "stefanis2010Reasoned",
+      "reading_status": "Complete official HTML research article text, all 53 notes, acknowledgements, author and citation metadata actually read",
+      "locator": "Tate Papers 14, Autumn 2010",
+      "url": "https://www.tate.org.uk/research/tate-papers/14/reasoned-exhibitions-blake-in-1809-and-reynolds-in-1813",
+      "cache_path": "local_data/research/v0.10.0/raw/stefanis2010-curl.body",
+      "sha256": "703062b0c75ae9553546cce7388eb1281d713e4808c417162cd282ad8f1fcd11",
+      "genre": "research article",
+      "limits": "Cited monographs, archival minutes, advertisements and artworks not independently read or inspected; article claims remain attributed to Stefanis."
+    },
+    {
+      "source": "Stephen Clark, Harvey Birenbaum, Between Blake and Nietzsche: The Reality of Culture",
+      "citation_key": "clark1995Birenbaum",
+      "reading_status": "Complete official HTML review essay actually read",
+      "locator": "Blake/An Illustrated Quarterly 29.2, Fall 1995, 68-70",
+      "url": "https://bq.blakearchive.org/29.2.clark",
+      "cache_path": "local_data/research/v0.10.0/raw/clark1995-curl.body",
+      "sha256": "84ecb67301b8f902c1466252527de45d5145dff1e98bcdf729641ef74aad4b77",
+      "genre": "scholarly book review essay",
+      "limits": "Review genre retained. Birenbaum 1992 and Frye books not obtained or read; no book credit."
+    }
+  ],
+  "primary_context": "Jerusalem plates 7\u201312, E149\u2013156, in the retained ASU electronic text; selected continuous context, not a new full-work reading.",
+  "rereadings": "White pp.116\u2013117 and Mellor pp.148\u2013150, continuing p.151: selected rereading, no new full-reading credit."
+}

@@ -73,30 +73,30 @@ def composition(c: Canvas) -> None:
         line(c, x, 393, ex, 340, BLACK, 0.8)
         c.restoreState()
     text(c, "I: interpretation", 20, 374, 120, 9, RED)
-    text(c, "many-to-many", 410, 374, 110, 9, MUTED)
+    text(c, "I pairs N with S", 410, 374, 110, 10, MUTED)
     for x, name in ((185, "n1"), (355, "n2")):
         _box(c, x - 47, 340, 94, 33, name, "")
     text(c, "NATIONAL FORMATIONS / N", 20, 337, 110, 10)
-    text(c, "Historical productions", 410, 337, 110, 9, MUTED)
+    text(c, "Interpretation is not a competence warrant", 410, 337, 110, 9, MUTED)
     for x, ex in ((95, 185), (210, 185), (210, 355), (325, 355), (445, 355)):
         line(c, x, 246, ex, 307, BLACK, 0.85)
     for x, name in ((95, "p1"), (210, "p2"), (325, "p3"), (445, "p4")):
         circle(c, x, 235, 12, BLACK)
         label(c, name, x, 231, 9)
-    text(c, "A: affiliation", 20, 274, 100, 9, RED)
+    text(c, "A pairs P with N", 20, 274, 100, 10, RED)
     text(c, "PERSONS / P", 20, 212, 120, 11)
     text(c, "Plural affiliation; no compulsory final identity", 155, 212, 365, 10)
     _arrow(c, 95, 179, 445, 179, RED)
     text(c, "PASSAGE: change affiliation while retaining basic standing", 65, 170, 440, 10, RED)
     line(c, 20, 145, 520, 145, BLACK, 0.7)
     text(c, "SEPARATE AUTHORITY LAYER", 20, 135, 250, 10, RED)
-    _box(c, 20, 114, 145, 45, "Institution / J", "Issuing jurisdiction")
+    _box(c, 20, 114, 145, 45, "Institution / J", "C pairs J with D")
     _arrow(c, 165, 91, 350, 91, RED)
     label(c, "C: claimed competence", 258, 102, 9, RED)
     _box(c, 350, 114, 170, 45, "Proposed decision / D", "Warrant, reach, review")
     text(
         c,
-        "A and I do not determine C. Recurrence does not confer an eternal mandate.",
+        "Same A and I, different C: affiliation and interpretation underdetermine authority.",
         20,
         61,
         500,
@@ -119,7 +119,8 @@ def scholarship(c: Canvas) -> None:
             "PERMANENCE ≠ POSSESSION",
             ("Damrosch, pp. 15-21", "Universality in particular forms"),
             ("Lee, pp. 1-10", "Identity can resist forced remaking"),
-            "What may change without taking away standing?",
+            "What may change while preserving standing?",
+            "Design test: portable rights + supported affiliation change.",
         ),
         (
             317,
@@ -127,24 +128,27 @@ def scholarship(c: Canvas) -> None:
             ("Fallon, ms. pp. 10-12", "National opening; incorporation disputed"),
             ("Mellor, pp. 148-153", "Creative reciprocity can retain hierarchy"),
             "Who can interpret, refuse a role and govern?",
+            "Design test: role ≠ person; vision confers no civic rank.",
         ),
         (
             194,
             "PROTECTION ≠ CONTROL",
             ("Simpson, pp. 67-78", "Refusal limits compulsory disclosure"),
             ("Shachar, pp. 75-77", "Review before enforceability shifts burden"),
-            "Who initiates review—and can contest its authority?",
+            "Who initiates review and can contest the forum?",
+            "Design test: funded challenge + separately negotiated refusal.",
         ),
     )
-    for y, title, left, right, question in blocks:
+    for y, title, left, right, question, consequence in blocks:
         text(c, title, 20, y, 500, 11, RED)
         text(c, left[0], 20, y - 23, 230, 10)
         text(c, left[1], 20, y - 40, 230, 9, MUTED)
         text(c, right[0], 295, y - 23, 225, 10)
         text(c, right[1], 295, y - 40, 225, 9, MUTED)
-        _arrow(c, 135, y - 66, 235, y - 83)
-        _arrow(c, 405, y - 66, 305, y - 83)
-        text(c, question, 55, y - 88, 445, 12, RED)
+        _arrow(c, 135, y - 66, 235, y - 74)
+        _arrow(c, 405, y - 66, 305, y - 74)
+        text(c, question, 20, y - 82, 500, 12, RED)
+        text(c, consequence, 20, y - 100, 500, 9)
     _foot(
         c,
         "Read as tensions, not a unified doctrine. Primary countertexts: Jerusalem 43, 88, 92, 99.",
@@ -197,10 +201,8 @@ def decision(c: Canvas) -> None:
     _arrow(c, 175, 301, 165, 301, RED, dashed=True)
     text(c, "contest title", 22, 190, 65, 9, RED)
     text(c, "remedy / revise", 286, 188, 65, 9, RED)
-    text(c, "COMPARE AT FIXED SCARCITY", 20, 82, 500, 10, RED)
-    text(
-        c, "E1 associations  /  E2 territory  /  E3 watershed + treaty negotiation", 20, 63, 500, 10
-    )
+    text(c, "RECORD / CHECK / REMEDY", 20, 82, 500, 10, RED)
+    text(c, "Reach: EXCLUDED_AFFECTED; costs: RESOURCE_GAP; appeal: CONTESTATION", 20, 64, 500, 9)
     _foot(
         c,
         (

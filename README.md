@@ -4,13 +4,13 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Manuscript, notation and visual arguments 0.9.0
+## Manuscript, notation and corpus proximity 0.10.0
 
-A [front notation table](docs/manuscript/notation.md) introduces the typed sorts, affiliation/interpretation/competence relations, decision fields, safeguard operations and corpus statistics. Cross-references lead to the automatically numbered definitions and equations. Jaccard, conditional presence and lift use distinct operators; corpus subsets and matched-unit counts are distinguished from intervention bundles.
+The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Thirty-two source-verified quotation records and twelve identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 
-All fourteen vector figures have been redesigned: four opening abstracts, a two-world competence countermodel, a source census, all 150 case checks, water-authorization routes, rival agreement paths and five quantitative comparisons. Wider aligned axes, direct query names, exact family/unit denominators, minimum-repair fractions and clearer feedback paths make the visual arguments inspectable. The theme remains black, white and red, with red hyperlinks.
+The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Sixteen formalisms and eleven equations use the pinned docxology/template route; 55 cited references have structured bibliography records.
 
-Twenty-nine verified quotation records and twelve identified LOC sheets accompany the main-text readings. Four new excerpts address closed categories, forgiveness and retained evidence, the thistle/old-man sequence behind double vision, and conversation that creates its terms of encounter. White's complete article sharpens the discussion of practical science and revisable experience. Fifteen formalisms, ten equations and figures are numbered by the pinned docxology/template route; 53 cited references have structured bibliography records. [New close readings](docs/research/notation-close-reading-0.9.0.md); [render and source instructions](docs/manuscript/README.md).
+Eight figures have new evidence panels, including all four opening abstracts. Exact occurrences, unit/family coverage, denominators, conditional directions and proposed design tests increase information without conflating observed text with synthetic cases. A fifteenth vector figure adds the proximity comparison. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
 
 The 0.7.0 [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
 
@@ -18,11 +18,12 @@ The offline workbench reconciles all 180 query/plane/role cells and 150 baseline
 
 ## Search the whole imported corpus
 
-The [local search workspace](docs/corpus-search.md) searches arbitrary words and phrases across 2,067 imported source units, with primary text selected by default. Choose alternatives or require all terms in one source unit, filter source roles/planes/families, inspect exact highlighted spans and open source records. Family distributions and the source-layer matrix retain all counts before pagination. The full-text workspace remains local and ignored; the distributable evidence workbench contains aggregates.
+The [local search workspace](docs/corpus-search.md) searches arbitrary words and phrases across 2,067 imported source units, with primary text selected by default. Choose alternatives, require all terms in one source unit, or add a 1–200-word envelope for nearby combinations; filter source roles/planes/families, inspect exact highlighted spans and open source records. Family distributions and the source-layer matrix retain all counts before pagination. The full-text workspace remains local and ignored; the distributable evidence workbench contains aggregates.
 
 ~~~bash
 uv run blakean search-corpus --term "minute particulars" --output analysis_output/particulars.json
 uv run blakean search-corpus --term state --term individual --mode all --limit 200 --output analysis_output/state-person.json
+uv run blakean search-corpus --term state --term individual --mode all --window-words 32 --output analysis_output/state-person-near.json
 uv run blakean build-search-workspace --output analysis_output/corpus-search/new-run
 uv run blakean search-study --output analysis_output/literal-study.json
 ~~~

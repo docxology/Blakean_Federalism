@@ -849,5 +849,38 @@
       "url": "https://bq.blakearchive.org/39.3.white"
     },
     "urls": []
+  },
+  {
+    "key": "stefanis2010Reasoned",
+    "type": "article",
+    "fields": {
+      "author": "Stefanis, Konstantinos",
+      "title": "Reasoned Exhibitions: Blake in 1809 and Reynolds in 1813",
+      "journal": "Tate Papers",
+      "year": "2010",
+      "number": "14",
+      "issn": "1753-9854",
+      "url": "https://www.tate.org.uk/research/tate-papers/14/reasoned-exhibitions-blake-in-1809-and-reynolds-in-1813",
+      "urldate": "2026-10-27",
+      "note": "Autumn. Unpaginated official HTML article; locators identify paragraph incipits and note numbers."
+    },
+    "urls": []
+  },
+  {
+    "key": "clark1995Birenbaum",
+    "type": "article",
+    "fields": {
+      "author": "Clark, Stephen",
+      "title": "Harvey Birenbaum, Between Blake and Nietzsche: The Reality of Culture",
+      "journal": "Blake/An Illustrated Quarterly",
+      "year": "1995",
+      "volume": "29",
+      "number": "2",
+      "pages": "68--70",
+      "url": "https://bq.blakearchive.org/29.2.clark",
+      "urldate": "2026-10-27",
+      "note": "Fall. Book review of Harvey Birenbaum's 1992 monograph; official HTML review read in full."
+    },
+    "urls": []
   }
 ]

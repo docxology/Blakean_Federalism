@@ -88,7 +88,12 @@ def draw_census(c: Canvas, report: Workbench) -> None:
     _heading(
         c,
         "One index, three source layers",
-        "Stored-unit counts / common zero-based scale / source roles remain separate",
+        "".join(
+            (
+                f"{report.source_units:,} indexed units / common zero-based scale / ",
+                "source roles remain separate",
+            )
+        ),
     )
     maximum = max((sum(census.get((p, role), 0) for role in roles) for p in planes), default=0)
     maximum = ceil(maximum / 100) * 100 if maximum > 100 else maximum
@@ -130,6 +135,7 @@ def draw_census(c: Canvas, report: Workbench) -> None:
         c.rect(x, 85, 9, 9, fill=1, stroke=0)
         text(c, role.upper(), x + 15, 99, 148, 8.5)
         text(c, f"{n:,}", x + 15, 83, 148, 18, RED if role == "primary" else BLACK)
+        text(c, f"{n / total:.1%} of indexed units", x + 15, 58, 148, 9, MUTED)
     _foot(
         c,
         (
@@ -149,7 +155,13 @@ def draw_rule_matrix(c: Canvas, report: Workbench) -> None:
     _heading(
         c,
         "Where the ten records fail",
-        "Fifteen safeguard predicates / paired bounded (+) and capture (-) records",
+        "".join(
+            (
+                f"{len(codes)} predicates × {len(report.cases)} records / ",  # noqa: RUF001 -- Cartesian count.
+                f"{sum(c.assessment.admissible_under_proposed_rules for c in report.cases)} ",
+                "admissible under stipulated rules",
+            )
+        ),
     )
     counts = {"satisfied": 0, "violated": 0, "absent": 0}
     for column, case in enumerate(report.cases):
@@ -190,8 +202,8 @@ def draw_rule_matrix(c: Canvas, report: Workbench) -> None:
     _foot(
         c,
         (
-            "All 150 checks are shown. Right margin counts active violations "
-            "per rule; absent conditions stay distinct."
+            "150 checks. + bounded / - capture; right margin: active violations. "
+            "Absent conditions stay distinct."
         ),
     )
 

@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Twenty-nine selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Thirty-two selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -101,3 +101,8 @@ Jerusalem 59 is the eleventh uncropped LOC reproduction. Its lower text places d
 The new reading is White's complete official HTML article, printed pp. 108-125, including all 87 notes and the works cited. His practical-science interpretation and appeal to immediate experience inform the classification discussion; the article's cited sources and comparisons with later physics receive no additional reading credit [@white2005Science].
 
 Q26-Q29 select verified ASU lines from Jerusalem 74, 49 and 98 and the 22 November 1802 Butts letter. Contiguous contexts include all J74 and J98, J48:20-64, J49:1-77 and J50:1-30, J13 with the opening J14, and the complete named Butts letter in this electronic version. These readings distinguish revisions of a category from compulsory forgiveness and distinguish expanded perception from changed conduct. The twelfth uncropped LOC sheet is Jerusalem 98, copy I, from the same identified item and advisory as the earlier Jerusalem impressions. The cumulative ledger is research/scholarship-reading-0.9.0.json; the bounded delta is research/scholarship-source-ledger-0.9.0.json.
+
+
+## Creating systems, artistic selection and the authority to revise
+
+The new complete readings are Stefanis's official Tate article, including all 53 notes, and Stephen Clark's complete BQ review, printed pp.68–70. The review receives review credit; Birenbaum's book receives none. Selected rereadings cover White pp.116–117 and Mellor pp.148–150 with the continuation at p.151. Jerusalem plates 7–12 supply the continuous primary context for Q30–Q32. The three new quotations retain exact ASU anchors, spelling and punctuation, including Mans and Falshood. They use the already verified Jerusalem source body; no plate rights or copy identity changes. Cumulative and delta ledgers are research/scholarship-reading-0.10.0.json and research/scholarship-source-ledger-0.10.0.json. [@stefanis2010Reasoned; @clark1995Birenbaum]

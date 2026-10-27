@@ -1,19 +1,73 @@
 # Abstract {.unnumbered}
 
-A federation can sustain several nations without becoming one nation. This article develops that claim through Blake's distinction between states and persons: STATES are enduring imaginative possibilities, while NATIONS are historical formations that articulate and recombine them. Its governing principle is composition without capture. Collective histories and creations matter, but no nation, interpretive vocabulary or jurisdiction exhausts its participants. Close readings of Milton and Jerusalem establish the state/person distinction and confront its nationalist, theological and gendered tensions. Comparison with demoicracy, non-domination, cultural autonomy and treaty federalism identifies what institutions must decide: who has standing, which body may act, who bears the cost and how a decision can be challenged. A classification-decision record separates the entity, assigned role and consequence from the issuer, competence, reach and enforcement of authority. Five hypothetical Xeno-California cases test these distinctions. An executable prototype evaluates fifteen safeguards across ten case alternatives and searches finite intervention families for minimum repairs. Corpus statistics compare token-normalized rates, source-family weighting, duplicate sensitivity and lexical overlap across the primary reading extracts.
+A federation can sustain several nations without becoming one nation. This article develops composition without capture: collective histories, solidarities and institutions can make a common world without possessing the persons who participate in it. Its proposed inversion places STATES, understood as enduring imaginative possibilities, within a federation whose NATIONS are historical productions and combinations. Close readings of Milton, Jerusalem and the Last Judgment prose distinguish persons from states while confronting passages in which states change, nations appear within eternity, and imaginative creation employs coercion. Blake scholarship on particularity, national mediation, gendered agency, practical science and artistic production turns these tensions into questions about who makes, interprets and revises a common form. The argument distinguishes affiliation, interpretation and claimed institutional competence; a typed countermodel shows that the first two relations do not determine the third. Comparison with demoicracy, cultural autonomy, polycentric governance, non-domination and treaty federalism then specifies standing, jurisdiction, material obligations and effective challenge. A classification-decision record follows an act from its named entity and assigned role through issuer, warrants, consequence, affected reach and enforcement. Five hypothetical Xeno-California conflicts supply ten alternatives evaluated against fifteen explicit safeguards. Exhaustive examination of 40,960 intervention subsets identifies minimum repairs and distinguishes bundles from the 31 distinct resulting records. A source-bound corpus analysis separates 2,067 imported units by role and plane, compares pooled and equal-family rates across 199 primary extracts, and measures copy repetition, deletion sensitivity and query overlap. Extended literal search preserves original-text offsets, source identities and counts before the display cap; optional word windows identify every occurrence participating in a complete nearby combination. Graphical abstracts, analytical diagrams, Blake plates and a front notation table connect the literary argument to these inspectable constructions. The resulting account joins shared rule to continuing powers of interpretation, provision, refusal and revision: a national formation contributes to a federation through what it enables people to make together, without acquiring an exhaustive title to their identities or future acts.
 
-# Composition without capture: poetic states, temporal nations and public power {#sec:s1}
+# Creating a common world without possessing its participants {#sec:s1}
 
-The argument begins with an inversion: the federation contains STATES in Blake's eternal sense, while NATIONS belong to historical production and generation. This retains a metaphysical ambition that would disappear if state were immediately translated into territorial government. A nation may articulate several imaginative possibilities; a possibility may recur in several nations. Their relation is many-to-many. A federation could sustain these different productions without demanding that one national narrative become the final image of the whole.
+## Los creates a system while striving to deliver individuals from systems
 
-The political question arises when a collective formation claims the persons associated with it. A cultural body may offer language, memory, solidarity and self-government. Those goods do not automatically entitle its officers to control every member's employment, conscience or civic standing. A territorial institution may properly tax residents for shared infrastructure without claiming to embody their deepest identity. Non-capture therefore cannot mean the absence of binding decisions. It concerns the warrants, limits, consequences and contestability of those decisions.
+Los's declaration in Jerusalem makes the problem of collective order urgent before it becomes constitutional:
 
-Temporal nations are not disposable approximations of a superior eternal order. The proverb about eternity's love for temporal productions motivates attention to particular creations: languages, relationships, public practices and achievements whose value need not depend on lasting forever. Neither does the proverb sanctify every historical production. A nation can make something worth preserving and sustain relations that require transformation. Its creativity and its authority remain separately assessable.
+\Needspace{6\baselineskip}
 
-The argument proceeds through three tasks. Close reading establishes what the selected passages say in their dramatic and material contexts. Reconstruction develops a political account of persons, states and national generation. Institutional comparison asks how shared powers can be justified to people who hold different metaphysical commitments. Each task supplies a different kind of reason.
+> I must Create a System, or be enslav\'d by another Mans\
+> I will not Reason & Compare: my business is to Create
 
-The formulation can be made more precise without identifying people with national essences. Let P denote persons, S poetic-state interpretations, N temporal national formations and J institutions claiming jurisdiction. Issuing jurisdictions remain separately identified attributes of those institutions. An affiliation relation connects P and N; an interpretive relation connects N and S; an authorization relation connects a specified institution in J to a specified act. These relations have different domains and warrants. Affiliation does not entail authorization, interpretation does not entail jurisdiction, and a person's standing does not depend on assignment to an S. The typed model records these distinctions explicitly.
+Q30. William Blake, Jerusalem 10:20–21, E153. [@blakeJerusalem].
 
+He is building Golgonooza through labor, conflict and the transformation of suffering. The declaration opposes enslavement, yet the surrounding scene refuses an easy identification of creation with freedom. Immediately before it, Los compels his Spectre to work; afterward he demands obedience and threatens greater torment. The Spectre invokes a sacrificial law against the children Los seeks to protect. As Los's divided power, the Spectre also makes this a struggle over the maker's pride and self-righteousness. Creation and domination occupy the same workshop [@blakeJerusalem, 8:21–40, E151; 10:17–40, E153].
+
+Stephen Clark asks whether the declaration emphasizes system or creation. Reviewing Birenbaum, he challenges a celebration of open process built from isolated doctrinal statements and urges attention to dramatic voices, language and historical setting [@clark1995Birenbaum, pp. 69–70]. White reads the refusal to reason and compare differently: it can mark a turn toward a priori rational construction, where a created system takes its coherence for truth. His defense of experienced particulars makes the line an objection to the emancipatory architect as well as a resource for one [@white2005Science, pp. 116–117]. These interpretations press the same political question without resolving the scene alike: what keeps a self-created order from becoming another person's enclosing system?
+
+The next plate names the object of Los's continuing labor:
+
+\Needspace{4\baselineskip}
+
+> Striving with Systems to deliver Individuals from those Systems;
+
+Q31. William Blake, Jerusalem 11:5, E154. [@blakeJerusalem].
+
+Chains, furnaces and the felt pain of threatened persons surround that labor. The value of a system cannot be settled by its creator's independence. Its consequences for those within its reach matter. Plate 12 complicates even the opposition between system and release: mathematical fixation gives falsehood a body that can be cast off, and demonstrative science turns an adversary's weapon against him [@blakeJerusalem, 11:1–7, E154; 12:10–15, E155]. Making a claim definite can expose its limits. A model, register or constitution becomes politically dangerous when its definiteness closes the possibility of challenging what it leaves out.
+
+## States change, persons endure, and national productions matter
+
+The central distinction appears in Milton's instruction on combination:
+
+\Needspace{7\baselineskip}
+
+> Distinguish therefore States from Individuals in those States.\
+> States Change: but Individual Identities never change nor cease:\
+> You cannot go to Eternal Death in that which can never Die.
+
+Q03. William Blake, Milton 32:22-24, E132. [@blakeMilton].
+
+The Seven Angels distinguish combination in freedom and brotherhood from combination through war, sacrifice and imprisonment. The issue is how a multitude is composed, rather than whether it is a multitude. Individual identities also endure; the contrast is not an eternal collective against expendable persons. Imagination itself is not a state [@blakeMilton, 32:8–38, E131–132]. An official therefore cannot acquire a person's identity by classifying the state through which that person passes.
+
+The proposed inversion is that a federation contains STATES as imaginative possibilities, while NATIONS are historical formations through which possibilities become articulate. A nation may disclose several possibilities; a possibility may recur across several national histories. Their relation is many-to-many. This is a constructive distinction made through Blake, whose Last Judgment prose also describes states appearing as multitudes of nations. It must answer to that visionary use rather than pretend to supply an exhaustive dictionary of his terms [@blakeLastJudgment, notebook p. 76, second passage, E556–557]. Damrosch's account of universality in particular manifestations reinforces the need to resist a detachable essence that an institution could certify as a people's real nature [@damrosch1980, pp. 15–21, especially p. 20 n. 25].
+
+Temporal production has affirmative value:
+
+\Needspace{4\baselineskip}
+
+> Eternity is in love with the productions of time.
+
+Q13. William Blake, The Marriage of Heaven and Hell, plate 7, E36. [@blakeMarriage].
+
+A language, friendship or public achievement need not last forever to matter. Its place among the Proverbs of Hell also prevents the line from becoming a freestanding approval of everything history produces. A shared school and a punitive register are both productions of time; they call for different judgments. The enduring availability of a state supplies no mandate to rule: Jerusalem makes the state Satan permanent and accursed so that Albion may rise from it [@blakeJerusalem, 31:13–16, E177–178]. Intelligibility, value and authority require separate arguments.
+
+The national question sharpens that separation. Fallon reads a situated homeland as a medium of imaginative cultivation that can open toward other nations, distinguishing regeneration from the Polypus's coercive aggregation. His explicit disagreement with Wright concerns whether loving union transforms relations or reproduces incorporation in a redemptive idiom. Clark's account of Jerusalem's nationalist artistic economy adds the question of who selects the national image [@fallon2015, submitted ms. pp. 10–12 and p. 12 n. 40; @clark2006, pp. 167–168]. A federation does not answer these objections by recognizing more names if one center still determines what their recognition means.
+
+Stefanis makes selection a material practice. Blake's 1809 exhibition and Descriptive Catalogue sought public authority through the choice, arrangement and explanation of works, while autonomy coexisted with a search for recognition and commissions. The artist's account of exclusion also meets the record of earlier Academy acceptances [@stefanis2010Reasoned, paras. beginning “With his 1809 exhibition” and “By the nineteenth century”; notes 10–15; concluding comparison]. A collective likewise presents itself through selected histories and exemplary members. The institutional question is who can contest the selection and introduce an experience the authorized image excludes.
+
+Mellor's objection concerns the agency distributed within the shared form. Inclusive fraternity and androgyny can preserve a division in which masculine creation directs feminine embodiment; Ostriker's partly inconsistent orientations prevent a single story of emancipation from settling the issue [@mellor1982, pp. 148–153; @ostriker1982, pp. 156–164]. Participation must include powers to originate, revise and refuse a form, alongside a place within it. The nation that includes everyone symbolically can still reserve those powers to a few.
+
+## Affiliation, interpretation and competence require different warrants
+
+Composition without capture names the political commitment developed here. Languages, memories, solidarities and shared achievements can sustain collective life without giving an organization an exhaustive claim over its participants. Nor does non-capture abolish binding decisions. A territorial body may tax residents for water infrastructure without claiming to embody their deepest identity; a cultural body may sustain a language without controlling every member's employment or conscience.
+
+Demoicracy supplies a structural comparator: peoples can govern jointly without merging into one people. Non-domination asks a further question about the power persons retain to make a challenge change what an authority may do [@nicolaidis2013, author ms. pp. 7–16; @pettit2005, pp. 8–14]. Passage also requires provision. After the pilgrim simile in Jerusalem, Los's sons clothe and feed the troubling Spectres and provide houses and gardens. Changing an affiliation cannot be reduced to changing a label when housing, livelihood and access to a hearing are at stake [@blakeJerusalem, 73:35–54, E228–229].
+
+The reconstruction therefore keeps three questions distinct: what people share, how a national formation interprets it, and which institution may impose a specified consequence. The typed model records these relations without making a person's standing depend on assignment to a poetic state.
 
 \Needspace{11\baselineskip}
 
@@ -38,14 +92,6 @@ For nonempty $J$ and $D$, fixing $A$ and $I$ in [@def:typed] does not determine 
 The many-to-many map in [@fig:typed-relations] displays this independence. Persons can sustain several affiliations; nations can draw on several state interpretations. The institution–decision relation occupies a separate layer because its warrant has to be supplied.
 
 ![Two structures retain the same persons, national formations, poetic-state readings, affiliations and interpretations. World 0 records no institutional competence claim; World 1 records the claim (j,d). Solid and dashed links remain identical while the red claim changes, making Proposition 1's countermodel visible. The claim still requires an independent warrant.](../figures/typed-relations.png){#fig:typed-relations width=95%}
-
-\Needspace{4\baselineskip}
-
-> Eternity is in love with the productions of time.
-
-Q13. William Blake, The Marriage of Heaven and Hell, plate 7, E36. [@blakeMarriage].
-
-The proverb makes the temporal term affirmative: a friendship, language or public achievement need not become eternal to matter. Its placement among the Proverbs of Hell also resists turning it into a freestanding moral axiom. Production remains a question for judgment. A punitive register and a shared school are both historical acts; the adjective temporal does not decide between them. Composition without capture must preserve the capacity to discriminate among productions.
 
 # Changing states and enduring persons: reading Milton and Jerusalem together {#sec:s2}
 
@@ -77,11 +123,8 @@ The dimensions in line 18 do not themselves prove that measurement is tyrannical
 
 ## Identities endure while states change
 
-> Distinguish therefore States from Individuals in those States.\
-> States Change: but Individual Identities never change nor cease:\
-> You cannot go to Eternal Death in that which can never Die.
+The opening quotation Q03 separates changing states from enduring identities. Its immediate continuation turns to the status of imagination.
 
-Q03. William Blake, Milton 32:22-24, E132. [@blakeMilton].
 
 The contrast is not eternal collective states against replaceable persons: individual identities also endure. An account that preserves every state while sacrificing inconvenient individuals would fail at its textual center. Identity's endurance does not mean that an official can certify a person's unchanging real nature. The distinction should restrain the classifier's authority, including that of a benevolent Blake interpreter.
 
@@ -463,6 +506,19 @@ The temporal sequence matters. Reason becomes destructive through separation, en
 
 White reads this passage through the difference between a revisable ratio of experience and a system that prevents further knowledge. His argument joins Blake's defense of practical art and science to criticism of their philosophical overextension [@white2005Science, pp. 108–109, 116–117, 122–123]. That interpretation supports retaining measurement while questioning its sufficiency. His insistence on the truth of immediate experience also leaves a political difficulty: an official's asserted certainty cannot determine which testimony others must accept [@white2005Science, pp. 108–109, 123].
 
+The corresponding Jerusalem passage gives measurement an adversarial use:
+
+\Needspace{7\baselineskip}
+
+> Fixing their Systems, permanent: by mathematic power\
+> Giving a body to Falshood that it may be cast off for ever.\
+> With Demonstrative Science piercing Apollyon with his own bow!
+
+Q32. William Blake, Jerusalem 12:12–14, E155. [@blakeJerusalem].
+
+Fixation can make a false claim answerable by giving it a definite body. The classification record uses that possibility: it specifies issuer, consequence, reach and enforcement so that each can be disputed. The specification does not absorb the person into the record. It gives an objection a target and permits a correction to change the act. What matters is whether demonstrable error can alter public power, including the power exercised through the model itself.
+
+
 The decision record therefore needs more than a correction box. It must allow a claimant to show that its existing categories miss the relevant injury. A language-service file may need to become a record of unpaid translation work; an affiliation dispute may reveal an employment dependency. The institution must identify who can revise the question, suspend an adverse consequence and preserve provision while the revision occurs. Otherwise, impeccable records of earlier decisions can supply the steel in which a present grievance is enclosed.
 
 The Figure 13 caption, printed p. 28/PDF p. 30, associated with §12.2, supplies a particularly concrete warning: issuing jurisdiction does not establish reach or enforcement [@friedman2026law, sec. 12.2, Fig. 13]. The prototype consequently records issuer and level, competence source, affected reach, enforcement actor and limits separately. Counting institutions, members or citations does not weight legal importance or assign constitutional authority.
@@ -839,14 +895,14 @@ Equal-family weighting changes the state rate to 3.48624 per 10,000 tokens ([@fi
 \Needspace{11\baselineskip}
 
 ::: {.definition #def:family-rate title="Equal-family rates and finite deletion sensitivity"}
-Let $U_w$ collect the units bearing source-family identifier $w$, and let $W_+$ contain the families with positive token totals. Define
+Let $W$ be the recorded family IDs, $U_w=\{u\in U:\operatorname{family}(u)=w\}$, and $W_+=\{w\in W:\sum_{u\in U_w}t_u>0\}$. Define
 
 $$
 \overline R_q=\frac{1}{\lvert W_+\rvert}\sum_{w\in W_+}R_q(U_w),\qquad
-\mathcal D_q=\{R_q(U\setminus U_w):w\in W\}.
+\mathcal D_q=\bigl(R_q(U\setminus U_w)\bigr)_{w\in W}.
 $$ {#eq:family-rate}
 
-The equal-family mean weights each eligible family once. The minimum and maximum of defined values in $\mathcal D_q$ describe the full leave-one-family-out range for this collection. Each omission removes both its occurrences and its tokens.
+The equal-family mean weights each eligible family once. The minimum and maximum of defined values in $\mathcal D_q$ describe the full leave-one-family-out range for this collection. This indexed family retains the omitted family ID when values tie. Each omission removes both its occurrences and its tokens.
 :::
 
 ![Occurrence, extract presence and source-family presence answer different questions. For states, 264 occurrences appear in 60 of 199 primary extracts and 13 of 33 source families. Red marks pool 644,245 tokens; black marks average positive-token family rates. Right-hand values give pooled/equal-family rates per 10,000 tokens. Persons includes individual/identity variants; nations includes people/peoples; liberty includes freedom. Query definitions and the complete twenty-query table accompany the analytical data.](../figures/copy-balanced-rates.png){#fig:copy-balanced-rates width=98%}
@@ -899,12 +955,12 @@ The analysis computes pairwise overlap in three universes: retained primary extr
 \Needspace{11\baselineskip}
 
 ::: {.definition #def:association title="Overlap, conditional presence and lift"}
-In a declared universe of $n$ units, let $X_q$ and $X_r$ be the presence sets for two queries. Define
+In a declared universe of $n$ units, let $X_q$ and $X_{q'}$ be the presence sets for two queries. Define
 
 $$
-\operatorname{Jac}(q,r)=\frac{\lvert X_q\cap X_r\rvert}{\lvert X_q\cup X_r\rvert},\quad
-\Pr(r\mid q)=\frac{\lvert X_q\cap X_r\rvert}{\lvert X_q\rvert},\quad
-\operatorname{Lift}(q,r)=\frac{n\lvert X_q\cap X_r\rvert}{\lvert X_q\rvert\lvert X_r\rvert}.
+\operatorname{Jac}(q,q')=\frac{\lvert X_q\cap X_{q'}\rvert}{\lvert X_q\cup X_{q'}\rvert},\quad
+\Pr(q'\mid q)=\frac{\lvert X_q\cap X_{q'}\rvert}{\lvert X_q\rvert},\quad
+\operatorname{Lift}(q,q')=\frac{n\lvert X_q\cap X_{q'}\rvert}{\lvert X_q\rvert\lvert X_{q'}\rvert}.
 $$ {#eq:association}
 
 Each expression is undefined when its denominator is zero. The universe and presence sets travel with every reported value. Presence in one full extraction records shared textual coverage, including distant or opposed passages.
@@ -912,7 +968,7 @@ Each expression is undefined when its denominator is zero. The universe and pres
 
 Nations and states share nine of seventeen source families in their union: Jaccard 0.52941 and lift 1.75740. Persons and states share three of fourteen: Jaccard 0.21429 and lift 1.90385. The latter has narrower shared coverage but larger relative concentration because the person/identity vocabulary occurs in only four families. Liberty/freedom and nation/people share four families; four of the five liberty-bearing families contain the national vocabulary, while only four of thirteen nation-bearing families contain liberty. Conditional presence makes that asymmetry visible.
 
-![Source-family presence across eight query groups. The matrix prints all 64 Jaccard intersection/union values over 33 families; darker grey indicates greater overlap. Separate readouts give directional conditional presence and lift. Liberty/particulars shares 3 families in a union of 5: Jaccard 0.60, conditional presence 0.60 and 1.00, lift 6.60. These family-level comparisons include distant or opposed passages and direct close reading to the shared source sets.](../figures/term-associations.png){#fig:term-associations width=98%}
+![Source-family presence across eight query groups. The matrix prints all 64 Jaccard intersection/union values over 33 families; darker grey indicates greater overlap. Separate readouts give directional conditional presence and lift. Liberty/particulars shares 3 families in a union of 5: Jaccard 0.60, conditional presence of particulars given liberty 0.60 and liberty given particulars 1.00, lift 6.60. These family-level comparisons include distant or opposed passages and direct close reading to the shared source sets.](../figures/term-associations.png){#fig:term-associations width=98%}
 
 The computational contribution is a ranked set of comparisons with inspectable denominators: Urizen for state density; non-Jerusalem families for particulars and emanation; and the four person/identity-bearing families for testing the proposed state/person relation. The manuscript's quoted passages then supply speech, sequence, image and argumentative context. The retrieval and the reading perform connected tasks.
 
@@ -924,7 +980,7 @@ The fixed query groups support a stable comparison across versions. The new sear
 Search preserves the source spelling and punctuation. Unicode casefolding supports case-insensitive matching, with each folded character mapped back to its original text offset. A match must align with complete source characters. Literal phrases retain their spaces and line breaks; the interface offers substring matching separately from whole-word boundaries. Search results include the edition, locator, source URL, role, rights statement, original-text hash and exact span. These fields let a reader reopen a passage and distinguish the text being interpreted from the layers through which it was retrieved.
 
 ::: {.definition #def:search-scope title="Search counts precede the displayed sample"}
-For the eligible source-unit set $U$, let $H_q(u)$ be the nonoverlapping, character-aligned literal matches for query term $q$ in unit $u$. An alternative query admits units with any nonempty $H_q(u)$; a conjunctive query admits units for which every $H_q(u)$ is nonempty. Write the admitted units as $M$. The occurrence count and matched-unit count are
+For a nonempty set $Q$ of casefold-distinct literal terms and eligible source-unit set $U$, let $H_q(u)$ be the nonoverlapping, character-aligned literal matches for query term $q$ in unit $u$. An alternative query admits units with any nonempty $H_q(u)$; a conjunctive query admits units for which every $H_q(u)$ is nonempty. Write the admitted units as $M$. The occurrence count and matched-unit count are
 
 $$
 O=\sum_{u\in M}\sum_{q\in Q}\lvert H_q(u)\rvert,\qquad B_{\mathrm{match}}=\lvert M\rvert.
@@ -941,11 +997,37 @@ Within the primary extracts, liberty occurs 55 times in 17 units, while freedom 
 
 The local search workspace connects these counts to passage cards, highlighted spans and a source-family distribution. Its role/plane matrix and family table use the full matched set before the display cap; the exported result records the same request and pin. This makes a specific comparison possible: select a lexical cluster, inspect where its occurrences concentrate, then read the passages that supply the concentration. A frequency table can direct the next comparison without deciding which speaker, national formation or institutional claim deserves endorsement.
 
+## Word windows distinguish nearby language from document-wide co-presence
+
+The optional word window narrows conjunctive retrieval to a stated span of the original text. Every term must participate in at least one complete qualifying combination. A distant occurrence of a term is not retained merely because another occurrence of that term qualifies elsewhere in the document. The reported occurrence total counts each participating term-labeled span once, even when it belongs to several qualifying combinations. This makes the window a retrieval constraint with inspectable counts, rather than a distance attached only to the first displayed result.
+
+::: {.definition #def:window title="Complete word windows and participating occurrences"}
+Let $\mathcal T_u$ be the intervals of the original text's Unicode word tokens, using the implementation's `\w+` rule, and define $\nu_u(a,z)=|\{[s,e)\in\mathcal T_u:s<z\ \land\ e>a\}|$. For ALL search with $|Q|\geq2$ and integer budget $1\leq b\leq200$, a complete tuple selects one hit $\eta_q=[s_{\eta_q},e_{\eta_q})$ per term:
+
+$$
+\begin{aligned}
+\Omega_b(u)&=\left\{(\eta_q)_{q\in Q}\in\prod_{q\in Q}H_q(u):
+\nu_u\!\left(\min_{q\in Q}s_{\eta_q},\max_{q\in Q}e_{\eta_q}\right)\leq b\right\},\\
+H_q^b(u)&=\{\eta_q:(\eta_{q'})_{q'\in Q}\in\Omega_b(u)\}.
+\end{aligned}
+$$ {#eq:window}
+
+Use $H_q^b(u)$ in [@eq:search-counts] and admit exactly the units with nonempty $\Omega_b(u)$. Phrase tokens count toward the envelope; punctuation-only envelopes contain zero word tokens. Different terms may overlap. Without a budget, ALL retains its document-wide meaning. The window changes the admitted matches, while the display cap still leaves their totals and facets unchanged.
+:::
+
+The implementation sweeps feasible word-window positions instead of enumerating every complete tuple. Every occurrence contributes an interval of possible window origins; simultaneous coverage by all terms identifies qualifying positions, and interval intersection identifies the participating hits. Independent Cartesian enumeration on short inputs checks the result directly. Increasing the budget can add participating occurrences and source units, and cannot remove them. The retained source and locator let the next reading identify speaker, endorsement and conceptual relation.
+
+The six-pair comparison applies budgets of 8, 16, 32 and 64 word tokens, followed by document-wide ALL, to the same 199 primary units, 33 recorded families and 644,245 tokens. State with individual matches no units at 8 or 16 words, four at 32, six at 64 and nine document-wide. States with individuals matches six units at every width. This singular/plural difference makes the literal query choice visible before a broader conceptual group combines variants. It directs reading toward particular formulations and witnesses rather than ranking an abstract state/person relation by its aggregate frequency.
+
+System with imagination occurs in thirteen shared units document-wide and none within 64 words. The result directs attention to how the larger dramatic scene relates the two terms. Los's declaration instead places system beside create and enslavement (Q30), while the next plate joins systems to deliverance (Q31). The search pairs therefore supply alternative routes into the argument: one asks where the selected words appear together, another asks which nearby actions and objects make that relation intelligible. Labour with misery grows from zero matched units at 8 words to four at 16 and nine document-wide, directing a separate comparison of work, exhaustion and the wider passages already read beside the plates.
+
+![Complete literal combinations at four word budgets and document-wide ALL. The six rows keep singular/plural forms separate; each cell prints matched primary units and, in parentheses, all participating term-labeled occurrences. Red columns use 8, 16, 32 and 64 original Unicode word tokens; the final column uses the whole stored source unit. All cells share 199 eligible units, 33 recorded families and 644,245 tokens, with stored copies retained. Totals precede the display cap. A zero records a measured absence under that exact query; the document-wide column includes distant passages. The aggregate JSON also records term counts, family strata and token-normalized rates.](../figures/literal-proximity-windows.png){#fig:literal-proximity-windows width=98%}
+
 ## Reading, quotation and image method
 
 Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
 
-Twenty-nine displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
+Thirty-two displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
 Twelve official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 

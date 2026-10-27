@@ -256,7 +256,15 @@ def cooccurrence(c: Canvas, stats: CorpusStatistics) -> None:
             500,
             9,
         )
-        text(c, f"{p.both_matches} shared families", 20, 93 - i * 25, 500, 7.5, MUTED)
+        text(
+            c,
+            f"{p.both_matches} shared / {p.either_matches} either families",
+            20,
+            93 - i * 25,
+            500,
+            7.5,
+            MUTED,
+        )
     text(
         c,
         "".join(
@@ -368,9 +376,17 @@ def repairs(c: Canvas, report: Workbench) -> None:
         500,
         8,
     )
+    bounded_subsets = sum(
+        d.admissible_subsets for d in experiment.decisions if not d.baseline_failed_rules
+    )
     text(
         c,
-        "Failed baselines shown; bounded cases have empty bundles. No empirical efficacy claim.",
+        "".join(
+            (
+                f"{len(experiment.decisions) - len(rows)} bounded baselines: minimum 0. ",
+                f"{bounded_subsets:,} admissible subsets in these programmed records.",
+            )
+        ),
         20,
         44,
         500,

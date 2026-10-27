@@ -1,0 +1,43 @@
+{
+  "version": "0.9.0",
+  "status": "software_and_native_render_qualified",
+  "tests": 349,
+  "coverage_percent": {
+    "application": 96.60402242004616,
+    "infrastructure": 72.21052631578948
+  },
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "qualification_artifacts": {
+    "page-inspection-final.json": "5c6880ce90d174db39c39895a3492aeccb37424d486be4962ce4de32233eb622",
+    "figure-inspection-final.json": "8bebe77c2c5db23ae57c6a8a3a1920fb0d6ac6da72c0f1c46708021a6d383cd6",
+    "browser-inspection-final.json": "e8fdde6ccae6c1c0216d7d432528d09eac8ca744ebb38aab8d683cb2d400cd72",
+    "manual-analysis-final.json": "0684ecf7c26e230a556f595070fae3ea0f87abd83df6f89d0816985824bc2116",
+    "research-integration-final.json": "ae9a7ecd496212d459e90f9885e06cb305b9d1f14e869a637d28da7d29bfdd83",
+    "bibliography-parser.json": "775b56c51906304bcc8ba09df5eb6f64b6b08914b59dde52f715691624cf38c6",
+    "search-production-receipt.json": "061272061fa23deaafb4f43bd4aa7830420608c1c731614a0c6c1e7e2365ed07",
+    "browser-teardown-02.json": "0e4449b00de4d7bdea7f1ab25a0650a989e4e128e0943e6f92ad88c85484b959",
+    "browser-results-090-final.json": "8048cc65c11c32cde9496d78ffa332f8ef5fc66d0ce5cc56a1119c89de1d71fc",
+    "final-workbench-browser-results-090.json": "680da30bf8692dc7d5cbf4abc8b7e5d26921f3e3e9cd5a140f4a38af882d7c24",
+    "string-layout-ast-parity.json": "e3696b807cd7a55f4d50f51bd2594136a7ddfb3b3f4fe69ec71e0f2dc9684677",
+    "loc-J98-receipt.json": "3f002cf4bfa4f27be5beda1417971b01c97b4504a48535203abecf19f5b93851",
+    "browser-results-090-current.json": "8048cc65c11c32cde9496d78ffa332f8ef5fc66d0ce5cc56a1119c89de1d71fc",
+    "browser-search-results-090.json": "d0a693003ae11d13825add193c8446aee75e644a3c069dfb36d60d3ddc08fbbc",
+    "qualification-05/checks.json": "07dcff35a7a8ffe5aec05250e2a94ca28d6aa64ae4fcff857a0191b0812c3f3f",
+    "qualification-05/check-0.log": "90c67d3ecb2c72d7e5dadc342b09350258a12b42943dc49d9e5f78c3c3d4f497",
+    "qualification-05/check-1.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "qualification-05/check-2.log": "eb27c90aa064a61ea9229c3acedb339696979cc4f1b6d1e8e8dd6eab0c1292a7",
+    "qualification-05/check-3.log": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
+    "qualification-05/check-4.log": "8e9c450a2bfc99a6e5fc5464e201e8a7cf47dc1ee5762cc5cf1b1a82971e2027",
+    "qualification-05/tests.xml": "65cb5463b0c4b258d609e3085b103178087e3834debf4daeff9d97bba3a14d7b",
+    "qualification-05/coverage.json": "a489c43ffe5723e5007e5e54619802c27e004ff889dd2513b28d9c20d2e4044a",
+    "qualification-05/source-bindings.json": "8f400b541322013067f196ab4ab8ea714db6b513026004789e7a6da9a363b9c5",
+    "raster-native04.json": "8bd7d421f767e84041c2caf37da1e05feb4c5582facf2cf42970c84771a58cf1"
+  },
+  "rendered_qa": "research/rendered-review-0.9.0.json",
+  "historical_qualification": "research/history/verification-0.8.0.json",
+  "qualification_reuse": "Current Python, test, package configuration and resource bindings match qualification-05. Manuscript layout is bound to the selected native receipt and final visual proofs.",
+  "native_worker_coverage_note": "Separate native-template execution has its own source-bound receipt."
+}

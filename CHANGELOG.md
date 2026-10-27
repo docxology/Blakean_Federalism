@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.0 — creation, notation and word-window retrieval
+
+- Refactor the opening around systems and deliverance, with two new scholarly readings, three verified Blake excerpts and a comprehensive one-paragraph abstract.
+- Mark Blake quotation blocks in italic type across native PDF, paper HTML and the evidence workbench; retain source spelling and exact quotation identities.
+- Recheck all front notation against the implementation; define participating word-window hits, indexed deletion rates and distinct association-query symbols.
+- Add optional 1–200-word conjunctive retrieval with original-text spans, complete pre-cap counts and an offline form/export; compare six literal pairs across four budgets and document-wide ALL.
+- Enrich eight existing figures, including all four graphical abstracts, and add a source-bound proximity matrix with explicit counts and denominators.
+
 ## 0.9.0 — notation, visual arguments and close reading
 
 - Add a source-bound front notation table with live references and native PDF/HTML placement checks; distinguish mathematical operators and model contexts.

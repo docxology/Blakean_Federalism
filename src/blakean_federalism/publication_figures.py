@@ -22,6 +22,8 @@ from .figure_style import (
 from .figure_style import (
     registry as _registry,
 )
+from .proximity_figure import draw_proximity_study
+from .proximity_study import ProximityStudy
 from .publication_abstracts import composition, decision, scholarship
 from .publication_body import (
     draw_agreement_routes,
@@ -37,7 +39,11 @@ from .workbench_models import Workbench
 
 
 def generate_figures(
-    report: Workbench, output: Path, rasterizer: str, search_study: SearchStudy | None = None
+    report: Workbench,
+    output: Path,
+    rasterizer: str,
+    search_study: SearchStudy | None = None,
+    proximity_study: ProximityStudy | None = None,
 ) -> dict[str, str]:
     """Write new deterministic vector masters and PNG derivatives."""
     directory = Path(__file__).parent / "resources/fonts"
@@ -68,6 +74,8 @@ def generate_figures(
             drawings["counterfactual-repairs"] = partial(repairs, report=report)
     if search_study is not None:
         drawings["literal-search-strata"] = partial(draw_search_study, study=search_study)
+    if proximity_study is not None:
+        drawings["literal-proximity-windows"] = partial(draw_proximity_study, study=proximity_study)
     for name, drawing in drawings.items():
         stream = io.BytesIO()
         height = 520 if name.startswith("abstract-") else 445

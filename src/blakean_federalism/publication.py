@@ -7,6 +7,7 @@ from pathlib import Path
 from . import __version__
 from .manuscript import ManuscriptSpec, validate_manuscript
 from .models import ResearchError
+from .proximity_study import ProximityStudy
 from .publication_contract import manuscript_contract, source_bindings
 from .publication_figures import generate_figures
 from .publication_models import PreparedPublication, TemplateRendering
@@ -25,6 +26,7 @@ SOURCE_NAMES = (
     "research/citation-catalog.json",
     "research/search-study-0.8.0.json",
     "docs/manuscript/notation.md",
+    "research/proximity-study-0.10.0.json",
 )
 
 
@@ -64,6 +66,61 @@ def manuscript_variables(report: Workbench) -> dict[str, str]:
     }
 
 
+def _abstract_captions(report: Workbench) -> tuple[str, str, str]:
+    observed = report.corpus_statistics
+    experiment = report.institutional_experiments
+    if observed is None or experiment is None:
+        raise ResearchError(
+            "publication_statistics", "Abstract requires observed and synthetic data"
+        )
+    return (
+        (
+            "Three pairs of scholarly arguments motivate the project's proposed design "
+            "questions: what may change, who interprets, and who can "
+            "challenge the reviewer."
+        ),
+        (
+            "The proposed water levy separates entity and role from issuing "
+            "authority, affected reach, enforcement and consequence. Red "
+            "feedback paths return challenge and interim duties to the "
+            "decision."
+        ),
+        (
+            "Eight lexical rows give occurrences, matched/eligible units and families, "
+            "pooled and equal-family token rates across "
+            f"{observed.primary_source_units} primary extracts, "
+            f"{observed.primary_work_groups} families and {observed.primary_tokens:,} tokens. "
+            "A separate finite-intervention panel counts "
+            f"{experiment.total_admissible_subsets:,} admissible subsets among "
+            f"{experiment.total_subsets:,} tested, producing "
+            f"{experiment.total_distinct_states} distinct records. "
+            "These are programmed comparisons of hypothetical decisions."
+        ),
+    )
+
+
+def _publication_studies(root: Path, report: Workbench) -> tuple[SearchStudy, ProximityStudy]:
+    historical = SearchStudy.model_validate_json(
+        safe_path(root, "research/search-study-0.8.0.json").read_bytes()
+    )
+    nearby = ProximityStudy.model_validate_json(
+        safe_path(root, "research/proximity-study-0.10.0.json").read_bytes()
+    )
+    observed = report.corpus_statistics
+    if (
+        historical.corpus_pin != report.corpus_pin
+        or nearby.corpus_pin != report.corpus_pin
+        or historical.source_units != report.source_units
+        or nearby.scanned_source_units != report.source_units
+        or observed is None
+        or nearby.rows[0].eligible_source_units != observed.primary_source_units
+        or nearby.rows[0].eligible_word_tokens != observed.primary_tokens
+        or nearby.rows[0].eligible_source_families != observed.primary_work_groups
+    ):
+        raise ResearchError("search_study_pin", "Search studies must match the publication corpus")
+    return historical, nearby
+
+
 def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer: str) -> Path:
     """Validate before reserving a stage; never reuse another run's output tree."""
     root = root.absolute()
@@ -99,20 +156,17 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     raw = output / "manuscript"
     raw.mkdir()
     figures = output / "output/figures"
-    search_study = SearchStudy.model_validate_json(safe_path(root, SOURCE_NAMES[8]).read_bytes())
-    if (
-        search_study.corpus_pin != report.corpus_pin
-        or search_study.source_units != report.source_units
-    ):
-        raise ResearchError("search_study_pin", "Search study must match the publication corpus")
-    generated = generate_figures(report, figures, rasterizer, search_study)
+    search_study, proximity_study = _publication_studies(root, report)
+    generated = generate_figures(report, figures, rasterizer, search_study, proximity_study)
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
     write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
     front: list[str] = [
         "```{=html}",
+        '<script>window.MathJax.output.displayOverflow = "scroll";</script>',
         "<style>",
         "html {color-scheme: light;}",
+        "blockquote {font-style:italic !important; border-left:3px solid #b00020;}",
         "a:any-link, a:any-link *, #TOC a:any-link {color: #b00020 !important;}",
         "h1, h2, h3, h4, h5, h6 {color: #000 !important; border-color: #b00020 !important;}",
         "html, body, main, article {color: #000 !important; background: #fff !important;}",
@@ -152,7 +206,8 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     )
     descriptions = (
         (
-            "Three paired tensions connect permanence, reciprocity and protection to "
+            "Three paired scholarly tensions and proposed tests connect permanence, "
+            "reciprocity and protection to "
             "standing, interpretive authority and contestable review."
         ),
         (
@@ -161,30 +216,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             "feeding back into the act."
         ),
         (
-            "Paired rates compare pooled copies and equal-family weighting; "
+            "Eight focus rows give exact occurrence, unit and family coverage, "
+            "pooled rates and equal-family means; "
             "minimum bundles expose the programmed deficits of five "
             "synthetic capture records."
         ),
     )
-    captions = (
-        (
-            "Three pairs of scholarly arguments converge on distinct design "
-            "questions: what may change, who interprets, and who can "
-            "challenge the reviewer."
-        ),
-        (
-            "The proposed water levy separates entity and role from issuing "
-            "authority, affected reach, enforcement and consequence. Red "
-            "feedback paths return challenge and interim duties to the "
-            "decision."
-        ),
-        (
-            "Observed textual coverage and paired token rates appear above a "
-            "separate finite-intervention panel. Red filled and black open "
-            "marks distinguish pooled and equal-family rates; stacked dots "
-            "count minimum interventions."
-        ),
-    )
+    captions = _abstract_captions(report)
     for number, title in enumerate(titles, start=2):
         front.extend(
             [

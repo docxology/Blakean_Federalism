@@ -17,6 +17,7 @@ from blakean_federalism.corpus import load_import
 from blakean_federalism.corpus_statistics import analyze_corpus
 from blakean_federalism.manuscript import validate_manuscript
 from blakean_federalism.models import QuerySpec, ResearchError
+from blakean_federalism.proximity_study import build_proximity_study
 from blakean_federalism.publication import SOURCE_NAMES, manuscript_variables, prepare_publication
 from blakean_federalism.publication_contract import manuscript_contract
 from blakean_federalism.publication_figures import generate_figures
@@ -156,6 +157,9 @@ def publication_source(prepared):
     (root / "research/search-study-0.8.0.json").write_text(
         build_search_study(units, report.corpus_pin).model_dump_json()
     )
+    (root / "research/proximity-study-0.10.0.json").write_text(
+        build_proximity_study(units, report.corpus_pin).model_dump_json()
+    )
     rasterizer = shutil.which("pdftoppm")
     assert rasterizer is not None, "Install the documented Poppler toolchain"
     return root, report, rasterizer
@@ -168,7 +172,7 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     receipt = PreparedPublication.model_validate_json(
         (target / "prepared-publication.json").read_bytes()
     )
-    assert len(receipt.figures) == 24
+    assert len(receipt.figures) == 26
     assert all(
         digest(target / "output/figures" / name) == value for name, value in receipt.figures.items()
     )
@@ -459,7 +463,8 @@ def test_evidence_abstract_distinguishes_absent_state_query_from_measured_zero(p
         report.model_copy(update={"corpus_statistics": zero_stats}), root / "zero-state", rasterizer
     )
     content = PdfReader(root / "zero-state/abstract-4.pdf").pages[0].extract_text()
-    assert "states\n0/1\n0.00 / 0.00" in content
+    for query in FOCUS:
+        assert f"{query}\n0\n0/1 / 0/1\n0.00 / 0.00" in content
     assert "N/A / query absent" not in content
 
 

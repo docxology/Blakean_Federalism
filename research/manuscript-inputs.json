@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -194,7 +194,7 @@
       "sha256": "7992a2139c359e05bc38b6a8bd9f3010d22a7a8105fab5ec38b982c56529b4dd",
       "size": 305485,
       "kind": "image",
-      "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters’ labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters\u2019 labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
       "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
       "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
       "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
@@ -585,7 +585,7 @@
     {
       "quote_id": "Q14",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 27:85–88, E173",
+      "locator": "Jerusalem 27:85\u201388, E173",
       "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
       "segments": [
         {
@@ -613,7 +613,7 @@
     {
       "quote_id": "Q15",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 99:1–5, E258–259",
+      "locator": "Jerusalem 99:1\u20135, E258\u2013259",
       "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
       "segments": [
         {
@@ -646,7 +646,7 @@
     {
       "quote_id": "Q16",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:51–53, E205",
+      "locator": "Jerusalem 55:51\u201353, E205",
       "segments": [
         {
           "anchor": "J55.51;E205",
@@ -669,7 +669,7 @@
     {
       "quote_id": "Q17",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:60–63, E205",
+      "locator": "Jerusalem 55:60\u201363, E205",
       "segments": [
         {
           "anchor": "J55.60;E205",
@@ -697,7 +697,7 @@
     {
       "quote_id": "Q18",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 91:26–31, E251",
+      "locator": "Jerusalem 91:26\u201331, E251",
       "segments": [
         {
           "anchor": "J91.26;E251",
@@ -735,7 +735,7 @@
     {
       "quote_id": "Q19",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 12:30–36, E155",
+      "locator": "Jerusalem 12:30\u201336, E155",
       "segments": [
         {
           "anchor": "J12.30;E155",
@@ -773,12 +773,12 @@
           "text": "Always comforting the remembrance: the floors, humility,"
         }
       ],
-      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43–44."
+      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43\u201344."
     },
     {
       "quote_id": "Q20",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 61:17–23, E212",
+      "locator": "Jerusalem 61:17\u201323, E212",
       "segments": [
         {
           "anchor": "J61.17;E212",
@@ -821,7 +821,7 @@
     {
       "quote_id": "Q21",
       "asset_id": "urizen",
-      "locator": "The [First] Book of Urizen 4:34–40, E72",
+      "locator": "The [First] Book of Urizen 4:34\u201340, E72",
       "segments": [
         {
           "anchor": "BU4.34;E72",
@@ -864,7 +864,7 @@
     {
       "quote_id": "Q22",
       "asset_id": "urizen",
-      "locator": "The [First] Book of Urizen 28:6–7, E83",
+      "locator": "The [First] Book of Urizen 28:6\u20137, E83",
       "segments": [
         {
           "anchor": "BU28.6;E83",
@@ -890,12 +890,12 @@
           "text": "The Sons of Los clothe them & feed, & provide houses & gardens"
         }
       ],
-      "context": "Los’s sons provide clothing, food, houses and gardens for spectres; the surrounding work includes feuds, weapons and creation/destruction."
+      "context": "Los\u2019s sons provide clothing, food, houses and gardens for spectres; the surrounding work includes feuds, weapons and creation/destruction."
     },
     {
       "quote_id": "Q24",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 53:7–8, E202",
+      "locator": "Jerusalem 53:7\u20138, E202",
       "segments": [
         {
           "anchor": "J53.7;E202",
@@ -913,7 +913,7 @@
     {
       "quote_id": "Q25",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem59:34–38, E209",
+      "locator": "Jerusalem59:34\u201338, E209",
       "segments": [
         {
           "anchor": "J59.34;E209",
@@ -941,12 +941,12 @@
           "text": "But the poor Spectres that they work for, always incessantly"
         }
       ],
-      "context": "Read 59:26–55 on hunger, delight, labor and repair beside provision at 73:44–54."
+      "context": "Read 59:26\u201355 on hunger, delight, labor and repair beside provision at 73:44\u201354."
     },
     {
       "quote_id": "Q26",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 74:10–13, E229",
+      "locator": "Jerusalem 74:10\u201313, E229",
       "segments": [
         {
           "anchor": "J74.10;E229",
@@ -974,7 +974,7 @@
     {
       "quote_id": "Q27",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 49:72–75, E199",
+      "locator": "Jerusalem 49:72\u201375, E199",
       "segments": [
         {
           "anchor": "J49.72;E199",
@@ -1002,7 +1002,7 @@
     {
       "quote_id": "Q28",
       "asset_id": "butts",
-      "locator": "Letter to Thomas Butts, 22 November 1802, verse 25–30, E721",
+      "locator": "Letter to Thomas Butts, 22 November 1802, verse 25\u201330, E721",
       "segments": [
         {
           "anchor": "L23.verse25Butts11'02;E721",
@@ -1035,12 +1035,12 @@
           "text": "With my outward a Thistle across my way"
         }
       ],
-      "context": "Double vision of a thistle/old man in a commissioned-work and family context. The speaker destroys the thistle at41–42, and the old man welters at53–54. The fourfold declaration at83–88 is already Q12 and is not proposed again."
+      "context": "Double vision of a thistle/old man in a commissioned-work and family context. The speaker destroys the thistle at41\u201342, and the old man welters at53\u201354. The fourfold declaration at83\u201388 is already Q12 and is not proposed again."
     },
     {
       "quote_id": "Q29",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 98:28–32, E257–258",
+      "locator": "Jerusalem 98:28\u201332, E257\u2013258",
       "segments": [
         {
           "anchor": "J98.28;E257",
@@ -1069,6 +1069,60 @@
         }
       ],
       "context": "Selected five-line excerpt; sentence continues into98:33. Conversation creates exemplars, space and time. Entire plate also contains annihilation, irresistible movement, One Man, fitness/order and the covenant; creative reciprocity is not demonstrated equal political standing."
+    },
+    {
+      "quote_id": "Q30",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 10:20\u201321, E153",
+      "segments": [
+        {
+          "anchor": "J10.20;E153",
+          "occurrence": 0,
+          "text": "I must Create a System, or be enslav'd by another Mans"
+        },
+        {
+          "anchor": "J10.21;E153",
+          "occurrence": 0,
+          "text": "I will not Reason & Compare: my business is to Create"
+        }
+      ],
+      "context": "Los resists enslavement while compelling his Spectre; creation and coercion share the scene."
+    },
+    {
+      "quote_id": "Q31",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 11:5, E154",
+      "segments": [
+        {
+          "anchor": "J11.5;E154",
+          "occurrence": 0,
+          "text": "Striving with Systems to deliver Individuals from those Systems;"
+        }
+      ],
+      "context": "Deliverance from systems occurs within continued labor and threatened persons."
+    },
+    {
+      "quote_id": "Q32",
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 12:12\u201314, E155",
+      "segments": [
+        {
+          "anchor": "J12.12;E155",
+          "occurrence": 0,
+          "text": "Fixing their Systems, permanent: by mathematic power"
+        },
+        {
+          "anchor": "J12.13;E155",
+          "occurrence": 0,
+          "text": "Giving a body to Falshood that it may be cast off for ever."
+        },
+        {
+          "anchor": "J12.14;E155",
+          "occurrence": 0,
+          "text": "With Demonstrative Science piercing Apollyon with his own bow!"
+        }
+      ],
+      "context": "Making falsehood definite can expose it to rejection; mathematical fixation has a dramatic use."
     }
   ],
   "fronts": [

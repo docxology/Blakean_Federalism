@@ -47,7 +47,7 @@ class Quotation(FrozenModel):
 
 
 class ManuscriptSpec(FrozenModel):
-    version: Literal["0.2.0", "0.5.0", "0.6.0", "0.7.0", "0.8.0", "0.9.0"]
+    version: Literal["0.2.0", "0.5.0", "0.6.0", "0.7.0", "0.8.0", "0.9.0", "0.10.0"]
     assets: tuple[Asset, ...]
     quotations: tuple[Quotation, ...]
     fronts: tuple[str, ...]
@@ -135,6 +135,20 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
         "0.7.0": {"M32", "J52", "J54", "J73", "J27", "J99", "J55", "J91", "J12", "J61"},
         "0.8.0": {"M32", "J52", "J54", "J73", "J27", "J99", "J55", "J91", "J12", "J61", "J59"},
         "0.9.0": {
+            "M32",
+            "J52",
+            "J54",
+            "J73",
+            "J27",
+            "J99",
+            "J55",
+            "J91",
+            "J12",
+            "J61",
+            "J59",
+            "J98",
+        },
+        "0.10.0": {
             "M32",
             "J52",
             "J54",
