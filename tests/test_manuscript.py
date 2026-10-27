@@ -160,13 +160,16 @@ def test_real_geometry_rejects_overflow():
         box(canvas, 40, 600, 200, 20, "Long box", "A description")
 
 
+@pytest.mark.parametrize("epoch", ["v0.2.0", "v0.11.0"])
 @pytest.mark.parametrize("mutation", ["none", "url", "path", "corrupt"])
-def test_acquisition_preserves_verified_inputs_and_rejects_unsafe_records(manuscript, mutation):
+def test_acquisition_preserves_verified_inputs_and_rejects_unsafe_records(
+    manuscript, mutation, epoch
+):
     root, spec = manuscript
     data = spec.model_dump(mode="json")
     for asset in data["assets"]:
         original = root / asset["path"]
-        target = root / "local_data/manuscript/v0.2.0" / original.name
+        target = root / "local_data/manuscript" / epoch / original.name
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(original.read_bytes())
         asset["path"] = target.relative_to(root).as_posix()
@@ -174,14 +177,19 @@ def test_acquisition_preserves_verified_inputs_and_rejects_unsafe_records(manusc
     if mutation == "url":
         data["assets"][0]["url"] = "https://example.org/unapproved"
     elif mutation == "path":
-        data["assets"][0]["path"] = "local_data/manuscript/v0.2.0/../escape"
+        data["assets"][0]["path"] = f"local_data/manuscript/{epoch}/../escape"
     elif mutation == "corrupt":
         (root / data["assets"][0]["path"]).write_bytes(b"corrupt")
     (root / "research/manuscript-inputs.json").write_text(json.dumps(data))
     if mutation == "none":
         assert acquire(root) == 0
     else:
-        with pytest.raises(ResearchError):
+        expected = {
+            "url": "source_url",
+            "path": "acquisition_boundary",
+            "corrupt": "checksum_mismatch",
+        }[mutation]
+        with pytest.raises(ResearchError, match=expected):
             acquire(root)
 
 

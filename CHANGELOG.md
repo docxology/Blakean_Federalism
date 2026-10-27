@@ -7,6 +7,7 @@
 - Add four verified quotation groups and two identified LOC sheets: 36 quotation records, 148 exact segments and 14 historical plates.
 - Independently check all 22 notation entries against definitions and implementation; clarify local indices, undefined minima and per-term nonoverlapping matches.
 - Preserve the corpus, search calculations, original producer receipts and 47-entry scholarship reading ledger.
+- Admit the pinned 0.11.0 manuscript-input directory during acquisition; verify existing files and distinct URL, traversal and checksum failures in both original and current epochs.
 
 ## 0.10.0 — creation, notation and word-window retrieval
 

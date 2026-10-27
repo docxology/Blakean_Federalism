@@ -20,6 +20,7 @@ PREFIXES = (
     Path("local_data/manuscript/v0.7.0"),
     Path("local_data/manuscript/v0.8.0"),
     Path("local_data/manuscript/v0.9.0"),
+    Path("local_data/manuscript/v0.11.0"),
 )
 
 

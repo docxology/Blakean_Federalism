@@ -1,5 +1,5 @@
 {
-  "schema_version": 12,
+  "schema_version": 13,
   "current_version": "0.11.0",
   "historical_sources": [
     "research/history/current-source-0.1.0.json",
@@ -12,14 +12,15 @@
     "research/history/current-source-0.7.0.json",
     "research/history/current-source-0.8.0.json",
     "research/history/current-source-0.9.0.json",
-    "research/history/current-source-0.10.0.json"
+    "research/history/current-source-0.10.0.json",
+    "research/history/current-source-0.11.0-illuminated.json"
   ],
   "original_analysis_receipt_sha256": "ff662a2ce2befa5673bbad89a3d82b9b873ca04bdb92fcc5ab84a8e878c17e78",
   "original_analysis_receipt_preserved": true,
   "retained_full_run": "research/analysis-run-0.3.0.json",
   "fresh_full_concordance_run_in_0_4_0": false,
   "retained_full_result_sha256": "d3fbbd4561b78b3b18217acf7cd12332cf11077a1522602f045ced3c12884215",
-  "qualification_epoch": "illuminated-abstracts-0.11.0-01",
+  "qualification_epoch": "illuminated-abstracts-0.11.0-03",
   "current_source_bindings": {
     "src/blakean_federalism/manuscript.py": "f485817ec8b4a0a77b43f7acbcfda28034737a6baeb4f340b5d75856b70ef21e",
     "src/blakean_federalism/publication_models.py": "18828b37a61e6e6f5d0777816464c0c575ae27b6d85b85acbaa696d8860aa47f",
@@ -72,21 +73,21 @@
     "tests/test_corpus.py": "1c71f9f1b8888843b67bdbe094c48dcbc385a51b8ae7b61a5c1ccbe38c477193",
     "tests/test_dense_figures.py": "4386233769a6d92c81b97d31f8639e6e1c2195d43ea185ad8fff653efbec92aa",
     "tests/test_search_workspace.py": "296a4e511e0d8d1d56aaad7a6aeca01c1f4b5dc3a36a1db3be0292baeb72e11d",
-    "tests/test_manuscript.py": "0c39bd3689a2ffc2b9fc537661ce8bb2e0ceba752abc18f4236fc6a16f8727ca",
+    "tests/test_manuscript.py": "6316f796393a32dc514844cf4561ef482e7e76003cf50dcf2d6cbc214e90a3a5",
     "tests/test_search_window.py": "063be3319b7765a8b2e70fb06c51775a948ae44ce6d2ed1b27407c4926c5b615",
     "tests/test_corpus_statistics.py": "44bb659a341dcfad955f7615ad7a81eaf7c6d31239284080f19470dba4d78dfb",
     "tests/test_cli.py": "f8fa459d2b262f99beecf33720b7311db9e95f6c9c373fb209661d4adcf9288e",
     "tests/test_corpus_measure.py": "3509c35d838b7616973195433ebebefdb29f4c284a358d8e5f79ad1b906f5dff",
     "tests/test_publication.py": "47d987f4fee073c96a40043aecb77f6520358ebd5f629bc797ce9caf6ddd84eb",
     "tests/test_illuminated_abstracts.py": "dfec8ff0ac35ed6b831c41e518e310aee641cf08e00b6a67e1a9435be12473c0",
-    "tools/acquire_manuscript.py": "cb98af8fa9639b57c42b427518d4a412cf1d327aace3af85eed7c7dacf5657cd",
+    "tools/acquire_manuscript.py": "3479b913b7b4708bfad954847bfe1816d1635225bdf9054082fc34ecf2efcd11",
     "tools/__init__.py": "a5cbf899d80365b8d950f9dd7cdc605c932cea33238fd93ed34533904860a49b",
     "tools/render_manuscript.py": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
     "tools/template_render.py": "f52aaa687fbe7046da13fad6970d004a10a29ea7497a271bea9c62bea964f8d7",
     "pyproject.toml": "dc5f5d9f8a79eaf39ae9e31b257eb485db2a4a4aa3a7e30f8c7c3bd70028c80a",
     "uv.lock": "73415847b3890ead95266f6799c255d930e3e52cb5e3f223cbb2ffb22b0cfc35"
   },
-  "tests": 411,
+  "tests": 415,
   "coverage_percent": {
     "application": 96.0,
     "infrastructure": 72.21052631578948
@@ -100,7 +101,7 @@
     "workbench_html": "6bf7a2c5f77f0656b6b14c2bf19813044da026274af234bf481acc73e0fa4866",
     "workbench_data": "12dbdae1bda8ccb5321dc68daf990808998abd8ab4e14b385acd2f8859040885"
   },
-  "producer_epoch_note": "Original full concordance and the0.8 literal/0.10 proximity studies retain their original producer identities. The0.11 illuminated manuscript and workbench are regenerated from verified inputs; the twelve bound search/statistical/institutional core/resource files remain byte-identical to0.10. Current tests and native rendering have separate source-bound receipts.",
+  "producer_epoch_note": "The original concordance and0.8 literal/0.10 proximity results retain their producers. Qualification-05 freshly verifies the415-test0.11 software, including current manuscript acquisition. Native04 paper and workbench bytes retain their reviewed identities; every consumed native input is unchanged.",
   "fresh_full_concordance_run_in_0_4_1": false,
   "fresh_full_concordance_run_in_0_5_0": false,
   "fresh_full_concordance_run_in_0_6_0": false,
