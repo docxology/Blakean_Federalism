@@ -1,6 +1,6 @@
 # Jerusalem plates and passages for the illuminated abstracts
 
-Four new passage groups and two original plate scans are ready for editorial integration. The additions support a more concrete account of artistic organization, national life, reciprocal perception and material burdens. They give the opening and graphical abstracts a vocabulary drawn from Blake’s practice of composition. No quotation identifiers have been assigned; `quotation-candidates.json` supplies all seventeen exact segments, anchors and zero-based occurrences.
+Four passage groups and two original plate scans are integrated into version 0.11.0. The additions support a more concrete account of artistic organization, national life, reciprocal perception and material burdens. They give the opening and graphical abstracts a vocabulary drawn from Blake’s practice of composition. The manuscript assigns Q33–Q36 to these groups; `research/manuscript-inputs.json` records their seventeen exact segments, anchors and zero-based occurrences. The sections below record the selection rationale and editorial proposals.
 
 ## Images, copy and credits
 
@@ -18,7 +18,7 @@ In [Jerusalem 3, prose, E146](https://blake.lib.asu.edu/html/jerusalem.html#J3pr
 
 Suggested discussion: Blake describes composition as exacting work on differences of cadence, syllable and tone. The formal whole emerges from their placement and relation. A federal argument can take that practice seriously by asking which differences an institution accommodates, which it suppresses, and who can contest the resulting arrangement. The comparison concerns an activity of composition; a poetic mode does not thereby become a jurisdiction. What carries across is the demand to explain how distinct parts contribute, and how their relations remain open to scrutiny.
 
-Use `studied-form`, occurrences 3–6 of `J3prose;E146`. These are four consecutive source lines. The first two lines complete one sentence across a line break; keep that continuity in a block rather than truncating at the word “fit.” The preceding discussion of monotony and bondage supplies the reason for formal variation. The following national-art claim supplies its public stakes.
+Integrated as Q33: `studied-form`, occurrences 3–6 of `J3prose;E146`. These are four consecutive source lines. The first two lines complete one sentence across a line break; keep that continuity in a block rather than truncating at the word “fit.” The preceding discussion of monotony and bondage supplies the reason for formal variation. The following national-art claim supplies its public stakes.
 
 ## National life and the conditions of art
 
@@ -26,7 +26,7 @@ The next passage begins, “Poetry Fetter’d, Fetters the Human Race!” The ap
 
 Suggested discussion: The article therefore treats nations as historical formations sustained by practices of expression, making, memory and address. Their value depends partly on what their participants can make and communicate. A nation that imposes a single authorized image of itself can damage those capacities even while claiming cultural protection. The institutional question is who controls the conditions of production and circulation: permission to publish, access to education and material support, and the possibility of addressing an audience without accepting an official representative’s account of one’s identity.
 
-Use `arts-and-nations`, occurrences 7–10 of `J3prose;E146`. Retain the final wisdom/art/science phrase if presenting the entire block. Do not translate the passage into a measured empirical law about national prosperity; its force here is Blake’s poetic and polemical association of artistic freedom with collective life.
+Integrated as Q34: `arts-and-nations`, occurrences 7–10 of `J3prose;E146`. Retain the final wisdom/art/science phrase if presenting the entire block. Do not translate the passage into a measured empirical law about national prosperity; its force here is Blake’s poetic and polemical association of artistic freedom with collective life.
 
 ## The ending: reciprocal visibility and common form
 
@@ -34,7 +34,7 @@ Use `arts-and-nations`, occurrences 7–10 of `J3prose;E146`. Retain the final w
 
 Suggested discussion: Composition requires more than coexistence. Participants must be able to appear to one another, respond and change the relations through which they are represented. Blake’s ending imagines this reciprocity through perception and conversation. The article gives that aspiration institutional form through challengeable representation and reasons addressed to affected people. Its own design must also ask whether a common language of unity allows participants to dispute the terms on which they are included. The poem’s movement toward common form sharpens that question rather than answering it administratively.
 
-Use `reciprocal-perception`, lines 38–40. The first and last lines join larger sentences; explain the context rather than presenting the selection as an isolated aphorism. Existing Q29 already quotes lines 28–32, so this adds a later development rather than duplicating that block.
+Integrated as Q35: `reciprocal-perception`, lines 38–40. The first and last lines join larger sentences; explain the context rather than presenting the selection as an isolated aphorism. Existing Q29 already quotes lines 28–32, so this adds a later development rather than duplicating that block.
 
 ## Fiscal power and the nations at the end
 
@@ -42,7 +42,7 @@ Use `reciprocal-perception`, lines 38–40. The first and last lines join larger
 
 Suggested discussion: A collective arrangement must be judged by the burdens it imposes as well as the identities it recognizes. For the resource-conflict case, the relevant record should disclose who pays, whose livelihood is threatened, how benefits are distributed, and how a remedy can be obtained before deprivation makes participation impossible. Blake’s denunciation of desolating taxation directs attention to extraction and its consequences. It does not prohibit every shared levy: a defensible common charge needs a stated purpose, an accountable issuer, an intelligible distribution of burdens and an effective route of challenge.
 
-Use `taxation-and-desolation`, lines 51–56. All six lines were verified and none occurs in the existing quotation ledger. Pair a short extract with the institutional case; the full block is useful if the surrounding discussion also addresses the nations’ continuing presence.
+Integrated as Q36: `taxation-and-desolation`, lines 51–56. All six lines were verified and added to the quotation ledger. Pair a short extract with the institutional case; the full block is useful if the surrounding discussion also addresses the nations’ continuing presence.
 
 ## Reading and verification record
 
