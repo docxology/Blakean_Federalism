@@ -1,0 +1,53 @@
+{
+  "version": "0.13.0",
+  "status": "software_and_native_render_qualified",
+  "tests": 431,
+  "coverage_percent": {
+    "application": 96.12762476138533,
+    "infrastructure": 72.21052631578948
+  },
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "qualification_artifacts": {
+    "root-page-review.json": "8269d3ff167061aff87fdd86ae32efda0f476c4d3c0c830790b95b952596ec03",
+    "root-browser-review.json": "7ac67d136a12873ea65c70646a359030258b00374711082c7745a86b7eee8a40",
+    "browser-teardown.json": "b4997ebcdb7170dc10a209e15fe51f6d5418e507688a3327e68207e71bd7e05b",
+    "root-native02-visual-review.json": "279dfdb1a9f9798c8e72c0f9b1ba7ae9e55718dbae7dfe54b5577a71caaeef13",
+    "native03-page-delta.json": "8340a2d522bf4d7ead7c2d536cfd0f09ae6673500e4a60608f3a409dce3546d4",
+    "browser03-visual-delta.json": "90adfc51f5d1e0fab824723ea1dd39239aceb116c7ce998f45b17819206e323a",
+    "raster-native03.json": "23d850865377abfd97c115d48bf81a4fb2021004faadcfc5e7d7f906daafa184",
+    "figure-source-reconciliation.json": "ae207a70c99a268f3af6207ccdc66cc734b8d5380936fc8e8f6f25a846165794",
+    "notation-formalism-reconciliation.json": "dbd76f93fb0ce0151516afac2b581e053ba8212557b095f59b09d36d2cc359f7",
+    "quotation-integration.json": "acd18e56431a71e7265035b43d2dbdca21f9a5d7f307dcc4dae86d95fb46ab1c",
+    "citation-research-verification.json": "36b491183aa52fcc56f637eac772d98ca27b9a371988bd757c3d1ed418da2a72",
+    "unchanged-analytical-source.json": "9a2bc728792f8ea08506707ac4c13f663ecf24e44b6b8ac6c5cd1af459916e6a",
+    "reading-ledger-schema-correction.json": "f86609e9267f07d233c65350c2e2cd7fa157e007d934bcc1d1dc88c9a8de0949",
+    "source-reconciliation-initial-failure.json": "77dd00b23bd42573870018395edbfb69617542d772fcb15b3e18305e8167cd15",
+    "current-03-commands.json": "5290188651a5aa083863b1387451363d9cabfe0cd6a5c331b7bbd0b372a97c41",
+    "surface-execution-03-commands.json": "3308fea59154440bfc463455249086a206f1b5199a529bbc752e2947d3dfc881",
+    "browser-results-0130-03.json": "0854d5e1198fab2681f9e0070672811e991e8ded6703a51edf50e743075135f4",
+    "browser-commands-0130-03.json": "06c18b0b3286679572c9cef06a03d5eb048ee673290163c00571ba474de263f4",
+    "current-workbench-browser-results-0130-03.json": "2603b70ba7baf91cfdbdc26b15faebe4f622d280200fe7f418918eed96d256d1",
+    "current-workbench-browser-commands-0130-03.json": "a6f8c4af786a172ae7370247e0449a9f262d26ed2fc7ad5fea9fdb1e75289d2f",
+    "v0.13.0-03-build.json": "a647867396c2dbb39901352e23a112de57abc6a2a0a02174ce378d8afceb1c8c",
+    "typography-leaf/completion.json": "fa41c38b3507633a39d6a1528514085caaa5ba8b33d64e979b0c3a996bf0881d",
+    "typography-leaf/atlas-remediation/completion.json": "0f8623403a24cf4171d17a2c4ca1405aa6e501b341608b2c7065ba4b289ae455",
+    "research-leaf/source-manifest.json": "2084de28c34237348611944c984b19afbb0d2e969621b84fda2ba1ef29b0b152",
+    "research-leaf/verification.json": "aec270f030a35ffb760a697825fc78801cd1b7ebdd48e7add20bd7807659f067",
+    "qualification-02/checks.json": "4d7ef651e642dbb75da0440d3e15c7056fd49579463c0d358c5dd1bf0c87f88f",
+    "qualification-02/tests.xml": "2494a9159d0088406b4cdb5ba52fecb867c6f12a9a8751a1f7c6b686025dc61d",
+    "qualification-02/coverage.json": "c99fa35e25070260bae59990611f071a23d77e16f01740bfadcf743375e48bfe",
+    "qualification-02/source-bindings.json": "b3060876ef113ab03255da2112319859d6fd80ef32bc6e99aed5bc66d67107c1",
+    "qualification-02/check-0.log": "e104a639c14ee0442394e94687364d9e0e9cec7d2e1e197a9351cb74428ff83b",
+    "qualification-02/check-1.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "qualification-02/check-2.log": "43476fb9601a542841f6cba73a03155ef5792f5324f2380538c7f276a7b8ed2f",
+    "qualification-02/check-3.log": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
+    "qualification-02/check-4.log": "4f27f4305642869e4d33fe0775551609d14f58f99ccd02b45f9c3ba2f9e65eaa"
+  },
+  "rendered_qa": "research/rendered-review-0.13.0.json",
+  "historical_qualification": "research/history/verification-close-reading-preimage.json",
+  "qualification_reuse": "Current full software suite, native PDF/HTML and aggregate-workbench browser checks are fresh. Unchanged full-text search methods retain explicitly historical browser/CLI evidence.",
+  "native_worker_coverage_note": "Actual pinned template execution is bound by its separate receipt."
+}
