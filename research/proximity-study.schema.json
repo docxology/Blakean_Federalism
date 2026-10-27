@@ -1,0 +1,361 @@
+{
+  "$defs": {
+    "CorpusPin": {
+      "additionalProperties": false,
+      "properties": {
+        "upstream_commit": {
+          "title": "Upstream Commit",
+          "type": "string"
+        },
+        "captured_manifest_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Captured Manifest Sha256",
+          "type": "string"
+        },
+        "projection_manifest_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Projection Manifest Sha256",
+          "type": "string"
+        },
+        "projection_relative_path": {
+          "title": "Projection Relative Path",
+          "type": "string"
+        },
+        "index_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Index Sha256",
+          "type": "string"
+        },
+        "unresolved_images": {
+          "minimum": 0,
+          "title": "Unresolved Images",
+          "type": "integer"
+        },
+        "scope_note": {
+          "title": "Scope Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "upstream_commit",
+        "captured_manifest_sha256",
+        "projection_manifest_sha256",
+        "projection_relative_path",
+        "index_sha256",
+        "unresolved_images",
+        "scope_note"
+      ],
+      "title": "CorpusPin",
+      "type": "object"
+    },
+    "Plane": {
+      "enum": [
+        "reading",
+        "erdman",
+        "xml"
+      ],
+      "title": "Plane",
+      "type": "string"
+    },
+    "ProximityRow": {
+      "additionalProperties": false,
+      "properties": {
+        "request": {
+          "$ref": "#/$defs/SearchRequest"
+        },
+        "eligible_source_units": {
+          "minimum": 0,
+          "title": "Eligible Source Units",
+          "type": "integer"
+        },
+        "eligible_word_tokens": {
+          "minimum": 0,
+          "title": "Eligible Word Tokens",
+          "type": "integer"
+        },
+        "eligible_source_families": {
+          "minimum": 0,
+          "title": "Eligible Source Families",
+          "type": "integer"
+        },
+        "matched_source_units": {
+          "minimum": 0,
+          "title": "Matched Source Units",
+          "type": "integer"
+        },
+        "matched_source_families": {
+          "minimum": 0,
+          "title": "Matched Source Families",
+          "type": "integer"
+        },
+        "total_occurrences": {
+          "minimum": 0,
+          "title": "Total Occurrences",
+          "type": "integer"
+        },
+        "occurrences_per_10000_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Occurrences Per 10000 Tokens"
+        },
+        "terms": {
+          "items": {
+            "$ref": "#/$defs/TermCount"
+          },
+          "title": "Terms",
+          "type": "array"
+        },
+        "facets": {
+          "items": {
+            "$ref": "#/$defs/SearchFacet"
+          },
+          "title": "Facets",
+          "type": "array"
+        }
+      },
+      "required": [
+        "request",
+        "eligible_source_units",
+        "eligible_word_tokens",
+        "eligible_source_families",
+        "matched_source_units",
+        "matched_source_families",
+        "total_occurrences",
+        "occurrences_per_10000_tokens",
+        "terms",
+        "facets"
+      ],
+      "title": "ProximityRow",
+      "type": "object"
+    },
+    "Role": {
+      "enum": [
+        "primary",
+        "editorial",
+        "unverified"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "SearchFacet": {
+      "additionalProperties": false,
+      "properties": {
+        "work_id": {
+          "title": "Work Id",
+          "type": "string"
+        },
+        "plane": {
+          "$ref": "#/$defs/Plane"
+        },
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "source_units": {
+          "minimum": 1,
+          "title": "Source Units",
+          "type": "integer"
+        },
+        "matched_units": {
+          "minimum": 0,
+          "title": "Matched Units",
+          "type": "integer"
+        },
+        "occurrences": {
+          "minimum": 0,
+          "title": "Occurrences",
+          "type": "integer"
+        },
+        "word_tokens": {
+          "minimum": 0,
+          "title": "Word Tokens",
+          "type": "integer"
+        },
+        "occurrences_per_10000_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Occurrences Per 10000 Tokens"
+        }
+      },
+      "required": [
+        "work_id",
+        "plane",
+        "role",
+        "source_units",
+        "matched_units",
+        "occurrences",
+        "word_tokens"
+      ],
+      "title": "SearchFacet",
+      "type": "object"
+    },
+    "SearchRequest": {
+      "additionalProperties": false,
+      "properties": {
+        "terms": {
+          "items": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Terms",
+          "type": "array"
+        },
+        "mode": {
+          "default": "any",
+          "enum": [
+            "any",
+            "all"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "window_words": {
+          "anyOf": [
+            {
+              "maximum": 200,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Window Words"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Role"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "primary"
+        },
+        "plane": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Plane"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "work_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Work Id"
+        },
+        "whole_words": {
+          "default": true,
+          "title": "Whole Words",
+          "type": "boolean"
+        },
+        "limit": {
+          "default": 100,
+          "maximum": 1000,
+          "minimum": 1,
+          "title": "Limit",
+          "type": "integer"
+        },
+        "context_chars": {
+          "default": 120,
+          "maximum": 500,
+          "minimum": 0,
+          "title": "Context Chars",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "terms"
+      ],
+      "title": "SearchRequest",
+      "type": "object"
+    },
+    "TermCount": {
+      "additionalProperties": false,
+      "properties": {
+        "term": {
+          "title": "Term",
+          "type": "string"
+        },
+        "occurrences": {
+          "minimum": 0,
+          "title": "Occurrences",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "term",
+        "occurrences"
+      ],
+      "title": "TermCount",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "corpus_pin": {
+      "$ref": "#/$defs/CorpusPin"
+    },
+    "scanned_source_units": {
+      "minimum": 0,
+      "title": "Scanned Source Units",
+      "type": "integer"
+    },
+    "rows": {
+      "items": {
+        "$ref": "#/$defs/ProximityRow"
+      },
+      "title": "Rows",
+      "type": "array"
+    },
+    "method": {
+      "const": "primary literal ALL; original Unicode word-token envelopes; stored copies retained",
+      "default": "primary literal ALL; original Unicode word-token envelopes; stored copies retained",
+      "title": "Method",
+      "type": "string"
+    }
+  },
+  "required": [
+    "corpus_pin",
+    "scanned_source_units",
+    "rows"
+  ],
+  "title": "ProximityStudy",
+  "type": "object"
+}

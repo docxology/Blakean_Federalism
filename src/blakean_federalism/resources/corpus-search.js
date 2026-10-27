@@ -2,7 +2,7 @@
 (() => {
   const data = JSON.parse(document.getElementById("search-data").textContent);
   const number = new Intl.NumberFormat("en-US");
-  const defaults = {mode:"any",role:"primary",plane:null,work_id:null,whole_words:true,limit:100,context_chars:120};
+  const defaults = {mode:"any",window_words:null,role:"primary",plane:null,work_id:null,whole_words:true,limit:100,context_chars:120};
   const cache = new Map();
   const roles = ["primary","editorial","unverified"];
   const planes = ["reading","erdman","xml"];
@@ -56,6 +56,10 @@
     if(request.terms.some(term=>typeof term!=="string"||!nonblank(term)||Array.from(term).length>200))throw new Error("Each term must contain 1–200 characters and cannot be blank.");
     if(new Set(request.terms.map(fold)).size!==request.terms.length)throw new Error("Terms must be distinct after Unicode case folding.");
     if(!["any","all"].includes(request.mode))throw new Error("Choose ANY or ALL terms.");
+    if(request.window_words!==null){
+      if(!Number.isInteger(request.window_words)||request.window_words<1||request.window_words>200)throw new Error("Word window must be an integer between 1 and 200.");
+      if(request.mode!=="all"||request.terms.length<2)throw new Error("Word window requires ALL mode and at least two distinct terms.");
+    }
     if(request.role!==null&&!roles.includes(request.role))throw new Error("Unknown text role.");
     if(request.plane!==null&&!planes.includes(request.plane))throw new Error("Unknown source plane.");
     if(request.work_id!==null&&typeof request.work_id!=="string")throw new Error("Source family must be text or null.");
@@ -75,11 +79,48 @@
       const bounded=!request.whole_words||(!word(priorCharacter(prepared.text,start))&&!word(nextCharacter(prepared.text,end)));
       if(aligned&&bounded){
         total++;
-        if(found.length<request.limit)found.push({term,start:originalStart,end:originalEnd});
+        if(request.window_words!==null||found.length<request.limit)found.push({term,start:originalStart,end:originalEnd});
         cursor=end;
       }else cursor=start+1;
     }
     return {total,found};
+  }
+  function windowMatches(unit, groups, request){
+    // Original codepoint token ranks, using the producer's Python Unicode table.
+    const starts=[],ends=[];
+    let offset=0,inside=false;
+    for(const character of unit.text){
+      const current=word(character);
+      if(current&&!inside)starts.push(offset);
+      if(!current&&inside)ends.push(offset);
+      inside=current;offset++;
+    }
+    if(inside)ends.push(offset);
+    const rank=(values,position,inclusive)=>{
+      let lo=0,hi=values.length;
+      while(lo<hi){const middle=(lo+hi)>>>1;if(values[middle]<position||(inclusive&&values[middle]===position))lo=middle+1;else hi=middle;}
+      return lo;
+    };
+    const spans=groups.flatMap(group=>group.found),intervals=[],events=[];
+    for(const span of spans){
+      const lower=rank(starts,span.end,false)-request.window_words,upper=rank(ends,span.start,true);
+      intervals.push([lower,upper]);
+      if(lower<=upper)events.push([lower,span.term,1],[upper+1,span.term,-1]);
+    }
+    events.sort((a,b)=>a[0]-b[0]||compare(a[1],b[1])||a[2]-b[2]);
+    const counts=new Map(request.terms.map(term=>[term,0])),complete=[];
+    let active=0,previous=null;
+    for(const [position,term,delta] of events){
+      if(previous!==null&&previous<position&&active===counts.size)complete.push([previous,position-1]);
+      const before=counts.get(term),after=before+delta;
+      counts.set(term,after);active+=Number(after>0)-Number(before>0);previous=position;
+    }
+    const completeEnds=complete.map(interval=>interval[1]);
+    const found=spans.filter((span,index)=>{
+      const [lower,upper]=intervals[index],position=rank(completeEnds,lower,false);
+      return lower<=upper&&position<complete.length&&complete[position][0]<=upper;
+    });
+    return [{total:found.length,found}];
   }
   function run(input){
     const request=requestWithDefaults(input), facets=new Map(), hits=[];
@@ -90,8 +131,9 @@
       const prepared=prepare(unit), key=JSON.stringify([unit.work_id,unit.source_plane,unit.text_role]);
       if(!facets.has(key))facets.set(key,{work_id:unit.work_id,plane:unit.source_plane,role:unit.text_role,source_units:0,matched_units:0,occurrences:0,word_tokens:0,occurrences_per_10000_tokens:0});
       const facet=facets.get(key);facet.source_units++;facet.word_tokens+=prepared.tokens;
-      const groups=request.terms.map(term=>matches(prepared,term,request));
+      let groups=request.terms.map(term=>matches(prepared,term,request));
       if(request.mode==="all"&&groups.some(group=>group.total===0))continue;
+      if(request.window_words!==null)groups=windowMatches(unit,groups,request);
       const count=groups.reduce((sum,group)=>sum+group.total,0);
       if(count===0)continue;
       total+=count;matched++;facet.matched_units++;facet.occurrences+=count;
@@ -124,6 +166,7 @@
     for(const [value,label] of [[current.total_occurrences,"matching occurrences"],[current.matched_source_units,"matched source units"],[current.eligible_source_units,"eligible source units"],[current.facets.filter(f=>f.matched_units>0).map(f=>f.work_id).filter((id,i,array)=>array.indexOf(id)===i).length,"matched source families"]]){
       const metric=text("div","","metric");metric.append(text("strong",number.format(value)),text("span",label));$("metrics").append(metric);
     }
+    $("window-note").textContent=current.request.window_words===null?"Document-level "+current.request.mode.toUpperCase()+"; no word window.":`ALL within ${current.request.window_words} original word tokens; only participating occurrences count (phrase tokens included).`;
     $("cap-note").textContent=current.truncated?`Returning the first ${number.format(current.returned_hits)} of ${number.format(current.total_occurrences)} occurrences, ordered by source identity and original span. Distribution counts include every occurrence.`:`All ${number.format(current.total_occurrences)} occurrences are available below. Distribution counts retain stored source units, including repeated copies.`;
   }
   function renderFamilies(){
@@ -171,10 +214,10 @@
   function render(){renderMetrics();renderFamilies();renderMatrix();renderHits();$("results-section").hidden=false;$("download-results").disabled=false;}
   $("search-form").addEventListener("submit",event=>{
     event.preventDefault();$("search-error").hidden=true;
-    const request={terms:$("terms").value.split(/\r?\n/).filter(nonblank),mode:$("mode").value,role:$("role").value||null,plane:$("plane").value||null,work_id:$("work-id").value||null,whole_words:$("whole-words").checked,limit:Number($("limit").value),context_chars:120};
+    const request={terms:$("terms").value.split(/\r?\n/).filter(nonblank),mode:$("mode").value,window_words:$("window-words").value.trim()===""?null:Number($("window-words").value),role:$("role").value||null,plane:$("plane").value||null,work_id:$("work-id").value||null,whole_words:$("whole-words").checked,limit:Number($("limit").value),context_chars:120};
     $("search-status").textContent="Searching local source texts…";$("submit-search").disabled=true;
     // Paint the busy state before the bounded, synchronous local search.
-    setTimeout(()=>{try{const begin=performance.now();current=run(request);page=0;render();$("search-status").textContent=`${number.format(current.total_occurrences)} occurrences in ${number.format(current.matched_source_units)} of ${number.format(current.eligible_source_units)} eligible source units · ${(performance.now()-begin).toFixed(0)} ms`;}catch(error){current=null;$("results-section").hidden=true;$("download-results").disabled=true;$("search-status").textContent="Search was not run.";$("search-error").textContent=error.message;$("search-error").hidden=false;}finally{$("submit-search").disabled=false;}},0);
+    setTimeout(()=>{try{const begin=performance.now();current=run(request);page=0;render();$("search-status").textContent=`${number.format(current.total_occurrences)} occurrences in ${number.format(current.matched_source_units)} of ${number.format(current.eligible_source_units)} eligible source units · ${request.window_words===null?"document "+request.mode.toUpperCase():"ALL within "+request.window_words+" original word tokens"} · ${(performance.now()-begin).toFixed(0)} ms`;}catch(error){current=null;$("results-section").hidden=true;$("download-results").disabled=true;$("search-status").textContent="Search was not run.";$("search-error").textContent=error.message;$("search-error").hidden=false;}finally{$("submit-search").disabled=false;}},0);
   });
   $("clear-search").addEventListener("click",()=>{current=null;page=0;$("search-form").reset();$("results-section").hidden=true;$("search-error").hidden=true;$("download-results").disabled=true;$("search-status").textContent="Enter a term to search. No query has run.";$("terms").focus();});
   $("previous-page").addEventListener("click",()=>{page--;renderHits();$("page-status").scrollIntoView({block:"nearest"});});

@@ -1,11 +1,13 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 """Literal-query requests and source-bound search results."""
 
-from typing import Annotated, Literal
+from typing import Annotated, Final, Literal
 
 from pydantic import Field, model_validator
 
 from .models import CorpusPin, Digest, FrozenModel, Plane, Role
+
+MIN_WINDOW_TERMS: Final = 2
 
 SearchTerm = Annotated[str, Field(min_length=1, max_length=200)]
 
@@ -13,6 +15,7 @@ SearchTerm = Annotated[str, Field(min_length=1, max_length=200)]
 class SearchRequest(FrozenModel):
     terms: tuple[SearchTerm, ...] = Field(min_length=1, max_length=8)
     mode: Literal["any", "all"] = "any"
+    window_words: int | None = Field(default=None, ge=1, le=200, strict=True)
     role: Role | None = Role.PRIMARY
     plane: Plane | None = None
     work_id: str | None = None
@@ -27,6 +30,11 @@ class SearchRequest(FrozenModel):
             raise ValueError(message)
         if len({term.casefold() for term in self.terms}) != len(self.terms):
             message = "Search terms must be distinct after Unicode casefold"
+            raise ValueError(message)
+        if self.window_words is not None and (
+            self.mode != "all" or len(self.terms) < MIN_WINDOW_TERMS
+        ):
+            message = "window_words requires ALL mode and at least two distinct terms"
             raise ValueError(message)
         return self
 

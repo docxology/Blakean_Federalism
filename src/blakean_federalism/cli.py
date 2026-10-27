@@ -13,6 +13,7 @@ from typing import Annotated, Final
 import typer
 from pydantic import TypeAdapter
 
+from .cli_proximity import proximity_study_command
 from .corpus import concordance, import_corpus, load_import
 from .corpus_statistics import analyze_corpus
 from .institutional_experiments import run_experiment
@@ -42,6 +43,7 @@ DEFAULT_CORPUS: Final = Path("local_data/corpus/blake-v0.2.0-qualified")
 DEFAULT_CONCORDANCE: Final = Path("analysis_output/concordance-v0.3.0.json")
 
 app = typer.Typer(no_args_is_help=True)
+_ = app.command("proximity-study")(proximity_study_command)
 
 
 def require_ignored(path: Path, directory: str) -> None:
@@ -87,6 +89,9 @@ def search_corpus_command(
     corpus: Path = DEFAULT_CORPUS,
     pin: Path = DEFAULT_PIN,
     mode: str = "any",
+    window_words: Annotated[
+        int | None, typer.Option(help="ALL-term window of 1-200 original word tokens")
+    ] = None,
     role: Role | None = None,
     plane: Plane | None = None,
     work_id: str | None = None,
@@ -103,6 +108,7 @@ def search_corpus_command(
         {
             "terms": tuple(term),
             "mode": mode,
+            "window_words": window_words,
             "role": None if all_sources else (role or Role.PRIMARY),
             "plane": plane,
             "work_id": work_id,
@@ -238,7 +244,7 @@ def build_workbench_command(
     corpus: Annotated[Path, typer.Option(help="Verified independent local projection")],
     concordance_file: Annotated[Path, typer.Option(help="Private source-bound concordance JSON")],
     output: Annotated[Path, typer.Option(help="New ignored workbench directory")],
-    readings: str = "research/scholarship-reading-0.9.0.json",
+    readings: str = "research/scholarship-reading-0.10.0.json",
 ) -> None:
     require_ignored(output, "analysis_output")
     report = build_workbench(Path.cwd(), corpus, concordance_file, readings)
@@ -256,7 +262,7 @@ def render_manuscript_command(
     output: Annotated[Path, typer.Option(help="New ignored publication stage")],
     corpus: Path = DEFAULT_CORPUS,
     concordance_file: Path = DEFAULT_CONCORDANCE,
-    readings: str = "research/scholarship-reading-0.9.0.json",
+    readings: str = "research/scholarship-reading-0.10.0.json",
 ) -> None:
     "Hydrate with docxology/template and verify references, sources and quotations."
     # Optional manuscript dependencies must not become core CLI import requirements.

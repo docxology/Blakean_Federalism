@@ -3,7 +3,7 @@
 
 import hashlib
 import re
-from bisect import bisect_right
+from bisect import bisect_left, bisect_right
 from collections import defaultdict
 from functools import cache
 from pathlib import Path
@@ -93,6 +93,62 @@ def _spans(
     return tuple(result)
 
 
+def _window_spans(
+    text: str, spans: tuple[tuple[str, int, int], ...], request: SearchRequest
+) -> tuple[tuple[str, int, int], ...]:
+    """Sweep feasible integer window origins; retain every participating occurrence.
+
+    A span permits origins [right_token_rank - W, left_token_rank]. Complete
+    coverage by all terms defines the union of feasible windows. Interval
+    intersection then finds participants without enumerating term combinations.
+    """
+    width = request.window_words
+    if width is None:
+        return spans
+    tokens = tuple(re.finditer(r"\w+", text))
+    starts = tuple(token.start() for token in tokens)
+    ends = tuple(token.end() for token in tokens)
+    intervals: list[tuple[int, int]] = []
+    events: list[tuple[int, str, int]] = []
+    for term, start, end in spans:
+        lower = bisect_left(starts, end) - width
+        upper = bisect_right(ends, start)
+        intervals.append((lower, upper))
+        if lower <= upper:
+            events.extend(((lower, term, 1), (upper + 1, term, -1)))
+    counts = dict.fromkeys(request.terms, 0)
+    complete: list[tuple[int, int]] = []
+    active = 0
+    previous: int | None = None
+    for position, term, delta in sorted(events):
+        if previous is not None and previous < position and active == len(counts):
+            complete.append((previous, position - 1))
+        before = counts[term]
+        counts[term] += delta
+        active += int(counts[term] > 0) - int(before > 0)
+        previous = position
+    complete_ends = tuple(end for _, end in complete)
+    result: list[tuple[str, int, int]] = []
+    for span, (lower, upper) in zip(spans, intervals, strict=True):
+        index = bisect_left(complete_ends, lower)
+        if lower <= upper and index < len(complete) and complete[index][0] <= upper:
+            result.append(span)
+    return tuple(result)
+
+
+def matching_spans(text: str, request: SearchRequest) -> tuple[tuple[str, int, int], ...]:
+    """Return qualifying (term, original start, original end) tuples before any hit cap.
+
+    Literal matches retain original Unicode-codepoint offsets. ALL requires every
+    distinct term in this source unit; an optional word window retains only
+    occurrences participating in at least one complete qualifying window.
+    """
+    spans = _spans(text, request.terms, whole_words=request.whole_words)
+    if request.mode == "all" and len({term for term, _, _ in spans}) != len(request.terms):
+        return ()
+    return _window_spans(text, spans, request)
+
+
 def _eligible(passage: Passage, request: SearchRequest) -> bool:
     return (
         (request.role is None or passage.text_role == request.role)
@@ -132,11 +188,7 @@ def search_passages(passages: tuple[Passage, ...], request: SearchRequest) -> Se
     matches: dict[str, tuple[tuple[str, int, int], ...]] = {}
     for passage in eligible:
         grouped[(passage.work_id, passage.source_plane, passage.text_role)].append(passage)
-        spans = _spans(passage.text, request.terms, whole_words=request.whole_words)
-        if request.mode == "any" or len({term for term, _, _ in spans}) == len(request.terms):
-            matches[passage.passage_id] = spans
-        else:
-            matches[passage.passage_id] = ()
+        matches[passage.passage_id] = matching_spans(passage.text, request)
     facets: list[SearchFacet] = []
     for (work_id, plane, role), units in sorted(grouped.items()):
         tokens = sum(sum(1 for _ in re.finditer(r"\w+", passage.text)) for passage in units)

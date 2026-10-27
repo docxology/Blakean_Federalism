@@ -22,7 +22,10 @@ SEMANTICS: Final = (
     "Unicode casefold; literal strings; exact whitespace; Unicode alphanumeric/underscore "
     "word boundaries; nonoverlapping matches per term; original Unicode-codepoint offsets. "
     "ALL requires every term in one stored source unit. "
-    "Facets count all matches before the hit cap."
+    "Optional ALL window (1-200 words, at least two distinct terms) counts only occurrences "
+    "in a complete window, including phrase tokens; overlapping terms are allowed. "
+    "Word tokens are original-text Unicode alphanumeric/underscore runs. "
+    "Facets count all qualifying matches before the hit cap."
 )
 
 

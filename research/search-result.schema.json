@@ -239,6 +239,20 @@
           "title": "Mode",
           "type": "string"
         },
+        "window_words": {
+          "anyOf": [
+            {
+              "maximum": 200,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Window Words"
+        },
         "role": {
           "anyOf": [
             {
