@@ -4,13 +4,15 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Federated inference, denser comparisons and close reading 0.12.0
+## Close reading, differentiated provision and accountable remedies 0.13.0
+
+Four additional verified passages examine differentiated law, opposition, restraint and usable release. New readings of Frosch and Ritchie sharpen the distinction between forgiving persons and accepting their claims, and the authority carried by reproduced images. [New research](docs/research/close-reading-layout-0.13.0.md).
 
 The four opening figures combine original Blake plates, serif epigraphs, explicit relations and source-bound evidence. The argument distinguishes persons, poetic states, national formations and institutions. All 22 notation entries were independently checked against definitions and implementation.
 
-The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Thirty-six source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
+The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Forty source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 
-The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Sixteen formalisms and eleven equations use the pinned docxology/template route; 57 cited references have structured bibliography records.
+The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Sixteen formalisms and eleven equations use the pinned docxology/template route; 60 cited references have structured bibliography records.
 
 Sixteen original diagrams connect the argument and its recorded comparisons. The revised figures show exact occurrences, unit/family coverage, source weighting, conditional directions, all 150 safeguard checks and complete intervention-size profiles. A new two-lane comparison joins the federated-inference sources to the institutional questions of standing, warrant and review. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
 

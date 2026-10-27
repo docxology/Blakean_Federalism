@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from markdown_it import MarkdownIt
 from PIL import Image
 from pypdf import PdfReader
 from reportlab.pdfgen.canvas import Canvas
@@ -205,6 +206,26 @@ def test_prepared_stage_binds_inputs_and_real_vector_and_png_outputs(publication
     assert receipt.variables["SOURCE_UNITS"] == "2"
     assert receipt.variables["CASE_CHECKS"] == "150"
     assert receipt.variables["STATES_PRIMARY_PERCENT"] == "100.0"
+    atlas = (target / "manuscript/90_atlas.md").read_text()
+    tokens = MarkdownIt().parse(atlas)
+    paragraphs = [tokens[i + 1] for i, token in enumerate(tokens) if token.type == "paragraph_open"]
+    intro = next(p.content for p in paragraphs if "uncropped LOC reproductions" in p.content)
+    assert intro.count("Library of Congress") == 1
+    for asset in report.images:
+        records = [
+            paragraph
+            for paragraph in paragraphs
+            if f"{asset.asset_id}: selected impression." in paragraph.content
+        ]
+        assert len(records) == 1
+        assert asset.caption in records[0].content
+        children = records[0].children
+        assert children is not None
+        assert any(token.type == "strong_open" for token in children)
+        assert any(
+            token.type == "link_open" and token.attrGet("href") == asset.rights_url
+            for token in children
+        )
     before = (target / "prepared-publication.json").read_bytes()
     with pytest.raises(ResearchError, match="occupied_output"):
         prepare_publication(root, target, report, rasterizer)

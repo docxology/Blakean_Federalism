@@ -4,7 +4,16 @@
 \usepackage{graphicx}
 \usepackage{needspace}
 \usepackage{listings}
-\renewenvironment{quote}{\list{}{\rightmargin\leftmargin}\item\relax\begin{minipage}{\linewidth}\itshape}{\end{minipage}\endlist}
+\captionsetup[figure]{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,skip=6pt}
+\renewenvironment{quote}{%
+  \list{}{%
+    \setlength{\leftmargin}{1.8em}%
+    \setlength{\rightmargin}{1em}%
+    \setlength{\topsep}{4pt plus 1pt minus 1pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}}%
+  \item\relax\begin{minipage}{\linewidth}\itshape
+}{\end{minipage}\endlist\nopagebreak[4]}
 \setcitestyle{authoryear,round,semicolon}
 \definecolor{BFLink}{HTML}{B00020}
 \hypersetup{colorlinks=true,linkcolor=BFLink,citecolor=BFLink,urlcolor=BFLink}
@@ -19,6 +28,9 @@
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
 \setlength{\emergencystretch}{3em}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 ```

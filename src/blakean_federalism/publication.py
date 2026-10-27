@@ -175,7 +175,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         rasterizer,
         search_study,
         proximity_study,
-        artwork=assets if spec.version in ("0.11.0", "0.12.0") else None,
+        artwork=assets if spec.version in ("0.11.0", "0.12.0", "0.13.0") else None,
     )
     for name in SOURCE_NAMES[:5]:
         copy_new(safe_path(root, name), raw / Path(name).name)
@@ -185,7 +185,15 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         '<script>window.MathJax.output.displayOverflow = "scroll";</script>',
         "<style>",
         "html {color-scheme: light;}",
-        "blockquote {font-style:italic !important; border-left:3px solid #b00020;}",
+        "blockquote {font-style:italic !important; border-left:3px solid #b00020;",
+        "margin:1rem 0; padding:0.2rem 0 0.2rem 1.2rem; line-height:1.5;}",
+        "blockquote p {margin:0;}",
+        "figure {margin-block:1.7rem 2rem;}",
+        "figcaption {font-size:0.9rem; line-height:1.45; text-align:left;",
+        "font-style:normal; margin-top:0.6rem; padding-top:0.5rem;",
+        "border-top:1px solid #ccc; color:#000 !important;}",
+        "h2, h3, h4 {line-height:1.25;}",
+        "p {orphans:3; widows:3;}",
         "a:any-link, a:any-link *, #TOC a:any-link {color: #b00020 !important;}",
         "h1, h2, h3, h4, h5, h6 {color: #000 !important; border-color: #b00020 !important;}",
         "html, body, main, article {color: #000 !important; background: #fff !important;}",
@@ -218,7 +226,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                 """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
 approximately 1832?. Original plate beside the article's distinct affiliation,
 interpretation and competence relations."""
-                if spec.version in ("0.11.0", "0.12.0")
+                if spec.version in ("0.11.0", "0.12.0", "0.13.0")
                 else "Affiliation, interpretation and claimed competence."
             )
             + "</figcaption></figure>"
@@ -274,7 +282,9 @@ interpretation and competence relations."""
             "The item-attached advisory reports no known U.S. restrictions; it is not a CC0 "
             "license. Each caption identifies the impression separately "
             "from the ASU transcription. "
-            f"Credits: {'; '.join(dict.fromkeys(asset.credit for asset in report.images))}."
+            "Collection: Library of Congress, Rare Book and Special Collections Division, "
+            "Lessing J. Rosenwald Collection. "
+            "Each entry retains its full caption and item-rights link."
         ),
         "",
     ]
@@ -284,10 +294,9 @@ interpretation and competence relations."""
         copy_new(source, target)
         atlas.extend(
             [
-                f"**{asset.asset_id}: selected impression.**",
-                "",
                 " ".join(
                     (
+                        f"**{asset.asset_id}: selected impression.**",
                         asset.caption,
                         f"[Item rights]({asset.rights_url}).",
                     )

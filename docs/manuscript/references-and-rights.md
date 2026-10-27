@@ -4,7 +4,7 @@ The native bibliography records bibliographic identity. This ledger records what
 
 | Source | Actual reading boundary |
 | :-- | :-- |
-| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen] | Thirty-six selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
+| [@blakeMilton]; [@blakeJerusalem]; [@blakeMarriage]; [@blakeButts]; [@blakeUrizen]; [@blakeAmerica] | Forty selected quotation records and immediate contexts, with electronic anchor/hash controls. No whole-copy critical edition or whole-oeuvre claim. |
 | [@fallon2015] | Complete twelve-page submitted manuscript and notes. Published pagination not collated. |
 | [@damrosch1980] | Selected printed pp.15–21 / PDF pp. 30–36; printed p. 18 = PDF p. 33. |
 | [@larrissy1994] | Publisher summary and metadata; chapter unread. |
@@ -111,3 +111,23 @@ The new complete readings are Stefanis's official Tate article, including all 53
 ## Organized poetic differences, national arts and fiscal power
 
 The 0.11.0 primary-text additions read Jerusalem 3's prose address and selected ending contexts, J97–99. Q33–Q36 retain seventeen exact source segments, extending the ledger to 36 quotation records and 148 segments. The ASU Jerusalem source body is unchanged. The frontispiece and final plate use copy I's identified 2003 scans 1 and 100, uncropped and in the provider's orientation. The cumulative scholarship ledger is research/scholarship-reading-0.11.0.json; its 47 reading entries preserve the previous reading bounds. These primary-text additions add no complete-article reading credit. The research packet retains the successful image/metadata responses and the later LOC access refusal.
+
+## Federated inference and robust aggregation: source versions and selected sections
+
+| Source | Sections used in the comparison |
+|:---|:---|
+| [@friston2024Federated] | Sections 3.1–3.2; selected passages in 4–5 and 7; equations 6–15 and figure captions 3–11. The communication comparison uses section 3.1, equations 6–8. |
+| [@friedman2026RobustBelief] | Version 1.1.0, physical PDF pp. 16–19 (printed pp. 15–18), 24, 35, 41, 45, 50 and 52–54; sections 5.7–5.9, 7.1, 7.5, 8.3–8.5 and 8.15. The recovery comparison uses Theorem 5 and Corollary 6. |
+
+The source ledger records the journal's January 2024 issue and December 2023 online date, and distinguishes the robust framework's version DOI from its concept DOI. Cached primary texts and metadata retain their SHA-256 bindings in the local research record; the cumulative reading ledger is research/scholarship-reading-0.13.0.json.
+
+## Unequal rules, release and the authority of reproduction
+
+Q37–Q40 add eight exact segments from the already pinned ASU Marriage, Jerusalem and America inputs. Selected continuous primary contexts cover Marriage 17–20 and 22–24, Jerusalem 45:1–38 and America 5:7–8:15. The two Marriage episodes remain distinct. The quotation ledger now contains forty records and 156 segments; their new wording and original spelling are checked before rendering.
+
+| Source | Actual reading boundary |
+|:---|:---|
+| [@frosch1979Composite] | Complete scholarly review text, printed pp. 40–48 / PDF pp. 2–10. Mitchell's book receives no new reading credit. The present discussion uses pp. 44–46. |
+| [@ritchie2025Embodied] | All thirty numbered article paragraphs, textual notes, eight illustration captions and works cited in the official publisher HTML. PDF text checked for locators, especially paras. 26–30 on physical pp. 12–14. Artwork originals, photographs and embedded video were not inspected. |
+
+The cumulative ledger is research/scholarship-reading-0.13.0.json. Its 51 entries preserve the previous 49 reading records and add these two readings; metadata-only records retain their earlier status.

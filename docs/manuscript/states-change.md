@@ -4,8 +4,6 @@ A federation can sustain several nations without becoming one nation. This artic
 
 # Creating a common world without possessing its participants {#sec:s1}
 
-![Jerusalem frontispiece, copy I, plate 1. A clothed figure carries a radiant lamp through an arch: body, instrument and threshold give passage a material setting. The full image accompanies the opening's readings of system-making and composition; the cover places modern relational labels beside its original field. LOC, Rosenwald Collection, item 48038103, 2003 scan 1; posthumous impression, approximately 1832?.](../figures/plate-J1.jpg){#fig:plate-J1 height=3.5in}
-
 ## Creating a system, releasing its participants: Los and the authority of the maker
 
 Los's declaration in *Jerusalem* makes collective order a problem of making: who creates its form, whose labor sustains it, and who can alter what it demands?
@@ -30,6 +28,10 @@ The next plate names the object of Los's continuing labor:
 Q31. William Blake, Jerusalem 11:5, E154. [@blakeJerusalem].
 
 Chains, furnaces and the felt pain of threatened persons surround that labor. The value of a system cannot be settled by its creator's independence. Blake makes *“Individuals”* the objects of deliverance, including those whose pain frustrates the maker's preferred design. Its consequences for those within its reach matter. Plate 12 complicates even the opposition between system and release: mathematical fixation gives falsehood a body that can be cast off, and demonstrative science turns an adversary's weapon against him [@blakeJerusalem, 11:1–7, E154; 12:10–15, E155]. Making a claim definite can expose its limits. A model, register or constitution becomes politically dangerous when its definiteness closes the possibility of challenging what it leaves out.
+
+The frontispiece in [@fig:plate-J1] places a bearer and a lamp at a threshold. Reading this material passage beside the two system declarations keeps the work of opening a way visible alongside the authority to design it.
+
+![Jerusalem frontispiece, copy I, plate 1. A clothed figure carries a radiant lamp through an arch. Read beside Los's system-making and deliverance in Q30–Q31, body, instrument and threshold make passage a situated activity. The complete impression supplies visual context; the cover places the article's relational labels beside the same full image. LOC, Rosenwald Collection, item 48038103, 2003 scan 1; posthumous impression, approximately 1832?.](../figures/plate-J1.jpg){#fig:plate-J1 height=3.5in}
 
 ## Words, letters and national arts: composition begins with organized differences
 
@@ -288,9 +290,19 @@ Emanation also resists a simple temporal production function. Jerusalem 54:1–5
 
 Particularity is another constraint. Jerusalem 38, 55 and 91, alongside the critique of consuming abstraction in plate 10, require the program to ask whether its categories obscure the lives they describe. Generalized national essences would undermine the intended distinction between persons and states. Conversely, refusing all categories would not eliminate the actual administrative powers through which services, sanctions and benefits are distributed. The task is to make classifications partial, warranted and challengeable.
 
-## Particularity means relevant discrimination, not exhaustive collection
+## Particularity and differentiated provision: relevant differences under common standing
 
 Heppner complicates an opposition between particularity and visual simplification. His reading of *The Woman Taken in Adultery* finds sparse setting and restrained expression while locating significance in posture, narrative and words beyond the image. In the dispute with Reynolds, the issue is discrimination of character rather than accumulation of incidental detail [@heppner1983Adultery, pp. 55–56, 59]. This changes the standard for a classification record. A longer identity file can overlook who controls a claimant's wages; a limited record can protect a claim whose grounds require no complete personal narrative. The record needs the difference relevant to the decision and a way for the affected person to name what it misses.
+
+The final maxim of *The Marriage of Heaven and Hell* makes the consequences of a common rule depend on the beings it governs:
+
+\Needspace{5\baselineskip}
+
+> One Law for the Lion & Ox is Oppression
+
+Q37. William Blake, The Marriage of Heaven and Hell, plate 24, E44. [@blakeMarriage].
+
+Identical requirements can impose unequal burdens. A hearing during paid working hours, a fee indifferent to means or a water charge indifferent to access makes the distribution of time and resources part of its operation. Equal standing therefore calls for an account of relevant differences and differentiated provision. The lion and ox supply no natural ranks for a governing body to certify: its classification and the resulting treatment both need reasons and a challenge route. The surrounding Fancy also exposes the interpreter's power. After the Angel's conversion, the narrator announces a Bible of Hell that the world will receive whether it wants it or not. A defense of difference can accompany an insistence on interpretive command [@blakeMarriage, plates 22–24, E43–44]. Frosch similarly objects to defending Urizen's One Law through its declared intentions of peace and forgiveness: the speech's satirical structure matters to the judgment [@frosch1979Composite, p. 44].
 
 ## National mediation and the danger of incorporation
 
@@ -414,7 +426,7 @@ The final five lines also complicate a complete disappearance thesis: their last
 
 ![Jerusalem 99, copy I. The final five lines stand above intertwined human forms. Mellor’s account of visual union and Kaplan’s explicit objection frame a dispute over whose agency that union represents [@mellor1982, pp. 149–153; @kaplan1996Patriarchy, p. 82, n. 27]. This uncropped impression supplies the design discussed here, separately from the transcription. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J99.jpg){#fig:plate-J99 height=3.8in}
 
-Herrstrom supplies a substantive rival to a reading organized wholly around escape from incorporation. He reads Jerusalem through the reconstruction of a living human body and the reunion of furnace and wheel: transformed unity answers estrangement [@herrstrom1981Cherubim, pp. 66, 68, 75]. The reconstruction must therefore defend independent persons within relations, rather than independence from all relations. People can owe contributions to shared food, care, language and infrastructure without becoming the property of their administrators. Its normative premise is that participants retain standing to dispute the purpose and distribution of that common work, including when they reject the whole’s account of their refusal.
+Herrstrom supplies a substantive rival to a reading organized wholly around escape from incorporation. He reads Jerusalem through the reconstruction of a living human body and the reunion of furnace and wheel: transformed unity answers estrangement [@herrstrom1981Cherubim, pp. 66, 68, 75]. The distinction developed here concerns independent persons within relations. Contributions to shared food, care, language and infrastructure create obligations with a purpose and a limit; administrators answer for their exercise of those powers. Its normative premise is that participants retain standing to dispute the purpose and distribution of that common work, including when they reject the whole’s account of their refusal.
 
 ## Reprieve, release and the conditions attached to forgiveness
 
@@ -451,17 +463,19 @@ The passage also resists an easy administrative translation. Erin calls distingu
 
 Durable evidence differs from a permanent civic sentence. It can preserve an account of a harmful act, impose a warranted protective restriction and assign restitution without treating the person as the exhaustive embodiment of the wrong. Revision needs its own conditions: which evidence could change the restriction, who hears the request, and what protections continue for those exposed to renewed harm? Passage concerns the conditions under which relations can alter; it does not require that every injured participant resume the relation. Forgiveness supplies a challenge to punitive identification while leaving the institutional duties of protection and accountability to be defended.
 
+Frosch's objection to Mitchell makes continued opposition part of the forgiveness question. Releasing people from punitive identification does not reconcile the reader to their claims: intellectual error remains subject to judgment [@frosch1979Composite, pp. 45–46]. This gives the institutional distinction a precise form. A person retains standing while an assertion, practice or decision can still receive an adverse finding. Reinstating a claimant's civic status and determining restitution for an injurious act can belong to the same proceeding. Neither requires the harmed person to endorse a story of achieved reconciliation.
+
 ![Jerusalem 61, copy I. Joseph and Mary’s exchange leads into the dream-voice about debt, purity and forgiveness, then Mary’s song and the infant/cross sequence. Small forms accompany the right margin. This sheet stages the dialogue discussed here; it is distinct from the watercolor analyzed by Heppner. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J61.jpg){#fig:plate-J61 height=3.8in}
 
 # From imaginative federation to shared rule and self-rule {#sec:s4}
 
 Architecture A is a federation of enduring relational possibilities. Historical nations articulate, combine and transform those possibilities through particular practices. The federal whole is enacted in translation, encounter, common work, hospitality, disagreement and passage. It is not exclusively embodied by a dominant nation. National formations contribute particular histories and practices without acquiring ownership of the possibilities they disclose or of the people who sustain them.
 
-At this level federality names a philosophical grammar. It does not yet specify shared rule and self-rule, public revenue, adjudication or representation. Containment means that possibilities remain intelligible and encounterable, not that every possible condition receives a political entitlement. Whether this grammar adds explanatory value beyond existing pluralist thought is a live question.
+Architecture A specifies a relation among possibilities, historical formations and persons. It preserves intelligibility and encounter across changing affiliations. Architecture B supplies the institutional questions this relation opens: shared rule and self-rule, public revenue, adjudication and representation. Its criterion is the distribution of justified powers and continuing duties, including the power to challenge how the common world has been described.
 
 Architecture B distinguishes that imaginative constitution from a legal constitution. The latter must allocate real powers among territorial units, task-specific authorities, national-cultural bodies and shared institutions. A watershed and a language community may need different boundaries. A migrant may be subject to a jurisdiction without belonging to a recognized national association. A nation may cross jurisdictions without acquiring an unlimited police power over its members.
 
-Common personhood, bodily security, conscience, expression, due process, material access and contestability are independently introduced normative premises. They do not follow automatically from a poem. Differentiated arrangements may protect freedom where uniform administration reproduces dispossession; unequal institutional forms are not automatically unequal standing. But every asymmetry needs a reason, an affected population and a means of challenge.
+The institutional construction starts from equal personhood, bodily security, conscience, expression, due process, material access and contestability. These are its normative premises. Differentiated arrangements can protect equal standing where uniform administration reproduces dispossession. Each asymmetry therefore needs a stated purpose, an affected population, an account of its burdens and a means of challenge.
 
 Three proposed mechanisms translate the grammar into institutional questions. A translation obligation requires accessible reasons across national narratives and an account of whom the deciding institution does not represent. A passage guarantee protects portable basic standing and practical affiliation change without eliminating legitimate continuing debts or duties. A non-exhaustion rule denies an organization's claim to speak every member's whole identity. Together, these mechanisms specify the institutional work of composition without capture.
 
@@ -511,6 +525,16 @@ Viscomi's later Turner essay also questions whether Blake's refusal to supply de
 ## Translation without compulsory legibility
 
 Simpson makes refusal a question of knowledge production as well as membership. Her discussion of Kahnawake connects sovereignty, gendered recognition and local disagreement; the interview distinguishes lived citizenship from formal membership while withholding parts of a personal predicament. Stopping the recording becomes part of ethnographic responsibility [@simpson2007, pp. 67–78]. Translation, on this account, must attend to who controls the questions and the record.
+
+The Marriage's compact statement places opposition within a continuing relation:
+
+\Needspace{5\baselineskip}
+
+> Opposition is true Friendship.
+
+Q40. William Blake, The Marriage of Heaven and Hell, plate 20, E42. [@blakeMarriage].
+
+The maxim closes a contest over who can show whom a world. The narrator seizes the Angel and drives him through a contrary vision; the Angel objects to imposition, and the reply acknowledges that they impose on one another. Friendship contains antagonism and correction here, while the conduct of the journey remains coercive [@blakeMarriage, plates 17–20, E41–42]. For the translation obligation, the question is whether opposition can change the framing of a dispute while the parties retain standing. An interpreter may reproduce a claimant's words accurately while controlling which questions a hearing permits. A rival interpreter, an alternative description of the injury and a route to revise the agenda make that framing answerable. The later Angel-to-Devil conversion belongs to the separate Fancy of plates 22–24; it supplies a different relation between conversation and changed allegiance.
 
 A passage guarantee should not require exhaustive legibility. A person may contest a classification without furnishing a replacement total identity. The translation obligation makes an institution's coercive act and competence answerable; it does not entitle the federation to complete cultural, familial or spiritual disclosure. Refusal of disclosure, membership, a particular decision and the forum's jurisdiction are different actions. None may be automatically recorded as missing data, administrative failure or assent.
 
@@ -576,11 +600,23 @@ Consider a recognition decision concerning a bilingual household. The entities a
 An Ostrom-informed extension asks who occupies a position, who can enter or leave it, what information is available, which actions are permitted, how choices are aggregated, and how costs and benefits are assigned. Authority to revise the rules must also be located. Ostrom’s action situation separates actors, positions, actions, information, outcome mappings and assigned costs and benefits [@ostrom2010, pp. 646–648, Figs. 2–3]. The implemented record makes these selected safeguards explicit and retains the decision evidence needed to investigate them.
 
 
-## Who must activate review?
+## Activating review and distributing the burdens of a remedy
 
 Shachar's joint-governance proposal differentiates submatters, prohibits monopoly and identifies reversal points [@shachar2005, pp. 71–73]. Its treatment of arbitration also locates the burden of activating protection. Independent advice and recorded choice can leave loyalty pressures intact; review before an award becomes enforceable shifts initiative away from the vulnerable party [@shachar2005, pp. 75–77]. The mechanism matters because a right whose exercise jeopardizes housing, care or belonging may remain unused.
 
-Los’s own work makes protective authority answerable. His search through London in plate 45 attends to injuries whose hidden authors escape him; vengeance would punish the already punished. Plate 91 follows the attack on destructive aggregation with the severe remaking of the Spectre and a demand for obedience [@blakeJerusalem, 45:2–38, E194; 91:18–58, E251–252]. Replacing moral rank with intellectual rank can preserve the classifier’s privilege to decide whose judgment counts. Herrstrom’s guard-to-guide transformation supplies the corresponding question: does protection enable an adverse claim, including one against its provider, or control the threshold of participation [@herrstrom1981Cherubim, p. 65]?
+Los's own search makes protective authority answerable to the people its remedy reaches:
+
+\Needspace{7\baselineskip}
+
+> If I should dare to lay my finger on a grain of sand\
+> In way of vengeance; I punish the already punishd: O whom\
+> Should I pity if I pity not the sinner who is gone astray!
+
+Q38. William Blake, Jerusalem 45:33–35, E194. [@blakeJerusalem].
+
+He sees injured particulars throughout Albion's city but cannot find those who have possessed and degraded them. His lament distinguishes knowledge of suffering from knowledge of a justified target. The preceding lines make a stronger theological claim about Providence and vengeance; the institutional construction takes up the practical question of where a remedy's force falls [@blakeJerusalem, 45:2–38, E194]. Suspending an association's water supply to punish its officers can expose residents to the deprivation under dispute. Removing a provider without continuity arrangements can burden the people who depend on it. Review therefore records the act to be corrected, who bears the correction and which immediate duties continue. Protection, restitution and prevention address different parts of the injury.
+
+Plate 91 brings the same scrutiny to Los: the criticism of destructive aggregation leads into the Spectre's severe remaking and a demand for obedience [@blakeJerusalem, 91:18–58, E251–252]. Replacing moral rank with intellectual rank can preserve a classifier's privilege to decide whose judgment counts. Herrstrom's guard-to-guide interpretation directs the question toward the threshold itself: can a person bring an adverse claim against the body supplying protection [@herrstrom1981Cherubim, p. 65]?
 
 An applicant needing water should not have to reconcile with the alleged source of injury or supply a total personal narrative before receiving it. Where a supplier knows that a disputed decision will interrupt essentials, notice to an identified reviewer, continuing provision and a response deadline can shift initiating work away from the dependent claimant. The reviewer’s preventive duty also needs a limit and an independent challenge route. Helpful administration cannot become the condition of survival.
 
@@ -678,7 +714,7 @@ Remaining together consequently requires more than portable standing and tolerat
 
 # Five Xeno-California conflicts: standing, resources and counterfactual repair {#sec:s7}
 
-Xeno-California is a hypothetical stress test, not a blank description of California or a proposal imposed on actual peoples. Its cases must keep land, labor, infrastructure, power and affected nonmembers visible. Each case has two machine-readable alternatives; their labels identify stipulated design differences, not observed political outcomes.
+Xeno-California comprises five hypothetical conflicts over territory, cross-border affiliation, new publics, civic rank and scarce water. Each has two machine-readable alternatives with stipulated differences in institutional design. Land, labor, infrastructure, power and affected nonmembers remain part of the decision being compared.
 
 Case A places several nations and unaffiliated residents in one territory. The bounded alternative grounds common services and ordinary political standing in personhood and residence while permitting language and cultural institutions. The capture alternative requires one exclusive national registration to obtain those services. The relevant evidence in a future study would include effective access, internal dissent and representation, not the number of recognized organizations.
 
@@ -717,9 +753,21 @@ Blake pairs Art and Science with minutely organized particulars. The preceding c
 
 ![Jerusalem 55, copy I. The Seven Eyes, plowing and care for the Little-ones share the sheet with minutely organized Art and Science. Q16–Q17 select lines 51–53 and 60–63: care, particulars and demonstration enter the same account of labor. The complete lower design keeps provision beside the demand to explain and demonstrate. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J55.jpg){#fig:plate-J55 height=3.8in}
 
-## Delight in common work can coexist with exhausting dependence
+## Release and attachment: changing the conditions of work and dependence
 
 Moyer reads Blake’s textile imagery across Visions, America, The Four Zoas, Milton and Jerusalem as a relation between metropolitan labor and plantation slavery. His comparison follows the production process and its distribution of power, rather than treating every reference to weaving as a single symbol. It suggests a complementary corpus search: follow work, employment, buying, chains and daughters alongside national names. The question is who compels activity, possesses its products and can interrupt the arrangement [@moyer2014Cotton, paras. 3–10, 14–16, 33].
+
+America's emancipation sequence keeps a family's first steps within the scene of release:
+
+\Needspace{7\baselineskip}
+
+> Rise and look out, his chains are loose, his dungeon doors are open.\
+> And let his wife and children return from the opressors scourge;\
+> They look behind at every step & believe it is a dream.
+
+Q39. William Blake, America a Prophecy 6:10–12, E53. [@blakeAmerica].
+
+The opened door begins rather than completes the action. Wife and children return from the scourge, yet look behind at every step: release has to become credible in movement. The proclamation from the temple is subsequently identified by Albion's Angel as Orc's voice, which Orc affirms; it is not a statement by Washington [@blakeAmerica, 5:7–8:1, E53–54]. Its visionary dawn brings the claim that empire has ended into conflict with the conditions through which national freedom is proclaimed. In the institutional construction, an employer's retained wages, withheld documents or threats to dependants can preserve the old power after an exit is formally granted. Passage needs usable means, a timetable and protection against retaliation. The decision record names the provider of those means and preserves claims against the act that created the dependency.
 
 Jerusalem 59 combines affirmative feeling with an exhausting division of labor. The daughters work through hunger and interrupted sleep; they also take delight in their work and continue repairing their wheels. Their attachment does not resolve who receives its benefits or who can change its terms.
 
@@ -777,7 +825,7 @@ Follow the work needed to keep E3’s challenge alive: notice, translation, emer
 
 The executable E-bounded and E-capture records test the stated safeguards. The E1–E3 comparison in [@fig:watershed-options] extends the argument by varying representation, decision scope and treaty relations while keeping the hypothetical scarcity in view.
 
-![A fixed water-scarcity dispute supports three proposed authorization routes: associations, territory and limited watershed competence. The upper arrows describe storage and supply relationships; the columns compare franchise, mandate, treaty treatment and the question each arrangement must answer. Residents, workers and affected nonmembers retain claims concerning costs, hearings and interim supply under every route. E1–E3 are alternative constructions within the hypothetical resource case.](../figures/watershed-options.png){#fig:watershed-options width=98%}
+![A fixed water-scarcity dispute supports three proposed authorization routes: associations, territory and limited watershed competence. The upper arrows describe storage and supply relationships; the columns compare franchise, mandate, treaty treatment and the question each arrangement must answer. Residents, workers and affected nonmembers retain claims concerning costs, hearings and interim supply under every route. Compare each route with Q37's question of unequal burdens under a common rule and Q38's question of whom a remedy reaches. E1–E3 are alternative constructions within the hypothetical resource case.](../figures/watershed-options.png){#fig:watershed-options width=98%}
 
 
 \Needspace{11\baselineskip}
@@ -870,7 +918,7 @@ Coordination and dissent protection therefore need separate outcomes. Agreement 
 
 ![Two proposed routes can produce the same outward agreement. One connects challengeable reasons, supported participation and effective review; the other connects controlled recognition, conditional access and continuing exposure to power. The curved connections identify a shared observation rather than a measured effect. Contesting the act while retaining provision distinguishes the institutional questions that agreement alone leaves open.](../figures/agreement-routes.png){#fig:agreement-routes width=98%}
 
-The comparison separates communication control, information asymmetry and the material consequences of dissent. It asks who sets the shared terms, whose disagreement is treated as noise, and whether a person can survive the cost of challenge. The prototype keeps rights and safeguards independent of affiliation count.
+The comparison separates communication control, information asymmetry and the material consequences of dissent. It asks who sets the shared terms, whose disagreement is treated as noise, and whether a person can survive the cost of challenge. The prototype keeps rights and safeguards independent of affiliation count. The opposition described in Q40 supplies a question for the upper route: can a challenge change the framing and consequence while participation and provision continue?
 
 \Needspace{9\baselineskip}
 
@@ -904,7 +952,7 @@ The institutional comparison should therefore ask what an additional perspective
 
 Fourfold vision guides attention to partial perspectives and their relations. In the institutional comparison, that means asking what each account reveals, what it excludes and how its claims can be challenged. The prototype varies the number of interpretive lenses while holding rights and safeguards fixed.
 
-This distinction joins the textual and institutional arguments. The person who passes through a state must retain standing when challenging the collective account of that state. Translation services, public reasons and review matter when they make that challenge practicable.
+This distinction joins the textual and institutional arguments. The person passing through a state retains standing to challenge the collective account of that state. Translation services, public reasons and effective review connect that standing to a practicable power of response.
 
 ## Shared evidence, reliable reports and the authority to act
 
@@ -1096,9 +1144,9 @@ System with imagination occurs in thirteen shared units document-wide and none w
 
 ## Reading, quotation and image method
 
-Historical snapshots remain distinct: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. The explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports credit complete extracted-text reading for nine core works and three short related works, selected contexts for nine longer related works. This does not mean every catalog work, image, video, version or secondary citation was read. The new scholarship pass has a separate bounded ledger.
+The research record retains three index snapshots: 223 catalog works and 202 text files in the original scope; 224/203 in the addendum; 226/205 in the captured 23 October index. Its explicit Blake program identifies 21 entries, nine core and twelve related. Prior reports record complete extracted-text reading for nine core works and three short related works, and selected contexts for nine longer related works. The cumulative scholarship ledger records subsequent readings by source, version and span.
 
-Thirty-six displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break, escaped-hyphen and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
+Forty displayed Blake quotations in this version are bound to named Arizona State University (ASU) HTML anchors, occurrence indices and normalized text, with complete input-byte hashes. Normalization collapses whitespace and excludes small editorial locator and footnote markers; Markdown line-break, escaped-hyphen and escaped-apostrophe syntax is removed before comparison. Spelling and punctuation remain. Plate 52 has an explicit right-epigraph reading order. Q11 declares two noncontiguous excerpts. A changed line, missing input or unrecorded blockquote stops rendering. The ledger verifies this selection against the captured transcription.
 
 Fourteen official Library of Congress reproductions accompany the argument. Milton is copy D, leaf numbered 35, catalogued 1804 [i.e. 1815?], with paper watermarked 1815. Its passage corresponds to M32; scan 32 is a different page. Jerusalem is copy I, catalogued 1804 [i.e. 1832?], with 1831/1832 watermarks. The selected Jerusalem sheets are posthumous impressions, not evidence of Blake personally printing them. The item-specific no-known-restrictions advisory is retained, not relabeled CC0 or applied to the entire recovered corpus. Modern editorial apparatus is not reproduced as Blake's text.
 
@@ -1131,7 +1179,9 @@ Viscomi supplies a methodological restraint on this authority. His account of th
 
 Essick and Viscomi make the material disagreement specific. Their inquiry distinguishes monochrome, hand-colored and color-printed impressions and argues against a general two-pull account. They interpret the exceptional second printing of Nurses Song in copy E as repair [@essickViscomi2002Color, pp. 74–77, 98–102]. The physical history assigned to a feature changes what an interpretation can infer from it. Their technical conclusion is an attributed argument; the selected opening and ending supply this comparison, rather than an independent resolution of the controversy.
 
-A transcription supports the selected wording; an identified impression supports an observation about that material page; an analytical diagram exposes the proposed relation. Captions make those objects explicit and connect a visible or measured feature to the section’s question. Copy sensitivity therefore exceeds duplicated words. Deduplication cannot decide which material differences matter; equal-family weighting cannot supply a comparison of pages. Each calculation can expose a choice that further reading and inspection must examine.
+Ritchie's account of the Blake–Stedman engravings makes reproduction part of the interpretive problem. Her discussion of contemporary reworkings ends by questioning the authority carried forward when historical images circulate, even under a critical or emancipatory description [@ritchie2025Embodied, paras. 26–30]. Her objects have a different history from the Jerusalem sheets shown here; the methodological demand concerns how an image is made to support a claim. The captions in this article identify copy and sheet, describe a visible feature, locate the selected passage and name the critical purpose. Original diagrams sit alongside those impressions as the article's constructions. A plate can complicate an argument without certifying its institutional conclusion.
+
+The figures work at three levels. A transcription supplies the selected wording, an identified impression makes a material page available for criticism, and an analytical diagram displays a proposed or measured relation. Captions identify the object, the evidence it carries and the question it addresses. Copy sensitivity therefore exceeds duplicated words. Deduplication cannot decide which material differences matter; equal-family weighting cannot supply a comparison of pages. Each calculation can expose a choice that further reading and inspection must examine.
 
 ## When would computation add something?
 
@@ -1144,12 +1194,3 @@ An ablation is especially important. Remove poetic-state descriptors while holdi
 Three comparisons drive the next stage. First, collate the state/person passages across identified copies, extending the Urizen refrain audit to the other concentrated query results. Second, compare minimum safeguard bundles with the appointments, funding, interim duties and remedies of existing forums. Third, compare readings of a dispute with and without the poetic-state vocabulary while keeping rights and material circumstances fixed.
 
 The final comparison tests whether Blake changes what participants hear, challenge or revise. Independently defended political principles may account for all institutional improvements; the poetic reconstruction may instead reveal an excluded voice, a possessive account of membership or an assumption about the common good. Record the changed claim and who can contest it. The relevant outcome is a more answerable decision and a clearer relation among its participants.
-
-## Federated inference and robust aggregation: source versions and selected sections
-
-| Source | Sections used in the comparison |
-|:---|:---|
-| [@friston2024Federated] | Sections 3.1–3.2; selected passages in 4–5 and 7; equations 6–15 and figure captions 3–11. The communication comparison uses section 3.1, equations 6–8. |
-| [@friedman2026RobustBelief] | Version 1.1.0, physical PDF pp. 16–19 (printed pp. 15–18), 24, 35, 41, 45, 50 and 52–54; sections 5.7–5.9, 7.1, 7.5, 8.3–8.5 and 8.15. The recovery comparison uses Theorem 5 and Corollary 6. |
-
-The source ledger records the journal's January 2024 issue and December 2023 online date, and distinguishes the robust framework's version DOI from its concept DOI. Cached primary texts and metadata retain their SHA-256 bindings in the local research record; the cumulative reading ledger is research/scholarship-reading-0.12.0.json.

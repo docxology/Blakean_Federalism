@@ -153,7 +153,7 @@ def prepared(manuscript, observed):
     (root / "research/queries.json").write_bytes(
         TypeAdapter(tuple[QuerySpec, ...]).dump_json(queries)
     )
-    (root / "research/scholarship-reading-0.12.0.json").write_text(
+    (root / "research/scholarship-reading-0.13.0.json").write_text(
         json.dumps(
             [
                 dict(
@@ -265,7 +265,7 @@ def test_stale_case_trace_is_rejected():
 
 def test_reading_links_and_hashes_are_retained(prepared):
     root, corpus, result = prepared
-    path = root / "research/scholarship-reading-0.12.0.json"
+    path = root / "research/scholarship-reading-0.13.0.json"
     path.write_text(
         json.dumps(
             [

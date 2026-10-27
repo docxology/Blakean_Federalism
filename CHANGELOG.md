@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.13.0 — close reading, typography and figure integration
+
+- Add four source-verified Blake quotations and contextual readings of unequal law, opposition, restraint and release.
+- Integrate new scholarly readings of Frosch and Ritchie with exact locators and cumulative provenance.
+- Refine quote/caption typography, connect the opening plate to its reading and keep atlas credits together.
+- Move technical reading boundaries into the appendix; preserve the notation, formalisms and analytical producers.
+
 ## 0.12.0 — federated inference and denser visual explanations
 
 - Cite and discuss both requested federated-belief-sharing sources, with exact publication identities and selected-reading locators.

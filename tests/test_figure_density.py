@@ -158,7 +158,8 @@ def test_concept_registration_requires_current_version_and_artwork(illuminated, 
     for name, version, art, expected in (
         ("legacy", "0.11.0", artwork, False),
         ("no-art", "0.12.0", None, False),
-        ("current", "0.12.0", artwork, True),
+        ("prior", "0.12.0", artwork, True),
+        ("current", "0.13.0", artwork, True),
     ):
         output = tmp_path / name
         figures = generate_figures(

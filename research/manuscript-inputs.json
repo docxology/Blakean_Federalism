@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.13.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -1264,6 +1264,78 @@
         }
       ],
       "context": "Fiscal/resource-conflict case: question burdens and extraction, with nations still present at the ending."
+    },
+    {
+      "asset_id": "marriage",
+      "locator": "The Marriage of Heaven and Hell, plate 24, E44",
+      "segments": [
+        {
+          "anchor": "MHH24;E44",
+          "occurrence": 6,
+          "text": "One Law for the Lion & Ox is Oppression"
+        }
+      ],
+      "context": "Terminal maxim after the Angel becomes a Devil and the narrator announces a Bible of Hell whether the world will accept it or not. Read with plates 22–24, not as a complete theory of public law.",
+      "quote_id": "Q37"
+    },
+    {
+      "asset_id": "jerusalem",
+      "locator": "Jerusalem 45:33–35, E194",
+      "segments": [
+        {
+          "anchor": "J45.33;E194",
+          "occurrence": 0,
+          "text": "If I should dare to lay my finger on a grain of sand"
+        },
+        {
+          "anchor": "J45.34;E194",
+          "occurrence": 0,
+          "text": "In way of vengeance; I punish the already punishd: O whom"
+        },
+        {
+          "anchor": "J45.35;E194",
+          "occurrence": 0,
+          "text": "Should I pity if I pity not the sinner who is gone astray!"
+        }
+      ],
+      "context": "Los searches Albion’s city; injuries are visible but those responsible escape his search. His lament at 45:29–38 restrains vengeance and asks how to prevent the Sons of Albion from taking it. The theological claim in lines 30–32 remains part of the context.",
+      "quote_id": "Q38"
+    },
+    {
+      "asset_id": "america",
+      "locator": "America a Prophecy 6:10–12, E53",
+      "segments": [
+        {
+          "anchor": "Am6.10;E53",
+          "occurrence": 0,
+          "text": "Rise and look out, his chains are loose, his dungeon doors are open."
+        },
+        {
+          "anchor": "Am6.11;E53",
+          "occurrence": 0,
+          "text": "And let his wife and children return from the opressors scourge;"
+        },
+        {
+          "anchor": "Am6.12;E53",
+          "occurrence": 0,
+          "text": "They look behind at every step & believe it is a dream."
+        }
+      ],
+      "context": "The voice announces dawn, captives’ release and familial return at 6:1–15. Albion’s Angel answers the voice as Orc at 7:1–7, and Orc identifies himself at 8:1. This visionary proclamation does not report historical abolition in the United States.",
+      "quote_id": "Q39"
+    },
+    {
+      "asset_id": "marriage",
+      "locator": "The Marriage of Heaven and Hell, plate 20, E42",
+      "segments": [
+        {
+          "anchor": "MHH20;E42",
+          "occurrence": 15,
+          "text": "Opposition is true Friendship."
+        }
+      ],
+      "context": "The maxim ends the Memorable Fancy of plates 17–20. The narrator has driven the Angel into a competing vision; the Angel alleges imposition and the narrator replies that they impose on one another. The later Angel-to-Devil conversion occurs in a separate Fancy, plates 22–24. Do not conflate the two episodes or describe the first as already mutually consensual.",
+      "quote_id": "Q40"
     }
   ],
   "fronts": [
