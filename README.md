@@ -4,9 +4,24 @@ Private research on **composition without capture**: a federation contains STATE
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 
-## Analytical graphical abstracts 0.14.0
+## Shared methods and accountable reading decisions 0.16.0
 
-The four opening figures now show a typed relational example, six passage-to-institution comparisons, exact repair requirements and family-weighting sensitivity. Fuller captions identify what each encoding means and connect the results to the argument. [Methods and numerical interpretation](docs/research/abstract-analysis-0.14.0.md).
+Generic corpus, search, proximity, statistics, review custody and offline search
+methods now come from the public Blake package. This application retains its
+political vocabulary, institutional reasoning and manuscript. Fresh replay
+preserves the historical concordance, statistics, literal study and proximity
+measurements byte for byte; producer identities remain separately recorded.
+
+The new [authored evidence review](docs/shared-methods.md) workflow retains
+source-bound candidates, counterreadings, uncertainty, named reviewers and
+verification locators. It shares custody mechanics with Blakean Entomology while
+keeping their contextual policies distinct. Blank decisions remain unreviewed.
+
+## Words, sources and accountable common institutions 0.15.0
+
+The four opening abstracts now start with questions a reader can follow: what belonging authorizes, what Blake's scenes require us to ask, which changes satisfy the institutional safeguards, and which words occur in the retained sources. The word-count table states the exact spellings and works through 264 matches divided by 644,245 words, rescaled to 10,000 words. Separate columns compare combining all words with giving each recorded family equal weight. [Reading the figures and opening argument](docs/research/opening-clarity-0.15.0.md).
+
+The early sections distinguish Clark's and White's readings of Los, follow Stefanis's evidence about exhibition choices, and use Viscomi's account of invention during execution without attributing a political agenda to his historical finding. Existing quotations, reading-credit bounds, bibliography and formal statements remain intact.
 
 Four additional verified passages examine differentiated law, opposition, restraint and usable release. New readings of Frosch and Ritchie sharpen the distinction between forgiving persons and accepting their claims, and the authority carried by reproduced images. [New research](docs/research/close-reading-layout-0.13.0.md).
 
@@ -14,9 +29,9 @@ The opening figures use a historical Blake frontispiece, italic quotations, expl
 
 The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Forty source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 
-The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Sixteen formalisms and eleven equations use the pinned docxology/template route; 60 cited references have structured bibliography records.
+The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Nineteen formalisms and thirteen equations use the pinned docxology/template route; 60 cited references have structured bibliography records.
 
-Sixteen original diagrams connect the argument and its recorded comparisons. The revised figures show exact occurrences, unit/family coverage, source weighting, conditional directions, all 150 safeguard checks and complete intervention-size profiles. A new two-lane comparison joins the federated-inference sources to the institutional questions of standing, warrant and review. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
+Eighteen original diagrams connect the argument and its recorded comparisons. The revised figures show exact occurrences, unit/family coverage, source weighting, conditional directions, all 150 safeguard checks and complete intervention-size profiles. A new two-lane comparison joins the federated-inference sources to the institutional questions of standing, warrant and review. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
 
 The 0.7.0 [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
 
@@ -104,3 +119,13 @@ Original DOCX files, normalized full scope extractions, downloaded papers, full 
 ## Analysis and software epochs
 
 The original full concordance and research/analysis-run.json are preserved with their producing core source in the initial Git commit. A later import-publication correction uses exclusive destination creation, exclusive file copies and a completion marker written last. Current qualification and the source-bound analytical epochs are recorded separately in research/current-source.json and research/verification.json. The original receipt is preserved. A fresh 0.3.0 full concordance is compared with that historical run and bound separately; equality of results does not retroactively change the earlier producer. CSV byte identities are preserved explicitly by .gitattributes.
+
+
+The integrated person-specific review study keeps the original fifteen safeguards
+fixed while testing fourteen declared procedures for a member and an affected
+nonmember. Two new report-derived figures show the seven separate conditions and
+uncovered waiting intervals. The approved evaluator and cases are retained
+unchanged; source-bound publication invokes the audit tool and retains its input,
+report and figure receipts. These conditions are not an institutional rating or
+evidence of impartiality, response reliability or settled collective competence.
+See [the domain research note](docs/research/institutional-review.md).

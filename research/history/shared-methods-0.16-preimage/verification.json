@@ -1,0 +1,46 @@
+{
+  "version": "0.15.0",
+  "status": "software_and_native_render_qualified",
+  "tests": 538,
+  "coverage_percent": {
+    "application": 96.37628989680826,
+    "infrastructure": 72.21052631578948
+  },
+  "coverage_floor": {
+    "application": 90,
+    "infrastructure": 60
+  },
+  "qualification_artifacts": {
+    "root-page-review.json": "34ea2ccbd395026c92706a91def020c1083aa8bcf16fe2160893d78b75b104cf",
+    "root-browser-review.json": "e618d4c9d757045c4566f0b8d17ba18d0ce98a65c5bbe8d085c53d03dd5404bf",
+    "root-visual-notation-citation-review.json": "8652511284fb29ee02ab8406f6bd97b88fb343c160a31ce09ca754d981d21547",
+    "browser-teardown.json": "9b495fdcb1ce6e0c5b8ed849616be8e6bcc038bce55e75615d41382a9a21748e",
+    "browser-automated-review.json": "343f863d0f69038e32db8914559fd8f3185f20567bd3a65e425c0fde163c6d61",
+    "abstract-semantic-reconciliation.json": "37f685be3e1b5a63b77fcb1d6bbbbb31fd0e39bcab506d316ba30d1e4e25802b",
+    "inspected-to-final-stage-identity.json": "133a171adbf202a030cb4f883c52e725d3792b06cc4a43b850a68350e3ccc2a6",
+    "page-review-01/render-receipt.json": "e916b65823eae695f658ae5c74b3b794fb0a11d063b1b7028e520c3105734079",
+    "qualification-04/execution-root.json": "c78385514145fa313bc31680b57952d5efcab90a95067df46b85ffb974788513",
+    "independent-source-custody-01.json": "85ef87c9b90d409483493e17c396049c97b60adb92ceb5a0728da9c15e061125",
+    "historical-staging-input-custody.json": "7b9cf844ad2609516e779f51992b67b48345c2db269369ba1e4353ce8473b15a",
+    "clarity-baseline-control.json": "2445fad59184f103fbe2a1f3181d18cb2758480a7273d7bc9f062899829853c3",
+    "family-frequency-reading-02.json": "4dbedd61b5e2164a8d3aaa5e1d1d1a3d6b3d2f56eef7f2b5d9d1f88456562415",
+    "research-leaf/packet-manifest.json": "c4cc33d5248d7d69faf7a380be99e4f6148cc9daa183e6f38705f166cf14ca46",
+    "research-leaf/verification.json": "1b77eb229f8bc76312e3b7d6c09906e267d05b24c6d7bb68fbcdd5b76caaac14",
+    "research-leaf/reading-ledger.json": "935630efe2099ac0805f062c9409f311ac725fb689cfdc866ed32f77aa0ce476",
+    "research-leaf/findings.md": "8792367235a734e3f706e18e2215ec0057348fe2a8e39c612b90b035bff66589",
+    "design-leaf/inspection.json": "7a16c916bc0fa9c644dcd34ef23ea9716afcc740d189d73c5c16d9bd58fef283",
+    "qualification-04/checks.json": "fff410e3253eb796bc8ff9f35016d44425b0749ded3de83114a98ed2ccd74611",
+    "qualification-04/tests.xml": "102567e83982cf18c09b8560945b7cb59ab6f1b797431d087480a5af7291af96",
+    "qualification-04/coverage.json": "57d31232989e9dd642f97a190ebe801e06d06720f3643f4de42151f3c800c8b7",
+    "qualification-04/source-bindings.json": "0b192dc3ebe9f7acddd4007b6eaea9d9da0a80fed6724c9afd3204bd79f6c182",
+    "qualification-04/check-1.log": "5421c9e79a3b3950b2728a6ab7dcffe3d13752e436081ece8317e539b0041659",
+    "qualification-04/check-2.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "qualification-04/check-3.log": "3a21445bb7ec5bd865e583bec08d6571c4b3b289821acb041d1505c596e90257",
+    "qualification-04/check-4.log": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
+    "qualification-04/check-5.log": "5c36d03c0b8f74fdabc00319d99bc3a2fad0b7bc0e0b25057505f408a7443de9"
+  },
+  "rendered_qa": "research/rendered-review-0.15.0.json",
+  "historical_qualification": "research/history/verification-clear-opening-preimage.json",
+  "qualification_reuse": "Current full software, native paper and aggregate-workbench browser checks are fresh; unchanged full-text search retains explicit historical proof.",
+  "native_worker_coverage_note": "Actual pinned template execution has its separately bound native receipt."
+}

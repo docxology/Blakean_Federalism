@@ -2,141 +2,33 @@
 """Parse source and institutional records once, preserving distinct warrant types."""
 
 from enum import StrEnum
-from typing import Annotated, ClassVar, Literal, NewType
+from typing import Literal, NewType
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from blake.methods.models import (
+    Concordance as SharedConcordance,
+)
+from blake.methods.models import (
+    CountRow,
+    Digest,
+    FileReceipt,
+    FrozenModel,
+    Hit,
+    ImportReceipt,
+    Plane,
+    Projection,
+    QuerySpec,
+    ResearchError,
+    Role,
+)
+from blake.methods.models import ProjectionCorpusPin as CorpusPin
+from blake.methods.models import ProjectionPassage as Passage
 
 EntityId = NewType("EntityId", str)
-Digest = Annotated[str, Field(pattern=r"^[a-f0-9]{64}$")]
 
 
-class FrozenModel(BaseModel):
-    model_config: ClassVar[ConfigDict] = ConfigDict(frozen=True, extra="forbid")
+class Concordance(SharedConcordance):
+    """The shared evidence schema with this paper's interpretation ceiling."""
 
-
-class ResearchError(Exception):
-    """An evidence boundary was violated."""
-
-    def __init__(self, code: str, detail: str) -> None:
-        self.code: str = code
-        self.detail: str = detail
-        super().__init__(f"{code}: {detail}")
-
-
-class Plane(StrEnum):
-    READING = "reading"
-    ERDMAN = "erdman"
-    XML = "xml"
-
-
-class Role(StrEnum):
-    PRIMARY = "primary"
-    EDITORIAL = "editorial"
-    UNVERIFIED = "unverified"
-
-
-class Passage(FrozenModel):
-    passage_id: str
-    work_id: str
-    author_id: str
-    title: str
-    edition_id: str
-    edition: str
-    copy_id: str | None = None
-    locator: str
-    locator_kind: Literal["plate", "page", "folio", "file_lines", "section"]
-    source_url: str
-    rights: str
-    text_role: Role
-    source_plane: Plane
-    text: str
-    source_sha256: Digest | None = None
-
-    @model_validator(mode="after")
-    def preserve_primary_plane(self) -> "Passage":
-        if self.text_role == Role.PRIMARY and self.source_plane != Plane.READING:
-            raise ResearchError("primary_plane", self.passage_id)
-        return self
-
-
-class FileReceipt(BaseModel):
-    # The upstream receipt may add metadata; only these fields bind consumed bytes.
-    model_config: ClassVar[ConfigDict] = ConfigDict(frozen=True, extra="ignore")
-    path: str
-    size: int = Field(ge=0)
-    sha256: Digest
-
-
-class Projection(BaseModel):
-    model_config: ClassVar[ConfigDict] = ConfigDict(frozen=True, extra="ignore")
-    captured_manifest_sha256: Digest
-    index: FileReceipt
-    inputs: tuple[FileReceipt, ...]
-    passages: int = Field(ge=1)
-    passage_ids: tuple[str, ...]
-    passages_by_plane: dict[Plane, int]
-    passages_by_role: dict[Role, int]
-
-
-class CorpusPin(FrozenModel):
-    upstream_commit: str
-    captured_manifest_sha256: Digest
-    projection_manifest_sha256: Digest
-    projection_relative_path: str
-    index_sha256: Digest
-    unresolved_images: int = Field(ge=0)
-    scope_note: str
-
-
-class ImportReceipt(FrozenModel):
-    schema_version: Literal[1] = 1
-    corpus_pin: CorpusPin
-    passages: int
-    consumed_inputs_verified: int
-    passages_by_plane: dict[Plane, int]
-    passages_by_role: dict[Role, int]
-    source_capture_path: str
-    independence: Literal["copied bytes; no upstream writes or linked payloads"]
-
-
-class QuerySpec(FrozenModel):
-    query_id: str
-    variants: tuple[str, ...] = Field(min_length=1)
-    note: str
-
-
-class Hit(FrozenModel):
-    query_id: str
-    passage_id: str
-    work_id: str
-    title: str
-    edition_id: str
-    locator: str
-    source_url: str
-    plane: Plane
-    role: Role
-    text_sha256: Digest
-    start: int
-    end: int
-    expression: str
-    context: str
-
-
-class CountRow(FrozenModel):
-    query_id: str
-    plane: Plane
-    role: Role
-    occurrences: int
-    matched_source_documents: int
-
-
-class Concordance(FrozenModel):
-    schema_version: Literal[1] = 1
-    pin: CorpusPin
-    query_sha256: Digest
-    scanned_source_documents: int
-    rows: tuple[CountRow, ...]
-    hits: tuple[Hit, ...]
     interpretation: str = (
         "Whole-word explicit variants; source-document counts retain copy repetition. "
         "XML includes markup/apparatus. Mixed Erdman pages are not promoted to primary authorship. "
@@ -246,3 +138,31 @@ class Assessment(FrozenModel):
         "Consistency with stipulated project norms, not legality, empirical freedom, "
         "political legitimacy, or a deduction from Blake."
     )
+
+
+__all__ = [
+    "Assessment",
+    "Authority",
+    "Concordance",
+    "Consequence",
+    "Contestation",
+    "CorpusPin",
+    "CountRow",
+    "Decision",
+    "Digest",
+    "EntityKind",
+    "EntityRef",
+    "FileReceipt",
+    "Finding",
+    "FrozenModel",
+    "Hit",
+    "ImportReceipt",
+    "Passage",
+    "Plane",
+    "Projection",
+    "QuerySpec",
+    "ResearchError",
+    "Role",
+    "RuleCheck",
+    "Warrant",
+]

@@ -1,6 +1,41 @@
 # Research status
 
-The private research program combines a scholarly article, a source-bound corpus workbench and an executable institutional comparison. Version 0.14.0 develops the opening figures and their analytical interpretation.
+## Current staged qualification: 0.16.0
+
+The shared-methods and person-specific review integration has 620 passing staged
+source tests. Separately aggregated statement-and-branch coverage is 92.4346% for
+the application and 65.9208% for tools, above the 90% and 60% floors. Line coverage
+is 93.1100% and 67.7060%; the combined 89% headline is not the application gate.
+
+The actual pinned native writers produced the final 69-page PDF and companion
+HTML at `analysis_output/publication/shared-methods-domain-0.16-05`. All 40 quotation
+records, 19 formalisms, 13 equations and 60 cited references pass content checks.
+The 18 project-authored designs and 14 provider plate pins yield 32 HTML image
+instances; 28 body/plate figures are numbered and four opening abstracts are not.
+The independent review passes its stated scope: all 69 page overviews, selected
+full-page details and claims, all 28 review-person calculations, and 451 static
+HTML local references. It is not browser interaction or JavaScript qualification.
+
+The dependency is exactly pinned to public Blake commit
+`4dc75f71d28f83a9f92db9ca523fb38326ba95f6` in the 34-package lock, associated with
+[public PR 3](https://github.com/docxology/blake/pull/3). A fresh locked installation
+now passes separately: 33 installed distributions, all 620 tests, strict package
+typing, Ruff, dependency compatibility and byte-identical replay of four historical
+analyses. See `research/installation-shared-methods-0.16.0.json`; the original native
+render remains bound to its recorded renderer environment. No new corpus acquisition,
+quotation, provider image or reading-credit upgrade is inferred from extraction
+or the fixed fourteen-procedure review audit. The original fifteen safeguards
+and historical analytical producer identities remain intact.
+
+Current evidence is indexed by `research/current-source.json`,
+`research/verification.json` and `research/rendered-review-0.16.0.json`. Exact
+pre-update current-source and verification bytes are preserved in
+`research/history/shared-methods-0.16-preimage/`; the older 64-page 0.15.0 render
+record and the stage02/stage04 findings remain historical.
+
+## Historical research development and reading bounds
+
+The private research program combines a scholarly article, a source-bound corpus workbench and an executable institutional comparison. Version 0.15.0 clarifies the opening argument, word-count explanation and institutional comparisons.
 
 The central hypothesis is composition without capture: the federation contains STATES in the proposed Blakean sense, while NATIONS are temporal productions, combinations and generations that may cross those states. Several nations may coexist without becoming a single nation. Containment preserves intelligibility, encounter and passage; it grants no automatic sovereign seat to a state such as Rahab or Satan.
 
@@ -24,3 +59,5 @@ Version 0.12.0 adds Friston et al. (2024) and the version-specific Robust Belief
 Version 0.13.0 adds four exact quotation records (eight segments) and two scholarly readings: Frosch's complete 1979 review and Ritchie's complete 2025 article text. The cumulative reading ledger has 51 entries; prior statuses remain unchanged. The article distinguishes common standing from uniform treatment, protection from displaced burdens, release from continuing dependency, and participation from assent to a common interpretation. Forty quotation records, 156 segments and 60 cited references accompany the unchanged 22-row notation and sixteen formalisms.
 
 Version 0.14.0 adds independently checked, text-free abstract diagnostics and replaces the four opening layouts. It partitions intervention totals by baseline admissibility and recomputes top-family shares and deletion endpoints from the stored primary-unit table. No new reading credit, quotations, corpus acquisition or full-text search epoch is introduced.
+
+Version 0.15.0 makes word frequency explicit as matching words per 10,000 counted words; it supplies literal forms, a worked denominator, source-length examples and a named repair table. Five existing scholarly sources were reread to improve the opening. No new bibliography entry, Blake quotation, image or reading-credit upgrade is introduced. The original corpus, search and institutional analytical outputs retain their producer identities.

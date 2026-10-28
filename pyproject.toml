@@ -4,12 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blakean-federalism"
-version = "0.14.0"
+version = "0.16.0"
 readme = "README.md"
 authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
 requires-python = ">=3.11"
 dependencies = [
+    "blake>=0.3.0",
     "pydantic>=2.11,<3",
     "typer>=0.15,<1",
     "typing-extensions>=4.12",
@@ -70,6 +71,10 @@ max-complexity = 15
 typeCheckingMode = "all"
 include = ["src"]
 pythonVersion = "3.11"
+extraPaths = ["../../Public/blake", "src"]
+
+[tool.uv.sources]
+blake = {git = "https://github.com/docxology/blake.git", rev = "4dc75f71d28f83a9f92db9ca523fb38326ba95f6"}
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/blakean_federalism"]

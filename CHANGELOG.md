@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.16.0 — shared methods and authored evidence review
+
+- Move generic source custody, schemas, search, statistics, proximity and offline
+  rendering into public Blake; retain political selections and interpretation.
+- Preserve byte-identical replay of the four historical analytical JSON outputs.
+- Add immutable authored reading queues with source-bound support, counterreading,
+  nonpolitical and uncertain decisions; record candidate and review producers.
+- Bind delegated source files in new producer receipts and retain the 0.15 paper
+  profile while explaining the shared research infrastructure in the article.
+
+## 0.15.0 - words, sources and accountable common institutions
+
+- Explain abstract 4 as literal matching words per 10,000 words, with the numerator, denominator, exact search forms and two separate weighting columns.
+- Replace intervention-number lookups with named conflicts and required changes; distinguish labelled choices from resulting records.
+- Reconnect the passage comparison to Los's system-making, and make overlapping affiliations and state interpretations visible on the cover.
+- Strengthen the opening through Clark, White, Stefanis, Viscomi and Fallon; retain existing reading credit, quotations, bibliography and formalisms.
+- Add source-length examples and explicit zero, small-positive and undefined frequency labels.
+
 ## 0.14.0 - analytical graphical abstracts
 
 - Redesign all four opening figures with restrained typography, explicit relations, a six-row reading comparison, an essential-intervention matrix and a source-weighting sensitivity plot.

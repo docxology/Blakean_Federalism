@@ -1,10 +1,12 @@
 # Abstract {.unnumbered}
 
-A federation can sustain several nations without becoming one nation. This article develops composition without capture: collective histories, solidarities and institutions can make a common world without possessing the persons who participate in it. It distinguishes poetic states, persons and historical national formations: states name recurrent imaginative possibilities, nations give particular histories to collective life, and neither exhausts the persons who participate in them. Close readings of Milton, Jerusalem and the Last Judgment prose distinguish persons from states while confronting passages in which states change, nations appear within eternity, and imaginative creation employs coercion. Blake scholarship on particularity, national mediation, gendered agency, practical science and artistic production turns these tensions into questions about who makes, interprets and revises a common form. The argument distinguishes affiliation, interpretation and claimed institutional competence; a typed countermodel shows that the first two relations do not determine the third. Comparison with demoicracy, cultural autonomy, polycentric governance, non-domination and treaty federalism then specifies standing, jurisdiction, material obligations and effective challenge. A classification-decision record follows an act from its named entity and assigned role through issuer, warrants, consequence, affected reach and enforcement. Five hypothetical Xeno-California conflicts supply ten alternatives evaluated against fifteen explicit safeguards. Exhaustive examination of 40,960 intervention subsets identifies minimum repairs and distinguishes bundles from the 31 distinct resulting records. A source-bound corpus analysis separates 2,067 imported units by role and plane, compares pooled and equal-family rates across 199 primary extracts, and measures copy repetition, deletion sensitivity and query overlap. Extended literal search preserves original-text offsets, source identities and counts before the display cap; optional word windows identify every occurrence participating in a complete nearby combination. Graphical abstracts, analytical diagrams, Blake plates and a front notation table connect the literary argument to these inspectable constructions. The resulting account joins shared rule to continuing powers of interpretation, provision, refusal and revision: a national formation contributes to a federation through what it enables people to make together, without acquiring an exhaustive title to their identities or future acts.
+A federation can sustain several nations without becoming one nation. Its institutions must nevertheless make binding decisions without acquiring an exhaustive claim over the persons they represent. This article develops composition without capture through Blake's accounts of changing states, enduring persons, system-making and national life. It reads poetic states as recurrent imaginative possibilities and national formations as particular historical productions, while persons exceed either description. Close readings of *Milton*, *Jerusalem* and the Last Judgment prose confront a double problem: persons exceed the states they occupy, while creation and collective incorporation can themselves employ coercion. Blake scholarship on artistic production, national mediation and gendered agency makes the institutional question concrete: who can create, interpret, contest and revise a common form? The argument separates affiliation, poetic interpretation and a claim of institutional competence. A formal countermodel shows why shared affiliations and interpretations leave that claim to be justified. Five hypothetical Xeno-California conflicts supply ten alternatives tested against fifteen safeguards. Examination of 40,960 intervention combinations identifies minimum repairs and distinguishes labelled selections from the 31 distinct within-case records. The corpus analysis addresses a different question: which retained texts supply the words used in these readings? It counts specified word forms per 10,000 words across 199 primary extracts and compares combining all words with giving equal weight to each of 33 recorded source families. Copy repetition and family deletion expose dependence on particular inputs. A separate literal-search tool retains passage identities and original-text offsets so matches can be read in context. The resulting account joins shared rule to material provision and continuing powers of challenge: national histories contribute to a common world while their participants retain standing to dispute both a decision and its account of who they are.
 
-# Creating a common world without possessing its participants {#sec:s1}
+# Common institutions, plural nations and persons who exceed their roles {#sec:s1}
 
-## Creating a system, releasing its participants: Los and the authority of the maker
+A shared language needs teachers, meeting places and decisions about resources. None of these needs settles who may speak for its speakers, whether one organization should receive every grant, or what happens when a member disputes its account of the tradition. The problem begins inside collective life: the institutions that sustain it can also monopolize its interpretation. Composition without capture names the task of making common institutions while preserving participants' power to challenge their terms. Blake brings this problem into view through makers whose creative work both shelters persons and subjects them to a system.
+
+## Creating a system; releasing people from its authority
 
 Los's declaration in *Jerusalem* makes collective order a problem of making: who creates its form, whose labor sustains it, and who can alter what it demands?
 
@@ -17,7 +19,7 @@ Q30. William Blake, Jerusalem 10:20–21, E153. [@blakeJerusalem].
 
 He is building Golgonooza through labor, conflict and the transformation of suffering. The declaration opposes enslavement, yet the surrounding scene refuses an easy identification of creation with freedom. Immediately before it, Los compels his Spectre to work; afterward he demands obedience and threatens greater torment. The Spectre invokes a sacrificial law against the children Los seeks to protect. As Los's divided power, the Spectre also makes this a struggle over the maker's pride and self-righteousness. Creation and domination occupy the same workshop [@blakeJerusalem, 8:21–40, E151; 10:17–40, E153].
 
-Stephen Clark asks whether the declaration emphasizes system or creation. Reviewing Birenbaum, he challenges a celebration of open process built from isolated doctrinal statements and urges attention to dramatic voices, language and historical setting [@clark1995Birenbaum, pp. 69–70]. White reads the refusal to reason and compare differently: it can mark a turn toward a priori rational construction, where a created system takes its coherence for truth. His defense of experienced particulars makes the line an objection to the emancipatory architect as well as a resource for one [@white2005Science, pp. 116–117]. These interpretations press the same political question without resolving the scene alike: what keeps a self-created order from becoming another person's enclosing system?
+The critical disagreement concerns what Los is doing when he creates. Stephen Clark's review of Birenbaum asks whether the emphasis falls on system or creation, but also challenges the procedure that converts a dramatic utterance into a doctrine of unrestricted creative freedom. Attention to speakers, narrative and historical setting can change the meaning of the declaration itself [@clark1995Birenbaum, pp. 69–70]. White makes a more specific and less reassuring proposal: Los's refusal to reason and compare rejects induction in favor of a priori rational construction. On that reading, creation may produce a coherent abstraction rather than knowledge responsive to experienced particulars [@white2005Science, pp. 116–117]. These positions cannot simply be combined into a celebration of openness. They make the next declaration decisive for this article: whatever kind of creation Los undertakes, its political significance must be assessed alongside his work of releasing individuals from systems. The maker's independence does not establish the freedom of those who live within the work.
 
 The next plate names the object of Los's continuing labor:
 
@@ -33,7 +35,7 @@ The frontispiece in [@fig:plate-J1] places a bearer and a lamp at a threshold. R
 
 ![Jerusalem frontispiece, copy I, plate 1. A clothed figure carries a radiant lamp through an arch. Read beside Los's system-making and deliverance in Q30–Q31, body, instrument and threshold make passage a situated activity. The complete impression supplies visual context; the cover places the article's relational labels beside the same full image. LOC, Rosenwald Collection, item 48038103, 2003 scan 1; posthumous impression, approximately 1832?.](../figures/plate-J1.jpg){#fig:plate-J1 height=3.5in}
 
-## Words, letters and national arts: composition begins with organized differences
+## National arts distribute powers to make, select and revise
 
 Blake's public address in *Jerusalem* describes the craft of a common form before the poem's visionary institutions unfold:
 
@@ -46,7 +48,7 @@ Blake's public address in *Jerusalem* describes the craft of a common form befor
 
 Q33. William Blake, Jerusalem 3, prose, E146. [@blakeJerusalem].
 
-The differences concern cadence, syllable and tone, not interchangeable units inside an already completed plan. Each mode acquires force through its placement among others. The phrase *“all are necessary to each other”* joins particularity to relation; it also retains the evaluative distinction between terrific, gentle and *“inferior”* parts. A political reconstruction must ask who assigns those places and who can dispute the ranking. Mellor's account of unequal creative agency makes that question unavoidable, while Viscomi's account of invention during execution prevents the organizer's initial design from becoming the last word [@mellor1982, pp. 148–153; @viscomi2012Invention, secs. II–IV].
+The differences concern cadence, syllable and tone. Their mutual necessity does not erase the hierarchy between *terrific*, *gentle* and *inferior* parts, or tell us who may dispute their placement. Viscomi adds a material complication: in illuminated printing, execution can generate invention. Blake makes decisions on the copper rather than simply transferring an already completed page design; further printing can become an occasion for further invention. Viscomi also explicitly rejects the inference that Blake originally invented the technique to overthrow conventional publishing [@viscomi2012Invention, sec. IV, paragraphs beginning “With no page designs” and “Illuminated printing evolved”]. The political extension therefore needs its own argument. An institution whose members only execute an authorized design distributes creative power differently from one in which their experience can change the design. Inclusion as a necessary part is insufficient if the right to originate or revise the whole remains elsewhere.
 
 Blake immediately gives artistic organization national stakes:
 
@@ -59,9 +61,11 @@ Blake immediately gives artistic organization national stakes:
 
 Q34. William Blake, Jerusalem 3, prose, E146. [@blakeJerusalem].
 
-A nation takes shape through practices of expression, making, memory and address. A governing organization can claim to protect that life while restricting who publishes, learns, makes or speaks in its name. Stefanis's analysis of the exhibition and catalogue shows how selection and presentation seek public authority; Matthews's reading of Jane Shore asks whose embodied life appears among the nation's exemplary figures [@stefanis2010Reasoned, concluding comparison; @matthews2010Gallery, notes 18–28, 42–49, 67]. The federal question concerns control over these conditions of cultural production as well as the distribution of seats. A language body that supports teaching and translation need not control its members' complete political voice. A common institution should make artistic and intellectual participation possible without requiring assent to one authorized national image.
+National arts depend on access to workshops, publication, education, exhibition and patronage. Their organization determines which makers become visible and which account of a nation's achievements acquires authority. Stefanis shows this process at work in Blake's 1809 exhibition. Blake selected his painterly work while omitting engravings, presenting a career suited to public commissions. His independence from established exhibition venues coexisted with an effort to obtain recognition and state support. Stefanis's comparison with the British Institution's Reynolds retrospective shows different agents using selection to shape public judgment [@stefanis2010Reasoned, paragraphs beginning “With his 1809 exhibition,” “Hence, with his exhibition” and “Despite their differences”]. An official national image is thus an achievement of organization, not a transparent expression of everyone it represents. The federal question concerns who can revise that image and obtain the resources to make another contribution. Supporting a language school need not authorize its governing body to speak for every speaker on every public question.
 
-## Persons exceed their states; national histories give common forms their particular life
+Matthews's reading of Jane Shore brings national representation back to the embodied life selected as exemplary. The question of who appears in a national image belongs beside the question of who controls its production [@matthews2010Gallery, notes 18-28, 42-49, 67]. Mellor and Ostriker press the distribution of creative agency within apparently inclusive forms. Symbolic membership has to be assessed alongside the power to originate a contribution, revise a role and refuse its assignment [@mellor1982, pp. 148-153; @ostriker1982, pp. 156-164].
+
+## Enduring persons, changing states and the value of national histories
 
 The central distinction appears in Milton's instruction on combination:
 
@@ -87,19 +91,17 @@ Q13. William Blake, The Marriage of Heaven and Hell, plate 7, E36. [@blakeMarria
 
 A language, friendship or public achievement need not last forever to matter. Its place among the Proverbs of Hell also prevents the line from becoming a freestanding approval of everything history produces. A shared school and a punitive register are both productions of time; they call for different judgments. The enduring availability of a state supplies no mandate to rule: Jerusalem makes the state Satan permanent and accursed so that Albion may rise from it [@blakeJerusalem, 31:13–16, E177–178]. Intelligibility, value and authority require separate arguments.
 
-The national question sharpens that separation. Fallon reads a situated homeland as a medium of imaginative cultivation that can open toward other nations, distinguishing regeneration from the Polypus's coercive aggregation. His explicit disagreement with Wright concerns whether loving union transforms relations or reproduces incorporation in a redemptive idiom. Clark's account of Jerusalem's nationalist artistic economy adds the question of who selects the national image [@fallon2015, submitted ms. pp. 10–12 and p. 12 n. 40; @clark2006, pp. 167–168]. A federation does not answer these objections by recognizing more names if one center still determines what their recognition means.
-
-Stefanis makes selection a material practice. Blake's 1809 exhibition and Descriptive Catalogue sought public authority through the choice, arrangement and explanation of works, while autonomy coexisted with a search for recognition and commissions. The artist's account of exclusion also meets the record of earlier Academy acceptances [@stefanis2010Reasoned, paras. beginning “With his 1809 exhibition” and “By the nineteenth century”; notes 10–15; concluding comparison]. A collective likewise presents itself through selected histories and exemplary members. The institutional question is who can contest the selection and introduce an experience the authorized image excludes.
+Fallon gives national attachment a positive role: a situated homeland can sustain imaginative cultivation and relations with other nations. His distinction between Jerusalem's growth and the Polypus's coercive aggregation also answers a particular rival reading. As Fallon reports it, Wright finds structural similarity between the bonds of love and the Polypus; Fallon argues that the poems distinguish their forms of growth even while making them dangerously confusable [@fallon2015, submitted ms. pp. 10–12, especially p. 12 n. 40]. This disagreement matters because an institution may describe assimilation as loving union. Recognition of several nations does not settle the objection if a single center still decides which forms of national life count as properly fulfilled. The proposal here values common histories while requiring their institutional interpreters to answer to participants who can dissent, remain differently affiliated, or propose another account of the common work.
 
 Mellor's objection concerns the agency distributed within the shared form. Inclusive fraternity and androgyny can preserve a division in which masculine creation directs feminine embodiment; Ostriker's partly inconsistent orientations prevent a single story of emancipation from settling the issue [@mellor1982, pp. 148–153; @ostriker1982, pp. 156–164]. Participation must include powers to originate, revise and refuse a form, alongside a place within it. The nation that includes everyone symbolically can still reserve those powers to a few.
 
-## From poetic distinction to public authority: affiliation, interpretation and competence
+## Belonging and interpretation leave authority to be justified
 
 Composition without capture names the political commitment developed here. Languages, memories, solidarities and shared achievements can sustain collective life without giving an organization an exhaustive claim over its participants. Nor does non-capture abolish binding decisions. A territorial body may tax residents for water infrastructure without claiming to embody their deepest identity; a cultural body may sustain a language without controlling every member's employment or conscience.
 
 Demoicracy supplies a structural comparator: peoples can govern jointly without merging into one people. Non-domination asks a further question about the power persons retain to make a challenge change what an authority may do [@nicolaidis2013, author ms. pp. 7–16; @pettit2005, pp. 8–14]. Passage also requires provision. After the pilgrim simile in Jerusalem, Los's sons clothe and feed the troubling Spectres and provide houses and gardens. Changing an affiliation cannot be reduced to changing a label when housing, livelihood and access to a hearing are at stake [@blakeJerusalem, 73:35–54, E228–229].
 
-The reconstruction therefore keeps three questions distinct: what people share, how a national formation interprets it, and which institution may impose a specified consequence. The typed model records these relations without making a person's standing depend on assignment to a poetic state.
+The reconstruction now separates three questions: what people share, how a national formation interprets that shared life, and what a particular institution may require them to do. Answers to the first two can inform the third without deciding it. A language association's claim to preserve a tradition does not by itself warrant control over a participant's employment or conscience. The model below makes this missing step explicit by holding affiliations and interpretations fixed while varying a claim of institutional competence. Its value is to identify the additional justification that a claim to rule still owes the people affected.
 
 \Needspace{11\baselineskip}
 
@@ -125,9 +127,9 @@ The many-to-many map in [@fig:typed-relations] displays this independence. Perso
 
 ![The same persons, national formations, poetic-state interpretations, affiliations A and interpretations I support two different competence relations: C is empty on the left and contains the institution–decision pair on the right. Solid affiliation and dashed interpretation links remain fixed. The separate red claim makes Proposition 1's countermodel visible; its warrant belongs to the institutional assessment.](../figures/typed-relations.png){#fig:typed-relations width=95%}
 
-# Changing states and enduring persons: reading Milton and Jerusalem together {#sec:s2}
+# Changing states and enduring persons across Milton and Jerusalem {#sec:s2}
 
-## Free combination and tyrannical aggregation
+## Freedom and coercion make different kinds of multitude
 
 Milton 32:10–38, E131–132, is the central textual anchor. The transcription calls it plate 32; the selected copy-D leaf is numbered 35, also cited as 32[35], added plate e. In this passage combinations of individuals can express free brotherhood or tyrannical aggregation. The distinction directs attention to how people are combined, not simply to whether combination occurs. A nation or federation does not become emancipatory merely by aggregating more participants.
 
@@ -153,12 +155,9 @@ The dimensions in line 18 do not themselves prove that measurement is tyrannical
 
 \Needspace{9\baselineskip}
 
-## Identities endure while states change
+## What endures when a state can change or be annihilated?
 
-The opening quotation Q03 separates changing states from enduring identities. Its immediate continuation turns to the status of imagination.
-
-
-The contrast is not eternal collective states against replaceable persons: individual identities also endure. An account that preserves every state while sacrificing inconvenient individuals would fail at its textual center. Identity's endurance does not mean that an official can certify a person's unchanging real nature. The distinction should restrain the classifier's authority, including that of a benevolent Blake interpreter.
+The Angels' instruction does more than distinguish an occupant from a condition. Its next move places imagination outside the category of states altogether. This limits any institution that claims to catalogue the complete imaginative possibilities of its members.
 
 \Needspace{10\baselineskip}
 
@@ -175,7 +174,7 @@ Q04. William Blake, Milton 32:32-38, E132. [@blakeMilton].
 
 ![Milton, copy D, leaf 35 (text M32). Individual identities, changing states and imagination occupy one designed sheet: the page holds together distinctions that a political translation must preserve. The typeset quotation follows the ASU transcription; this impression supplies the visual context. LOC, Rosenwald Collection, item 48031331; approximately 1815?.](../figures/plate-M32.jpg){#fig:plate-M32 height=3.8in}
 
-Blake assigns endurance to individual identities and Forms while describing states that change, are created, or are annihilated. The distinction between states and national formations must accommodate that difference. Here, an enduring state names a recurrent imaginative possibility; a nation names a historical formation through which such possibilities become articulate. Recurrence does not preserve the authority of a particular enactment. A national institution can lose its mandate while its history remains intelligible and its members retain their standing. Imagination exceeds this repertoire of interpretations, just as persons exceed an institution's account of them [@blakeMilton, 32:22–38, E132; @blakeJerusalem, plate 52, E200].
+The two poems put different pressures on the word *state*. *Milton* distinguishes changing states from enduring individual identities and calls reason a state created to be annihilated; *Jerusalem* calls spiritual states eternal and presents passage through permanent states. Treating every state as an immutable collective would suppress the first passage. Treating permanence as a political mandate would ignore the accursed state from which Albion must rise. The account of states as recurrent imaginative possibilities is a proposed way of reading these passages together, not a definition that removes their difficulty [@blakeMilton, 32:22–38, E132; @blakeJerusalem, 31:13–16, E177–178; plate 52, E200]. What the institutional argument takes from them is more specific: a person's present classification cannot exhaust that person, and preserving the intelligibility of a condition does not require preserving its power over whoever occupies it.
 
 
 ## Passage through permanent states
@@ -624,6 +623,10 @@ Compare three arrangements while holding a person's dependency on housing, work 
 
 A reviewer also needs justified competence, a standard, access to evidence, a workable timetable and means to make relief effective. Its funding, appointments, assumptions and accountability remain open to challenge. Protective review may be demanded by an excluded person and resisted as incorporation by a collective authority. The paper cannot pre-decide that conflict by calling either claim neutral. A jointly constituted forum is a candidate response whose warrant still has to be argued. Religious-arbitration proposals and treaty relationships cannot be assimilated into one class of voluntary associations.
 
+Review access belongs to a specified person before a specified consequence. Standing, remaining affiliated, usable preparation time, filing readiness and continuity of protection must be recorded separately. Shachar's mandatory review before enforceability shows how initiative can move away from a vulnerable claimant [@shachar2005, p. 76 and nn. 89–90]. In the accompanying fourteen-procedure comparison, one institutional decision retains its fifteen safeguards while a member and an affected nonmember encounter different review arrangements. Removing one support-enabled preparation hour defeats the nonmember's own access despite sufficient aggregate hours. Making protection wait for filing leaves two hours uncovered when the consequence precedes the filing window.
+
+A separately named forum records issuer separation; it does not establish the independence and impartiality Pettit assumes for appeals [@pettit2005, p. 9]. Suspension, advice and power to revise the act also differ. Tully makes the procedures and admissible reasons of recognition open to challenge, extending the question from an allocation to the forum's governing categories [@tully2006Recognition, pp. 25–27]. Read beside Los's fear of punishing the already injured and the provision at his porches, the comparison makes the work and timing of contestation visible [@blakeJerusalem, 45:33–35, E194; 73:49, E229]. It records individual access while leaving collective competence and the forum's own title separately warranted.
+
 
 \Needspace{11\baselineskip}
 
@@ -655,6 +658,74 @@ An exercise of public power requires publicly assessable competence, affected-pe
 An association may speak for a defined purpose without owning every member's voice. A jurisdiction may make a justified binding decision without representing every resident's identity. Non-exhaustion constrains the scope and warrant of representation; it cannot excuse unaccountable coercion by calling every institution merely partial.
 :::
 
+
+## Individual access before the consequence {#sec:individual-review}
+
+The provision at Los's porches is already quoted in Q23, *Jerusalem* 73:49, E229. The review question returns to that same source without adding a second quotation record.
+
+The recipients have not become an exemplary public whose disputes are over. Provision sustains people amid the feuds of Albion's cities; it accompanies the passage through states rather than rewarding a completed reconciliation. A procedure that recognizes the right to challenge a provider but lets food, housing or essential supply disappear during the challenge separates standing from the conditions needed to exercise it. Our review comparison makes that separation visible through preparation capacity and continuity of protection. Blake supplies the practical pressure on the question; the particular filing rules are our construction.
+
+Q38, already quoted above, supplies the paired question of misdirected punishment (*Jerusalem* 45:33–35, E194).
+
+Los sees injury but cannot identify an adequate target for vengeance. In its surrounding theological argument, the lament refuses the easy passage from recognizing suffering to authorizing punishment. A water authority that cuts supply to punish an association's officers can burden the residents whose deprivation occasioned review. Continuing provision, changing an allocation and sanctioning an official are different acts. A review record should identify the consequence being challenged, the people exposed to it and the duties that continue while the challenge is heard [@blakeJerusalem, 45:2–38, E194; 73:34–54, E228–229].
+
+Pettit's distinction between collective electoral control and plural contestation gives an institutional reason to record individual access. An affected person's appeal need not wait for a representative body to endorse the objection [@pettit2005, pp. 1–4, 9]. An association's place in a federal council therefore cannot substitute for a dissenting member's or affected nonmember's standing. Nor should remaining in an affiliation make a person ineligible to challenge what its authorities do. Shachar's reversal points allow recourse across authorities; her account of loyalty pressures explains why informed choice alone can leave a vulnerable member unable to use that recourse [@shachar2005, pp. 72–76]. The audit records whether a hearing requires affiliation exit. Residence, livelihood and protection against retaliation demand their own institutional commitments.
+
+## Initiative, independence and revision are different powers
+
+Shachar's arbitration example makes the burden of initiating review explicit. Mandatory scrutiny before an award becomes enforceable removes the requirement that a vulnerable party start the protective process [@shachar2005, p. 76 and nn. 89–90]. This is a different mechanism from merely telling the person where to complain. The comparison below distinguishes automatic protection from protection triggered by a feasible filing. Both name a provider and an interval. Their consequences differ when the threatened deprivation begins before the filing window opens.
+
+An office's separate identity also records less than independence. Pettit assumes independent and impartial appeals [@pettit2005, p. 9]. Distinct office identifiers do not establish independent appointments, budgets or evidence access. The audit calls this predicate **issuer separation**. It records a relationship that can be checked without treating a different name as evidence of impartiality. Similarly, suspension, advice and revision do different work. A forum that can suspend an act can interrupt its operation; a forum that can revise can change it. Shachar's power to overrule an inequitable aspect of an agreement supplies a concrete comparator for consequential review [@shachar2005, p. 77]. A claimant need not win for review to matter, but an advisory recommendation and a binding revision do not confer the same power.
+
+The disagreement about procedures goes deeper. Pettit's account presupposes admissible reasons through which decisions can be challenged; Tully opens the procedures and criteria of reasonable argument themselves to contestation [@pettit2005, pp. 8–9; @tully2006Recognition, pp. 25–27]. A forum might hear objections to a water allocation while refusing objections to the categories defining whose interests count. Revising that allocation, revising the classification rule and contesting the forum's competence are distinct questions. Tully's separation of dialogue from decision keeps other institutional routes available when negotiation leaves minorities exposed [@tully2006Recognition, p. 29]. Individual admission in the present audit supplies no mandate to determine a people's collective or treaty claim.
+
+## Fourteen procedures expose what a named forum leaves unspecified
+
+Review-time symbols are local to this subsection and the dedicated notation table. In particular, $P_i$ is an interim-protection interval rather than the person sort $P$; $G_i,U_i$ are gaps and hours rather than failure sets or eligible source units; and the Boolean $B$ labels differ from intervention bundles and $B_{\mathrm{match}}$.
+
+Filing at the closing instant is permitted. A response effective at the consequence instant acts first. Protection covers a half-open interval $[a,b)$: an end at the response instant covers the preceding wait. Readiness records completed prerequisites, not the start of preparation. Available and support-enabled hours are declared usable, nonoverlapping preparation time within the filing window; their sum cannot exceed its duration.
+
+::: {.definition #def:review-wait title="Uncovered waiting time"}
+For individual $i$, let the waiting interval be $[t_i^q,t_r)$ when $t_i^q<t_r$, and empty otherwise. Remove the active protection interval $P_i$ to obtain $G_i$. Its total duration is $U_i$:
+
+$$
+G_i=\begin{cases}[t_i^q,t_r)\setminus P_i,&t_i^q<t_r,\\\varnothing,&t_i^q\geq t_r,\end{cases}
+\qquad U_i=\sum_{[a,b)\in\operatorname{components}(G_i)}(b-a).
+$$ {#eq:review-wait}
+
+Automatic protection starts at its declared start. Filing-triggered protection can start only after admission, remaining affiliated, enough preparation hours and filing readiness all hold; its start is the later of the declared start and $t_i^f$. An expired interval does not activate. The timing condition is $B_i^{\mathrm{wait}}\equiv(U_i=0)$.
+:::
+
+\Needspace{10\baselineskip}
+
+::: {.definition #def:review-profile title="Seven declared review conditions"}
+Individual admission and remaining affiliated are declared separately. The hours condition is $h_i^a+h_i^s\geq h_i^r$; filing readiness is $t_i^f\leq t_c$. Together with the timing condition and the two procedure-level predicates, the profile is
+
+$$
+B_{\mathrm{review}}=B_{\mathrm{office}}\land B_{\mathrm{revise}}\land
+\bigwedge_i\left(B_i^{\mathrm{admit}}\land B_i^{\mathrm{remain}}\land B_i^{\mathrm{hours}}\land B_i^{\mathrm{file}}\land B_i^{\mathrm{wait}}\right).
+$$ {#eq:review-profile}
+
+The conjunction preserves each person's conditions. It does not add their preparation hours together or substitute association representation for individual admission.
+:::
+
+All fourteen procedures retain the same `E-bounded` institutional decision and its existing safeguard assessment. Each lists one member and one affected nonmember. The ordinary filing window is 2–8 h; the member has 6 usable preparation hours and needs 4, while the nonmember has 1 available plus 3 support-enabled hours and needs 4. The consequences begin at 18 h and 12 h respectively. H01 responds at 10 h. H02 removes one support-enabled hour from the nonmember: the two people still have 9 h against 8 h total requirements, but the nonmember's own requirement is unmet. H03 makes that person ready at 9 h, after closing.
+
+::: {.proposition #prop:review-underdetermined title="Completed safeguard fields do not determine review access"}
+The original institutional decision and its safeguard result do not determine the review-access profile in [@def:review-profile]. H01 and H04 preserve that decision exactly but differ in response timing; the former satisfies the timing condition and the latter fails it for both individuals. This pair is a constructive counterexample to deriving access from the original record alone.
+:::
+
+![The fourteen procedures keep the original E-bounded decision and its fifteen safeguard fields unchanged. Open circles mark a condition holding; red crosses identify a failed condition, with the first five columns requiring both listed individuals. H02 isolates person-specific capacity; H03 isolates readiness; H04, H06, H07 and H14 isolate uncovered waiting intervals. H08 and H09 distinguish admission from remaining affiliated. H10 has revision power but no issuer separation; H11 has separation and suspension power but cannot revise. H12 satisfies the seven declared conditions while retaining retaliation and disputed forum competence outside the audit. The marks are calculated from the stored procedure inputs, not assigned as institutional ratings.](../figures/institutional-review.png){#fig:review-matrix width=98%}
+
+\Needspace{8\baselineskip}
+
+For H04–H07 the response occurs at 20 h. Without protection the nonmember waits 8 uncovered hours and the member 2. Automatic protection over $[12,20)$ removes both gaps. Starting the nonmember's protection at 13 h or ending it at 19 h leaves a one-hour gap at a different end of the interval. H13 and H14 move filing to 14–18 h and reduce the member's declared capacity to fit that shorter window. Automatic protection can begin at 12 h in H13; filing-triggered protection starts at 14 h in H14. The nonmember consequently has two uncovered hours in H14, even though the filing and protection records are complete.
+
+![Seven selected traces follow the affected nonmember on one zero-based event-hour scale. The thin bracket is the filing window; the red vertical mark is the 12 h consequence; the open circle is the response; the elevated black band is active protection; and the red horizontal band is uncovered waiting time calculated by [@def:review-wait]. A response at 10 h precedes the consequence in H01. H04 leaves all eight hours uncovered, H05 covers the full interval, and H06/H07 leave an initial/final one-hour gap. H13 and H14 share the late filing window but differ in activation: automatic protection covers 12–14 h, whereas protection awaiting a feasible filing does not. Protection ending exactly at the response covers the wait under the declared half-open interval convention.](../figures/review-continuity.png){#fig:review-timeline width=98%}
+
+
+
+H12 satisfies all seven conditions while retaining retaliation and disputed forum competence as named unassessed issues. Investigation must establish that people can use the declared time and assistance, that protection continues, that revision binds the responsible actor and that people can contest the forum's own authority. The audit identifies these questions alongside the conditions it calculates.
 
 # Plural peoples, overlapping powers and the conditions of non-domination {#sec:s6}
 
@@ -980,6 +1051,14 @@ The decision record can follow a claim across this transition: who declares the 
 
 The reconstruction draws on earlier work connecting Blake, perception and methodological pluralism [@Friedman2026FourfoldVisionWilliamBlake196; @Friedman2026DoorsPerceptionAreThreshold007]. Its distinct task is institutional: to specify the relation between poetic states, historical nations and accountable decisions. The corpus tools supply passage provenance [@mappingCurrent], while the classification analysis supplies a method for following an entity across different institutional roles [@friedman2026law]. Models, executable evidence and justified ends retain separate functions [@friedman2026meta].
 
+## Shared retrieval and accountable reading decisions
+
+The public Blake repository now supplies the reusable passage schemas, copied-source custody, regex concordance, literal word-window search, descriptive statistics and offline search engine. This application retains the political questions, explicit variants, selected proximity pairs, institutional models and the argument. A parallel invertebrate application uses the same evidence and review infrastructure while retaining its own animal vocabulary and contextual categories. Their shared software makes the procedure inspectable; neither application's conclusions become properties of the corpus.
+
+The matching contracts remain distinct. The historical Federalism concordance and descriptive statistics retain regex whole-word matching, while literal proximity preserves exact punctuation and whitespace. A normalized category study can instead join tokens across punctuation. Original spans and named profiles expose these choices rather than hiding them under one search label. Recomputing the retained Federalism experiments through the shared implementation preserves their concordance, statistics, literal-study and proximity measurements. Current source bindings identify the new producer separately from those historical analytical results.
+
+The application also provides an authored evidence-review queue. Its immutable columns retain the candidate's passage, expression, source role and locator; separate decision fields identify a reviewer, rationale and verification locator. Textual support, counterreading, nonpolitical use and uncertainty are declared reading decisions. An omitted decision remains unreviewed. A pinned historical queue can receive a later review whose receipt names both producers. These controls improve the traceability of selection and disagreement. They do not make a reading binding on another person or supply the standing, protection and remedial powers required of institutional review.
+
 Version comparisons, related projects and proposed textual corrections are documented in the portfolio crosswalk. The article uses those materials as research context and develops its claims through the primary passages and political interlocutors examined here.
 
 # Corpus statistics: work balance, copy sensitivity and term relationships {#sec:s11}
@@ -1036,7 +1115,7 @@ Concentration is sharper for other vocabularies. Jerusalem supplies 380 of 418 e
 
 ![Every defined single-family deletion appears as a grey rug mark after that family's hits and tokens are removed; the red marker retains the complete primary collection. Numeric endpoints name omitted families and retain ties. The concentration column identifies the largest contributing family and its occurrences over the query total, alongside the share. The marks describe sensitivity within the recorded collection; the grey range is the extent of these deletions.](../figures/source-sensitivity.png){#fig:source-sensitivity width=98%}
 
-The opening sensitivity plot puts these comparisons on a common relative scale. Its reference value of one is the complete pooled rate; red points divide the equal-family rate by that baseline, and grey spans divide the extreme single-family-deletion rates by the same baseline. Particulars falls to about 0.142 of its pooled value under equal-family weighting, while imagination rises to about 2.140. Jerusalem supplies the most occurrences in all eight displayed groups, but the family whose deletion lowers a rate most need not be the family with the largest count: its token contribution also changes the denominator. The diagnostic records both identities and retains ties. This makes source concentration, weighting and deletion separate, inspectable choices.
+The opening word-count table begins with the numerator and denominator: 264 matches for *state* or *states* among 644,245 counted words give 4.10 matches per 10,000 words. The all-words calculation combines every match and word. Equal-family weighting first calculates the frequency inside each recorded family and averages those frequencies, retaining families with no matches. The distinction has a visible consequence: *particular* and *particulars* change from 1.366 to 0.194 per 10,000, while *imagination* changes from 2.033 to 4.351. The retained *Laocoön* family has eight imagination matches in 1,212 words, and *The Ghost of Abel* has eight in 1,438; their frequencies are 66.01 and 55.63 per 10,000. These short families receive the same weight as Jerusalem under the family average. Jerusalem supplies the most matches in all eight groups, but omitting a family changes both matches and words, so its deletion need not produce the lowest remaining frequency. Counts, source length and family weighting answer different questions.
 
 ## Repetition, bodily constraint and the making of eternal law
 

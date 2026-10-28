@@ -13,6 +13,7 @@ from typing import Annotated, Final
 import typer
 from pydantic import TypeAdapter
 
+from .cli_evidence_review import register_review_commands
 from .cli_proximity import proximity_study_command
 from .corpus import concordance, import_corpus, load_import
 from .corpus_statistics import analyze_corpus
@@ -43,6 +44,7 @@ DEFAULT_CORPUS: Final = Path("local_data/corpus/blake-v0.2.0-qualified")
 DEFAULT_CONCORDANCE: Final = Path("analysis_output/concordance-v0.3.0.json")
 
 app = typer.Typer(no_args_is_help=True)
+register_review_commands(app)
 _ = app.command("proximity-study")(proximity_study_command)
 
 

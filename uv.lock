@@ -33,10 +33,22 @@ wheels = [
 ]
 
 [[package]]
+name = "blake"
+version = "0.3.0"
+source = { git = "https://github.com/docxology/blake.git?rev=4dc75f71d28f83a9f92db9ca523fb38326ba95f6#4dc75f71d28f83a9f92db9ca523fb38326ba95f6" }
+dependencies = [
+    { name = "click" },
+    { name = "packaging" },
+    { name = "pydantic" },
+    { name = "typing-extensions" },
+]
+
+[[package]]
 name = "blakean-federalism"
-version = "0.14.0"
+version = "0.16.0"
 source = { editable = "." }
 dependencies = [
+    { name = "blake" },
     { name = "pydantic" },
     { name = "typer" },
     { name = "typing-extensions" },
@@ -62,6 +74,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "blake", git = "https://github.com/docxology/blake.git?rev=4dc75f71d28f83a9f92db9ca523fb38326ba95f6" },
     { name = "markdown-it-py", marker = "extra == 'manuscript'", specifier = ">=4,<5" },
     { name = "pillow", marker = "extra == 'manuscript'", specifier = ">=11,<14" },
     { name = "pydantic", specifier = ">=2.11,<3" },
@@ -236,6 +249,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/9d/8a/b618149cc5207943a0242068d7a27897f56a62947b5a039085f2a22029f8/charset_normalizer-3.5.2-cp37-abi3-win_amd64.whl", hash = "sha256:9f56f72050826f63dcee7a7f55b0a77168cb3bfc553fd405e7f8f9ece75a4036", size = 200092, upload-time = "2026-09-30T04:38:49.707Z" },
     { url = "https://files.pythonhosted.org/packages/03/cf/4c66866fa9e2b1c78e3c911516d1de497a677b7ac60f1eceda74ce777ca3/charset_normalizer-3.5.2-cp37-abi3-win_arm64.whl", hash = "sha256:40ab6bffa02ae10a0581e6c198be7d2d8ca5c2a0c64e4ed3465d766df457573e", size = 294363, upload-time = "2026-09-30T04:38:51.312Z" },
     { url = "https://files.pythonhosted.org/packages/fc/ad/d07d7862a62ffa6d79d68074d14823243dd235a77c45262acbf6adeb28bf/charset_normalizer-3.5.2-py3-none-any.whl", hash = "sha256:b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685", size = 68872, upload-time = "2026-09-30T04:39:21.828Z" },
+]
+
+[[package]]
+name = "click"
+version = "8.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz", hash = "sha256:ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34", size = 382235, upload-time = "2026-08-26T13:33:14.56Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl", hash = "sha256:255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360", size = 125251, upload-time = "2026-08-26T13:33:12.928Z" },
 ]
 
 [[package]]

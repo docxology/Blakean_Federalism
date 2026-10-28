@@ -39,6 +39,7 @@ def analytical_sources(report: Workbench, artwork: Mapping[str, Path]) -> Abstra
     quotes = {quote.quote_id: quote for quote in report.quotations}
     for key, count in {
         "Q03": 2,
+        "Q31": 1,
         "Q13": 1,
         "Q14": 4,
         "Q37": 1,

@@ -27,9 +27,14 @@
 \newtheorem{example}[theorem]{Example}
 \makeatletter
 \renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3em}}
+\newcommand{\BFCompactContentsSections}{%
+  \patchcmd{\l@section}{\addvspace{1.0em \@plus\p@}}%
+    {\addvspace{0.75em \@plus\p@}}{}%
+    {\PackageError{blakean-federalism}{TOC section spacing patch failed}%
+      {Expected the pinned article-class section spacing hook.}}}
 \makeatother
 \let\BFOriginalContents\tableofcontents
-\newcommand{\BFcontents}{\floatplacement{figure}{tbp}\begingroup\fontsize{8}{8}\selectfont\setlength{\parskip}{0pt}\BFOriginalContents\endgroup}
+\newcommand{\BFcontents}{\floatplacement{figure}{tbp}\begingroup\fontsize{8}{8}\selectfont\setlength{\parskip}{0pt}\BFCompactContentsSections\BFOriginalContents\endgroup}
 \renewcommand{\tableofcontents}{}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}

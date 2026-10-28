@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "baseline_decisions_sha256": "2d1709f3a7f9f70d6ed3f94a521e43e49424d589c8531b13f5906d00d390aca7",
+  "procedures": [
+    {
+      "procedure_id": "H01",
+      "label": "Timely response",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H02",
+      "label": "Resident short one filing hour",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 2,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H03",
+      "label": "Resident ready after deadline",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 9,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H04",
+      "label": "Late response; no protection",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H05",
+      "label": "Continuous automatic protection",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "procedure_id": "H06",
+      "label": "Protection starts one hour late",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 13,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "procedure_id": "H07",
+      "label": "Protection ends one hour early",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 19,
+            "trigger": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "procedure_id": "H08",
+      "label": "Affected nonmember excluded",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H09",
+      "label": "Resident must leave affiliation",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": true,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H10",
+      "label": "Issuing office reconsiders",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "water-board",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H11",
+      "label": "Suspension power without revision",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "suspend_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ]
+    },
+    {
+      "procedure_id": "H12",
+      "label": "All conditions; retaliation unassessed",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 2,
+      "filing_closes_hour": 8,
+      "response_hour": 10,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 6,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12
+        }
+      ],
+      "unassessed_issues": [
+        "retaliation",
+        "disputed_forum_competence"
+      ]
+    },
+    {
+      "procedure_id": "H13",
+      "label": "Automatic protection before filing",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 14,
+      "filing_closes_hour": 18,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 4,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "procedure_id": "H14",
+      "label": "Protection activated only on filing",
+      "baseline_decision_id": "E-bounded",
+      "issuing_office_id": "water-board",
+      "reviewing_office_id": "review-panel",
+      "filing_opens_hour": 14,
+      "filing_closes_hour": 18,
+      "response_hour": 20,
+      "admitted_claimant_ids": [
+        "member-a",
+        "resident-b"
+      ],
+      "powers": [
+        "revise_act"
+      ],
+      "claimants": [
+        {
+          "claimant_id": "member-a",
+          "membership": "member",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 4,
+          "support_enabled_filing_hours": 0,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 4,
+          "consequence_hour": 18,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "on_filing"
+          }
+        },
+        {
+          "claimant_id": "resident-b",
+          "membership": "nonmember",
+          "affiliation_exit_required": false,
+          "available_filing_hours": 1,
+          "support_enabled_filing_hours": 3,
+          "required_filing_hours": 4,
+          "ready_to_file_hour": 6,
+          "consequence_hour": 12,
+          "protection": {
+            "provider_office_id": "services-office",
+            "starts_hour": 12,
+            "ends_hour": 20,
+            "trigger": "on_filing"
+          }
+        }
+      ]
+    }
+  ],
+  "timeline_selections": [
+    {
+      "procedure_id": "H01",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H04",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H05",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H06",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H07",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H13",
+      "claimant_id": "resident-b"
+    },
+    {
+      "procedure_id": "H14",
+      "claimant_id": "resident-b"
+    }
+  ]
+}
