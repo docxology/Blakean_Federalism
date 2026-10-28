@@ -55,3 +55,7 @@ in integer hours from notice, with the event-order conventions stated in
 | $B_i^{\mathrm{admit}},B_i^{\mathrm{remain}},B_i^{\mathrm{hours}},B_i^{\mathrm{file}},B_i^{\mathrm{wait}}$ | The five individual Boolean conditions in document order |
 | $B_{\mathrm{office}},B_{\mathrm{revise}}$ | Procedure has distinct issuing/reviewing office IDs; procedure can revise the act |
 | $B_{\mathrm{review}}$ | Conjunction of the seven declared conditions for every listed individual |
+| $h,k$; $\mathcal R_h$ | Compared procedure indices and one residual profile, with fixed people and duties. [@def:review-requirements] |
+| $F_h^J,F_{hi}$ | Unmet forum requirements and person-indexed access requirements; finite categorical sets |
+| $d_{hi},\ell_{hi},G_{hi}$ | Nonnegative preparation shortfall and readiness lateness in hours; exact uncovered time set for person $i$ in procedure $h$ |
+| $\preceq$ | Product of requirement-set inclusion, deficit order and exact-gap inclusion; partial order on residual profiles, preorder on procedures. [@prop:review-order] |

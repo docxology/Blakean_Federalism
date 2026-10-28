@@ -2,6 +2,9 @@
 
 ## 0.16.0 — shared methods and authored evidence review
 
+- Add exact person-indexed residual comparisons, a partial order with explicit incomparability, new figures and manuscript integration.
+- Pin the revised shared SDK, qualify noneditable installed execution, and retain a fresh native edition separately from historical analysis and review.
+
 - Move generic source custody, schemas, search, statistics, proximity and offline
   rendering into public Blake; retain political selections and interpretation.
 - Preserve byte-identical replay of the four historical analytical JSON outputs.

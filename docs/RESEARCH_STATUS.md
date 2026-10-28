@@ -1,6 +1,14 @@
 # Research status
 
-## Current staged qualification: 0.16.0
+## Current advancement: procedural comparison and shared SDK
+
+The current source adds person-indexed residual comparisons, exact uncovered-interval requirements, two data-derived figures and private authoring conventions. The public SDK is pinned to `21b1c002ef7588b9c908fb60fd6111c4eb548358`. A fresh locked noneditable installation passed 655 tests; application/tool statement-and-branch coverage is 92.30% / 70.72%. Strict typing, Ruff, formatting and dependency compatibility pass. All four historical analytical files replay byte-for-byte.
+
+The fresh native artifact is `analysis_output/publication/advancement-20261028-02`: 72 PDF pages, 21 formalisms, 14 equations, 30 numbered body/plate figures and 60 cited references. All 40 selected quotation records pass content checks. Physical-page overview and selected enlarged details are root manual QA; independent final review and browser behavior have separate scopes. Bibliography-only serialization corrections received focused consumer tests and a fresh warning-free native render.
+
+See `research/advancement-20261028.json` for exact outputs and bounds. The earlier shared-methods/native qualification below and its source maps remain historical. No earlier analytical epoch, decision or reading credit is repinned.
+
+## Historical shared-methods qualification: 0.16.0 (stage05)
 
 The shared-methods and person-specific review integration has 620 passing staged
 source tests. Separately aggregated statement-and-branch coverage is 92.4346% for

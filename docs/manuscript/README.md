@@ -1,5 +1,17 @@
 # Rebuild the private manuscript
 
+Current native edition: `analysis_output/publication/advancement-20261028-02`. The 72-page PDF and its HTML use the exact SDK pin `21b1c002ef7588b9c908fb60fd6111c4eb548358`. See `research/advancement-20261028.json` for installation, source, replay, content and root page-QA scopes. The earlier 69-page/stage05 qualification notes below refer to the preserved historical edition.
+
+The procedural-comparison candidate integrates two additional generated figures,
+one definition, one proposition and one equation in the main argument. Preparation
+now retains `review-comparison/` with JSON/CSV/receipt and supplies caption
+variables for the requirement and comparison figures. Its private source/reading
+guide is `docs/style-guide.md`; selected primary rereading is recorded in
+`research/procedural-comparison-reading-20261028.json`. Historical counts and
+69-page QA below describe the prior native output. The candidate needs a fresh
+native render and physical-page QA before any new page count or rendered pass
+can be claimed.
+
 Version 0.16.0 uses the actual PDF and HTML rendering infrastructure from a clean, commit-pinned checkout of [docxology/template](https://github.com/docxology/template). The pin, writer identities and citation profile are recorded in `research/template-rendering.json`. The canonical authoring files are `states-change.md`, `references-and-rights.md`, `references.bib`, `config.yaml` and `preamble.md`.
 
 The project uses its external Python 3.11 environment for preparation and verification. The pinned template uses a separately supplied compatible external Python environment. Verify both `sys.prefix` and `sys.base_prefix` for each environment, the mounted GitVault volume, external TMPDIR/cache bindings and the supported repository admission before execution. Dependencies include Pandoc, compatible pandoc-crossref, XeLaTeX, BibTeX and Poppler. Install the optional manuscript dependencies explicitly when provisioning; do not replace an active environment implicitly.

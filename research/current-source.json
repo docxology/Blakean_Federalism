@@ -1,62 +1,33 @@
 {
-  "schema_version": 18,
+  "schema_version": 19,
   "current_version": "0.16.0",
-  "qualification_epoch": "shared-methods-domain-0.16-stage05",
-  "historical_sources": [
-    "research/history/current-source-0.1.0.json",
-    "research/history/current-source-0.2.0.json",
-    "research/history/current-source-0.3.0.json",
-    "research/history/current-source-0.4.0.json",
-    "research/history/current-source-0.4.1.json",
-    "research/history/current-source-0.5.0.json",
-    "research/history/current-source-0.6.0.json",
-    "research/history/current-source-0.7.0.json",
-    "research/history/current-source-0.8.0.json",
-    "research/history/current-source-0.9.0.json",
-    "research/history/current-source-0.10.0.json",
-    "research/history/current-source-0.11.0-illuminated.json",
-    "research/history/current-source-federated-preimage.json",
-    "research/history/current-source-close-reading-preimage.json",
-    "research/history/current-source-abstract-preimage.json",
-    "research/history/current-source-clear-opening-preimage.json",
-    "research/history/shared-methods-0.16-preimage/current-source.json"
-  ],
-  "historical_preimages": {
-    "current-source.json": {
-      "path": "research/history/shared-methods-0.16-preimage/current-source.json",
-      "sha256": "3d7dedf5a6fc62b07c96d5660861f18cadcced06f2d9496aa9a79d2dfbeebb1a"
-    },
-    "verification.json": {
-      "path": "research/history/shared-methods-0.16-preimage/verification.json",
-      "sha256": "f8392a9075937ac322e65111b8972425607e8769ec80f55b78d5b6ec8b2c85cf"
-    }
-  },
-  "retained_analytical_receipts": {
-    "research/analysis-run-0.3.0.json": "b3a3dfd7b13d6895a175a78a0b08a8cd7601531819ee839f4cdccc4b3c0800fc",
-    "research/search-study-0.8.0.json": "e68405e40d0a611e47f0fb3186b4ccb4d4804ae8415607ac25f615a325cc536f",
-    "research/proximity-study-0.10.0.json": "16d9f1762cd0b30915bfbfda92261d10f219743394446f608a70a3f32ad03ac6",
-    "research/abstract-analysis-0.14.0.json": "43cc55c912449794ebd4d7c82857df4d2d8a7c73aad8780e023b957e051a8cd5",
-    "research/corpus-pin.json": "86d3f807f7258c9e29a5e498379495445faaecb3c06b9ff12720efea90dc6e98"
-  },
-  "analytical_epoch_policy": "New source and native qualification never replaces the original concordance, literal/proximity, abstract-analysis or corpus producer identities.",
+  "qualification_epoch": "advancement-20261028-02",
+  "receipt": "research/advancement-20261028.json",
+  "receipt_sha256": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
   "current_source_bindings": {
-    "README.md": "6288feb0180a28bbb741a9951da6e229e7ebf33b91eb9594beb472526b45961f",
-    "docs/RESEARCH_STATUS.md": "f12778efa97a828d7b26d90278b443811a5869d3d841d5e1bed5a0649349fd12",
-    "docs/manuscript/README.md": "b3a752c8111c785ad0cb1a30e7c8322d6dac22850e6dfc33cf10d8462a08983f",
+    "CHANGELOG.md": "c898dcba6362603165bbf15cdf79ab0dac38b444eaf23fe5cd6e9e4be77b57e1",
+    "README.md": "20c9b4b7c4e381a7e1d6e4bfaac38c4f123dc04bc00b078d931e0fe29ba356bb",
+    "docs/RESEARCH_STATUS.md": "0db5c2ec3d124370d923367efdd4d2e4c0ae61c02cc222e45cfd1219a20dadb5",
+    "docs/manuscript/README.md": "405aac92dffe9f03235c21ead98bd9e17eefa0b2fa3a3d94774d59f0c401d5b9",
     "docs/manuscript/config.yaml": "ea1762ea4933d1dfc0383eaeeaf886e19266422c786d52e6de5dfdfa6e1320d3",
     "docs/manuscript/institutional-review-insertion.md": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
     "docs/manuscript/institutional-review-supplement.md": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
-    "docs/manuscript/notation.md": "252337dd541cb7ab5b7b77c1bf35f873295501edfbfd36f6319bd349119a27fd",
+    "docs/manuscript/notation.md": "f786401eaa8b4fec7704f8762448d5597276da4c3198c536f4f50b71333241db",
     "docs/manuscript/preamble.md": "604fc9682663c61339a085620edef8fa24f8f7c6da958fb6bc5ffdec3b97cd6c",
     "docs/manuscript/references-and-rights.md": "741da1cb59a16e9ae4895191aef33f2e68763d46cf6b184cb85a35aef3f6b1ad",
-    "docs/manuscript/references.bib": "2dd476c440cc38908a53426c35abf267d5b90a8aa50958541855b38e900461ca",
-    "docs/manuscript/states-change.md": "56575f45f908323cdd899db013e372584c68f1cb882605510fd3d52d68864e9b",
+    "docs/manuscript/references.bib": "909c6f2f84351b0bcee011950f0db3b3486d0c5252dc4c3d73cb1420caf025d0",
+    "docs/manuscript/states-change.md": "eaa8e397eb55a8e4ab42033383575e911f76c258f8cdc1cdfe52aa0b8466458b",
     "docs/research/institutional-review.md": "820ee059bc8daf386240b24c89ed7e9bd275c70551a46072cd3077df2f1fccf4",
-    "pyproject.toml": "a7febdeb30642d1e15150fa96765020e262052a6507252620f99547d237b0c84",
+    "docs/research/procedural-comparison.md": "03297b44e62cbdac30aebbcc7bee04d04992ab77532a7ed568b3fbd99daece5d",
+    "docs/style-guide.md": "31e5238e9f41399860feff5beb11a5c235a749ee3af456ef42f56461ab809b78",
+    "pyproject.toml": "d3410977dc4fc678ad577484487372b74c454e6c4264070df102ae55b565e67f",
+    "research/advancement-20261028.json": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
     "research/cases.json": "2d1709f3a7f9f70d6ed3f94a521e43e49424d589c8531b13f5906d00d390aca7",
-    "research/citation-catalog.json": "4406565f943904a793588d68319faf5b59fa12219aedf4589d35d366877f265f",
+    "research/citation-catalog.json": "2181228d2699135bfcc5d3e2d42ce84e91ffdc8a743dd3fddde99f5336202b21",
+    "research/installation-shared-methods-0.16.0.json": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7",
     "research/institutional-review-cases.json": "c93fb812970dc57f924c58202dfe5abbf9d0c68ccbecfabbbb6c3833e4076f97",
     "research/manuscript-inputs.json": "af71db984418215672e5b7f2b15868d4a19928e34793b673c450865964799bf2",
+    "research/procedural-comparison-reading-20261028.json": "5e048da6f972dae367949a816e5e2da42d9d2cc821528277c91ebc1155776eb4",
     "research/proximity-study-0.10.0.json": "16d9f1762cd0b30915bfbfda92261d10f219743394446f608a70a3f32ad03ac6",
     "research/search-study-0.8.0.json": "e68405e40d0a611e47f0fb3186b4ccb4d4804ae8415607ac25f615a325cc536f",
     "research/template-rendering.json": "90ee2d4a42d146b13ac98ea747d0989d96f5744590242e0c0e744dc8d9244ad8",
@@ -71,9 +42,11 @@
     "src/blakean_federalism/abstract_results.py": "83ea374e83a5c2cc6dd9a980d6e8d63642d3b25f6c0596af6e47d7c2cd695161",
     "src/blakean_federalism/analysis_figures.py": "c262bf3c0d85bcdb36f70b1d07d32eb012b12edd43aec50fa1cd1b84d66d04bc",
     "src/blakean_federalism/analytical_abstracts.py": "5ffcc7413c9bd9e6d76870756634bf674eb72879dab1c446b20c8ab01c300b3c",
-    "src/blakean_federalism/cli.py": "936302b1fc8fb68ab23947b647ef4f704d4fb0786d091de09e7ea5738fc808c2",
+    "src/blakean_federalism/cli.py": "7b86791c8110b0a5b656b26d8cac11735220799535aaba02fe1552fab242d8a3",
     "src/blakean_federalism/cli_evidence_review.py": "4592a26483a84ecc2af9c776d20c88cf2aec1acecb1670673190ee229692e05b",
     "src/blakean_federalism/cli_proximity.py": "c8ef2ad5caadd35d123488f3aadcc2bb8ab0f66998a03574e713ced9a665868c",
+    "src/blakean_federalism/cli_review_comparison.py": "dca83b2acb33a380f7aeb256a0584a1b1f87385899906318ddc6f6eb63f5d489",
+    "src/blakean_federalism/comparison_publication.py": "2ae3fb806897e4643650d9a23ad351b60867f831c88a8e2584184ed4ca5bb277",
     "src/blakean_federalism/corpus.py": "770f00834e92d25b0ea5273bff78499561e00c2c86867426e2ff26260ec59f75",
     "src/blakean_federalism/corpus_statistics.py": "39384e6be9303ed40ae20d5e27f167e1b5a7148fdba53a3bcaf5500560185852",
     "src/blakean_federalism/corpus_statistics_models.py": "e94306c01b2eb3704f8040ed2f6545f1dd8c4bec54ccfffc55c5e56ae6766431",
@@ -96,7 +69,7 @@
     "src/blakean_federalism/observations.py": "ad1079c04a1dd154d86a8e80412b6c2c32fa1d354f90299959f70165af03c80c",
     "src/blakean_federalism/proximity_figure.py": "c784f4d090650ee5c4c6bf94884aa31bce3ae9c6c79da238498923bd2fac26ec",
     "src/blakean_federalism/proximity_study.py": "58ff149d828f3056a3f1cd2a4388e0a0de8cb29c60b7b603238b01d16b1877eb",
-    "src/blakean_federalism/publication.py": "46b360aebe465b2e1f0a8633049e17cb82a5eb7931b37f7b03a45610275064c2",
+    "src/blakean_federalism/publication.py": "90a04967c2bd2a09b51c1a711bcbe7461cca563d8a06473ca3afec7f75e7503d",
     "src/blakean_federalism/publication_abstracts.py": "1e859219b843cf339f702043976c1ea0b8c701c1a5deda77252f550c6408c716",
     "src/blakean_federalism/publication_body.py": "0b0cf43ca179fb4227aeef86bca0209d4aa31687141ce57c1df04793c493358a",
     "src/blakean_federalism/publication_contract.py": "8776acf11a8af7d1d1ea733b3dbbead9185a1ebf318d015f8e38d13dacef1d3f",
@@ -119,6 +92,10 @@
     "src/blakean_federalism/resources/workbench.css": "02ff56676826f0bf2c06ca8e29fbd4f6ced73aeae15124b8b9e9f2d1adc1a005",
     "src/blakean_federalism/resources/workbench.html": "22ebea90038773f0ba602ebc815b6957fab975b9638c17801216a7b07e3b6afa",
     "src/blakean_federalism/resources/workbench.js": "f58e94d7e59c6a011217275d314f4d91c84c660aa48e13e3f14c656459d671f0",
+    "src/blakean_federalism/review_comparison.py": "27e54512987b3a355326ae6935a3dabaa9fccb37646bdff3d3544c955c6e4d53",
+    "src/blakean_federalism/review_comparison_figure.py": "e9ea9cee4786f0328309101d0dee164dcd8592679838e7bd3ccdcf2accc924bb",
+    "src/blakean_federalism/review_comparison_run.py": "ec0bb1a44819c857707fa830b9b4c1ababe736cc98dc4b5d394d7a440972d2d2",
+    "src/blakean_federalism/review_inputs.py": "63f5ede16160d9b0b195d3badf930d70de2bfc4696e41949edc82efc8a78dc08",
     "src/blakean_federalism/review_publication.py": "b339b5200924ca36027d98da0ff7d5caa4f997ab005b357075b8bcb393d0c7b4",
     "src/blakean_federalism/search.py": "728aa7cdff189a2cab14856c58801037796a3c6ba9ccfef0b20a4783c54da1af",
     "src/blakean_federalism/search_figure.py": "012fd3c83656f95a35e36bdc81b43ecd0287c81e6b6f27b5f6daa984532467df",
@@ -159,223 +136,82 @@
     "tests/test_workbench.py": "eb43f8df05881665b5e8ccecafb1ee5bb38be61ac65a0c7eb267364759c9b1b4",
     "tools/__init__.py": "a5cbf899d80365b8d950f9dd7cdc605c932cea33238fd93ed34533904860a49b",
     "tools/acquire_manuscript.py": "3479b913b7b4708bfad954847bfe1816d1635225bdf9054082fc34ecf2efcd11",
-    "tools/audit_institutional_review.py": "a221ce90303e133b78dcb6ad603a26f6b14616601131681ad5e21d1ec84b2611",
+    "tools/audit_institutional_review.py": "dcc8aeecdc93e8f7cfc4778971e856267bf4276ab739b42be0f03ebe558f25c1",
     "tools/render_manuscript.py": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
     "tools/template_render.py": "f52aaa687fbe7046da13fad6970d004a10a29ea7497a271bea9c62bea964f8d7",
-    "uv.lock": "4050675e5a5cf812145f924a1bda1a321e579a2997840f4babdafed478244f17",
-    "research/installation-shared-methods-0.16.0.json": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7"
+    "uv.lock": "565b3905e112c3520be0259f1e6ba2f4cca9462405d5ec932f46048ccb85be78"
   },
-  "source_binding_scope": "Current private package code/resources, tests/tools, all native prepared inputs, packaging/lock and current documentation; excludes output/local_data and the three mutable metadata indexes listed below.",
-  "source_binding_exclusions": [
-    "research/current-source.json",
-    "research/rendered-review-0.16.0.json",
-    "research/verification.json"
+  "sdk_commit": "21b1c002ef7588b9c908fb60fd6111c4eb548358",
+  "uv_lock_sha256": "565b3905e112c3520be0259f1e6ba2f4cca9462405d5ec932f46048ccb85be78",
+  "native": {
+    "artifact_root": "analysis_output/publication/advancement-20261028-02",
+    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+    "template_source_unchanged": true,
+    "counts": {
+      "pdf_pages": 72,
+      "selected_quotation_records": 40,
+      "formalisms": 21,
+      "equations": 14,
+      "numbered_figures": 30,
+      "cited_bibliography_keys": 60,
+      "prepared_figure_files": 54
+    },
+    "outputs": {
+      "output/pdf/blakean_federalism_combined.pdf": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d",
+      "output/web/index.html": "c81c28697da7c53f46c5925277b607801062244077e9e88e2ab27604ed8186f8"
+    },
+    "native_receipt_sha256": "f9c41ded44ec302d80ca02f33bdb407cfb5c615c1710f870f414c4b7be2f0935",
+    "content_receipt_sha256": "0bfde810c04f0dfc4212b5997e208a0aa27d67bd4ac9121dbe4c013a7f822b5b",
+    "bibtex_warnings": 0
+  },
+  "historical_sources": [
+    "research/history/current-source-0.1.0.json",
+    "research/history/current-source-0.2.0.json",
+    "research/history/current-source-0.3.0.json",
+    "research/history/current-source-0.4.0.json",
+    "research/history/current-source-0.4.1.json",
+    "research/history/current-source-0.5.0.json",
+    "research/history/current-source-0.6.0.json",
+    "research/history/current-source-0.7.0.json",
+    "research/history/current-source-0.8.0.json",
+    "research/history/current-source-0.9.0.json",
+    "research/history/current-source-0.10.0.json",
+    "research/history/current-source-0.11.0-illuminated.json",
+    "research/history/current-source-federated-preimage.json",
+    "research/history/current-source-close-reading-preimage.json",
+    "research/history/current-source-abstract-preimage.json",
+    "research/history/current-source-clear-opening-preimage.json",
+    "research/history/shared-methods-0.16-preimage/current-source.json",
+    "research/history/advancement-20261028-preimage/research/current-source.json"
   ],
-  "hash_cycle_policy": "Metadata indexes are not self-hashed or mutually hashed; evidence and preserved preimages have explicit hashes. Future installed receipts use a new file and pointer.",
-  "tests": 620,
-  "coverage_percent": {
-    "application": 92.43455497382199,
-    "infrastructure": 65.92082616179002
-  },
-  "coverage_basis": "Covered statements plus covered branches divided by total statements plus branches, separately aggregated for application and tools.",
-  "coverage_details": {
-    "application": {
-      "covered_lines": 2946,
-      "num_statements": 3164,
-      "covered_branches": 585,
-      "num_branches": 656,
-      "line_percent": 93.10998735777497,
-      "branch_aware_percent": 92.43455497382199,
-      "floor_percent": 90
-    },
-    "infrastructure": {
-      "covered_lines": 304,
-      "num_statements": 449,
-      "covered_branches": 79,
-      "num_branches": 132,
-      "line_percent": 67.70601336302896,
-      "branch_aware_percent": 65.92082616179002,
-      "floor_percent": 60
-    }
-  },
-  "qualification_artifacts": {
-    "tests": {
-      "path": "logs/federalism-full-final-v1.log",
-      "sha256": "ba84353691bbbfb25f9975ea4854638b1e4bd1e00e27481bc221fab232ab52b9"
-    },
-    "coverage": {
-      "path": "logs/federalism-final-coverage.json",
-      "sha256": "c678688849297a07e9d1641183ced1d1d01e8f90aebc93d1509ba50cfcc97b0c"
-    },
-    "lock_resolution": {
-      "path": "logs/federalism-git-lock.log",
-      "sha256": "23a05dfb7f4f27140df3b9861935521f710dbca91fe7300acb55dd98404c8075"
-    },
-    "public_commit": {
-      "path": "coordination/public-next-commit.json",
-      "sha256": "00a0082ec4fac7d2a4d492f4a032c0d1e3624ca0652247d5c4054f4c4eb56f01"
-    },
-    "public_candidate": {
-      "path": "coordination/public-admission-next.json",
-      "sha256": "a0d5d182433767e731a7e667da4e0af59c4a8cff00dbac9f40ff2324fb1fd418"
-    },
-    "prepared": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/prepared-publication.json",
-      "sha256": "22f8f0477b4c7431e689603ceac988690787e13c068d7384c52899710e2adeb6"
-    },
-    "native": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/native-render-receipt.json",
-      "sha256": "aec50a7fc5158118a96fa089fa5e182ac86fae25c68c82ed04f6947c5937e39a"
-    },
-    "native_content": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/rendered-content-verification.json",
-      "sha256": "f6df377a6b69b52876fe2afe4bc39fa8ea2da3acfb95ae73bbea25b42b49bccb"
-    },
-    "independent_qa": {
-      "path": "coordination/federalism-paper-qa/federalism-paper-manual-qa.md",
-      "sha256": "d3e1f51cdd34cd6f35d43d600e38c115e97ce7e9e27e4444ea0b829ac746eb44"
-    },
-    "qa_artifacts": {
-      "path": "coordination/federalism-paper-qa/artifact-manifest.json",
-      "sha256": "a61ce4d1dcd9982514926ef3945fff97416ab8ba7c9153cb39b59285354e9947"
-    },
-    "qa_arithmetic_html": {
-      "path": "coordination/federalism-paper-qa/shared-methods-domain-0.16-05-data-html.json",
-      "sha256": "72390b6be50cd7efaab547c19f5382543c919c38142375a7e66321f6e3e2622b"
-    }
-  },
-  "dependency": {
-    "repository": "https://github.com/docxology/blake.git",
-    "commit": "4dc75f71d28f83a9f92db9ca523fb38326ba95f6",
-    "public_pull_request": "https://github.com/docxology/blake/pull/3",
-    "verified_candidate_paths": 48,
-    "locked_packages": 34,
-    "fresh_locked_install": {
-      "status": "passed",
-      "receipt": "research/installation-shared-methods-0.16.0.json",
-      "sha256": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7",
-      "scope": "Separate fresh exact-Git installation and real executable replay; the earlier native renderer environment and visual review are not relabelled as a fresh native rendering."
-    }
-  },
-  "native_template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
-  "native_render_receipt_sha256": "aec50a7fc5158118a96fa089fa5e182ac86fae25c68c82ed04f6947c5937e39a",
-  "native_prepared_inputs": {
-    "docs/manuscript/states-change.md": "56575f45f908323cdd899db013e372584c68f1cb882605510fd3d52d68864e9b",
-    "docs/manuscript/references-and-rights.md": "741da1cb59a16e9ae4895191aef33f2e68763d46cf6b184cb85a35aef3f6b1ad",
-    "docs/manuscript/references.bib": "2dd476c440cc38908a53426c35abf267d5b90a8aa50958541855b38e900461ca",
-    "docs/manuscript/config.yaml": "ea1762ea4933d1dfc0383eaeeaf886e19266422c786d52e6de5dfdfa6e1320d3",
-    "docs/manuscript/preamble.md": "604fc9682663c61339a085620edef8fa24f8f7c6da958fb6bc5ffdec3b97cd6c",
-    "research/manuscript-inputs.json": "af71db984418215672e5b7f2b15868d4a19928e34793b673c450865964799bf2",
-    "research/template-rendering.json": "90ee2d4a42d146b13ac98ea747d0989d96f5744590242e0c0e744dc8d9244ad8",
-    "research/citation-catalog.json": "4406565f943904a793588d68319faf5b59fa12219aedf4589d35d366877f265f",
+  "retained_analytical_receipts": {
+    "research/analysis-run-0.3.0.json": "b3a3dfd7b13d6895a175a78a0b08a8cd7601531819ee839f4cdccc4b3c0800fc",
     "research/search-study-0.8.0.json": "e68405e40d0a611e47f0fb3186b4ccb4d4804ae8415607ac25f615a325cc536f",
-    "docs/manuscript/notation.md": "252337dd541cb7ab5b7b77c1bf35f873295501edfbfd36f6319bd349119a27fd",
     "research/proximity-study-0.10.0.json": "16d9f1762cd0b30915bfbfda92261d10f219743394446f608a70a3f32ad03ac6",
-    "src/blakean_federalism/institutional_review_models.py": "d70108b70b4f229913dbbd61d7c28a1654b0632998a764f817c8da7504d5f85b",
-    "src/blakean_federalism/institutional_review.py": "d40063fe3b9535fb20d701fc5d3deaf78766296bdf7a65836e18500b15c24032",
-    "src/blakean_federalism/institutional_review_figure.py": "c33985fe865b3259b3adf37a35c15f992c239b7293e4af450fb91f42f1561cc6",
-    "tools/audit_institutional_review.py": "a221ce90303e133b78dcb6ad603a26f6b14616601131681ad5e21d1ec84b2611",
-    "tests/test_institutional_review.py": "4dd9117b877c304ed0f1a8b22cadd769f755b87b0910dca7ca9986abbe865c1f",
-    "tests/test_institutional_review_tool.py": "aa85c7aeadd061e307e4a661564bd0eacd7ba7dcef7a3727bcf7aa242af75239",
-    "research/institutional-review-cases.json": "c93fb812970dc57f924c58202dfe5abbf9d0c68ccbecfabbbb6c3833e4076f97",
-    "docs/research/institutional-review.md": "820ee059bc8daf386240b24c89ed7e9bd275c70551a46072cd3077df2f1fccf4",
-    "docs/manuscript/institutional-review-supplement.md": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
-    "docs/manuscript/institutional-review-insertion.md": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
-    "research/cases.json": "2d1709f3a7f9f70d6ed3f94a521e43e49424d589c8531b13f5906d00d390aca7",
-    "src/blakean_federalism/__init__.py": "d714fb7cd31f764e0e5e122bc86fe688a7e94043bc00896f92ddc15b0b62cc8c",
-    "src/blakean_federalism/_corpus_statistics_core.py": "b23b4dcb31a0bd744bee21f573ecd13fb7b32a1aa1c104fdad7029bda1f64b1b",
-    "src/blakean_federalism/abstract_analysis.py": "3b465896bce58d929154161648169a0dacf84359f62c7ace07cd98c8d3a5849c",
-    "src/blakean_federalism/abstract_analysis_models.py": "881c5a7dd14a5631fc39b7b40e292bb7b579b6bd8a9ea349da592b7fd6058c2c",
-    "src/blakean_federalism/abstract_captions.py": "d92b3602cbcaff41f4ba012a4c4d7a7dc5044e4784995379d38b86da9421b96f",
-    "src/blakean_federalism/abstract_corpus_figure.py": "8ea1028dadc43815b701257a0b75a9e57d293310a67aa40d9eabaee7c72d830c",
-    "src/blakean_federalism/abstract_explanation.py": "9b098740f673b70d3f0c37629b19e72480ac71670eb0dce900df50ef768e9e4c",
-    "src/blakean_federalism/abstract_layout.py": "b477426cfb8a607b941c6454411116c6311b13170f4e40992e9d15a8637efffa",
-    "src/blakean_federalism/abstract_results.py": "83ea374e83a5c2cc6dd9a980d6e8d63642d3b25f6c0596af6e47d7c2cd695161",
-    "src/blakean_federalism/analysis_figures.py": "c262bf3c0d85bcdb36f70b1d07d32eb012b12edd43aec50fa1cd1b84d66d04bc",
-    "src/blakean_federalism/analytical_abstracts.py": "5ffcc7413c9bd9e6d76870756634bf674eb72879dab1c446b20c8ab01c300b3c",
-    "src/blakean_federalism/cli.py": "936302b1fc8fb68ab23947b647ef4f704d4fb0786d091de09e7ea5738fc808c2",
-    "src/blakean_federalism/cli_evidence_review.py": "4592a26483a84ecc2af9c776d20c88cf2aec1acecb1670673190ee229692e05b",
-    "src/blakean_federalism/cli_proximity.py": "c8ef2ad5caadd35d123488f3aadcc2bb8ab0f66998a03574e713ced9a665868c",
-    "src/blakean_federalism/corpus.py": "770f00834e92d25b0ea5273bff78499561e00c2c86867426e2ff26260ec59f75",
-    "src/blakean_federalism/corpus_statistics.py": "39384e6be9303ed40ae20d5e27f167e1b5a7148fdba53a3bcaf5500560185852",
-    "src/blakean_federalism/corpus_statistics_models.py": "e94306c01b2eb3704f8040ed2f6545f1dd8c4bec54ccfffc55c5e56ae6766431",
-    "src/blakean_federalism/evidence_review.py": "7c9c60c3b0b43154b8ef7cc939ad3255619f886df0d2287c5f89770f7d0e2cab",
-    "src/blakean_federalism/evidence_review_models.py": "4c360b0fa284aa44b720e5cefee4b5ecd1d68fcc8b5a92de4f3c8e568500f4ec",
-    "src/blakean_federalism/federated_comparison_figure.py": "bd477273495ef2b74ab699babd2bc67145ef3b8bf319681408ad2edee91ed0ca",
-    "src/blakean_federalism/figure_style.py": "5a8ee23d82be567d679f51678a9dab3f867a5f3488aa15fc00a55fe4cb48c29a",
-    "src/blakean_federalism/illuminated_abstracts.py": "e676833a89a9121fbf6808099ba66a4328181eb4b43b3e4b3dd1dda710706092",
-    "src/blakean_federalism/illuminated_style.py": "2608b9e69fb86daf4fc6db515237194d581bad1dff06efd8713e1082ff10cf11",
-    "src/blakean_federalism/institutional_experiment_models.py": "5252708b9a857b193301272517432ccbf9b7f2c5297054ef19fe4e99add98d7a",
-    "src/blakean_federalism/institutional_experiments.py": "5cddf8a5a4be7e23a9e273eae8985cbd50c89bc0b2249cbca417532da2a1579d",
-    "src/blakean_federalism/institutional_interventions.py": "c188caac536dc285e91a1a6589209c64e84ae76678f0372e0552810ee96a936a",
-    "src/blakean_federalism/institutions.py": "6aa4c6e7e8903f241f37f6aff7b763dbe7fd8f1dab4b67df0acf1ae80b2957bf",
-    "src/blakean_federalism/manuscript.py": "9de6b469d87b804dbf8aa0e573575424a1c30e43a6d55c4bc73993686080c7be",
-    "src/blakean_federalism/method_provenance.py": "86daf3605a2afec0187c6eb4f575a54ba18c825877068ba2a642a3a4374f4473",
-    "src/blakean_federalism/models.py": "c5bfc252a8d1aced4f3784d6757edc97bd46e77ef361cef96efe3e4dec73f7c5",
-    "src/blakean_federalism/observations.py": "ad1079c04a1dd154d86a8e80412b6c2c32fa1d354f90299959f70165af03c80c",
-    "src/blakean_federalism/proximity_figure.py": "c784f4d090650ee5c4c6bf94884aa31bce3ae9c6c79da238498923bd2fac26ec",
-    "src/blakean_federalism/proximity_study.py": "58ff149d828f3056a3f1cd2a4388e0a0de8cb29c60b7b603238b01d16b1877eb",
-    "src/blakean_federalism/publication.py": "46b360aebe465b2e1f0a8633049e17cb82a5eb7931b37f7b03a45610275064c2",
-    "src/blakean_federalism/publication_abstracts.py": "1e859219b843cf339f702043976c1ea0b8c701c1a5deda77252f550c6408c716",
-    "src/blakean_federalism/publication_body.py": "0b0cf43ca179fb4227aeef86bca0209d4aa31687141ce57c1df04793c493358a",
-    "src/blakean_federalism/publication_contract.py": "8776acf11a8af7d1d1ea733b3dbbead9185a1ebf318d015f8e38d13dacef1d3f",
-    "src/blakean_federalism/publication_evidence.py": "4ecbd627f556b0520e321a4be578d78797af29a289087742b2aedd12fc696095",
-    "src/blakean_federalism/publication_figures.py": "b2f61bd0b7f8b8c4f0ff0c63b25a602d4f25bd5c1a8f87a4e4e3c1c582ddda1c",
-    "src/blakean_federalism/publication_models.py": "18828b37a61e6e6f5d0777816464c0c575ae27b6d85b85acbaa696d8860aa47f",
-    "src/blakean_federalism/publication_verification.py": "928e9937eb26bbd530a16f17c6d915fd8ad8c1accf91c03dfe199fc9c19b3a09",
-    "src/blakean_federalism/report.py": "76f1809c3965d30c74666457ccdd3ab587f29b98573dfe6f3ca78d9b781ba513",
-    "src/blakean_federalism/resources/corpus-search.css": "7d000bd3164d0a835cc008fe5399910bf1568adb408e355a4d67a6925a0ce1b3",
-    "src/blakean_federalism/resources/corpus-search.html": "0b81e6292eda5c5b2da33af5d28707f8df7cb6b5c2df3e5be2e423bb861632e6",
-    "src/blakean_federalism/resources/corpus-search.js": "04a3669e4efe8b490e90471254e45f3ec40cc9c35e1b82b95482ae48042a2db2",
-    "src/blakean_federalism/resources/fonts/DejaVuSerif-Bold.ttf": "c3753f2ed6bc673f15846dc45addbeb3b9c872f32fb18fd53a21f1bef1ed7676",
-    "src/blakean_federalism/resources/fonts/DejaVuSerif-Italic.ttf": "3e7994fbc54fa10ce3352a42d548fadd7d9cadb69cb1109bc9d960f6dac57f04",
-    "src/blakean_federalism/resources/fonts/DejaVuSerif.ttf": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa",
-    "src/blakean_federalism/resources/fonts/LICENSE_DEJAVU.txt": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
-    "src/blakean_federalism/resources/fonts/Vera.ttf": "c4c45690b345435b2cba52ecabe275f05e49b389b39fe68ad03afbb551288d3d",
-    "src/blakean_federalism/resources/fonts/VeraBd.ttf": "cc037385e4d55bfde89b13e03091ee93bf40c0c52ddd391ff031ab276f13b8e9",
-    "src/blakean_federalism/resources/fonts/VeraIt.ttf": "2adc684d518f45232c4ad1f56522f5a82a6904c31940373e1b7030beee20fb3a",
-    "src/blakean_federalism/resources/fonts/bitstream-vera-license.txt": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
-    "src/blakean_federalism/resources/workbench.css": "02ff56676826f0bf2c06ca8e29fbd4f6ced73aeae15124b8b9e9f2d1adc1a005",
-    "src/blakean_federalism/resources/workbench.html": "22ebea90038773f0ba602ebc815b6957fab975b9638c17801216a7b07e3b6afa",
-    "src/blakean_federalism/resources/workbench.js": "f58e94d7e59c6a011217275d314f4d91c84c660aa48e13e3f14c656459d671f0",
-    "src/blakean_federalism/review_publication.py": "b339b5200924ca36027d98da0ff7d5caa4f997ab005b357075b8bcb393d0c7b4",
-    "src/blakean_federalism/search.py": "728aa7cdff189a2cab14856c58801037796a3c6ba9ccfef0b20a4783c54da1af",
-    "src/blakean_federalism/search_figure.py": "012fd3c83656f95a35e36bdc81b43ecd0287c81e6b6f27b5f6daa984532467df",
-    "src/blakean_federalism/search_models.py": "e877c8cd0f75301ddc1d7d45cbdaf07d9cc6e46417684f4227028d0dc1fd0248",
-    "src/blakean_federalism/search_study.py": "c452c7d1f7d32ad7fa543885c0447d892163b8c670d6d1983dd6fd1450f21498",
-    "src/blakean_federalism/search_workspace.py": "7ef49350a883a85792eb71d9ac0b37eb6b6b596d8bbebebbc86aa00e9273f4fd",
-    "src/blakean_federalism/storage.py": "177726b145077189ec1a7675d5d611d6a4a8c2fcddfc0a950eb8455e68024a08",
-    "src/blakean_federalism/workbench_analysis_view.py": "85280a8f98f1abca9506ff075e479124e8244f200bb40d6097b2e53395b588fc",
-    "src/blakean_federalism/workbench_models.py": "e0abb7479bf9fa6bb14ba6393181c5f770af8fa8ce024b239be50597c2f0e7f2",
-    "src/blakean_federalism/workbench_view.py": "e22928cafacf77243869e23448ccb12a5ef7c9df850f4c169f4252a1eb55910d",
-    "tools/template_render.py": "f52aaa687fbe7046da13fad6970d004a10a29ea7497a271bea9c62bea964f8d7"
+    "research/abstract-analysis-0.14.0.json": "43cc55c912449794ebd4d7c82857df4d2d8a7c73aad8780e023b957e051a8cd5",
+    "research/corpus-pin.json": "86d3f807f7258c9e29a5e498379495445faaecb3c06b9ff12720efea90dc6e98"
   },
-  "native_scope": "The exact stage05 source/runtime/producer receipt governs this render; the later lock pin is not evidence of a fresh native run in a new installed environment.",
-  "rendered_qa": "research/rendered-review-0.16.0.json",
-  "artifacts": {
-    "output/pdf/blakean_federalism_combined.pdf": "e6fe93ed6186f8385dc3787a826dc1ccfc73994895a74521da0217249a4743d4",
-    "output/web/index.html": "6158d53d7c9a6bc1652db0f735da1b68ca9ba77c30013e4198a899aa3d2acab8"
+  "historical_preimages": {
+    "research/current-source.json": {
+      "path": "research/history/advancement-20261028-preimage/research/current-source.json",
+      "sha256": "c429bbec11cb5a7b64ad21ffe89af845ef82a94adc2648392a0261ef11fe926f"
+    },
+    "research/verification.json": {
+      "path": "research/history/advancement-20261028-preimage/research/verification.json",
+      "sha256": "2d3c5c2263ca20f385550d119b82302ea175f0af3ea90b2e71714b8360ed1648"
+    },
+    "docs/RESEARCH_STATUS.md": {
+      "path": "research/history/advancement-20261028-preimage/docs/RESEARCH_STATUS.md",
+      "sha256": "f12778efa97a828d7b26d90278b443811a5869d3d841d5e1bed5a0649349fd12"
+    },
+    "docs/manuscript/README.md": {
+      "path": "research/history/advancement-20261028-preimage/docs/manuscript/README.md",
+      "sha256": "d6af76a85109c974b4532c0dd02a4749bd3e14f813dfd12fc0579cd12f7deab6"
+    },
+    "CHANGELOG.md": {
+      "path": "research/history/advancement-20261028-preimage/CHANGELOG.md",
+      "sha256": "be7cf06e228d023258431490551ad795d014be304b6387e523fd024e80d30619"
+    }
   },
-  "artifact_root": "analysis_output/publication/shared-methods-domain-0.16-05",
-  "render_counts": {
-    "pdf_pages": 69,
-    "selected_quotation_records": 40,
-    "formalism_count": 19,
-    "equation_count": 13,
-    "project_authored_designs": 18,
-    "provider_plate_pins": 14,
-    "html_image_instances": 32,
-    "numbered_body_and_plate_figure_labels": 28,
-    "unnumbered_opening_abstracts": 4,
-    "prepared_figure_files": 50,
-    "cited_bibliography_keys": 60
-  },
-  "browser_javascript_qualification": "blocked_by_local_file_browser_URL_policy; actual rejection retained in external packet coordination/offline-workspace-ui-qa",
-  "fresh_locked_install": {
-    "status": "passed",
-    "receipt": "research/installation-shared-methods-0.16.0.json",
-    "sha256": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7",
-    "scope": "Separate fresh exact-Git installation and real executable replay; the earlier native renderer environment and visual review are not relabelled as a fresh native rendering."
-  },
-  "canonical_admission_and_private_publication": "outside_this_staged_metadata_task"
+  "scope": "Implementation-owned qualification index; no independent or browser verdict inferred. Full immutable source closure and final independent gate are external delivery artifacts."
 }

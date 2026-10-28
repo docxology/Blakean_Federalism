@@ -15,6 +15,7 @@ from pydantic import TypeAdapter
 
 from .cli_evidence_review import register_review_commands
 from .cli_proximity import proximity_study_command
+from .cli_review_comparison import compare_review_command
 from .corpus import concordance, import_corpus, load_import
 from .corpus_statistics import analyze_corpus
 from .institutional_experiments import run_experiment
@@ -46,6 +47,7 @@ DEFAULT_CONCORDANCE: Final = Path("analysis_output/concordance-v0.3.0.json")
 app = typer.Typer(no_args_is_help=True)
 register_review_commands(app)
 _ = app.command("proximity-study")(proximity_study_command)
+_ = app.command("compare-review")(compare_review_command)
 
 
 def require_ignored(path: Path, directory: str) -> None:

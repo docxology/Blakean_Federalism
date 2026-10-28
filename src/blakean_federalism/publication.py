@@ -6,13 +6,13 @@ from pathlib import Path
 
 from . import __version__
 from .abstract_captions import analytical_captions, cover_caption, uses_analytical_abstracts
+from .comparison_publication import prepare_domain_figures
 from .manuscript import ManuscriptSpec, validate_manuscript
 from .models import ResearchError
 from .proximity_study import ProximityStudy
 from .publication_contract import manuscript_contract, source_bindings
 from .publication_figures import generate_figures
 from .publication_models import PreparedPublication, TemplateRendering
-from .review_publication import prepare_review_figures
 from .search_study import SearchStudy
 from .storage import copy_new, digest, safe_path, verify_file, write_new
 from .workbench_models import Workbench
@@ -29,6 +29,8 @@ SOURCE_NAMES = (
     "research/search-study-0.8.0.json",
     "docs/manuscript/notation.md",
     "research/proximity-study-0.10.0.json",
+    "docs/style-guide.md",
+    "research/procedural-comparison-reading-20261028.json",
 )
 
 REVIEW_SOURCE_NAMES = (
@@ -43,6 +45,11 @@ REVIEW_SOURCE_NAMES = (
     "docs/manuscript/institutional-review-supplement.md",
     "docs/manuscript/institutional-review-insertion.md",
     "research/cases.json",
+    "src/blakean_federalism/review_inputs.py",
+    "src/blakean_federalism/review_comparison.py",
+    "src/blakean_federalism/review_comparison_run.py",
+    "src/blakean_federalism/review_comparison_figure.py",
+    "docs/research/procedural-comparison.md",
 )
 
 
@@ -198,8 +205,7 @@ def _copy_authoring_sources(root: Path, raw: Path, variables: dict[str, str]) ->
 
 def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer: str) -> Path:
     """Validate before reserving a stage; never reuse another run's output tree."""
-    root = root.absolute()
-    output = output.absolute()
+    root, output = root.absolute(), output.absolute()
     if ".." in output.parts or not output.is_relative_to(root / "analysis_output"):
         raise ResearchError("publication_output", "Require a new analysis_output descendant")
     if any(p.is_symlink() for p in (output, *output.parents)):
@@ -245,8 +251,9 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0")
         else None,
     )
-    if "fig:review-matrix" in contract.figure_labels:
-        generated.update(prepare_review_figures(root, output))
+    domain = prepare_domain_figures(root, output, contract.figure_labels)
+    generated.update(domain.figures)
+    variables.update(domain.captions)
     _copy_authoring_sources(root, raw, variables)
     write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
     front: list[str] = [

@@ -1,96 +1,15 @@
 {
-  "schema_version": 18,
+  "schema_version": 19,
   "version": "0.16.0",
-  "status": "source_native_bounded_independent_render_qa_and_separate_fresh_locked_install_pass",
-  "tests": 620,
+  "status": "installed_regression_native_content_and_root_manual_qa_pass_independent_gate_separate",
+  "tests": 655,
   "coverage_percent": {
-    "application": 92.43455497382199,
-    "infrastructure": 65.92082616179002
+    "application": 92.30044737461738,
+    "tools": 70.72243346007605
   },
-  "coverage_basis": "Covered statements plus covered branches divided by total statements plus branches, separately aggregated for application and tools.",
-  "coverage_details": {
-    "application": {
-      "covered_lines": 2946,
-      "num_statements": 3164,
-      "covered_branches": 585,
-      "num_branches": 656,
-      "line_percent": 93.10998735777497,
-      "branch_aware_percent": 92.43455497382199,
-      "floor_percent": 90
-    },
-    "infrastructure": {
-      "covered_lines": 304,
-      "num_statements": 449,
-      "covered_branches": 79,
-      "num_branches": 132,
-      "line_percent": 67.70601336302896,
-      "branch_aware_percent": 65.92082616179002,
-      "floor_percent": 60
-    }
-  },
-  "coverage_floor": {
-    "application": 90,
-    "infrastructure": 60
-  },
-  "qualification_artifacts": {
-    "tests": {
-      "path": "logs/federalism-full-final-v1.log",
-      "sha256": "ba84353691bbbfb25f9975ea4854638b1e4bd1e00e27481bc221fab232ab52b9"
-    },
-    "coverage": {
-      "path": "logs/federalism-final-coverage.json",
-      "sha256": "c678688849297a07e9d1641183ced1d1d01e8f90aebc93d1509ba50cfcc97b0c"
-    },
-    "lock_resolution": {
-      "path": "logs/federalism-git-lock.log",
-      "sha256": "23a05dfb7f4f27140df3b9861935521f710dbca91fe7300acb55dd98404c8075"
-    },
-    "public_commit": {
-      "path": "coordination/public-next-commit.json",
-      "sha256": "00a0082ec4fac7d2a4d492f4a032c0d1e3624ca0652247d5c4054f4c4eb56f01"
-    },
-    "public_candidate": {
-      "path": "coordination/public-admission-next.json",
-      "sha256": "a0d5d182433767e731a7e667da4e0af59c4a8cff00dbac9f40ff2324fb1fd418"
-    },
-    "prepared": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/prepared-publication.json",
-      "sha256": "22f8f0477b4c7431e689603ceac988690787e13c068d7384c52899710e2adeb6"
-    },
-    "native": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/native-render-receipt.json",
-      "sha256": "aec50a7fc5158118a96fa089fa5e182ac86fae25c68c82ed04f6947c5937e39a"
-    },
-    "native_content": {
-      "path": "federalism/analysis_output/publication/shared-methods-domain-0.16-05/rendered-content-verification.json",
-      "sha256": "f6df377a6b69b52876fe2afe4bc39fa8ea2da3acfb95ae73bbea25b42b49bccb"
-    },
-    "independent_qa": {
-      "path": "coordination/federalism-paper-qa/federalism-paper-manual-qa.md",
-      "sha256": "d3e1f51cdd34cd6f35d43d600e38c115e97ce7e9e27e4444ea0b829ac746eb44"
-    },
-    "qa_artifacts": {
-      "path": "coordination/federalism-paper-qa/artifact-manifest.json",
-      "sha256": "a61ce4d1dcd9982514926ef3945fff97416ab8ba7c9153cb39b59285354e9947"
-    },
-    "qa_arithmetic_html": {
-      "path": "coordination/federalism-paper-qa/shared-methods-domain-0.16-05-data-html.json",
-      "sha256": "72390b6be50cd7efaab547c19f5382543c919c38142375a7e66321f6e3e2622b"
-    }
-  },
-  "rendered_qa": "research/rendered-review-0.16.0.json",
-  "historical_qualification": {
-    "path": "research/history/shared-methods-0.16-preimage/verification.json",
-    "sha256": "f8392a9075937ac322e65111b8972425607e8769ec80f55b78d5b6ec8b2c85cf"
-  },
-  "source_runtime_scope": "Coverage uses the original staged external qualification run; a separate fresh exact-Git locked environment also passed all 620 tests and replayed four historical analyses byte-for-byte.",
-  "browser_javascript_qualification": "blocked_by_local_file_browser_URL_policy; actual rejection retained in external packet coordination/offline-workspace-ui-qa",
-  "fresh_locked_install": {
-    "status": "passed",
-    "receipt": "research/installation-shared-methods-0.16.0.json",
-    "sha256": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7",
-    "scope": "Separate fresh exact-Git installation and real executable replay; the earlier native renderer environment and visual review are not relabelled as a fresh native rendering."
-  },
-  "native_worker_coverage_note": "Native Python 3.14 worker execution is proven separately by its native receipt; project-suite coverage does not count that process.",
-  "publication_scope": "Private ordinary stage only; no canonical admission, release or push is asserted by this metadata update."
+  "epoch": "advancement-20261028-02",
+  "qualification": "research/advancement-20261028.json",
+  "sha256": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
+  "native_content_verification": "analysis_output/publication/advancement-20261028-02/rendered-content-verification.json",
+  "scope": "Installed/full-regression and native content/root manual checks; independent final gate separate."
 }

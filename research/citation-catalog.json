@@ -367,9 +367,9 @@
       "title": "On Ethnographic Refusal: Indigeneity, `Voice' and Colonial Citizenship",
       "journal": "Junctures: The Journal for Thematic Dialogue",
       "year": "2007",
-      "number": "9",
       "pages": "67--80",
-      "url": "https://junctures.org/index.php/junctures/article/view/66"
+      "url": "https://junctures.org/index.php/junctures/article/view/66",
+      "note": "Issue 9."
     },
     "urls": []
   },
@@ -653,33 +653,33 @@
   },
   {
     "key": "viscomi2012Invention",
-    "type": "online",
+    "type": "misc",
     "fields": {
       "author": "Viscomi, Joseph",
       "title": "Blake's Invention of Illuminated Printing, 1788",
       "year": "2012",
       "month": "mar",
       "editor": "Felluga, Dino Franco",
-      "organization": "BRANCH: Britain, Representation and Nineteenth-Century History",
       "url": "https://branchcollective.org/?ps_articles=joseph-viscomi-blakes-invention-of-illuminated-printing-1788",
       "urldate": "2026-10-25",
-      "note": "Published March 2012. Unpaginated essay; citations identify sections and paragraph incipits."
+      "note": "Published March 2012. Unpaginated essay; citations identify sections and paragraph incipits.",
+      "howpublished": "BRANCH: Britain, Representation and Nineteenth-Century History"
     },
     "urls": []
   },
   {
     "key": "viscomi2022Turner",
-    "type": "online",
+    "type": "misc",
     "fields": {
       "author": "Viscomi, Joseph",
       "title": "William Blake's 1818 Letter to Dawson Turner and Later Career as Graphic Artist",
       "year": "2022",
       "month": "mar",
       "editor": "Felluga, Dino Franco",
-      "organization": "BRANCH: Britain, Representation and Nineteenth-Century History",
       "url": "https://branchcollective.org/?ps_articles=joseph-viscomi-william-blakes-1818-letter-to-dawson-turner-and-later-career-as-graphic-artist",
       "urldate": "2026-10-25",
-      "note": "Published March 2022. Unpaginated essay; citations identify sections and paragraph incipits. The title's 1818 dates Blake's letter."
+      "note": "Published March 2022. Unpaginated essay; citations identify sections and paragraph incipits. The title's 1818 dates Blake's letter.",
+      "howpublished": "BRANCH: Britain, Representation and Nineteenth-Century History"
     },
     "urls": []
   },
@@ -708,11 +708,10 @@
       "title": "An Alternative National Gallery: Blake's 1809 Exhibition and the Attack on Evangelical Culture",
       "journal": "Tate Papers",
       "year": "2010",
-      "number": "14",
       "issn": "1753-9854",
       "url": "https://www.tate.org.uk/research/tate-papers/14/an-alternative-national-gallery-blakes-1809-exhibition-and-the-attack-on-evangelical-culture",
       "urldate": "2026-10-25",
-      "note": "Autumn. Unpaginated article; paragraph incipits and note numbers identify passages."
+      "note": "Issue 14. Autumn. Unpaginated article; paragraph incipits and note numbers identify passages."
     },
     "urls": []
   },
@@ -858,11 +857,10 @@
       "title": "Reasoned Exhibitions: Blake in 1809 and Reynolds in 1813",
       "journal": "Tate Papers",
       "year": "2010",
-      "number": "14",
       "issn": "1753-9854",
       "url": "https://www.tate.org.uk/research/tate-papers/14/reasoned-exhibitions-blake-in-1809-and-reynolds-in-1813",
       "urldate": "2026-10-27",
-      "note": "Autumn. Unpaginated official HTML article; locators identify paragraph incipits and note numbers."
+      "note": "Issue 14. Autumn. Unpaginated official HTML article; locators identify paragraph incipits and note numbers."
     },
     "urls": []
   },
