@@ -1,0 +1,23 @@
+{
+  "schema_version": 20,
+  "version": "0.16.0",
+  "tests": 655,
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 92.30044737461738,
+      "floor": 90,
+      "covered": 3920,
+      "total": 4247
+    },
+    "tools": {
+      "branch_aware_percent": 70.72243346007605,
+      "floor": 60,
+      "covered": 372,
+      "total": 526
+    }
+  },
+  "coverage_scope": "Installed pytest full suite.",
+  "qualification": "research/expansion-installed-20261028.json",
+  "sha256": "0b76addfd0afdff81c0b0f23dd0acb7df4f0afc66ffeab26e132376c99d72e37",
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
+}

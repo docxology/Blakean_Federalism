@@ -1,0 +1,12 @@
+local_data/
+analysis_output/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+dist/
+.env
+.env.*

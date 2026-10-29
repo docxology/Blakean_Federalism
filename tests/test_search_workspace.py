@@ -73,7 +73,7 @@ def test_workspace_has_complete_bound_fulltexts_and_no_runtime_network(captured)
         assert "fetch(" not in html
         assert "XMLHttpRequest" not in html
         assert "connect-src 'none'" in html
-        assert "window.blakeanSearch=Object.freeze({run})" in html
+        assert "window.blakeanSearch=api" in html
         assert "innerHTML" not in html
         assert "javascript:" not in html
         assert "@@STYLE@@" not in html

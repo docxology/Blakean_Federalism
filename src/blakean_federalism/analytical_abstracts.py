@@ -15,6 +15,8 @@ from .figure_style import BLACK, GREY, MUTED, RED, WHITE, circle, label, line
 from .illuminated_style import plate
 from .workbench_models import Workbench
 
+_OVERLAP_NODE = 2
+
 
 def analytical_drawings(
     report: Workbench, artwork: Mapping[str, Path]
@@ -31,15 +33,15 @@ def analytical_drawings(
 def relations_page(c: Canvas, source: AbstractSources) -> None:
     heading(
         c,
-        "Persons, national formations and authority",
+        "Belonging alone does not authorize rule",
         (
-            "Affiliation, poetic interpretation and the warrant for a public decision are "
-            "different relations."
+            "A person may share several national histories; an institution still needs a warrant "
+            "for each decision."
         ),
     )
     plate(c, source.artwork["J1"], (20, 432, 110, 155))
     cell(c, "Jerusalem, copy I, plate 1. Lamp, bearer and threshold.", 20, 269, 110, 38, size=9)
-    for x, name in ((177, "Persons P"), (309, "Nations N"), (450, "Poetic states S")):
+    for x, name in ((177, "Persons P"), (309, "Nations N"), (450, "State readings S")):
         label(c, name, x, 427, 9.5)
     persons = ((177, 404), (177, 368), (177, 332))
     nations = ((309, 386), (309, 350))
@@ -68,7 +70,7 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
         )
     c.restoreState()
     for index, (x, y) in enumerate(persons, 1):
-        circle(c, x, y, 8, BLACK, width=0.65)
+        circle(c, x, y, 8, RED if index == _OVERLAP_NODE else BLACK, width=0.9)
         label(c, f"p{index}", x, y - 3, 8.5)
     for index, (x, y) in enumerate(nations, 1):
         c.setFillColor(HexColor(WHITE))
@@ -77,10 +79,12 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
         c.rect(x - 10, y - 8, 20, 16, fill=1, stroke=1)
         label(c, f"n{index}", x, y - 3, 8.5)
     for index, (x, y) in enumerate(states, 1):
-        circle(c, x, y, 8, BLACK, width=0.65)
+        circle(c, x, y, 8, RED if index == _OVERLAP_NODE else BLACK, width=0.9)
         label(c, f"s{index}", x, y - 3, 8.5)
-    cell(c, "Solid: A, affiliation", 166, 313, 165, 13, size=9, color=RED)
-    cell(c, "Dashed: I, interpretation", 349, 313, 171, 13, size=9, color=RED)
+    cell(c, "A: participates in", 166, 313, 165, 13, size=9, color=RED)
+    cell(c, "I: interprets through", 349, 313, 171, 13, size=9, color=RED)
+    cell(c, "p2 participates in n1 and n2", 166, 300, 165, 12, size=8.5)
+    cell(c, "Both n1 and n2 draw on s2", 349, 300, 171, 12, size=8.5)
     cell(c, source.verse("Q03", 1, 2), 150, 288, 370, 32, size=10.5, font="BF-Serif-Italic")
     cell(
         c,
@@ -107,7 +111,10 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
         (
             141,
             "C ⊆ J \u00d7 D",
-            "Claimed competence: an institution needs a warrant for a specified decision.",
+            (
+                "Claimed competence: sharing an identity does not authorize this institution to "
+                "impose this decision."
+            ),
         ),
     )
     for top, symbol, detail in rows:
@@ -130,10 +137,7 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
     )
     cell(
         c,
-        (
-            "Translation: accessible reasons. Passage: supported change. Non-exhaustion: no total "
-            "identity claim."
-        ),
+        ("Accessible reasons; supported changes of affiliation; no claim to a whole person."),
         20,
         57,
         500,
@@ -144,7 +148,7 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
     footer(
         c,
         (
-            "Institutional sorts J and D remain separate from P, N and S. Art: LOC, Rosenwald "
+            "J means institutions; D means proposed decisions. Art: LOC, Rosenwald "
             "Collection, item 48038103; posthumous impression, c. 1832?; whole image retained."
         ),
     )
@@ -153,73 +157,74 @@ def relations_page(c: Canvas, source: AbstractSources) -> None:
 def readings_page(c: Canvas, source: AbstractSources) -> None:
     heading(
         c,
-        "Passages, rival readings and institutional tests",
+        "A shared order must answer six questions",
         (
-            "Selected lines connect poetic scenes to specific questions of classification, power "
-            "and provision."
+            "Read a scene, its unresolved tension, and the question it raises for collective "
+            "authority."
         ),
     )
     columns = (
-        (20, 151, "BLAKE PASSAGE"),
-        (184, 178, "CONTEXT AND SCHOLARSHIP"),
-        (375, 145, "INSTITUTIONAL TEST"),
+        (20, 151, "BLAKE'S SCENE"),
+        (184, 178, "WHAT MAKES IT CONTESTED"),
+        (375, 145, "THIS ARTICLE ASKS"),
     )
     for x, width, title in columns:
         cell(c, title, x, 432, width, 16, size=9, color=RED)
     rows = (
         (
-            source.verse("Q03", 0, 1),
-            "Milton 32:22 / E132 (Q03)",
+            source.verse("Q31"),
+            "Jerusalem 11:5 / E154 (Q31)",
             (
-                "Damrosch, pp. 15-21; Lee, pp. 1-10. Particularity and persistent identity "
-                "complicate a fixed repertoire of states."
+                "Los also compels labor. Clark and White offer different readings of his "
+                "system-making "
+                "declaration."
             ),
-            "Can affiliation change while personhood and standing continue?",
+            "Can people within a system challenge its maker?",
         ),
         (
             source.verse("Q14", 2, 4),
             "Jerusalem 27:87-88 / E173 (Q14)",
             (
-                "Fallon ms. 10-12; Mellor, pp. 148-153; Kaplan, p. 82,n. 27. National opening and "
-                "reciprocal imagery can coexist with unequal agency."
+                "Fallon's national openness confronts Mellor's and Kaplan's objections "
+                "concerning unequal agency."
             ),
-            "Who speaks, interprets, refuses a role and authorizes a decision?",
+            "Who can speak, create, revise and refuse?",
         ),
         (
             source.verse("Q37"),
             "Marriage 24 / E44 (Q37)",
             (
-                "Heppner, pp. 55-56,59; Frosch, p. 44. Relevant differences matter; a peaceful "
-                "intention cannot excuse an oppressive rule."
+                "One rule can impose unequal burdens. Heppner and Frosch distinguish the "
+                "person from the claim made for them."
             ),
-            "Compare actual burdens; require reasons for differentiated treatment.",
+            "Who bears a rule's costs, and whose needs does it meet?",
         ),
         (
             source.verse("Q40"),
             "Marriage 20 / E42 (Q40)",
             (
-                "The narrator compels the Angel's vision. Simpson, pp. 67-78; Fraser, pp. "
-                "122-124: refusal and organized opposition retain force."
+                "The narrator also compels the Angel's vision. Simpson and Fraser give refusal "
+                "and organized opposition political force."
             ),
-            "Can a challenge revise the framing without requiring conversion or disclosure?",
+            "Can dissent change a decision while dissenters retain their rights?",
         ),
         (
-            source.verse("Q38", 1, 2),
-            "Jerusalem 45:34 / E194 (Q38)",
+            source.verse("Q38", 2, 3),
+            "Jerusalem 45:35 / E194 (Q38)",
             (
-                "Los cannot locate the authors of visible injury. Shachar, pp. 75-77 relocates "
-                "the burden of initiating protection."
+                "Los restrains vengeance against the already injured. Shachar asks where the "
+                "burden of obtaining protection falls."
             ),
-            "Who bears a remedy's force, and who keeps essentials available during review?",
+            "Who receives protection and material support during review?",
         ),
         (
             source.verse("Q39", 2, 3),
             "America 6:12 / E53 (Q39)",
             (
-                "The released family still looks back. Moyer, paras. 3-10,14-16 follows labor, "
-                "dependence and control of production."
+                "Release can leave dependence intact. Moyer follows labor, material provision "
+                "and control of production."
             ),
-            "Name the means, provider, timetable and protection against retaliation.",
+            "What makes leaving possible without losing home, livelihood or standing?",
         ),
     )
     for index, (verse, locator, reading, question) in enumerate(rows):

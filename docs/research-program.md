@@ -1,5 +1,9 @@
 # Connected research program and acceptance criteria
 
+Use [project status](PROJECT_STATUS.md) for completed engineering, the current
+delivery and the bounded next-action queue. This document states scholarly
+acceptance criteria; its work packages are not a second implementation TODO list.
+
 | Work package | Present implementation | Remaining scholarly acceptance criterion |
 | --- | --- | --- |
 | 1 Corpus and textual control | Independent pinned projection, role-preserving concordance, primary passage ledger, zero and corruption controls | Every final quotation resolves to work/copy/plate/edition; disputed numbering collated; absence claims scoped |

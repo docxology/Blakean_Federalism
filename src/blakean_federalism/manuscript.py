@@ -59,6 +59,8 @@ class ManuscriptSpec(FrozenModel):
         "0.12.0",
         "0.13.0",
         "0.14.0",
+        "0.15.0",
+        "0.16.0",
     ]
     assets: tuple[Asset, ...]
     quotations: tuple[Quotation, ...]
@@ -190,7 +192,11 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
             "J1",
             "J100",
         },
-    }["0.11.0" if spec.version in ("0.12.0", "0.13.0", "0.14.0") else spec.version]
+    }[
+        "0.11.0"
+        if spec.version in ("0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0")
+        else spec.version
+    ]
     if {a.asset_id for a in spec.assets if a.kind == "image"} != expected_images:
         raise ResearchError("image_set", "The exact selected plate set is required")
     paths: dict[str, Path] = {}

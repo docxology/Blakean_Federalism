@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "version": "0.16.0",
+  "epoch": "expansion-installed-20261028",
+  "shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
+  "lock_sha256": "41ea20e6826b51253f5297fae33e1c73a9d46fb2dec4052b3e599472e091fa01",
+  "locked_package_entries": 34,
+  "unique_locked_package_names": 34,
+  "installed_distributions": 33,
+  "tests": 655,
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 92.30044737461738,
+      "floor": 90,
+      "covered": 3920,
+      "total": 4247
+    },
+    "tools": {
+      "branch_aware_percent": 70.72243346007605,
+      "floor": 60,
+      "covered": 372,
+      "total": 526
+    }
+  },
+  "coverage_scope": "Installed pytest full suite.",
+  "native": {
+    "directory": "analysis_output/publication/expansion-20261028-02",
+    "pdf": "analysis_output/publication/expansion-20261028-02/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d",
+    "pages": 72,
+    "native_receipt_sha256": "f9c41ded44ec302d80ca02f33bdb407cfb5c615c1710f870f414c4b7be2f0935"
+  },
+  "external_evidence": {
+    "federalism-setup-02.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/federalism-setup-02.json",
+      "sha256": "0e6d0b4774bcdd09fba757431aba072dec14d8bdf7a4a7886c794f5c43da3a29"
+    },
+    "federalism-final-installed.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/federalism-final-installed.json",
+      "sha256": "7bc3c2ed264cacbf1b02193c12f5b3c556e7e24d180275c224fccf27ea1d35a7"
+    },
+    "federalism-final-post-qualification.json": {
+      "path": "Local/blake-entomology-expansion-20261028/coordination/federalism-final-post-qualification.json",
+      "sha256": "923d03f3e108651f076d076b64ca67f13260d91724ee5b9dfe66a96dfa51a77d"
+    }
+  },
+  "root_physical_page_qa": {
+    "path": "Local/blake-entomology-expansion-20261028/root-qa/federalism/visual-observations.json",
+    "sha256": "b11a3ae303c7bf6e610b55ba717868e394e3f07fcfcfebcf4ecd2f99d04ffcc5"
+  },
+  "historical_preimages": {
+    "README.md": {
+      "path": "research/history/expansion-installed-preimage/README.md",
+      "sha256": "20c9b4b7c4e381a7e1d6e4bfaac38c4f123dc04bc00b078d931e0fe29ba356bb"
+    },
+    "CHANGELOG.md": {
+      "path": "research/history/expansion-installed-preimage/CHANGELOG.md",
+      "sha256": "c898dcba6362603165bbf15cdf79ab0dac38b444eaf23fe5cd6e9e4be77b57e1"
+    },
+    "docs/manuscript/README.md": {
+      "path": "research/history/expansion-installed-preimage/docs/manuscript/README.md",
+      "sha256": "405aac92dffe9f03235c21ead98bd9e17eefa0b2fa3a3d94774d59f0c401d5b9"
+    },
+    "research/current-source.json": {
+      "path": "research/history/expansion-installed-preimage/research/current-source.json",
+      "sha256": "c1f74a436bfd5f262ed38e78e3f748da28363a9e481779cad457f8083fb30744"
+    },
+    "research/verification.json": {
+      "path": "research/history/expansion-installed-preimage/research/verification.json",
+      "sha256": "4798c9a72603b06f3effd817c145128cc5314569f2797bec53ce9f69b3502b5b"
+    },
+    "docs/RESEARCH_STATUS.md": {
+      "path": "research/history/expansion-installed-preimage/docs/RESEARCH_STATUS.md",
+      "sha256": "0db5c2ec3d124370d923367efdd4d2e4c0ae61c02cc222e45cfd1219a20dadb5"
+    }
+  },
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
+}

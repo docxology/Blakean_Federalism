@@ -6,6 +6,7 @@ from pathlib import Path
 
 from . import __version__
 from .abstract_captions import analytical_captions, cover_caption, uses_analytical_abstracts
+from .comparison_publication import prepare_domain_figures
 from .manuscript import ManuscriptSpec, validate_manuscript
 from .models import ResearchError
 from .proximity_study import ProximityStudy
@@ -28,6 +29,27 @@ SOURCE_NAMES = (
     "research/search-study-0.8.0.json",
     "docs/manuscript/notation.md",
     "research/proximity-study-0.10.0.json",
+    "docs/style-guide.md",
+    "research/procedural-comparison-reading-20261028.json",
+)
+
+REVIEW_SOURCE_NAMES = (
+    "src/blakean_federalism/institutional_review_models.py",
+    "src/blakean_federalism/institutional_review.py",
+    "src/blakean_federalism/institutional_review_figure.py",
+    "tools/audit_institutional_review.py",
+    "tests/test_institutional_review.py",
+    "tests/test_institutional_review_tool.py",
+    "research/institutional-review-cases.json",
+    "docs/research/institutional-review.md",
+    "docs/manuscript/institutional-review-supplement.md",
+    "docs/manuscript/institutional-review-insertion.md",
+    "research/cases.json",
+    "src/blakean_federalism/review_inputs.py",
+    "src/blakean_federalism/review_comparison.py",
+    "src/blakean_federalism/review_comparison_run.py",
+    "src/blakean_federalism/review_comparison_figure.py",
+    "docs/research/procedural-comparison.md",
 )
 
 
@@ -142,9 +164,9 @@ def _abstract_labels(*, current: bool) -> tuple[tuple[str, str, str], tuple[str,
     if current:
         return (
             (
-                "Passages and institutional tests",
-                "Repair structure across five conflicts",
-                ("Source weighting and lexical evidence"),
+                "Blake's scenes and institutional questions",
+                "Comparing repairs in five conflicts",
+                ("Counting words in their sources"),
             ),
             ("", "", ""),
         )
@@ -183,8 +205,7 @@ def _copy_authoring_sources(root: Path, raw: Path, variables: dict[str, str]) ->
 
 def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer: str) -> Path:
     """Validate before reserving a stage; never reuse another run's output tree."""
-    root = root.absolute()
-    output = output.absolute()
+    root, output = root.absolute(), output.absolute()
     if ".." in output.parts or not output.is_relative_to(root / "analysis_output"):
         raise ResearchError("publication_output", "Require a new analysis_output descendant")
     if any(p.is_symlink() for p in (output, *output.parents)):
@@ -196,10 +217,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
             if p.is_file() and p.suffix in (".py", ".css", ".js", ".html", ".ttf", ".txt")
         )
     )
-    before = source_bindings(root, SOURCE_NAMES + producers + ("tools/template_render.py",))
+    article = safe_path(root, SOURCE_NAMES[0]).read_text()
+    review_sources = REVIEW_SOURCE_NAMES if "#fig:review-matrix" in article else ()
+    before = source_bindings(
+        root, SOURCE_NAMES + review_sources + producers + ("tools/template_render.py",)
+    )
     for binding in report.inputs:
         _ = verify_file(root, binding.path, binding.size, binding.sha256)
-    article = safe_path(root, SOURCE_NAMES[0]).read_text()
     appendix = safe_path(root, SOURCE_NAMES[1]).read_text()
     spec = ManuscriptSpec.model_validate_json(safe_path(root, SOURCE_NAMES[5]).read_bytes())
     assets = validate_manuscript(root, spec, article + "\n\n" + appendix)
@@ -223,8 +247,13 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         rasterizer,
         search_study,
         proximity_study,
-        artwork=assets if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0") else None,
+        artwork=assets
+        if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0")
+        else None,
     )
+    domain = prepare_domain_figures(root, output, contract.figure_labels)
+    generated.update(domain.figures)
+    variables.update(domain.captions)
     _copy_authoring_sources(root, raw, variables)
     write_new(raw / "01_notation.md", notation + "\n\n" + r"\clearpage" + "\n")
     front: list[str] = [
@@ -277,7 +306,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
                     """Jerusalem I, frontispiece; LOC item 48038103, posthumous impression,
 approximately 1832?. Original plate beside the article's distinct affiliation,
 interpretation and competence relations."""
-                    if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0")
+                    if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0")
                     else "Affiliation, interpretation and claimed competence."
                 )
             )

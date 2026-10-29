@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-10-29 — current core and private-main alignment
+
+- Pin the installed Blake 0.4.0 interfaces to an exact released Git commit, with historical corpus and manuscript producers retained separately.
+- Add agent instructions, current completion/next-task signposts and the exact reviewed private working-paper PDF.
+- Preserve earlier research, source and qualification receipts; distinguish engineering delivery from outstanding contextual, image, browser and scientific work.
+
+## 0.16.0 — shared methods and authored evidence review
+
+- Refresh the exact shared SDK Git pin and lock, reproduce the 655-test installed gate and four historical analyses, and compile the current 72-page native edition.
+- Preserve the person-specific institutional policy, historical producer identities, prior native bytes and all earlier qualification records.
+
+- Add exact person-indexed residual comparisons, a partial order with explicit incomparability, new figures and manuscript integration.
+- Pin the revised shared SDK, qualify noneditable installed execution, and retain a fresh native edition separately from historical analysis and review.
+
+- Move generic source custody, schemas, search, statistics, proximity and offline
+  rendering into public Blake; retain political selections and interpretation.
+- Preserve byte-identical replay of the four historical analytical JSON outputs.
+- Add immutable authored reading queues with source-bound support, counterreading,
+  nonpolitical and uncertain decisions; record candidate and review producers.
+- Bind delegated source files in new producer receipts and retain the 0.15 paper
+  profile while explaining the shared research infrastructure in the article.
+
+## 0.15.0 - words, sources and accountable common institutions
+
+- Explain abstract 4 as literal matching words per 10,000 words, with the numerator, denominator, exact search forms and two separate weighting columns.
+- Replace intervention-number lookups with named conflicts and required changes; distinguish labelled choices from resulting records.
+- Reconnect the passage comparison to Los's system-making, and make overlapping affiliations and state interpretations visible on the cover.
+- Strengthen the opening through Clark, White, Stefanis, Viscomi and Fallon; retain existing reading credit, quotations, bibliography and formalisms.
+- Add source-length examples and explicit zero, small-positive and undefined frequency labels.
+
 ## 0.14.0 - analytical graphical abstracts
 
 - Redesign all four opening figures with restrained typography, explicit relations, a six-row reading comparison, an essential-intervention matrix and a source-weighting sensitivity plot.

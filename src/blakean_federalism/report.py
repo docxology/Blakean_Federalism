@@ -17,6 +17,7 @@ from .corpus_statistics import analyze_corpus
 from .institutional_experiments import run_experiment
 from .institutions import assess
 from .manuscript import ManuscriptSpec, validate_manuscript
+from .method_provenance import shared_source_hashes
 from .models import (
     Concordance,
     CorpusPin,
@@ -103,6 +104,11 @@ def build_workbench(
         raise ResearchError("report_source_changed", "An input changed during report preparation")
     package = files("blakean_federalism")
     producer_names = (
+        "method_provenance.py",
+        "institutional_review_models.py",
+        "institutional_review.py",
+        "institutional_review_figure.py",
+        "review_publication.py",
         "__init__.py",
         "corpus_statistics.py",
         "corpus_statistics_models.py",
@@ -132,6 +138,7 @@ def build_workbench(
         name: hashlib.sha256(package.joinpath(name).read_bytes()).hexdigest()
         for name in producer_names
     }
+    producer_sources.update(shared_source_hashes())
     return Workbench(
         producer_version=__version__,
         corpus_statistics=analyze_corpus(passages, queries),

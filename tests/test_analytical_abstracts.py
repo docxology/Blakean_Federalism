@@ -28,7 +28,7 @@ prepared = workbench_fixture
 @pytest.fixture
 def analytical(illuminated):
     root, report, artwork = illuminated
-    return root, report.model_copy(update={"producer_version": "0.14.0"}), {"J1": artwork["J1"]}
+    return root, report.model_copy(update={"producer_version": "0.15.0"}), {"J1": artwork["J1"]}
 
 
 def test_four_vector_pages_preserve_j1_and_embed_valid_used_fonts(analytical):
@@ -78,16 +78,21 @@ def test_curved_marks_are_small_circles_not_decorative_arches(analytical):
                 assert max(xs) - min(xs) == pytest.approx(max(ys) - min(ys))
 
 
-def test_pdf_exposes_computed_rates_ratio_legend_and_capture_denominators(analytical):
+def test_pdf_exposes_worked_counting_example_word_forms_and_capture_denominators(analytical):
     root, report, artwork = analytical
     drawings = analytical_drawings(report, artwork)
-    corpus = render(root / "rates.pdf", drawings["abstract-4"]).extract_text()
+    corpus = " ".join(render(root / "rates.pdf", drawings["abstract-4"]).extract_text().split())
     repair = render(root / "repairs.pdf", drawings["abstract-3"]).extract_text()
-    assert "3750.00 / 2500.00" in corpus
-    assert "1/3 families" in corpus
-    assert re.search(r"1\s*=\s*pooled", corpus)
-    assert "equal-family / pooled" in corpus
-    assert "deletion-rate / pooled" in corpus
+    assert "3750.00" in corpus
+    assert "2500.00" in corpus
+    assert "3 matches" in corpus
+    assert "8 words" in corpus
+    assert "LITERAL WORDS SEARCHED" in corpus
+    assert "Matching words per 10,000 words" in corpus
+    assert "1/3" in corpus
+    assert "ALL WORDS" in corpus
+    assert "EACH FAMILY" in corpus
+    assert "relative to pooled" not in corpus.lower()
     assert "20,480" in repair
     assert "5,120" in repair
     assert "15,360" in repair
@@ -123,12 +128,12 @@ def test_changed_counts_and_verse_reach_real_outputs(analytical):
     drawings = analytical_drawings(changed, artwork)
     corpus = render(root / "changed-rates.pdf", drawings["abstract-4"]).extract_text()
     readings = render(root / "changed-verse.pdf", drawings["abstract-2"]).extract_text()
-    assert "5000.00 / 5000.00" in corpus
-    assert "3750.00 / 2500.00" not in corpus
-    assert "1/1 families" in corpus
+    assert corpus.count("5000.00") >= 2
+    assert "3750.00" not in corpus
+    assert "1/1" in corpus
     assert "A bounded replacement witness." in " ".join(readings.split())
     captions = analytical_captions(changed)
-    assert re.search(r"\b1 primary reading extracts", captions[3])
+    assert re.search(r"\b1 primary extracts", captions[3])
     assert re.search(r"\b2 Unicode", captions[3])
 
 
@@ -144,14 +149,14 @@ def test_zero_hits_and_unavailable_rate_denominators_are_explicit(analytical, te
         root / f"zero-{len(text)}.pdf", analytical_drawings(changed, artwork)["abstract-4"]
     )
     content = page.extract_text()
-    assert content.count("ratio undefined") == 8
-    assert ("0.00 / 0.00" in content) == (text == "unrelated")
+    assert "ratio" not in content.lower()
+    assert ("0.00" in content) == (text == "unrelated")
     assert not {"nan", "inf", "-inf"}.intersection(content.lower().split())
     assert "N/A" in content
     assert len(analytical_captions(changed)) == 4
 
 
-@pytest.mark.parametrize("quote_id", ["Q37", "Q38", "Q39", "Q40"])
+@pytest.mark.parametrize("quote_id", ["Q31", "Q37", "Q38", "Q39", "Q40"])
 @pytest.mark.parametrize("shorten", [False, True])
 def test_missing_or_shortened_new_quotes_fail_before_rendering(analytical, quote_id, shorten):
     _, report, artwork = analytical
@@ -171,9 +176,10 @@ def test_alternative_minimal_bundles_keep_overlap_and_essential_semantics(analyt
     changed = report.model_copy(update={"institutional_experiments": alternative})
     page = render(root / "alternatives.pdf", analytical_drawings(changed, artwork)["abstract-3"])
     content = page.extract_text()
-    assert re.findall(r"\d+", " ".join(content.splitlines()[:2])) == ["1", "3"]
+    assert "1 conflict needs different repairs" in " ".join(content.split())
+    assert "3 possible field changes" in " ".join(content.split())
     assert "5/8" in content
-    assert re.search(r"\b8 labelled subsets", content)
+    assert re.search(r"\b8 labelled combinations", content)
     # The two alternative generators have empty intersection; no essential dots may be drawn.
     assert not any(op == b"c" for _, op in page.get_contents().operations)
     caption = analytical_captions(changed)[2]
@@ -207,16 +213,18 @@ def test_four_captions_keep_structured_refs_and_computed_partition_counts(analyt
     _, report, _ = analytical
     captions = analytical_captions(report)
     assert len(captions) == 4
-    assert set(re.findall(r"\[@([\w-]+)", captions[1])) >= {
-        "damrosch1980",
+    assert set(re.findall(r"@([\w-]+)", captions[1])) >= {
+        "clark1995Birenbaum",
+        "white2005Science",
         "fallon2015",
+        "kaplan1996Patriarchy",
         "simpson2007",
     }
     assert "20,480" in captions[2]
     assert "5,120" in captions[2]
     assert "40,960" in captions[2]
     assert "31 distinct" in captions[2]
-    assert re.search(r"\b4 primary reading extracts", captions[3])
+    assert re.search(r"\b4 primary extracts", captions[3])
     assert re.search(r"\b8 Unicode", captions[3])
 
 

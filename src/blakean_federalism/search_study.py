@@ -1,56 +1,14 @@
 # Copyright (c) 2026 Daniel Ari Friedman
-"""Aggregate literal-search comparisons with complete source-stratum denominators."""
+"""Application-selected comparisons delegated to shared literal methods."""
 
-from typing import Literal
-
-from pydantic import Field, model_validator
-
-from .models import CorpusPin, FrozenModel, Passage, ResearchError
-from .search import search_passages
-from .search_models import SearchFacet, SearchRequest
-
-
-class StudyQuery(FrozenModel):
-    query_id: str
-    terms: tuple[str, ...]
-    eligible_source_units: int
-    matched_source_units: int
-    total_occurrences: int
-    facets: tuple[SearchFacet, ...]
-
-
-class SearchStudy(FrozenModel):
-    schema_version: Literal[1] = 1
-    corpus_pin: CorpusPin
-    source_units: int = Field(ge=0)
-    queries: tuple[StudyQuery, ...]
-    method: str = (
-        "Literal Unicode casefold; whole-word boundaries; exact whitespace; stored units retained."
-    )
-
-    @model_validator(mode="after")
-    def reconcile_counts(self) -> "SearchStudy":
-        if not self.queries or len({q.query_id for q in self.queries}) != len(self.queries):
-            raise ResearchError("search_study_queries", "Require nonempty unique query identities")
-        for query in self.queries:
-            keys = {(f.work_id, f.plane, f.role) for f in query.facets}
-            if (
-                len(keys) != len(query.facets)
-                or sum(f.source_units for f in query.facets) != self.source_units
-                or query.eligible_source_units != self.source_units
-                or sum(f.matched_units for f in query.facets) != query.matched_source_units
-                or sum(f.occurrences for f in query.facets) != query.total_occurrences
-                or any(
-                    f.matched_units > f.source_units or f.matched_units > f.occurrences
-                    for f in query.facets
-                )
-            ):
-                raise ResearchError("search_study_counts", query.query_id)
-        return self
+from blake.methods.models import ProjectionCorpusPin as CorpusPin
+from blake.methods.models import ProjectionPassage as Passage
+from blake.methods.search_study import SearchStudy, StudyQuery
+from blake.methods.search_study import build_search_study as _build
 
 
 def build_search_study(passages: tuple[Passage, ...], pin: CorpusPin) -> SearchStudy:
-    """Count each selected literal query across every role without releasing contexts."""
+    """Retain this study's selected queries and their exact ordering."""
     selected = (
         ("minute_particulars", ("minute particulars",)),
         ("general_forms", ("general forms",)),
@@ -60,19 +18,7 @@ def build_search_study(passages: tuple[Passage, ...], pin: CorpusPin) -> SearchS
         ("nation", ("nation",)),
         ("negative_control", ("zzzxqvnegativecontrol",)),
     )
-    rows: list[StudyQuery] = []
-    for identity, terms in selected:
-        result = search_passages(passages, SearchRequest(terms=terms, role=None, limit=1))
-        if sum(f.source_units for f in result.facets) != len(passages):
-            raise ResearchError("search_study_denominator", identity)
-        rows.append(
-            StudyQuery(
-                query_id=identity,
-                terms=terms,
-                eligible_source_units=result.eligible_source_units,
-                matched_source_units=result.matched_source_units,
-                total_occurrences=result.total_occurrences,
-                facets=result.facets,
-            )
-        )
-    return SearchStudy(corpus_pin=pin, source_units=len(passages), queries=tuple(rows))
+    return _build(passages, pin, selected)
+
+
+__all__ = ["SearchStudy", "StudyQuery", "build_search_study"]

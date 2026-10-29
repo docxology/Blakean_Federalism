@@ -28,3 +28,34 @@ The model distinguishes poetic interpretation, institutional claims and measured
 | $\eta=[s_\eta,e_\eta)$; $\Omega_b(u)$; $H_q^b(u)$ | Hit interval, qualifying complete match tuples and participating term matches. [@eq:window] |
 
 A zero denominator is N/A; a populated denominator with no matches is zero. Subset counts differ from distinct resulting records. Solid affiliation, dashed interpretation and red competence links denote different claims, rather than successive authorization steps.
+
+
+\clearpage
+
+## Local notation for person-specific review {.unnumbered .unlisted}
+
+These symbols apply to the person-specific review subsections of [@sec:s5],
+beginning with [@sec:individual-review]. Here $i$ identifies an affected person,
+not an intervention index; $P_i$ denotes protection rather than sort $P$; $G_i$
+denotes uncovered intervals rather than a failure set; $U_i$ is hours rather than
+the source-unit universe $U$. Boolean $B$ labels are distinct from intervention
+bundles $B,B'$ and matched-unit count $B_{\mathrm{match}}$. Event time is measured
+in integer hours from notice, with the event-order conventions stated in
+[@def:review-wait; @def:review-profile].
+
+| Symbol | Meaning and type |
+|---|---|
+| $i$ | One explicitly listed affected individual; membership does not determine standing |
+| $t_o,t_c,t_r$ | Filing opens, filing closes, response takes effect; nonnegative integer hours, $t_o\leq t_c\leq t_r$ |
+| $t_i^a,t_i^f$ | Completed-prerequisite readiness and earliest filing; $t_i^f=\max(t_o,t_i^a)$ |
+| $t_i^q$ | Time the specified consequence reaches individual $i$, in hours |
+| $h_i^a,h_i^s,h_i^r$ | Available, support-enabled and required preparation hours for $i$ |
+| $P_i$ | Active interim-protection interval, or the empty set |
+| $G_i,U_i$ | Uncovered waiting intervals and their summed duration in hours |
+| $B_i^{\mathrm{admit}},B_i^{\mathrm{remain}},B_i^{\mathrm{hours}},B_i^{\mathrm{file}},B_i^{\mathrm{wait}}$ | The five individual Boolean conditions in document order |
+| $B_{\mathrm{office}},B_{\mathrm{revise}}$ | Procedure has distinct issuing/reviewing office IDs; procedure can revise the act |
+| $B_{\mathrm{review}}$ | Conjunction of the seven declared conditions for every listed individual |
+| $h,k$; $\mathcal R_h$ | Compared procedure indices and one residual profile, with fixed people and duties. [@def:review-requirements] |
+| $F_h^J,F_{hi}$ | Unmet forum requirements and person-indexed access requirements; finite categorical sets |
+| $d_{hi},\ell_{hi},G_{hi}$ | Nonnegative preparation shortfall and readiness lateness in hours; exact uncovered time set for person $i$ in procedure $h$ |
+| $\preceq$ | Product of requirement-set inclusion, deficit order and exact-gap inclusion; partial order on residual profiles, preorder on procedures. [@prop:review-order] |
