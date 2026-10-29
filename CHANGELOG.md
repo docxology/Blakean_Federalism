@@ -2,6 +2,9 @@
 
 ## 0.16.0 — shared methods and authored evidence review
 
+- Refresh the exact shared SDK Git pin and lock, reproduce the 655-test installed gate and four historical analyses, and compile the current 72-page native edition.
+- Preserve the person-specific institutional policy, historical producer identities, prior native bytes and all earlier qualification records.
+
 - Add exact person-indexed residual comparisons, a partial order with explicit incomparability, new figures and manuscript integration.
 - Pin the revised shared SDK, qualify noneditable installed execution, and retain a fresh native edition separately from historical analysis and review.
 

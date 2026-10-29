@@ -74,7 +74,7 @@ pythonVersion = "3.11"
 extraPaths = ["../../Public/blake", "src"]
 
 [tool.uv.sources]
-blake = {git = "https://github.com/docxology/blake.git", rev = "21b1c002ef7588b9c908fb60fd6111c4eb548358"}
+blake = {git = "https://github.com/docxology/blake.git", rev = "d020f47767996a061b6f60e93a82da9386a7926c"}
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/blakean_federalism"]

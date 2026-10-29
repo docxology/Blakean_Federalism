@@ -1,0 +1,15 @@
+{
+  "schema_version": 19,
+  "version": "0.16.0",
+  "status": "installed_regression_native_content_and_root_manual_qa_pass_independent_gate_separate",
+  "tests": 655,
+  "coverage_percent": {
+    "application": 92.30044737461738,
+    "tools": 70.72243346007605
+  },
+  "epoch": "advancement-20261028-02",
+  "qualification": "research/advancement-20261028.json",
+  "sha256": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
+  "native_content_verification": "analysis_output/publication/advancement-20261028-02/rendered-content-verification.json",
+  "scope": "Installed/full-regression and native content/root manual checks; independent final gate separate."
+}

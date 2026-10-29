@@ -1,15 +1,23 @@
 {
-  "schema_version": 19,
+  "schema_version": 20,
   "version": "0.16.0",
-  "status": "installed_regression_native_content_and_root_manual_qa_pass_independent_gate_separate",
   "tests": 655,
-  "coverage_percent": {
-    "application": 92.30044737461738,
-    "tools": 70.72243346007605
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 92.30044737461738,
+      "floor": 90,
+      "covered": 3920,
+      "total": 4247
+    },
+    "tools": {
+      "branch_aware_percent": 70.72243346007605,
+      "floor": 60,
+      "covered": 372,
+      "total": 526
+    }
   },
-  "epoch": "advancement-20261028-02",
-  "qualification": "research/advancement-20261028.json",
-  "sha256": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
-  "native_content_verification": "analysis_output/publication/advancement-20261028-02/rendered-content-verification.json",
-  "scope": "Installed/full-regression and native content/root manual checks; independent final gate separate."
+  "coverage_scope": "Installed pytest full suite.",
+  "qualification": "research/expansion-installed-20261028.json",
+  "sha256": "0b76addfd0afdff81c0b0f23dd0acb7df4f0afc66ffeab26e132376c99d72e37",
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
 }

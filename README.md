@@ -2,19 +2,22 @@
 
 Private research on **composition without capture**: a federation contains STATES in the proposed Blakean sense, while NATIONS are temporal generations, combinations and productions. Several nations can coexist without becoming one nation. Poetic states, persons, national formations and coercive jurisdictions remain distinct.
 
-The current source candidate adds a [person-specific procedural comparison](docs/research/procedural-comparison.md)
-over the existing fourteen procedures and twenty-eight claimant records:
+The current edition uses public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
+installation: 655 tests pass, with 92.30% application and 70.72% tool branch-aware
+coverage. Strict typing, Ruff and dependency compatibility pass; all four
+historical analytical JSON files replay byte for byte. The actual pinned native
+template writers produced the 72-page PDF and HTML at
+`analysis_output/publication/expansion-20261028-02`. This fresh PDF is empirically byte-identical
+to the preceding 72-page edition.
 
-```bash
-uv run blakean compare-review --output analysis_output/review-comparison/new-epoch --figures
-```
-
-It exports exact unmet requirements, all pairwise inclusion relations and a
-bounded repair frontier. Two new data-derived figures enter the main manuscript,
-with generated captions. See the private [authoring guide](docs/style-guide.md).
-This addition is source-qualified separately from the historical 0.16.0 native
-render and installed dependency receipt; final rendering and SDK pins belong to
-the integration owner.
+The person-specific procedural comparison retains fourteen procedures,
+twenty-eight claimants, explicit unmet requirements and partial-order
+incomparability. Its two figures stay in the main argument. The political
+requirements are application policy; no generic composition statistic is used
+as an institutional legitimacy score. See
+[current qualification](research/expansion-installed-20261028.json) and the
+[render guide](docs/manuscript/README.md). Independent review and browser behavior
+have separate scopes.
 
 This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
 

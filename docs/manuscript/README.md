@@ -1,16 +1,43 @@
-# Rebuild the private manuscript
+# Rebuild the current private manuscript
 
-Current native edition: `analysis_output/publication/advancement-20261028-02`. The 72-page PDF and its HTML use the exact SDK pin `21b1c002ef7588b9c908fb60fd6111c4eb548358`. See `research/advancement-20261028.json` for installation, source, replay, content and root page-QA scopes. The earlier 69-page/stage05 qualification notes below refer to the preserved historical edition.
+The current edition uses public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
+installation: 655 tests pass, with 92.30% application and 70.72% tool branch-aware
+coverage. Strict typing, Ruff and dependency compatibility pass; all four
+historical analytical JSON files replay byte for byte. The actual pinned native
+template writers produced the 72-page PDF and HTML at
+`analysis_output/publication/expansion-20261028-02`. This fresh PDF is empirically byte-identical
+to the preceding 72-page edition.
 
-The procedural-comparison candidate integrates two additional generated figures,
-one definition, one proposition and one equation in the main argument. Preparation
-now retains `review-comparison/` with JSON/CSV/receipt and supplies caption
-variables for the requirement and comparison figures. Its private source/reading
-guide is `docs/style-guide.md`; selected primary rereading is recorded in
-`research/procedural-comparison-reading-20261028.json`. Historical counts and
-69-page QA below describe the prior native output. The candidate needs a fresh
-native render and physical-page QA before any new page count or rendered pass
-can be claimed.
+The person-specific procedural comparison retains fourteen procedures,
+twenty-eight claimants, explicit unmet requirements and partial-order
+incomparability. Its two figures stay in the main argument. The political
+requirements are application policy; no generic composition statistic is used
+as an institutional legitimacy score. See
+[current qualification](research/expansion-installed-20261028.json) and the
+[render guide](docs/manuscript/README.md). Independent review and browser behavior
+have separate scopes.
+
+Use the supported repository lease and external CPython/runtime/cache roots.
+The exact current command supplies the already qualified corpus and a fresh
+replayed concordance explicitly; it does not rely on a stale default filename:
+
+```bash
+uv run --locked blakean render-manuscript \
+  --template-root "$BLAKE_TEMPLATE_ROOT" --template-python "$BLAKE_TEMPLATE_PYTHON" \
+  --corpus local_data/corpus/blake-v0.2.0-qualified \
+  --concordance-file analysis_output/expansion-installed-replay-20261028-01/concordance.json \
+  --readings research/scholarship-reading-0.13.0.json \
+  --output analysis_output/publication/native-new
+```
+
+Bind the template variables to the clean pinned worktree and its external
+compatible interpreter recorded in the native receipt. Canonical template drift
+does not change that recorded renderer origin. Choose a new output epoch;
+preserve earlier native files, failures and logs. Static HTML asset and fragment
+checks passed with a missing-asset rejection control; browser/MathJax behavior
+was not tested in this pass.
+
+## Retained version-specific authoring and historical qualifications
 
 Version 0.16.0 uses the actual PDF and HTML rendering infrastructure from a clean, commit-pinned checkout of [docxology/template](https://github.com/docxology/template). The pin, writer identities and citation profile are recorded in `research/template-rendering.json`. The canonical authoring files are `states-change.md`, `references-and-rights.md`, `references.bib`, `config.yaml` and `preamble.md`.
 
