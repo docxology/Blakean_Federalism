@@ -1,6 +1,6 @@
 # Private Federalism authoring conventions
 
-Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/21b1c002ef7588b9c908fb60fd6111c4eb548358/docs/style-guide.md)
+Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/d020f47767996a061b6f60e93a82da9386a7926c/docs/style-guide.md)
 for general method boundaries, provenance and manuscript syntax. The link
 binds these conventions to the exact public SDK source used by this project.
 These private additions concern this argument and its institutional model.

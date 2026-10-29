@@ -59,7 +59,7 @@
     "docs/research/urizen-context-0.7.0.md": "52e9a00d6b5fccb47fd42514f4f757f20ccde2f7168e58d6cf3689385786ed2b",
     "docs/scope-integration.md": "28b57102356b5e532e828bb1f63a54fde00b1efb658efde7b5e947ddc3b29fcd",
     "docs/shared-methods.md": "f58d66b8fc152d4ececada49574be7d50b192809a2e669b983b666ceb205c643",
-    "docs/style-guide.md": "31e5238e9f41399860feff5beb11a5c235a749ee3af456ef42f56461ab809b78",
+    "docs/style-guide.md": "0c1a3d9cd5957ae7338208b3dc5df7768a41f72e5b802c43ba022a9cd68da576",
     "pyproject.toml": "eaddec1bc5c96fe4a19a20710af2a9a0f19539ffe47d841a308b7c77bb6c8fb4",
     "research/abstract-analysis-0.14.0.json": "43cc55c912449794ebd4d7c82857df4d2d8a7c73aad8780e023b957e051a8cd5",
     "research/advancement-20261028.json": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
@@ -329,5 +329,11 @@
       "sha256": "0db5c2ec3d124370d923367efdd4d2e4c0ae61c02cc222e45cfd1219a20dadb5"
     }
   },
-  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred."
+  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred.",
+  "documentation_delta": {
+    "scope": "Shared authoring-guide URL and this index binding only; executable, scholarly authoring, data and native PDF bytes unchanged.",
+    "previous_guide_pin": "21b1c002ef7588b9c908fb60fd6111c4eb548358",
+    "current_guide_pin": "d020f47767996a061b6f60e93a82da9386a7926c",
+    "shared_guide_content_identical_at_both_public_commits": true
+  }
 }
