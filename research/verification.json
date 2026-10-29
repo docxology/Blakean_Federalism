@@ -19,8 +19,64 @@
   },
   "coverage_scope": "Fresh installed full pytest suite",
   "delivery": {
+    "branch": "main",
+    "canonical_fast_forward_receipt": {
+      "path": "Local/blake-private-alignment-20261029/receipts/federalism-canonical-fast-forward.json",
+      "sha256": "c9a2ffa730bf8d19b73cb4caa323d057e7e2c5d188dbb49de9b014e81d75e2df"
+    },
+    "canonical_original_work": {
+      "archive_branch": "archive/pre-main-alignment-20261029",
+      "archive_head": "4896b7218a33647735b609f5164cb2e75e2fa135",
+      "private_archive_remote_verified": true,
+      "receipt": "Local/blake-private-alignment-20261029/receipts/federalism-canonical-wip-preserved.json",
+      "sha256": "d9c9dcd4414eafaac8865b6076e0538e1c5ed83acb14dec08abab358699460e6"
+    },
+    "final_head_scope": "integration_commit identifies the verified main integration before this bounded documentation/receipt closure. The final ordinary push and exact local/remote HEAD are read back in the external final delivery receipt.",
+    "fresh_canonical_installation": {
+      "path": "Local/blake-private-alignment-20261029/receipts/federalism-canonical-installed.json",
+      "record": {
+        "all_installed_python_sources_equal_canonical_main": true,
+        "canonical_ignored_assets_unchanged": true,
+        "cli_help_exit": 0,
+        "environment": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/federalism-canonical",
+        "head": "aaa2aa13c6c30c845632720fcec24361a320c179",
+        "identity": {
+          "app": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/federalism-canonical/lib/python3.11/site-packages/blakean_federalism/__init__.py",
+          "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+          "direct_url": {
+            "url": "https://github.com/docxology/blake.git",
+            "vcs_info": {
+              "commit_id": "45171a099a6a658c52ab689501de646a28485653",
+              "requested_revision": "45171a099a6a658c52ab689501de646a28485653",
+              "vcs": "git"
+            }
+          },
+          "installed_distributions": 33,
+          "prefix": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/federalism-canonical",
+          "sdk": "/Volumes/GitVault/Local/blake-private-alignment-20261029/artifacts/environments/federalism-canonical/lib/python3.11/site-packages/blake/__init__.py"
+        },
+        "locked_install_exit": 0,
+        "locked_install_log_sha256": "3430bf3e28ef73b65e24f418af0cbffcd658fe546e93649b4165665390bcdc42"
+      },
+      "sha256": "90ed0e8ebedab0c9f658915eb8977fd483cdfc2e6a5b85d71776ef5ed6bfd491"
+    },
+    "independent_candidate_readiness": {
+      "path": "Local/blake-private-alignment-20261029/independent-review/federalism-readiness.md",
+      "scope": "Pre-main source/software/custody readiness only; final closure independently reviewed separately.",
+      "sha256": "a96870c80cc1260d770c722661905ff03ca30af11973345aff5024b39fd25746"
+    },
+    "integration_commit": "aaa2aa13c6c30c845632720fcec24361a320c179",
+    "private_identity_immediately_before_merge": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "id": "R_kgDOVVRb7g",
+      "nameWithOwner": "docxology/Blakean_Federalism",
+      "visibility": "PRIVATE"
+    },
     "pull_request": "https://github.com/docxology/Blakean_Federalism/pull/1",
-    "status": "awaiting qualified existing PR integration to private main"
+    "pull_request_state": "MERGED",
+    "status": "PRIVATE_MAIN_INTEGRATED"
   },
   "qualification": "research/main-alignment-20261029.json",
   "qualification_epoch": "main-alignment-20261029",
@@ -40,7 +96,7 @@
   },
   "schema_version": 21,
   "scope": "Current software/core integration and documentation delivery. Retained manuscript bytes and historical input/decision/source epochs unchanged; no new native, browser, image-census, scholarly or scientific acceptance.",
-  "sha256": "2155120db830ae25bdccbdf58adca6255af5796aa6b905cde48b3a4639326dc4",
+  "sha256": "dc34aa6a88e69cb623afa25e41433a8b907bcb783b1937b358ced61d2cf0661f",
   "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
   "tests": 655,
   "version": "0.16.0"

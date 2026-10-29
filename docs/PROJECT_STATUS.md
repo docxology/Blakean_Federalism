@@ -40,11 +40,11 @@ qualification changes none of those historical inputs or reviewed paper bytes.
 | E2 | Federalism review and procedural comparison | Complete for the fixed study: fourteen procedures, twenty-eight claimant records, exact uncovered intervals, separate conditions and residual-profile comparisons. See [review audit](research/institutional-review.md) and [comparison](research/procedural-comparison.md). These are hypothetical cases with explicit unassessed questions. |
 | E3 | Native working-paper render and bounded independent review | Complete for the retained 72-page PDF and its bound source/figure inputs. Native rendering and software/physical-page review are separate evidence scopes; neither establishes specialist science, legal authorization or browser behavior. See [render guide](manuscript/README.md) and the expansion receipt. |
 | E4 | Current Blake 0.4.0 installed qualification and documentation alignment | Complete: fresh normal installed Blake 0.4.0 qualification passed 655 tests, strict typing, lint/format, dependency checks and current production replay. Four analytical files and comparison measurements/figures match their retained originals. See [current verification](../research/verification.json). Historical receipts and producer epochs remain intact. |
-| E5 | Private-main integration and delivery | Root closing: preserve canonical WIP, integrate the reviewed feature and these signposts, retain the accepted PDF, verify a clean ordinary push and matching remote `main`. A source-only or draft-PR pass is not delivery. |
+| E5 | Private-main integration and delivery | Complete: qualified PR #1 merged normally; canonical main fast-forwarded to the verified private remote, with exact tracked-byte/checkout verification and a fresh locked canonical-source installation. The original 30 working files remain on the pushed archive branch; 18,266 ignored/untracked assets are unchanged. The final documentation/receipt closure is recorded in [current verification](../research/verification.json). |
 
-E1–E4 are closed implementation/render/qualification work. E5 remains the
-private-main integration action for this delivery and must be closed from its
-actual final receipt. The research packages below remain distinct.
+E1–E5 are closed implementation/render/qualification and private-main delivery
+work. The current receipt binds their actual evidence; the research packages
+below remain distinct.
 
 ## Scoped research and review work
 

@@ -1,0 +1,47 @@
+{
+  "coverage": {
+    "application": {
+      "branch_aware_percent": 92.3239934071109,
+      "branches": 734,
+      "covered": 3921,
+      "floor": 90,
+      "statements": 3513,
+      "total": 4247
+    },
+    "tools": {
+      "branch_aware_percent": 70.72243346007605,
+      "branches": 116,
+      "covered": 372,
+      "floor": 60,
+      "statements": 410,
+      "total": 526
+    }
+  },
+  "coverage_scope": "Fresh installed full pytest suite",
+  "delivery": {
+    "pull_request": "https://github.com/docxology/Blakean_Federalism/pull/1",
+    "status": "awaiting qualified existing PR integration to private main"
+  },
+  "qualification": "research/main-alignment-20261029.json",
+  "qualification_epoch": "main-alignment-20261029",
+  "reviewed_native": {
+    "current_native_render_performed": false,
+    "historical_shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
+    "native": {
+      "directory": "analysis_output/publication/expansion-20261028-02",
+      "native_receipt_sha256": "f9c41ded44ec302d80ca02f33bdb407cfb5c615c1710f870f414c4b7be2f0935",
+      "pages": 72,
+      "pdf": "analysis_output/publication/expansion-20261028-02/output/pdf/blakean_federalism_combined.pdf",
+      "pdf_sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d"
+    },
+    "pages": 72,
+    "pdf": "Blakean_Federalism.pdf",
+    "sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d"
+  },
+  "schema_version": 21,
+  "scope": "Current software/core integration and documentation delivery. Retained manuscript bytes and historical input/decision/source epochs unchanged; no new native, browser, image-census, scholarly or scientific acceptance.",
+  "sha256": "2155120db830ae25bdccbdf58adca6255af5796aa6b905cde48b3a4639326dc4",
+  "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653",
+  "tests": 655,
+  "version": "0.16.0"
+}
