@@ -6,3 +6,6 @@ research/*.csv -text
 research/*.csv whitespace=cr-at-eol
 # Retain the upstream font license verbatim, including its spaces and final blank line.
 src/blakean_federalism/resources/fonts/bitstream-vera-license.txt -text whitespace=-blank-at-eol,-blank-at-eof
+
+# Preserve the privately reviewed manuscript bytes.
+/Blakean_Federalism.pdf -text -diff

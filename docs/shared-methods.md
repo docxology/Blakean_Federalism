@@ -1,10 +1,32 @@
 # Shared methods and authored evidence review
 
-The 0.16 software candidate delegates corpus custody, passage schemas, regex
+The 0.16 application delegates corpus custody, passage schemas, regex
 concordance, literal search, word-window proximity, statistics and offline search
 rendering to `blake.methods`. This repository owns the political query registry,
 fixed comparison grid, institutional models, readings and manuscript. Its
 institutional conclusions are not corpus metadata.
+
+## Current software and historical evidence
+
+The current integration selects public Blake 0.4.0 at
+`45171a099a6a658c52ab689501de646a28485653`. The exact executable dependency is
+declared in [pyproject.toml](../pyproject.toml) and [uv.lock](../uv.lock), with
+its measured qualification in [verification.json](../research/verification.json).
+The moving upstream `main` is the development source, not an implicit repin of
+a completed application run. The core's
+[working paper](https://doi.org/10.5281/zenodo.23770249) documents shared
+infrastructure rather than the Federalism argument.
+
+| Shared core responsibility | Federalism responsibility |
+|---|---|
+| Source custody, portable schemas and source identities | Select the private study snapshot and retain its historical corpus pin |
+| Distinct regex, literal and normalized retrieval contracts | Supply political terms, contexts, query profiles and interpretation ceilings |
+| Generic statistics, proximity, annotation custody and workspace mechanics | Define the study grouping and authored reading labels; inspect counterreadings |
+| Source-bound outputs and exclusive artifact publication | Define the fifteen safeguards, person-specific review premises and residual-profile comparison |
+
+The fourth row's institutional requirements remain domain code here; shared
+custody of annotation files is different from institutional access to review.
+See [project status](PROJECT_STATUS.md) for current task ownership and acceptance.
 
 The migration retains the historical regex and literal contracts. A fresh run on
 the independently copied 2,067-unit input reproduces all four historical JSON
@@ -12,6 +34,9 @@ measurements byte for byte: concordance, descriptive statistics, literal study a
 proximity. New producer receipts include the delegated shared source files.
 Historical producer identities, corpus pins and acceptance packets remain
 historical; numerical equality does not replace them with a new producer.
+The retained working-paper epoch used SDK `d020f47767996a061b6f60e93a82da9386a7926c`;
+the corpus capture records its earlier producer separately. Qualifying the
+current SDK preserves both records and writes a new execution receipt.
 
 ## Prepare a private review queue
 

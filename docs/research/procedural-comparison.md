@@ -51,9 +51,11 @@ uv run blakean compare-review \
   --figures
 ```
 
-In the source stage use root's explicit external environment and
-`PYTHONPATH=PACKET/core:PACKET/federalism/src`. Do not install dependencies or
-mistake source qualification for installed-package qualification.
+Use the locked project environment with the manuscript extra when figures are
+requested. The current SDK is selected in `pyproject.toml` and `uv.lock`; its
+installed qualification is recorded separately in
+[`research/verification.json`](../../research/verification.json). The older
+source-stage `PYTHONPATH` arrangement is not the installed execution route.
 
 The command writes a new directory with:
 
@@ -93,6 +95,11 @@ records the selected primary-source reread and its ceilings.
 
 No new empirical case, court holding, present-day legal claim, full-work reading,
 quotation, corpus/search/stats/queue engine or generic graph framework is added.
-The previous 69-page PDF QA remains historical. This stage prepares sources and
-figures; final native PDF/HTML rendering, page inspection, installed SDK replay
-and final acceptance belong to root. The existing browser file-URL hold remains.
+The previous 69-page PDF QA remains historical. The subsequent installed/native
+expansion produced the retained 72-page working paper and byte-identical replay
+of the four historical analytical outputs; see
+[`research/expansion-installed-20261028.json`](../../research/expansion-installed-20261028.json)
+and the [render guide](../manuscript/README.md). Current SDK/main delivery and
+remaining research/browser work are scoped in [project status](../PROJECT_STATUS.md).
+The browser file-URL hold remains separate from completed software and native
+working-paper qualification.

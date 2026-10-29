@@ -1,8 +1,13 @@
 # Research status
 
-## Current installed/native expansion
+Use [project status](PROJECT_STATUS.md) for current engineering closure,
+integration and scoped next actions. This file preserves the research and
+qualification chronology. A result below belongs to its named producer epoch;
+it is not automatically a new test or render under the current dependency.
 
-The current edition uses public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
+## Retained installed/native expansion (2026-10-28)
+
+The reviewed edition used public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
 installation: 655 tests pass, with 92.30% application and 70.72% tool branch-aware
 coverage. Strict typing, Ruff and dependency compatibility pass; all four
 historical analytical JSON files replay byte for byte. The actual pinned native
@@ -15,13 +20,11 @@ twenty-eight claimants, explicit unmet requirements and partial-order
 incomparability. Its two figures stay in the main argument. The political
 requirements are application policy; no generic composition statistic is used
 as an institutional legitimacy score. See
-[current qualification](research/expansion-installed-20261028.json) and the
-[render guide](docs/manuscript/README.md). Independent review and browser behavior
+[that epoch's qualification](../research/expansion-installed-20261028.json) and the
+[render guide](manuscript/README.md). Independent review and browser behavior
 have separate scopes.
 
-## Preserved prior advancement status
-
-## Current advancement: procedural comparison and shared SDK
+## Earlier advancement epoch: procedural comparison and shared SDK
 
 The current source adds person-indexed residual comparisons, exact uncovered-interval requirements, two data-derived figures and private authoring conventions. The public SDK is pinned to `21b1c002ef7588b9c908fb60fd6111c4eb548358`. A fresh locked noneditable installation passed 655 tests; application/tool statement-and-branch coverage is 92.30% / 70.72%. Strict typing, Ruff, formatting and dependency compatibility pass. All four historical analytical files replay byte-for-byte.
 
@@ -56,8 +59,10 @@ quotation, provider image or reading-credit upgrade is inferred from extraction
 or the fixed fourteen-procedure review audit. The original fifteen safeguards
 and historical analytical producer identities remain intact.
 
-Current evidence is indexed by `research/current-source.json`,
-`research/verification.json` and `research/rendered-review-0.16.0.json`. Exact
+That stage's evidence is retained in `research/rendered-review-0.16.0.json`;
+current software qualification is indexed separately by
+[`research/current-source.json`](../research/current-source.json) and
+[`research/verification.json`](../research/verification.json). Exact
 pre-update current-source and verification bytes are preserved in
 `research/history/shared-methods-0.16-preimage/`; the older 64-page 0.15.0 render
 record and the stage02/stage04 findings remain historical.

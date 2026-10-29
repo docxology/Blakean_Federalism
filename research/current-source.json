@@ -1,28 +1,25 @@
 {
-  "schema_version": 20,
-  "current_version": "0.16.0",
-  "qualification_epoch": "expansion-installed-20261028",
-  "receipt": "research/expansion-installed-20261028.json",
-  "receipt_sha256": "0b76addfd0afdff81c0b0f23dd0acb7df4f0afc66ffeab26e132376c99d72e37",
-  "shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
   "current_source_bindings": {
-    ".gitattributes": "aead632420bd3ec172883b7f6c167c773a8863582beca78a6371e68bb16ebf2a",
+    ".gitattributes": "1fdb00214f8ddc55d0f66cabfcfdf8405317d1d1f0853facbd4d945caea9d10c",
     ".gitignore": "8def1c050714a05431e94b1188e396cfc493dd7b56432c5c306e037cd36877a6",
     ".python-version": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
-    "CHANGELOG.md": "30c04d9b00880b218718a3b5a5df1ffc11d3505a82f9f7decf7ff81789c2ebe4",
+    "AGENTS.md": "d28b75558dd0b444f78009fb071b0845cae81d7a05616b7118bde46046da28ad",
+    "Blakean_Federalism.pdf": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d",
+    "CHANGELOG.md": "644d2b3b428569acb764be064986a4026eff860822ee5bd5773e32a7d40a409b",
     "CITATION.cff": "64fee8bd005892df82e6f8fa7aab27cbdc0ebc657e62fc15ca0122e4e285296f",
     "DESIGN.md": "c2bd6c323dda2d707a5f1e3f1a3d2574ca7e78ccd8930f0bc47d6a69db0c96c3",
     "LICENSE": "1916a70ffcd8e52013e13fb7613f0da20a88f560e5d4d03650911b1ee0ba704c",
-    "PRIVACY.md": "08b951e91e1cb71d1032ac0bca4a4b201c0372b513ad0931496b740f7115cc47",
-    "README.md": "34972648664c5cae80c3e9fc5081a3cac5a322021f1c1d166fe89d0d1844a074",
-    "docs/RESEARCH_STATUS.md": "d6d6cfccbf37183ab6d0b8047b5bf7293ae75dd3e6a06b17c8c43307f7b92c98",
+    "PRIVACY.md": "fb2d7464cccc8730db0f671f4a8800315358edebb28ab7f8390c14dd6fbdcab1",
+    "README.md": "008956fbcb27a564a2169c0c73c29711febb347398c55ec9eb097bd4c2adbc75",
+    "docs/PROJECT_STATUS.md": "26bf3c2b2b3f82b11cf645c1bdb73a4701c50088a5b4574be3a831560611dcb3",
+    "docs/RESEARCH_STATUS.md": "ed75f223112c09899a769e5bb4ccb2d2027a7fd73a27183e61187b8a109dd671",
     "docs/annotated-bibliography.md": "8e927f1f917bb9e4c423db1ac1e9a7bbd14cb4016cfb2e0d717edeb6402cdb8a",
     "docs/conceptual-lexicon.md": "e2a73214264100d2cd2108ea2ab0b20df3a8a15bc860c3f66080ddf0b0617e76",
     "docs/corpus-observations.md": "f6e04ab0d01739c3326482be054dd264f0ca8c8a2920745ba23ef4049e15037b",
     "docs/corpus-search.md": "e33be28edae5207d093bd1b07d76cf408fccbb12dfced98c44e6e74438bb960e",
     "docs/history/DESIGN-0.3.0.md": "68d2cf041225ac7e72a1821c3b00b3c1de41d143e87d0a4dd02086ad6ef8e54f",
     "docs/institutional-design.md": "c1116e51a9e2dbe3c9b1891a3c602e71af4a48bd45db061120173cc55a9f8a60",
-    "docs/manuscript/README.md": "d4ef5db7df02cdb52697c418f1047e68e7b139b48ed3adbb28d30560af86478c",
+    "docs/manuscript/README.md": "e5013e12493ae28a5a4c2c30241b9a36b0f9f5a195a490db06ceaa25577e61b7",
     "docs/manuscript/config.yaml": "ea1762ea4933d1dfc0383eaeeaf886e19266422c786d52e6de5dfdfa6e1320d3",
     "docs/manuscript/institutional-review-insertion.md": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
     "docs/manuscript/institutional-review-supplement.md": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
@@ -33,7 +30,7 @@
     "docs/manuscript/states-change.md": "eaa8e397eb55a8e4ab42033383575e911f76c258f8cdc1cdfe52aa0b8466458b",
     "docs/portfolio-crosswalk.md": "bec3ee9309a9acc246c90758c50ea3223c75f9210d4aee3da705edaabe6a86c1",
     "docs/primary-passages.md": "6870a96dc28987a5f4ca47fda60ffd05c329bc46ec2bc9fa4e08489127e15b1d",
-    "docs/research-program.md": "9b7fb03def9647e7a0658b2dde79a2fefb226d254883a81ab627d931376db18b",
+    "docs/research-program.md": "29555bd29cdf4c3c59c8ceaf16b7df459d7e0d6aeff0fed93dba9ca997f5d115",
     "docs/research-workbench.md": "a7be1bda166cdce611cdb863a53691405d2f4e282e350ee264585ee39b684330",
     "docs/research/abstract-analysis-0.14.0.md": "3a2be4f0fe00c36f078a0332b0de88f54ba0502a2c9c080b28c138c2c7051063",
     "docs/research/close-reading-layout-0.13.0.md": "49917f19a7ae7e64c0da269d958062836202ce9808c69bdf2340aac079610da4",
@@ -48,7 +45,7 @@
     "docs/research/opening-clarity-0.15.0.md": "2f8e4a765ea4929c5727e6277e886a3021d90bcdaf7750c8a36b7c1e0a4c37e1",
     "docs/research/opening-scholarship-0.10.0.md": "0c2a23a55ecac97d4610c46330505358f5c8bc03fa4187b8954cc1659e19ba48",
     "docs/research/primary-source-research.md": "69a9d6ebb1fc171822e61dba935729ec21a602001300a08dfb7aac9ba4d79549",
-    "docs/research/procedural-comparison.md": "03297b44e62cbdac30aebbcc7bee04d04992ab77532a7ed568b3fbd99daece5d",
+    "docs/research/procedural-comparison.md": "8b667a939ee18b89a7fd4def9d03f0f37d75e92ad712d426182298b9d92bb6e5",
     "docs/research/scholarship-density-0.7.0.md": "9ae61c9963f072cad95210df2e69df08a64814fa9474c7dce91e04cd147eb239",
     "docs/research/scholarship-expansion-0.2.0.md": "da5aed4862adddee234e0e50812db59e24d82281495282c05d8c4cd36be5c7e1",
     "docs/research/scholarship-expansion-0.4.0.md": "4bdcf7b9846798f4da2dad99f486f02e4a10ca101f61cb1b67d0beca2098402d",
@@ -58,9 +55,9 @@
     "docs/research/scholarship-revision-0.4.1.md": "5e5a6a581b747dcf2535394215fca537b8166adc7da08859c1b6088e2880b6e6",
     "docs/research/urizen-context-0.7.0.md": "52e9a00d6b5fccb47fd42514f4f757f20ccde2f7168e58d6cf3689385786ed2b",
     "docs/scope-integration.md": "28b57102356b5e532e828bb1f63a54fde00b1efb658efde7b5e947ddc3b29fcd",
-    "docs/shared-methods.md": "f58d66b8fc152d4ececada49574be7d50b192809a2e669b983b666ceb205c643",
-    "docs/style-guide.md": "0c1a3d9cd5957ae7338208b3dc5df7768a41f72e5b802c43ba022a9cd68da576",
-    "pyproject.toml": "eaddec1bc5c96fe4a19a20710af2a9a0f19539ffe47d841a308b7c77bb6c8fb4",
+    "docs/shared-methods.md": "256d081404debc016cf4b571911dbd33600aae17b0585299e8db78af4b3daa36",
+    "docs/style-guide.md": "0915a0b6758eaff4f720f56e617e7a555b6cb64db645bf61c0107d378b08556c",
+    "pyproject.toml": "2d6bb6390572ec873d7891b7a3c1a058b731ccc4174328cc7897cba20ba7b7dc",
     "research/abstract-analysis-0.14.0.json": "43cc55c912449794ebd4d7c82857df4d2d8a7c73aad8780e023b957e051a8cd5",
     "research/advancement-20261028.json": "70fd2e516d52d80359439bdcfde8415acf0ff4a968cb91a1b162c0401811201c",
     "research/analysis-run-0.3.0.json": "b3a3dfd7b13d6895a175a78a0b08a8cd7601531819ee839f4cdccc4b3c0800fc",
@@ -103,6 +100,24 @@
     "research/history/expansion-installed-preimage/docs/manuscript/README.md": "405aac92dffe9f03235c21ead98bd9e17eefa0b2fa3a3d94774d59f0c401d5b9",
     "research/history/expansion-installed-preimage/research/current-source.json": "c1f74a436bfd5f262ed38e78e3f748da28363a9e481779cad457f8083fb30744",
     "research/history/expansion-installed-preimage/research/verification.json": "4798c9a72603b06f3effd817c145128cc5314569f2797bec53ce9f69b3502b5b",
+    "research/history/main-alignment-20261029/.gitattributes": "aead632420bd3ec172883b7f6c167c773a8863582beca78a6371e68bb16ebf2a",
+    "research/history/main-alignment-20261029/.gitignore": "8def1c050714a05431e94b1188e396cfc493dd7b56432c5c306e037cd36877a6",
+    "research/history/main-alignment-20261029/CHANGELOG.md": "30c04d9b00880b218718a3b5a5df1ffc11d3505a82f9f7decf7ff81789c2ebe4",
+    "research/history/main-alignment-20261029/PRIVACY.md": "08b951e91e1cb71d1032ac0bca4a4b201c0372b513ad0931496b740f7115cc47",
+    "research/history/main-alignment-20261029/README.md": "34972648664c5cae80c3e9fc5081a3cac5a322021f1c1d166fe89d0d1844a074",
+    "research/history/main-alignment-20261029/docs/RESEARCH_STATUS.md": "d6d6cfccbf37183ab6d0b8047b5bf7293ae75dd3e6a06b17c8c43307f7b92c98",
+    "research/history/main-alignment-20261029/docs/manuscript/README.md": "d4ef5db7df02cdb52697c418f1047e68e7b139b48ed3adbb28d30560af86478c",
+    "research/history/main-alignment-20261029/docs/research-program.md": "9b7fb03def9647e7a0658b2dde79a2fefb226d254883a81ab627d931376db18b",
+    "research/history/main-alignment-20261029/docs/research/procedural-comparison.md": "03297b44e62cbdac30aebbcc7bee04d04992ab77532a7ed568b3fbd99daece5d",
+    "research/history/main-alignment-20261029/docs/shared-methods.md": "f58d66b8fc152d4ececada49574be7d50b192809a2e669b983b666ceb205c643",
+    "research/history/main-alignment-20261029/docs/style-guide.md": "0c1a3d9cd5957ae7338208b3dc5df7768a41f72e5b802c43ba022a9cd68da576",
+    "research/history/main-alignment-20261029/pyproject.toml": "eaddec1bc5c96fe4a19a20710af2a9a0f19539ffe47d841a308b7c77bb6c8fb4",
+    "research/history/main-alignment-20261029/research/current-source.json": "472350ef5bc546fc4402cf96f88b56733171afceae482f903b2b39d2dde6a9d4",
+    "research/history/main-alignment-20261029/research/verification.json": "5a9ac4de40f27cf3bf1fa83c37238080506e9d6474d2f318f3cf6fd031980168",
+    "research/history/main-alignment-20261029/unsealed-production-binding/research/current-source.json": "300fca1d77b59a69e8a253999fdd8813e75c6a1ba35150d25305872cb94360f6",
+    "research/history/main-alignment-20261029/unsealed-production-binding/research/main-alignment-20261029.json": "e3d80c66ca9d0af852ce0256aef28d5cc79db4e7a3ff88f23d2e14ede0b144fd",
+    "research/history/main-alignment-20261029/unsealed-production-binding/research/verification.json": "73b63fee504e41b07362c166790c579a1f4ef702f62a3b1752e73778f33fdb87",
+    "research/history/main-alignment-20261029/uv.lock": "41ea20e6826b51253f5297fae33e1c73a9d46fb2dec4052b3e599472e091fa01",
     "research/history/manuscript-inputs-0.2.0.json": "eb9250ac72b951906c179751c1fc322d0b6a55e528bbdbf82a86ae7894f7d200",
     "research/history/manuscript-inputs-0.5.0.json": "4ae9b7695e563ffe7b5ea322bb67852d638cc3d25c6459bb3049835b78199e54",
     "research/history/manuscript-inputs-0.6.0.json": "4400dc7df40f16dbd06ca7ec59470abffdcf1824ba70ea5fbd596ced8e3933c7",
@@ -132,6 +147,7 @@
     "research/installation-shared-methods-0.16.0.json": "507b45673619f406418163b3aa7aef750859f3b7007fd1c6a352548f6fd75ba7",
     "research/institutional-experiments-0.6.0.json": "f20b33de41fa23ac51647ed962d845dbf048abd4329480f24ba1373407071339",
     "research/institutional-review-cases.json": "c93fb812970dc57f924c58202dfe5abbf9d0c68ccbecfabbbb6c3833e4076f97",
+    "research/main-alignment-20261029.json": "2155120db830ae25bdccbdf58adca6255af5796aa6b905cde48b3a4639326dc4",
     "research/manuscript-inputs.json": "af71db984418215672e5b7f2b15868d4a19928e34793b673c450865964799bf2",
     "research/manuscript-inputs.schema.json": "880458e4dbc39a3edcde4bf943fff1cfa9bcdb0467cc9848cf9fe04723516896",
     "research/primary-passage-ledger.json": "29a4d771e2c7ceba405c598bcdbe32a750615a2f2ad7513a449fd1b498529fff",
@@ -294,46 +310,38 @@
     "tools/audit_institutional_review.py": "dcc8aeecdc93e8f7cfc4778971e856267bf4276ab739b42be0f03ebe558f25c1",
     "tools/render_manuscript.py": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
     "tools/template_render.py": "f52aaa687fbe7046da13fad6970d004a10a29ea7497a271bea9c62bea964f8d7",
-    "uv.lock": "41ea20e6826b51253f5297fae33e1c73a9d46fb2dec4052b3e599472e091fa01"
+    "uv.lock": "d563aeb99047ca1d9fcba8fae1605e8fba0ded2df77e686c6bef73eda647ba31"
   },
-  "native": {
-    "directory": "analysis_output/publication/expansion-20261028-02",
-    "pdf": "analysis_output/publication/expansion-20261028-02/output/pdf/blakean_federalism_combined.pdf",
-    "pdf_sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d",
+  "current_version": "0.16.0",
+  "cyclic_exclusion_reason": "The current-source index and derivative verification record are the two mutually changing indexes. Every other candidate tracked/authored file, including qualification, historical preimages and retained PDF, is bound.",
+  "cyclic_exclusions": [
+    "research/current-source.json",
+    "research/verification.json"
+  ],
+  "previous_source": {
+    "source": "research/history/main-alignment-20261029/research/current-source.json",
+    "source_sha256": "472350ef5bc546fc4402cf96f88b56733171afceae482f903b2b39d2dde6a9d4",
+    "verification": "research/history/main-alignment-20261029/research/verification.json",
+    "verification_sha256": "5a9ac4de40f27cf3bf1fa83c37238080506e9d6474d2f318f3cf6fd031980168"
+  },
+  "qualification_epoch": "main-alignment-20261029",
+  "receipt": "research/main-alignment-20261029.json",
+  "receipt_sha256": "2155120db830ae25bdccbdf58adca6255af5796aa6b905cde48b3a4639326dc4",
+  "reviewed_native": {
+    "current_native_render_performed": false,
+    "historical_shared_sdk_commit": "d020f47767996a061b6f60e93a82da9386a7926c",
+    "native": {
+      "directory": "analysis_output/publication/expansion-20261028-02",
+      "native_receipt_sha256": "f9c41ded44ec302d80ca02f33bdb407cfb5c615c1710f870f414c4b7be2f0935",
+      "pages": 72,
+      "pdf": "analysis_output/publication/expansion-20261028-02/output/pdf/blakean_federalism_combined.pdf",
+      "pdf_sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d"
+    },
     "pages": 72,
-    "native_receipt_sha256": "f9c41ded44ec302d80ca02f33bdb407cfb5c615c1710f870f414c4b7be2f0935"
+    "pdf": "Blakean_Federalism.pdf",
+    "sha256": "4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d"
   },
-  "historical_preimages": {
-    "README.md": {
-      "path": "research/history/expansion-installed-preimage/README.md",
-      "sha256": "20c9b4b7c4e381a7e1d6e4bfaac38c4f123dc04bc00b078d931e0fe29ba356bb"
-    },
-    "CHANGELOG.md": {
-      "path": "research/history/expansion-installed-preimage/CHANGELOG.md",
-      "sha256": "c898dcba6362603165bbf15cdf79ab0dac38b444eaf23fe5cd6e9e4be77b57e1"
-    },
-    "docs/manuscript/README.md": {
-      "path": "research/history/expansion-installed-preimage/docs/manuscript/README.md",
-      "sha256": "405aac92dffe9f03235c21ead98bd9e17eefa0b2fa3a3d94774d59f0c401d5b9"
-    },
-    "research/current-source.json": {
-      "path": "research/history/expansion-installed-preimage/research/current-source.json",
-      "sha256": "c1f74a436bfd5f262ed38e78e3f748da28363a9e481779cad457f8083fb30744"
-    },
-    "research/verification.json": {
-      "path": "research/history/expansion-installed-preimage/research/verification.json",
-      "sha256": "4798c9a72603b06f3effd817c145128cc5314569f2797bec53ce9f69b3502b5b"
-    },
-    "docs/RESEARCH_STATUS.md": {
-      "path": "research/history/expansion-installed-preimage/docs/RESEARCH_STATUS.md",
-      "sha256": "0db5c2ec3d124370d923367efdd4d2e4c0ae61c02cc222e45cfd1219a20dadb5"
-    }
-  },
-  "scope": "Implementation-owned installed/native/content/root physical-page qualification. Independent review is a separate external verdict; no browser, scientific or release acceptance is inferred.",
-  "documentation_delta": {
-    "scope": "Shared authoring-guide URL and this index binding only; executable, scholarly authoring, data and native PDF bytes unchanged.",
-    "previous_guide_pin": "21b1c002ef7588b9c908fb60fd6111c4eb548358",
-    "current_guide_pin": "d020f47767996a061b6f60e93a82da9386a7926c",
-    "shared_guide_content_identical_at_both_public_commits": true
-  }
+  "schema_version": 21,
+  "scope": "Current software/core integration and documentation delivery. Retained manuscript bytes and historical input/decision/source epochs unchanged; no new native, browser, image-census, scholarly or scientific acceptance.",
+  "shared_sdk_commit": "45171a099a6a658c52ab689501de646a28485653"
 }

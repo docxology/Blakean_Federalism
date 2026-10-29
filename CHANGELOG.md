@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29 — current core and private-main alignment
+
+- Pin the installed Blake 0.4.0 interfaces to an exact released Git commit, with historical corpus and manuscript producers retained separately.
+- Add agent instructions, current completion/next-task signposts and the exact reviewed private working-paper PDF.
+- Preserve earlier research, source and qualification receipts; distinguish engineering delivery from outstanding contextual, image, browser and scientific work.
+
 ## 0.16.0 — shared methods and authored evidence review
 
 - Refresh the exact shared SDK Git pin and lock, reproduce the 655-test installed gate and four historical analyses, and compile the current 72-page native edition.

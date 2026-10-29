@@ -2,7 +2,21 @@
 
 Private research on **composition without capture**: a federation contains STATES in the proposed Blakean sense, while NATIONS are temporal generations, combinations and productions. Several nations can coexist without becoming one nation. Poetic states, persons, national formations and coercive jurisdictions remain distinct.
 
-The current edition uses public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
+Start with [project status and scoped next work](docs/PROJECT_STATUS.md),
+[agent guidance](AGENTS.md), the [article source](docs/manuscript/states-change.md)
+and the [reviewed working-paper PDF](Blakean_Federalism.pdf).
+Completed engineering, current integration and open scholarly work have separate
+statuses; [research history](docs/RESEARCH_STATUS.md) retains earlier epochs.
+
+The current software integration targets Blake 0.4.0 at exact commit
+`45171a099a6a658c52ab689501de646a28485653`. The executable dependency lives in
+`pyproject.toml` and `uv.lock`; [verification](research/verification.json) records
+its qualified scope. [Shared methods](docs/shared-methods.md) explains the
+boundary with the public [corpus and methods repository](https://github.com/docxology/blake).
+
+## Retained working-paper and analytical epoch
+
+The reviewed 72-page edition used public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
 installation: 655 tests pass, with 92.30% application and 70.72% tool branch-aware
 coverage. Strict typing, Ruff and dependency compatibility pass; all four
 historical analytical JSON files replay byte for byte. The actual pinned native
@@ -15,7 +29,7 @@ twenty-eight claimants, explicit unmet requirements and partial-order
 incomparability. Its two figures stay in the main argument. The political
 requirements are application policy; no generic composition statistic is used
 as an institutional legitimacy score. See
-[current qualification](research/expansion-installed-20261028.json) and the
+[that epoch's qualification](research/expansion-installed-20261028.json) and the
 [render guide](docs/manuscript/README.md). Independent review and browser behavior
 have separate scopes.
 
@@ -34,7 +48,7 @@ source-bound candidates, counterreadings, uncertainty, named reviewers and
 verification locators. It shares custody mechanics with Blakean Entomology while
 keeping their contextual policies distinct. Blank decisions remain unreviewed.
 
-## Words, sources and accountable common institutions 0.15.0
+## Reading the argument and its development
 
 The four opening abstracts now start with questions a reader can follow: what belonging authorizes, what Blake's scenes require us to ask, which changes satisfy the institutional safeguards, and which words occur in the retained sources. The word-count table states the exact spellings and works through 264 matches divided by 644,245 words, rescaled to 10,000 words. Separate columns compare combining all words with giving each recorded family equal weight. [Reading the figures and opening argument](docs/research/opening-clarity-0.15.0.md).
 
@@ -46,9 +60,9 @@ The opening figures use a historical Blake frontispiece, italic quotations, expl
 
 The opening puts Los's system-making beside the individuals he strives to deliver from systems. New readings of Stefanis and Stephen Clark develop artistic selection, competing interpretations of creation and the authority to revise a common form. A longer single-paragraph abstract joins the literary, institutional and computational argument. Forty source-verified quotation records and fourteen identified LOC sheets accompany the readings; Blake quotation blocks are italic in the native paper and evidence workbench.
 
-The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. Nineteen formalisms and thirteen equations use the pinned docxology/template route; 60 cited references have structured bibliography records.
+The [front notation table](docs/manuscript/notation.md) distinguishes poetic sorts, institutional claims, safeguard operations and measured text. It defines complete word windows and participating matches, preserves the family identity of deletion rates, and separates query indices from assigned roles and institutional indices. The pinned docxology/template route supplies native formalism, equation and citation numbering; exact counts belong to the named [render epoch](research/advancement-20261028.json).
 
-Eighteen original diagrams connect the argument and its recorded comparisons. The revised figures show exact occurrences, unit/family coverage, source weighting, conditional directions, all 150 safeguard checks and complete intervention-size profiles. A new two-lane comparison joins the federated-inference sources to the institutional questions of standing, warrant and review. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
+Project-authored diagrams connect the argument and its recorded comparisons. The figures show exact occurrences, unit/family coverage, source weighting, conditional directions, all 150 baseline safeguard checks, complete intervention-size profiles and person-specific review requirements. A two-lane comparison joins the federated-inference sources to the institutional questions of standing, warrant and review. The theme is black, white and red, with red hyperlinks. [Opening research](docs/research/opening-scholarship-0.10.0.md); [rendering instructions](docs/manuscript/README.md).
 
 The 0.7.0 [Urizen context audit](docs/research/urizen-context-0.7.0.md) identifies all 49 state matches as seven repeated refrains in seven retained inputs. The statistical analysis retains 199 primary extracts, 644,245 word tokens and 33 recorded source-family groups. It compares pooled and equal-family rates, exact-text deduplication, 660 family omissions and 570 pair associations. The institutional experiment enumerates twelve declared interventions over ten baselines: 40,960 subsets, 31 distinct resulting records, protected material context and explicit minimum bundles. [Corpus methods](docs/research/corpus-statistics-0.6.0.md) and [finite interventions](docs/research/institutional-experiments-0.6.0.md).
 
@@ -78,6 +92,7 @@ Open the generated index.html directly in a browser. No server or runtime networ
 - [Primary passage program](docs/primary-passages.md) and [structured ledger](research/primary-passage-ledger.json)
 - [Annotated scholarship and political bibliography](docs/annotated-bibliography.md)
 - [Portfolio versions, reading status and correction docket](docs/portfolio-crosswalk.md)
+- [Current task closure and next actions](docs/PROJECT_STATUS.md)
 - [Research program and acceptance criteria](docs/research-program.md)
 - [Corpus observations](docs/corpus-observations.md)
 - [Privacy and local recovery](PRIVACY.md)
@@ -119,7 +134,7 @@ uv run blakean experiment-cases \
 
 Set external TMPDIR, UV_CACHE_DIR and UV_LINK_MODE=copy as described in the GitVault contract. Verify both sys.prefix and sys.base_prefix resolve on GitVault. Global Python selection alone does not establish that. A fresh machine must provision the compatible external runtime before syncing.
 
-The project pins Blake commit d54aae1809066dd8a835ac68d4d55c61f8642d61, the capture manifest, producer projection manifest and index hashes in [corpus-pin.json](research/corpus-pin.json). It does not download or redistribute provider texts automatically. A changed upstream epoch requires an explicit new pin and a new import directory. An occupied output is refused, preserving prior evidence.
+The historical corpus pin records Blake producer commit `d54aae1809066dd8a835ac68d4d55c61f8642d61`, the capture manifest, producer projection manifest and index hashes in [corpus-pin.json](research/corpus-pin.json). That capture identity is distinct from the current software dependency. The project does not download or redistribute provider texts automatically. A changed corpus epoch requires an explicit new pin and a new import directory. An occupied output is refused, preserving prior evidence.
 
 The imported projection has 2,067 source units: 540 reading documents, 731 XML units and 796 retained Erdman pages. Roles remain 199 primary, 1,068 unverified and 800 editorial/mixed. These are not unique Blake works. The larger source/image capture remains in the Blake project; this import does not duplicate it or close its 28 unresolved image identifiers.
 
