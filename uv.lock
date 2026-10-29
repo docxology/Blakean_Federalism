@@ -34,8 +34,8 @@ wheels = [
 
 [[package]]
 name = "blake"
-version = "0.3.0"
-source = { git = "https://github.com/docxology/blake.git?rev=d020f47767996a061b6f60e93a82da9386a7926c#d020f47767996a061b6f60e93a82da9386a7926c" }
+version = "0.4.0"
+source = { git = "https://github.com/docxology/blake.git?rev=45171a099a6a658c52ab689501de646a28485653#45171a099a6a658c52ab689501de646a28485653" }
 dependencies = [
     { name = "click" },
     { name = "packaging" },
@@ -74,7 +74,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "blake", git = "https://github.com/docxology/blake.git?rev=d020f47767996a061b6f60e93a82da9386a7926c" },
+    { name = "blake", git = "https://github.com/docxology/blake.git?rev=45171a099a6a658c52ab689501de646a28485653" },
     { name = "markdown-it-py", marker = "extra == 'manuscript'", specifier = ">=4,<5" },
     { name = "pillow", marker = "extra == 'manuscript'", specifier = ">=11,<14" },
     { name = "pydantic", specifier = ">=2.11,<3" },

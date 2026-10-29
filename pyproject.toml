@@ -10,7 +10,7 @@ authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
 requires-python = ">=3.11"
 dependencies = [
-    "blake>=0.3.0",
+    "blake>=0.4.0",
     "pydantic>=2.11,<3",
     "typer>=0.15,<1",
     "typing-extensions>=4.12",
@@ -71,13 +71,13 @@ max-complexity = 15
 typeCheckingMode = "all"
 include = ["src"]
 pythonVersion = "3.11"
-extraPaths = ["../../Public/blake", "src"]
+extraPaths = ["src"]
 
 [tool.uv.sources]
-blake = {git = "https://github.com/docxology/blake.git", rev = "d020f47767996a061b6f60e93a82da9386a7926c"}
+blake = {git = "https://github.com/docxology/blake.git", rev = "45171a099a6a658c52ab689501de646a28485653"}
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
