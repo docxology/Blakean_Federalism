@@ -14,39 +14,43 @@ The current software integration targets Blake 0.4.0 at exact commit
 its qualified scope. [Shared methods](docs/shared-methods.md) explains the
 boundary with the public [corpus and methods repository](https://github.com/docxology/blake).
 
-## Retained working-paper and analytical epoch
+## Current working paper and installed application
 
-The reviewed 72-page edition used public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
-installation: 655 tests pass, with 92.30% application and 70.72% tool branch-aware
-coverage. Strict typing, Ruff and dependency compatibility pass; all four
-historical analytical JSON files replay byte for byte. The actual pinned native
-template writers produced the 72-page PDF and HTML at
-`analysis_output/publication/expansion-20261028-02`. This fresh PDF is empirically byte-identical
-to the preceding 72-page edition.
+Federalism **0.17.0** adds an eight-procedure study of review under practical
+pressure, sixteen person-specific assessments and a report-derived figure.
+It distinguishes modeled standing, usable preparation and interim protection
+from material dependence, retaliation, reviewer control and collective
+competence. The original fourteen procedures, twenty-eight claimants and
+fifteen safeguards remain unchanged. See [the pressure study](docs/research/review-pressure-20261029.md).
 
-The person-specific procedural comparison retains fourteen procedures,
-twenty-eight claimants, explicit unmet requirements and partial-order
-incomparability. Its two figures stay in the main argument. The political
-requirements are application policy; no generic composition statistic is used
-as an institutional legitimacy score. See
-[that epoch's qualification](research/expansion-installed-20261028.json) and the
-[render guide](docs/manuscript/README.md). Independent review and browser behavior
-have separate scopes.
+The fresh **74-page** [working paper](Blakean_Federalism.pdf) was prepared
+and rendered with the current exact Blake 0.4.0 SDK and separately pinned native
+template. 688 installed tests pass; application/tool branch-aware coverage
+is 92.21% / 70.72%. Strict typing, Ruff, dependency checks,
+real production/refusal controls, source equality and independent page review
+are recorded in [the current qualification](research/paper-advancement-20261029.json).
+The PDF and manuscript HTML have separate native receipts and browser scopes.
+[Render instructions](docs/manuscript/README.md).
 
-This project integrates the supplied research scope and related-reading addendum, the recovered local Blake corpus, and a new primary-source research pass. It develops an article, a corpus workbench and an executable institutional comparison.
+A selected-line collation preserves the original D02 `bowl` reading alongside
+the checked `howl` witness at Jerusalem 73:46. It changes neither the corpus nor
+the historical discrepancy record. [Dated comparison](research/textual-collation-20261029.json).
 
-## Shared methods and accountable reading decisions 0.16.0
+The previous 72-page native edition and its SDK
+`d020f47767996a061b6f60e93a82da9386a7926c` remain bound to
+[their original qualification](research/expansion-installed-20261028.json).
+Fresh execution and rendering do not rename their producers or add reading
+credit. The imported corpus retains its own capture pin.
 
-Generic corpus, search, proximity, statistics, review custody and offline search
-methods now come from the public Blake package. This application retains its
-political vocabulary, institutional reasoning and manuscript. Fresh replay
-preserves the historical concordance, statistics, literal study and proximity
-measurements byte for byte; producer identities remain separately recorded.
+## Shared methods and accountable readings
 
-The new [authored evidence review](docs/shared-methods.md) workflow retains
-source-bound candidates, counterreadings, uncertainty, named reviewers and
-verification locators. It shares custody mechanics with Blakean Entomology while
-keeping their contextual policies distinct. Blank decisions remain unreviewed.
+Generic corpus, search, proximity, statistics, review custody and offline
+workspace methods come from public Blake. This application owns political
+vocabulary, institutional reasoning and the paper. The
+[authored evidence review](docs/shared-methods.md) retains source-bound
+candidates, counterreadings, uncertainty, named reviewers and verification
+locators. It shares custody mechanics with Entomology while retaining distinct
+domain policies. Blank decisions remain unreviewed.
 
 ## Reading the argument and its development
 

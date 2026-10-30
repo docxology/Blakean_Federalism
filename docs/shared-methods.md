@@ -1,6 +1,6 @@
 # Shared methods and authored evidence review
 
-The 0.16 application delegates corpus custody, passage schemas, regex
+The 0.17 application delegates corpus custody, passage schemas, regex
 concordance, literal search, word-window proximity, statistics and offline search
 rendering to `blake.methods`. This repository owns the political query registry,
 fixed comparison grid, institutional models, readings and manuscript. Its
@@ -26,6 +26,13 @@ infrastructure rather than the Federalism argument.
 
 The fourth row's institutional requirements remain domain code here; shared
 custody of annotation files is different from institutional access to review.
+
+The [dated pressure extension](research/review-pressure-20261029.md) adds eight
+H12-derived procedures while retaining those original fourteen procedures and
+fifteen safeguards. It keeps calculated access conditions separate from declared
+practical premises, with no combined legitimacy score. Its domain adapter reuses
+the existing institutional review evaluator; generic producer and output custody
+remain in the public package.
 See [project status](PROJECT_STATUS.md) for current task ownership and acceptance.
 
 The migration retains the historical regex and literal contracts. A fresh run on

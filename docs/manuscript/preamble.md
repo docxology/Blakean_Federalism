@@ -29,7 +29,7 @@
 \renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3em}}
 \newcommand{\BFCompactContentsSections}{%
   \patchcmd{\l@section}{\addvspace{1.0em \@plus\p@}}%
-    {\addvspace{0.75em \@plus\p@}}{}%
+    {\addvspace{0.50em \@plus\p@}}{}%
     {\PackageError{blakean-federalism}{TOC section spacing patch failed}%
       {Expected the pinned article-class section spacing hook.}}}
 \makeatother

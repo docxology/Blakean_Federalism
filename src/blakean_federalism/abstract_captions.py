@@ -9,7 +9,7 @@ from .workbench_models import Workbench
 
 
 def uses_analytical_abstracts(report: Workbench) -> bool:
-    return report.producer_version in ("0.14.0", "0.15.0", "0.16.0") and any(
+    return report.producer_version in ("0.14.0", "0.15.0", "0.16.0", "0.17.0") and any(
         a.asset_id == "J1" for a in report.images
     )
 

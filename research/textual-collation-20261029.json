@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "scope": "Selected-line and contextual comparison only; original corpus and discrepancy ledger unchanged",
+  "original_discrepancy_record": {
+    "path": "research/textual-discrepancies.json",
+    "sha256": "c05dc788b964c7cc3b20795714ce2a1742d010955fd9e60220e08e68781b5b67",
+    "id": "D02"
+  },
+  "asu": {
+    "path": "local_data/manuscript/v0.2.0/asu-jerusalem.html",
+    "sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2",
+    "anchors_read": [
+      "J45.25;E194–J45.38;E194",
+      "J73.34;E228–J73.54;E229"
+    ],
+    "disputed_anchor": "J73.46;E229",
+    "reading": "The Spectres of the Dead howl round the porches of Los"
+  },
+  "retained_witnesses": {
+    "erdman:204": {
+      "locator": "page 194; provider record 204",
+      "source_sha256": "61c846e4b3122eb9eca6797805bf80d976a6712c179183504b1a465c2ef6f370",
+      "text_sha256": "db254a851d7091cd3d839a7c90ead106ba863723ae6c52dd353a76a7876cd9ff",
+      "role": "editorial",
+      "plane": "erdman"
+    },
+    "erdman:239": {
+      "locator": "page 229; provider record 239",
+      "source_sha256": "61c846e4b3122eb9eca6797805bf80d976a6712c179183504b1a465c2ef6f370",
+      "text_sha256": "ab3dfe673fb133b8ca32150382005ec19854844269a749dd79f54d3205a9ad6a",
+      "role": "editorial",
+      "plane": "erdman"
+    }
+  },
+  "D02_retained_reading": "The Spectres of the Dead bowl round the porches of Los",
+  "selected_image": {
+    "path": "local_data/manuscript/v0.2.0/image-cache-loc-jerusalem-scan073.jpg",
+    "sha256": "0386431e2eac6bd1fe6ee4d43a835a6bc524a073725e42b9f326d2b65e6973a2",
+    "copy": "Jerusalem I, plate73",
+    "provider": "Library of Congress, item48038103",
+    "url": "https://tile.loc.gov/image-services/iiif/public:rbc:2003rosen1811:0073/full/pct:25.0/0/default.jpg",
+    "observation": "Viewed full bound sheet; selected lower-text line reads howl, agreeing with ASU rather than the extracted bowl.",
+    "rights_ceiling": "Posthumous impression circa1832?; retained LOC item-specific no-known-restrictions advisory, not a CC0 or blanket rights claim"
+  },
+  "selected_agreements": {
+    "Q23": "Selected provision sentence agrees between ASU and erdman:239 under whitespace-only comparison.",
+    "Q38": "Selected three lines agree between ASU and erdman:204 under whitespace-only comparison; embedded trailing line counter falls outside selected span."
+  },
+  "limits": [
+    "No replacement of corpus bytes, source role, original D02 status or40 quotation records.",
+    "No whole-copy collation, plate45 image inspection, full-work reading or new empirical institutional conclusion."
+  ],
+  "source_corpus_pin_sha256": "86d3f807f7258c9e29a5e498379495445faaecb3c06b9ff12720efea90dc6e98"
+}

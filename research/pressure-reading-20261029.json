@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "epoch": "pressure-reading-20261029",
+  "date": "2026-10-29",
+  "scope": "Actual selected primary-PDF rereading for the pressure extension; not whole-book, current-law or cited-source acceptance",
+  "records": [
+    {
+      "source": "pettit-2005.pdf",
+      "candidate_cache_path": "local_data/research/procedural-comparison-20261028/pettit-2005.pdf",
+      "sha256": "de92b572856f82b1597a901c4dc2af7172bfc57a6ff89e20089da8be33bcf6db",
+      "reread_locators": "printed8–9; one-based PDF10–11",
+      "retained_extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/pettit-2005.pdf.selected.txt",
+      "retained_extract_sha256": "62f401e985b2b2efe0750dde9ddb0a1ed39b2df84bf8b5f19e3028f9e62a5338",
+      "reading_ceiling": "Selected pages actually read; no whole-book, cited-reference or present-law credit",
+      "extraction_note": "pypdf emitted optional fontTools encoding warnings for Tully; selected extracted text was inspected for reading, not treated as physical-page QA"
+    },
+    {
+      "source": "shachar-2005.pdf",
+      "candidate_cache_path": "local_data/research/procedural-comparison-20261028/shachar-2005.pdf",
+      "sha256": "38c3b55ea0238c90e74d9bad82e5daa966fa43d9809d64febe7bd0d48c30bc39",
+      "reread_locators": "printed75–77 including n.90; PDF27–29",
+      "retained_extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/shachar-2005.pdf.selected.txt",
+      "retained_extract_sha256": "adcb81899112a5cdc0839c070982797f8707cca795fe978ac861dbf954e191f3",
+      "reading_ceiling": "Selected pages actually read; no whole-book, cited-reference or present-law credit",
+      "extraction_note": "pypdf emitted optional fontTools encoding warnings for Tully; selected extracted text was inspected for reading, not treated as physical-page QA"
+    },
+    {
+      "source": "tully-2006.pdf",
+      "candidate_cache_path": "local_data/research/procedural-comparison-20261028/tully-2006.pdf",
+      "sha256": "0314e535ee604ada41e2d564858b2d7f49af836d0f287f20a825fc53066bdc2b",
+      "reread_locators": "printed25–27 and29–31; publisher PDF35–37 and39–41",
+      "retained_extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/tully-2006.pdf.selected.txt",
+      "retained_extract_sha256": "fc647f54519f74097b1043b293a41f047c86341da36c2e26c4e1212267a37756",
+      "reading_ceiling": "Selected pages actually read; no whole-book, cited-reference or present-law credit",
+      "extraction_note": "pypdf emitted optional fontTools encoding warnings for Tully; selected extracted text was inspected for reading, not treated as physical-page QA"
+    }
+  ],
+  "strongest_counterreading": "Tully31 asks how ostensibly inclusive procedures are governed at a distance; the new four practical columns must not be treated as an exhaustive list controlled by the authority being challenged. Shachar76 n.90 presupposes an agreed standard and an identified reviewing institution; their authority remains an additional question."
+}

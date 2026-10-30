@@ -1,70 +1,63 @@
 # Project status and scoped next work
 
-Status date: 2026-10-29. This is the current operational task index. The
-[research history](RESEARCH_STATUS.md) retains earlier qualifications; the
-[research program](research-program.md) explains the scholarly questions.
+Status date: 2026-10-30. This is the operational task index. The
+[research history](RESEARCH_STATUS.md) preserves earlier qualifications; the
+[research program](research-program.md) defines the scholarly questions.
 
-## Application, core and paper identities
+## Current application and paper
 
-Federalism is the private orchestrator and domain adaptation. Public
-[Blake](https://github.com/docxology/blake) owns acquisition, source custody,
-portable passage schemas, retrieval profiles, statistics, review custody and
-offline workspaces. Federalism owns its queries, institutional requirements,
-case interpretations, close readings and article.
+Federalism **0.17.0** owns the political questions, institutional models,
+stipulated cases, readings and manuscript. Public
+[Blake](https://github.com/docxology/blake) owns acquisition, corpus custody,
+portable schemas, retrieval, statistics, annotation custody and offline workspace
+mechanics. [Shared methods](shared-methods.md) defines that boundary.
 
-The current integration targets Blake **0.4.0**, exactly
-`45171a099a6a658c52ab689501de646a28485653`. Its
-[working paper](https://doi.org/10.5281/zenodo.23770249) describes the common
-corpus/methods infrastructure; it does not publish or approve this private
-argument. `pyproject.toml` and `uv.lock` select the executable dependency;
-[verification.json](../research/verification.json) records its qualification.
-Follow [shared methods](shared-methods.md) when changing that boundary.
+The executable SDK is Blake **0.4.0**, exactly
+`45171a099a6a658c52ab689501de646a28485653`, selected by `pyproject.toml` and
+`uv.lock`. The current paper was prepared and rendered against that SDK through
+the separately pinned native template. Its input corpus retains its original
+capture and producer. See [current verification](../research/verification.json)
+and the [advancement receipt](../research/paper-advancement-20261029.json).
 
-The accepted private working draft is [Blakean_Federalism.pdf](../Blakean_Federalism.pdf),
-72 pages, SHA-256
-`4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d`.
-Its retained native epoch is `expansion-20261028-02`, recorded in
-[the expansion receipt](../research/expansion-installed-20261028.json).
-That paper's native epoch used SDK
-`d020f47767996a061b6f60e93a82da9386a7926c`. The four historical analytical
-measurements retain their original producers; replay under that SDK established
-byte equality rather than replacing those identities. The capture/portable
-corpus pin is a third, separate identity. A current runtime
-qualification changes none of those historical inputs or reviewed paper bytes.
+The current [private working paper](../Blakean_Federalism.pdf) has **74
+pages**, SHA-256 `c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`. Its native epoch is
+`analysis_output/publication/pressure-20261030-04`. The earlier 72-page edition
+and its SDK `d020f47767996a061b6f60e93a82da9386a7926c` remain historical evidence;
+the current render has its own source, runtime, page-review and delivery records.
 
-## Engineering closure
+## Completed work
 
-| ID | Work package | Status and evidence |
+| Work package | Closed scope and evidence |
+|---|---|
+| Shared-method integration | Generic methods delegate to Blake. The current SDK and historical corpus/analytical producers have separate identities; historical measurements and receipts are preserved. See [shared methods](shared-methods.md). |
+| Institutional review and comparison | The original fifteen safeguards, fourteen procedures and twenty-eight claimant records remain fixed. Exact uncovered intervals and residual-profile comparisons retain their declared assumptions. See [review audit](research/institutional-review.md) and [comparison](research/procedural-comparison.md). |
+| Adverse review conditions | Eight additional H12-derived procedures, sixteen person-specific assessments, explicit practical obstructions and a report-derived figure are implemented and qualified. Four of the eight procedures satisfy the modeled formal conditions for every listed claimant. Issuer control, collective competence, material support and retaliation remain separate questions; there is no legitimacy score. See [pressure study](research/review-pressure-20261029.md). |
+| Selected textual collation | Q23/Jerusalem 73 and Q38/Jerusalem 45 receive bounded source checks. The D02 `bowl`/`howl` discrepancy is recorded against the checked ASU line and LOC copy-I sheet, preserving the old corpus and discrepancy record. See [dated collation](../research/textual-collation-20261029.json). This closes the selected-line check, not whole-copy collation. |
+| Installed software and production | 688 tests, strict typing, Ruff/format, lock/dependency checks, normal installed-source equality and real positive/refusal workflows passed. Branch-aware coverage: application 92.21%; tools 70.72%. [Current qualification](../research/paper-advancement-20261029.json). |
+| Native paper and browser behavior | A fresh PDF and manuscript HTML have source-bound native receipts and independent physical-page review. The pinned offline workspace has real-browser functional qualification, distinct from manuscript HTML mathematics and accessibility. Exact scope is in the current receipt. |
+| Private delivery | The current authored source and selected paper are delivered to private main, with ordinary push, tracked-byte/checkout verification and final remote readback recorded externally. Prior failures, native epochs and the earlier archived working files remain preserved. |
+
+These closures describe fixed studies, implementation, rendering and delivery.
+They do not certify institutional legitimacy, legal permission, specialist
+scholarship, accessibility or complete corpus coverage.
+
+## Next bounded research tasks
+
+| ID and owner | Inputs and next action | Completion criterion |
 |---|---|---|
-| E1 | Shared-method migration and application boundary | Complete at the recorded expansion epoch: corpus, concordance, literal search, proximity, statistics, annotation custody and workspace delegate upstream. Four historical analytical files replay byte for byte. See [shared methods](shared-methods.md) and [installed expansion](../research/expansion-installed-20261028.json). |
-| E2 | Federalism review and procedural comparison | Complete for the fixed study: fourteen procedures, twenty-eight claimant records, exact uncovered intervals, separate conditions and residual-profile comparisons. See [review audit](research/institutional-review.md) and [comparison](research/procedural-comparison.md). These are hypothetical cases with explicit unassessed questions. |
-| E3 | Native working-paper render and bounded independent review | Complete for the retained 72-page PDF and its bound source/figure inputs. Native rendering and software/physical-page review are separate evidence scopes; neither establishes specialist science, legal authorization or browser behavior. See [render guide](manuscript/README.md) and the expansion receipt. |
-| E4 | Current Blake 0.4.0 installed qualification and documentation alignment | Complete: fresh normal installed Blake 0.4.0 qualification passed 655 tests, strict typing, lint/format, dependency checks and current production replay. Four analytical files and comparison measurements/figures match their retained originals. See [current verification](../research/verification.json). Historical receipts and producer epochs remain intact. |
-| E5 | Private-main integration and delivery | Complete: qualified PR #1 merged normally; canonical main fast-forwarded to the verified private remote, with exact tracked-byte/checkout verification and a fresh locked canonical-source installation. The original 30 working files remain on the pushed archive branch; 18,266 ignored/untracked assets are unchanged. The final documentation/receipt closure is recorded in [current verification](../research/verification.json). |
-
-E1–E5 are closed implementation/render/qualification and private-main delivery
-work. The current receipt binds their actual evidence; the research packages
-below remain distinct.
-
-## Scoped research and review work
-
-| ID | Responsibility and inputs | Next bounded action | Acceptance and limits |
-|---|---|---|---|
-| R1 | Textual editor; [primary passage ledger](../research/primary-passage-ledger.json), [discrepancies](../research/textual-discrepancies.json) and actual work/copy/plate/edition witnesses | Collate one named disputed quotation group against its identified witnesses; retain variants and provenance. | Each resulting quotation resolves to an exact source and role. Unavailable witnesses and unresolved numbering remain explicit; extraction or duplicate copies add no reading credit. |
-| R2 | Scholarly reader; [annotated bibliography](annotated-bibliography.md), reading ledgers and a selected consequential counterargument | Read a specifically identified source or bounded passage and record its strongest objection, exact locators and reading ceiling. | Revised claims follow actual inspected material; unavailable books/chapters remain unavailable. A literature search or abstract does not become a complete-work read. |
-| R3 | Domain author and institutional critic; fixed case files, review report, residual comparison and H12's limits | Specify one adverse case or comparison addressing exclusion, retaliation, material access, collective/treaty competence or reviewer capture, then assess it in a new epoch. | Preserve the original safeguards and distinguish new stipulations from demonstrated effects. An empty residual profile or successful calculation does not certify legitimacy or identify every affected person. |
-| R4 | Browser QA executor; a pinned generated workspace, known corpus and a supported real-browser route | Exercise query modes, word windows, role/plane/family filters, highlights, pagination and source opening; inspect manuscript MathJax separately. | Retain real interactions and a rejecting control. Static HTML, Node/Python checks and a browser tool's refused local-file URL do not clear this task. Offline workspace and CDN-dependent manuscript HTML have different network contracts. |
-| R5 | Daniel and editorial author; this exact working draft, concrete review feedback and a chosen venue | Turn named feedback into a bounded change list; compare portfolio versions before proposing errata; define submission length and rights requirements. | Rebuild changed native inputs into a new epoch, inspect the resulting pages and bind the delivered PDF. Specialist criticism, editorial acceptance and item-specific public redistribution clearance remain separate. |
-| R6 | Corpus custodian and application author; an explicitly selected new capture or vocabulary epoch | When a new epoch is needed, use a fresh import directory and new pin, then compare source IDs, roles, locators, text hashes, denominators and results. | Preserve the present baseline and failures. Report additions, removals and ambiguous mappings; scope absence claims to the supplied forms and captured bytes. This is optional new research, not a missing step in the completed baseline. |
+| R1 — textual editor | Choose the next unresolved group in the [passage ledger](../research/primary-passage-ledger.json) and [discrepancies](../research/textual-discrepancies.json); identify work, copy, plate and edition before collation. | Bind inspected witnesses and exact variants. Retain unavailable material, distinct numbering and the actual reading ceiling. The completed D02 selected-line check is not repeated as a new task. |
+| R2 — scholarly reader | Select a consequential counterargument from the [annotated bibliography](annotated-bibliography.md) and reading ledgers. | Inspect the named passages, record the strongest objection and exact locators, then revise only supported claims. Discovery metadata does not establish a complete reading. |
+| R3 — domain author and institutional critic | Select one unresolved practical premise from the pressure study: material access, retaliation, reviewer control, collective/treaty competence or identification of affected persons. | Declare a new case or empirical design and new output epoch. Distinguish stipulated formal access from evidence about real protection; preserve the original studies. |
+| R4 — browser/accessibility maintainer | Use the qualified workspace and manuscript HTML as the starting versions; select keyboard, assistive-technology or a changed-browser regression scope. | Retain actual supported-browser interactions and a rejecting control. Functional qualification does not establish accessibility; changed outputs need their own checks. Reusable UI changes belong upstream. |
+| R5 — Daniel and manuscript editor | Review this exact draft and identify feedback and a target venue. | Implement the selected changes, render a fresh native epoch and inspect affected pages. Submission length, specialist criticism and public item-level rights clearance retain separate acceptance criteria. |
+| R6 — corpus custodian and application author | If a new capture or vocabulary is needed, declare a new input epoch and fresh pin. | Compare IDs, roles, locators, hashes, denominators and results. Preserve the baseline and scope absence claims to the supplied vocabulary and captured bytes. |
 
 Category-theoretic and collective active-inference extensions remain optional
-research directions after the institutional operations and assumptions are fixed.
-They are not active software completion tickets or substitutes for R1–R5.
+research after their institutional assumptions are specified.
 
-## Operating rule for the next task
+## Starting the next change
 
-Choose one ID, name its owner, exact input identities, new output location and
-acceptance evidence before implementation. Record what passed and what remains
-unassessed. Keep provider texts, full source images, private indexes and raw
-research caches under the [privacy contract](../PRIVACY.md). Private Git delivery
-does not authorize a public release or silently close scholarly work.
+Choose one task ID, owner, exact inputs, owned paths, new output epoch and
+observable acceptance criteria. Close only the completed unit. Keep source
+captures and private indexes under the [privacy contract](../PRIVACY.md).
+Private Git delivery supplies no public redistribution clearance.

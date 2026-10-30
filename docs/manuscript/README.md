@@ -6,6 +6,57 @@ before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
+## Current 0.17.0 study and rebuild inputs
+
+The application now adds eight constructed pressures on H12, with sixteen
+person-specific records, while preserving the original fourteen procedures,
+twenty-eight records and fifteen safeguards. The figure separates the computed
+access profile from four explicitly stipulated practical premises. Neither
+side produces a legitimacy score. The main argument integrates retaliation,
+material support, reviewer control and the reservation of a collective claim;
+the companion [study note](../research/review-pressure-20261029.md) gives the
+actual producer command and the limits of comparison.
+
+A new selected-line reading record compares Q23/Q38 and localizes D02:
+the ASU text and the inspected copy I plate 73 line read *howl*; the retained
+editorial corpus page reads *bowl*. No original corpus byte, role, pin or D02
+record is changed. See
+[the dated collation](../../research/textual-collation-20261029.json) and
+[the selected scholarship rereading](../../research/pressure-reading-20261029.json).
+These records claim only the specified lines and pages.
+
+Use the current locked SDK and application for a new analytical/native epoch.
+Its receipts, rather than historical test or PDF counts below, define its
+actual installed source, outputs and qualification. The native PDF and article
+HTML remain separate from the standalone offline search workspace and its
+browser acceptance. Earlier failures and native epochs stay retained.
+
+The latest native epoch is
+`analysis_output/publication/pressure-20261030-04`: **74 PDF pages**, SHA-256
+`c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`.
+Its article HTML SHA-256 is
+`1301f458ec04b0d1059dfbd9840d9d623996c903042154113889bf2a2f6c0d1b`;
+the HTML bytes equal the preceding repaired native epoch. The pinned template
+is `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`. Native completion and content
+verification remain distinct from independent physical-page and browser review.
+
+The normal installed application passes **688 tests**, with separate branch-aware
+application/tool coverage of **92.21%/70.72%**. The pressure caption derives every
+case's affected-person exposure, including zeros, from the report; the vector
+figure derives its reference and practical-subject identities from the study.
+The old fixed-caption defect, genuine seven-failure regression, repaired
+seven-pass regression and earlier unsuccessful setup attempts remain retained.
+The TOC-only correction preserves 8-point contents type, 8-point leading and
+10-point body type. A real missing-hook XeLaTeX control fails explicitly; 150
+affected manuscript/publication tests pass. Program bytes are unchanged from
+the full 688-test gate. Illuminated-profile dispatch, the source bundle, reading
+figures and record figures now occupy focused modules. All sixteen historical
+and current PDF/PNG comparison artifacts retain exact bytes; 33 existing figure
+tests pass. The final native PDF and HTML are byte-identical to the preceding
+inspected edition, with the refactored sources bound by new native receipts.
+This guide is outside the native prepared-input closure;
+updating it does not relabel an earlier render or require another body render.
+
 ## Retained 72-page working-paper epoch
 
 The reviewed edition used public SDK `d020f47767996a061b6f60e93a82da9386a7926c` and a fresh locked noneditable
@@ -33,24 +84,30 @@ A manuscript or figure change requires a new native epoch and renewed inspection
 ## Generate a new native epoch
 
 Use the supported repository lease and external CPython/runtime/cache roots.
-The exact current command supplies the already qualified corpus and a fresh
-replayed concordance explicitly; it does not rely on a stale default filename:
+Generate the concordance explicitly before passing it to the renderer;
+choose new output names for later runs. Both commands use the already qualified
+corpus, keeping saved query and corpus pins unchanged:
 
 ```bash
-uv run --locked blakean render-manuscript \
+BLAKE_RENDER_EPOCH=native-new
+uv run --locked --no-sync blakean analyze \
+  --corpus local_data/corpus/blake-v0.2.0-qualified \
+  --pin research/corpus-pin.json --queries research/queries.json \
+  --output "analysis_output/$BLAKE_RENDER_EPOCH/concordance.json"
+uv run --locked --no-sync blakean render-manuscript \
   --template-root "$BLAKE_TEMPLATE_ROOT" --template-python "$BLAKE_TEMPLATE_PYTHON" \
   --corpus local_data/corpus/blake-v0.2.0-qualified \
-  --concordance-file analysis_output/expansion-installed-replay-20261028-01/concordance.json \
+  --concordance-file "analysis_output/$BLAKE_RENDER_EPOCH/concordance.json" \
   --readings research/scholarship-reading-0.13.0.json \
-  --output analysis_output/publication/native-new
+  --output "analysis_output/publication/$BLAKE_RENDER_EPOCH"
 ```
 
 Bind the template variables to the clean pinned worktree and its external
 compatible interpreter recorded in the native receipt. Canonical template drift
 does not change that recorded renderer origin. Choose a new output epoch;
-preserve earlier native files, failures and logs. Static HTML asset and fragment
-checks passed with a missing-asset rejection control; browser/MathJax behavior
-was not tested in this pass.
+preserve earlier native files, failures and logs. The retained 2026-10-28
+static HTML qualification includes a missing-asset rejection control.
+Current browser and MathJax acceptance require their own output-bound record.
 
 ## Retained version-specific authoring and historical qualifications
 

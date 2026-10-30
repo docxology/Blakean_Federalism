@@ -61,6 +61,7 @@ class ManuscriptSpec(FrozenModel):
         "0.14.0",
         "0.15.0",
         "0.16.0",
+        "0.17.0",
     ]
     assets: tuple[Asset, ...]
     quotations: tuple[Quotation, ...]
@@ -194,7 +195,7 @@ def validate_manuscript(root: Path, spec: ManuscriptSpec, markdown: str) -> dict
         },
     }[
         "0.11.0"
-        if spec.version in ("0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0")
+        if spec.version in ("0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0", "0.17.0")
         else spec.version
     ]
     if {a.asset_id for a in spec.assets if a.kind == "image"} != expected_images:

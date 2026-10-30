@@ -4,6 +4,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 
+from .pressure_publication import prepare_pressure_figure
 from .review_comparison import ReviewComparison
 from .review_comparison_figure import comparison_captions
 from .review_comparison_run import publish_comparison
@@ -29,6 +30,9 @@ def prepare_domain_figures(
         report = prepare_comparison_figures(root, stage)
         figures.update({name: name + ".png" for name in NAMES})
         captions.update(comparison_captions(report))
+    if "fig:review-pressure" in labels:
+        captions["PRESSURE_CAPTION"] = prepare_pressure_figure(root, stage)
+        figures["review-pressure"] = "review-pressure.png"
     return PreparedDomainFigures(figures, captions)
 
 

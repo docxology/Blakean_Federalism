@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.17.0 — review under practical pressure
+
+- Add eight H12-derived procedures, sixteen person-specific records and a data-derived pressure figure while preserving the original review study and fifteen safeguards.
+- Separate formal access from material support, reprisal, reviewer control and collective-competence declarations; retain exact person-specific gap intervals without a score.
+- Record selected Jerusalem line/copy collation with explicit variants and reading ceilings, preserving historical corpus bytes.
+- Split native front-matter preparation into a focused module, qualify the installed package, and produce fresh source-bound PDF/HTML and offline workspace epochs.
+- Align current agent guidance, task scopes, provenance and private delivery with the new working draft; preserve earlier failures and editions.
+
 ## 2026-10-29 — current core and private-main alignment
 
 - Pin the installed Blake 0.4.0 interfaces to an exact released Git commit, with historical corpus and manuscript producers retained separately.

@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "reference_study_sha256": "c93fb812970dc57f924c58202dfe5abbf9d0c68ccbecfabbbb6c3833e4076f97",
+  "baseline_decisions_sha256": "2d1709f3a7f9f70d6ed3f94a521e43e49424d589c8531b13f5906d00d390aca7",
+  "reference_procedure_id": "H12",
+  "affected_person_id": "resident-b",
+  "collective_party_id": "treaty-people",
+  "cases": [
+    {
+      "procedure": {
+        "procedure_id": "P01",
+        "label": "Reference access, premises open",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 12
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "Reference H12 access/timing values; no practical assurance is inferred from its completed fields.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P02",
+        "label": "Filing support withdrawn",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 12
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The provider withdraws the affected nonmember's three support-enabled filing hours. All other procedural inputs retain H12 values.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "stipulated_obstruction",
+          "rationale": "The nonmember has one usable hour against four required; no transfer of the member's time is permitted."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P03",
+        "label": "Exit required to challenge",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": true,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 12
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "Continued affiliation becomes incompatible with filing for the affected nonmember; the member's access is unchanged.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reprisal",
+          "status": "stipulated_obstruction",
+          "rationale": "This stipulation makes access conditional on leaving an affiliation. It is a modeled barrier, not an observed act."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P04",
+        "label": "Provision threatened at 3 h",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 3
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The nonmember's adverse consequence is advanced from 12 h to 3 h. Response remains 10 h and no protection is supplied.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "stipulated_obstruction",
+          "rationale": "Essential provision is absent during the explicitly computed interval [3,10)."
+        },
+        {
+          "issue": "reprisal",
+          "status": "stipulated_obstruction",
+          "rationale": "The earlier consequence represents a stipulated threat to provision during challenge, not measured retaliation."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P05",
+        "label": "Distinct office, issuer control",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 12
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The review office keeps a different identifier, while its appointment and budget are stipulated to be controlled by the issuer. The seven audited fields are unchanged.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "stipulated_obstruction",
+          "rationale": "A different office identifier does not establish independent appointments, funding or evidence access."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P06",
+        "label": "Collective claim waived",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 12
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The individual filing route is stipulated to require a waiver of treaty-people's reserved collective jurisdictional claim. Individual timing and access fields are unchanged.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "stipulated_obstruction",
+          "rationale": "No mandate allowing either listed person to waive the separately named collective party's claim is supplied. The model does not infer one."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P07",
+        "label": "Protection awaits filing",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 3,
+            "protection": {
+              "provider_office_id": "supply-guarantor",
+              "starts_hour": 3,
+              "ends_hour": 10,
+              "trigger": "on_filing"
+            }
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The nonmember's consequence begins 3 h after notice, but filing-triggered protection can start only when that person is ready at 6 h.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "stipulated_obstruction",
+          "rationale": "Protection activated by a feasible filing covers [6,10), leaving [3,6) uncovered."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    },
+    {
+      "procedure": {
+        "procedure_id": "P08",
+        "label": "Automatic provision bridge",
+        "baseline_decision_id": "E-bounded",
+        "issuing_office_id": "water-board",
+        "reviewing_office_id": "review-panel",
+        "filing_opens_hour": 2,
+        "filing_closes_hour": 8,
+        "response_hour": 10,
+        "admitted_claimant_ids": [
+          "member-a",
+          "resident-b"
+        ],
+        "powers": [
+          "revise_act"
+        ],
+        "claimants": [
+          {
+            "claimant_id": "member-a",
+            "membership": "member",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 6,
+            "support_enabled_filing_hours": 0,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 4,
+            "consequence_hour": 18
+          },
+          {
+            "claimant_id": "resident-b",
+            "membership": "nonmember",
+            "affiliation_exit_required": false,
+            "available_filing_hours": 1,
+            "support_enabled_filing_hours": 3,
+            "required_filing_hours": 4,
+            "ready_to_file_hour": 6,
+            "consequence_hour": 3,
+            "protection": {
+              "provider_office_id": "supply-guarantor",
+              "starts_hour": 3,
+              "ends_hour": 10,
+              "trigger": "automatic"
+            }
+          }
+        ],
+        "unassessed_issues": [
+          "retaliation",
+          "disputed_forum_competence"
+        ]
+      },
+      "mechanism": "The preceding 3 h consequence is paired with automatic protection over [3,10). Filing capacity remains one available plus three support-enabled hours.",
+      "boundaries": [
+        {
+          "issue": "material_support",
+          "status": "stipulated_protection",
+          "rationale": "Automatic supply protection covers the modeled wait. Wage, housing, physical safety, office control and collective competence remain unproved."
+        },
+        {
+          "issue": "reprisal",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "reviewer_control",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        },
+        {
+          "issue": "collective_reservation",
+          "status": "unassessed",
+          "rationale": "Not established by the seven-condition input record."
+        }
+      ]
+    }
+  ]
+}

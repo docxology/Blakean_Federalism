@@ -14,9 +14,9 @@ No TimeLock unlock was performed. The earlier bounded absence report is supersed
 
 The explicitly selected working-paper PDF, [Blakean_Federalism.pdf](Blakean_Federalism.pdf),
 is tracked here as a PRIVATE research deliverable. Its exact reviewed SHA-256 is
-`4adca0e271c735f7de07665600778aa8dddc385007477dc2f61a973aadf8e91d`; the native analytical and reading epoch remains
-the one documented in the manuscript guide and retained receipts. The current
-application runtime and its qualification are recorded separately.
+`c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`; the current native, analytical and selected-reading identities are recorded in
+the manuscript guide and current advancement receipt. Earlier editions, corpus
+pins, reading ceilings and failures remain retained separately.
 
 This narrow exception covers the reviewed paper with its attributed selected
 image witnesses and project-authored aggregate figures; it does not authorize
@@ -25,3 +25,7 @@ research outputs. Source captures and their provider terms remain in local
 custody. Repository privacy is mandatory for this delivery and does not confer
 redistribution rights. Any public release needs a separate item-level rights
 and scholarly review; this private-main integration is not that clearance.
+
+The previous selected PDF remains byte-for-byte in the retained initial-source
+packet and prior private Git history. The current narrow PDF exception does not
+add raw source captures or expand any complete-reading or redistribution claim.

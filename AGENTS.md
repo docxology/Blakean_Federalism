@@ -24,6 +24,11 @@ policy and interpretation here.
 4. For new source intake, import or corpus changes, read [privacy and custody](PRIVACY.md)
    and `research/corpus-pin.json` before choosing a new input/output epoch.
 
+For the adverse review study or source variants, read
+[review under pressure](docs/research/review-pressure-20261029.md) and the dated
+collation before changing its cases, figure or claims. Keep this new family
+separate from the fixed-duty order on the original fourteen procedures.
+
 ## Implementation and evidence
 
 - Use GitVault's supported repository lease for source changes, project gates,

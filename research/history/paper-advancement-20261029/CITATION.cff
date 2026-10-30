@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the exact private software version used; this research draft is not peer reviewed."
+type: software
+title: Blakean Federalism
+version: 0.16.0
+date-released: 2026-10-28
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+repository-code: "https://github.com/docxology/Blakean_Federalism"
+license: LicenseRef-Proprietary
