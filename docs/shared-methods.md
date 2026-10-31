@@ -35,10 +35,7 @@ the existing institutional review evaluator; generic producer and output custody
 remain in the public package.
 See [project status](PROJECT_STATUS.md) for current task ownership and acceptance.
 
-The migration retains the historical regex and literal contracts. A fresh run on
-the independently copied 2,067-unit input reproduces all four historical JSON
-measurements byte for byte: concordance, descriptive statistics, literal study and
-proximity. New producer receipts include the delegated shared source files.
+The [28 October installed 0.16.0 migration qualification](../research/installation-shared-methods-0.16.0.json) records the four-file byte-identical replay on the independently copied 2,067-unit input: concordance, descriptive statistics, literal study and proximity. Its selected public Git source was `4dc75f71d28f83a9f92db9ca523fb38326ba95f6`. Those producer receipts include the delegated shared source files. The current [0.18.0 planning qualification](../research/review-planning-20261030.json) has its own installed suite and blank-batch controls; it does not claim a new mathematical replay.
 Historical producer identities, corpus pins and acceptance packets remain
 historical; numerical equality does not replace them with a new producer.
 The earlier 72-page paper used SDK `d020f47767996a061b6f60e93a82da9386a7926c`.

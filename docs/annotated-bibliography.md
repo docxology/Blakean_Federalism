@@ -2,7 +2,9 @@
 
 Imported from the supplied research scope, dated 22 October 2026. Every unqualified Read statement below reports that scope's prior reading, not a new claim by this session. The current primary-source memo separately identifies exactly what was rechecked. Bibliographic identity, access, reading depth, source truth and current law are different warrants. No added completeness credit follows from retaining these notes.
 
-## Current reading update
+Current workbench reading provenance is collected in [the cumulative 0.13.0 ledger](../research/scholarship-reading-0.13.0.json) and the retained [references and rights appendix](manuscript/references-and-rights.md). These pointers add no reading credit to the historical annotations below.
+
+## Foundation reading update (0.2.0)
 
 The [0.2.0 research memo](research/scholarship-expansion-0.2.0.md) and [rendered-paper reference source](manuscript/references-and-rights.md) record the new bounded reading: Fallon, Nicolaïdis, Bauböck, Ostrom and Hooghe-Marks main texts; Lee and Matthews available excerpts; selected Damrosch and Henderson pages; and the complete UN declaration. Earlier annotations below remain historical. Correction: in the acquired Damrosch preview printed p.18 is one-based PDF p.33, not p.32. No unread book or chapter acquires complete-reading credit.
 

@@ -33,6 +33,8 @@ Selected local page 131 and the ASU Milton 32:14 display show an apparent omissi
 
 A first phrase-only search for Great Eternity returned an earlier Milton passage rather than Jerusalem 54. That failed locator demonstrates why a word match cannot verify a cited passage. The corrected local selection requires the intended E-page, while ASU work/plate/line labels remain separately checked. Provider record numbers are not E-pages: record 141 represents page 131, for example.
 
+The preceding discrepancy descriptions record the original observation epoch. The later [selected-line collation](../research/textual-collation-20261029.json) checks the Jerusalem D02 `bowl`/`howl` lead against the specified ASU line and LOC copy-I sheet. That closes the named line check while preserving the old corpus/ledger bytes, original roles and wider unresolved copy/edition questions; it is not full-copy collation.
+
 ## Institutional controls
 
 The five bounded alternatives meet the explicitly stipulated predicates; all five capture alternatives fail. The results test record consistency, not whether the bounded arrangements would work, be lawful or be legitimate. Three/four/six-lens changes and additional affiliations supply no automatic civic entitlement or freedom score. The computational model is not a model of Blakean ontology.

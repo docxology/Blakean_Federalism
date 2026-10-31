@@ -14,6 +14,8 @@ The current 0.18.0 software selects Blake 0.5.0 at exact commit
 its qualified scope. [Shared methods](docs/shared-methods.md) explains the
 boundary with the public [corpus and methods repository](https://github.com/docxology/blake).
 
+[Complete documentation map](docs/README.md).
+
 ## Current working paper and installed application
 
 The retained **0.17.0 paper** presents an eight-procedure study of review under practical
@@ -136,14 +138,15 @@ uv run ruff check src tests tools
 uv run ruff format --check src tests tools
 ~~~
 
-Import an independent text projection from the existing Blake project. The source is read-only, and a destination must be new:
+The retained import used by default search commands is `local_data/corpus/blake-v0.2.0-qualified`; do not reimport over it. When an independent new projection is needed, select an unused destination and pass that same path explicitly to every consumer. The source stays read-only, and the existing pin still admits only its declared captured bytes:
 
 ~~~bash
+NEW_CORPUS=local_data/corpus/operator-selected-unused-epoch
 uv run blakean import-corpus \
   --source ../../Public/blake/blake_data \
-  --destination local_data/corpus/blake-v0.2.0
+  --destination "$NEW_CORPUS"
 uv run blakean analyze \
-  --corpus local_data/corpus/blake-v0.2.0 \
+  --corpus "$NEW_CORPUS" \
   --output analysis_output/concordance-new-run.json
 uv run blakean export-summary \
   --concordance-file analysis_output/concordance-new-run.json \
@@ -151,11 +154,13 @@ uv run blakean export-summary \
 uv run blakean assess-cases \
   --output analysis_output/cases-new-run.json
 uv run blakean corpus-statistics \
-  --corpus local_data/corpus/blake-v0.2.0 \
+  --corpus "$NEW_CORPUS" \
   --output analysis_output/statistics-new-run.json
 uv run blakean experiment-cases \
   --output analysis_output/interventions-new-run.json
 ~~~
+
+If using the new projection for search or a workbench, add `--corpus "$NEW_CORPUS"` there too; omitting it selects the retained qualified default. Choose unused output filenames for every new operation. A different source capture needs a separately declared pin and input epoch.
 
 Set external TMPDIR, UV_CACHE_DIR and UV_LINK_MODE=copy as described in the GitVault contract. Verify both sys.prefix and sys.base_prefix resolve on GitVault. Global Python selection alone does not establish that. A fresh machine must provision the compatible external runtime before syncing.
 

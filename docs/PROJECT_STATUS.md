@@ -1,8 +1,13 @@
 # Project status and scoped next work
 
-Status date: 2026-10-30. This is the operational task index. The
+Status date: 2026-10-31. This is the operational task index. The
 [research history](RESEARCH_STATUS.md) preserves earlier qualifications; the
 [research program](research-program.md) defines the scholarly questions.
+
+[Documentation map](README.md) separates operating guides, retained native inputs
+and historical study notes. [Documentation review](../research/documentation-review-20261031.json)
+binds this guide-only correction; prior software tests and native receipts retain
+their original source epochs.
 
 ## Current software and retained paper
 

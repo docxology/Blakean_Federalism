@@ -57,17 +57,31 @@ Candidate-source overlays are development evidence and do not establish that
 installed qualification. The request pin must come from a trusted external
 record of the declared request, separately from the batch receipt pin.
 
+The retained batch already exists. Verify it without trying to recreate it:
+
 ~~~sh
-uv run --locked --no-sync blakean plan-review \
-  --request research/review-planning-request-v1.json \
-  --request-sha256 "$REQUEST_SHA256" \
-  --output analysis_output/review-planning-20261030-01/batch
 uv run --locked --no-sync blakean verify-review \
   --request research/review-planning-request-v1.json \
   --request-sha256 "$REQUEST_SHA256" \
   --batch analysis_output/review-planning-20261030-01/batch \
   --batch-sha256 "$BATCH_RECEIPT_SHA256"
 ~~~
+
+For a separate planning epoch, choose a genuinely unused directory under
+`analysis_output/`; leave the request and retained batch unchanged:
+
+~~~sh
+: "${FRESH_BATCH:?Choose a new unused analysis_output directory}"
+uv run --locked --no-sync blakean plan-review \
+  --request research/review-planning-request-v1.json \
+  --request-sha256 "$REQUEST_SHA256" \
+  --output "$FRESH_BATCH"
+~~~
+
+Retain that new batch's `run.json` hash independently before verifying its new
+path. The request pin and batch pin are separate trusted inputs; do not infer a
+new batch's authority from the retained example. An occupied destination must
+refuse and must not be cleared to make a recipe succeed.
 
 The batch contains exactly `plan.json`, selected `hits.jsonl`, a blank
 `review-queue.csv` and final `run.json`. Keep provider contexts private under

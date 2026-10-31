@@ -3,20 +3,20 @@
     "application": 96.93510885647855,
     "tools": 74.90494296577947
   },
-  "coverage_scope": "Current normal-installed full suite with real subprocess counters, separate full application/tools denominators and exact source identities; additional operational run/batch counters remain separate. No old-source union or exclusion waiver.",
-  "current_source_sha256": "079c58da2acb1b2cd45d5b9b13080bedb522854395a82bd1715f4c1799eed37c",
+  "coverage_scope": "Retained installed software suite/coverage at research/review-planning-20261030.json; no full rerun for this documentation-only change. Exact package/SDK and verify-only refusal evidence is separate.",
+  "current_source_sha256": "2682ef70ae23a692e2a51bfc437d3163343a8bdc8f6fb6f7202657f54bfa78dc",
   "delivery": {
-    "final_readback": "Local/blake-review-planning-20261030T232019Z/final-delivery.json",
+    "final_readback": "Local/blake-docs-review-20261031T221651Z/DELIVERY.json",
     "required_visibility": "PRIVATE",
-    "status_at_source_freeze": "Software/source freeze; actual commit/push/remote and Downloads readback are recorded separately.",
+    "status_at_source_freeze": "Documentation source freeze; independent review, commit/push/remote and retained PDF/Downloads readback remain separately receipted.",
     "target_branch": "main"
   },
   "documentation_reconciliation": {
-    "path": "/Volumes/GitVault/Local/blake-review-planning-20261030T232019Z/root-documentation-repair-02/federalism/DOCUMENTATION-REPAIR.json",
-    "sha256": "0be0e0d7543e8439faaa73d2a28e5073d2d603d6f0b6d17e636459ab6b2eff44"
+    "path": "research/documentation-review-20261031.json",
+    "sha256": "88fa05dcd4fa832a871011ef08d8a432d45d6574d5dd56a57851b3b5725c2308"
   },
-  "qualification": "research/review-planning-20261030.json",
-  "qualification_epoch": "review-planning-20261030",
+  "qualification": "research/documentation-review-20261031.json",
+  "qualification_epoch": "documentation-20261031",
   "reviewed_native": {
     "canonical_pdf": "Blakean_Federalism.pdf",
     "current_native_render_performed": false,
@@ -170,10 +170,25 @@
     "scope": "Retained qualified paper under its original producer; no native render in this software epoch",
     "sha256": "c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1"
   },
-  "schema_version": 23,
-  "scope": "Current normal-installed software and deterministic blank-review workload; source, run/request/decision custody, real CLI/refusal controls and separate application/tools coverage. No new authored decisions, corpus capture, mathematical analysis, main-manuscript/native render, scientific, accessibility or public rights acceptance. Retained papers and all historical producers/failures keep their original qualification.",
-  "sha256": "557f5fa62bbf194ea73eca7aa46aa98479883eedc5d486b98792afbc2be872b9",
+  "schema_version": 24,
+  "scope": "Complete docs inventory/review and bounded guide corrections. No code, dependency, corpus, adjudication, analytical, main-manuscript, native, scientific or release epoch is created.",
+  "sha256": "88fa05dcd4fa832a871011ef08d8a432d45d6574d5dd56a57851b3b5725c2308",
   "shared_sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+  "software_qualification": {
+    "new_full_suite": false,
+    "prior_qualification": {
+      "path": "research/review-planning-20261030.json",
+      "sha256": "557f5fa62bbf194ea73eca7aa46aa98479883eedc5d486b98792afbc2be872b9"
+    },
+    "qualification_scope": "Exact unchanged qualified package/SDK bytes and real verify-only CLI/refusal checked anew; full tests/coverage remain at the original qualification.",
+    "retained_coverage": {
+      "application": 96.93510885647855,
+      "tools": 74.90494296577947
+    },
+    "retained_tests": 714,
+    "sdk_commit": "36b874e76d7e0549d0ea6b9f0713ced7fb41afa8",
+    "version": "0.18.0"
+  },
   "tests": 714,
   "version": "0.18.0"
 }

@@ -8,7 +8,7 @@ Build from a verified independent corpus import and concordance:
 uv run blakean build-workbench --corpus local_data/corpus/blake-v0.2.0-qualified --concordance-file analysis_output/concordance-v0.3.0.json --output analysis_output/workbench/new-run
 ~~~
 
-The command uses the package’s current reading ledger (`research/scholarship-reading-0.6.0.json` in this version). Use `--readings` only to select a deliberate historical or alternative ledger.
+The command defaults to [the cumulative 0.13.0 reading ledger](../research/scholarship-reading-0.13.0.json), as declared by the CLI and report builder. Use `--readings` to select a deliberate historical or alternative ledger. Earlier ledgers retain their original reading ceilings. [Project status](PROJECT_STATUS.md) records current software and paper qualifications.
 
 Open research-workbench.html in a browser. Without JavaScript all three sections remain readable. Enhanced tabs use manual keyboard activation: arrows/Home/End move focus; Enter/Space activates. Filters match saved query names and explicit variants, not the corpus text. Clear search retains plane/role; Reset filters clears all. Native disclosures retain actual inputs and full bindings.
 
