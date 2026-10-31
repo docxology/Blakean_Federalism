@@ -13,11 +13,17 @@ from typing import Annotated, Final
 import typer
 from pydantic import TypeAdapter
 
+from .cli_analysis import (
+    DEFAULT_CORPUS,
+    DEFAULT_PIN,
+    corpus_statistics_command,
+    register_analysis_commands,
+    require_ignored,
+)
 from .cli_evidence_review import register_review_commands
 from .cli_proximity import proximity_study_command
 from .cli_review_comparison import compare_review_command
-from .corpus import concordance, import_corpus, load_import
-from .corpus_statistics import analyze_corpus
+from .corpus import import_corpus
 from .institutional_experiments import run_experiment
 from .institutions import assess
 from .models import (
@@ -26,33 +32,19 @@ from .models import (
     CorpusPin,
     CountRow,
     Decision,
-    Plane,
-    QuerySpec,
     ResearchError,
-    Role,
 )
 from .report import build_workbench, publish_workbench
-from .search import search_corpus
-from .search_models import SearchRequest
-from .search_study import build_search_study
-from .search_workspace import build_search_workspace
+from .review_planning_cli import register_review_planning_commands
 from .storage import write_new
 
-DEFAULT_PIN: Final = Path("research/corpus-pin.json")
-DEFAULT_QUERIES: Final = Path("research/queries.json")
 DEFAULT_CASES: Final = Path("research/cases.json")
-DEFAULT_CORPUS: Final = Path("local_data/corpus/blake-v0.2.0-qualified")
 DEFAULT_CONCORDANCE: Final = Path("analysis_output/concordance-v0.3.0.json")
 
 app = typer.Typer(no_args_is_help=True)
 register_review_commands(app)
 _ = app.command("proximity-study")(proximity_study_command)
 _ = app.command("compare-review")(compare_review_command)
-
-
-def require_ignored(path: Path, directory: str) -> None:
-    if not path.resolve().is_relative_to((Path.cwd() / directory).resolve()):
-        raise ResearchError("private_output_required", directory)
 
 
 @app.command("import-corpus")
@@ -66,101 +58,7 @@ def import_command(
     typer.echo(receipt.model_dump_json(indent=2))
 
 
-@app.command()
-def analyze(
-    corpus: Annotated[Path, typer.Option(help="Previously verified independent projection")],
-    output: Annotated[Path, typer.Option(help="New ignored JSON concordance path")],
-    queries: Path = DEFAULT_QUERIES,
-    pin: Path = DEFAULT_PIN,
-) -> None:
-    require_ignored(output, "analysis_output")
-    specs = TypeAdapter(tuple[QuerySpec, ...]).validate_json(queries.read_bytes())
-    result = concordance(corpus, specs, CorpusPin.model_validate_json(pin.read_bytes()))
-    write_new(output, result.model_dump_json(indent=2) + "\n")
-    typer.echo(
-        f"{result.scanned_source_documents} source documents; {len(result.hits)} occurrences"
-    )
-    typer.echo("Saved spans, source roles and editions support close reading.")
-
-
-@app.command("search-corpus")
-def search_corpus_command(
-    term: Annotated[
-        list[str], typer.Option("--term", help="Literal word or phrase; repeat for alternatives")
-    ],
-    output: Annotated[Path, typer.Option(help="New ignored source-bound result JSON")],
-    *,
-    corpus: Path = DEFAULT_CORPUS,
-    pin: Path = DEFAULT_PIN,
-    mode: str = "any",
-    window_words: Annotated[
-        int | None, typer.Option(help="ALL-term window of 1-200 original word tokens")
-    ] = None,
-    role: Role | None = None,
-    plane: Plane | None = None,
-    work_id: str | None = None,
-    all_sources: bool = False,
-    substring: bool = False,
-    limit: int = 100,
-    context_chars: int = 120,
-) -> None:
-    """Search literal Unicode text across the verified corpus, independently of saved queries."""
-    require_ignored(output, "analysis_output")
-    if all_sources and role is not None:
-        raise ResearchError("search_role", "Choose --all-sources or --role")
-    request = SearchRequest.model_validate(
-        {
-            "terms": tuple(term),
-            "mode": mode,
-            "window_words": window_words,
-            "role": None if all_sources else (role or Role.PRIMARY),
-            "plane": plane,
-            "work_id": work_id,
-            "whole_words": not substring,
-            "limit": limit,
-            "context_chars": context_chars,
-        }
-    )
-    result = search_corpus(corpus, CorpusPin.model_validate_json(pin.read_bytes()), request)
-    write_new(output, result.model_dump_json(indent=2) + "\n")
-    typer.echo(
-        "".join(
-            (
-                f"{result.total_occurrences} occurrences; ",
-                f"{result.matched_source_units}/{result.eligible_source_units} eligible units; ",
-                f"{result.returned_hits} returned",
-            )
-        )
-    )
-
-
-@app.command("build-search-workspace")
-def build_search_workspace_command(
-    output: Annotated[
-        Path, typer.Option(help="New ignored directory containing local full-text search")
-    ],
-    corpus: Path = DEFAULT_CORPUS,
-    pin: Path = DEFAULT_PIN,
-) -> None:
-    """Build a standalone offline full-text workspace; keep this artifact local."""
-    require_ignored(output, "analysis_output")
-    typer.echo(
-        str(build_search_workspace(corpus, CorpusPin.model_validate_json(pin.read_bytes()), output))
-    )
-
-
-@app.command("search-study")
-def search_study_command(
-    output: Annotated[Path, typer.Option(help="New aggregate-only search study JSON")],
-    corpus: Path = DEFAULT_CORPUS,
-    pin: Path = DEFAULT_PIN,
-) -> None:
-    """Compare seven literal searches across every imported source role."""
-    expected = CorpusPin.model_validate_json(pin.read_bytes())
-    _, passages = load_import(corpus, expected)
-    result = build_search_study(passages, expected)
-    write_new(output, result.model_dump_json(indent=2) + "\n")
-    typer.echo(f"{result.source_units} source units; {len(result.queries)} literal queries")
+register_analysis_commands(app)
 
 
 @app.command("assess-cases")
@@ -179,27 +77,7 @@ def assess_cases(
     typer.echo(f"{len(assessments)} synthetic records assessed; every safeguard check retained.")
 
 
-@app.command("corpus-statistics")
-def corpus_statistics_command(
-    output: Annotated[Path, typer.Option(help="New ignored statistics JSON path")],
-    corpus: Path = DEFAULT_CORPUS,
-    queries: Path = DEFAULT_QUERIES,
-    pin: Path = DEFAULT_PIN,
-) -> None:
-    """Compare copy-retaining, exact-text and equal-family primary corpus measures."""
-    require_ignored(output, "analysis_output")
-    _, passages = load_import(corpus, CorpusPin.model_validate_json(pin.read_bytes()))
-    specs = TypeAdapter(tuple[QuerySpec, ...]).validate_json(queries.read_bytes())
-    result = analyze_corpus(passages, specs)
-    write_new(output, result.model_dump_json(indent=2) + "\n")
-    typer.echo(
-        "".join(
-            (
-                f"{result.primary_source_units} primary units; {result.primary_work_groups} ",
-                f"source families; {result.primary_tokens} tokens",
-            )
-        )
-    )
+_ = app.command("corpus-statistics")(corpus_statistics_command)
 
 
 @app.command("experiment-cases")
@@ -313,6 +191,9 @@ def render_manuscript_command(
     if result.returncode:
         raise ResearchError("template_render_failed", str(stage / "native-render.log"))
     typer.echo(json.dumps(verify_publication(root, stage), indent=2))
+
+
+register_review_planning_commands(app)
 
 
 if __name__ == "__main__":

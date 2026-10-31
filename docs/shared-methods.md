@@ -1,6 +1,6 @@
 # Shared methods and authored evidence review
 
-The 0.17 application delegates corpus custody, passage schemas, regex
+The 0.18 application delegates corpus custody, passage schemas, regex
 concordance, literal search, word-window proximity, statistics and offline search
 rendering to `blake.methods`. This repository owns the political query registry,
 fixed comparison grid, institutional models, readings and manuscript. Its
@@ -8,8 +8,8 @@ institutional conclusions are not corpus metadata.
 
 ## Current software and historical evidence
 
-The current integration selects public Blake 0.4.0 at
-`45171a099a6a658c52ab689501de646a28485653`. The exact executable dependency is
+The current integration selects public Blake 0.5.0 at
+`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`. The exact executable dependency is
 declared in [pyproject.toml](../pyproject.toml) and [uv.lock](../uv.lock), with
 its measured qualification in [verification.json](../research/verification.json).
 The moving upstream `main` is the development source, not an implicit repin of
@@ -41,9 +41,19 @@ measurements byte for byte: concordance, descriptive statistics, literal study a
 proximity. New producer receipts include the delegated shared source files.
 Historical producer identities, corpus pins and acceptance packets remain
 historical; numerical equality does not replace them with a new producer.
-The retained working-paper epoch used SDK `d020f47767996a061b6f60e93a82da9386a7926c`;
+The earlier 72-page paper used SDK `d020f47767996a061b6f60e93a82da9386a7926c`.
+The retained 74-page 0.17.0 paper used SDK
+`45171a099a6a658c52ab689501de646a28485653`;
 the corpus capture records its earlier producer separately. Qualifying the
 current SDK preserves both records and writes a new execution receipt.
+
+## Plan a bounded contextual workload
+
+The [request-pinned planner](research/review-planning.md) reuses public
+Blake's ranking, unit caps and immutable blank batches. Federalism supplies
+the original candidate run, political scope and decision labels. This is
+contextual evidence review, separate from the institutional review model.
+No quotation or reading ledger is converted into a candidate decision.
 
 ## Prepare a private review queue
 

@@ -34,8 +34,8 @@ wheels = [
 
 [[package]]
 name = "blake"
-version = "0.4.0"
-source = { git = "https://github.com/docxology/blake.git?rev=45171a099a6a658c52ab689501de646a28485653#45171a099a6a658c52ab689501de646a28485653" }
+version = "0.5.0"
+source = { git = "https://github.com/docxology/blake.git?rev=36b874e76d7e0549d0ea6b9f0713ced7fb41afa8#36b874e76d7e0549d0ea6b9f0713ced7fb41afa8" }
 dependencies = [
     { name = "click" },
     { name = "packaging" },
@@ -45,7 +45,7 @@ dependencies = [
 
 [[package]]
 name = "blakean-federalism"
-version = "0.17.0"
+version = "0.18.0"
 source = { editable = "." }
 dependencies = [
     { name = "blake" },
@@ -74,7 +74,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "blake", git = "https://github.com/docxology/blake.git?rev=45171a099a6a658c52ab689501de646a28485653" },
+    { name = "blake", git = "https://github.com/docxology/blake.git?rev=36b874e76d7e0549d0ea6b9f0713ced7fb41afa8" },
     { name = "markdown-it-py", marker = "extra == 'manuscript'", specifier = ">=4,<5" },
     { name = "pillow", marker = "extra == 'manuscript'", specifier = ">=11,<14" },
     { name = "pydantic", specifier = ">=2.11,<3" },

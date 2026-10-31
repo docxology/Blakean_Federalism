@@ -1,0 +1,51 @@
+[
+  {
+    "query_id": "minute_particulars",
+    "variants": [
+      "minute particulars"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "general_forms",
+    "variants": [
+      "general forms"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "liberty",
+    "variants": [
+      "liberty"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "freedom",
+    "variants": [
+      "freedom"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "brotherhood",
+    "variants": [
+      "brotherhood"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "nation",
+    "variants": [
+      "nation"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  },
+  {
+    "query_id": "negative_control",
+    "variants": [
+      "zzzxqvnegativecontrol"
+    ],
+    "note": "Existing keyword set; unadjudicated review-planning leads."
+  }
+]

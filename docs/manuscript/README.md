@@ -6,7 +6,7 @@ before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
-## Current 0.17.0 study and rebuild inputs
+## Retained 0.17.0 study and rebuild inputs
 
 The application now adds eight constructed pressures on H12, with sixteen
 person-specific records, while preserving the original fourteen procedures,
@@ -40,7 +40,7 @@ the HTML bytes equal the preceding repaired native epoch. The pinned template
 is `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`. Native completion and content
 verification remain distinct from independent physical-page and browser review.
 
-The normal installed application passes **688 tests**, with separate branch-aware
+The retained paper's installed qualification recorded **688 tests**, with separate branch-aware
 application/tool coverage of **92.21%/70.72%**. The pressure caption derives every
 case's affected-person exposure, including zeros, from the report; the vector
 figure derives its reference and practical-subject identities from the study.
@@ -184,3 +184,14 @@ replay of four historical analyses with 33 installed distributions. Its receipt 
 original recorded environment; the new installation reverified a separate copy.
 Offline workspace browser QA is blocked by the browser tool's local-file URL
 policy; generated HTML and Node/Python checks do not establish browser behavior.
+
+## Software-only review-planning epoch
+
+Current software passed 714 installed tests and the declared
+separate application/tool coverage floors; its exact Git SDK and real
+planning/refusal commands are in
+[the software qualification](../../research/review-planning-20261030.json).
+The retained PDF/HTML and their original producer remain unchanged. No old
+coverage database, native receipt, page review or one-shot production grant
+is reassigned to this software epoch. Changed manuscript or renderer inputs
+require their own source, native and physical/browser-output qualification.

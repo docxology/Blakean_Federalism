@@ -24,6 +24,10 @@ policy and interpretation here.
 4. For new source intake, import or corpus changes, read [privacy and custody](PRIVACY.md)
    and `research/corpus-pin.json` before choosing a new input/output epoch.
 
+For a contextual workload, read [request-pinned planning](docs/research/review-planning.md)
+and its exact request/source/decision pins. Shared ranking and batch custody
+belong upstream; do not conflate this workflow with institutional standing.
+
 For the adverse review study or source variants, read
 [review under pressure](docs/research/review-pressure-20261029.md) and the dated
 collation before changing its cases, figure or claims. Keep this new family

@@ -1,8 +1,8 @@
 # Private Federalism authoring conventions
 
-Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/45171a099a6a658c52ab689501de646a28485653/docs/style-guide.md)
+Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/36b874e76d7e0549d0ea6b9f0713ced7fb41afa8/docs/style-guide.md)
 for general method boundaries, provenance and manuscript syntax. The link
-binds current authoring conventions to the selected Blake 0.4.0 source. Earlier
+binds current authoring conventions to the selected Blake 0.5.0 source. Earlier
 rendered papers retain the style and producer identities recorded in their own
 receipts. Consult [project status](PROJECT_STATUS.md) for the current qualification
 and next work.

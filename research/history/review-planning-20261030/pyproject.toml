@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "blakean-federalism"
+version = "0.17.0"
+readme = "README.md"
+authors = [{name = "Daniel Ari Friedman"}]
+description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
+requires-python = ">=3.11"
+dependencies = [
+    "blake>=0.4.0",
+    "pydantic>=2.11,<3",
+    "typer>=0.15,<1",
+    "typing-extensions>=4.12",
+]
+
+[project.scripts]
+blakean = "blakean_federalism.cli:app"
+
+[project.optional-dependencies]
+manuscript = [
+    "markdown-it-py>=4,<5",
+    "pillow>=11,<14",
+    "pypdf>=6,<8",
+    "reportlab>=4.4,<5",
+    "requests>=2.32,<3",
+    "types-reportlab>=4",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-cov>=6", "ruff>=0.11", "basedpyright>=1.28"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "COM812", "ISC001", "EM101"]
+# EM101 assumes a prose exception message; ResearchError receives a stable machine code.
+[tool.ruff.lint.mccabe]
+max-complexity = 15
+# The custody transaction keeps before/copy/after checks in one visible function.
+
+[tool.ruff.lint.per-file-ignores]
+"tools/acquire_manuscript.py" = ["T201"]
+"tools/template_render.py" = ["PLC0415", "T201"]
+# Native imports follow explicit selection of the pinned template source; stdout is a worker result.
+"tools/render_manuscript.py" = ["PLR0913", "PLR0917", "PLR2004", "T201"]
+"src/blakean_federalism/publication_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/publication_body.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/publication_abstracts.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/publication_evidence.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/analysis_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
+"src/blakean_federalism/search_figure.py" = ["PLR2004"]
+"src/blakean_federalism/figure_style.py" = ["PLR0913", "PLR0917"]
+# Figure primitives expose positional geometry; numeric thresholds are visual layout values.
+"src/blakean_federalism/cli.py" = ["PLR0913", "PLR0917"]
+# Click command signatures expose explicit options rather than an opaque options bag.
+# Vector primitives use positional geometry and fixed physical page numbers; CLI prints its result.
+"tests/*" = ["S101", "PLR2004", "SLF001", "ANN001", "ANN201", "C408"]
+# Pytest injects fixtures dynamically; application functions remain fully annotated.
+
+[tool.basedpyright]
+typeCheckingMode = "all"
+include = ["src"]
+pythonVersion = "3.11"
+extraPaths = ["src"]
+
+[tool.uv.sources]
+blake = {git = "https://github.com/docxology/blake.git", rev = "45171a099a6a658c52ab689501de646a28485653"}
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/blakean_federalism"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]

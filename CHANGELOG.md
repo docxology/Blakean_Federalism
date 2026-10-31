@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.18.0 software — request-pinned review workloads
+
+- Adopt the exact qualified Blake 0.5.0 Git source for shared deterministic ranking, unit caps, full-pool hashes and immutable blank batches.
+- Keep original-run admission, source eligibility and authored decisions in this application; validate all decisions before filtering scope.
+- Add real plan/verify commands and a source-pinned bounded workload, with current installed execution and refusing controls.
+- Preserve the retained paper, native producer, corpus, analytical epochs and every prior decision/failure. Planning adds no reading credit or manuscript edition.
+
 ## 0.17.0 — review under practical pressure
 
 - Add eight H12-derived procedures, sixteen person-specific records and a data-derived pressure figure while preserving the original review study and fifteen safeguards.

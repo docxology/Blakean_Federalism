@@ -8,27 +8,27 @@ and the [reviewed working-paper PDF](Blakean_Federalism.pdf).
 Completed engineering, current integration and open scholarly work have separate
 statuses; [research history](docs/RESEARCH_STATUS.md) retains earlier epochs.
 
-The current software integration targets Blake 0.4.0 at exact commit
-`45171a099a6a658c52ab689501de646a28485653`. The executable dependency lives in
+The current 0.18.0 software selects Blake 0.5.0 at exact commit
+`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`. The executable dependency lives in
 `pyproject.toml` and `uv.lock`; [verification](research/verification.json) records
 its qualified scope. [Shared methods](docs/shared-methods.md) explains the
 boundary with the public [corpus and methods repository](https://github.com/docxology/blake).
 
 ## Current working paper and installed application
 
-Federalism **0.17.0** adds an eight-procedure study of review under practical
+The retained **0.17.0 paper** presents an eight-procedure study of review under practical
 pressure, sixteen person-specific assessments and a report-derived figure.
 It distinguishes modeled standing, usable preparation and interim protection
 from material dependence, retaliation, reviewer control and collective
 competence. The original fourteen procedures, twenty-eight claimants and
 fifteen safeguards remain unchanged. See [the pressure study](docs/research/review-pressure-20261029.md).
 
-The fresh **74-page** [working paper](Blakean_Federalism.pdf) was prepared
-and rendered with the current exact Blake 0.4.0 SDK and separately pinned native
-template. 688 installed tests pass; application/tool branch-aware coverage
+The retained **74-page** [working paper](Blakean_Federalism.pdf) was prepared
+and rendered with its recorded Blake 0.4.0 SDK and separately pinned native
+template. Its qualification recorded 688 installed tests; application/tool branch-aware coverage
 is 92.21% / 70.72%. Strict typing, Ruff, dependency checks,
 real production/refusal controls, source equality and independent page review
-are recorded in [the current qualification](research/paper-advancement-20261029.json).
+are recorded in [the retained paper qualification](research/paper-advancement-20261029.json).
 The PDF and manuscript HTML have separate native receipts and browser scopes.
 [Render instructions](docs/manuscript/README.md).
 
@@ -51,6 +51,27 @@ vocabulary, institutional reasoning and the paper. The
 candidates, counterreadings, uncertainty, named reviewers and verification
 locators. It shares custody mechanics with Entomology while retaining distinct
 domain policies. Blank decisions remain unreviewed.
+
+## Bounded contextual workloads
+
+The current software delegates deterministic ranking, unit caps and blank
+batch custody to public Blake. This application owns source admission,
+review labels, source scope and the independently pinned request. The
+[declared workload](docs/research/review-planning.md) selected **25**
+candidates from the 223 scoped source hits, with
+0 existing scoped decisions excluded and a target
+shortfall of 0. Each selected exact whole-text unit occurs
+at most once. Greedy ordering supplies no representative-sample or
+independent-observation claim. All decision cells remain blank.
+
+[Current software qualification](research/review-planning-20261030.json) binds the exact original
+run, request, existing decisions, full/scoped counts and real positive/refusal
+commands. Authored decisions must still cite the original run and hit IDs;
+a planning receipt supplies no reading credit. Preserve uncertainty,
+repeated witnesses and all omitted candidates.
+
+This operational candidate run contains no supplied authored decisions; it
+does not recode the paper's quotations, reading ledger or institutional cases.
 
 ## Reading the argument and its development
 
