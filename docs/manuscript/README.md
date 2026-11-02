@@ -6,12 +6,29 @@ before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
-## Current 0.19.0 timing edition
+## Current editorial edition — 2 November
+
+The current native candidate is
+`analysis_output/publication/editorial-20261102-01`, with 79 PDF pages and
+a freshly rendered HTML article. The abstract is shorter and argument-led;
+key analytical captions now name their interpretive question. The program and
+domain inputs are unchanged from 0.19.0. Native verification checks forty
+quotation records, all thirty-three body figures and four opening graphics,
+formal numbering, references and source bindings. The exact current PDF/HTML has independent bounded working-draft acceptance;
+earlier editions keep their own page/browser evidence; [project status](../PROJECT_STATUS.md)
+records the new independent review and delivery separately.
+
+The current application gate uses a separately provisioned normal Python
+3.15.1 environment, preserving the existing 3.11 environment. This software
+qualification does not relabel the editorial PDF's actual 3.11 host / 3.14
+template producer. [Runtime and fixture scope](../../research/runtime-profile-20261102.json).
+
+## Retained 0.19.0 timing edition — 1 November
 
 Current software selects public Blake 0.7.0 at
 `263d7c83abe6f1309a64af3285a683c1b7672269`. The normally installed
 818-test qualification, analytical execution and native writers have separate
-source/runtime receipts. The current native candidate is
+source/runtime receipts. That edition’s native epoch is
 `analysis_output/publication/timing-20261101-02`: the actual template PDF/web
 writers completed, and its 78-page PDF/HTML has bounded independent Federalism
 working-draft acceptance. [Project status](../PROJECT_STATUS.md) owns exact
@@ -64,7 +81,7 @@ Its receipts, rather than historical test or PDF counts below, define its
 actual installed source, outputs and qualification. The native PDF and article
 HTML remain separate from the standalone offline search workspace and its
 browser acceptance. The final independent correction review accepts the exact
-78-page timing native02 and current desktop/mobile article for bounded
+78-page timing native02 and retained desktop/mobile article for bounded
 working-draft use. MathJax interaction limits remain explicit in project status.
 Earlier failures and native epochs stay retained.
 

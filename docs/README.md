@@ -52,3 +52,5 @@ PDF/HTML checks are recorded in [project status](PROJECT_STATUS.md) and the
 candidate's recorded output check only. Preserve the old note and failed
 attempts; neither a source correction nor publication establishes specialist
 scientific, full-corpus, rights or accessibility acceptance.
+
+The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.

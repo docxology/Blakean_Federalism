@@ -10,6 +10,19 @@ Start with [project status](docs/PROJECT_STATUS.md),
 the [current private working-draft PDF](Blakean_Federalism.pdf) and
 the [documentation map](docs/README.md).
 
+## 2 November abstract and caption revision
+
+The new native candidate has **79 pages** at
+`analysis_output/publication/editorial-20261102-01`. Its abstract foregrounds
+composition without capture; revised analytical captions state the question
+before their operations and denominators. Source models, safeguards, timing
+inputs, corpus identities and the 0.19.0 program remain unchanged. The actual
+pinned template writers completed. All 79 pages and the exact desktop/mobile
+HTML have independent working-draft output acceptance. Both current and dated
+PDFs were copied byte-for-byte to Downloads; publication is recorded separately
+with the exact hashes in [project status](docs/PROJECT_STATUS.md).
+The preceding 78-page timing edition retains its own review evidence.
+
 ## Current application and evidence
 
 Federalism **0.19.0** selects public Blake **0.7.0**, exact Git
@@ -37,13 +50,16 @@ safeguards remain fixed. The separate eight-procedure
 inputs and interpretation. [Procedural comparison](docs/research/procedural-comparison.md)
 uses person-specific residual profiles rather than one aggregate rating.
 
-The current normal-installed gate passed **818 tests**. Separate
+The [current runtime record](research/runtime-profile-20261102.json) preserves
+the real Python 3.15 full-suite warnings, the failing resource control and the
+31-test fixture repair. The final repaired canonical gate has its own receipt.
+The retained full 0.19.0 normal-installed gate passed **818 tests**. Separate
 statement-and-branch coverage is **97.06% application / 75.14% tools**, against
 90% / 60% floors. These results qualify the tested software source; native
 writers and private-main delivery have their own bindings in
-[project status](docs/PROJECT_STATUS.md). The corrected 78-page native edition
+[project status](docs/PROJECT_STATUS.md). The preceding corrected 78-page native edition
 passes the final independent bounded PDF/content and desktop/mobile
-working-draft review, including all 78 pages. Specialist equation accessibility,
+working-draft review, including all 78 of its pages. Specialist equation accessibility,
 whole-paper scientific acceptance and public release remain separate.
 The [verification index](research/verification.json) and
 [current-source index](research/current-source.json) identify current and retained
@@ -76,15 +92,18 @@ remain authoritative. The selected D02 `bowl`/`howl`
 [collation](research/textual-collation-20261029.json) preserves both captured
 witnesses and does not claim whole-copy collation.
 
+The final canonical normal-installed gate passed **819 tests**, with **92.11% application / 69.02% tools** suite-only statement/branch coverage. Typing, lint, formatting and dependency checks pass. [Exact current qualification](research/visual-installed-20261102.json).
+
 ## Run locally
 
 Keep source, both Python prefixes, environments, caches and temporary files on
-mounted GitVault. Use the existing external Python 3.11 runtime and supported
+mounted GitVault. Use the declared external Python 3.15 runtime and supported
 repository admission. A clone includes project code and authored research; it
 does not restore the ignored corpus or scholarly PDFs.
 
 ~~~bash
-uv sync --locked --python 3.11 --extra manuscript
+export UV_PROJECT_ENVIRONMENT=../../../../Local/environments/blakean-federalism-0.19.0-py315-20261102-01
+uv sync --locked --python 3.15 --extra manuscript
 uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 uv run --locked pytest -c pyproject.toml tests -q
 uv run --locked basedpyright

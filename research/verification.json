@@ -1,95 +1,62 @@
 {
-  "schema_version": 25,
+  "schema_version": 26,
   "version": "0.19.0",
-  "qualification_epoch": "methods-manuscript-20261101",
-  "scope": "Public reusable interval methods with private domain policy/manuscript. Fresh canonical normal-wheel/source/metadata qualification, full suite-only coverage and current native working-draft acceptance are separately bound. Previous producers and failed attempts retain their original bytes and scopes.",
-  "qualification": "research/methods-manuscript-20261101.json",
-  "sha256": "2029a6ebae74700e185cc08a13957ee72bd56a32a668c6f74474d727cbf1a203",
+  "qualification_epoch": "visual-revision-20261102",
+  "qualification": "research/visual-revision-20261102.json",
+  "sha256": "7b92fda7821c6c8864a9827526085968e99076e1b1084e49c30882b6f67194b4",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
-  "tests": 818,
-  "coverage": {
-    "application": 97.06139583697744,
-    "tools": 75.14018691588785
+  "current_source_sha256": "c2890f77e4e635bd98be20fd97ac6a319bedd0fef461ab445347f77b06fc426a",
+  "current_native": {
+    "epoch": "analysis_output/publication/editorial-20261102-01",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/web/index.html",
+    "html_sha256": "8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae",
+    "pages": 79,
+    "title": "States Change",
+    "receipt_sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
   },
-  "coverage_scope": "Fresh canonical suite-only statement/branch denominators, separately enforced at application90/tools60; no historical native database union.",
-  "current_source_sha256": "9b4ecea787645c5012bd327d7d58bbaa0b551744e472c0fdec9f8d367da3637a",
-  "source_map_algorithm": "SHA256 of UTF-8 json.dumps(bindings,sort_keys=True,separators=(',',':'))",
-  "reviewed_native": {
-    "canonical_pdf": "Blakean_Federalism.pdf",
-    "sha256": "75179cfbb07aff4c961342fe5363d5e34f92396c86d1c1d0d77ad1c985d11655",
-    "pages": 78,
-    "html": "analysis_output/publication/timing-20261101-02/output/web/index.html",
-    "html_sha256": "832dab4cbbf4ffaf32fd18a32d9f36a8414b9d2a9a09b92582df7f90d75e8e9e",
-    "current_native_render_performed": true,
-    "native_receipt": {
-      "path": "Username/docxology/Private/Blakean_Federalism/analysis_output/publication/timing-20261101-02/native-render-receipt.json",
-      "bytes": 200987,
-      "sha256": "ea304af409dee070102f076200a8431f5857dc4431563cb1983be8e2cbdb4faf"
-    },
-    "producer_application_version": "0.19.0",
-    "producer_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
-    "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
-    "physical_layout": {
-      "cover": 1,
-      "graphical_abstracts": [
-        2,
-        3,
-        4
-      ],
-      "contents_start": 5
-    },
-    "independent_acceptance": {
-      "status": "BOUNDED_WORKING_DRAFT_PASS_WITH_LIMITATIONS",
-      "verdict": {
-        "path": "Local/blake-manuscript-advance-20261101T212248Z/review/final-corrections-review03/VERDICT.json",
-        "bytes": 3550,
-        "sha256": "3a70b52a305fcdad95ae574c2f09b8a83d354f82e946eb414b1512f67220f15e"
-      },
-      "closure_sha256": "213ce0a71b7842176a5adbfc3eca20b90870c1861481e43138b6529682f192ad"
-    },
-    "scope": "Exact current pinned-template native edition and complete independent working-draft page/HTML review; scientific, rights, specialist accessibility, hosted-CI and public-release acceptance remain separate."
-  },
-  "software_qualification": {
-    "version": "0.19.0",
-    "sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
-    "tests": 818,
-    "coverage": {
-      "application": {
-        "covered_lines": 4610,
-        "num_statements": 4715,
-        "covered_branches": 939,
-        "num_branches": 1002,
-        "files": 91,
-        "numerator": 5549,
-        "denominator": 5717,
-        "percent": 97.06139583697744,
-        "floor": 90
-      },
-      "tools": {
-        "covered_lines": 319,
-        "num_statements": 417,
-        "covered_branches": 83,
-        "num_branches": 118,
-        "files": 6,
-        "numerator": 402,
-        "denominator": 535,
-        "percent": 75.14018691588785,
-        "floor": 60
-      }
-    },
-    "new_full_suite": true,
-    "receipt": "research/methods-manuscript-20261101.json",
-    "receipt_sha256": "2029a6ebae74700e185cc08a13957ee72bd56a32a668c6f74474d727cbf1a203",
-    "qualification_scope": "Fresh canonical full suite over normal app wheel and exact public Git source; no historical coverage union or scientific/release promotion."
-  },
-  "documentation_reconciliation": {
-    "path": "research/documentation-review-20261031.json",
-    "sha256": "88fa05dcd4fa832a871011ef08d8a432d45d6574d5dd56a57851b3b5725c2308"
+  "independent_acceptance": {
+    "output": "PASS_WITH_LIMITATIONS",
+    "path": "research/reviews/visual-20261102-independent02.json",
+    "source_finding_scope": "Original SRC-01 concerns only the sibling Entomology test module; no manuscript fix prescribed.",
+    "software_reapproval": false
   },
   "delivery": {
-    "required_visibility": "PRIVATE",
+    "downloads": "COPIED_AND_BYTE_VERIFIED",
+    "receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/downloads-delivery01.json",
+    "git_publication_receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-publication-final.json",
     "target_branch": "main",
-    "final_readback": "Local/blake-manuscript-advance-20261101T212248Z/DELIVERY.json",
-    "status_at_source_freeze": "Current source/software/native working draft qualified for authorized ordinary main publication. Actual Git/remote/Downloads events are separately recorded after they occur."
-  }
+    "required_visibility": "PRIVATE",
+    "route": "Protected-main pull request; actual Git events retain a separate receipt."
+  },
+  "software_qualification": {
+    "tests": 819,
+    "coverage": {
+      "application": {
+        "numerator": 4842,
+        "denominator": 5257,
+        "percent": 92.10576374357998,
+        "floor": 90,
+        "files": 91
+      },
+      "tools": {
+        "numerator": 361,
+        "denominator": 523,
+        "percent": 69.02485659655832,
+        "floor": 60,
+        "files": 6
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "lint": "PASS",
+    "format": "PASS",
+    "dependencies": "PASS",
+    "scope": "Fresh canonical installed software and fixture qualification. Exact native output retains its original producer and independent working-draft verdict.",
+    "canonical_normal_install": true,
+    "application_and_tool_programs_unchanged": true
+  },
+  "preserved_previous_index": "research/history/visual-revision-20261102/verification.json",
+  "scope": "Source, software, native output, independent acceptance and publication are separate claims.",
+  "canonical_qualification": "research/visual-installed-20261102.json"
 }

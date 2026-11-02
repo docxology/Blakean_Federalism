@@ -2,6 +2,7 @@
 import hashlib
 import json
 import sqlite3
+from contextlib import closing
 
 import pytest
 from PIL import Image
@@ -51,7 +52,7 @@ def captured(tmp_path):
             text="State and nation. a.b and axb.",
         ),
     ]
-    with sqlite3.connect(projection / "passages.sqlite") as db:
+    with closing(sqlite3.connect(projection / "passages.sqlite")) as db, db:
         db.execute("CREATE TABLE passages (id TEXT PRIMARY KEY,payload TEXT,sha256 TEXT)")
         db.executemany(
             "INSERT INTO passages VALUES(?,?,?)",

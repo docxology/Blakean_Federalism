@@ -1,5 +1,12 @@
 # Changelog
 
+## Editorial revision — 2 November 2026
+
+Canonical installed qualification: 819 tests; separate suite-only coverage 92.11% application / 69.02% tools; strict typing, lint, format and dependencies pass. Both independently accepted working-draft PDFs are copied to Downloads. Private-main integration has a separate actual Git receipt. Two test-fixture SQLite connections now close deterministically; the real failing lifetime control and all original warnings are preserved.
+
+Revised the argument-led abstract and analytical captions, with a new pinned-template PDF/HTML edition. Program version 0.19.0, source models, safeguards and analytical inputs are unchanged. Earlier output acceptance remains attached to its own hashes.
+
+
 ## 0.19.0 — person-specific review timing and native working draft
 
 - Use the exact public Blake 0.7.0 Git source for reusable interval set and record arithmetic; keep filing activation, protection policy and political interpretation here.

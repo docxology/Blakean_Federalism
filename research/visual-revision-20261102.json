@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "application_version": "0.19.0",
+  "epoch": "visual-revision-20261102",
+  "sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "template_commit": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "native": {
+    "epoch": "analysis_output/publication/editorial-20261102-01",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/web/index.html",
+    "html_sha256": "8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae",
+    "pages": 79,
+    "title": "States Change",
+    "receipt_sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
+  },
+  "native_receipt": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/native-render-receipt.json",
+    "bytes": 200987,
+    "sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
+  },
+  "installed_identity": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-canonical-installed-identity05.json",
+    "sha256": "fa557ba9343ca561077e7372b0b01dcdde15c3dd6d3543234df295daaa506357"
+  },
+  "browser": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/inspection/browser-owner01/BROWSER.json",
+    "bytes": 114906,
+    "sha256": "a8439575e30618cf8002a7c7b28bebf7f0574655f9be6f3235d8ebccdb532cda"
+  },
+  "software": {
+    "tests": 819,
+    "coverage": {
+      "application": {
+        "numerator": 4842,
+        "denominator": 5257,
+        "percent": 92.10576374357998,
+        "floor": 90,
+        "files": 91
+      },
+      "tools": {
+        "numerator": 361,
+        "denominator": 523,
+        "percent": 69.02485659655832,
+        "floor": 60,
+        "files": 6
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "lint": "PASS",
+    "format": "PASS",
+    "dependencies": "PASS",
+    "scope": "Fresh canonical installed software and fixture qualification. Exact native output retains its original producer and independent working-draft verdict.",
+    "canonical_normal_install": true,
+    "application_and_tool_programs_unchanged": true
+  },
+  "independent_review": {
+    "output": "PASS_WITH_LIMITATIONS",
+    "path": "research/reviews/visual-20261102-independent02.json",
+    "source_finding_scope": "Original SRC-01 concerns only the sibling Entomology test module; no manuscript fix prescribed.",
+    "software_reapproval": false
+  },
+  "delivery": {
+    "downloads": "COPIED_AND_BYTE_VERIFIED",
+    "receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/downloads-delivery01.json",
+    "git_publication_receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-publication-final.json",
+    "target_branch": "main",
+    "required_visibility": "PRIVATE",
+    "route": "Protected-main pull request; actual Git events retain a separate receipt."
+  },
+  "limits": [
+    "No new contextual decisions, species identifications or complete-oeuvre claim",
+    "No scientific, specialist, rights, hosted-CI or release acceptance inferred"
+  ],
+  "preserved": {
+    "status": "research/history/visual-revision-20261102/PROJECT_STATUS.md",
+    "verification": "research/history/visual-revision-20261102/verification.json",
+    "current_source": "research/history/visual-revision-20261102/current-source.json"
+  },
+  "runtime": "research/runtime-profile-20261102.json",
+  "fixture_repair": "research/reviews/visual-20261102-fixture-owner-closure.json",
+  "canonical_qualification": "research/visual-installed-20261102.json"
+}

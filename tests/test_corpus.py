@@ -3,6 +3,7 @@
 
 import json
 import sqlite3
+from contextlib import closing
 
 import pytest
 
@@ -159,7 +160,7 @@ def test_raw_xml_cannot_be_promoted_to_primary(captured):
 
 def test_passage_hash_is_checked_independently(captured):
     projection = captured[1]
-    with sqlite3.connect(projection / "passages.sqlite") as db:
+    with closing(sqlite3.connect(projection / "passages.sqlite")) as db, db:
         db.execute("UPDATE passages SET sha256=?", ("0" * 64,))
     # When a text hash is false, then reject even in an otherwise valid database.
     with pytest.raises(ResearchError, match="passage_binding"):

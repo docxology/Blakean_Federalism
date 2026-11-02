@@ -1,0 +1,26 @@
+{
+  "scope": "Test fixtures only; application/tools, model/data and native output unchanged.",
+  "initial_full_suite": {
+    "tests": 818,
+    "warnings": 204,
+    "python": "3.15.1",
+    "evidence": "evidence/219-federalism315-full-suite"
+  },
+  "red": {
+    "tests_failed": 1,
+    "observable": "unclosed database ResourceWarning from real captured fixture after gc.collect",
+    "evidence": "evidence/226-federalism-real-sqlite-lifetime-red"
+  },
+  "fix": "Both SQLite transaction contexts now use contextlib.closing and the original transaction manager; commit/rollback occurs before deterministic close.",
+  "green": {
+    "tests_passed": 31,
+    "warning_policy": "ResourceWarning and PytestUnraisableExceptionWarning are errors",
+    "evidence": "evidence/227-federalism-real-sqlite-lifetime-green"
+  },
+  "source_files": {
+    "tests/conftest.py": "9f9390fed31fa6cd2075517539398b82abea5ba1dbd3a10631d308533a33e403",
+    "tests/test_corpus.py": "59dece765b44a600e557fcaddb01c5ec38e51918018008649d8db8465fb431f7",
+    "tests/test_resource_lifetime.py": "f5e62dd0d9b8f7716d60b44f870143e34d6b4ac1d4e995429b9381b340a72199"
+  },
+  "independent_reapproval": false
+}

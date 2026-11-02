@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "tests": 819,
+  "environment": "/Volumes/GitVault/Local/environments/blakean-federalism-0.19.0-py315-20261102-01",
+  "previous_environment": "Existing canonical .venv / Python 3.11 preserved without rebinding.",
+  "identity": "coordination/federalism-canonical-installed-identity05.json",
+  "coverage": {
+    "coverage": {
+      "application": {
+        "numerator": 4842,
+        "denominator": 5257,
+        "percent": 92.10576374357998,
+        "floor": 90,
+        "files": 91
+      },
+      "tools": {
+        "numerator": 361,
+        "denominator": 523,
+        "percent": 69.02485659655832,
+        "floor": 60,
+        "files": 6
+      }
+    },
+    "negative_control": "Impossible 101% application floor refused",
+    "scope": "Only this suite's statement-plus-branch counters; no native/historical union.",
+    "report": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/artifacts/federalism-canonical-tests05.json"
+  },
+  "strict_types": "0 errors / 0 warnings",
+  "lint": "PASS",
+  "format": "PASS",
+  "dependencies": "PASS",
+  "resource_warning_policy": "ResourceWarning and PytestUnraisableExceptionWarning are errors; no unclosed database diagnostic remains.",
+  "scope": "Fresh canonical installed software and fixture qualification. Exact native output retains its original producer and independent working-draft verdict.",
+  "raw_gate": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-canonical-gates05.json",
+    "sha256": "7df743945a8809aced40b368d6e9c24834453596a59e91391731c507ccb9c220"
+  },
+  "installed_identity": {
+    "path": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-canonical-installed-identity05.json",
+    "sha256": "fa557ba9343ca561077e7372b0b01dcdde15c3dd6d3543234df295daaa506357"
+  },
+  "evidence_root": "Local/blake-visual-revision-20261102T164814Z",
+  "post_gate_edit_scope": "Qualification/status/index documentation only; all Python program and test bytes remain identical to the completed gate."
+}
