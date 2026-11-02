@@ -11,12 +11,13 @@ access and reading ceilings; this map adds no new reading credit.
 
 | Note | Role |
 |---|---|
+| [Timing atlas](review-timing-atlas.md) | Current source-bound readiness/protection slices, exact gaps, figures and formal/interpretive limits |
 | [Review planning](review-planning.md) | Current installed planning/verification workflow; candidate selection supplies no authored decisions |
 | [Institutional review](institutional-review.md) | Domain procedures, standing and review-before-harm model |
 | [Procedural comparison](procedural-comparison.md) | Retained comparison study and its original qualification; its earlier browser hold is superseded only by the recorded pressure-04 output check |
 | [Review pressure, 29 October](review-pressure-20261029.md) | Retained pressure-study inputs and figures |
 
-The three domain-study notes can be native-staged inputs. Keep their exact
+The review and timing study inputs can participate in native preparation. Keep their exact
 producer bindings. The [documentation map](../README.md) explains the later
 74-page native qualification without rewriting those historical inputs.
 

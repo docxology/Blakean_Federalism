@@ -59,3 +59,15 @@ in integer hours from notice, with the event-order conventions stated in
 | $F_h^J,F_{hi}$ | Unmet forum requirements and person-indexed access requirements; finite categorical sets |
 | $d_{hi},\ell_{hi},G_{hi}$ | Nonnegative preparation shortfall and readiness lateness in hours; exact uncovered time set for person $i$ in procedure $h$ |
 | $\preceq$ | Product of requirement-set inclusion, deficit order and exact-gap inclusion; partial order on residual profiles, preorder on procedures. [@prop:review-order] |
+
+The timing atlas in [@sec:review-timing] retains this person-specific notation.
+Its two duty strata remain separate; a parameter configuration is not an observed
+institution or an independent literary case.
+
+| Additional symbol | Local meaning |
+|---|---|
+| $\theta$ | One declared timing configuration and its slice memberships |
+| $q,r,f$ | Locally abbreviated consequence, response and earliest filing for one fixed person |
+| $[s,e)$ | Strict declared interim-protection band; active support may start later |
+| $\mathsf{F}_i$ | Admission, remaining, preparation and deadline conjunction for feasible filing |
+| $P_i(\theta)$ | Active support from the declared mode and feasible filing; [@eq:timing-activation] |

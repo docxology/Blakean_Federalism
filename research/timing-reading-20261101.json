@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "reader": "T3 Code root AI assistant; not Daniel personal-reading credit",
+  "epoch": "timing-reading-20261101",
+  "primary": {
+    "source": "local_data/manuscript/v0.2.0/asu-jerusalem.html",
+    "sha256": "73411f45d9b03cc9cd3bd322067ab200d873049847b4daa31d795aa10195d9c2",
+    "selections": [
+      "J12.25-46",
+      "J55.46-69",
+      "J45.25-38",
+      "J73.29-54"
+    ],
+    "credit": "Complete selected transcription ranges reread; no images, copy collation or whole work"
+  },
+  "political_selected_extracts": [
+    {
+      "source": "pettit-2005.pdf",
+      "sha256": "de92b572856f82b1597a901c4dc2af7172bfc57a6ff89e20089da8be33bcf6db",
+      "extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/pettit-2005.pdf.selected.txt",
+      "extract_sha256": "62f401e985b2b2efe0750dde9ddb0a1ed39b2df84bf8b5f19e3028f9e62a5338",
+      "locators": "printed8\u20139; one-based PDF10\u201311"
+    },
+    {
+      "source": "shachar-2005.pdf",
+      "sha256": "38c3b55ea0238c90e74d9bad82e5daa966fa43d9809d64febe7bd0d48c30bc39",
+      "extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/shachar-2005.pdf.selected.txt",
+      "extract_sha256": "adcb81899112a5cdc0839c070982797f8707cca795fe978ac861dbf954e191f3",
+      "locators": "printed75\u201377 including n.90; PDF27\u201329"
+    },
+    {
+      "source": "tully-2006.pdf",
+      "sha256": "0314e535ee604ada41e2d564858b2d7f49af836d0f287f20a825fc53066bdc2b",
+      "extract": "Local/blake-paper-advancement-20261029/federalism/private-readings/tully-2006.pdf.selected.txt",
+      "extract_sha256": "fc647f54519f74097b1043b293a41f047c86341da36c2e26c4e1212267a37756",
+      "locators": "printed25\u201327 and29\u201331; publisher PDF35\u201337 and39\u201341"
+    }
+  ],
+  "raw_receipts": [
+    "evidence/root-federalism-primary-rereading01",
+    "evidence/root-federalism-political-rereading01"
+  ],
+  "interpretation": "Prevention and compelled demonstration coexist in J55; precise exposure of a promise can expose its failure without making its author the final judge of the categories. Tully's challenge reaches roster/threat/clock definitions themselves. Shachar's standard and oversight remain additional warrants; Pettit's impartial independence is not established by office names.",
+  "scope": "Source-motivated stipulated timing analysis; no new quotation, empirical effect, current-law, whole-work, image, scientific consensus or release credit. Q23/Q38 and the selected collation retain their original records."
+}

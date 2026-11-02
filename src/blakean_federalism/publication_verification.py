@@ -17,6 +17,7 @@ from .manuscript import ManuscriptSpec, normalized
 from .models import ResearchError
 from .publication_contract import source_bindings
 from .publication_models import NativeReceipt, PreparedPublication, ReferenceContract
+from .publication_sources import verify_delegated_producers
 from .storage import digest, safe_path, write_new
 
 OPENING_PAGE_COUNT = 4
@@ -28,12 +29,19 @@ class NumberedBlocks(HTMLParser):
         self.blocks: dict[str, list[str]] = {}
         self.active: list[str] = []
         self.ids: list[str] = []
+        self.figure_images: dict[str, list[str]] = {}
+        self.figure_stack: list[str] = []
 
     @override
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         label = dict(attrs).get("id") or ""
         if label:
             self.ids.append(label)
+        if tag == "figure":
+            self.figure_stack.append(label)
+            self.figure_images[label] = []
+        if tag == "img" and self.figure_stack:
+            self.figure_images[self.figure_stack[-1]].append((dict(attrs).get("src") or "").strip())
         if tag == "div":
             self.active.append(label)
             if label:
@@ -41,6 +49,8 @@ class NumberedBlocks(HTMLParser):
 
     @override
     def handle_endtag(self, tag: str) -> None:
+        if tag == "figure" and self.figure_stack:
+            _ = self.figure_stack.pop()
         if tag == "div" and self.active:
             _ = self.active.pop()
 
@@ -67,6 +77,10 @@ def verify_references(
     for label in (*contract.equation_labels, *contract.figure_labels):
         if label not in document.ids:
             raise ResearchError("rendered_reference", label)
+    for label in contract.figure_labels:
+        images = document.figure_images.get(label, [])
+        if len(images) != 1 or not images[0]:
+            raise ResearchError("rendered_figure_image", label)
     if any(token in html or token in pdf for token in ("[@", "[?]", "??", "citation-not-found")):
         raise ResearchError("rendered_unresolved", "Unresolved reference in actual edition")
 
@@ -128,6 +142,7 @@ def verify_publication(root: Path, stage: Path) -> dict[str, object]:
     )
     if prepared.inputs != source_bindings(root, tuple(prepared.inputs)):
         raise ResearchError("publication_source_changed", "Sources differ from the consumed stage")
+    verify_delegated_producers(prepared.producer_version, prepared.producers)
     native = NativeReceipt.model_validate_json(
         safe_path(stage, "native-render-receipt.json").read_bytes()
     )

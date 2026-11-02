@@ -28,6 +28,12 @@ For a contextual workload, read [request-pinned planning](docs/research/review-p
 and its exact request/source/decision pins. Shared ranking and batch custody
 belong upstream; do not conflate this workflow with institutional standing.
 
+For the timing atlas, read [its exact domain contract](docs/research/review-timing-atlas.md).
+Keep the two slices and their shared configurations explicit, assess each person
+separately, and distinguish zero uncovered time from the four unassessed practical
+premises. Reuse public interval algebra; filing activation, duties and clock policy
+belong in this application.
+
 For the adverse review study or source variants, read
 [review under pressure](docs/research/review-pressure-20261029.md) and the dated
 collation before changing its cases, figure or claims. Keep this new family
@@ -42,6 +48,9 @@ separate from the fixed-duty order on the original fourteen procedures.
 - Run the environment and verification commands in [README.md](README.md).
   Use real files and real CLI/refusal controls. Read separate application and
   tool coverage totals; a combined headline does not establish both floors.
+- Current 0.19.0 software selects Blake 0.7.0 at Git
+  `263d7c83abe6f1309a64af3285a683c1b7672269`. Qualify the actual
+  installed package and new native output independently of retained epochs.
 - Keep the original fifteen safeguards separate from the person-specific review
   conditions and residual-profile order. The constructed procedures test their
   declared premises; a passing result is no institutional legitimacy score.

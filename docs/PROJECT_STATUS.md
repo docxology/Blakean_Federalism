@@ -1,77 +1,88 @@
 # Project status and scoped next work
 
-Status date: 2026-10-31. This is the operational task index. The
-[research history](RESEARCH_STATUS.md) preserves earlier qualifications; the
-[research program](research-program.md) defines the scholarly questions.
+Status date: 1 November 2026. This is the operational task index.
+[Research history](RESEARCH_STATUS.md) preserves earlier qualifications;
+[the research program](research-program.md) defines scholarly acceptance.
+[The documentation map](README.md) separates operating guides, native inputs
+and dated dossiers.
 
-[Documentation map](README.md) separates operating guides, retained native inputs
-and historical study notes. [Documentation review](../research/documentation-review-20261031.json)
-binds this guide-only correction; prior software tests and native receipts retain
-their original source epochs.
+## Current source, software and native candidate
 
-## Current software and retained paper
+Federalism **0.19.0** owns the political questions, person-specific institutional
+models, stipulated cases, readings and manuscript. Public Blake **0.7.0** at
+Git `263d7c83abe6f1309a64af3285a683c1b7672269` owns corpus custody
+and reusable methods. The exact selection is in `pyproject.toml` and
+`uv.lock`; [shared methods](shared-methods.md) defines the boundary.
+A current SDK selection does not replace the original corpus capture or the
+producer of a retained analysis.
 
-Federalism **0.18.0 software** owns the political questions, institutional models,
-stipulated cases, readings and manuscript. Public
-[Blake](https://github.com/docxology/blake) owns acquisition, corpus custody,
-portable schemas, retrieval, statistics, annotation custody and offline workspace
-mechanics. [Shared methods](shared-methods.md) defines that boundary.
-
-The executable SDK is Blake **0.5.0**, exactly
-`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`, selected by `pyproject.toml` and
-`uv.lock`. The retained 0.17.0 paper was prepared and rendered against its
-original Blake 0.4.0 SDK `45171a099a6a658c52ab689501de646a28485653` through
-the separately pinned native template. Its input corpus retains its original
-capture and producer. See [current verification](../research/verification.json)
-and the [advancement receipt](../research/paper-advancement-20261029.json).
-
-The current [private working paper](../Blakean_Federalism.pdf) has **74
-pages**, SHA-256 `c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`. Its native epoch is
-`analysis_output/publication/pressure-20261030-04`. The earlier 72-page edition
-and its SDK `d020f47767996a061b6f60e93a82da9386a7926c` remain historical evidence;
-the current render has its own source, runtime, page-review and delivery records.
-
-## Completed work
-
-| Work package | Closed scope and evidence |
+| Evidence layer | Current observation and limit |
 |---|---|
-| Shared-method integration | Generic methods delegate to Blake. The current SDK and historical corpus/analytical producers have separate identities; historical measurements and receipts are preserved. See [shared methods](shared-methods.md). |
-| Request-pinned contextual workload | Shared ranking, unit caps, full-pool binding and blank batch custody come from public Blake. The actual batch selected 25 from 223 scoped candidates, excluding 0 scoped decisions, with shortfall 0. All supplied decisions were validated globally before scope filtering. This adds no decision, reading credit, inferential sample or paper edition. See [workflow](research/review-planning.md) and the current software qualification. |
-| Institutional review and comparison | The original fifteen safeguards, fourteen procedures and twenty-eight claimant records remain fixed. Exact uncovered intervals and residual-profile comparisons retain their declared assumptions. See [review audit](research/institutional-review.md) and [comparison](research/procedural-comparison.md). |
-| Adverse review conditions | Eight additional H12-derived procedures, sixteen person-specific assessments, explicit practical obstructions and a report-derived figure are implemented and qualified. Four of the eight procedures satisfy the modeled formal conditions for every listed claimant. Issuer control, collective competence, material support and retaliation remain separate questions; there is no legitimacy score. See [pressure study](research/review-pressure-20261029.md). |
-| Selected textual collation | Q23/Jerusalem 73 and Q38/Jerusalem 45 receive bounded source checks. The D02 `bowl`/`howl` discrepancy is recorded against the checked ASU line and LOC copy-I sheet, preserving the old corpus and discrepancy record. See [dated collation](../research/textual-collation-20261029.json). This closes the selected-line check, not whole-copy collation. |
-| Current installed software | 714 tests; current installed-source equality, strict package typing, Ruff/format, dependencies and real request/batch refusals. Statement/branch coverage: application 96.94%; tools 74.90%. [Exact software qualification](../research/review-planning-20261030.json). The earlier paper-production qualification remains retained separately. |
-| Retained native paper and browser behavior | The 74-page paper and manuscript HTML retain their original source-bound native receipts and independent physical-page review. The pinned offline workspace has separate real-browser functional qualification. Exact paper/browser scopes remain in the [retained paper qualification](../research/paper-advancement-20261029.json), not the new software receipt. |
-| Private delivery evidence | Separate external receipts establish ordinary main push, tracked-byte/checkout equality and fresh remote readback. A source freeze supplies no publication claim. The retained paper's earlier delivery, native epochs, archived working files and failures remain preserved; this software epoch's final publication is recorded at `Local/blake-review-planning-20261030T232019Z/final-delivery.json`. |
+| Normal installed software | 818 tests passed. Separate statement-and-branch coverage: application 97.06% (5,549/5,717), tools 75.14% (402/535), above 90%/60% floors. Exact normal application and public Git source equality were checked; this does not accept the manuscript. |
+| Timing analysis | `analysis_output/timing-installed-20261101-02` contains 21,454 configurations / 42,908 person records. Readiness has 1,122 memberships, protection geometry 20,434, with 102 shared configurations. This is two declared slices, not the complete joint parameter space. |
+| Corrected native working draft | Actual pinned template PDF/web writers completed at `analysis_output/publication/timing-20261101-02`. Content verification records 78 PDF pages, all 33 body figures plus four opening graphics, and quotation/reference checks. The final independent working-draft correction scope is PASS_WITH_LIMITATIONS. |
+| Candidate PDF | SHA-256 `75179cfbb07aff4c961342fe5363d5e34f92396c86d1c1d0d77ad1c985d11655`. |
+| Candidate HTML | SHA-256 `832dab4cbbf4ffaf32fd18a32d9f36a8414b9d2a9a09b92582df7f90d75e8e9e`. Retain the complete web/assets directory. |
+| Template | Separate source pin `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`; compatible locked external Python 3.14 writer environment. The application's normal host is external Python 3.11. |
+| Independent output scope | `review/final-corrections-review03` accepts all 78 current pages and the actual desktop/390 px mobile article within the three-paper 216-page working-draft scope. The repaired timing figure is present. Eleven of fifteen mobile equations have contained horizontal overflow; MathJax speech/explorer focus and DOM panning were observed, while keyboard panning and specialist accessibility remain unaccepted. Prior reviews and failed oracles remain unchanged. |
+| Staging and delivery | The accepted top-level PDF and complete native output have canonical GitVault custody, with preceding bytes preserved. The [verification index](../research/verification.json) records the fresh normal-installed consumer/full software gate. The final delivery receipt separately records the actual main commit, fresh remote readback and exact Downloads copy. |
 
-These closures describe fixed studies, implementation, rendering and delivery.
-They do not certify institutional legitimacy, legal permission, specialist
-scholarship, accessibility or complete corpus coverage.
+The current software, installed identities, analytical outputs and native
+receipts are retained in the GitVault packet
+`Local/blake-manuscript-advance-20261101T212248Z/`.
+The [current-source](../research/current-source.json) and
+[verification](../research/verification.json) indexes identify each recorded
+source, software, native and delivery epoch. Read their exact hashes and scopes;
+a staging path or a bounded review verdict alone establishes no push, remote
+commit or Downloads replacement.
+
+## Completed units and preserved history
+
+| Unit | Substantiated closure |
+|---|---|
+| Shared-method boundary | Generic interval union/difference/support/pair arithmetic is public Blake. Filing activation, deadlines, duties, case grids, practical premises and political interpretation stay here. No generic algorithm or corpus-policy fork is added. |
+| Timing implementation and actual production | Strict source-bound inputs, deduplicated slice membership, exact person-specific gaps, two derived figures and rejecting controls are implemented. The normal installed run has its own producer receipt. [Study contract](research/review-timing-atlas.md). |
+| Timing manuscript integration and figure repair | The source adds the conditional boundary lemma, notation, counts and report-derived captions. The original 77-page `timing-20261101-01` had a real missing timing image and is retained as defective/superseded, never qualified. The repaired native02 contains both timing figures and passes the bounded independent output review. This does not accept the political argument scientifically. |
+| Final software/style checks | The full normal gate passed 818 tests; final Ruff and strict typing pass. Format03's one-test formatting failure remains retained. Format04 changed that test's formatting with identical AST, reports 143 formatted files, and has ten passing focused tests. Dependency compatibility passes for 33 installed distributions. |
+| Original review/comparison | Fourteen procedures, twenty-eight claimant records and fifteen safeguards remain fixed. Exact uncovered intervals and residual-profile comparisons retain their assumptions. [Review audit](research/institutional-review.md), [comparison](research/procedural-comparison.md). |
+| Adverse review conditions | The separate eight H12-derived procedures and sixteen person assessments remain in the [pressure study](research/review-pressure-20261029.md). Formal conditions and stipulated practical premises stay distinct. |
+| Contextual workload planning | The retained blank workload selected 25 from 223 scoped candidates with shortfall 0. It adds no decision, reading credit or representative-sample claim. [Workflow](research/review-planning.md). |
+| Selected textual collation | The D02 `bowl`/`howl` line check is recorded against the specified ASU line and LOC copy-I sheet. Original corpus/ledger bytes and wider unresolved questions remain. [Dated collation](../research/textual-collation-20261029.json). |
+| Retained 0.18 software | Its 714-test installed/planning qualification remains [historical evidence](../research/review-planning-20261030.json); it is superseded as the current test count, not rerun or relabelled. |
+| Retained 0.17 native paper | Its 74-page PDF, HTML, source/runtime, selected-browser and independent page-review scopes remain [bound to that edition](../research/paper-advancement-20261029.json). The current candidate creates no retroactive acceptance. |
+| Earlier epochs and failures | The 72-page and earlier papers, their producers, original review rejections, failed native attempts and raw controls remain retained. [Research history](RESEARCH_STATUS.md). |
+
+The timing study keeps material provision, reprisal safety, reviewer control and
+collective reservation **unassessed**. H12's retaliation and competence issues
+remain visible. Empty uncovered time proves only the stated interval relation;
+it is no warrant, consent, empirical protection, lawfulness or legitimacy score.
+
+## Remaining delivery evidence
+
+Current implementation, the missing-image repair and the bounded Federalism
+page/browser review are completed units. Do not reopen them as new TODOs without
+a changed input or a real regression. Fresh canonical normal-installed tests
+and current source/metadata bindings are recorded in the verification index;
+actual Git/remote/Downloads events have their own final delivery receipt.
+
+| Owner and unit | Evidence required for the distinct claim |
+|---|---|
+| Root qualification owner | Completed: fresh normal-wheel installation, exact public Git consumer, complete current tests and source/metadata bindings. The full canonical run includes all three disclosed test deltas; earlier REDs and reviews remain preserved. Software/output passes create no release receipt. |
+| Root publication owner | Record supported canonical integration, ordinary private-main push, fresh remote identity and exact qualified Downloads copy in the verification/delivery indexes. Preserve the preceding delivered edition. |
 
 ## Next bounded research tasks
 
-| ID and owner | Inputs and next action | Completion criterion |
+| ID and owner | Inputs and useful unit | Acceptance and budget |
 |---|---|---|
-| R1 — textual editor | Choose the next unresolved group in the [passage ledger](../research/primary-passage-ledger.json) and [discrepancies](../research/textual-discrepancies.json); identify work, copy, plate and edition before collation. | Bind inspected witnesses and exact variants. Retain unavailable material, distinct numbering and the actual reading ceiling. The completed D02 selected-line check is not repeated as a new task. |
-| R2 — scholarly reader | Select a consequential counterargument from the [annotated bibliography](annotated-bibliography.md) and reading ledgers. | Inspect the named passages, record the strongest objection and exact locators, then revise only supported claims. Discovery metadata does not establish a complete reading. |
-| R3 — domain author and institutional critic | Select one unresolved practical premise from the pressure study: material access, retaliation, reviewer control, collective/treaty competence or identification of affected persons. | Declare a new case or empirical design and new output epoch. Distinguish stipulated formal access from evidence about real protection; preserve the original studies. |
-| R4 — browser/accessibility maintainer | Use the qualified workspace and manuscript HTML as the starting versions; select keyboard, assistive-technology or a changed-browser regression scope. | Retain actual supported-browser interactions and a rejecting control. Functional qualification does not establish accessibility; changed outputs need their own checks. Reusable UI changes belong upstream. |
-| R5 — Daniel and manuscript editor | Review this exact draft and identify feedback and a target venue. | Implement the selected changes, render a fresh native epoch and inspect affected pages. Submission length, specialist criticism and public item-level rights clearance retain separate acceptance criteria. |
-| R6 — corpus custodian and application author | If a new capture or vocabulary is needed, declare a new input epoch and fresh pin. | Compare IDs, roles, locators, hashes, denominators and results. Preserve the baseline and scope absence claims to the supplied vocabulary and captured bytes. |
-| R7 — contextual reviewer; medium | Use the source-pinned planned batch of up to 25 lexical leads; budget 2–4 hours for the first declared subset. | Bind decisions to the original candidate run, hit ID, reviewer, rationale and required locator. Preserve uncertainty and omissions; do not recode the quotation ledger or institutional cases. |
+| R1 — textual editor | Select one unresolved group from the [passage ledger](../research/primary-passage-ledger.json) and [discrepancies](../research/textual-discrepancies.json), identifying work/copy/plate/edition first. | Bind inspected witnesses, variants and unavailable material. Begin with a two-hour cohort; do not repeat the closed D02 line check as new work. |
+| R2 — scholarly reader | Select one consequential counterargument from the [bibliography](annotated-bibliography.md), including the rules and clock of contestation themselves. | Inspect named passages, retain strongest objection and exact locators, revise only supported claims. Allow 2–4 hours; selected extracts do not become complete-book credit. |
+| R3 — institutional critic | Choose one practical premise: material support, retaliation, reviewer control, collective/treaty competence or identification of affected persons. | Declare a new case or empirical design and epoch, with a bounded first four-hour design unit. Keep formal calculation separate from observed protection and lawful competence. |
+| R4 — accessibility maintainer | Select one keyboard/assistive-technology or changed-browser regression beyond the completed bounded output review. | Retain actual supported-browser evidence and a refusing control; start with 60–90 minutes. Functional browser qualification is not accessibility certification. |
+| R5 — Daniel and editor | Review the exact qualified draft and choose feedback and a venue. | Close one named editorial group, then qualify changed pages. Begin with 60–90 minutes; specialist and venue acceptance remain human gates. |
+| R6 — corpus custodian | Declare a new capture or vocabulary only when a scoped source question requires it. | New pin/epoch; compare IDs, roles, locators, offsets, denominators and results. Start with a two-hour discovery checkpoint, preserving the baseline. |
+| R7 — contextual reviewer | Use a pinned planned subset of lexical leads. | Bind decisions to original run/hit, reviewer, rationale and locator; preserve uncertainty and omissions. Budget 2–4 hours for the first declared subset. |
 
 Category-theoretic and collective active-inference extensions remain optional
-research after their institutional assumptions are specified.
-
-## Starting the next change
-
-Choose one task ID, owner, exact inputs, owned paths, new output epoch and
-observable acceptance criteria. Close only the completed unit. Keep source
-captures and private indexes under the [privacy contract](../PRIVACY.md).
+research after their institutional assumptions and operations are specified.
 Private Git delivery supplies no public redistribution clearance.
-
-The review-planning software epoch performs no new main-manuscript render.
-Retained native outputs, source/corpus identities and their scientific,
-image, rights and accessibility ceilings remain attached to their original
-producers. Source freeze and private-main/Downloads delivery are closed by
-separate hash-bound records; a software test supplies neither claim.
+[Privacy and custody](../PRIVACY.md).

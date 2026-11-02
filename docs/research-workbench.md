@@ -18,7 +18,7 @@ Each case shows all fifteen checks with three result states: active satisfied, a
 
 The generator reconciles stored spans/hashes/metadata, query identities and all aggregates against the copied source index, verifies exact manuscript quotations and selected rights records, and binds consumed inputs and package resources. It refuses changed inputs, duplicate identities, inconsistent counts and unsafe/occupied destinations. Generation does not grant browser QA or independent acceptance.
 
-Design tokens, primitives, performance budgets and verification scenarios are recorded in DESIGN.md. The design targets accessible keyboard use, narrow screens, high contrast and zero motion; compliance claims require their own evidence.
+Design tokens, primitives, performance budgets and verification scenarios are recorded in the [historical 0.3.0 design](history/DESIGN-0.3.0.md). The design targets accessible keyboard use, narrow screens, high contrast and zero motion; compliance claims require their own evidence.
 
 
 ## Statistical and counterfactual analyses

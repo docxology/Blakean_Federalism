@@ -36,6 +36,7 @@ from .models import (
 )
 from .report import build_workbench, publish_workbench
 from .review_planning_cli import register_review_planning_commands
+from .review_timing_cli import main as timing_atlas_command
 from .storage import write_new
 
 DEFAULT_CASES: Final = Path("research/cases.json")
@@ -45,6 +46,7 @@ app = typer.Typer(no_args_is_help=True)
 register_review_commands(app)
 _ = app.command("proximity-study")(proximity_study_command)
 _ = app.command("compare-review")(compare_review_command)
+_ = app.command("timing-atlas")(timing_atlas_command)
 
 
 @app.command("import-corpus")

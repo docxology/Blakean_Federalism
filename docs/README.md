@@ -13,6 +13,7 @@ Blake dependency. Federalism and Entomology are independent applications.
 | [Shared methods](shared-methods.md) | Current SDK boundary and separately dated migration checks |
 | [Corpus search](corpus-search.md) | Explicit local projection, source roles and query/output custody |
 | [Research workbench](research-workbench.md) | Read-only browsing with the cumulative reading ledger |
+| [Timing atlas](research/review-timing-atlas.md) | Current two-slice person-specific timing study and its conditional boundaries |
 | [Review planning](research/review-planning.md) | Retained batch verification and new unused planning destinations |
 | [Style guide](style-guide.md) | Syntax, formalism, graphics and claim limits |
 | [Scope and integration](scope-integration.md) | Application scope and sibling/core relations |
@@ -30,7 +31,7 @@ Blake dependency. Federalism and Entomology are independent applications.
 
 Use the [manuscript workflow](manuscript/README.md) for the pinned template,
 admission and native-output evidence. The retained working paper is 0.17.0;
-software 0.18.0 and later documentation have their own qualifications. The
+current software 0.19.0, its timing manuscript and later documentation have their own qualifications. The new native candidate is indexed in project status; it does not inherit the retained paper's output acceptance. The
 source/stage mapping, rather than repository Markdown alone, resolves native
 figure paths. Generated `../figures/` targets are installed in the prepared
 manuscript stage; they are not missing public source attachments.

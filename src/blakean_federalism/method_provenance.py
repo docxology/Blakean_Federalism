@@ -8,6 +8,7 @@ SHARED_SOURCES = (
     "version.py",
     "methods/__init__.py",
     "methods/common.py",
+    "methods/intervals.py",
     "methods/models.py",
     "methods/projection_models.py",
     "methods/bundle_models.py",

@@ -10,6 +10,7 @@ from .review_comparison_figure import comparison_captions
 from .review_comparison_run import publish_comparison
 from .review_publication import prepare_review_figures
 from .storage import copy_new, safe_path
+from .timing_publication import TIMING_FIGURES, prepare_timing_figures, require_timing_pair
 
 NAMES = ("review-requirements", "review-comparability")
 
@@ -24,6 +25,7 @@ def prepare_domain_figures(
     root: Path, stage: Path, labels: tuple[str, ...]
 ) -> PreparedDomainFigures:
     """Prepare only the domain analyses selected by the manuscript's figure labels."""
+    timing_requested = require_timing_pair(labels)
     figures = prepare_review_figures(root, stage) if "fig:review-matrix" in labels else {}
     captions: dict[str, str] = {}
     if "fig:review-requirements" in labels:
@@ -33,6 +35,9 @@ def prepare_domain_figures(
     if "fig:review-pressure" in labels:
         captions["PRESSURE_CAPTION"] = prepare_pressure_figure(root, stage)
         figures["review-pressure"] = "review-pressure.png"
+    if timing_requested:
+        captions.update(prepare_timing_figures(root, stage))
+        figures.update({name: name + ".png" for name in TIMING_FIGURES})
     return PreparedDomainFigures(figures, captions)
 
 

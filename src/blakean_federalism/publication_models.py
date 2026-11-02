@@ -32,6 +32,7 @@ class TemplateRendering(FrozenModel):
 class PreparedPublication(FrozenModel):
     producer_version: str
     inputs: dict[str, Digest]
+    producers: dict[str, Digest] = Field(default_factory=dict)
     contract: ReferenceContract
     template: TemplateRendering
     source_order: tuple[str, ...]

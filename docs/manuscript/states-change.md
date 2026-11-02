@@ -1,6 +1,6 @@
 # Abstract {.unnumbered}
 
-A federation can sustain several nations without becoming one nation. Its institutions must nevertheless make binding decisions without acquiring an exhaustive claim over the persons they represent. This article develops composition without capture through Blake's accounts of changing states, enduring persons, system-making and national life. It reads poetic states as recurrent imaginative possibilities and national formations as particular historical productions, while persons exceed either description. Close readings of *Milton*, *Jerusalem* and the Last Judgment prose confront a double problem: persons exceed the states they occupy, while creation and collective incorporation can themselves employ coercion. Blake scholarship on artistic production, national mediation and gendered agency makes the institutional question concrete: who can create, interpret, contest and revise a common form? The argument separates affiliation, poetic interpretation and a claim of institutional competence. A formal countermodel shows why shared affiliations and interpretations leave that claim to be justified. Five hypothetical Xeno-California conflicts supply ten alternatives tested against fifteen safeguards. Examination of 40,960 intervention combinations identifies minimum repairs and distinguishes labelled selections from the 31 distinct within-case records. A person-specific procedural comparison distinguishes nested repair requirements from incomparable tradeoffs in admission, preparation, timing and remedial power. Eight additional pressure cases distinguish those calculated conditions from material support, reprisal, reviewer control and collective jurisdictional reservations. The corpus analysis addresses a different question: which retained texts supply the words used in these readings? It counts specified word forms per 10,000 words across 199 primary extracts and compares combining all words with giving equal weight to each of 33 recorded source families. Copy repetition and family deletion expose dependence on particular inputs. A separate literal-search tool retains passage identities and original-text offsets so matches can be read in context. The resulting account joins shared rule to material provision and continuing powers of challenge: national histories contribute to a common world while their participants retain standing to dispute both a decision and its account of who they are.
+A federation can sustain several nations without becoming one nation. Its institutions must nevertheless make binding decisions without acquiring an exhaustive claim over the persons they represent. This article develops composition without capture through Blake's accounts of changing states, enduring persons, system-making and national life. It reads poetic states as recurrent imaginative possibilities and national formations as particular historical productions, while persons exceed either description. Close readings of *Milton*, *Jerusalem* and the Last Judgment prose confront a double problem: persons exceed the states they occupy, while creation and collective incorporation can themselves employ coercion. Blake scholarship on artistic production, national mediation and gendered agency makes the institutional question concrete: who can create, interpret, contest and revise a common form? The argument separates affiliation, poetic interpretation and a claim of institutional competence. A formal countermodel shows why shared affiliations and interpretations leave that claim to be justified. Five hypothetical Xeno-California conflicts supply ten alternatives tested against fifteen safeguards. Examination of 40,960 intervention combinations identifies minimum repairs and distinguishes labelled selections from the 31 distinct within-case records. A person-specific procedural comparison distinguishes nested repair requirements from incomparable tradeoffs in admission, preparation, timing and remedial power. A further finite atlas varies 21,454 timing configurations across two distinct consequence duties; exact interval boundaries distinguish an empty waiting gap from feasible filing and the full declared conjunction. Eight additional pressure cases distinguish those calculated conditions from material support, reprisal, reviewer control and collective jurisdictional reservations. The corpus analysis addresses a different question: which retained texts supply the words used in these readings? It counts specified word forms per 10,000 words across 199 primary extracts and compares combining all words with giving equal weight to each of 33 recorded source families. Copy repetition and family deletion expose dependence on particular inputs. A separate literal-search tool retains passage identities and original-text offsets so matches can be read in context. The resulting account joins shared rule to material provision and continuing powers of challenge: national histories contribute to a common world while their participants retain standing to dispute both a decision and its account of who they are.
 
 # Common institutions, plural nations and persons who exceed their roles {#sec:s1}
 
@@ -784,6 +784,150 @@ P01, P05 and P06 consequently yield the same seven-condition result while specif
 
 For the hypothetical watershed, this gives a concrete drafting requirement. An interim undertaking should state the continuing service, responsible provider, source of funds, activation rule, expiry and route for correcting interruption. It should also state what participation authorizes and what claims remain reserved. Shachar's mandatory scrutiny changes who must initiate protection; it does not erase the need to specify the reviewing body's standard and remedial power [@shachar2005, pp. 75–77]. The proposed automatic guarantee relocates the protective duty and creates a further site of power. Shachar's review standard would ideally be agreed before the division of authority, with an identified body responsible for oversight [@shachar2005, p. 76 n. 90]. Agreement between authorities does not by itself establish that a vulnerable member authorized every term. The point is to make a challenge capable of altering a decision without making survival depend on first surrendering the claim through which it is challenged.
 
+## When a protective duty becomes usable {#sec:review-timing}
+
+The pressure cases make initiative and time visible, but a few contrasts cannot
+show where a protection ceases to cover the wait. A finite timing atlas now
+varies response, completed-prerequisite readiness, activation and the endpoints
+of an interim undertaking. Its reference is H12's unchanged `E-bounded`
+decision, with the same member and affected nonmember, preparation requirements,
+admission, ability to remain and revision power. The member's consequence is
+still at 18 h. The nonmember's consequence is 12 h in the original-duty stratum
+and 3 h in the early-threat stratum inherited from P04/P07/P08. Changing that
+threat changes a comparison duty; the strata are never combined into one
+requirement frontier.
+
+Two slices make different assumptions inspectable. The readiness slice varies
+response from 8 through 24 h and the resident's completed readiness from 0
+through 10 h, with no protection, automatic protection or filing-triggered
+protection. A protected band starts at the resident's consequence and ends at
+20 h for both named people. The endpoint slice holds resident readiness at
+6 h and varies every strict band $[s,e)$ with integer endpoints
+$0\leq s<e\leq24$, under automatic and filing activation, plus the unprotected
+case. Their union contains 21,454 configurations and 42,908 person records.
+The 1,122 readiness memberships and 20,434 endpoint memberships share 102
+configurations, each retained once in the union. These are two declared slices,
+not the full joint grid of all response, readiness and endpoint values.
+Repeated results do not turn distinct parameter settings into independent
+institutional observations.
+
+The provider is named `supply-guarantor`; the clock begins at notice. Those
+declarations make the calculation reproducible without establishing a funded
+office or adequate notice. Material support, reprisal, reviewer control and
+the treaty-people's collective reservation remain separately unassessed in
+every configuration. The atlas changes none of the original fifteen safeguard
+fields or the recorded distinction between individual and collective parties.
+
+::: {.definition #def:timing-activation title="Feasible filing and active protection"}
+Use the local review notation of [@def:review-wait; @def:review-profile]. Let
+$\theta$ identify one timing configuration, and write $q=t_i^q$, $r=t_r$ and
+$f=\max(t_o,t_i^a)$ for one person's consequence, response and earliest filing.
+Let $\mathsf{F}_i$ be the conjunction of admission, ability to remain, sufficient
+person-specific preparation hours and $f\leq t_c$. A declared band $[s,e)$
+has active support
+
+$$
+P_i(\theta)=
+\begin{cases}
+[s,e),&\text{automatic},\\
+[\max(s,f),e),&\text{on filing, }\mathsf{F}_i
+                  \text{ and }\max(s,f)<e,\\
+\varnothing,&\text{otherwise}.
+\end{cases}
+$$ {#eq:timing-activation}
+
+Readiness is the completion of prerequisites. It does not add preparation
+capacity, and a readiness value before opening does not permit filing before
+the window opens. An expired band does not activate by extending its endpoint.
+:::
+
+::: {.proposition #prop:timing-boundary title="The conditional boundary of an empty wait"}
+Fix one person, consequence, filing conditions and strict declared band.
+If $q\geq r$, the uncovered wait is empty. If $q<r$, automatic protection
+leaves no uncovered wait exactly when $s\leq q$ and $r\leq e$.
+Filing-triggered protection leaves no uncovered wait exactly when
+$\mathsf{F}_i$ holds, $\max(s,f)\leq q$ and $r\leq e$.
+
+*Proof.* In the nonempty-wait case, the uncovered set is empty exactly when
+$[q,r)$ is contained in the active band. Inclusion of two nonempty half-open
+intervals gives the two endpoint inequalities. The filing case additionally
+requires activation. If the response is effective at the consequence instant,
+the declared event order makes the wait empty before protection is considered.
+This proves a boundary of the represented wait, not the full seven-condition
+conjunction or an institutional warrant.
+:::
+
+Holding the duty and active band fixed, an earlier admissible response narrows
+the uncovered set by inclusion. Expanding active protection also narrows it.
+The qualification matters: moving a deadline, removing support or making a
+filing feasible can change activation itself. Neither a response-time total nor
+the nominal duration of a declared band can replace a fresh person-specific
+assessment. A zero-gap cell can still fail the deadline or another condition.
+
+![{{TIMING_READINESS_CAPTION}}](../figures/review-timing-readiness.png){#fig:review-timing-readiness height=180mm}
+
+In [@fig:review-timing-readiness], readiness at 9 or 10 h fails the closing
+deadline of 8 h even where an automatic undertaking closes the waiting gap.
+The protected region ends when response moves beyond the fixed 20 h expiry.
+For the early-threat duty, the resident can be exposed before being ready to
+file, while the member's later consequence leaves a different interval.
+The separate member strip and person records prevent one person's usable
+position from standing in for the other's.
+
+| Resident duty | Activation | Configurations | Resident gap empty | All declared conditions, both people |
+|---|---|---:|---:|---:|
+| Original, 12 h | None | 187 | 55 | 45 |
+| Original, 12 h | Automatic | 5,270 | 2,644 | 2,618 |
+| Original, 12 h | On filing | 5,270 | 2,628 | 2,618 |
+| Early threat, 3 h | None | 187 | 0 | 0 |
+| Early threat, 3 h | Automatic | 5,270 | 742 | 716 |
+| Early threat, 3 h | On filing | 5,270 | 52 | 52 |
+
+: Exact counts in the union of the two declared timing slices. The resident's zero-gap count is distinct from the conjunction for both named people. Unequal mode denominators result from the chosen parameter family; these cells are not probabilities, an institutional population or a ranking across different duties. All four practical relations remain unassessed. {#tbl:timing-slices}
+
+The original-duty rows illustrate why an apparent improvement in one projection
+need not improve the conjunction: automatic protection closes sixteen additional
+resident gaps relative to filing activation, but those cells still fail other
+declared conditions. In the early-threat rows, automatic and filing activation
+leave substantially different zero-gap regions. Their numerical proportions
+have no population interpretation. Adding more early or late endpoint settings
+would change those proportions without improving an actual institution.
+
+[@fig:review-timing-protection] instead fixes response at 20 h and resident
+readiness at 6 h. The early-threat filing panel has no empty-gap region:
+even a band declared to begin at 3 h waits for the resident's feasible filing
+at 6 h. Automatic activation can cover that initial interval. The selected
+traces also preserve the earlier H06/H07 distinction: ending at 19 h or starting
+at 13 h leaves one uncovered hour in different places. An endpoint display
+therefore complements the requirement order; duration alone would collapse the
+distinction it was designed to preserve.
+
+![{{TIMING_PROTECTION_CAPTION}}](../figures/review-timing-protection.png){#fig:review-timing-protection height=180mm}
+
+The atlas also sharpens an objection to its own use. An authority could define
+the consequence narrowly, begin notice after an earlier deprivation, exclude an
+affected person from the roster or require a form of readiness the person
+disputes, and then display an empty waiting gap. That would change what the
+model is allowed to see. Tully's challenge is therefore more than a request for
+another variable: the procedures and criteria of reasonable argument remain
+contestable, while ostensibly inclusive negotiation can be governed through
+agenda and resource control [@tully2006Recognition, pp. 25–27, 30–31].
+The figures cannot answer that challenge on an authority's behalf.
+
+A defensible use must let an opponent dispute the threat, notice origin,
+claimant roster, horizon and activation rule. A changed commitment calls for
+a new declared input epoch, and a different grid or roster requires a further
+schema rather than an unrecorded substitution. Refusal of the offered forum
+must not be silently coded as late readiness or collective consent. The
+recorded provider, funding obligation, expiry and interruption remedy also
+need evidence outside these stipulated clocks. Pettit's independent appeal
+and Shachar's agreed review standard remain additional institutional premises;
+distinct office names and a punctual response do not establish either
+[@pettit2005, pp. 8–9; @shachar2005, pp. 75–77, especially p. 76 n. 90].
+The contribution is an inspectable conditional claim: under these declared
+duties, this person remains exposed at these times. Its terms remain open to
+challenge by those it represents.
+
 ## A selected-line collation keeps the limit of the corpus visible
 
 There is a textual reason to keep these material questions attached to particular witnesses. At Jerusalem 73:46, the ASU transcription reads *howl* in the line about the Spectres around Los's porches. The retained mixed/editorial Erdman page, *erdman:239* (printed E229), instead supplies *bowl*. Inspection of that selected line on the bound Library of Congress copy I sheet agrees with *howl*. This localizes the earlier D02 discrepancy; it does not silently repair the retained page or change its source role. The corpus pin and the original discrepancy record remain unchanged.
@@ -886,6 +1030,18 @@ The address turns attention toward work on particular lives and the teeming eart
 Q17. William Blake, Jerusalem 55:60–63, E205. [@blakeJerusalem].
 
 Blake pairs Art and Science with minutely organized particulars. The preceding command to compel demonstration and melt indefinites in affliction (55:56–59) also exposes the danger of making evidence into an instrument of coercion. The contrast concerns the relation of a general claim to the work that sustains it. A water board can invoke a common good while concealing downstream costs; an identity association can celebrate mutual aid while assigning unpaid work to selected members. The decision record makes those distributions explicit. Its particulars are affected persons, quantities, duties, payers and remedies.
+
+Yet the Reasoner commanded to demonstrate is not already a claimant in our
+filing procedure. The subsequent lines place definite identity and the
+continuing destruction of falsehood beside the attack on generalizing
+demonstration. One possible reading therefore makes precise exposure of a
+claim's commitments part of release, rather than treating every formal demand
+as domination [@blakeJerusalem, 55:56–65, E205]. The timing atlas can serve that
+limited purpose: it makes a protective promise definite enough to expose where
+it fails. It loses that value if the authority uses its own definite terms to
+settle who may question the promise. Prevention and compelled demonstration
+share the scene; neither becomes a simple administrative doctrine. The return
+to Q16–Q17 adds no new quotation record or whole-work reading credit.
 
 ![Jerusalem 55, copy I. The Seven Eyes, plowing and care for the Little-ones share the sheet with minutely organized Art and Science. Q16–Q17 select lines 51–53 and 60–63: care, particulars and demonstration enter the same account of labor. The complete lower design keeps provision beside the demand to explain and demonstrate. LOC, Rosenwald Collection, item 48038103; posthumous impression, approximately 1832?.](../figures/plate-J55.jpg){#fig:plate-J55 height=3.8in}
 

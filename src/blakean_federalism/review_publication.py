@@ -6,13 +6,14 @@ import sys
 from pathlib import Path
 
 from .models import ResearchError
+from .review_audit_provenance import verify_review_producer_receipt
 from .storage import copy_new, digest, safe_path, write_new
 
 NAMES = ("institutional-review", "review-continuity")
 
 
 def prepare_review_figures(root: Path, stage: Path) -> dict[str, str]:
-    """Run the approved audit tool unchanged and retain its full independent receipt."""
+    """Run the source-bound audit and verify its additive producer receipt before copying."""
     sources = tuple(
         safe_path(root, name)
         for name in (
@@ -43,6 +44,7 @@ def prepare_review_figures(root: Path, stage: Path) -> dict[str, str]:
     result.check_returncode()
     if tuple(digest(path) for path in sources) != before:
         raise ResearchError("review_source_changed", "Review source changed during audit")
+    _ = verify_review_producer_receipt(audit, sources[0], sources[1], sources[2], figures=True)
     for name in NAMES:
         for suffix in (".pdf", ".png"):
             source = safe_path(audit, "figures/" + name + suffix)

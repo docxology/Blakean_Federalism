@@ -10,6 +10,11 @@ import typer
 
 from blakean_federalism.institutional_review_models import ReviewInput
 from blakean_federalism.models import Assessment, ResearchError
+from blakean_federalism.review_audit_provenance import (
+    ReviewAuditSources,
+    review_audit_producers,
+    write_review_producer_receipt,
+)
 from blakean_federalism.review_inputs import (
     ValidatedReviewAudit,
     linked_assessments,
@@ -54,6 +59,7 @@ def main(
 ) -> None:
     """Evaluate declared review conditions; retain all unassessed issues explicitly."""
     try:
+        producers = review_audit_producers(Path(__file__), figures=figures)
         audit = validated_report(cases, decisions, output)
         report = audit.report
         report_bytes = (report.model_dump_json(indent=2) + "\n").encode()
@@ -95,6 +101,13 @@ def main(
         )
         _ = (output / "review-receipt.json").write_text(
             receipt.model_dump_json(indent=2) + "\n", encoding="utf-8"
+        )
+        write_review_producer_receipt(
+            output,
+            audit,
+            producers,
+            ReviewAuditSources(cases, decisions, Path(__file__)),
+            figures=figures,
         )
     except (OSError, ValueError, ResearchError, ImportError, CalledProcessError) as error:
         typer.echo(f"review_audit_failed: {error}", err=True)

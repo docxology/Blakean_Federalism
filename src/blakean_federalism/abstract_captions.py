@@ -5,11 +5,12 @@ from .abstract_analysis import corpus_diagnostics, repair_diagnostics
 from .abstract_explanation import display_frequency, top_family_examples
 from .analysis_figures import FOCUS
 from .models import ResearchError
+from .publication_profiles import ANALYTICAL_PRODUCERS
 from .workbench_models import Workbench
 
 
 def uses_analytical_abstracts(report: Workbench) -> bool:
-    return report.producer_version in ("0.14.0", "0.15.0", "0.16.0", "0.17.0") and any(
+    return report.producer_version in ANALYTICAL_PRODUCERS and any(
         a.asset_id == "J1" for a in report.images
     )
 

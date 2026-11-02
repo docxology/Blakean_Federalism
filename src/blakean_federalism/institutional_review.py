@@ -1,6 +1,8 @@
 # Copyright (c) 2026 Daniel Ari Friedman
 """Evaluate seven declared review conditions without pooling people's access."""
 
+from blake.methods.intervals import Interval as SupportInterval
+from blake.methods.intervals import interval_difference
 from pydantic import computed_field
 
 from blakean_federalism.institutional_review_models import (
@@ -74,18 +76,15 @@ class ReviewReport(ReviewInput):
 
 
 def _uncovered(start: int, end: int, protection: Interval | None) -> tuple[Interval, ...]:
+    """Keep the response-first policy here; delegate positive support geometry."""
     if start >= end:
         return ()
-    if protection is None:
-        return ((start, end),)
-    covered_start = max(start, protection[0])
-    covered_end = min(end, protection[1])
-    if covered_start >= covered_end:
-        return ((start, end),)
+    active = (
+        () if protection is None else (SupportInterval(start=protection[0], end=protection[1]),)
+    )
     return tuple(
-        (left, right)
-        for left, right in ((start, covered_start), (covered_end, end))
-        if left < right
+        (span.start, span.end)
+        for span in interval_difference((SupportInterval(start=start, end=end),), active)
     )
 
 

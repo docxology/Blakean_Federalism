@@ -8,54 +8,18 @@ from . import __version__
 from .abstract_captions import cover_caption, uses_analytical_abstracts
 from .comparison_publication import prepare_domain_figures
 from .manuscript import ManuscriptSpec, validate_manuscript
+from .method_provenance import shared_source_hashes
 from .models import ResearchError
 from .proximity_study import ProximityStudy
 from .publication_contract import manuscript_contract, source_bindings
 from .publication_figures import generate_figures
 from .publication_frontmatter import write_graphical_abstracts
 from .publication_models import PreparedPublication, TemplateRendering
+from .publication_profiles import ILLUMINATED_EDITIONS
+from .publication_sources import SOURCE_NAMES, publication_source_names
 from .search_study import SearchStudy
 from .storage import copy_new, digest, safe_path, verify_file, write_new
 from .workbench_models import Workbench
-
-SOURCE_NAMES = (
-    "docs/manuscript/states-change.md",
-    "docs/manuscript/references-and-rights.md",
-    "docs/manuscript/references.bib",
-    "docs/manuscript/config.yaml",
-    "docs/manuscript/preamble.md",
-    "research/manuscript-inputs.json",
-    "research/template-rendering.json",
-    "research/citation-catalog.json",
-    "research/search-study-0.8.0.json",
-    "docs/manuscript/notation.md",
-    "research/proximity-study-0.10.0.json",
-    "docs/style-guide.md",
-    "research/procedural-comparison-reading-20261028.json",
-    "research/review-pressure-20261029.json",
-    "research/textual-collation-20261029.json",
-    "research/pressure-reading-20261029.json",
-    "docs/research/review-pressure-20261029.md",
-)
-
-REVIEW_SOURCE_NAMES = (
-    "src/blakean_federalism/institutional_review_models.py",
-    "src/blakean_federalism/institutional_review.py",
-    "src/blakean_federalism/institutional_review_figure.py",
-    "tools/audit_institutional_review.py",
-    "tests/test_institutional_review.py",
-    "tests/test_institutional_review_tool.py",
-    "research/institutional-review-cases.json",
-    "docs/research/institutional-review.md",
-    "docs/manuscript/institutional-review-supplement.md",
-    "docs/manuscript/institutional-review-insertion.md",
-    "research/cases.json",
-    "src/blakean_federalism/review_inputs.py",
-    "src/blakean_federalism/review_comparison.py",
-    "src/blakean_federalism/review_comparison_run.py",
-    "src/blakean_federalism/review_comparison_figure.py",
-    "docs/research/procedural-comparison.md",
-)
 
 
 def manuscript_variables(report: Workbench) -> dict[str, str]:
@@ -137,18 +101,9 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         raise ResearchError("publication_output", "Require a new analysis_output descendant")
     if any(p.is_symlink() for p in (output, *output.parents)):
         raise ResearchError("symlink_output", str(output))
-    producers = tuple(
-        sorted(
-            p.relative_to(root).as_posix()
-            for p in (root / "src/blakean_federalism").rglob("*")
-            if p.is_file() and p.suffix in (".py", ".css", ".js", ".html", ".ttf", ".txt")
-        )
-    )
     article = safe_path(root, SOURCE_NAMES[0]).read_text()
-    review_sources = REVIEW_SOURCE_NAMES if "#fig:review-matrix" in article else ()
-    before = source_bindings(
-        root, SOURCE_NAMES + review_sources + producers + ("tools/template_render.py",)
-    )
+    before = source_bindings(root, publication_source_names(root, article))
+    delegated = shared_source_hashes()
     for binding in report.inputs:
         _ = verify_file(root, binding.path, binding.size, binding.sha256)
     appendix = safe_path(root, SOURCE_NAMES[1]).read_text()
@@ -174,9 +129,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         rasterizer,
         search_study,
         proximity_study,
-        artwork=assets
-        if spec.version in ("0.11.0", "0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0", "0.17.0")
-        else None,
+        artwork=assets if spec.version in ILLUMINATED_EDITIONS else None,
     )
     domain = prepare_domain_figures(root, output, contract.figure_labels)
     generated.update(domain.figures)
@@ -186,8 +139,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     write_graphical_abstracts(
         raw,
         report,
-        full_artwork=spec.version
-        in ("0.11.0", "0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0", "0.17.0"),
+        full_artwork=spec.version in ILLUMINATED_EDITIONS,
     )
 
     atlas: list[str] = [
@@ -228,6 +180,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
     receipt = PreparedPublication(
         producer_version=__version__,
         inputs=before,
+        producers=delegated,
         contract=contract,
         template=TemplateRendering.model_validate_json(
             safe_path(root, SOURCE_NAMES[6]).read_bytes()
@@ -244,7 +197,7 @@ def prepare_publication(root: Path, output: Path, report: Workbench, rasterizer:
         variables=variables,
         scope="Prepared stage only; native rendering and visual review are separate gates",
     )
-    if before != source_bindings(root, tuple(before)):
+    if before != source_bindings(root, tuple(before)) or delegated != shared_source_hashes():
         raise ResearchError("publication_source_changed", "Source changed during preparation")
     write_new(output / "prepared-publication.json", receipt.model_dump_json(indent=2) + "\n")
     return output

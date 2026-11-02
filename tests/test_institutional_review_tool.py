@@ -87,7 +87,11 @@ def test_real_command_emits_hash_bound_domain_report_without_figures(inputs):
     assert all(a.admissible_under_proposed_rules for a in receipt.linked_baseline_assessments)
     assert {a.decision_id for a in receipt.linked_baseline_assessments} == {"E-bounded"}
     assert receipt.figures == ()
-    assert {p.name for p in output.iterdir()} == {"review-report.json", "review-receipt.json"}
+    assert {p.name for p in output.iterdir()} == {
+        "review-report.json",
+        "review-receipt.json",
+        "review-producer-receipt.json",
+    }
     assert all("conditions" in r for r in report["results"])
     assert all("uncovered_wait_hours" in p for r in report["results"] for p in r["claimants"])
     assert {

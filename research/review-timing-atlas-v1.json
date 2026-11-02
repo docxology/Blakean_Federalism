@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "study_id": "review-timing-atlas-v1",
+  "reference_study_sha256": "c93fb812970dc57f924c58202dfe5abbf9d0c68ccbecfabbbb6c3833e4076f97",
+  "pressure_study_sha256": "eabeb75188ffa631b6b3ef51376a6d6292c4a5726d83357a666af763e6282a10",
+  "baseline_decisions_sha256": "2d1709f3a7f9f70d6ed3f94a521e43e49424d589c8531b13f5906d00d390aca7",
+  "reference_procedure_id": "H12",
+  "affected_person_id": "resident-b",
+  "collective_party_id": "treaty-people",
+  "clock_origin": "notice at hour zero",
+  "provider_office_id": "supply-guarantor",
+  "response_hours": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "resident_ready_hours": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "endpoint_hours": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "geometry_readiness_hour": 6,
+  "readiness_expiry_hour": 20,
+  "strata": [
+    {
+      "stratum_id": "original-duty",
+      "resident_consequence_hour": 12
+    },
+    {
+      "stratum_id": "early-threat",
+      "resident_consequence_hour": 3
+    }
+  ],
+  "practical_boundaries": [
+    {
+      "issue": "material_support",
+      "status": "unassessed",
+      "rationale": "The atlas varies declared clocks, not the existence, funding or reliability of actual material provision."
+    },
+    {
+      "issue": "reprisal",
+      "status": "unassessed",
+      "rationale": "No empirical or stipulated protection against retaliation is added by any timing cell."
+    },
+    {
+      "issue": "reviewer_control",
+      "status": "unassessed",
+      "rationale": "Distinct water-board and review-panel identifiers do not establish appointments, budgets or practical independence."
+    },
+    {
+      "issue": "collective_reservation",
+      "status": "unassessed",
+      "rationale": "The separately named treaty-people do not waive title or authorize the forum by the personal claimant's filing."
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.0 — person-specific review timing and native working draft
+
+- Use the exact public Blake 0.7.0 Git source for reusable interval set and record arithmetic; keep filing activation, protection policy and political interpretation here.
+- Add two declared timing slices with 21,454 unique stipulated configurations and 42,908 person records, exact uncovered intervals, two data-derived figures and a conditional boundary lemma. These are constructed cases, with four practical conditions unassessed.
+- Repair the actual missing-image Markdown boundary and require a real image in every registered native figure; preserve the defective 77-page epoch and refusing controls.
+- Render the corrected 78-page paper through the pinned template PDF/web writers and retain the final complete independent working-draft review with equation-interaction/accessibility limits.
+- Qualify software, installed consumers, analytical producers, native output and main delivery separately; preserve earlier papers, source pins, failures and evidence.
+
 ## 0.18.0 software — request-pinned review workloads
 
 - Adopt the exact qualified Blake 0.5.0 Git source for shared deterministic ranking, unit caps, full-pool hashes and immutable blank batches.

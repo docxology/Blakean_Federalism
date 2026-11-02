@@ -1,6 +1,6 @@
 # Shared methods and authored evidence review
 
-The 0.18 application delegates corpus custody, passage schemas, regex
+The 0.19 application delegates corpus custody, passage schemas, regex
 concordance, literal search, word-window proximity, statistics and offline search
 rendering to `blake.methods`. This repository owns the political query registry,
 fixed comparison grid, institutional models, readings and manuscript. Its
@@ -8,8 +8,8 @@ institutional conclusions are not corpus metadata.
 
 ## Current software and historical evidence
 
-The current integration selects public Blake 0.5.0 at
-`36b874e76d7e0549d0ea6b9f0713ced7fb41afa8`. The exact executable dependency is
+The current integration selects public Blake 0.7.0 at
+`263d7c83abe6f1309a64af3285a683c1b7672269`. The exact executable dependency is
 declared in [pyproject.toml](../pyproject.toml) and [uv.lock](../uv.lock), with
 its measured qualification in [verification.json](../research/verification.json).
 The moving upstream `main` is the development source, not an implicit repin of
@@ -35,7 +35,7 @@ the existing institutional review evaluator; generic producer and output custody
 remain in the public package.
 See [project status](PROJECT_STATUS.md) for current task ownership and acceptance.
 
-The [28 October installed 0.16.0 migration qualification](../research/installation-shared-methods-0.16.0.json) records the four-file byte-identical replay on the independently copied 2,067-unit input: concordance, descriptive statistics, literal study and proximity. Its selected public Git source was `4dc75f71d28f83a9f92db9ca523fb38326ba95f6`. Those producer receipts include the delegated shared source files. The current [0.18.0 planning qualification](../research/review-planning-20261030.json) has its own installed suite and blank-batch controls; it does not claim a new mathematical replay.
+The [28 October installed 0.16.0 migration qualification](../research/installation-shared-methods-0.16.0.json) records the four-file byte-identical replay on the independently copied 2,067-unit input: concordance, descriptive statistics, literal study and proximity. Its selected public Git source was `4dc75f71d28f83a9f92db9ca523fb38326ba95f6`. Those producer receipts include the delegated shared source files. The retained [0.18.0 planning qualification](../research/review-planning-20261030.json) has its own installed suite and blank-batch controls; it does not claim a new mathematical replay.
 Historical producer identities, corpus pins and acceptance packets remain
 historical; numerical equality does not replace them with a new producer.
 The earlier 72-page paper used SDK `d020f47767996a061b6f60e93a82da9386a7926c`.
@@ -43,6 +43,27 @@ The retained 74-page 0.17.0 paper used SDK
 `45171a099a6a658c52ab689501de646a28485653`;
 the corpus capture records its earlier producer separately. Qualifying the
 current SDK preserves both records and writes a new execution receipt.
+
+## Exact intervals and private timing policy
+
+Public `blake.methods.intervals` supplies half-open union, measure,
+intersection, difference, depth support and overlapping-record pair counting.
+This application's review evaluator delegates uncovered support to that API.
+It preserves response-first timing at equality and returns its historical
+tuple interface; no private generic interval engine remains.
+
+The [timing atlas](research/review-timing-atlas.md) owns filing activation,
+readiness, consequences, response times, person-specific duties, slice selection,
+practical premises and interpretation. Its two slices are deduplicated without
+pretending to enumerate their entire joint parameter space. No arithmetic
+operation decides who can file, whether a reviewer is independent or whether
+an institution has authority.
+
+Current analytical/native receipts bind delegated SDK sources as well as local
+producers. The standalone institutional audit adds a producer sidecar while
+retaining its original report and receipt bytes. Missing or changed current
+producer bindings must refuse. Historical outputs retain their declared schema
+and producing epoch rather than being silently rewritten.
 
 ## Plan a bounded contextual workload
 

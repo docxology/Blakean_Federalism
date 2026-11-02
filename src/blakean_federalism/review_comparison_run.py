@@ -35,6 +35,7 @@ SHARED: Final = (
     "methods/__init__.py",
     "methods/models.py",
     "methods/common.py",
+    "methods/intervals.py",
     "methods/projection_models.py",
     "methods/bundle_models.py",
     "text_search/models.py",

@@ -15,6 +15,7 @@ from .illuminated_records import draw_decision, draw_evidence
 from .illuminated_sources import IlluminatedSources
 from .illuminated_style import register_serif_fonts
 from .models import ResearchError
+from .publication_profiles import ANALYTICAL_PRODUCERS
 from .workbench_models import Workbench
 
 _MAX_BASELINES: Final = 5
@@ -55,7 +56,7 @@ def illuminated_drawings(
     failed = [row for row in experiment.decisions if row.baseline_failed_rules]
     if len(failed) > _MAX_BASELINES:
         raise ResearchError("figure_case_layout", "At most five failed baselines fit this figure")
-    if report.producer_version in ("0.14.0", "0.15.0", "0.16.0", "0.17.0"):
+    if report.producer_version in ANALYTICAL_PRODUCERS:
         return analytical_drawings(report, artwork)
     register_serif_fonts()
     source = IlluminatedSources(report, dict(artwork), quotes, stats, experiment)

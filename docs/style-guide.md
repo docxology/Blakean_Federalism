@@ -1,8 +1,8 @@
 # Private Federalism authoring conventions
 
-Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/36b874e76d7e0549d0ea6b9f0713ced7fb41afa8/docs/style-guide.md)
+Use the shared [Blake methods style guide](https://github.com/docxology/blake/blob/263d7c83abe6f1309a64af3285a683c1b7672269/docs/style-guide.md)
 for general method boundaries, provenance and manuscript syntax. The link
-binds current authoring conventions to the selected Blake 0.5.0 source. Earlier
+binds current authoring conventions to the selected Blake 0.7.0 source. Earlier
 rendered papers retain the style and producer identities recorded in their own
 receipts. Consult [project status](PROJECT_STATUS.md) for the current qualification
 and next work.
@@ -41,6 +41,21 @@ weighted score. Its requirement sets are obligations to discharge, not
 independent administrative changes. Reassess after changing any procedure,
 especially where filing activates protection. Do not call an incomparable pair
 equivalent merely because one total is equal.
+
+The timing atlas varies readiness, response and positive protection bands under
+two explicitly named duty strata. Its readiness and endpoint slices share
+configurations; report the deduplicated total and each slice separately.
+Evaluate each claimant independently. A zero uncovered interval settles only
+the declared interval question: it does not discharge retaliation, material
+support, reviewer control or collective competence. Name any such premise
+that remains unassessed. An earlier response or larger active band has a
+conditional monotonic effect only while the other inputs and the duty stay fixed.
+
+Generic interval union, difference and multiplicity operations come from
+`blake.methods.intervals`. Activation by filing, readiness deadlines,
+person-specific duties and institutional interpretations belong here. Change
+those policies in a new epoch rather than rewriting the original fourteen
+procedures or the pressure study.
 
 ## Scholarly integration
 

@@ -1,5 +1,10 @@
 # Scope integration crosswalk
 
+This crosswalk records the supplied-brief and early integration epochs. Use
+[project status](PROJECT_STATUS.md) for current software, native candidates and
+next work; the historical counts and proposed extensions below retain their
+original scope.
+
 Both original DOCX files and their complete Markdown extractions are retained under ignored local_data/user_briefs, with byte lengths and SHA-256 hashes in research/source-history.json. No matching PDF attachment was supplied in this turn; no claim is made to have imported it. The addendum is integrated as a refinement of the scope, not a replacement that erases earlier observations.
 
 | Supplied requirement or complication | Concrete integration |

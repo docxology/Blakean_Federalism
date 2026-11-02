@@ -6,9 +6,43 @@ before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
+## Current 0.19.0 timing edition
+
+Current software selects public Blake 0.7.0 at
+`263d7c83abe6f1309a64af3285a683c1b7672269`. The normally installed
+818-test qualification, analytical execution and native writers have separate
+source/runtime receipts. The current native candidate is
+`analysis_output/publication/timing-20261101-02`: the actual template PDF/web
+writers completed, and its 78-page PDF/HTML has bounded independent Federalism
+working-draft acceptance. [Project status](../PROJECT_STATUS.md) owns exact
+output identities, review limits and separate publication evidence. The
+77-page native01 omitted a timing image; it remains defective/superseded and
+is never promoted to a qualified edition.
+
+The [timing atlas](../research/review-timing-atlas.md) adds two declared slices,
+person-specific exposures, two report-derived figures and a conditional
+boundary lemma. Preparation regenerates timing assets from the four exact
+research inputs when both timing figure labels are present, binds local and
+shared producer sources, and checks them again before completion and native
+verification. A current receipt cannot omit those producer bindings. Actual native HTML must
+also contain each required timing image element and its valid local target;
+a caption match or the presence of an unused figure file does not establish
+that the figure was included in the paper.
+
+The standalone institutional audit retains its original report/receipt bytes
+and adds a producer sidecar. Native integration verifies that sidecar before
+copying figures. Historical analytical and native epochs keep their original
+profiles; no absent old producer field is silently promoted into current
+qualification.
+
+Changing input clocks, filing policy, duties or the grid creates a new analytical
+epoch. Empty uncovered time does not discharge the four unassessed practical
+premises or establish consent. Public interval algebra owns generic set
+operations; these institutional policies remain local.
+
 ## Retained 0.17.0 study and rebuild inputs
 
-The application now adds eight constructed pressures on H12, with sixteen
+The 0.17.0 study added eight constructed pressures on H12, with sixteen
 person-specific records, while preserving the original fourteen procedures,
 twenty-eight records and fifteen safeguards. The figure separates the computed
 access profile from four explicitly stipulated practical premises. Neither
@@ -29,9 +63,12 @@ Use the current locked SDK and application for a new analytical/native epoch.
 Its receipts, rather than historical test or PDF counts below, define its
 actual installed source, outputs and qualification. The native PDF and article
 HTML remain separate from the standalone offline search workspace and its
-browser acceptance. Earlier failures and native epochs stay retained.
+browser acceptance. The final independent correction review accepts the exact
+78-page timing native02 and current desktop/mobile article for bounded
+working-draft use. MathJax interaction limits remain explicit in project status.
+Earlier failures and native epochs stay retained.
 
-The latest native epoch is
+The retained 0.17.0 native epoch is
 `analysis_output/publication/pressure-20261030-04`: **74 PDF pages**, SHA-256
 `c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`.
 Its article HTML SHA-256 is
@@ -185,9 +222,9 @@ original recorded environment; the new installation reverified a separate copy.
 Offline workspace browser QA is blocked by the browser tool's local-file URL
 policy; generated HTML and Node/Python checks do not establish browser behavior.
 
-## Software-only review-planning epoch
+## Retained software-only review-planning epoch
 
-Current software passed 714 installed tests and the declared
+The 0.18.0 software passed 714 installed tests and the declared
 separate application/tool coverage floors; its exact Git SDK and real
 planning/refusal commands are in
 [the software qualification](../../research/review-planning-20261030.json).

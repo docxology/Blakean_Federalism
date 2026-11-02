@@ -1,5 +1,5 @@
 {
-  "version": "0.17.0",
+  "version": "0.19.0",
   "assets": [
     {
       "asset_id": "milton",
@@ -194,7 +194,7 @@
       "sha256": "7992a2139c359e05bc38b6a8bd9f3010d22a7a8105fab5ec38b982c56529b4dd",
       "size": 305485,
       "kind": "image",
-      "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters’ labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
+      "caption": "William Blake, Jerusalem, copy I, plate 59. Paired figures and wheel amid the daughters\u2019 labor; posthumous impression, ca. 1832? Library of Congress, Rare Book and Special Collections Division, Lessing J. Rosenwald Collection, item 48038103; Rosenwald 1811.",
       "rights_basis": "Public-domain historical Blake work; LOC item-specific Rights & Access reports no known U.S. copyright or other restrictions in the collection documents. This is a no-known-restrictions advisory, not a CC0 license or a guarantee for every jurisdiction. Use the attached item record, not a blanket corpus clearance.",
       "credit": "Library of Congress, Rare Book and Special Collections Division; Lessing J. Rosenwald Collection",
       "rights_url": "https://www.loc.gov/item/48038103/#rights-and-access"
@@ -609,7 +609,7 @@
     {
       "quote_id": "Q14",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 27:85–88, E173",
+      "locator": "Jerusalem 27:85\u201388, E173",
       "context": "Mutual exchange in To the Jews; read with the religious framing of the plate.",
       "segments": [
         {
@@ -637,7 +637,7 @@
     {
       "quote_id": "Q15",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 99:1–5, E258–259",
+      "locator": "Jerusalem 99:1\u20135, E258\u2013259",
       "context": "Final human forms, return, and emanations; compare gender and agency with the final design.",
       "segments": [
         {
@@ -670,7 +670,7 @@
     {
       "quote_id": "Q16",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:51–53, E205",
+      "locator": "Jerusalem 55:51\u201353, E205",
       "segments": [
         {
           "anchor": "J55.51;E205",
@@ -693,7 +693,7 @@
     {
       "quote_id": "Q17",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 55:60–63, E205",
+      "locator": "Jerusalem 55:60\u201363, E205",
       "segments": [
         {
           "anchor": "J55.60;E205",
@@ -721,7 +721,7 @@
     {
       "quote_id": "Q18",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 91:26–31, E251",
+      "locator": "Jerusalem 91:26\u201331, E251",
       "segments": [
         {
           "anchor": "J91.26;E251",
@@ -759,7 +759,7 @@
     {
       "quote_id": "Q19",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 12:30–36, E155",
+      "locator": "Jerusalem 12:30\u201336, E155",
       "segments": [
         {
           "anchor": "J12.30;E155",
@@ -797,12 +797,12 @@
           "text": "Always comforting the remembrance: the floors, humility,"
         }
       ],
-      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43–44."
+      "context": "Excerpt within the Golgonooza building description; Jerusalem remains outside the gate at12:43\u201344."
     },
     {
       "quote_id": "Q20",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 61:17–23, E212",
+      "locator": "Jerusalem 61:17\u201323, E212",
       "segments": [
         {
           "anchor": "J61.17;E212",
@@ -845,7 +845,7 @@
     {
       "quote_id": "Q21",
       "asset_id": "urizen",
-      "locator": "The [First] Book of Urizen 4:34–40, E72",
+      "locator": "The [First] Book of Urizen 4:34\u201340, E72",
       "segments": [
         {
           "anchor": "BU4.34;E72",
@@ -888,7 +888,7 @@
     {
       "quote_id": "Q22",
       "asset_id": "urizen",
-      "locator": "The [First] Book of Urizen 28:6–7, E83",
+      "locator": "The [First] Book of Urizen 28:6\u20137, E83",
       "segments": [
         {
           "anchor": "BU28.6;E83",
@@ -914,12 +914,12 @@
           "text": "The Sons of Los clothe them & feed, & provide houses & gardens"
         }
       ],
-      "context": "Los’s sons provide clothing, food, houses and gardens for spectres; the surrounding work includes feuds, weapons and creation/destruction."
+      "context": "Los\u2019s sons provide clothing, food, houses and gardens for spectres; the surrounding work includes feuds, weapons and creation/destruction."
     },
     {
       "quote_id": "Q24",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 53:7–8, E202",
+      "locator": "Jerusalem 53:7\u20138, E202",
       "segments": [
         {
           "anchor": "J53.7;E202",
@@ -937,7 +937,7 @@
     {
       "quote_id": "Q25",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem59:34–38, E209",
+      "locator": "Jerusalem59:34\u201338, E209",
       "segments": [
         {
           "anchor": "J59.34;E209",
@@ -965,12 +965,12 @@
           "text": "But the poor Spectres that they work for, always incessantly"
         }
       ],
-      "context": "Read 59:26–55 on hunger, delight, labor and repair beside provision at 73:44–54."
+      "context": "Read 59:26\u201355 on hunger, delight, labor and repair beside provision at 73:44\u201354."
     },
     {
       "quote_id": "Q26",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 74:10–13, E229",
+      "locator": "Jerusalem 74:10\u201313, E229",
       "segments": [
         {
           "anchor": "J74.10;E229",
@@ -998,7 +998,7 @@
     {
       "quote_id": "Q27",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 49:72–75, E199",
+      "locator": "Jerusalem 49:72\u201375, E199",
       "segments": [
         {
           "anchor": "J49.72;E199",
@@ -1026,7 +1026,7 @@
     {
       "quote_id": "Q28",
       "asset_id": "butts",
-      "locator": "Letter to Thomas Butts, 22 November 1802, verse 25–30, E721",
+      "locator": "Letter to Thomas Butts, 22 November 1802, verse 25\u201330, E721",
       "segments": [
         {
           "anchor": "L23.verse25Butts11'02;E721",
@@ -1059,12 +1059,12 @@
           "text": "With my outward a Thistle across my way"
         }
       ],
-      "context": "Double vision of a thistle/old man in a commissioned-work and family context. The speaker destroys the thistle at41–42, and the old man welters at53–54. The fourfold declaration at83–88 is already Q12 and is not proposed again."
+      "context": "Double vision of a thistle/old man in a commissioned-work and family context. The speaker destroys the thistle at41\u201342, and the old man welters at53\u201354. The fourfold declaration at83\u201388 is already Q12 and is not proposed again."
     },
     {
       "quote_id": "Q29",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 98:28–32, E257–258",
+      "locator": "Jerusalem 98:28\u201332, E257\u2013258",
       "segments": [
         {
           "anchor": "J98.28;E257",
@@ -1097,7 +1097,7 @@
     {
       "quote_id": "Q30",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 10:20–21, E153",
+      "locator": "Jerusalem 10:20\u201321, E153",
       "segments": [
         {
           "anchor": "J10.20;E153",
@@ -1128,7 +1128,7 @@
     {
       "quote_id": "Q32",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 12:12–14, E155",
+      "locator": "Jerusalem 12:12\u201314, E155",
       "segments": [
         {
           "anchor": "J12.12;E155",
@@ -1207,7 +1207,7 @@
     {
       "quote_id": "Q35",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 98:38–40, E258",
+      "locator": "Jerusalem 98:38\u201340, E258",
       "segments": [
         {
           "anchor": "J98.38;E258",
@@ -1225,12 +1225,12 @@
           "text": "And seeing: according to fitness & order. And I heard Jehovah speak"
         }
       ],
-      "context": "Conclusion and compositional model: reciprocal seeing within the poem’s One Man."
+      "context": "Conclusion and compositional model: reciprocal seeing within the poem\u2019s One Man."
     },
     {
       "quote_id": "Q36",
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 98:51–56, E258",
+      "locator": "Jerusalem 98:51\u201356, E258",
       "segments": [
         {
           "anchor": "J98.51;E258",
@@ -1275,12 +1275,12 @@
           "text": "One Law for the Lion & Ox is Oppression"
         }
       ],
-      "context": "Terminal maxim after the Angel becomes a Devil and the narrator announces a Bible of Hell whether the world will accept it or not. Read with plates 22–24, not as a complete theory of public law.",
+      "context": "Terminal maxim after the Angel becomes a Devil and the narrator announces a Bible of Hell whether the world will accept it or not. Read with plates 22\u201324, not as a complete theory of public law.",
       "quote_id": "Q37"
     },
     {
       "asset_id": "jerusalem",
-      "locator": "Jerusalem 45:33–35, E194",
+      "locator": "Jerusalem 45:33\u201335, E194",
       "segments": [
         {
           "anchor": "J45.33;E194",
@@ -1298,12 +1298,12 @@
           "text": "Should I pity if I pity not the sinner who is gone astray!"
         }
       ],
-      "context": "Los searches Albion’s city; injuries are visible but those responsible escape his search. His lament at 45:29–38 restrains vengeance and asks how to prevent the Sons of Albion from taking it. The theological claim in lines 30–32 remains part of the context.",
+      "context": "Los searches Albion\u2019s city; injuries are visible but those responsible escape his search. His lament at 45:29\u201338 restrains vengeance and asks how to prevent the Sons of Albion from taking it. The theological claim in lines 30\u201332 remains part of the context.",
       "quote_id": "Q38"
     },
     {
       "asset_id": "america",
-      "locator": "America a Prophecy 6:10–12, E53",
+      "locator": "America a Prophecy 6:10\u201312, E53",
       "segments": [
         {
           "anchor": "Am6.10;E53",
@@ -1321,7 +1321,7 @@
           "text": "They look behind at every step & believe it is a dream."
         }
       ],
-      "context": "The voice announces dawn, captives’ release and familial return at 6:1–15. Albion’s Angel answers the voice as Orc at 7:1–7, and Orc identifies himself at 8:1. This visionary proclamation does not report historical abolition in the United States.",
+      "context": "The voice announces dawn, captives\u2019 release and familial return at 6:1\u201315. Albion\u2019s Angel answers the voice as Orc at 7:1\u20137, and Orc identifies himself at 8:1. This visionary proclamation does not report historical abolition in the United States.",
       "quote_id": "Q39"
     },
     {
@@ -1334,7 +1334,7 @@
           "text": "Opposition is true Friendship."
         }
       ],
-      "context": "The maxim ends the Memorable Fancy of plates 17–20. The narrator has driven the Angel into a competing vision; the Angel alleges imposition and the narrator replies that they impose on one another. The later Angel-to-Devil conversion occurs in a separate Fancy, plates 22–24. Do not conflate the two episodes or describe the first as already mutually consensual.",
+      "context": "The maxim ends the Memorable Fancy of plates 17\u201320. The narrator has driven the Angel into a competing vision; the Angel alleges imposition and the narrator replies that they impose on one another. The later Angel-to-Devil conversion occurs in a separate Fancy, plates 22\u201324. Do not conflate the two episodes or describe the first as already mutually consensual.",
       "quote_id": "Q40"
     }
   ],

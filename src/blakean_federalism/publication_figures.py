@@ -35,6 +35,7 @@ from .publication_body import (
     draw_watershed,
 )
 from .publication_evidence import evidence
+from .publication_profiles import AUTHORITY_PRODUCERS
 from .search_figure import draw_search_study
 from .search_study import SearchStudy
 from .workbench_models import Workbench
@@ -67,7 +68,7 @@ def generate_figures(
     }
     if artwork is not None:
         drawings.update(illuminated_drawings(report, artwork))
-        if report.producer_version in ("0.12.0", "0.13.0", "0.14.0", "0.15.0", "0.16.0", "0.17.0"):
+        if report.producer_version in AUTHORITY_PRODUCERS:
             drawings["federated-inference-authority"] = draw_federated_comparison
     stats = report.corpus_statistics
     if stats is not None and set(FOCUS) <= {q.query_id for q in stats.queries}:
