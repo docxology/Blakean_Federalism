@@ -1,0 +1,53 @@
+{
+  "default_python": "3.15",
+  "actual_python": "3.15.1",
+  "lock_unchanged": true,
+  "installed_packages": 33,
+  "locked_packages": 34,
+  "installed_identity": "coordination/federalism315-installed-identity.json",
+  "private_package_members": 105,
+  "public_sdk_members": 163,
+  "initial_full_suite": {
+    "tests": 818,
+    "warnings": 204,
+    "python": "3.15.1",
+    "evidence": "evidence/219-federalism315-full-suite"
+  },
+  "fixture_repair": {
+    "scope": "Test fixtures only; application/tools, model/data and native output unchanged.",
+    "initial_full_suite": {
+      "tests": 818,
+      "warnings": 204,
+      "python": "3.15.1",
+      "evidence": "evidence/219-federalism315-full-suite"
+    },
+    "red": {
+      "tests_failed": 1,
+      "observable": "unclosed database ResourceWarning from real captured fixture after gc.collect",
+      "evidence": "evidence/226-federalism-real-sqlite-lifetime-red"
+    },
+    "fix": "Both SQLite transaction contexts now use contextlib.closing and the original transaction manager; commit/rollback occurs before deterministic close.",
+    "green": {
+      "tests_passed": 31,
+      "warning_policy": "ResourceWarning and PytestUnraisableExceptionWarning are errors",
+      "evidence": "evidence/227-federalism-real-sqlite-lifetime-green"
+    },
+    "source_files": {
+      "tests/conftest.py": "9f9390fed31fa6cd2075517539398b82abea5ba1dbd3a10631d308533a33e403",
+      "tests/test_corpus.py": "59dece765b44a600e557fcaddb01c5ec38e51918018008649d8db8465fb431f7",
+      "tests/test_resource_lifetime.py": "f5e62dd0d9b8f7716d60b44f870143e34d6b4ac1d4e995429b9381b340a72199"
+    },
+    "independent_reapproval": false
+  },
+  "current_full_qualification": {
+    "status": "PASS",
+    "tests": 819,
+    "record": "research/visual-installed-20261102.json",
+    "actual_python": "3.15.1 (main, Oct 21 2026, 17:39:16) [Clang 23.1.3 ]",
+    "prefix": "/Volumes/GitVault/Local/environments/blakean-federalism-0.19.0-py315-20261102-01",
+    "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.15.1-macos-aarch64-none"
+  },
+  "evidence_root": "Local/blake-visual-revision-20261102T164814Z",
+  "native_producer": "Retained editorial native output used application Python 3.11.17 and the separate template Python 3.14 runtime; it is not relabelled as a Python 3.15 render.",
+  "resource_warning_policy": "ResourceWarning and PytestUnraisableExceptionWarning are errors; no unclosed database diagnostic remains."
+}

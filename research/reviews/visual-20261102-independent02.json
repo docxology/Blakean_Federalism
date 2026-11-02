@@ -1,0 +1,82 @@
+{
+  "overall": "REQUEST_CHANGES",
+  "source_software_review": "BLOCKED_BY_CHANGED_TEST_MODULE_SIZE",
+  "pdf_html_working_draft_review": "PASS_WITH_LIMITATIONS",
+  "independent": true,
+  "candidate_edits": false,
+  "inputs": {
+    "entomology": {
+      "epoch": "analysis_output/illustrated-template-native-20261102-02",
+      "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-02/output/pdf/blakean_entomology_combined.pdf",
+      "pdf_sha256": "c0a86f1249b741d19363d325d47a87bf0516de9a8152128ba962b238fd3cad74",
+      "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/entomology/analysis_output/illustrated-template-native-20261102-02/output/web/index.html",
+      "html_sha256": "90fb1170c301590f46a4dffae53133dd347aebcbae2859d41cce81b9a291910f",
+      "pages": 45,
+      "title": "Blakean Entomology",
+      "receipt_sha256": "9c85a9a8b803397e6b4e731e3ca4997f91b7465067a9d47e68314068cae9871c"
+    },
+    "federalism": {
+      "epoch": "analysis_output/publication/editorial-20261102-01",
+      "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
+      "pdf_sha256": "ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136",
+      "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/web/index.html",
+      "html_sha256": "8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae",
+      "pages": 79,
+      "title": "States Change",
+      "receipt_sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
+    }
+  },
+  "frozen_manifest_sha256": "3e662a5fe7d6e733d55315921d6750c642af4c482255ca4de0c374dc2aa2bfa6",
+  "frozen_members": 1551,
+  "final_input_mismatches": [],
+  "blocking_findings": [
+    {
+      "id": "SRC-01",
+      "severity": "medium",
+      "path": "work/entomology/tests/test_research_figures.py",
+      "lines": 299,
+      "pure_lines": 255,
+      "baseline_pure_lines": 226,
+      "rule": "programming SKILL.md hard ceiling >250 pure LOC is a defect, applicable to tests; no SIZE_OK exception present.",
+      "required_action": "Split the changed test module into focused test files, preserve test behavior and negatives, requalify the resulting source/test delta. No native rerender is implied by a test-only change.",
+      "evidence": [
+        "commands/035-test-module-shape/stdout.log",
+        "data-shape-review.json"
+      ]
+    }
+  ],
+  "controls": {
+    "wrong_quotation": "rejected visual_quotation_digest",
+    "corrupt_image": "rejected checksum_mismatch",
+    "wrong_pdf_title": "rejected pdf_title",
+    "dangling_anchor": "detected independently in both real browser documents",
+    "table_wheel": "0 to300 pixels, fixed caption, desktop/mobile"
+  },
+  "unqualified_scopes": [
+    "specialist scholarship",
+    "whole-corpus/whole-oeuvre reading",
+    "new contextual or taxonomic adjudications",
+    "item-level redistribution rights",
+    "assistive-technology and keyboard accessibility certification",
+    "offline MathJax",
+    "hosted CI",
+    "canonical integration",
+    "remote push",
+    "Downloads delivery",
+    "public release"
+  ],
+  "preserved_failed_review_attempt": "independent-final01 remains setup-only and unqualified",
+  "audit_failures_preserved": [
+    "commands/024-software-native-evidence: wrong tools path predicate caused ZeroDivisionError; full relevant inspection rerun in025",
+    "commands/031-wheel-interaction: scrollbar-unaware width equality failed; full desktop/mobile scenario corrected and rerun in033",
+    "commands/011-bindings-delta: wrong baseline root diagnostic; source/ comparison supersedes it in015"
+  ],
+  "normal_browser_closure": [
+    "browser/CLOSED.json",
+    "browser/WHEEL-CLOSED.json",
+    "browser/WHEEL02-CLOSED.json"
+  ],
+  "report": "REPORT.md",
+  "evidence_manifest": "EVIDENCE-MANIFEST.json",
+  "terminal": true
+}
