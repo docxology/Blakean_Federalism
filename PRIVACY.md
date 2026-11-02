@@ -14,9 +14,14 @@ No TimeLock unlock was performed. The earlier bounded absence report is supersed
 
 The explicitly selected working-paper PDF, [Blakean_Federalism.pdf](Blakean_Federalism.pdf),
 is tracked here as a PRIVATE research deliverable. Its exact reviewed SHA-256 is
-`c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`; the current native, analytical and selected-reading identities are recorded in
-the manuscript guide and current advancement receipt. Earlier editions, corpus
-pins, reading ceilings and failures remain retained separately.
+`ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136`
+for the current 79-page editorial edition, titled *States Change*.
+[Current verification](research/verification.json) and
+[native qualification](research/visual-revision-20261102.json) bind its software,
+analytical, selected-reading and output evidence separately. The earlier 74-page
+PDF `c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`
+keeps its [pressure-04 qualification](research/paper-advancement-20261029.json).
+Earlier editions, corpus pins, reading ceilings and failures remain retained.
 
 This narrow exception covers the reviewed paper with its attributed selected
 image witnesses and project-authored aggregate figures; it does not authorize

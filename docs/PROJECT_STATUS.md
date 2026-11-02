@@ -1,11 +1,11 @@
 # Project status and scoped next work
 
-Status date: 2 November 2026. Current candidate: 0.19.0.
+Status date: 2 November 2026. Current delivered working draft: 0.19.0.
 Source, software, native output, independent review and publication are distinct.
 The preceding accepted indexes remain in
 [the preserved status](../research/history/visual-revision-20261102/PROJECT_STATUS.md).
 
-## Current candidate
+## Current delivered working draft
 
 Federalism owns its political construction, stipulated institutional cases, safeguards, readings, visual explanations and paper.
 Public Blake **0.7.0** at immutable Git
@@ -33,6 +33,15 @@ on GitVault. Earlier REDs, software receipts, native attempts and
 delivered editions remain preserved. Current source completion does not
 establish specialist scholarship, item-level rights clearance, accessibility
 certification, hosted-CI or public-release acceptance.
+
+## Documentation reconciliation — 2 November
+
+The independent documentation review accounted for every file in `docs/` and
+the root operating guides. Current PDF identities, edition/contract signposts
+and historical qualification pointers are corrected; the earlier index bytes
+remain retained. [Documentation source record](../research/documentation-review-20261102.json)
+binds this correction separately from unchanged software, analytical and native
+producers. Existing scholarly, rights and accessibility limits remain open.
 
 ## Next bounded research tasks
 

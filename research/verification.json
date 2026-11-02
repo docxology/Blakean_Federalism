@@ -1,11 +1,11 @@
 {
-  "schema_version": 26,
+  "schema_version": 27,
   "version": "0.19.0",
-  "qualification_epoch": "visual-revision-20261102",
-  "qualification": "research/visual-revision-20261102.json",
-  "sha256": "7b92fda7821c6c8864a9827526085968e99076e1b1084e49c30882b6f67194b4",
+  "qualification_epoch": "documentation-review-20261102",
+  "qualification": "research/documentation-review-20261102.json",
+  "sha256": "d30815419d8d2abefeb51848ad7d79afd74747de565c262ab801dfce7c87ae74",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
-  "current_source_sha256": "c2890f77e4e635bd98be20fd97ac6a319bedd0fef461ab445347f77b06fc426a",
+  "current_source_sha256": "3c50ca625e7526e3aca388d105afa44394488e5a75c4a4de572f6f8965ef0725",
   "current_native": {
     "epoch": "analysis_output/publication/editorial-20261102-01",
     "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
@@ -56,7 +56,12 @@
     "canonical_normal_install": true,
     "application_and_tool_programs_unchanged": true
   },
-  "preserved_previous_index": "research/history/visual-revision-20261102/verification.json",
+  "preserved_previous_index": "research/history/documentation-review-20261102/verification.json",
   "scope": "Source, software, native output, independent acceptance and publication are separate claims.",
-  "canonical_qualification": "research/visual-installed-20261102.json"
+  "canonical_qualification": "research/visual-installed-20261102.json",
+  "documentation_reconciliation": {
+    "receipt": "research/documentation-review-20261102.json",
+    "sha256": "d30815419d8d2abefeb51848ad7d79afd74747de565c262ab801dfce7c87ae74",
+    "scope": "Documentation only; retained software and native identities are unchanged and not rerun."
+  }
 }
