@@ -6,6 +6,9 @@ history. The application owns institutional models, vocabulary, judgments and
 this manuscript; [shared methods](shared-methods.md) identifies the exact public
 Blake dependency. Federalism and Entomology are independent applications.
 
+[Documentation reconciliation](../research/documentation-review-20261102.json)
+records the complete current documentation scope and its retained limitations.
+
 ## Operating and research guides
 
 | Document | Use |
@@ -30,9 +33,12 @@ Blake dependency. Federalism and Entomology are independent applications.
 ## Manuscript inputs and retained native output
 
 Use the [manuscript workflow](manuscript/README.md) for the pinned template,
-admission and native-output evidence. The retained working paper is 0.17.0;
-current software 0.19.0, its timing manuscript and later documentation have their own qualifications. The new native candidate is indexed in project status; it does not inherit the retained paper's output acceptance. The
-source/stage mapping, rather than repository Markdown alone, resolves native
+admission and native-output evidence. The current 0.19.0 editorial edition
+of *States Change* has 79 pages and bounded independent PDF/HTML acceptance;
+[project status](PROJECT_STATUS.md) identifies its exact bytes and delivery.
+The earlier 0.17.0 paper and 78-page timing edition retain their own
+qualifications. The source/stage mapping, rather than repository Markdown
+alone, resolves native
 figure paths. Generated `../figures/` targets are installed in the prepared
 manuscript stage; they are not missing public source attachments.
 

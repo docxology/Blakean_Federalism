@@ -2,7 +2,10 @@
 
 Search the independently imported, hash-pinned SQLite projection with arbitrary literal words or phrases. This complements the twenty saved analytical groups; it does not replace their original producer receipts.
 
-The commands below consume the existing qualified import. Output names are examples: choose unused paths under `analysis_output/` for a new run. After creating another projection, pass its exact path explicitly with `--corpus`; see [the import workflow](../README.md#run-locally).
+The commands below consume the existing qualified import. Output names are examples: choose unused paths under `analysis_output/` for a new run. After creating another projection, pass its exact path explicitly with `--corpus`; see [environment and custody setup](../README.md#run-locally). The
+`import-corpus` command requires explicit source and destination. Pass `--pin`
+explicitly when selecting another trusted pin, and choose a new destination
+rather than replacing the qualified projection.
 
 ~~~bash
 uv run blakean search-corpus --term "minute particulars" --output analysis_output/phrase.json

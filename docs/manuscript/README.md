@@ -8,7 +8,7 @@ recorded analytical and native producers.
 
 ## Current editorial edition — 2 November
 
-The current native candidate is
+The current accepted working-draft edition is
 `analysis_output/publication/editorial-20261102-01`, with 79 PDF pages and
 a freshly rendered HTML article. The abstract is shorter and argument-led;
 key analytical captions now name their interpretive question. The program and
@@ -201,7 +201,23 @@ uv run ruff check src tests tools
 uv run ruff format --check src tests tools
 ~~~
 
-Application coverage must remain at least 90 percent and infrastructure at least 60 percent; read both totals from the per-file report, since one combined floor cannot express two separate targets. The top-level README command enforces the application floor with its `--cov-fail-under` value. Inspect every final PDF page and the live HTML separately; text extraction alone cannot establish layout quality. Bind the QA record to the actual output hashes. The repository and release remain private; no public Zenodo deposit or blanket corpus-image redistribution is authorized.
+Application coverage must remain at least 90 percent and infrastructure at least 60 percent; read both totals from the per-file report, since one combined floor cannot express two separate targets. The root README test command does not enforce those two floors automatically. Use the separate coverage reports below against the exact branch-coverage database; retain both complete denominators. Inspect every final PDF page and the live HTML separately; text extraction alone cannot establish layout quality. Bind the QA record to the actual output hashes. The repository and release remain private; no public Zenodo deposit or blanket corpus-image redistribution is authorized.
+
+Select the qualified external application environment and bind
+`BRANCH_COVERAGE_FILE` to a preserved database from the exact source gate.
+Use an independent copy for reporting when retaining an immutable epoch:
+
+~~~bash
+uv run --no-sync coverage report --data-file "$BRANCH_COVERAGE_FILE" \
+  --include 'src/blakean_federalism/*,*/blakean_federalism/*' --fail-under 90
+uv run --no-sync coverage report --data-file "$BRANCH_COVERAGE_FILE" \
+  --include 'tools/*,*/tools/*' --fail-under 60
+~~~
+
+[The canonical qualification](../../research/visual-installed-20261102.json)
+records the actual counters and source/runtime identity. A missing or unrelated
+database cannot qualify this source. These reporting commands do not render a
+paper or replace its independent page/browser checks.
 
 The CLI render-manuscript command is the publication entry point. tools/render_manuscript.py retains the original bootstrap controls; the pinned native template defines the current publication profile.
 

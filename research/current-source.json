@@ -1,10 +1,10 @@
 {
-  "schema_version": 26,
+  "schema_version": 27,
   "current_version": "0.19.0",
-  "qualification_epoch": "visual-revision-20261102",
-  "scope": "Exact current source; normal installed software, native output, bounded independent output acceptance and Git publication retain their separate receipts.",
-  "receipt": "research/visual-revision-20261102.json",
-  "receipt_sha256": "7b92fda7821c6c8864a9827526085968e99076e1b1084e49c30882b6f67194b4",
+  "qualification_epoch": "documentation-review-20261102",
+  "scope": "Documentation/source reconciliation only; no implementation, corpus, authored article, native output or installed runtime replacement.",
+  "receipt": "research/documentation-review-20261102.json",
+  "receipt_sha256": "d30815419d8d2abefeb51848ad7d79afd74747de565c262ab801dfce7c87ae74",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
   "current_source_bindings": {
     ".gitattributes": "1fdb00214f8ddc55d0f66cabfcfdf8405317d1d1f0853facbd4d945caea9d10c",
@@ -17,18 +17,18 @@
     "CITATION.cff": "305a38db62e4ed1ef6687bbb12b38bf49a732952a11cab52a031b85d068801aa",
     "DESIGN.md": "c2bd6c323dda2d707a5f1e3f1a3d2574ca7e78ccd8930f0bc47d6a69db0c96c3",
     "LICENSE": "1916a70ffcd8e52013e13fb7613f0da20a88f560e5d4d03650911b1ee0ba704c",
-    "PRIVACY.md": "04881e87fa10b3554ec4a56b175204453728b0d22f02cefa04e22ed29783d5b0",
+    "PRIVACY.md": "f02c0fde8021efa45de10adbf8042ae2c2008f0b32a79823cad0d169206ee9b2",
     "README.md": "aed9b7df6a2aeaeb8489556d5fb336a9eb7e2cc0093b1ba03543b378a9f67d10",
-    "docs/PROJECT_STATUS.md": "838559b7c237fa00645bea7671fda40438b1fc791185616f002111d0e1caa8f9",
-    "docs/README.md": "1179b4a3ea4bc4dcd839417f555dc2e634fb86feeb950bd2e1fe6f60ee1a6b43",
+    "docs/PROJECT_STATUS.md": "97b58367dee55dc52547bff7213cc660a06d966077b05cbf12e208b2cb0963ca",
+    "docs/README.md": "a1d2cf6607f23845a3d90ede15c521079da254639f93a894a8243bf850c24d4b",
     "docs/RESEARCH_STATUS.md": "ed75f223112c09899a769e5bb4ccb2d2027a7fd73a27183e61187b8a109dd671",
     "docs/annotated-bibliography.md": "b752ca9676f50a8c2c6f6b4ad5154bd6934c7bf249dcc3c17d069ed04e9624ee",
     "docs/conceptual-lexicon.md": "e2a73214264100d2cd2108ea2ab0b20df3a8a15bc860c3f66080ddf0b0617e76",
     "docs/corpus-observations.md": "e0e33c56f52f31760f0d914117670756ca12d267eaf1f5ae5aff0b81563669d5",
-    "docs/corpus-search.md": "85895a51bfb7a2489e45d88003c889ed9586898b9e877f1c8ef5ef01a8d742cf",
+    "docs/corpus-search.md": "1838c3b4d87231142faeac8829045d843ef24ca8d4ce3d26b34a8fe2bc3c4202",
     "docs/history/DESIGN-0.3.0.md": "68d2cf041225ac7e72a1821c3b00b3c1de41d143e87d0a4dd02086ad6ef8e54f",
     "docs/institutional-design.md": "c1116e51a9e2dbe3c9b1891a3c602e71af4a48bd45db061120173cc55a9f8a60",
-    "docs/manuscript/README.md": "706e02b7fc9f551335a181a2e9ea15372850fa24ab0dc94b943e93918128049f",
+    "docs/manuscript/README.md": "f7fdfa691eadd75ec90da60656f75194f29f78f5d372370a3f7c1687e9ec7947",
     "docs/manuscript/config.yaml": "fafc5fbc13d992616c04dd782a56b56b6fda6d439694b6058531286f4b7e8792",
     "docs/manuscript/institutional-review-insertion.md": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
     "docs/manuscript/institutional-review-supplement.md": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
@@ -420,14 +420,19 @@
     "tools/audit_review_timing.py": "c3444f22e0226df33ec3c22c099865a5427b3b9d82f905c1dc88e3a7f7610033",
     "tools/render_manuscript.py": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
     "tools/template_render.py": "f52aaa687fbe7046da13fad6970d004a10a29ea7497a271bea9c62bea964f8d7",
-    "uv.lock": "f4e728019c99363adb0699bbdf06cebfd5e4671bd7b12024630c14eb735c7e09"
+    "uv.lock": "f4e728019c99363adb0699bbdf06cebfd5e4671bd7b12024630c14eb735c7e09",
+    "research/history/documentation-review-20261102/current-source.json": "f69f817d8bc4da0eef93e2a29376a061d93c000f3747024f0251ff5089aaa65c",
+    "research/history/documentation-review-20261102/verification.json": "5a9588d0948009ed0199f2cad0f53b28ffb008372141e92c5ebea6a497240925"
   },
   "source_map_algorithm": "SHA256 of UTF-8 json.dumps(bindings,sort_keys=True,separators=(',',':'))",
-  "current_source_sha256": "c2890f77e4e635bd98be20fd97ac6a319bedd0fef461ab445347f77b06fc426a",
+  "current_source_sha256": "3c50ca625e7526e3aca388d105afa44394488e5a75c4a4de572f6f8965ef0725",
   "source_map_excludes": [
     "research/current-source.json",
     "research/verification.json",
-    "research/visual-revision-20261102.json"
+    "research/visual-revision-20261102.json",
+    "research/documentation-review-20261102.json"
   ],
-  "canonical_qualification": "research/visual-installed-20261102.json"
+  "canonical_qualification": "research/visual-installed-20261102.json",
+  "preserved_previous_index": "research/history/documentation-review-20261102/current-source.json",
+  "retained_native_qualification": "research/visual-revision-20261102.json"
 }

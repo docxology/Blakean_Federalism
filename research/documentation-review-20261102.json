@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "epoch": "documentation-review-20261102",
+  "scope": "Documentation/source reconciliation only; no implementation, corpus, authored article, native output or installed runtime replacement.",
+  "reviewed_base": "996a9eb7b1936edccbc1de690c7a63356c3e17b9",
+  "original_docs_files": 51,
+  "original_review": {
+    "report": "Local/blake-docs-delivery-20261102T213043Z/review/federalism/REPORT.md",
+    "sha256": "d0053e45ff943dde190ec898771d0490899ac778fa4a91a7e20838721ae38957",
+    "status": "REQUEST_CHANGES",
+    "findings": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "limits": "Original frozen findings and reviewer procedure exceptions remain retained; no software/scientific acceptance inferred."
+  },
+  "owner_corrections": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "evidence_root": "Local/blake-docs-delivery-20261102T213043Z",
+  "qualification_layers": "Owner documentation controls and subsequent bounded review are separate from retained software, native, scientific, accessibility, rights and publication evidence.",
+  "publication": "Ordinary main integration events are recorded separately after completion; this source record alone supplies no publication fact.",
+  "current_docs_files": 51,
+  "current_source_sha256": "3c50ca625e7526e3aca388d105afa44394488e5a75c4a4de572f6f8965ef0725",
+  "source_map_excludes": [
+    "research/current-source.json",
+    "research/verification.json",
+    "research/visual-revision-20261102.json",
+    "research/documentation-review-20261102.json"
+  ],
+  "retained_software_qualification": "research/visual-installed-20261102.json",
+  "retained_native_qualification": "research/visual-revision-20261102.json",
+  "current_native": {
+    "epoch": "analysis_output/publication/editorial-20261102-01",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/web/index.html",
+    "html_sha256": "8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae",
+    "pages": 79,
+    "title": "States Change",
+    "receipt_sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
+  },
+  "previous_indexes": "research/history/documentation-review-20261102/",
+  "unchanged_scopes": [
+    "All Python implementation/tests/tools",
+    "Dependency and corpus pins",
+    "Authored article/configuration/figures",
+    "Native PDF/HTML",
+    "Original installed and independent-output receipts"
+  ],
+  "scope_limit": "Complete file/link/operating-contract reconciliation; no new scholarly adjudication of cited sources or historical dossier claims.",
+  "minor_followup": {
+    "finding": "F-DELTA-01",
+    "frozen_review_verdict": "REQUEST_CHANGES",
+    "review": "Local/blake-docs-delivery-20261102T213043Z/review/final-docs/VERDICT.json",
+    "correction": "Source and destination are required; --pin is optional with DEFAULT_PIN. Selecting another trusted pin should be explicit.",
+    "qualification": "Owner verified actual installed CLI option metadata, help and real missing-source refusal; no fresh independent approval of corrected bytes."
+  }
+}
