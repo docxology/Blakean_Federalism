@@ -1,0 +1,15 @@
+{
+  "deposition_id": 23900617,
+  "doi": "10.5281/zenodo.23900617",
+  "record_id": 23900617,
+  "title": "States Change: Blakean Federalism and composition without capture",
+  "state": "unsubmitted",
+  "submitted": false,
+  "file_count": 0,
+  "action": "created_unpublished_empty_reservation",
+  "approval_required_before_publication": true,
+  "api_receipt_sha256": "e217ed9c5a4d3eea4d575aad69fa973d102039803c8b47028e67491199fee12b",
+  "future_release": "v1.0.0 only after Daniel's explicit final approval",
+  "permission_scope": "Reservation only. No upload, public metadata release, license selection, repository visibility change, tag, or release.",
+  "prior_api_attempts": "Initial oversized-list 400 and unsubmitted-state refusal preserved; original Entomology reservation reused without duplication."
+}

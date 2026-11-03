@@ -1,9 +1,8 @@
 cff-version: 1.2.0
-message: "Cite the exact private software version used; this research draft is not peer reviewed."
+message: "Unpublished v1.0.0 review candidate. The paper DOI is reserved; public release awaits final author approval."
 type: software
 title: Blakean Federalism
-version: 0.19.0
-date-released: 2026-11-01
+version: 1.0.0
 authors:
   - family-names: Friedman
     given-names: Daniel Ari

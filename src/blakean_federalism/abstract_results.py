@@ -29,30 +29,27 @@ def repair_page(c: Canvas, source: AbstractSources) -> None:
         f"{len(rows)} conflict{' needs' if len(rows) == 1 else 's need'} different repairs",
         "Hypothetical decisions: name the changes, then count combinations passing the safeguards.",
     )
-    cell(
-        c,
-        (
-            f"{len(catalog)} possible field changes; "
-            f"{combinations:,} combinations per alternative. "
-            f"Passing means satisfying all {checks} safeguards."
-        ),
-        20,
-        432,
-        500,
-        28,
-        size=9.6,
+    stages = (
+        ("1 SELECT", f"{len(catalog)} possible field changes"),
+        ("2 APPLY", "Fixed persons, acts and affected groups"),
+        ("3 ASSESS", f"All {checks} safeguards; one fixed rule set"),
+        ("4 RECORD", "Passing selections + resulting case records"),
     )
+    for index, (title, detail) in enumerate(stages):
+        left = 20 + 130 * index
+        c.setStrokeColor(HexColor(GREY))
+        c.setFillColor(HexColor(WHITE))
+        c.rect(left, 383, 110, 56, fill=1, stroke=1)
+        cell(c, title, left + 5, 432, 100, 12, size=8.6, color=RED)
+        cell(c, detail, left + 5, 414, 100, 30, size=8.5)
     cell(
         c,
-        (
-            "Persons, actions, affected populations and material context stay fixed while "
-            "the declared fields change."
-        ),
+        f"{combinations:,} combinations per alternative; not empirical probabilities.",
         20,
-        400,
+        379,
         500,
-        23,
-        size=9.2,
+        11,
+        size=8.6,
     )
     for x, width, value in (
         (20, 133, "FAILING DECISION"),
@@ -60,7 +57,7 @@ def repair_page(c: Canvas, source: AbstractSources) -> None:
         (400, 28, "MIN"),
         (435, 85, f"PASSING / {combinations:,}"),
     ):
-        cell(c, value, x, 369, width, 27, size=8.7, color=RED)
+        cell(c, value, x, 364, width, 27, size=8.7, color=RED)
     labels = {spec.intervention: spec.label for spec in catalog}
     for index, row in enumerate(rows):
         top = 335 - index * 42

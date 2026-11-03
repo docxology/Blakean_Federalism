@@ -5,6 +5,7 @@ from reportlab.pdfgen.canvas import Canvas
 
 from .abstract_explanation import display_frequency
 from .abstract_layout import AbstractSources, cell, footer, heading
+from .abstract_sensitivity_inset import source_sensitivity
 from .figure_style import GREY, MUTED, RED, line
 
 
@@ -114,41 +115,7 @@ def corpus_page(c: Canvas, source: AbstractSources) -> None:
         )
         cell(c, leading, 430, top, 90, 24, size=8.8)
         line(c, 20, top - 25, 520, top - 25, GREY, 0.4)
-    particulars, imagination = lookup["particulars"], lookup["imagination"]
-    concentration = (
-        (
-            f"{particulars.top_family_occurrences} of {particulars.occurrences} matches "
-            "in the leading family"
-        )
-        if particulars.top_family_share is not None
-        else "no matching words in this group"
-    )
-    cell(
-        c,
-        (
-            f"{', '.join(variants['particulars'])}: {concentration}; equal weighting gives "
-            f"{display_frequency(particulars.equal_family_rate)}, versus "
-            f"{display_frequency(particulars.pooled_rate)} with all words together."
-        ),
-        20,
-        96,
-        500,
-        25,
-        size=9.1,
-    )
-    cell(
-        c,
-        (
-            f"Imagination: {display_frequency(imagination.pooled_rate)} becomes "
-            f"{display_frequency(imagination.equal_family_rate)} when every source family has "
-            "equal weight. Shorter texts can have higher word frequencies; see the caption."
-        ),
-        20,
-        67,
-        500,
-        25,
-        size=9.1,
-    )
+    source_sensitivity(c, source)
     footer(
         c,
         (

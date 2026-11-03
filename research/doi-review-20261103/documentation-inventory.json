@@ -1,0 +1,208 @@
+{
+  "project": "federalism",
+  "docs_files": 52,
+  "files": {
+    "docs/PROJECT_STATUS.md": "b629d29f3afefe849e586f94a29b43ae4ab5a7397ecdeeee0314599b2b0c46d6",
+    "docs/README.md": "872fb4110f610d520fb117eaf1c511e846310b41a87bb321f8b598587cad4450",
+    "docs/RESEARCH_STATUS.md": "ed75f223112c09899a769e5bb4ccb2d2027a7fd73a27183e61187b8a109dd671",
+    "docs/annotated-bibliography.md": "b752ca9676f50a8c2c6f6b4ad5154bd6934c7bf249dcc3c17d069ed04e9624ee",
+    "docs/conceptual-lexicon.md": "e2a73214264100d2cd2108ea2ab0b20df3a8a15bc860c3f66080ddf0b0617e76",
+    "docs/corpus-observations.md": "e0e33c56f52f31760f0d914117670756ca12d267eaf1f5ae5aff0b81563669d5",
+    "docs/corpus-search.md": "1838c3b4d87231142faeac8829045d843ef24ca8d4ce3d26b34a8fe2bc3c4202",
+    "docs/history/DESIGN-0.3.0.md": "68d2cf041225ac7e72a1821c3b00b3c1de41d143e87d0a4dd02086ad6ef8e54f",
+    "docs/institutional-design.md": "c1116e51a9e2dbe3c9b1891a3c602e71af4a48bd45db061120173cc55a9f8a60",
+    "docs/manuscript/README.md": "24caddb6d48e78ea97aed523b651e255c081d2b93d852da7f0f073b6ba81f6b3",
+    "docs/manuscript/config.yaml": "e4540a0aaa19d8b796e775a08dcc4efa142fd471fed0723005333a3b23f2609e",
+    "docs/manuscript/institutional-review-insertion.md": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
+    "docs/manuscript/institutional-review-supplement.md": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
+    "docs/manuscript/notation.md": "9649ec44e2f48e77bf7c98f7b9d9c20480c38463c33682e994e1809dbfdd787d",
+    "docs/manuscript/preamble.md": "d9310fd30e8d058ad0b09cd0f06fa91e78a1ec3275222d17cb117ed56f891bc2",
+    "docs/manuscript/references-and-rights.md": "741da1cb59a16e9ae4895191aef33f2e68763d46cf6b184cb85a35aef3f6b1ad",
+    "docs/manuscript/references.bib": "909c6f2f84351b0bcee011950f0db3b3486d0c5252dc4c3d73cb1420caf025d0",
+    "docs/manuscript/states-change.md": "46bec5311b990e0f71e10c6fd9f0abb0517c3b80bee6902387cb994d8341d1ac",
+    "docs/portfolio-crosswalk.md": "ad0417dd8532bc2f444c604956cc6b2defe16be7b39cf029e7eb690b247dc94c",
+    "docs/primary-passages.md": "6870a96dc28987a5f4ca47fda60ffd05c329bc46ec2bc9fa4e08489127e15b1d",
+    "docs/publication-plan.md": "fd4f23d97708f8f1e1110693956c94d56f6478d14bcbd70c48c02c35e25ad5c2",
+    "docs/research/README.md": "b6b07cb97ff4a79ebc6ef981fcd9b137047a03b25ab5ba15b812550d9243e2f0",
+    "docs/research/abstract-analysis-0.14.0.md": "3a2be4f0fe00c36f078a0332b0de88f54ba0502a2c9c080b28c138c2c7051063",
+    "docs/research/close-reading-layout-0.13.0.md": "49917f19a7ae7e64c0da269d958062836202ce9808c69bdf2340aac079610da4",
+    "docs/research/copy-observations-0.2.0.md": "945d65f9bdf08a292ff21dcb3d52715ac99ba306a56d46eca02b1f16ac362ba9",
+    "docs/research/corpus-search-scholarship-0.8.0.md": "fa2232aee2852294b700533487f0ec067ed9a7ce9171b2f0e1f020bf04c4245e",
+    "docs/research/corpus-statistics-0.6.0.md": "70ae090a7efc71f686ce0a13bc898b799ee20ff1e8e05f15c49c64c39e194cc5",
+    "docs/research/federated-belief-sharing-0.12.0.md": "4adae41869c80208728d402b5ce845ece40bb645119efab003900c66c9b1ca5c",
+    "docs/research/illuminated-reading-0.11.0.md": "dd741f30e52f22ebefbc5cac29af91cda330a0f1ba1478dfc67114489ee230ef",
+    "docs/research/institutional-experiments-0.6.0.md": "5baa4519fd03a4b6a3cb07518873e409e8d956a3128ec5ee6da3954e802b9bb1",
+    "docs/research/institutional-review.md": "820ee059bc8daf386240b24c89ed7e9bd275c70551a46072cd3077df2f1fccf4",
+    "docs/research/notation-close-reading-0.9.0.md": "a400458dab91e274bed1c79d4515b4e05f596b7282107b2988a65b8a369e4f17",
+    "docs/research/opening-clarity-0.15.0.md": "2f8e4a765ea4929c5727e6277e886a3021d90bcdaf7750c8a36b7c1e0a4c37e1",
+    "docs/research/opening-scholarship-0.10.0.md": "0c2a23a55ecac97d4610c46330505358f5c8bc03fa4187b8954cc1659e19ba48",
+    "docs/research/primary-source-research.md": "69a9d6ebb1fc171822e61dba935729ec21a602001300a08dfb7aac9ba4d79549",
+    "docs/research/procedural-comparison.md": "8b667a939ee18b89a7fd4def9d03f0f37d75e92ad712d426182298b9d92bb6e5",
+    "docs/research/review-planning.md": "ac358eca08b903c96ef3c59886b1a7ebc5668b181850caa6ac807de0755f9d9b",
+    "docs/research/review-pressure-20261029.md": "ae02e0e5c19f03735b4d40e3a1e9f61b1a1e4fbb1c8cf63f1bf26a4b6cd9703e",
+    "docs/research/review-timing-atlas.md": "54acb1aedb8fc5dcb4e31a262a7123557a0befc4dcbb0b6621abd9edab4d0966",
+    "docs/research/scholarship-density-0.7.0.md": "9ae61c9963f072cad95210df2e69df08a64814fa9474c7dce91e04cd147eb239",
+    "docs/research/scholarship-expansion-0.2.0.md": "da5aed4862adddee234e0e50812db59e24d82281495282c05d8c4cd36be5c7e1",
+    "docs/research/scholarship-expansion-0.4.0.md": "4bdcf7b9846798f4da2dad99f486f02e4a10ca101f61cb1b67d0beca2098402d",
+    "docs/research/scholarship-expansion-0.5.0.md": "32c3d4c982a6fffb26b950e98472da4f5dd035bcff933887bcaaa72bcca5a061",
+    "docs/research/scholarship-expansion-0.6.0.md": "8166b8ec193d23ec984b661cef084e294fef26c7ae4f5324e5aceab575eecd6a",
+    "docs/research/scholarship-objections-0.3.0.md": "d9ccc1087dfed1eeedca96153fdacfccbd9002791dbb1269c08100c821533ee6",
+    "docs/research/scholarship-revision-0.4.1.md": "5e5a6a581b747dcf2535394215fca537b8166adc7da08859c1b6088e2880b6e6",
+    "docs/research/urizen-context-0.7.0.md": "52e9a00d6b5fccb47fd42514f4f757f20ccde2f7168e58d6cf3689385786ed2b",
+    "docs/research-program.md": "29555bd29cdf4c3c59c8ceaf16b7df459d7e0d6aeff0fed93dba9ca997f5d115",
+    "docs/research-workbench.md": "45c936ae359d45c87bb08503fdd715eaed1958208d65ae398342aa7a6371b060",
+    "docs/scope-integration.md": "d47b531ff7ac7ad9a241766455a42952d86b0287165ffa4135e797ff3af31b8a",
+    "docs/shared-methods.md": "58aebbb15ed7e46a43c89fcd695707b028b67554735eefefd7b09f76d0f4b99e",
+    "docs/style-guide.md": "caf06e6a8d08754587be393d1e10e6911b142e9da4abb9538471ea5ec6bb37aa",
+    "AGENTS.md": "fd336b9a6630475cde0a33dad01f40e1d4bab2868ba2d0585ee6e703a6df9da7",
+    "README.md": "bc0d9504234d3e47cd2b8e935d25ede09035b7db82ce4af210b8f524aa05a4e2",
+    "CHANGELOG.md": "5d370635c2cc068e20d1a9cebd0b530968c4e04c0f9ffeabd970a3bef4747740",
+    "CITATION.cff": "5600da63e4a9f3948ea1a37763588588ad7a3b88121e7e5c93b90521e8a43550"
+  },
+  "links_examined": 346,
+  "broken": [],
+  "prepared_stage_image_targets": [
+    {
+      "source": "docs/manuscript/institutional-review-supplement.md",
+      "target": "../figures/institutional-review.png"
+    },
+    {
+      "source": "docs/manuscript/institutional-review-supplement.md",
+      "target": "../figures/review-continuity.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J1.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/typed-relations.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-M32.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J52.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J73.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J12.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J54.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J27.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J99.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J61.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J100.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J98.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/institutional-review.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-continuity.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-requirements.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-comparability.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-pressure.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-timing-readiness.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/review-timing-protection.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J55.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J59.jpg"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/watershed-options.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/case-traces.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/counterfactual-repairs.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/agreement-routes.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/federated-inference-authority.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/source-census.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/copy-balanced-rates.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/source-sensitivity.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/term-associations.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/literal-search-strata.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/literal-proximity-windows.png"
+    },
+    {
+      "source": "docs/manuscript/states-change.md",
+      "target": "../figures/plate-J91.jpg"
+    }
+  ],
+  "negative_control": "A deliberately absent local target is rejected",
+  "scope": "Current docs inventory/local file targets and separate native figure resolution; not semantic certification of scholarly claims or historical external availability"
+}

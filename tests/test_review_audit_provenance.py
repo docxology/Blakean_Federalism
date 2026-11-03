@@ -4,6 +4,7 @@
 import json
 import subprocess
 import sys
+from importlib.metadata import version
 from pathlib import Path
 
 import pytest
@@ -72,7 +73,8 @@ def test_real_audit_preserves_old_report_and_receipt_bytes(audited):
     assert {name: digest(output / name) for name in ARCHIVAL_HASHES} == ARCHIVAL_HASHES
     receipt = verify(audited)
     assert receipt.producer_state == "artifacts_complete"
-    assert receipt.producer_version == "0.19.0"
+    # The unchanged archival bytes above have a new, current producer sidecar.
+    assert receipt.producer_version == version("blakean-federalism")
     assert "blake/methods/intervals.py" in receipt.producers
     assert "caller/audit_institutional_review.py" in receipt.producers
     assert {p.path for p in receipt.outputs} == set(ARCHIVAL_HASHES)
@@ -113,7 +115,7 @@ def test_verifier_refuses_changed_actual_inputs_and_caller(audited, source):
 
 
 @pytest.mark.parametrize(
-    "change", ["report", "missing-output", "duplicate", "subset", "producer", "extra"]
+    "change", ["report", "missing-output", "duplicate", "subset", "producer", "version", "extra"]
 )
 def test_verifier_refuses_corrupt_or_incomplete_output_closure(audited, change):
     output, _ = audited
@@ -130,6 +132,8 @@ def test_verifier_refuses_corrupt_or_incomplete_output_closure(audited, change):
             data["outputs"] = data["outputs"][:1]
         case "producer":
             data["producers"].pop(next(iter(data["producers"])))
+        case "version":
+            data["producer_version"] = "unbound-version"
         case "extra":
             (output / "unbound.txt").write_bytes(b"retained but unbound")
     path.write_text(json.dumps(data))

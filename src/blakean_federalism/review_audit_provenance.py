@@ -126,6 +126,8 @@ def verify_review_producer_receipt(
     receipt = ReviewProducerReceipt.model_validate_json(
         safe_path(output, SIDECAR_NAME).read_bytes()
     )
+    if receipt.producer_version != __version__:
+        raise ResearchError("review_producer_changed", "Reported producer version differs")
     _check_inputs(
         cases, decisions, (receipt.review_cases_sha256, receipt.baseline_decisions_sha256)
     )

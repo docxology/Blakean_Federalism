@@ -1,0 +1,67 @@
+{
+  "schema_version": 27,
+  "version": "0.19.0",
+  "qualification_epoch": "documentation-review-20261102",
+  "qualification": "research/documentation-review-20261102.json",
+  "sha256": "d30815419d8d2abefeb51848ad7d79afd74747de565c262ab801dfce7c87ae74",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "current_source_sha256": "3c50ca625e7526e3aca388d105afa44394488e5a75c4a4de572f6f8965ef0725",
+  "current_native": {
+    "epoch": "analysis_output/publication/editorial-20261102-01",
+    "pdf": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136",
+    "html": "/Volumes/GitVault/Local/blake-visual-revision-20261102T164814Z/work/federalism/analysis_output/publication/editorial-20261102-01/output/web/index.html",
+    "html_sha256": "8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae",
+    "pages": 79,
+    "title": "States Change",
+    "receipt_sha256": "aa7bdb99dd082f084b5be60f82a48c65ccd0c3d10c8ee8a89170d34d0f6f2852"
+  },
+  "independent_acceptance": {
+    "output": "PASS_WITH_LIMITATIONS",
+    "path": "research/reviews/visual-20261102-independent02.json",
+    "source_finding_scope": "Original SRC-01 concerns only the sibling Entomology test module; no manuscript fix prescribed.",
+    "software_reapproval": false
+  },
+  "delivery": {
+    "downloads": "COPIED_AND_BYTE_VERIFIED",
+    "receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/downloads-delivery01.json",
+    "git_publication_receipt": "Local/blake-visual-revision-20261102T164814Z/coordination/federalism-publication-final.json",
+    "target_branch": "main",
+    "required_visibility": "PRIVATE",
+    "route": "Protected-main pull request; actual Git events retain a separate receipt."
+  },
+  "software_qualification": {
+    "tests": 819,
+    "coverage": {
+      "application": {
+        "numerator": 4842,
+        "denominator": 5257,
+        "percent": 92.10576374357998,
+        "floor": 90,
+        "files": 91
+      },
+      "tools": {
+        "numerator": 361,
+        "denominator": 523,
+        "percent": 69.02485659655832,
+        "floor": 60,
+        "files": 6
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "lint": "PASS",
+    "format": "PASS",
+    "dependencies": "PASS",
+    "scope": "Fresh canonical installed software and fixture qualification. Exact native output retains its original producer and independent working-draft verdict.",
+    "canonical_normal_install": true,
+    "application_and_tool_programs_unchanged": true
+  },
+  "preserved_previous_index": "research/history/documentation-review-20261102/verification.json",
+  "scope": "Source, software, native output, independent acceptance and publication are separate claims.",
+  "canonical_qualification": "research/visual-installed-20261102.json",
+  "documentation_reconciliation": {
+    "receipt": "research/documentation-review-20261102.json",
+    "sha256": "d30815419d8d2abefeb51848ad7d79afd74747de565c262ab801dfce7c87ae74",
+    "scope": "Documentation only; retained software and native identities are unchanged and not rerun."
+  }
+}

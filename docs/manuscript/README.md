@@ -6,22 +6,30 @@ before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
-## Current editorial edition — 2 November
+## Unpublished 1.0.0 review edition — 2 November
 
-The current accepted working-draft edition is
-`analysis_output/publication/editorial-20261102-01`, with 79 PDF pages and
-a freshly rendered HTML article. The abstract is shorter and argument-led;
-key analytical captions now name their interpretive question. The program and
-domain inputs are unchanged from 0.19.0. Native verification checks forty
-quotation records, all thirty-three body figures and four opening graphics,
-formal numbering, references and source bindings. The exact current PDF/HTML has independent bounded working-draft acceptance;
-earlier editions keep their own page/browser evidence; [project status](../PROJECT_STATUS.md)
-records the new independent review and delivery separately.
+The current stage is `analysis_output/publication/doi-review-native-1.0.0-20261103-01`:
+76 pages, a real reserved DOI on the cover, and three expanded graphical abstracts
+after its cover diagram. Contents begin on physical page 5. Geometry is
+`letterpaper,margin=11mm,footskip=4mm`, with unchanged 10-point body type.
+The actual pinned PDF/web writers run through the normal-installed Python 3.15.1
+host and separate Python 3.14 template environment. Forty quotation records,
+thirty-three body figures, formal numbering, bibliography and source bindings
+have real native content verification. [Current qualification](../../research/review-candidate-1.0.0.json)
+records independent output and canonical consumer checks separately.
 
-The current application gate uses a separately provisioned normal Python
-3.15.1 environment, preserving the existing 3.11 environment. This software
-qualification does not relabel the editorial PDF's actual 3.11 host / 3.14
-template producer. [Runtime and fixture scope](../../research/runtime-profile-20261102.json).
+The scene cards combine exact quotations, reading locators and questions; the
+institutional graphic makes all four assessment steps explicit; the corpus
+graphic adds actual leave-one-family frequency ranges. Fresh workbench production
+preserves counts and domain records. Four one-unit floating-point HHI changes
+between Python 3.11 and 3.15 remain explicit and rational-oracle checked; old/new
+reports are preserved, not presented as byte-identical. A producer-version guard
+rejects a forged sidecar, while historical audit report/receipt hashes stay fixed.
+The earlier 79-page editorial edition keeps its own producer and acceptance.
+
+The [publication plan](../publication-plan.md) holds Zenodo upload/publication,
+visibility changes and v1.0.0 releases for final author approval. A reserved DOI
+is not an already registered public record.
 
 ## Retained 0.19.0 timing edition — 1 November
 

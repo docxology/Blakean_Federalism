@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 — unpublished review candidate, 2 November 2026
+
+- Reserve cover DOI 10.5281/zenodo.23900617 in an unsubmitted, empty Zenodo draft; keep final author approval as the public-release gate.
+- Expand source-linked graphical abstracts and use 11 mm margins with a 4 mm footer offset, retaining 10-point body type.
+- Qualify 821 normally installed tests and separate native/output evidence; preserve predecessor PDFs, source epochs and failures.
+- Keep corpus, domain decisions, original analytical inputs and reading ceilings intact; public Blake remains the exact 0.7.0 dependency.
+
+- Refuse forged audit producer-version sidecars, preserve fixed historical report hashes, and disclose four one-unit runtime HHI rounding deltas against exact rational oracles.
+
 ## Editorial revision — 2 November 2026
 
 Canonical installed qualification: 819 tests; separate suite-only coverage 92.11% application / 69.02% tools; strict typing, lint, format and dependencies pass. Both independently accepted working-draft PDFs are copied to Downloads. Private-main integration has a separate actual Git receipt. Two test-fixture SQLite connections now close deterministically; the real failing lifetime control and all original warnings are preserved.
