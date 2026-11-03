@@ -1,0 +1,18 @@
+{
+  "tools/render_manuscript.py": {
+    "sha256": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
+    "bytes": 20880
+  },
+  "src/blakean_federalism/_corpus_statistics_core.py": {
+    "sha256": "b23b4dcb31a0bd744bee21f573ecd13fb7b32a1aa1c104fdad7029bda1f64b1b",
+    "bytes": 251
+  },
+  "tests/test_manuscript.py": {
+    "sha256": "c4e42beaa5191404a421a3362e5da4a7c1d2d6d2ff172f7bf643f075187d697e",
+    "bytes": 12254
+  },
+  "docs/manuscript/README.md": {
+    "sha256": "a36a02e522215909334b7d339c2a6daac2d38468a8f0fca8a0c327ba13cc5550",
+    "bytes": 21597
+  }
+}

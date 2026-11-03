@@ -112,7 +112,6 @@ def build_workbench(
         "__init__.py",
         "corpus_statistics.py",
         "corpus_statistics_models.py",
-        "_corpus_statistics_core.py",
         "institutional_experiment_models.py",
         "institutional_experiments.py",
         "institutional_interventions.py",
