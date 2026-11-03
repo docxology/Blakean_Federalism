@@ -67,8 +67,9 @@ both captured witnesses and does not claim whole-copy collation.
 ## Run locally
 
 Keep source, both Python prefixes, environments, caches and temporary files on
-mounted GitVault. Use the declared external Python 3.15 runtime and supported
-repository admission. A clone includes project code and authored research; it
+mounted GitVault. Use the external Python runtime declared by
+[`.python-version`](.python-version) and supported repository admission. A clone
+includes project code and authored research; it
 does not restore the ignored corpus or scholarly PDFs.
 
 ~~~bash
