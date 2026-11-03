@@ -71,7 +71,7 @@ does not restore the ignored corpus or scholarly PDFs.
 
 ~~~bash
 export UV_PROJECT_ENVIRONMENT=../../../../Local/environments/blakean-federalism-1.0.0-py315-20261103
-uv sync --locked --python 3.15 --extra manuscript
+uv sync --locked --extra manuscript
 uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 uv run --locked pytest -c pyproject.toml tests -q
 uv run --locked basedpyright
