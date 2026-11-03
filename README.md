@@ -198,3 +198,5 @@ See [privacy](PRIVACY.md).
 
 [Publication and reproduction verification](docs/public-reproduction.md) records the completed publication and separates
 immutable release inputs from later documentation and remaining research.
+
+[GitHub, citation and dependency maintenance](docs/github.md) records hosted settings, checks and the current-versus-archive update policy.

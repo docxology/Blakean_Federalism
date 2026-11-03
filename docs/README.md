@@ -72,3 +72,5 @@ native output, independent page/browser review and publication remain separate.
 
 [Public edition and verification](public-reproduction.md) records the completed publication and separates
 immutable release inputs from later documentation and remaining research.
+
+[GitHub, citation and dependency maintenance](github.md) explains public entry points, hosted checks and frozen dependency archives.

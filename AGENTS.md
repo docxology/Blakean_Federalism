@@ -89,3 +89,5 @@ post-release source work or retiring branches/worktrees. Dated source maps and
 qualification records keep their original epochs; the maintained documentation
 binding is separate. Preserve normal installs with explicit post-sync --no-sync
 commands and report coverage for exact qualified source roots.
+
+For GitHub metadata, hosted checks or dependency-update policy, read [GitHub maintenance](docs/github.md). Keep maintained-root security updates distinct from immutable archived locks.
