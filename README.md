@@ -72,7 +72,7 @@ repository admission. A clone includes project code and authored research; it
 does not restore the ignored corpus or scholarly PDFs.
 
 ~~~bash
-uv sync --locked --no-editable --python 3.15.1 --extra manuscript
+uv sync --locked --no-editable --extra manuscript
 uv run --locked --no-sync python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
 uv run --locked --no-sync blakean --help
 uv run --locked --no-sync pytest -c pyproject.toml tests/test_publication_source_closure.py -q
