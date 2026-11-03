@@ -1,49 +1,41 @@
-# Prepublication review and final approval
+# Public 1.0.0 edition and future releases
 
-The 1.0.0 source is a private, unpublished review candidate. Its paper DOI,
-`10.5281/zenodo.23900617`, was reserved through production Zenodo and read back with
-`submitted=false`, state `unsubmitted` and zero files. A reserved DOI is
-registered and becomes resolvable when its deposit is published. The reservation
-does not constitute publication. See the [API record](../research/zenodo-reservation-20261102.json).
+Daniel explicitly approved GitHub/Zenodo publication and canonical Private/
+to Public/ relocation on 3 November 2026. The earlier reservation-only grant,
+review hold and empty-draft observations remain historical evidence.
 
-Daniel requested final review of the DOI-bearing, smaller-margin PDF before
-public publication. [Project status](PROJECT_STATUS.md) records its exact PDF,
-source, native and acceptance identities. Keep approval attached to that edition.
-Private-main engineering delivery is separate from a public repository, a GitHub
-release or a published Zenodo deposit.
+The selected [76-page PDF](../Blakean_Federalism.pdf) has SHA-256
+`14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52`.
+The version DOI is [10.5281/zenodo.23900617](https://doi.org/10.5281/zenodo.23900617); the
+[GitHub release](https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0)
+and [publication record](../publication.json) bind exact assets and identities.
+The release preserves the approved PDF bytes: publication metadata and
+location changes are not a new render or a new analytical producer.
 
-## What this candidate changes
+## Responsibility and limits
 
-- Eleven-millimetre PDF margins, with native template numbering and citations.
-  A 4 mm footer skip keeps page numbers inside the smaller page frame.
-- A cover DOI drawn from the actual reservation.
-- Three graphical abstracts add cited reading cards, the finite intervention protocol, and source-omission ranges. Constructed institutional results remain distinct from empirical authority and literal word counts from literary judgment.
-- No corpus, query, vocabulary, contextual decision or historical reading record is changed.
+Blake owns reusable corpus/methods. This application continues to select
+Blake 0.7.0 at Git `263d7c83abe6f1309a64af3285a683c1b7672269`.
+The sibling application is independent, with no runtime dependency.
+The original pinned template PDF/HTML qualification remains attached to
+its captured producer. Current public metadata need not recreate the old
+private-status configuration; the rendering archive preserves that exact input.
 
-Public Blake owns reusable methods. This application continues to select Blake
-0.7.0 at Git `263d7c83abe6f1309a64af3285a683c1b7672269`; the other
-application is an independent sibling. Retained analyses keep their actual producers.
+[Distribution terms](../LICENSE-PAPER.md) reserve authored research rights
+and preserve upstream and third-party licenses. Provider corpora, indexes,
+restricted captures and raw private evidence remain excluded. Public
+availability supplies no peer-review, whole-oeuvre, contextual/image-census
+or specialist-accessibility acceptance. [Project status](PROJECT_STATUS.md)
+retains the unresolved research units; publication closes no reading ledger.
 
-## Approval and public-release boundary
+Future releases require new epochs for changed inputs, exact source/output
+bindings, appropriate independent review, normal installed consumers and
+fresh publication/download readback. Preserve earlier editions and failures.
 
-Public publication remains on hold until Daniel gives final approval. DOI
-reservation, passing tests and rendered-output review do not authorize file
-uploads or Zenodo publish, repository visibility changes, release tags or
-GitHub releases.
+## Related public projects
 
-The proposed application release is `v1.0.0`. The core Blake versioned release
-has its own source, package, manuscript and deposited identities. Approval
-must identify the actual edition and must not substitute another producer or paper.
-
-Before the approved public action, close the public payload and licensing/rights
-scope, freeze the release commit and approved PDF hashes, and verify the installed
-consumer. Keep restricted provider expression, full corpora, source captures,
-caches and retained raw evidence in authorized ignored custody. Scholarly,
-contextual, image and accessibility limits remain explicit in project status;
-this edition adds no whole-corpus reading credit.
-
-Use a fresh purpose-scoped credential grant for later Zenodo uploads/publishing.
-The reservation-only grant completed the two empty drafts. At publication,
-verify uploaded checksums, the DOI/record and anonymous artifact bytes, the
-ordinary Git tag/release, repository visibility and remote commit. Preserve
-the preceding edition and all failed attempts.
+| Project | GitHub | Zenodo |
+|---|---|---|
+| Corpus and shared methods | [blake](https://github.com/docxology/blake) | [Paper 0.5.0](https://doi.org/10.5281/zenodo.23921364) |
+| Invertebrate readings and concordance | [Blakean Entomology](https://github.com/docxology/Blakean_Entomology) | [1.0.0](https://doi.org/10.5281/zenodo.23900583) |
+| Political argument and institutional models | [Blakean Federalism](https://github.com/docxology/Blakean_Federalism) | [1.0.0](https://doi.org/10.5281/zenodo.23900617) |

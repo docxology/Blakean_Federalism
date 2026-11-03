@@ -1,0 +1,149 @@
+# Blakean Federalism
+
+Private research on **composition without capture**: poetic states, persons,
+temporal national formations and coercive jurisdictions remain distinct. Several
+nations can coexist without becoming one nation. A literary interpretation
+supplies no automatic institutional warrant.
+
+Start with [project status](docs/PROJECT_STATUS.md),
+[agent guidance](AGENTS.md), the [article](docs/manuscript/states-change.md),
+the [current private working-draft PDF](Blakean_Federalism.pdf) and
+the [documentation map](docs/README.md).
+
+## Unpublished 1.0.0 review candidate
+
+Federalism **1.0.0** selects public Blake **0.7.0**, exact Git
+`263d7c83abe6f1309a64af3285a683c1b7672269`, through
+[pyproject.toml](pyproject.toml) and [uv.lock](uv.lock). Blake owns corpus
+custody and reusable methods. Federalism owns political terms, institutional
+rules, stipulated cases, scholarly readings and the manuscript. Entomology is
+an independent sibling, with no runtime dependency.
+[Shared-method boundary](docs/shared-methods.md).
+
+The 76-page *States Change* candidate uses the actual pinned template writers,
+11 mm margins, 4 mm footer spacing and unchanged 10-point body type. Four opening
+graphics lead to contents on page 5. The scene cards now join exact Blake
+quotations, selected scholarship and institutional questions; the repair graphic
+shows selection, application, all fifteen safeguards and recording; the corpus
+graphic adds leave-one-family ranges on a common frequency scale. These are
+declared comparisons and hypothetical cases, not empirical probabilities.
+
+Both the repository and candidate remain private. DOI **10.5281/zenodo.23900617** is reserved in an unsubmitted Zenodo draft with no uploaded files; it is not yet a registered public record. Final author approval is required before public deposit, visibility changes or a `v1.0.0` tag/release. [Publication plan](docs/publication-plan.md).
+
+The [timing atlas](docs/research/review-timing-atlas.md) retains **21,454
+stipulated configurations and 42,908 person records** in two declared slices.
+The fourteen original review procedures, twenty-eight claimant records,
+fifteen safeguards, pressure cases and person-specific comparisons keep their
+inputs and interpretation. Empty uncovered time establishes no practical or
+political legitimacy. [Procedural comparison](docs/research/procedural-comparison.md).
+
+Fresh 1.0.0 workbench execution preserves every count, denominator, case,
+quotation, image and reading. Four HHI values differ by one floating-point unit
+between the retained Python 3.11 and new 3.15 producers; exact rational oracles
+and the unaltered old/new reports are retained. No exact byte-replay claim is
+made for those reports. The audit verifier now refuses a forged producer-version
+sidecar while preserving the historical institutional-audit report and receipt.
+
+The normally installed Python 3.15.1 candidate passes **821 tests**,
+with ResourceWarning and unraisable warnings treated as errors, strict typing,
+Ruff and formatting. Separate suite-only statement/branch coverage is
+**92.17% application / 69.02% tools**; all 106 application and
+163 exact SDK runtime/resource members match. See the [current qualification](research/review-candidate-1.0.0.json),
+[project status](docs/PROJECT_STATUS.md) and [render guide](docs/manuscript/README.md)
+for distinct native, independent review, canonical consumer and delivery claims.
+The 79-page editorial edition and preceding timing/pressure papers retain
+their original producers and acceptance evidence.
+
+Read the [article](docs/manuscript/states-change.md), [notation](docs/manuscript/notation.md),
+[references and rights](docs/manuscript/references-and-rights.md),
+[research dossiers](docs/research/README.md), [annotated bibliography](docs/annotated-bibliography.md)
+and [authoring conventions](docs/style-guide.md). Textual warrant,
+interpretive bridge and institutional warrant remain separate. The selected
+D02 `bowl`/`howl` [collation](research/textual-collation-20261029.json) preserves
+both captured witnesses and does not claim whole-copy collation.
+
+## Run locally
+
+Keep source, both Python prefixes, environments, caches and temporary files on
+mounted GitVault. Use the declared external Python 3.15 runtime and supported
+repository admission. A clone includes project code and authored research; it
+does not restore the ignored corpus or scholarly PDFs.
+
+~~~bash
+export UV_PROJECT_ENVIRONMENT=../../../../Local/environments/blakean-federalism-1.0.0-py315-20261103
+uv sync --locked --python 3.15 --extra manuscript
+uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
+uv run --locked pytest -c pyproject.toml tests -q
+uv run --locked basedpyright
+uv run --locked ruff check src tests tools
+uv run --locked ruff format --check src tests tools
+~~~
+
+Both printed prefixes must resolve on GitVault. Bind external `TMPDIR`,
+outer `TMPPREFIX`, `UV_CACHE_DIR` and `UV_LINK_MODE=copy` before gates.
+The project has separate application and infrastructure coverage floors; read
+both denominators rather than treating a combined percentage as both gates.
+The [native guide](docs/manuscript/README.md) declares optional rendering
+dependencies and the separately pinned template runtime.
+
+Produce a new timing epoch from the four source-pinned research inputs:
+
+~~~bash
+uv run --locked blakean timing-atlas --root . \
+  --output analysis_output/timing-new --figures
+~~~
+
+The destination must be unused. The completion receipt binds inputs, producers,
+exact analytical exports and figures. It is source/output custody, not
+independent recomputation, rendered-page acceptance or empirical validation.
+
+## Search and contextual review
+
+The retained projection at
+`local_data/corpus/blake-v0.2.0-qualified` contains 2,067 source units:
+540 reading, 731 XML and 796 editorial/mixed Erdman units. Its roles remain
+199 primary, 1,068 unverified and 800 editorial/mixed. These are retained
+source/copy/page units, not unique Blake works. Keep the
+[corpus pin](research/corpus-pin.json) and original projection intact.
+
+~~~bash
+uv run --locked blakean search-corpus --term "minute particulars" \
+  --output analysis_output/particulars-new.json
+uv run --locked blakean search-corpus --term state --term individual \
+  --mode all --window-words 32 --output analysis_output/state-person-new.json
+uv run --locked blakean build-search-workspace \
+  --output analysis_output/search-workspace-new
+~~~
+
+[Search](docs/corpus-search.md) accepts literal terms and explicit role,
+plane, work and word-window filters. Full text stays private and ignored.
+The [evidence workbench](docs/research-workbench.md) carries aggregate
+diagnostics and reading bounds. Generic search and workspace behavior belong
+upstream.
+
+[Contextual review planning](docs/research/review-planning.md) selected a blank
+25-candidate workload from 223 scoped hits. Planning adds no authored decisions
+or independent-observation claim. Authored labels must bind the original run,
+hit, named reviewer, rationale and required locator; they do not recode
+quotation records or institutional cases.
+
+For a new capture or independent projection, declare a new pin and unused
+destination and pass it explicitly to every consumer. Never reimport over the
+qualified baseline. Keep zero cells, repeated witnesses, original offsets and
+source-author distinctions. Retrieval completeness within declared bytes is
+different from literary coverage.
+
+## Scope and delivery
+
+Scholarly reading, copy collation, real institutional effectiveness, accessibility
+and public item-level rights remain separate acceptance questions.
+[Project status](docs/PROJECT_STATUS.md) scopes their next useful units.
+Prior author-index counts, reported complete-extraction readings and portfolio
+observations remain dated evidence in the retained ledgers; search adds no
+reading credit.
+
+Provider bodies, images, indexes, original briefs, full concordances and
+scholarly PDFs stay in authorized ignored custody. Ordinary private-main
+publication and Downloads delivery require exact final source/output bindings
+and fresh remote readback. They grant no public redistribution permission.
+See [privacy](PRIVACY.md).

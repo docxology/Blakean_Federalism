@@ -1,0 +1,43 @@
+{
+  "title": "States Change: Blakean Federalism and composition without capture",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0.0",
+  "publication_date": "2026-11-03",
+  "description": "How can a federation sustain several nations without claiming the whole persons it governs? This article develops *composition without capture* through Blake’s distinction between enduring persons and changing states, his accounts of national life, and the coercion that can accompany creative system-making. Close readings of *Milton*, *Jerusalem* and the Last Judgment prose ask who can create, interpret, contest and revise a common form. The institutional construction distinguishes affiliation, poetic interpretation and competence: shared histories and state readings do not themselves authorize an institution to impose a particular decision. A formal countermodel makes that gap explicit. Five hypothetical Xeno-California conflicts then test ten alternatives against fifteen stipulated safeguards. Their 40,960 intervention selections yield 31 distinct within-case records, exposing the difference between selecting a repair and changing a decision. Person-specific comparisons distinguish nested requirements from incomparable tradeoffs. An atlas of 21,454 timing configurations separates feasible filing, uncovered waiting and two consequence duties; eight pressure cases retain material support, reprisal, reviewer control and disputed jurisdiction beyond those interval calculations. These are constructed analyses, not observations of functioning institutions or a political program attributed to Blake. A separate corpus inquiry compares specified word forms across 199 primary extracts and 33 recorded source families, keeping copy repetition, weighting and source deletion visible. The resulting account ties shared rule to continuing provision and effective powers of challenge. A common world remains contestable when people can dispute both an act and its account of who they are while retaining the means to live and participate.",
+  "creators": [
+    {
+      "name": "Friedman, Daniel Ari",
+      "orcid": "0000-0001-6232-9096",
+      "affiliation": "Active Inference Institute"
+    }
+  ],
+  "keywords": [
+    "William Blake",
+    "digital humanities",
+    "federalism",
+    "source provenance"
+  ],
+  "access_right": "open",
+  "license": "other-closed",
+  "language": "eng",
+  "doi": "10.5281/zenodo.23900617",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/docxology/Blakean_Federalism",
+      "scheme": "url"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.23921364",
+      "scheme": "doi"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.23900583",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Author-approved public working paper. Authored research rights remain reserved; public download is not a general reuse license. Upstream Blake remains MIT and third-party images/fonts retain their terms. Provider corpus/indexes/full source captures are excluded. Software, native-output, scientific, accessibility and publication claims remain separate. Exact SDK: Blake 0.7.0 at 263d7c83abe6f1309a64af3285a683c1b7672269. The selected original template render and all earlier failures retain their original identities."
+}

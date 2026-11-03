@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 name = "blakean-federalism"
 version = "1.0.0"
 readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE", "LICENSE-PAPER.md"]
 authors = [{name = "Daniel Ari Friedman"}]
 description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
 requires-python = ">=3.11"
@@ -15,6 +17,11 @@ dependencies = [
     "typer>=0.15,<1",
     "typing-extensions>=4.12",
 ]
+
+[project.urls]
+Repository = "https://github.com/docxology/Blakean_Federalism"
+Paper = "https://doi.org/10.5281/zenodo.23900617"
+Documentation = "https://github.com/docxology/Blakean_Federalism/tree/main/docs"
 
 [project.scripts]
 blakean = "blakean_federalism.cli:app"
@@ -80,4 +87,4 @@ blake = {git = "https://github.com/docxology/blake.git", rev = "263d7c83abe6f130
 packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/LICENSE-PAPER.md", "/.zenodo.json", "/publication.json", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]

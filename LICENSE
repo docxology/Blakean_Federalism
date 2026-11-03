@@ -1,3 +1,8 @@
 Copyright (c) 2026 Daniel Ari Friedman
 
-Private research repository. No general redistribution license is granted by this repository for project-authored research. Upstream software and third-party materials retain their original licenses and terms. Source-provider texts, images, editions and annotations are excluded from Git and are not relicensed.
+The author has authorized public distribution of this repository and the
+1.0.0 paper. All other rights in project-authored research are reserved; no
+general reuse or redistribution license is granted. See LICENSE-PAPER.md.
+Upstream Blake software retains its MIT license. Third-party texts, editions,
+images, annotations and embedded fonts retain their original terms. Provider
+corpus files and restricted source captures are excluded and are not relicensed.

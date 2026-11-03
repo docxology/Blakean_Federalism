@@ -1,10 +1,23 @@
 cff-version: 1.2.0
-message: "Unpublished v1.0.0 review candidate. The paper DOI is reserved; public release awaits final author approval."
+message: "Please cite the versioned working paper and exact software/source used."
 type: software
-title: Blakean Federalism
-version: 1.0.0
+title: "States Change: Blakean Federalism and composition without capture"
+version: "1.0.0"
+date-released: "2026-11-03"
+repository-code: "https://github.com/docxology/Blakean_Federalism"
+url: "https://doi.org/10.5281/zenodo.23900617"
+license: LicenseRef-Proprietary
 authors:
   - family-names: Friedman
     given-names: Daniel Ari
-repository-code: "https://github.com/docxology/Blakean_Federalism"
-license: LicenseRef-Proprietary
+    orcid: "https://orcid.org/0000-0001-6232-9096"
+preferred-citation:
+  type: report
+  title: "States Change: Blakean Federalism and composition without capture"
+  version: "1.0.0"
+  year: 2026
+  doi: "10.5281/zenodo.23900617"
+  authors:
+    - family-names: Friedman
+      given-names: Daniel Ari
+      orcid: "https://orcid.org/0000-0001-6232-9096"

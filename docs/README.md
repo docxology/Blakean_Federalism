@@ -33,7 +33,7 @@ records the complete current documentation scope and its retained limitations.
 ## Manuscript inputs and retained native output
 
 Use the [manuscript workflow](manuscript/README.md) for the pinned template,
-admission and native-output evidence. The current unpublished 1.0.0 review edition
+admission and native-output evidence. The current 1.0.0 review edition
 of *States Change* has 76 pages; native and independent PDF/HTML evidence are separate;
 [project status](PROJECT_STATUS.md) identifies its exact bytes and delivery.
 The earlier 0.17.0 paper and 78-page timing edition retain their own
@@ -61,5 +61,4 @@ scientific, full-corpus, rights or accessibility acceptance.
 
 The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.
 
-[Prepublication plan](publication-plan.md) records the reserved cover DOI and
-final author approval required for public deposit, repository visibility and releases.
+[Public release guide](publication-plan.md) records the approved edition, distribution scope and future-release requirements.

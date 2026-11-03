@@ -1,0 +1,89 @@
+{
+  "schema_version": 28,
+  "version": "1.0.0",
+  "qualification_epoch": "doi-graphical-review-20261102",
+  "qualification": "research/review-candidate-1.0.0.json",
+  "current_source_sha256": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679",
+  "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
+  "current_native": {
+    "epoch": "analysis_output/publication/doi-review-native-1.0.0-20261103-01",
+    "pdf": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/source/federalism/analysis_output/publication/doi-review-native-1.0.0-20261103-01/output/pdf/blakean_federalism_combined.pdf",
+    "pdf_sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+    "html": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/source/federalism/analysis_output/publication/doi-review-native-1.0.0-20261103-01/output/web/index.html",
+    "html_sha256": "1f8e94c8aae84fb4bfee85163bd3086d7ab2cf35947cad0f5b294913a9c877b1",
+    "pages": 76,
+    "title": "States Change",
+    "receipt_sha256": "f87e4f8b3de48b57b561c84cb9b5889cfcd421fa67c149a8f90737015cef2b1e"
+  },
+  "software_qualification": {
+    "tests": 821,
+    "normal_installed": true,
+    "location": "Independent ordinary GitVault source staging",
+    "coverage": {
+      "application": {
+        "covered": 4885,
+        "total": 5300,
+        "percent": 92.16981132075472,
+        "floor": 90
+      },
+      "tools": {
+        "covered": 361,
+        "total": 523,
+        "percent": 69.02485659655832,
+        "floor": 60
+      }
+    },
+    "strict_types": "0 errors / 0 warnings",
+    "ruff": "PASS",
+    "format": "PASS",
+    "identity": "research/doi-review-20261103/installed-staging-identity.json"
+  },
+  "independent_acceptance": {
+    "status": "APPROVE_FOR_PRIVATE_AUTHOR_REVIEW",
+    "verdict": "research/reviews/doi-graphical-1.0.0.json",
+    "report": "research/reviews/doi-graphical-1.0.0.md",
+    "verdict_sha256": "36f67df6170aaddbbfc9c3a1c8d72d473584301941ebb6ea936929726f02277c",
+    "source_map": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679",
+    "scope": "Frozen unpublished private-author-review candidates only",
+    "nonblocking_notes": [
+      "Federalism inset curve-operator count is representation-coupled; final graphic values independently recomputed.",
+      "No separate current skill-perspective code review report; direct gate pass supplies coverage."
+    ]
+  },
+  "canonical_consumer": {
+    "status": "PASS",
+    "receipt": "research/doi-review-installed-20261103.json",
+    "sha256": "3075db677b6e5a1eee60a7c5f0591b94185e3cacae9fdcb307e2378100a18f4f",
+    "installed_refusing_tests": 16,
+    "scope": "Actual canonical feature installation and bounded installed controls before ordinary protected-main integration; full software suites retain their original staging source/runtime evidence."
+  },
+  "public_release": {
+    "required_visibility": "PRIVATE",
+    "author_approval": "REQUIRED",
+    "zenodo_publication": "HELD",
+    "files_uploaded": 0,
+    "tags_and_releases": "HELD",
+    "core_versioned_release": "HELD_SEPARATELY"
+  },
+  "preserved_previous_index": "research/history/doi-review-v1-preimage/research/verification.json",
+  "scope": "Source/software/native/independent/scientific/rights/hostedCI/public-release evidence are separate.",
+  "sha256": "5828520546fab75c6347e0dabbebb084d3a72fa3137df824ac0a9aeff64914bb",
+  "delivery": {
+    "downloads": {
+      "alias": "/Users/4d/Downloads/Blakean_Federalism.pdf",
+      "versioned": "/Users/4d/Downloads/Blakean_Federalism-1.0.0-review-2026-11-02.pdf",
+      "sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+      "size": 11412409,
+      "previous_sha256": null,
+      "retained_previous": null,
+      "review": "APPROVE_FOR_PRIVATE_AUTHOR_REVIEW",
+      "publication": "Unpublished; author approval required before any public release",
+      "verified": true
+    },
+    "private_main": {
+      "receipt": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/coordination/federalism-publication-final.json",
+      "scope": "Actual later merge/remote/currentness event; do not infer completion before its receipt exists"
+    },
+    "public_release": "HELD for final author approval"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "paper": {
+    "title": "States Change",
+    "subtitle": "Blakean Federalism and composition without capture",
+    "date": "2 November 2026",
+    "version": "1.0.0",
+    "description": "Private source-bound research draft on poetic states, temporal nations, and accountable authority.",
+    "cover": {
+      "image": "../figures/abstract-1.png",
+      "alt": "Blake’s Jerusalem frontispiece, source-verified italic quotations and distinct relations among persons, poetic states, national formations and accountable institutions."
+    }
+  },
+  "authors": [
+    {
+      "name": "Daniel Ari Friedman",
+      "orcid": "0000-0001-6232-9096"
+    }
+  ],
+  "metadata": {
+    "language": "en",
+    "fontsize": "10pt",
+    "geometry": "letterpaper,margin=11mm,footskip=4mm",
+    "documentclass": "article"
+  },
+  "rendering": {
+    "section_breaks": false,
+    "cover_height_fraction": 0.62,
+    "figure_height_fraction": 0.82,
+    "front_matter_figure_height_fraction": 0.82
+  },
+  "publication": {
+    "release_status": "unpublished 1.0.0 review candidate; final author approval required",
+    "repository_url": "https://github.com/docxology/Blakean_Federalism",
+    "repository_label": "Private research repository",
+    "year": "2026",
+    "doi": "10.5281/zenodo.23900617",
+    "doi_status": "reserved; unpublished"
+  },
+  "render": {
+    "formats": {
+      "pdf": true,
+      "html": true,
+      "slides": false,
+      "docx": false,
+      "epub": false
+    }
+  }
+}

@@ -4,7 +4,7 @@
     "subtitle": "Blakean Federalism and composition without capture",
     "date": "2 November 2026",
     "version": "1.0.0",
-    "description": "Private source-bound research draft on poetic states, temporal nations, and accountable authority.",
+    "description": "Source-bound working paper on poetic states, temporal nations, and accountable authority.",
     "cover": {
       "image": "../figures/abstract-1.png",
       "alt": "Blake’s Jerusalem frontispiece, source-verified italic quotations and distinct relations among persons, poetic states, national formations and accountable institutions."
@@ -29,12 +29,12 @@
     "front_matter_figure_height_fraction": 0.82
   },
   "publication": {
-    "release_status": "unpublished 1.0.0 review candidate; final author approval required",
+    "release_status": "public 1.0.0 author-approved working paper",
     "repository_url": "https://github.com/docxology/Blakean_Federalism",
-    "repository_label": "Private research repository",
+    "repository_label": "Public research repository",
     "year": "2026",
     "doi": "10.5281/zenodo.23900617",
-    "doi_status": "reserved; unpublished"
+    "doi_status": "published"
   },
   "render": {
     "formats": {

@@ -1,5 +1,11 @@
 # Changelog
 
+## Public release — 3 November 2026
+
+Author-approved 1.0.0 GitHub/Zenodo distribution of the unchanged reviewed PDF.
+Public repository signposts, exact publication identities and reserved/third-party
+rights are explicit. Provider corpus and raw recovery evidence remain ignored.
+
 ## 1.0.0 — unpublished review candidate, 2 November 2026
 
 - Reserve cover DOI 10.5281/zenodo.23900617 in an unsubmitted, empty Zenodo draft; keep final author approval as the public-release gate.

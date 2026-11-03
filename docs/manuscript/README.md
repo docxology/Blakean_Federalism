@@ -1,15 +1,15 @@
-# Rebuild the current private manuscript
+# Rebuild the published manuscript
 
 Read the [accepted working-paper PDF](../../Blakean_Federalism.pdf),
-[project status](../PROJECT_STATUS.md) and [private authoring conventions](../style-guide.md)
+[project status](../PROJECT_STATUS.md) and [authoring conventions](../style-guide.md)
 before changing a render input. The current application dependency is selected
 by `pyproject.toml` and `uv.lock`; its qualification is separate from the paper's
 recorded analytical and native producers.
 
-## Unpublished 1.0.0 review edition — 2 November
+## Published 1.0.0 edition — approved 3 November
 
 The current stage is `analysis_output/publication/doi-review-native-1.0.0-20261103-01`:
-76 pages, a real reserved DOI on the cover, and three expanded graphical abstracts
+76 pages, a real DOI on the cover, and three expanded graphical abstracts
 after its cover diagram. Contents begin on physical page 5. Geometry is
 `letterpaper,margin=11mm,footskip=4mm`, with unchanged 10-point body type.
 The actual pinned PDF/web writers run through the normal-installed Python 3.15.1
@@ -27,9 +27,8 @@ reports are preserved, not presented as byte-identical. A producer-version guard
 rejects a forged sidecar, while historical audit report/receipt hashes stay fixed.
 The earlier 79-page editorial edition keeps its own producer and acceptance.
 
-The [publication plan](../publication-plan.md) holds Zenodo upload/publication,
-visibility changes and v1.0.0 releases for final author approval. A reserved DOI
-is not an already registered public record.
+The [publication guide](../publication-plan.md) records author-approved public
+distribution; [publication facts](../../publication.json) bind the deposited bytes.
 
 ## Retained 0.19.0 timing edition — 1 November
 
