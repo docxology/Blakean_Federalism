@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "verified_date": "2026-11-03",
+  "repository": "docxology/Blakean_Federalism",
+  "public": true,
+  "release_tag": "v1.0.0",
+  "release_source_commit": "ec8793d146edeb0096aa3d52674aba318cf54e01",
+  "github_release": "https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0",
+  "zenodo": {
+    "record_id": 23900617,
+    "doi": "10.5281/zenodo.23900617",
+    "url": "https://zenodo.org/records/23900617",
+    "state": "done",
+    "datacite_state": "findable",
+    "doi_resolver_http": 200
+  },
+  "assets": {
+    "FONT-NOTICES.zip": {
+      "sha256": "87594cda1deed6db69951aec0cec926755a562147b572ebc6e86d1006ed86fcd",
+      "bytes": 15133,
+      "md5": "2aacfcdf5e32b15646462aff49583475"
+    },
+    "Blakean_Federalism.pdf": {
+      "sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+      "bytes": 11412409,
+      "md5": "a572480e78d588e5908c2faf3d7c62c3"
+    },
+    "blakean_federalism-1.0.0.tar.gz": {
+      "sha256": "95c1adc14c13975aae65df52174198337ea7e592a3a988c6b274f6a637246fe0",
+      "bytes": 2370500,
+      "md5": "a823d2bbd6f484990668dbf9d88e43f4"
+    },
+    "Blakean_Federalism-1.0.0-rendering-inputs.zip": {
+      "sha256": "dc0717f9d2f630c6e46c5011f5a0c11e51364d2d03bd7b152af680fc80943677",
+      "bytes": 13695829,
+      "md5": "a1a19fe11e3b397dd31f6b26de951780"
+    },
+    "blakean_federalism-1.0.0-py3-none-any.whl": {
+      "sha256": "47646b4c8f15cd61c12f2a7314cc4b8b46661863b2cab1616f1e5aa65777f596",
+      "bytes": 902609,
+      "md5": "9ba9db4cbdc77deee062dde2d66bbf87"
+    },
+    "release-manifest.json": {
+      "sha256": "1669ff6679e8c511bbe82386ae5d5de18861b35dcd313c9529f997b5fafd3d05",
+      "bytes": 2234,
+      "md5": "69086b8d6f893d82d1205e6eea07af49"
+    },
+    "SHA256SUMS": {
+      "sha256": "b8a22a254cd52905836130870fadd36c7b797ff90f2ca3e2bbd81c9963e23ffa",
+      "bytes": 660,
+      "md5": "1ec1ce066fe05967f56d6a2a80a70b42"
+    },
+    "source-map.json": {
+      "sha256": "2d6a67a5dc185fb76aad6fa1bbf7775d1d14bddbcc9ff620ccc4e07604ac0648",
+      "bytes": 53380,
+      "md5": "bf7b58c0d3759488f6baacbd0aea2de5"
+    }
+  },
+  "anonymous_readback": {
+    "zenodo": 8,
+    "github": 8,
+    "sha256_and_size_match": true
+  },
+  "hosted_checks_at_release_integration": [
+    {
+      "name": "GitGuardian Security Checks",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "github_reviews_at_release_integration": [],
+  "independent_review": {
+    "verdict": "APPROVE_PROSPECTIVE_RELEASE_PAYLOAD",
+    "verdict_sha256": "e66dbf77948bc7bfe6b94306e51817338f026f65ac38e0ef657df624b2a965b1",
+    "report_sha256": "d2434e263954f14dfa5c00f6a17500b9f8c33b16545e9b9b4ac5e0d7a7ceb27f",
+    "scope": "Frozen corrected prospective content/exposure, distinct from actual publication and scientific acceptance."
+  },
+  "scope": "Post-release owner-qualified publication/readback/documentation receipt. Immutable tags and deposited source maps retain the approved release source. Later documentation does not create a new software/manuscript version or reassign native/analytical producers.",
+  "limits": [
+    "Working papers; publication is not scientific peer review or specialist accessibility certification.",
+    "Provider corpus, indexes and restricted captures remain ignored and unredistributed.",
+    "Earlier failures, editions, reading ceilings and custody receipts remain preserved."
+  ],
+  "software_version": "1.0.0",
+  "paper_version": "1.0.0",
+  "canonical_public_runtime": {
+    "project": "federalism",
+    "canonical": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism",
+    "retained_previous": "/Volumes/GitVault/Local/environments/Blakean_Federalism-retained-before-public-runtime-20261103",
+    "previous_environment_inode": 103940262,
+    "current": {
+      "version": "3.15.1 (main, Oct 21 2026, 17:39:16) [Clang 23.1.3 ]",
+      "prefix": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism/.venv",
+      "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.15.1-macos-aarch64-none",
+      "normal_application": {
+        "url": "file:///Volumes/GitVault/Username/docxology/Public/Blakean_Federalism",
+        "dir_info": {
+          "editable": false
+        }
+      },
+      "sdk": {
+        "url": "https://github.com/docxology/blake.git",
+        "vcs_info": {
+          "vcs": "git",
+          "commit_id": "263d7c83abe6f1309a64af3285a683c1b7672269",
+          "requested_revision": "263d7c83abe6f1309a64af3285a683c1b7672269"
+        }
+      },
+      "exact_release_members": 106,
+      "exact_release_metadata": true
+    },
+    "declared_entrypoints": {
+      "blakean": {
+        "actual_help_exit": 0,
+        "path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism/.venv/bin/blakean"
+      }
+    },
+    "scope": "Postcondition qualification of actual completed canonical normal sync; no duplicate setup or environment replacement. Original failed CLI-name guess remains retained."
+  },
+  "relocation": {
+    "previous_path": "/Volumes/GitVault/Username/docxology/Private/Blakean_Federalism",
+    "public_path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism",
+    "root_inode_preserved": 103934145,
+    "non_git_members_exact_inode_mode_size_mtime_target": 23278,
+    "head_preserved": "7a87c9f2d92100a5f9999de04e2276c946bfa4c9",
+    "worktree_repair": "",
+    "worktrees": [
+      {
+        "path": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism",
+        "head": "7a87c9f2d92100a5f9999de04e2276c946bfa4c9",
+        "locked": null,
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.1.0-01",
+        "head": "9dd05d2983146471c12d91247b2e2b3756c54216",
+        "locked": "review:Blakean Federalism 0.1.0 initial private candidate",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.1.0-02",
+        "head": "cca0ac47518ab6158a242f16deafbd2fe364ec0b",
+        "locked": "review:Blakean Federalism 0.1.0 prose correction",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.3.0-24d68a0",
+        "head": "24d68a07193d499823ebb1b85cd9f716e48bb532",
+        "locked": "review:Blakean-Federalism-0.3.0-24d68a0",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.3.0-f5e20cb",
+        "head": "f5e20cba4abeaac3b098bb9468553e0c5553a3c7",
+        "locked": "review:Blakean-Federalism-0.3.0-f5e20cb",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.4.0-5851e74-01",
+        "head": "5851e74d70972a1c79e1c31594c13be5ac3d793e",
+        "locked": "Blakean Federalism 0.4.0 independent publication gate",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.6.0-01",
+        "head": "982f15f46319e5366ab5e5d7c2ac4e1bbfcc6b32",
+        "locked": "review:blakean-federalism-v0.6.0",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-review-0.9.0-1fd34f7",
+        "head": "1fd34f78f5df3f05c7d3d18b8935930f9c008561",
+        "locked": "review:Blakean-Federalism-0.9.0",
+        "status": ""
+      },
+      {
+        "path": "/Volumes/GitVault/Local/worktrees/Blakean_Federalism-shared-methods-0.16.0-20261028",
+        "head": "9cf08aab8ed5487ce353f97230d980b32d7f6883",
+        "locked": null,
+        "status": ""
+      }
+    ],
+    "scope": "Same-filesystem supported relocation and official Git worktree repair. Ignored data/environments/output epochs preserved without provider upload or deletion."
+  },
+  "installed_tests_passed": 821,
+  "public_source_only_tests_passed": 3,
+  "public_source_only_custody": {
+    "source_only_local_data_present": false,
+    "source_only_analysis_output_present": false,
+    "public_source_map_files": 455
+  }
+}

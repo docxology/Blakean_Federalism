@@ -40,7 +40,7 @@ The [verification index](../research/verification.json) keeps those claims separ
 | R2 — scholarly reader | Select one consequential counterargument from the [bibliography](annotated-bibliography.md), including the rules and clock of contestation themselves. | Inspect named passages, retain strongest objection and exact locators, revise only supported claims. Allow 2–4 hours; selected extracts do not become complete-book credit. |
 | R3 — institutional critic | Choose one practical premise: material support, retaliation, reviewer control, collective/treaty competence or identification of affected persons. | Declare a new case or empirical design and epoch, with a bounded first four-hour design unit. Keep formal calculation separate from observed protection and lawful competence. |
 | R4 — accessibility maintainer | Select one keyboard/assistive-technology or changed-browser regression beyond the completed bounded output review. | Retain actual supported-browser evidence and a refusing control; start with 60–90 minutes. Functional browser qualification is not accessibility certification. |
-| R5 — Daniel and editor | Review the exact qualified draft and choose feedback and a venue. | Close one named editorial group, then qualify changed pages. Begin with 60–90 minutes; specialist and venue acceptance remain human gates. |
+| R5 — Daniel and editor | Select one post-release editorial feedback group and venue; author approval and public distribution are complete. | Close one named editorial group, then qualify changed pages. Begin with 60–90 minutes; specialist and venue acceptance remain human gates. |
 | R6 — corpus custodian | Declare a new capture or vocabulary only when a scoped source question requires it. | New pin/epoch; compare IDs, roles, locators, offsets, denominators and results. Start with a two-hour discovery checkpoint, preserving the baseline. |
 | R7 — contextual reviewer | Use a pinned planned subset of lexical leads. | Bind decisions to original run/hit, reviewer, rationale and locator; preserve uncertainty and omissions. Budget 2–4 hours for the first declared subset. |
 
@@ -48,3 +48,6 @@ Category-theoretic and collective active-inference extensions remain optional
 research after their institutional assumptions and operations are specified.
 Public distribution does not expand third-party reuse rights.
 [Privacy and custody](../PRIVACY.md).
+
+[Verified public delivery](public-reproduction.md) records the completed publication and separates
+immutable release inputs from later documentation and remaining research.
