@@ -127,7 +127,7 @@ Use the qualified locked application with its exact reviewed Blake dependency
 and the supported GitVault workflow:
 
 ~~~sh
-uv run --locked python -m blakean_federalism.review_timing_cli \
+uv run --locked --no-sync python -m blakean_federalism.review_timing_cli \
   --root . --output analysis_output/review-timing-atlas/new-epoch --figures
 ~~~
 

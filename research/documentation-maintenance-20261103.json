@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "SOURCE_DOCUMENTATION_QUALIFIED",
+  "scope": "Dated current-source maintenance; independent integration and actual Git publication are separate records.",
+  "base_commit": "78e29dd6c58b81f3795742e7a07886bd3c977297",
+  "record_identity": "New epoch; earlier current-source, publication and qualification records remain unchanged.",
+  "documentation": {
+    "all_tracked_docs_files": {
+      "docs/PROJECT_STATUS.md": {
+        "sha256": "44c7c514aab583e6e0907e02c375d1f4890a6ed52dbe8518862c69813f3c0155",
+        "bytes": 5993
+      },
+      "docs/README.md": {
+        "sha256": "cb2af34716c7a577314c7895684ab14f6de9e90caa2a97d0bd57be99e7e0c7c6",
+        "bytes": 5314
+      },
+      "docs/RESEARCH_STATUS.md": {
+        "sha256": "ed75f223112c09899a769e5bb4ccb2d2027a7fd73a27183e61187b8a109dd671",
+        "bytes": 10406
+      },
+      "docs/annotated-bibliography.md": {
+        "sha256": "b752ca9676f50a8c2c6f6b4ad5154bd6934c7bf249dcc3c17d069ed04e9624ee",
+        "bytes": 31405
+      },
+      "docs/conceptual-lexicon.md": {
+        "sha256": "e2a73214264100d2cd2108ea2ab0b20df3a8a15bc860c3f66080ddf0b0617e76",
+        "bytes": 6024
+      },
+      "docs/corpus-observations.md": {
+        "sha256": "e0e33c56f52f31760f0d914117670756ca12d267eaf1f5ae5aff0b81563669d5",
+        "bytes": 4957
+      },
+      "docs/corpus-search.md": {
+        "sha256": "1838c3b4d87231142faeac8829045d843ef24ca8d4ce3d26b34a8fe2bc3c4202",
+        "bytes": 7997
+      },
+      "docs/history/DESIGN-0.3.0.md": {
+        "sha256": "68d2cf041225ac7e72a1821c3b00b3c1de41d143e87d0a4dd02086ad6ef8e54f",
+        "bytes": 61182
+      },
+      "docs/institutional-design.md": {
+        "sha256": "c1116e51a9e2dbe3c9b1891a3c602e71af4a48bd45db061120173cc55a9f8a60",
+        "bytes": 5611
+      },
+      "docs/maintenance.md": {
+        "sha256": "5c7879fefdb848eb336bb41225afe2774267bef2e9e71fc6429c539c9493f635",
+        "bytes": 5724
+      },
+      "docs/manuscript/README.md": {
+        "sha256": "aa7eb0e4ce76729527e3d432caa8cf63ce149c5a333b7c078e1b6f498a6ba4ae",
+        "bytes": 7013
+      },
+      "docs/manuscript/config.yaml": {
+        "sha256": "c6a75030e7101ce2ec3cf3fef60ad42007f6be2480d4c25ff250bfb3ac405e05",
+        "bytes": 1421
+      },
+      "docs/manuscript/institutional-review-insertion.md": {
+        "sha256": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
+        "bytes": 2215
+      },
+      "docs/manuscript/institutional-review-supplement.md": {
+        "sha256": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
+        "bytes": 13579
+      },
+      "docs/manuscript/notation.md": {
+        "sha256": "9649ec44e2f48e77bf7c98f7b9d9c20480c38463c33682e994e1809dbfdd787d",
+        "bytes": 6915
+      },
+      "docs/manuscript/preamble.md": {
+        "sha256": "d9310fd30e8d058ad0b09cd0f06fa91e78a1ec3275222d17cb117ed56f891bc2",
+        "bytes": 1874
+      },
+      "docs/manuscript/references-and-rights.md": {
+        "sha256": "741da1cb59a16e9ae4895191aef33f2e68763d46cf6b184cb85a35aef3f6b1ad",
+        "bytes": 15507
+      },
+      "docs/manuscript/references.bib": {
+        "sha256": "909c6f2f84351b0bcee011950f0db3b3486d0c5252dc4c3d73cb1420caf025d0",
+        "bytes": 26289
+      },
+      "docs/manuscript/states-change.md": {
+        "sha256": "46bec5311b990e0f71e10c6fd9f0abb0517c3b80bee6902387cb994d8341d1ac",
+        "bytes": 214688
+      },
+      "docs/portfolio-crosswalk.md": {
+        "sha256": "ad0417dd8532bc2f444c604956cc6b2defe16be7b39cf029e7eb690b247dc94c",
+        "bytes": 4954
+      },
+      "docs/primary-passages.md": {
+        "sha256": "6870a96dc28987a5f4ca47fda60ffd05c329bc46ec2bc9fa4e08489127e15b1d",
+        "bytes": 6786
+      },
+      "docs/public-reproduction.md": {
+        "sha256": "70ba6e91477298d1b040103654d60de3128c5d3e44a22d088098f42baeb0a714",
+        "bytes": 3170
+      },
+      "docs/publication-plan.md": {
+        "sha256": "cea4c91a37da5217d48e64ed75a4b3113ed9bec6d38d9f2227bc43682867a196",
+        "bytes": 2475
+      },
+      "docs/research-program.md": {
+        "sha256": "72586c4f37b5897bf363b34b739ed301815f98fb4fc2740ca0c6f8a4d0151866",
+        "bytes": 3125
+      },
+      "docs/research-workbench.md": {
+        "sha256": "222e795f0b99660581f9ae07214c8e6a164e043ad7da9d0ccb7d9d8c7872bdeb",
+        "bytes": 4502
+      },
+      "docs/research/README.md": {
+        "sha256": "b6b07cb97ff4a79ebc6ef981fcd9b137047a03b25ab5ba15b812550d9243e2f0",
+        "bytes": 3770
+      },
+      "docs/research/abstract-analysis-0.14.0.md": {
+        "sha256": "3a2be4f0fe00c36f078a0332b0de88f54ba0502a2c9c080b28c138c2c7051063",
+        "bytes": 2490
+      },
+      "docs/research/close-reading-layout-0.13.0.md": {
+        "sha256": "49917f19a7ae7e64c0da269d958062836202ce9808c69bdf2340aac079610da4",
+        "bytes": 11901
+      },
+      "docs/research/copy-observations-0.2.0.md": {
+        "sha256": "945d65f9bdf08a292ff21dcb3d52715ac99ba306a56d46eca02b1f16ac362ba9",
+        "bytes": 1670
+      },
+      "docs/research/corpus-search-scholarship-0.8.0.md": {
+        "sha256": "fa2232aee2852294b700533487f0ec067ed9a7ce9171b2f0e1f020bf04c4245e",
+        "bytes": 12036
+      },
+      "docs/research/corpus-statistics-0.6.0.md": {
+        "sha256": "70ae090a7efc71f686ce0a13bc898b799ee20ff1e8e05f15c49c64c39e194cc5",
+        "bytes": 11490
+      },
+      "docs/research/federated-belief-sharing-0.12.0.md": {
+        "sha256": "4adae41869c80208728d402b5ce845ece40bb645119efab003900c66c9b1ca5c",
+        "bytes": 5355
+      },
+      "docs/research/illuminated-reading-0.11.0.md": {
+        "sha256": "dd741f30e52f22ebefbc5cac29af91cda330a0f1ba1478dfc67114489ee230ef",
+        "bytes": 10212
+      },
+      "docs/research/institutional-experiments-0.6.0.md": {
+        "sha256": "5baa4519fd03a4b6a3cb07518873e409e8d956a3128ec5ee6da3954e802b9bb1",
+        "bytes": 10820
+      },
+      "docs/research/institutional-review.md": {
+        "sha256": "820ee059bc8daf386240b24c89ed7e9bd275c70551a46072cd3077df2f1fccf4",
+        "bytes": 5891
+      },
+      "docs/research/notation-close-reading-0.9.0.md": {
+        "sha256": "a400458dab91e274bed1c79d4515b4e05f596b7282107b2988a65b8a369e4f17",
+        "bytes": 1971
+      },
+      "docs/research/opening-clarity-0.15.0.md": {
+        "sha256": "2f8e4a765ea4929c5727e6277e886a3021d90bcdaf7750c8a36b7c1e0a4c37e1",
+        "bytes": 3125
+      },
+      "docs/research/opening-scholarship-0.10.0.md": {
+        "sha256": "0c2a23a55ecac97d4610c46330505358f5c8bc03fa4187b8954cc1659e19ba48",
+        "bytes": 8196
+      },
+      "docs/research/primary-source-research.md": {
+        "sha256": "69a9d6ebb1fc171822e61dba935729ec21a602001300a08dfb7aac9ba4d79549",
+        "bytes": 47448
+      },
+      "docs/research/procedural-comparison.md": {
+        "sha256": "8b667a939ee18b89a7fd4def9d03f0f37d75e92ad712d426182298b9d92bb6e5",
+        "bytes": 6200
+      },
+      "docs/research/review-planning.md": {
+        "sha256": "ac358eca08b903c96ef3c59886b1a7ebc5668b181850caa6ac807de0755f9d9b",
+        "bytes": 8009
+      },
+      "docs/research/review-pressure-20261029.md": {
+        "sha256": "ae02e0e5c19f03735b4d40e3a1e9f61b1a1e4fbb1c8cf63f1bf26a4b6cd9703e",
+        "bytes": 2966
+      },
+      "docs/research/review-timing-atlas.md": {
+        "sha256": "23d87800bc2513e219f6d2fab019f87b48ce2c8ddf52d13488fe66065d8cd6cf",
+        "bytes": 10728
+      },
+      "docs/research/scholarship-density-0.7.0.md": {
+        "sha256": "9ae61c9963f072cad95210df2e69df08a64814fa9474c7dce91e04cd147eb239",
+        "bytes": 2632
+      },
+      "docs/research/scholarship-expansion-0.2.0.md": {
+        "sha256": "da5aed4862adddee234e0e50812db59e24d82281495282c05d8c4cd36be5c7e1",
+        "bytes": 30419
+      },
+      "docs/research/scholarship-expansion-0.4.0.md": {
+        "sha256": "4bdcf7b9846798f4da2dad99f486f02e4a10ca101f61cb1b67d0beca2098402d",
+        "bytes": 29808
+      },
+      "docs/research/scholarship-expansion-0.5.0.md": {
+        "sha256": "32c3d4c982a6fffb26b950e98472da4f5dd035bcff933887bcaaa72bcca5a061",
+        "bytes": 29992
+      },
+      "docs/research/scholarship-expansion-0.6.0.md": {
+        "sha256": "8166b8ec193d23ec984b661cef084e294fef26c7ae4f5324e5aceab575eecd6a",
+        "bytes": 18924
+      },
+      "docs/research/scholarship-objections-0.3.0.md": {
+        "sha256": "d9ccc1087dfed1eeedca96153fdacfccbd9002791dbb1269c08100c821533ee6",
+        "bytes": 21142
+      },
+      "docs/research/scholarship-revision-0.4.1.md": {
+        "sha256": "5e5a6a581b747dcf2535394215fca537b8166adc7da08859c1b6088e2880b6e6",
+        "bytes": 2896
+      },
+      "docs/research/urizen-context-0.7.0.md": {
+        "sha256": "52e9a00d6b5fccb47fd42514f4f757f20ccde2f7168e58d6cf3689385786ed2b",
+        "bytes": 1974
+      },
+      "docs/scope-integration.md": {
+        "sha256": "d47b531ff7ac7ad9a241766455a42952d86b0287165ffa4135e797ff3af31b8a",
+        "bytes": 5460
+      },
+      "docs/shared-methods.md": {
+        "sha256": "f5315afb666dbb9428f049112d073036d4e02aab84976342692ac5d2986ac4b2",
+        "bytes": 7299
+      },
+      "docs/style-guide.md": {
+        "sha256": "89a1a4fd4e541a3b3a3bea532761cf6b8aa4dba54e85d597b6a30a3df39fec15",
+        "bytes": 5942
+      }
+    },
+    "root_entry_files": {
+      "README.md": {
+        "sha256": "949a8f724c936a7d15a9caf28108fc9ebf028a991e25f830867a114102ce859b",
+        "bytes": 11258
+      },
+      "AGENTS.md": {
+        "sha256": "36a375d986cfe17ed91f5d73c020df3ea11662c657994a77a4634c71c6a98ce3",
+        "bytes": 5429
+      },
+      "CHANGELOG.md": {
+        "sha256": "4a1e3437de4db105515f7b5e90369a926162d184afceb10f3eef4c378e093f91",
+        "bytes": 18160
+      },
+      "PRIVACY.md": {
+        "sha256": "1569e6660367db071d86244c1da1ec595295cab7905d42dee33cac812fd38bb8",
+        "bytes": 1916
+      }
+    },
+    "markdown_documents": 56,
+    "references": 554,
+    "classification_counts": {
+      "external": 286,
+      "prepared_native_target": 35,
+      "restricted_local_custody": 7,
+      "tracked": 226
+    },
+    "errors": [],
+    "validation": {
+      "sha256": "272eb9c204d5fdb566068e5b9330cec4ddb56341024c6676147c7e5a34d5d9d1",
+      "bytes": 140256
+    },
+    "positive": {
+      "directory": "140-federalism-documentation-final",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:37:30.573782+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "12a37eb314427afa607ff8f32cf3deaf95f763dc283bac3ecbc36baebfe93bb2",
+          "bytes": 3864
+        },
+        "pid.json": {
+          "sha256": "92af649a535c2b102d45b16c46d97bd4a3659b5d5b7b2635fc585d939d19d1aa",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "7ce92b4a63d776f7f299e706fbf423fe6e0b1245a655c2f21f4386a5a685efaa",
+          "bytes": 225
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "41f4f3066c1a2764037ac1a02cb2e88964590586d8c8e0fa263d43641d0cae93",
+          "bytes": 61
+        }
+      }
+    },
+    "rejecting_missing_link": {
+      "directory": "141-federalism-documentation-refusal",
+      "returncode": 1,
+      "completed_utc": "2026-11-03T18:37:31.703679+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "a5f576de0482cbbdd4bf3bb153aebe573e3af6f9ad0970517e6c1b59bbe45f1d",
+          "bytes": 3879
+        },
+        "pid.json": {
+          "sha256": "dafb5f6af81a589c56b7af0718d7442b87590802c6b80a8e3c56f283b7a29ba4",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "1223aa40da55649c9a719c52bcdfe586a70eac61fcefaca636c916fe632d5913",
+          "bytes": 453
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "28be5ff707777bdad33082945456e6f79a1e0950e47ac3accfca55e6d58dc497",
+          "bytes": 61
+        }
+      }
+    },
+    "limits": "Markdown targets and selected source/command claims checked; native and private targets classified explicitly."
+  },
+  "installed_source": {
+    "python": "3.15.1 (main, Oct 21 2026, 17:39:16) [Clang 23.1.3 ]",
+    "prefixes_external": true,
+    "normal_installation": true,
+    "application_runtime_resource_members": 105,
+    "sdk_git": "263d7c83abe6f1309a64af3285a683c1b7672269",
+    "sdk_runtime_resource_members": 163,
+    "identity_receipt": {
+      "sha256": "7ff34653b3d3b20fcd4c73de98ee52ada9cb883d9424546df460f4aad3fe0513",
+      "bytes": 39215
+    },
+    "source_only_tests": 3,
+    "source_only_receipt": {
+      "directory": "138-federalism-public-source-profile",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:36:54.705307+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "4c14690653e85b3b5217390131ff6d160940ceb51e0067d85ff329c023647029",
+          "bytes": 4068
+        },
+        "pid.json": {
+          "sha256": "421411268bb6e7f9ee06bd659bc0c6c676c09f8bda00f29c3337628cfb1815c9",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "1d3314562a9345a9f75b1adf32d61168822c00d316f7db85833230bba023e448",
+          "bytes": 98
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "1498f2487c8e770792a9db4c6b490e9e8d0e22ae52913c6e4b5e14d704f56fe2",
+          "bytes": 61
+        }
+      }
+    },
+    "source_only_scope": "No local_data/ or analysis_output/. Bounded profile does not substitute for retained-fixture qualification."
+  },
+  "published_edition_unchanged": {
+    "pdf": "Blakean_Federalism.pdf",
+    "sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+    "pages": 76,
+    "tag": "v1.0.0",
+    "source_scope": "Tracked source outside the declared maintenance delta is separately bound before integration."
+  },
+  "branches": {
+    "removed_remote": [
+      "refs/heads/archive/pre-main-alignment-20261029",
+      "refs/heads/cur11/drop-inert-dependabot",
+      "refs/heads/cur12/point-at-the-source-of-truth",
+      "refs/heads/docs/argument-led-edition-20261102",
+      "refs/heads/docs/verified-guidance-20261102",
+      "refs/heads/docs/verified-publication-20261103",
+      "refs/heads/feat/shared-methods-0.16.0",
+      "refs/heads/release/public-editions-20261103",
+      "refs/heads/review/doi-graphical-1.0.0-20261103",
+      "refs/heads/dependabot/uv/research/history/review-planning-20261030/pypdf-6.21.4"
+    ],
+    "preserved_recovery_namespace": "refs/archive/documentation-maintenance-20261103/",
+    "verified_bundle": "4698468f4eaf71d72703e3edc481c27ec7396ff38c87707aac4691288561a59f",
+    "retained_worktrees": 8,
+    "blocked_removal": "Supported GitVault archive plan refused external/shared Git stores; Federalism additionally has seven locked review worktrees. No bypass, deletion or unlock."
+  },
+  "historical_preimages": {
+    "tools/render_manuscript.py": {
+      "sha256": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
+      "bytes": 20880
+    },
+    "tests/test_manuscript.py": {
+      "sha256": "c4e42beaa5191404a421a3362e5da4a7c1d2d6d2ff172f7bf643f075187d697e",
+      "bytes": 12254
+    },
+    "docs/manuscript/README.md": {
+      "sha256": "a36a02e522215909334b7d339c2a6daac2d38468a8f0fca8a0c327ba13cc5550",
+      "bytes": 21597
+    },
+    "src/blakean_federalism/_corpus_statistics_core.py": {
+      "sha256": "b23b4dcb31a0bd744bee21f573ecd13fb7b32a1aa1c104fdad7029bda1f64b1b",
+      "bytes": 251
+    }
+  },
+  "unqualified_attempts": {
+    "wrong_oracle": "A later release wheel was not the exact application Git-pin metadata oracle.",
+    "cwd_diagnostic": "A python -c probe from the core checkout imported source, not the installed SDK.",
+    "interpretation": "Neither attempt establishes an SDK packaging defect. The retained old package recipe also succeeded.",
+    "old_package_recipe": {
+      "directory": "095-retained-sdk-layout-recipe-red",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T17:41:32.052792+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "ece287c6f7e33a09dbc3e2ce38b34209d3d24495f457046253bcb8ab775232e4",
+          "bytes": 3665
+        },
+        "pid.json": {
+          "sha256": "9b2c51acba47e99f9479291c24cf81aac822fa7f625ae3487450ea8b9dff3400",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "a284d6deaeb4350338d2a6b42830e0476d9f160f959b64f8191be9304e26d18c",
+          "bytes": 161
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "c51c70a417c88264d36c5e34844867ca720d0084a4e2fa10fae87c930a1296b5",
+          "bytes": 61
+        }
+      }
+    },
+    "current_recipe": {
+      "directory": "096-installed-sdk-recipe-green",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T17:41:33.988714+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "867e2c4159344635621211ae261f6fbcfc1b79db1da88622462f9309bcfbe858",
+          "bytes": 4736
+        },
+        "pid.json": {
+          "sha256": "6e9f3d8064350ad581b30665666f0f03422e00368be08e5626bc2e5e6f683501",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "b7cfee2203f7fc1f4eea77d6e28d5a6db9961c9330c15ec121aaaca64e64c495",
+          "bytes": 615
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "b3753618d248ffbe9ae0ad1087cce9b71b76428e295c72273e1e145a707ff6c8",
+          "bytes": 61
+        }
+      }
+    },
+    "actual_missing_license_fixture": {
+      "directory": "118-installed-metadata-fixture-refusal",
+      "returncode": 1,
+      "completed_utc": "2026-11-03T18:12:54.927521+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "4256dab87a127737a198b46d28470b90519df1981250c48015cfca45430522e2",
+          "bytes": 3599
+        },
+        "pid.json": {
+          "sha256": "e4d85a97c549087ffa9d33f7f844fbc54e3903c1b32368b5228997ff20a6b0b3",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr.log": {
+          "sha256": "302091b5add1f48d3e9f492993b6b40dba687a8521b44f02cd9a669206f5f013",
+          "bytes": 961
+        },
+        "completion.json": {
+          "sha256": "0de70a05b9a0b941e8c150f7b0340080d97f452baaaeb212113978e954fedbcd",
+          "bytes": 61
+        }
+      }
+    }
+  },
+  "evidence_packet": "blake-application-docs-20261103T164526Z",
+  "self_binding_exclusion": "This record and companion methods qualification are excluded from their own content maps; final integration manifest binds both.",
+  "not_claimed": [
+    "New manuscript, native render, release, DOI or Downloads replacement",
+    "New scientific adjudication, reading credit, image census or rights clearance",
+    "Browser or accessibility certification",
+    "Deletion or qualification of protected worktree contents",
+    "Every external URL fetched or every historical dependency alert cleared"
+  ]
+}

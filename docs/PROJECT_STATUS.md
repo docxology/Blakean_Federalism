@@ -4,7 +4,7 @@ Status date: 3 November 2026. **Public 1.0.0 working-paper edition**.
 Daniel approved the exact reviewed edition for public distribution.
 [Publication plan](publication-plan.md).
 
-## Current candidate and distinct evidence
+## Published edition and distinct evidence
 
 Federalism owns its domain vocabulary, policies, judgments, source selections,
 graphical arguments and manuscript. Public Blake **0.7.0** at Git
@@ -14,8 +14,9 @@ The sibling application is independent. The actual template is pinned at
 
 | Evidence | Current observation and limit |
 |---|---|
-| Software | 821 normal-installed tests pass on Python 3.15.1; suite-only statement/branch coverage 92.17% application / 69.02% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
-| Installation | 106 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
+| Current source maintenance | 819 normal-installed tests pass; complete current-source coverage is 96.87% application / 67.27% tools, with changed fixture sources retained separately. See the [maintenance qualification](../research/methods-retirement-20261103.json). |
+| Published software | 821 normal-installed tests passed on Python 3.15.1; suite-only statement/branch coverage 92.17% application / 69.02% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
+| Published installation | 106 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
 | Native | Actual pinned template PDF/HTML writers completed. The PDF has 76 pages; title, cover DOI, physical page order, formal numbering and sources are checked independently of software tests. |
 | Cover DOI | [10.5281/zenodo.23900617](https://doi.org/10.5281/zenodo.23900617); exact published record and files are bound in [publication.json](../publication.json). |
 | Layout | Letter paper, 11 mm margins, 4 mm footer spacing, 10-point body text. All page text stays inside trim. |
@@ -24,8 +25,10 @@ The sibling application is independent. The actual template is pinned at
 
 Fifteen safeguards, fourteen original procedures, twenty-eight claimant records, pressure cases and both timing slices retain their inputs. The fresh report keeps all counts and domain records; four one-unit floating HHI deltas are separately disclosed.
 
-Every file under `docs/` is inventoried and checked for local links/current
-signposts in this revision. Dated study notes remain historical, not current
+The [maintenance record](../research/documentation-maintenance-20261103.json)
+inventories the complete tracked `docs/` scope and checks current signposts.
+[Maintenance guidance](maintenance.md) separates current instructions from
+retained source and worktree custody. Dated study notes remain historical, not current
 producer claims. The [predecessor status](../research/history/doi-review-v1-preimage/docs/PROJECT_STATUS.md)
 and its exact qualification indexes are preserved. Current source and native
 success do not establish whole-paper scientific acceptance, specialist review,

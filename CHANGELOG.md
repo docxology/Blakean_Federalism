@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased maintenance — 3 November 2026
+
+Current guides distinguish public publication, exact installed source and
+retained producers; post-install examples preserve normal environments.
+See [maintenance](docs/maintenance.md) and the
+[documentation binding](research/documentation-maintenance-20261103.json).
+The published PDF, release tag, corpus and reading ledgers are unchanged.
+The unused bootstrap renderer/statistics re-export are retired with exact
+preimages retained. Six real current-worker preflight controls and subprocess
+coverage replace reliance on the old renderer's tests. The maintained root
+lock updates only pypdf to 6.21.4. Qualification is recorded separately in the
+[maintenance receipt](research/methods-retirement-20261103.json).
+
+
 ## Public release — 3 November 2026
 
 Author-approved 1.0.0 GitHub/Zenodo distribution of the unchanged reviewed PDF.

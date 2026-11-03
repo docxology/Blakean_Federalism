@@ -1,6 +1,6 @@
 # Shared methods and authored evidence review
 
-The 0.19 application delegates corpus custody, passage schemas, regex
+Federalism delegates corpus custody, passage schemas, regex
 concordance, literal search, word-window proximity, statistics and offline search
 rendering to `blake.methods`. This repository owns the political query registry,
 fixed comparison grid, institutional models, readings and manuscript. Its
@@ -14,7 +14,7 @@ declared in [pyproject.toml](../pyproject.toml) and [uv.lock](../uv.lock), with
 its measured qualification in [verification.json](../research/verification.json).
 The moving upstream `main` is the development source, not an implicit repin of
 a completed application run. The core's
-[working paper](https://doi.org/10.5281/zenodo.23770249) documents shared
+[working paper](https://doi.org/10.5281/zenodo.23921364) documents shared
 infrastructure rather than the Federalism argument.
 
 | Shared core responsibility | Federalism responsibility |
@@ -76,7 +76,7 @@ No quotation or reading ledger is converted into a candidate decision.
 ## Prepare a private review queue
 
 ```bash
-uv run blakean prepare-evidence-review \
+uv run --locked --no-sync blakean prepare-evidence-review \
   --corpus local_data/corpus/blake-v0.2.0-qualified \
   --pin research/corpus-pin.json \
   --queries research/queries.json \
@@ -94,7 +94,7 @@ counterreading also require a verification locator. A label records an authored
 reading; it does not change source authorship or confer institutional authority.
 
 ```bash
-uv run blakean review-evidence \
+uv run --locked --no-sync blakean review-evidence \
   --run analysis_output/evidence-candidates-001 \
   --run-sha256 SHA256_RETAINED_FROM_THE_COMPLETED_RUN \
   --decisions analysis_output/authored-reading.csv \

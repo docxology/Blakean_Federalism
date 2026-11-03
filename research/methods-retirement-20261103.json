@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "INSTALLED_MAINTENANCE_QUALIFIED",
+  "scope": "Obsolete renderer/re-export retirement, bounded dependency patch and actual current-worker controls; no new native output.",
+  "base_commit": "78e29dd6c58b81f3795742e7a07886bd3c977297",
+  "removal_accounting": {
+    "retired_functions": [
+      "test_pdf_is_byte_identical_across_independent_input_locations",
+      "test_real_geometry_rejects_overflow",
+      "test_real_source_and_pdf_roundtrip",
+      "test_renderer_output_boundary",
+      "test_renderer_rejects_symlink_output",
+      "test_unsupported_markdown_and_links_fail_explicitly"
+    ],
+    "retired_parametrized_cases": 8,
+    "baseline_manuscript_cases": 94,
+    "remaining_expected_manuscript_cases": 86,
+    "retained_test_functions_ast_identical": [
+      "test_acquisition_preserves_verified_inputs_and_rejects_unsafe_records",
+      "test_duplicate_and_missing_quotation_multiplicities_fail",
+      "test_layout_requires_the_selected_four_plate_images",
+      "test_new_selection_requires_exact_six_plates_while_old_epoch_stays_valid",
+      "test_parser_keeps_repeated_anchors_and_excludes_editorial_type",
+      "test_plate_epoch_requires_every_identified_impression",
+      "test_real_negative_controls",
+      "test_schema_rejects_unknown_fields_and_negative_occurrence",
+      "test_unsafe_source_urls_fail_before_rendering",
+      "test_whitespace_cannot_supply_image_rights"
+    ],
+    "preimages": {
+      "tools/render_manuscript.py": {
+        "sha256": "44ab71c3b8e679e00370273fe1f0a730a6f2cf48a0d4102c0f391b543103b4fd",
+        "bytes": 20880
+      },
+      "src/blakean_federalism/_corpus_statistics_core.py": {
+        "sha256": "b23b4dcb31a0bd744bee21f573ecd13fb7b32a1aa1c104fdad7029bda1f64b1b",
+        "bytes": 251
+      },
+      "tests/test_manuscript.py": {
+        "sha256": "c4e42beaa5191404a421a3362e5da4a7c1d2d6d2ff172f7bf643f075187d697e",
+        "bytes": 12254
+      },
+      "docs/manuscript/README.md": {
+        "sha256": "a36a02e522215909334b7d339c2a6daac2d38468a8f0fca8a0c327ba13cc5550",
+        "bytes": 21597
+      }
+    },
+    "published_pdf_unchanged": true
+  },
+  "collection_delta": {
+    "baseline": 821,
+    "current": 819,
+    "removed": [
+      "tests/test_manuscript.py::test_pdf_is_byte_identical_across_independent_input_locations",
+      "tests/test_manuscript.py::test_real_geometry_rejects_overflow",
+      "tests/test_manuscript.py::test_real_source_and_pdf_roundtrip",
+      "tests/test_manuscript.py::test_renderer_output_boundary[../outside]",
+      "tests/test_manuscript.py::test_renderer_output_boundary[analysis_output/../escape]",
+      "tests/test_manuscript.py::test_renderer_output_boundary[other/folder]",
+      "tests/test_manuscript.py::test_renderer_rejects_symlink_output",
+      "tests/test_manuscript.py::test_unsupported_markdown_and_links_fail_explicitly"
+    ],
+    "added": [
+      "tests/test_template_worker.py::test_missing_preparation_never_creates_native_output",
+      "tests/test_template_worker.py::test_unqualified_template_is_refused_before_native_import[git_missing]",
+      "tests/test_template_worker.py::test_unqualified_template_is_refused_before_native_import[template_dirty]",
+      "tests/test_template_worker.py::test_unqualified_template_is_refused_before_native_import[template_pin]",
+      "tests/test_template_worker.py::test_unqualified_template_is_refused_before_native_import[unsupported_template_source_mode]",
+      "tests/test_template_worker.py::test_worker_help_needs_no_stage_or_native_writer"
+    ]
+  },
+  "source_changes": {
+    "removed": [
+      "tools/render_manuscript.py",
+      "src/blakean_federalism/_corpus_statistics_core.py"
+    ],
+    "producer_closure": "report.py drops only the retired re-export filename; active shared statistical producers remain bound.",
+    "current_worker": "Six real CLI/preflight cases exercise supported template worker paths before native writers; no mocks or new native grant.",
+    "coverage_configuration": "coverage.py subprocess patch collects real child counters. All current package/tool modules remain in their own denominators."
+  },
+  "dependency": {
+    "changed_packages": [
+      "pypdf"
+    ],
+    "old_version": "6.21.2",
+    "new_version": "6.21.4",
+    "other_package_records_byte_equivalent_parsed": true,
+    "upstream_release": "https://github.com/py-pdf/pypdf/releases/tag/6.21.4",
+    "reason": "Seven current-lock advisories report fixed pypdf6.21.3/6.21.4. Twenty-one separate archived-lock alerts retain historical producers.",
+    "scope": "Plan amendment: bounded patch within unchanged declared constraint; no SDK, Python, version, analytical or paper-output change."
+  },
+  "full_suite": {
+    "passed": 819,
+    "receipt": {
+      "directory": "113-federalism-final-installed-full-suite",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:08:38.136996+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "360f861625445eaf4a4178a5e3d866ce9bdda2a51c8bdb8c7cf86a39cf52fa7e",
+          "bytes": 3942
+        },
+        "pid.json": {
+          "sha256": "2ed02f2ba77070d01fb5703593899e124480691162ca4021f759a90d0b8ae881",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "4c54e9d86e89f9195690e82d9269d7b3f95726cd269cf2f50449c96e1e6acd7c",
+          "bytes": 56557
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "fdc79b8a190fbd329eb533ffd5a8a1d5106a9efb9416896ca65ceb9bbf938be9",
+          "bytes": 61
+        }
+      }
+    },
+    "warnings": "ResourceWarning and pytest unraisable warnings treated as errors",
+    "subsequent_change": "After the 819-test full suite, one unused test import was removed (86 manuscript tests reran), then the reviewer-noted unrelated help-test fixture/assertion was removed (all six current-worker cases reran). Production runtime/resource bytes and node IDs are unchanged.",
+    "test_delta": {
+      "directory": "136-federalism-final-manuscript-test-delta",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:36:50.676390+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "df7b4cfa307eac93c99938251640083f03b5283f6ec2ab6d9636d1fae521309a",
+          "bytes": 3737
+        },
+        "pid.json": {
+          "sha256": "312b910409693f59bd02d2b5d82a0fecea9bb133254147c63da4126339df3d03",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "e8dfcd332a20012aeff700973966437364f5a7451caf1a65be05b91a25a48b0e",
+          "bytes": 179
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "122a4ef15c9eb1dbd23e9f1c370443170e2063597fb38c5134db4990f275cd04",
+          "bytes": 61
+        }
+      }
+    },
+    "collection": {
+      "directory": "137-federalism-final-collection",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:36:53.473136+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "52e81ffdb31463b5b773a79f296887a8809b600eab0ac1584e5504de5c1f0e39",
+          "bytes": 3631
+        },
+        "pid.json": {
+          "sha256": "08442dab66374f93d9b72870c1954e2c35de8a2b96c02c477441568f597eab07",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "10b68436fc350d67aab7c5bab85f6ed15ee9cee578fcd28a19a3574097f4516f",
+          "bytes": 76496
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "9d4019c631acc87e73015741e64a366a7665ee04c7581fe5f28857a18a623c80",
+          "bytes": 61
+        }
+      }
+    }
+  },
+  "coverage": {
+    "complete_current_source": {
+      "application": {
+        "prefix": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism/.venv/lib/python3.15/site-packages/blakean_federalism",
+        "files": 91,
+        "numerator": 5132,
+        "denominator": 5298,
+        "percent": 96.86674216685542,
+        "totals": {
+          "covered_lines": 4187,
+          "num_statements": 4290,
+          "num_branches": 1008,
+          "covered_branches": 945,
+          "missing_branches": 63
+        },
+        "all_current_python_modules_included": true
+      },
+      "tools": {
+        "prefix": "/Volumes/GitVault/Username/docxology/Public/Blakean_Federalism/tools",
+        "files": 5,
+        "numerator": 148,
+        "denominator": 220,
+        "percent": 67.27272727272727,
+        "totals": {
+          "covered_lines": 120,
+          "num_statements": 170,
+          "num_branches": 50,
+          "covered_branches": 28,
+          "missing_branches": 22
+        },
+        "all_current_python_modules_included": true
+      },
+      "raw_database_scope": "Full raw file data also contains deliberately changed source-overlay fixtures. Their distinct source identities remain retained and are not aliased into the current product.",
+      "raw_files": 278
+    },
+    "application_floor": 90,
+    "tools_floor": 60,
+    "application_gate": {
+      "directory": "120-federalism-current-app-floor",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:15:26.813183+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "0461c6c6f6357116a55d72e150669876045b67e9af2a1980ad56d11836dfe6ec",
+          "bytes": 3859
+        },
+        "pid.json": {
+          "sha256": "dd3b3f0c188b18c3bfe75bdb027b7fd098dcbbef8defc9bcca30401e526bcbcf",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "7357b8d30d11b915208b7da6e7ccc0535368bd70b8be2dd590053168e96fe8fe",
+          "bytes": 11875
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "d1851ff101994d250f6f730516340e32307e1cb2b444495ea5c0a3579a3b2cbf",
+          "bytes": 61
+        }
+      }
+    },
+    "tools_gate": {
+      "directory": "121-federalism-current-tools-floor",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:15:27.189673+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "8fdbe281ee14abe3d02b55fa9123cd378dc31dc42e521c16b91d3108e87671c5",
+          "bytes": 3811
+        },
+        "pid.json": {
+          "sha256": "30c5beaf2c75ef03cbb5f634b58f87be6585ae1ab8ed005af21bc352246a86cb",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "aa5107d2e76489949b9a59726dfdb55993def7578c08dce186b68f6975d6ff10",
+          "bytes": 648
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "0b1087f56684b4c587a4b446c7a98613b4690ef5fda1064e3a591ca75ef581da",
+          "bytes": 61
+        }
+      }
+    },
+    "raw_database": {
+      "sha256": "818acddd716423af7adb9fa4bfe39076320f0012a7994e3d239b9a74c9243785",
+      "bytes": 524288
+    },
+    "full_raw_json": {
+      "sha256": "b0e970be7e13fc6f2a2704223a60a0b33290e4f451c12fe2bb503c9a32a3cdcb",
+      "bytes": 1440511
+    },
+    "prior_tools_red": "Earlier suite without effective child measurement failed tools floor at 30%; raw output retained. No floor lowered."
+  },
+  "quality": {
+    "ruff": {
+      "directory": "159-federalism-final-review-lint",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:48:29.024485+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "91b41d4ba45bb9a90e2e6181b4e09531be4833e17267188881bfe647e4b351ef",
+          "bytes": 3604
+        },
+        "pid.json": {
+          "sha256": "d3d06beff19d9f32c66343d608fb22412f06a75d243959c5e2bcbfaa90799a4b",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+          "bytes": 19
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "0b01b0d5241674a3bcbdda651f5161ae429fadc572b8e81d313a30bc2dfae629",
+          "bytes": 61
+        }
+      }
+    },
+    "format": {
+      "directory": "160-federalism-final-review-format",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:48:29.135621+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "8618dca303ca4442a939f2c41bc13badf4f83ec2c2298eee3c6637f8ba6bead6",
+          "bytes": 3620
+        },
+        "pid.json": {
+          "sha256": "86b2373e332119bfd444fea9a9eee591e5f127660efacdcce39ad0b4a67a6b1e",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "80e3689d562bbda67627034f54468d4cf3dfc637953d57d33acae620be3028c9",
+          "bytes": 28
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "7f3db67ffd2c2abdb1df5d6317ba5c1466483ebd43dbf977d14dc31b79dcbe9d",
+          "bytes": 61
+        }
+      }
+    },
+    "strict_types": {
+      "directory": "161-federalism-final-review-strict-types",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:48:33.561300+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "912b1ccc591b85c571cebbc6fc29fb73b510c242428ae8065447d1edd218fa4d",
+          "bytes": 3562
+        },
+        "pid.json": {
+          "sha256": "004b665ed319212890b2068d0d81638ae8990805af8516a2d45ca87db309d82a",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "56882e01cb80173ef053c4096e4ee43e3123a15f5c0a06715f96988d48fbd91c",
+          "bytes": 30
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "49eea1ddf16e42fdcfaa22ae8ad1090406d1b8750be9007d7af27e767f62b037",
+          "bytes": 61
+        }
+      }
+    }
+  },
+  "normal_installed_source": {
+    "sha256": "7ff34653b3d3b20fcd4c73de98ee52ada9cb883d9424546df460f4aad3fe0513",
+    "bytes": 39215
+  },
+  "evidence_packet": "blake-application-docs-20261103T164526Z",
+  "not_claimed": [
+    "New manuscript, native render, release, DOI or Downloads replacement",
+    "New scientific adjudication, reading credit, image census or rights clearance",
+    "Browser or accessibility certification",
+    "Deletion or qualification of protected worktree contents",
+    "Every external URL fetched or every historical dependency alert cleared"
+  ],
+  "post_review_delta": {
+    "finding": "LOW: unrelated tmp_path fixture and emptiness assertion in worker help test",
+    "fix": "Remove only that fixture parameter and assertion; AST comparison confirms all other test code unchanged.",
+    "worker_tests": {
+      "directory": "158-federalism-current-worker-review-delta",
+      "returncode": 0,
+      "completed_utc": "2026-11-03T18:48:28.765886+00:00",
+      "files": {
+        "prelaunch.json": {
+          "sha256": "3233b531c8a0abacd0bac8aa7253a46af8d729f146c7c0fc6e9b20186be10bd5",
+          "bytes": 3739
+        },
+        "pid.json": {
+          "sha256": "8353378b2ece357e131cd6c5049a7f301d3b4039f4407c6d06340b3b460e6b43",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "25da28d88af4e60c7bae5f383eb99a1c3b6a24985682e90c35768bf4d17ad03f",
+          "bytes": 98
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "9771d8326d2cbbacd1ed8a2278f078cd783cfcbd9dd712cb93aed68edb1f73c7",
+          "bytes": 61
+        }
+      }
+    },
+    "independent_approval": {
+      "sha256": "e1cae253582243a51e5be00b857f7a1e0f9d4b731421666ad784eeb4262ea15e",
+      "bytes": 581
+    },
+    "scope": "The independent verdict binds the prior exact candidate. This small test-only correction is owner-qualified; no new independent delta approval is claimed."
+  }
+}
