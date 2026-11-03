@@ -1,16 +1,16 @@
 # Blakean Federalism
 
-Private research on **composition without capture**: poetic states, persons,
+Research on **composition without capture**: poetic states, persons,
 temporal national formations and coercive jurisdictions remain distinct. Several
 nations can coexist without becoming one nation. A literary interpretation
 supplies no automatic institutional warrant.
 
 Start with [project status](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article](docs/manuscript/states-change.md),
-the [current private working-draft PDF](Blakean_Federalism.pdf) and
+the [published 1.0.0 working-paper PDF](Blakean_Federalism.pdf) and
 the [documentation map](docs/README.md).
 
-## Unpublished 1.0.0 review candidate
+## Public 1.0.0 edition
 
 Federalism **1.0.0** selects public Blake **0.7.0**, exact Git
 `263d7c83abe6f1309a64af3285a683c1b7672269`, through
@@ -28,7 +28,7 @@ shows selection, application, all fifteen safeguards and recording; the corpus
 graphic adds leave-one-family ranges on a common frequency scale. These are
 declared comparisons and hypothetical cases, not empirical probabilities.
 
-Both the repository and candidate remain private. DOI **10.5281/zenodo.23900617** is reserved in an unsubmitted Zenodo draft with no uploaded files; it is not yet a registered public record. Final author approval is required before public deposit, visibility changes or a `v1.0.0` tag/release. [Publication plan](docs/publication-plan.md).
+The author-approved 1.0.0 edition is published at [Zenodo](https://doi.org/10.5281/zenodo.23900617) and [GitHub v1.0.0](https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0). [Publication facts](publication.json) bind the exact approved PDF; [distribution terms](LICENSE-PAPER.md) preserve authored and third-party rights. Publication does not establish specialist scientific acceptance.
 
 The [timing atlas](docs/research/review-timing-atlas.md) retains **21,454
 stipulated configurations and 42,908 person records** in two declared slices.
@@ -143,7 +143,15 @@ observations remain dated evidence in the retained ledgers; search adds no
 reading credit.
 
 Provider bodies, images, indexes, original briefs, full concordances and
-scholarly PDFs stay in authorized ignored custody. Ordinary private-main
+scholarly PDFs stay in authorized ignored custody. Ordinary main
 publication and Downloads delivery require exact final source/output bindings
-and fresh remote readback. They grant no public redistribution permission.
+and fresh remote readback. Public distribution covers the selected approved payload; it does not relicense restricted inputs.
 See [privacy](PRIVACY.md).
+
+## Related projects and editions
+
+| Project | GitHub | Zenodo |
+|---|---|---|
+| Corpus and shared methods | [blake](https://github.com/docxology/blake) | [Paper 0.5.0](https://doi.org/10.5281/zenodo.23921364) |
+| Invertebrate readings and concordance | [Blakean Entomology](https://github.com/docxology/Blakean_Entomology) | [1.0.0](https://doi.org/10.5281/zenodo.23900583) |
+| Political argument and institutional models | [Blakean Federalism](https://github.com/docxology/Blakean_Federalism) | [1.0.0](https://doi.org/10.5281/zenodo.23900617) |

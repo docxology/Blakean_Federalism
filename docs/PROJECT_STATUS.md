@@ -1,7 +1,7 @@
 # Project status and scoped next work
 
-Status date: 2 November 2026. **Unpublished 1.0.0 review candidate**.
-The repository stays private; final author approval precedes public releases.
+Status date: 3 November 2026. **Public 1.0.0 working-paper edition**.
+Daniel approved the exact reviewed edition for public distribution.
 [Publication plan](publication-plan.md).
 
 ## Current candidate and distinct evidence
@@ -17,10 +17,10 @@ The sibling application is independent. The actual template is pinned at
 | Software | 821 normal-installed tests pass on Python 3.15.1; suite-only statement/branch coverage 92.17% application / 69.02% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
 | Installation | 106 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
 | Native | Actual pinned template PDF/HTML writers completed. The PDF has 76 pages; title, cover DOI, physical page order, formal numbering and sources are checked independently of software tests. |
-| Cover DOI | `10.5281/zenodo.23900617`; reserved in an unsubmitted draft, zero uploaded files. Registration/resolution awaits approved publication. |
+| Cover DOI | [10.5281/zenodo.23900617](https://doi.org/10.5281/zenodo.23900617); exact published record and files are bound in [publication.json](../publication.json). |
 | Layout | Letter paper, 11 mm margins, 4 mm footer spacing, 10-point body text. All page text stays inside trim. |
 | Output review | Exact PDF/HTML hashes, owner page/browser inspection and the separate independent verdict are recorded in the [current qualification](../research/review-candidate-1.0.0.json). Earlier review/failure records remain unchanged. |
-| Git / Downloads | Private-main integration and byte-verified review PDF delivery are distinct later events in the task's publication/delivery receipts. No public deposit, visibility change, release or tag is authorized before final approval. |
+| Git / Downloads | Public main, versioned release, supported GitVault relocation and Downloads delivery have separate verified receipts. See [publication facts](../publication.json). |
 
 Fifteen safeguards, fourteen original procedures, twenty-eight claimant records, pressure cases and both timing slices retain their inputs. The fresh report keeps all counts and domain records; four one-unit floating HHI deltas are separately disclosed.
 
@@ -46,5 +46,5 @@ The [verification index](../research/verification.json) keeps those claims separ
 
 Category-theoretic and collective active-inference extensions remain optional
 research after their institutional assumptions and operations are specified.
-Private Git delivery supplies no public redistribution clearance.
+Public distribution does not expand third-party reuse rights.
 [Privacy and custody](../PRIVACY.md).

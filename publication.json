@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "publication_date": "2026-11-03",
+  "repository": "https://github.com/docxology/Blakean_Federalism",
+  "repository_branch": "main",
+  "github_release": "https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0",
+  "author_approval": "Explicit GitHub/Zenodo publication and Public/ relocation authorization, 2026-11-03",
+  "zenodo": {
+    "record_id": 23900617,
+    "doi": "10.5281/zenodo.23900617",
+    "url": "https://zenodo.org/records/23900617"
+  },
+  "pdf": {
+    "repository_path": "Blakean_Federalism.pdf",
+    "sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+    "pages": 76,
+    "bytes": 11412409
+  },
+  "source_base_commit": "7a87c9f2d92100a5f9999de04e2276c946bfa4c9",
+  "source_identity_note": "The release source archive binds its own file map; Git commit/tag and actual publication/download readbacks are recorded separately after publication. No circular claim that the archive contains its future Git commit.",
+  "native_template": "efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8",
+  "original_review": "research/review-candidate-1.0.0.json",
+  "sdk": {
+    "version": "0.7.0",
+    "git_commit": "263d7c83abe6f1309a64af3285a683c1b7672269"
+  },
+  "distribution": {
+    "authored_research": "Copyright reserved; author-authorized public distribution",
+    "zenodo_license": "other-closed",
+    "upstream_blake": "MIT",
+    "third_party": "Original terms retained"
+  },
+  "scope": "Selected approved working paper, authored source, aggregate/domain outputs and rendering inputs. Excludes provider corpus, indexes, source captures, secrets and raw private receipts. Publication is not peer review or new contextual/image adjudication."
+}

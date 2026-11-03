@@ -1,9 +1,9 @@
 {
-  "schema_version": 28,
+  "schema_version": 29,
   "version": "1.0.0",
-  "qualification_epoch": "doi-graphical-review-20261102",
+  "qualification_epoch": "public-release-20261103",
   "qualification": "research/review-candidate-1.0.0.json",
-  "current_source_sha256": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679",
+  "current_source_sha256": "e02043230d0aca559588075613f65a2c7b03cdaee1898f8ec395a7f0cfa24b25",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
   "current_native": {
     "epoch": "analysis_output/publication/doi-review-native-1.0.0-20261103-01",
@@ -58,14 +58,12 @@
     "scope": "Actual canonical feature installation and bounded installed controls before ordinary protected-main integration; full software suites retain their original staging source/runtime evidence."
   },
   "public_release": {
-    "required_visibility": "PRIVATE",
-    "author_approval": "REQUIRED",
-    "zenodo_publication": "HELD",
-    "files_uploaded": 0,
-    "tags_and_releases": "HELD",
-    "core_versioned_release": "HELD_SEPARATELY"
+    "required_visibility": "PUBLIC",
+    "author_approval": "APPROVED_2026-11-03",
+    "publication_record": "publication.json",
+    "scope": "Selected unchanged author-approved edition. Actual Zenodo/GitHub/relocation/download readback remains separate from source and original native qualification."
   },
-  "preserved_previous_index": "research/history/doi-review-v1-preimage/research/verification.json",
+  "preserved_previous_index": "research/history/public-release-20261103-preimage/research/verification.json",
   "scope": "Source/software/native/independent/scientific/rights/hostedCI/public-release evidence are separate.",
   "sha256": "5828520546fab75c6347e0dabbebb084d3a72fa3137df824ac0a9aeff64914bb",
   "delivery": {
@@ -77,13 +75,14 @@
       "previous_sha256": null,
       "retained_previous": null,
       "review": "APPROVE_FOR_PRIVATE_AUTHOR_REVIEW",
-      "publication": "Unpublished; author approval required before any public release",
+      "publication": "Same approved bytes selected for public distribution on 2026-11-03.",
       "verified": true
     },
     "private_main": {
       "receipt": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/coordination/federalism-publication-final.json",
       "scope": "Actual later merge/remote/currentness event; do not infer completion before its receipt exists"
     },
-    "public_release": "HELD for final author approval"
-  }
+    "public_release": "Author-approved public edition; see publication.json and the separately retained actual-event receipts."
+  },
+  "approved_render_source_sha256": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679"
 }

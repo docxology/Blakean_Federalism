@@ -1,6 +1,6 @@
 # Federalism application guidance
 
-This private repository owns the Federalism argument, political vocabulary,
+This repository owns the Federalism argument, political vocabulary,
 institutional models, authored readings and manuscript. The public
 [Blake repository](https://github.com/docxology/blake) owns corpus custody and
 generic methods. Extend a shared method upstream; keep the question, domain
@@ -48,7 +48,7 @@ separate from the fixed-duty order on the original fourteen procedures.
 - Run the environment and verification commands in [README.md](README.md).
   Use real files and real CLI/refusal controls. Read separate application and
   tool coverage totals; a combined headline does not establish both floors.
-- Current unpublished 1.0.0 software selects Blake 0.7.0 at Git
+- Current 1.0.0 software selects Blake 0.7.0 at Git
   `263d7c83abe6f1309a64af3285a683c1b7672269`. Qualify the actual
   installed package and new native output independently of retained epochs.
 - Keep the original fifteen safeguards separate from the person-specific review
@@ -63,7 +63,7 @@ separate from the fixed-duty order on the original fourteen procedures.
 - Before delivery, bind the actual code, dependency, manuscript and output
   identities; qualify installed execution and rendered pages in their own
   scopes. Check tracked payloads, preserve provider expression locally, and
-  verify the ordinary private-main push and remote head.
+  verify the ordinary main push and remote head.
 
 ## Task closure
 
@@ -73,9 +73,11 @@ responsibility and a checkable next action. Keep editorial feedback, specialist
 criticism, real-browser behavior, copy collation and rights clearance separate
 from completed software and rendering work.
 
-## Public release hold
+## Public release and continuing custody
 
-The 1.0.0 edition is an unpublished private review candidate. Its cover DOI is
-reserved, not a published deposit. Final author approval is required before
-Zenodo upload/publication, changing visibility, or creating v1.0.0 tags/releases.
-Core Blake release approval is separate. Follow the [publication plan](docs/publication-plan.md).
+Daniel approved this exact 1.0.0 edition and public GitHub/Zenodo distribution
+on 3 November 2026. [Publication facts](publication.json) and the
+[release guide](docs/publication-plan.md) separate that event from software,
+native-output and scientific evidence. Work in the Public/ canonical slot;
+preserve the original private-path producer receipts and all ignored data.
+New editions require their own source, output, review and publication records.

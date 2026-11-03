@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Unpublished v1.0.0 review candidate. The paper DOI is reserved; public release awaits final author approval."
+type: software
+title: Blakean Federalism
+version: 1.0.0
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+repository-code: "https://github.com/docxology/Blakean_Federalism"
+license: LicenseRef-Proprietary

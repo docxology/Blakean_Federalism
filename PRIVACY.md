@@ -1,36 +1,29 @@
-# Private research and source custody
+# Public edition and private corpus custody
 
-This repository is private. Its research code, project-authored synthesis, schemas, bibliographic metadata and aggregate counts may be committed here. Private visibility does not grant redistribution rights.
+This repository and its 76-page [1.0.0 paper](Blakean_Federalism.pdf) are public
+under the author's explicit 3 November 2026 authorization. The selected PDF
+SHA-256 is `14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52`. [Zenodo](https://doi.org/10.5281/zenodo.23900617), [publication facts](publication.json) and
+[release scope](docs/publication-plan.md) identify the distributed edition.
 
-All recovered Blake texts, XML, source images, indexes, copied search projections, user attachment originals, downloaded author-paper extractions, full concordances, backups and generated reports remain under ignored `local_data/` or `analysis_output/`. No source corpus symlink, hard link, submodule, Git LFS object or provider-image mosaic is committed. The upstream Blake recovery is read-only.
+Provider texts, full concordances, review queues, copied corpus bundles,
+restricted scholarly captures and retained raw receipts remain ignored in
+local_data/ or analysis_output/. Public visibility of the authored paper
+does not publish or relicense these stores. A clone recovers source, authored
+research and selected aggregate outputs, not the corpus. No corpus symlinks,
+hard links, submodules, LFS source files or bulk provider captures belong in Git.
 
-A local import copies the hash-bound text-search projection into an independent ignored directory. It does not duplicate the 8.8 GB image/source capture or claim to restore missing images. The original recovered capture and backup remain in the Blake project. Import receipts bind the upstream source, producer, index and all consumed inputs. Moving the project requires reacquiring these inputs with authorization, or copying the ignored local research data separately; a Git clone alone does not recover the corpus.
+The upstream [Blake project](https://github.com/docxology/blake) owns corpus
+custody. Imports preserve independent hash-bound snapshots. The corpus pin,
+source roles, authorship, locators and original offsets retain their actual
+meaning; publication supplies no new contextual decisions or image census.
+Changed inputs require new pins and output epochs. Git is not a backup of
+ignored data. Selected brief quotations, attributed original impressions,
+opaque-ID decisions and authored aggregate figures are the narrow public
+payload. All third-party terms and [reserved rights](LICENSE-PAPER.md)
+remain attached to their objects.
 
-Original scope attachments are preserved locally with hashes. Their complete-reading assertions describe the earlier scope author's reported work, not a new claim that this session reread every paper, image, video or cited book. Current-session source inspections have separate statuses.
-
-No TimeLock unlock was performed. The earlier bounded absence report is superseded for this machine by the October 23 recovery, not erased as an inaccurate claim about the earlier checkout.
-
-## Reviewed manuscript in private Git
-
-The explicitly selected working-paper PDF, [Blakean_Federalism.pdf](Blakean_Federalism.pdf),
-is tracked here as a PRIVATE research deliverable. Its exact reviewed SHA-256 is
-`ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136`
-for the current 79-page editorial edition, titled *States Change*.
-[Current verification](research/verification.json) and
-[native qualification](research/visual-revision-20261102.json) bind its software,
-analytical, selected-reading and output evidence separately. The earlier 74-page
-PDF `c793187d45c2b91e3e96ed5da5a05b821db9666b189022bb2f7c6f36015b75c1`
-keeps its [pressure-04 qualification](research/paper-advancement-20261029.json).
-Earlier editions, corpus pins, reading ceilings and failures remain retained.
-
-This narrow exception covers the reviewed paper with its attributed selected
-image witnesses and project-authored aggregate figures; it does not authorize
-adding raw image captures, full provider texts, corpus bundles or other ignored
-research outputs. Source captures and their provider terms remain in local
-custody. Repository privacy is mandatory for this delivery and does not confer
-redistribution rights. Any public release needs a separate item-level rights
-and scholarly review; this private-main integration is not that clearance.
-
-The previous selected PDF remains byte-for-byte in the retained initial-source
-packet and prior private Git history. The current narrow PDF exception does not
-add raw source captures or expand any complete-reading or redistribution claim.
+Earlier private editions, original producer paths, failed attempts and
+reading ceilings remain retained. The canonical working location is now
+GitVault Username/docxology/Public/Blakean_Federalism; the supported relocation preserves
+the complete ignored stores and linked-worktree custody. Historical Private/
+paths are provenance locators, not current checkout instructions.
