@@ -1,9 +1,9 @@
 {
-  "schema_version": 29,
+  "schema_version": 30,
   "version": "1.0.0",
-  "qualification_epoch": "public-release-20261103",
+  "qualification_epoch": "verified-public-delivery-20261103",
   "qualification": "research/review-candidate-1.0.0.json",
-  "current_source_sha256": "e02043230d0aca559588075613f65a2c7b03cdaee1898f8ec395a7f0cfa24b25",
+  "current_source_sha256": "3ef2380183da57410871b7c409da487504c67c9887dd2131cd8c82682d052f1b",
   "shared_sdk_commit": "263d7c83abe6f1309a64af3285a683c1b7672269",
   "current_native": {
     "epoch": "analysis_output/publication/doi-review-native-1.0.0-20261103-01",
@@ -61,7 +61,8 @@
     "required_visibility": "PUBLIC",
     "author_approval": "APPROVED_2026-11-03",
     "publication_record": "publication.json",
-    "scope": "Selected unchanged author-approved edition. Actual Zenodo/GitHub/relocation/download readback remains separate from source and original native qualification."
+    "scope": "Selected unchanged author-approved edition. Actual Zenodo/GitHub/relocation/download readback remains separate from source and original native qualification.",
+    "verification_receipt": "research/publication-20261103.json"
   },
   "preserved_previous_index": "research/history/public-release-20261103-preimage/research/verification.json",
   "scope": "Source/software/native/independent/scientific/rights/hostedCI/public-release evidence are separate.",
@@ -84,5 +85,11 @@
     },
     "public_release": "Author-approved public edition; see publication.json and the separately retained actual-event receipts."
   },
-  "approved_render_source_sha256": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679"
+  "approved_render_source_sha256": "2b5b2e89360b3bdd8932d3b7d0a8773e71941cd8d808279c46f9618ed9939679",
+  "canonical_public_consumer": {
+    "receipt": "research/publication-20261103.json",
+    "normal": true,
+    "exact_release_members": 106,
+    "entrypoints": "Declared installed console scripts actually passed --help"
+  }
 }

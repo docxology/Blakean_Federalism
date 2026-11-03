@@ -155,3 +155,6 @@ See [privacy](PRIVACY.md).
 | Corpus and shared methods | [blake](https://github.com/docxology/blake) | [Paper 0.5.0](https://doi.org/10.5281/zenodo.23921364) |
 | Invertebrate readings and concordance | [Blakean Entomology](https://github.com/docxology/Blakean_Entomology) | [1.0.0](https://doi.org/10.5281/zenodo.23900583) |
 | Political argument and institutional models | [Blakean Federalism](https://github.com/docxology/Blakean_Federalism) | [1.0.0](https://doi.org/10.5281/zenodo.23900617) |
+
+[Publication and reproduction verification](docs/public-reproduction.md) records the completed publication and separates
+immutable release inputs from later documentation and remaining research.
