@@ -163,21 +163,13 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             "authority."
         ),
     )
-    columns = (
-        (20, 151, "BLAKE'S SCENE"),
-        (184, 178, "WHAT MAKES IT CONTESTED"),
-        (375, 145, "THIS ARTICLE ASKS"),
-    )
-    for x, width, title in columns:
-        cell(c, title, x, 432, width, 16, size=9, color=RED)
     rows = (
         (
             source.verse("Q31"),
             "Jerusalem 11:5 / E154 (Q31)",
             (
-                "Los also compels labor. Clark and White offer different readings of his "
-                "system-making "
-                "declaration."
+                "Los also compels labor: Clark (pp. 69-70) and White (pp. 116-117) "
+                "read his system-making declaration differently."
             ),
             "Can people within a system challenge its maker?",
         ),
@@ -185,8 +177,8 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             source.verse("Q14", 2, 4),
             "Jerusalem 27:87-88 / E173 (Q14)",
             (
-                "Fallon's national openness confronts Mellor's and Kaplan's objections "
-                "concerning unequal agency."
+                "Fallon (ms. 10-12) reads national openness; Mellor (148-153) and "
+                "Kaplan (82 n. 27) question unequal agency."
             ),
             "Who can speak, create, revise and refuse?",
         ),
@@ -194,8 +186,8 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             source.verse("Q37"),
             "Marriage 24 / E44 (Q37)",
             (
-                "One rule can impose unequal burdens. Heppner and Frosch distinguish the "
-                "person from the claim made for them."
+                "One rule can impose unequal burdens: Heppner (55-56, 59) and "
+                "Frosch (44) separate a person from claims made for them."
             ),
             "Who bears a rule's costs, and whose needs does it meet?",
         ),
@@ -203,8 +195,8 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             source.verse("Q40"),
             "Marriage 20 / E42 (Q40)",
             (
-                "The narrator also compels the Angel's vision. Simpson and Fraser give refusal "
-                "and organized opposition political force."
+                "The narrator compels the Angel's vision. Simpson (67-78) and Fraser "
+                "(122-124) give refusal and organized opposition political force."
             ),
             "Can dissent change a decision while dissenters retain their rights?",
         ),
@@ -212,8 +204,8 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             source.verse("Q38", 2, 3),
             "Jerusalem 45:35 / E194 (Q38)",
             (
-                "Los restrains vengeance against the already injured. Shachar asks where the "
-                "burden of obtaining protection falls."
+                "Los restrains vengeance against the injured; Shachar (75-77) asks "
+                "who bears the burden of obtaining protection."
             ),
             "Who receives protection and material support during review?",
         ),
@@ -221,20 +213,23 @@ def readings_page(c: Canvas, source: AbstractSources) -> None:
             source.verse("Q39", 2, 3),
             "America 6:12 / E53 (Q39)",
             (
-                "Release can leave dependence intact. Moyer follows labor, material provision "
-                "and control of production."
+                "Release can leave dependence intact. Moyer (paras. 3-10, 14-16) "
+                "follows labor, provision and control of production."
             ),
             "What makes leaving possible without losing home, livelihood or standing?",
         ),
     )
     for index, (verse, locator, reading, question) in enumerate(rows):
-        top = 406 - index * 59
-        cell(c, verse, 20, top, 151, 40, size=9.4, font="BF-Serif-Italic")
-        cell(c, locator, 20, top - 42, 151, 14, size=8.6, color=MUTED)
-        cell(c, reading, 184, top, 178, 55, size=9)
-        cell(c, question, 375, top, 145, 55, size=9.3)
-        if index < len(rows) - 1:
-            line(c, 20, top - 56, 520, top - 56, GREY, 0.4)
+        top = 432 - (index // 2) * 124
+        left = 20 + (index % 2) * 255
+        c.setFillColor(HexColor(WHITE))
+        c.setStrokeColor(HexColor(GREY))
+        c.setLineWidth(0.5)
+        c.rect(left, top - 118, 245, 118, fill=1, stroke=1)
+        cell(c, verse, left + 9, top - 7, 227, 28, size=9, font="BF-Serif-Italic")
+        cell(c, locator, left + 9, top - 37, 227, 12, size=8, color=MUTED)
+        cell(c, reading, left + 9, top - 52, 227, 37, size=8.4)
+        cell(c, question, left + 9, top - 91, 227, 24, size=9, font="BF-Serif-Bold", color=RED)
     footer(
         c,
         (

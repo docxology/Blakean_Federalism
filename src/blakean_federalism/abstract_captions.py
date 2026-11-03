@@ -55,7 +55,7 @@ def analytical_captions(report: Workbench) -> tuple[str, str, str, str]:
         )
     )
     scholarly = (
-        "Read each row from Blake's scene through its tension to the question developed here. "
+        "Read each card from Blake's scene through its tension to the question developed here. "
         "Los seeks to deliver individuals from systems while his own making involves coercion. "
         "Clark's attention to dramatic speakers and White's reading of a priori construction "
         "prevent the maker's independence from settling the freedom of those inside the work "
@@ -97,7 +97,10 @@ def analytical_captions(report: Workbench) -> tuple[str, str, str, str]:
             f"{repairs.total_distinct_states} distinct within-case records, "
             f"because selecting another "
             "intervention need not change another field. The independent upper-set calculation "
-            "reconciles every size bin with the saved predicate experiment. Persons, actions, "
+            "reconciles every size bin with the saved predicate experiment. The four-box "
+            "route distinguishes selecting field changes, applying them, checking every "
+            "safeguard and recording the result. These are enumerated possibilities "
+            "rather than empirical probabilities. Persons, actions, "
             "resources, affected populations and treaty triggers stay fixed."
         )
     )
@@ -160,7 +163,10 @@ def analytical_captions(report: Workbench) -> tuple[str, str, str, str]:
         + deletion
         + (
             "Copies remain retained; family grouping does not assume independent works. These "
-            "comparisons locate passages and source dependencies for close reading."
+            "comparisons locate passages and source dependencies for close reading. "
+            "The final inset gives the minimum and maximum remaining frequency after "
+            "omitting one source family, with the pooled frequency marked as a point. "
+            "Both inset plots use one frequency scale; deletion removes matches and words."
         )
     )
     return cover_caption(), scholarly, repair, corpus

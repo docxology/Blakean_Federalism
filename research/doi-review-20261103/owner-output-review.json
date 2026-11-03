@@ -1,0 +1,49 @@
+{
+  "verdict": "PASS_FOR_PRIVATE_AUTHOR_REVIEW",
+  "pdf_sha256": "14be777acc438a12b0b0077fe26aa0d0c57e7d8505274dfa30c3c1f05e809c52",
+  "html_sha256": "1f8e94c8aae84fb4bfee85163bd3086d7ab2cf35947cad0f5b294913a9c877b1",
+  "pages": 76,
+  "physical_review": "Every final page accounted for: Federalism76 and Entomology42. Entomology03 pages1-20 and23-42 have exact raster identity with fully viewed native02; final changed21-22 viewed enlarged. Opening graphics, plates, tables, equations, appendices and references inspected.",
+  "browser": {
+    "root": "/Volumes/GitVault/Local/blake-doi-graphical-review-20261102T235136Z/artifacts/browser-owner01",
+    "record_sha256": "7fba84cb028668b8410a5b044119a250560b4759856a35806a8e8ab18e51bae8",
+    "views": {
+      "desktop": {
+        "images": 37,
+        "math": {
+          "count": 265,
+          "errors": 0
+        },
+        "missing_anchors": [],
+        "duplicate_ids": [],
+        "root_width": 1425,
+        "viewport": [
+          1440,
+          1100
+        ]
+      },
+      "mobile": {
+        "images": 37,
+        "math": {
+          "count": 265,
+          "errors": 0
+        },
+        "missing_anchors": [],
+        "duplicate_ids": [],
+        "root_width": 390,
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    "closed_normally": true
+  },
+  "controls": [
+    "Wrong native config pin refuses without output",
+    "Retained clipped-footer PDF refused by actual physical bounds check",
+    "Impossible100percent coverage floors refuse",
+    "Missing documentation file target refuses"
+  ],
+  "limits": "Owner QA only. Independent gate, scientific judgment, specialist accessibility, public redistribution rights and author publication approval remain separate."
+}

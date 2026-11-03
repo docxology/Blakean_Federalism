@@ -48,7 +48,7 @@ separate from the fixed-duty order on the original fourteen procedures.
 - Run the environment and verification commands in [README.md](README.md).
   Use real files and real CLI/refusal controls. Read separate application and
   tool coverage totals; a combined headline does not establish both floors.
-- Current 0.19.0 software selects Blake 0.7.0 at Git
+- Current unpublished 1.0.0 software selects Blake 0.7.0 at Git
   `263d7c83abe6f1309a64af3285a683c1b7672269`. Qualify the actual
   installed package and new native output independently of retained epochs.
 - Keep the original fifteen safeguards separate from the person-specific review
@@ -72,3 +72,10 @@ remaining uncertainty in [project status](docs/PROJECT_STATUS.md), with inputs,
 responsibility and a checkable next action. Keep editorial feedback, specialist
 criticism, real-browser behavior, copy collation and rights clearance separate
 from completed software and rendering work.
+
+## Public release hold
+
+The 1.0.0 edition is an unpublished private review candidate. Its cover DOI is
+reserved, not a published deposit. Final author approval is required before
+Zenodo upload/publication, changing visibility, or creating v1.0.0 tags/releases.
+Core Blake release approval is separate. Follow the [publication plan](docs/publication-plan.md).

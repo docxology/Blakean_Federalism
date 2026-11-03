@@ -1,0 +1,39 @@
+{
+  "status": "PASS_WITH_EXPLICIT_RUNTIME_ROUNDING_DELTA",
+  "retained_producer": "0.19.0",
+  "current_producer": "1.0.0",
+  "all_other_domain_fields": "exactly equal, including every count, denominator, case, quotation, image and reading",
+  "floating_deltas": [
+    {
+      "query": "eternity",
+      "old": 0.1837386372859346,
+      "current": 0.18373863728593456,
+      "rational_oracle": 0.1837386372859346,
+      "ulp_delta": 1.0
+    },
+    {
+      "query": "imagination",
+      "old": 0.37998951110075163,
+      "current": 0.3799895111007517,
+      "rational_oracle": 0.3799895111007517,
+      "ulp_delta": 1.0
+    },
+    {
+      "query": "law",
+      "old": 0.23770231031435426,
+      "current": 0.2377023103143543,
+      "rational_oracle": 0.23770231031435424,
+      "ulp_delta": 1.0
+    },
+    {
+      "query": "states",
+      "old": 0.24641299357208443,
+      "current": 0.24641299357208446,
+      "rational_oracle": 0.2464129935720845,
+      "ulp_delta": 1.0
+    }
+  ],
+  "explanation": "Four HHI values differ at one floating-point unit between retained Python3.11 and new Python3.15. All independently checked against exact rational sum of squared integer work counts; neither report modified.",
+  "negative_control": "Altered occurrence count rejected by exact equality",
+  "initial_strict_comparison_failure": "evidence/117-domain-invariance-and-real-footer-refusal"
+}

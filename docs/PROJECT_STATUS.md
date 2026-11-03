@@ -1,47 +1,36 @@
 # Project status and scoped next work
 
-Status date: 2 November 2026. Current delivered working draft: 0.19.0.
-Source, software, native output, independent review and publication are distinct.
-The preceding accepted indexes remain in
-[the preserved status](../research/history/visual-revision-20261102/PROJECT_STATUS.md).
+Status date: 2 November 2026. **Unpublished 1.0.0 review candidate**.
+The repository stays private; final author approval precedes public releases.
+[Publication plan](publication-plan.md).
 
-## Current delivered working draft
+## Current candidate and distinct evidence
 
-Federalism owns its political construction, stipulated institutional cases, safeguards, readings, visual explanations and paper.
-Public Blake **0.7.0** at immutable Git
-`263d7c83abe6f1309a64af3285a683c1b7672269` owns corpus custody and reusable
-methods. The sibling application is not a runtime dependency.
-The pinned template remains `efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`.
+Federalism owns its domain vocabulary, policies, judgments, source selections,
+graphical arguments and manuscript. Public Blake **0.7.0** at Git
+`263d7c83abe6f1309a64af3285a683c1b7672269` owns reusable corpus custody and methods.
+The sibling application is independent. The actual template is pinned at
+`efce6d6f5b3c4e8e2bbf92d8250855a0a9389ae8`.
 
-| Evidence layer | Current observation and limit |
+| Evidence | Current observation and limit |
 |---|---|
-| Source/software | Fresh canonical normal installation: **819 tests pass**; separate suite-only statement/branch coverage **92.11% application / 69.02% tools**. All 105 private package and 163 SDK members match; declared strict typing, Ruff, format and dependency checks pass. [Actual canonical qualification](../research/visual-installed-20261102.json). |
-| Analysis | The original fifteen safeguards, fourteen review procedures, pressure cases, two timing slices and corpus inputs retain their identities. New native production re-derives the paper’s declared figures and verifies forty quotation records. |
-| Native output | Actual pinned template PDF/web writers completed at `analysis_output/publication/editorial-20261102-01`. The new PDF has 79 pages. |
-| PDF | SHA-256 `ece2d8d6d11030eb654e5bf287387c9f580801827e40f9f2d6d79e6ac7f4f136`; title “States Change”. |
-| HTML | SHA-256 `8c5f32b191b85c7b2724744cb71dc2667719a1a4331f77156f81a78e6e42b7ae`. Keep its entire web/assets directory. |
-| Owner browser | Desktop 1440 px and mobile 390 px: 37 images load with natural proportions, zero missing/duplicate anchors and zero MathJax errors. The isolated browser closed normally; its SSD profile and 110 combined screenshots remain retained. |
-| Independent output acceptance | Exact current 79-page PDF/HTML **PASS_WITH_LIMITATIONS**, all pages viewed and fresh desktop/mobile controls passed. [Verdict](../research/reviews/visual-20261102-independent02.json). The review's source finding was confined to the sibling Entomology test module. |
-| Downloads | Both current and dated 0.19.0 / 2026-11-02 PDFs copied and SHA-256 verified; earlier delivered bytes retained. |
-| Git publication | Protected-main pull-request route; actual PR, merge, remote commit and clean-tree observations are recorded separately under the final evidence root. |
-| Runtime / fixture repair | Python **3.15.1**: the repaired complete **819-test** suite passes with ResourceWarning and PytestUnraisableExceptionWarning as errors. Original 818-pass/204-warning evidence, one-test RED and 31-test GREEN remain retained. Application/tool program and native bytes are unchanged. [Runtime record](../research/runtime-profile-20261102.json). |
+| Software | 821 normal-installed tests pass on Python 3.15.1; suite-only statement/branch coverage 92.17% application / 69.02% tools against 90% / 60% floors. Strict typing, Ruff and formatting pass. |
+| Installation | 106 application and 163 SDK runtime/resource members match exact source. Both Python prefixes are external; canonical consumer verification has its own receipt. |
+| Native | Actual pinned template PDF/HTML writers completed. The PDF has 76 pages; title, cover DOI, physical page order, formal numbering and sources are checked independently of software tests. |
+| Cover DOI | `10.5281/zenodo.23900617`; reserved in an unsubmitted draft, zero uploaded files. Registration/resolution awaits approved publication. |
+| Layout | Letter paper, 11 mm margins, 4 mm footer spacing, 10-point body text. All page text stays inside trim. |
+| Output review | Exact PDF/HTML hashes, owner page/browser inspection and the separate independent verdict are recorded in the [current qualification](../research/review-candidate-1.0.0.json). Earlier review/failure records remain unchanged. |
+| Git / Downloads | Private-main integration and byte-verified review PDF delivery are distinct later events in the task's publication/delivery receipts. No public deposit, visibility change, release or tag is authorized before final approval. |
 
-[Qualification receipt](../research/visual-revision-20261102.json) binds the
-actual raw evidence. The separate final Git receipt is
-`Local/blake-visual-revision-20261102T164814Z/coordination/federalism-publication-final.json`
-on GitVault. Earlier REDs, software receipts, native attempts and
-delivered editions remain preserved. Current source completion does not
-establish specialist scholarship, item-level rights clearance, accessibility
-certification, hosted-CI or public-release acceptance.
+Fifteen safeguards, fourteen original procedures, twenty-eight claimant records, pressure cases and both timing slices retain their inputs. The fresh report keeps all counts and domain records; four one-unit floating HHI deltas are separately disclosed.
 
-## Documentation reconciliation — 2 November
-
-The independent documentation review accounted for every file in `docs/` and
-the root operating guides. Current PDF identities, edition/contract signposts
-and historical qualification pointers are corrected; the earlier index bytes
-remain retained. [Documentation source record](../research/documentation-review-20261102.json)
-binds this correction separately from unchanged software, analytical and native
-producers. Existing scholarly, rights and accessibility limits remain open.
+Every file under `docs/` is inventoried and checked for local links/current
+signposts in this revision. Dated study notes remain historical, not current
+producer claims. The [predecessor status](../research/history/doi-review-v1-preimage/docs/PROJECT_STATUS.md)
+and its exact qualification indexes are preserved. Current source and native
+success do not establish whole-paper scientific acceptance, specialist review,
+item-level public redistribution clearance or accessibility certification.
+The [verification index](../research/verification.json) keeps those claims separate.
 
 ## Next bounded research tasks
 
