@@ -11,7 +11,7 @@ acceptance criteria; its work packages are not a second implementation TODO list
 | 3 Political comparison | Distinct demoicracy, multinational, nonterritorial, polycentric, constitutional and Indigenous questions | Detailed institution-level comparison and explicit account of borrowed versus new mechanisms |
 | 4 Normative design | Five Xeno-California pairs and proposed classification decisions | Materially effective voice/exit, affected nonmember standing, fiscal responsibility, treaty/refusal and revision defended |
 | 5 Formal prototype | Typed records, explicit safeguard checks, non-Blake/lens/scale controls | Concrete institutional operation defined before category theory or collective active-inference dynamics; sensitivity and adverse results retained |
-| 6 Portfolio and publication | Version/reading crosswalk, correction docket, private Git repository | Full version comparison and specialist review before errata or scholarly submission; no provider payload published |
+| 6 Portfolio and publication | Version/reading crosswalk, correction docket, public versioned repository | Full version comparison and specialist review before errata or scholarly submission; no provider payload published |
 
 ## Paper sequence
 

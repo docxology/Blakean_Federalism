@@ -6,13 +6,16 @@ history. The application owns institutional models, vocabulary, judgments and
 this manuscript; [shared methods](shared-methods.md) identifies the exact public
 Blake dependency. Federalism and Entomology are independent applications.
 
-[Documentation reconciliation](../research/documentation-review-20261102.json)
-records the complete current documentation scope and its retained limitations.
+The [2 November documentation reconciliation](../research/documentation-review-20261102.json)
+retains its original scope. [Current maintenance](maintenance.md) and the
+[new documentation bindings](../research/documentation-maintenance-20261103.json)
+identify this later closure without rewriting the old record.
 
 ## Operating and research guides
 
 | Document | Use |
 |---|---|
+| [Maintenance and evidence boundaries](maintenance.md) | Current source, immutable release inputs and branch/worktree custody |
 | [Shared methods](shared-methods.md) | Current SDK boundary and separately dated migration checks |
 | [Corpus search](corpus-search.md) | Explicit local projection, source roles and query/output custody |
 | [Research workbench](research-workbench.md) | Read-only browsing with the cumulative reading ledger |
@@ -33,7 +36,7 @@ records the complete current documentation scope and its retained limitations.
 ## Manuscript inputs and retained native output
 
 Use the [manuscript workflow](manuscript/README.md) for the pinned template,
-admission and native-output evidence. The current 1.0.0 review edition
+admission and native-output evidence. The published 1.0.0 working-paper edition
 of *States Change* has 76 pages; native and independent PDF/HTML evidence are separate;
 [project status](PROJECT_STATUS.md) identifies its exact bytes and delivery.
 The earlier 0.17.0 paper and 78-page timing edition retain their own
@@ -59,7 +62,11 @@ candidate's recorded output check only. Preserve the old note and failed
 attempts; neither a source correction nor publication establishes specialist
 scientific, full-corpus, rights or accessibility acceptance.
 
-The [current canonical installed qualification](../research/visual-installed-20261102.json) and [runtime profile](../research/runtime-profile-20261102.json) retain software evidence separately from native output, independent page/browser review and Git publication.
+The [Public installation and release receipt](../research/publication-20261103.json)
+records the published software qualification. The [2 November installation](../research/visual-installed-20261102.json)
+and [runtime profile](../research/runtime-profile-20261102.json) retain their earlier
+scopes. Current source maintenance has its own [qualification](../research/methods-retirement-20261103.json);
+native output, independent page/browser review and publication remain separate.
 
 [Public release guide](publication-plan.md) records the approved edition, distribution scope and future-release requirements.
 

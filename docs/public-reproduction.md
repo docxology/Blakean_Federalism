@@ -19,8 +19,8 @@ qualified interpreter and a normal installation:
 
 ~~~sh
 uv sync --locked --no-editable --python 3.15.1 --extra manuscript
-uv run --locked blakean --help
-uv run --locked pytest tests/test_publication_source_closure.py -q
+uv run --locked --no-sync blakean --help
+uv run --locked --no-sync pytest tests/test_publication_source_closure.py -q
 ~~~
 
 This profile passed **3 tests** against a source-only snapshot
@@ -51,3 +51,9 @@ admission and authorized inputs remain necessary for new production.
 [Distribution terms](../LICENSE-PAPER.md) preserve reserved authored
 research rights and third-party notices. Publication adds no adjudications,
 whole-oeuvre/image census, peer review or accessibility certification.
+
+## Later source maintenance
+
+[Maintenance guidance](maintenance.md) and [dated documentation bindings](../research/documentation-maintenance-20261103.json)
+identify post-release source changes. The fixed release tag and deposited
+rendering inputs retain their original producer and qualification.

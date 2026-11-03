@@ -32,4 +32,4 @@ The HTML embeds a compact manifest that binds the complete companion JSON by SHA
 
 ## Search beyond saved groups
 
-Use the separate [local fulltext workspace](corpus-search.md) for arbitrary words and phrases. It searches all imported units with role/plane/family filters, retains exact source spans and compares source-family coverage before the display cap. The aggregate workbench remains compact and distributable within the private release; fulltext search and result contexts stay local and ignored.
+Use the separate [local fulltext workspace](corpus-search.md) for arbitrary words and phrases. It searches all imported units with role/plane/family filters, retains exact source spans and compares source-family coverage before the display cap. The aggregate workbench remains compact and distributable only within the selected author-approved distribution scope; fulltext search and result contexts stay local and ignored.

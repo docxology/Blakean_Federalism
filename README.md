@@ -9,6 +9,8 @@ Start with [project status](docs/PROJECT_STATUS.md),
 [agent guidance](AGENTS.md), the [article](docs/manuscript/states-change.md),
 the [published 1.0.0 working-paper PDF](Blakean_Federalism.pdf) and
 the [documentation map](docs/README.md).
+[Maintenance and retained evidence](docs/maintenance.md) distinguish current
+instructions from immutable release sources and protected worktrees.
 
 ## Public 1.0.0 edition
 
@@ -20,7 +22,7 @@ rules, stipulated cases, scholarly readings and the manuscript. Entomology is
 an independent sibling, with no runtime dependency.
 [Shared-method boundary](docs/shared-methods.md).
 
-The 76-page *States Change* candidate uses the actual pinned template writers,
+The published 76-page *States Change* edition uses the actual pinned template writers,
 11 mm margins, 4 mm footer spacing and unchanged 10-point body type. Four opening
 graphics lead to contents on page 5. The scene cards now join exact Blake
 quotations, selected scholarship and institutional questions; the repair graphic
@@ -44,11 +46,11 @@ and the unaltered old/new reports are retained. No exact byte-replay claim is
 made for those reports. The audit verifier now refuses a forged producer-version
 sidecar while preserving the historical institutional-audit report and receipt.
 
-The normally installed Python 3.15.1 candidate passes **821 tests**,
+The published 1.0.0 Python 3.15.1 installation passed **821 tests**,
 with ResourceWarning and unraisable warnings treated as errors, strict typing,
 Ruff and formatting. Separate suite-only statement/branch coverage is
 **92.17% application / 69.02% tools**; all 106 application and
-163 exact SDK runtime/resource members match. See the [current qualification](research/review-candidate-1.0.0.json),
+163 exact SDK runtime/resource members match. See the [published-edition qualification](research/review-candidate-1.0.0.json),
 [project status](docs/PROJECT_STATUS.md) and [render guide](docs/manuscript/README.md)
 for distinct native, independent review, canonical consumer and delivery claims.
 The 79-page editorial edition and preceding timing/pressure papers retain
@@ -70,13 +72,10 @@ repository admission. A clone includes project code and authored research; it
 does not restore the ignored corpus or scholarly PDFs.
 
 ~~~bash
-export UV_PROJECT_ENVIRONMENT=../../../../Local/environments/blakean-federalism-1.0.0-py315-20261103
-uv sync --locked --extra manuscript
-uv run --locked python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
-uv run --locked pytest -c pyproject.toml tests -q
-uv run --locked basedpyright
-uv run --locked ruff check src tests tools
-uv run --locked ruff format --check src tests tools
+uv sync --locked --no-editable --python 3.15.1 --extra manuscript
+uv run --locked --no-sync python -c 'import pathlib,sys; print(pathlib.Path(sys.prefix).resolve()); print(pathlib.Path(sys.base_prefix).resolve())'
+uv run --locked --no-sync blakean --help
+uv run --locked --no-sync pytest -c pyproject.toml tests/test_publication_source_closure.py -q
 ~~~
 
 Both printed prefixes must resolve on GitVault. Bind external `TMPDIR`,
@@ -86,10 +85,51 @@ both denominators rather than treating a combined percentage as both gates.
 The [native guide](docs/manuscript/README.md) declares optional rendering
 dependencies and the separately pinned template runtime.
 
+The commands above are the bounded source-only profile. See
+[public reproduction](docs/public-reproduction.md) for its scope. Restore only
+the exact authorized fixtures before the full suite; missing-fixture errors
+are not a pass.
+
+## Verification
+
+Post-release maintenance removes the unused statistics re-export and bootstrap
+renderer. The active installed CLI and shared statistics remain in use;
+[the new qualification](research/methods-retirement-20261103.json) records the
+current source and separate coverage denominators. The 821-test published
+qualification above remains attached to its original source.
+
+~~~bash
+: "${COVERAGE_FILE:?Select an unused external coverage database}"
+export COVERAGE_FILE
+BLAKE_APP_PACKAGE_DIR="$(uv run --locked --no-sync python -c 'from pathlib import Path; import blakean_federalism; print(Path(blakean_federalism.__file__).resolve().parent)')"
+uv run --locked --no-sync pytest -c pyproject.toml tests -q \
+  --cov=blakean_federalism --cov=tools --cov-branch --cov-report=term-missing
+uv run --locked --no-sync coverage report --data-file "$COVERAGE_FILE" \
+  --include "$BLAKE_APP_PACKAGE_DIR/*" --fail-under 90
+uv run --locked --no-sync coverage report --data-file "$COVERAGE_FILE" \
+  --include "$PWD/tools/*" --fail-under 60
+uv run --locked --no-sync basedpyright
+uv run --locked --no-sync ruff check src tests tools
+uv run --locked --no-sync ruff format --check src tests tools
+~~~
+
+The application report includes the exact normally installed package; the tool
+report includes this checkout's complete tools directory. Retain the full raw
+database, including deliberately changed source-overlay fixtures, but do not
+merge their counters into the unchanged product's denominator. No excluded
+product modules or lower floors are introduced. Post-install commands use
+--no-sync to preserve the qualified normal environment.
+
+These full gates require retained research fixtures. New native output also
+requires the [pinned template workflow](docs/manuscript/README.md) and
+independent complete-page/browser acceptance.
+
+## Timing analysis
+
 Produce a new timing epoch from the four source-pinned research inputs:
 
 ~~~bash
-uv run --locked blakean timing-atlas --root . \
+uv run --locked --no-sync blakean timing-atlas --root . \
   --output analysis_output/timing-new --figures
 ~~~
 
@@ -107,11 +147,11 @@ source/copy/page units, not unique Blake works. Keep the
 [corpus pin](research/corpus-pin.json) and original projection intact.
 
 ~~~bash
-uv run --locked blakean search-corpus --term "minute particulars" \
+uv run --locked --no-sync blakean search-corpus --term "minute particulars" \
   --output analysis_output/particulars-new.json
-uv run --locked blakean search-corpus --term state --term individual \
+uv run --locked --no-sync blakean search-corpus --term state --term individual \
   --mode all --window-words 32 --output analysis_output/state-person-new.json
-uv run --locked blakean build-search-workspace \
+uv run --locked --no-sync blakean build-search-workspace \
   --output analysis_output/search-workspace-new
 ~~~
 

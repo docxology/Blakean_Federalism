@@ -81,3 +81,11 @@ on 3 November 2026. [Publication facts](publication.json) and the
 native-output and scientific evidence. Work in the Public/ canonical slot;
 preserve the original private-path producer receipts and all ignored data.
 New editions require their own source, output, review and publication records.
+
+## Current maintenance records
+
+Read [maintenance and evidence boundaries](docs/maintenance.md) before closing
+post-release source work or retiring branches/worktrees. Dated source maps and
+qualification records keep their original epochs; the maintained documentation
+binding is separate. Preserve normal installs with explicit post-sync --no-sync
+commands and report coverage for exact qualified source roots.

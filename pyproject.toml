@@ -9,7 +9,7 @@ readme = "README.md"
 license = "LicenseRef-Proprietary"
 license-files = ["LICENSE", "LICENSE-PAPER.md"]
 authors = [{name = "Daniel Ari Friedman"}]
-description = "Private, source-bound research on poetic states, temporal nations and institutional non-capture"
+description = "Source-bound research on poetic states, temporal nations and institutional non-capture"
 requires-python = ">=3.11"
 dependencies = [
     "blake>=0.7.0",
@@ -59,7 +59,6 @@ max-complexity = 15
 "tools/acquire_manuscript.py" = ["T201"]
 "tools/template_render.py" = ["PLC0415", "T201"]
 # Native imports follow explicit selection of the pinned template source; stdout is a worker result.
-"tools/render_manuscript.py" = ["PLR0913", "PLR0917", "PLR2004", "T201"]
 "src/blakean_federalism/publication_figures.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/publication_body.py" = ["PLR0913", "PLR0917", "PLR2004"]
 "src/blakean_federalism/publication_abstracts.py" = ["PLR0913", "PLR0917", "PLR2004"]
@@ -88,3 +87,7 @@ packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
 include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/LICENSE-PAPER.md", "/.zenodo.json", "/publication.json", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
+
+[tool.coverage.run]
+branch = true
+patch = ["subprocess"]
