@@ -1,0 +1,20 @@
+# Current environments receive security updates; frozen producers remain immutable.
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+  # Ignore update PRs only for these explicitly retained historical environments.
+  # Alerts remain visible; historical environments need separate qualification.
+  - package-ecosystem: uv
+    directories:
+      - "/research/history/main-alignment-20261029"
+      - "/research/history/paper-advancement-20261029"
+      - "/research/history/review-planning-20261030"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    ignore:
+      - dependency-name: "*"

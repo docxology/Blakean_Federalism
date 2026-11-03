@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "LOCAL_CONFIGURATION_AND_DOCUMENTATION_QUALIFIED_WITH_LIVE_GITHUB_READBACK",
+  "scope": "Current GitHub guide/configuration and entry pointers; protected-main integration and future hosted automation remain separate.",
+  "base_commit": "063ac5cc95f18d4ab0d639ee1d719c13c5641d49",
+  "documentation": {
+    "all_tracked_docs_files": {
+      "docs/PROJECT_STATUS.md": {
+        "sha256": "44c7c514aab583e6e0907e02c375d1f4890a6ed52dbe8518862c69813f3c0155",
+        "bytes": 5993
+      },
+      "docs/README.md": {
+        "sha256": "07ffe6574c0a658793f0843043fbfa99e2786c44c76535671b4dd4e44405b8d5",
+        "bytes": 5448
+      },
+      "docs/RESEARCH_STATUS.md": {
+        "sha256": "ed75f223112c09899a769e5bb4ccb2d2027a7fd73a27183e61187b8a109dd671",
+        "bytes": 10406
+      },
+      "docs/annotated-bibliography.md": {
+        "sha256": "b752ca9676f50a8c2c6f6b4ad5154bd6934c7bf249dcc3c17d069ed04e9624ee",
+        "bytes": 31405
+      },
+      "docs/conceptual-lexicon.md": {
+        "sha256": "e2a73214264100d2cd2108ea2ab0b20df3a8a15bc860c3f66080ddf0b0617e76",
+        "bytes": 6024
+      },
+      "docs/corpus-observations.md": {
+        "sha256": "e0e33c56f52f31760f0d914117670756ca12d267eaf1f5ae5aff0b81563669d5",
+        "bytes": 4957
+      },
+      "docs/corpus-search.md": {
+        "sha256": "1838c3b4d87231142faeac8829045d843ef24ca8d4ce3d26b34a8fe2bc3c4202",
+        "bytes": 7997
+      },
+      "docs/github.md": {
+        "sha256": "b051d665d61104bfb9800362031095866157ae569bfacd99728876aa2403e35e",
+        "bytes": 4679
+      },
+      "docs/history/DESIGN-0.3.0.md": {
+        "sha256": "68d2cf041225ac7e72a1821c3b00b3c1de41d143e87d0a4dd02086ad6ef8e54f",
+        "bytes": 61182
+      },
+      "docs/institutional-design.md": {
+        "sha256": "c1116e51a9e2dbe3c9b1891a3c602e71af4a48bd45db061120173cc55a9f8a60",
+        "bytes": 5611
+      },
+      "docs/maintenance.md": {
+        "sha256": "5c7879fefdb848eb336bb41225afe2774267bef2e9e71fc6429c539c9493f635",
+        "bytes": 5724
+      },
+      "docs/manuscript/README.md": {
+        "sha256": "aa7eb0e4ce76729527e3d432caa8cf63ce149c5a333b7c078e1b6f498a6ba4ae",
+        "bytes": 7013
+      },
+      "docs/manuscript/config.yaml": {
+        "sha256": "c6a75030e7101ce2ec3cf3fef60ad42007f6be2480d4c25ff250bfb3ac405e05",
+        "bytes": 1421
+      },
+      "docs/manuscript/institutional-review-insertion.md": {
+        "sha256": "2c5f5c8ce1bf5d86fd589a253bf5971d0a52eab2ca1ab754188d1734e358cd9b",
+        "bytes": 2215
+      },
+      "docs/manuscript/institutional-review-supplement.md": {
+        "sha256": "f1ee0f6e9c3164a3db1bf2be468644a3fd28e5c3853794f36303452d4578df05",
+        "bytes": 13579
+      },
+      "docs/manuscript/notation.md": {
+        "sha256": "9649ec44e2f48e77bf7c98f7b9d9c20480c38463c33682e994e1809dbfdd787d",
+        "bytes": 6915
+      },
+      "docs/manuscript/preamble.md": {
+        "sha256": "d9310fd30e8d058ad0b09cd0f06fa91e78a1ec3275222d17cb117ed56f891bc2",
+        "bytes": 1874
+      },
+      "docs/manuscript/references-and-rights.md": {
+        "sha256": "741da1cb59a16e9ae4895191aef33f2e68763d46cf6b184cb85a35aef3f6b1ad",
+        "bytes": 15507
+      },
+      "docs/manuscript/references.bib": {
+        "sha256": "909c6f2f84351b0bcee011950f0db3b3486d0c5252dc4c3d73cb1420caf025d0",
+        "bytes": 26289
+      },
+      "docs/manuscript/states-change.md": {
+        "sha256": "46bec5311b990e0f71e10c6fd9f0abb0517c3b80bee6902387cb994d8341d1ac",
+        "bytes": 214688
+      },
+      "docs/portfolio-crosswalk.md": {
+        "sha256": "ad0417dd8532bc2f444c604956cc6b2defe16be7b39cf029e7eb690b247dc94c",
+        "bytes": 4954
+      },
+      "docs/primary-passages.md": {
+        "sha256": "6870a96dc28987a5f4ca47fda60ffd05c329bc46ec2bc9fa4e08489127e15b1d",
+        "bytes": 6786
+      },
+      "docs/public-reproduction.md": {
+        "sha256": "70ba6e91477298d1b040103654d60de3128c5d3e44a22d088098f42baeb0a714",
+        "bytes": 3170
+      },
+      "docs/publication-plan.md": {
+        "sha256": "cea4c91a37da5217d48e64ed75a4b3113ed9bec6d38d9f2227bc43682867a196",
+        "bytes": 2475
+      },
+      "docs/research-program.md": {
+        "sha256": "72586c4f37b5897bf363b34b739ed301815f98fb4fc2740ca0c6f8a4d0151866",
+        "bytes": 3125
+      },
+      "docs/research-workbench.md": {
+        "sha256": "222e795f0b99660581f9ae07214c8e6a164e043ad7da9d0ccb7d9d8c7872bdeb",
+        "bytes": 4502
+      },
+      "docs/research/README.md": {
+        "sha256": "b6b07cb97ff4a79ebc6ef981fcd9b137047a03b25ab5ba15b812550d9243e2f0",
+        "bytes": 3770
+      },
+      "docs/research/abstract-analysis-0.14.0.md": {
+        "sha256": "3a2be4f0fe00c36f078a0332b0de88f54ba0502a2c9c080b28c138c2c7051063",
+        "bytes": 2490
+      },
+      "docs/research/close-reading-layout-0.13.0.md": {
+        "sha256": "49917f19a7ae7e64c0da269d958062836202ce9808c69bdf2340aac079610da4",
+        "bytes": 11901
+      },
+      "docs/research/copy-observations-0.2.0.md": {
+        "sha256": "945d65f9bdf08a292ff21dcb3d52715ac99ba306a56d46eca02b1f16ac362ba9",
+        "bytes": 1670
+      },
+      "docs/research/corpus-search-scholarship-0.8.0.md": {
+        "sha256": "fa2232aee2852294b700533487f0ec067ed9a7ce9171b2f0e1f020bf04c4245e",
+        "bytes": 12036
+      },
+      "docs/research/corpus-statistics-0.6.0.md": {
+        "sha256": "70ae090a7efc71f686ce0a13bc898b799ee20ff1e8e05f15c49c64c39e194cc5",
+        "bytes": 11490
+      },
+      "docs/research/federated-belief-sharing-0.12.0.md": {
+        "sha256": "4adae41869c80208728d402b5ce845ece40bb645119efab003900c66c9b1ca5c",
+        "bytes": 5355
+      },
+      "docs/research/illuminated-reading-0.11.0.md": {
+        "sha256": "dd741f30e52f22ebefbc5cac29af91cda330a0f1ba1478dfc67114489ee230ef",
+        "bytes": 10212
+      },
+      "docs/research/institutional-experiments-0.6.0.md": {
+        "sha256": "5baa4519fd03a4b6a3cb07518873e409e8d956a3128ec5ee6da3954e802b9bb1",
+        "bytes": 10820
+      },
+      "docs/research/institutional-review.md": {
+        "sha256": "820ee059bc8daf386240b24c89ed7e9bd275c70551a46072cd3077df2f1fccf4",
+        "bytes": 5891
+      },
+      "docs/research/notation-close-reading-0.9.0.md": {
+        "sha256": "a400458dab91e274bed1c79d4515b4e05f596b7282107b2988a65b8a369e4f17",
+        "bytes": 1971
+      },
+      "docs/research/opening-clarity-0.15.0.md": {
+        "sha256": "2f8e4a765ea4929c5727e6277e886a3021d90bcdaf7750c8a36b7c1e0a4c37e1",
+        "bytes": 3125
+      },
+      "docs/research/opening-scholarship-0.10.0.md": {
+        "sha256": "0c2a23a55ecac97d4610c46330505358f5c8bc03fa4187b8954cc1659e19ba48",
+        "bytes": 8196
+      },
+      "docs/research/primary-source-research.md": {
+        "sha256": "69a9d6ebb1fc171822e61dba935729ec21a602001300a08dfb7aac9ba4d79549",
+        "bytes": 47448
+      },
+      "docs/research/procedural-comparison.md": {
+        "sha256": "8b667a939ee18b89a7fd4def9d03f0f37d75e92ad712d426182298b9d92bb6e5",
+        "bytes": 6200
+      },
+      "docs/research/review-planning.md": {
+        "sha256": "ac358eca08b903c96ef3c59886b1a7ebc5668b181850caa6ac807de0755f9d9b",
+        "bytes": 8009
+      },
+      "docs/research/review-pressure-20261029.md": {
+        "sha256": "ae02e0e5c19f03735b4d40e3a1e9f61b1a1e4fbb1c8cf63f1bf26a4b6cd9703e",
+        "bytes": 2966
+      },
+      "docs/research/review-timing-atlas.md": {
+        "sha256": "23d87800bc2513e219f6d2fab019f87b48ce2c8ddf52d13488fe66065d8cd6cf",
+        "bytes": 10728
+      },
+      "docs/research/scholarship-density-0.7.0.md": {
+        "sha256": "9ae61c9963f072cad95210df2e69df08a64814fa9474c7dce91e04cd147eb239",
+        "bytes": 2632
+      },
+      "docs/research/scholarship-expansion-0.2.0.md": {
+        "sha256": "da5aed4862adddee234e0e50812db59e24d82281495282c05d8c4cd36be5c7e1",
+        "bytes": 30419
+      },
+      "docs/research/scholarship-expansion-0.4.0.md": {
+        "sha256": "4bdcf7b9846798f4da2dad99f486f02e4a10ca101f61cb1b67d0beca2098402d",
+        "bytes": 29808
+      },
+      "docs/research/scholarship-expansion-0.5.0.md": {
+        "sha256": "32c3d4c982a6fffb26b950e98472da4f5dd035bcff933887bcaaa72bcca5a061",
+        "bytes": 29992
+      },
+      "docs/research/scholarship-expansion-0.6.0.md": {
+        "sha256": "8166b8ec193d23ec984b661cef084e294fef26c7ae4f5324e5aceab575eecd6a",
+        "bytes": 18924
+      },
+      "docs/research/scholarship-objections-0.3.0.md": {
+        "sha256": "d9ccc1087dfed1eeedca96153fdacfccbd9002791dbb1269c08100c821533ee6",
+        "bytes": 21142
+      },
+      "docs/research/scholarship-revision-0.4.1.md": {
+        "sha256": "5e5a6a581b747dcf2535394215fca537b8166adc7da08859c1b6088e2880b6e6",
+        "bytes": 2896
+      },
+      "docs/research/urizen-context-0.7.0.md": {
+        "sha256": "52e9a00d6b5fccb47fd42514f4f757f20ccde2f7168e58d6cf3689385786ed2b",
+        "bytes": 1974
+      },
+      "docs/scope-integration.md": {
+        "sha256": "d47b531ff7ac7ad9a241766455a42952d86b0287165ffa4135e797ff3af31b8a",
+        "bytes": 5460
+      },
+      "docs/shared-methods.md": {
+        "sha256": "f5315afb666dbb9428f049112d073036d4e02aab84976342692ac5d2986ac4b2",
+        "bytes": 7299
+      },
+      "docs/style-guide.md": {
+        "sha256": "89a1a4fd4e541a3b3a3bea532761cf6b8aa4dba54e85d597b6a30a3df39fec15",
+        "bytes": 5942
+      }
+    },
+    "root_entry_files": {
+      "README.md": {
+        "sha256": "952e080dd48361ffa6c87aafcbb3c5630cf43b0ffe58088a59ecc248faf6d859",
+        "bytes": 11399
+      },
+      "AGENTS.md": {
+        "sha256": "b839dc22967b602b304ca624bf2ae20880b587f713e0a9876755a50ca150965f",
+        "bytes": 5615
+      }
+    },
+    "references": 576,
+    "errors": [],
+    "positive": {
+      "directory": "038-federalism-documentation-positive",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "462fb230332d640642eb323a6695ee43ad8c9c0d484d5ad8ce68903d054c4e39",
+          "bytes": 3845
+        },
+        "pid.json": {
+          "sha256": "1c728d3795d48d57d048d0b2a5ec6aa66c8d489142459281001bcd19b0dc7d79",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "8d18c1df9ddc821f47f32a115dfa407c5e6f429ca35d35bb5e8bc74e59504c40",
+          "bytes": 225
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "90a861e3c595e1012067cd3bbe55135a3d18ccee5699948aaea3373594370f4f",
+          "bytes": 61
+        }
+      }
+    },
+    "broken_readme_refusal": {
+      "directory": "039-federalism-documentation-refusal",
+      "returncode": 1,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "e2bb0e6893efe15f87bccd000f44048b87ac918f8fd98bc8381a043b16472157",
+          "bytes": 3846
+        },
+        "pid.json": {
+          "sha256": "ecc64da2a7a7e6f4cf37254ec5542b467f986f2b319782040172bd88b3b63def",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "524602cbf09008c1934ffdf8ffc7c8100d478ccd047e97689521c6aaf47f9dfe",
+          "bytes": 437
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "965a3d060ab6a330fddffe8939b494ada65b288ea61c3a9218cca60331d916b8",
+          "bytes": 61
+        }
+      }
+    },
+    "dated_predecessor": "research/documentation-maintenance-20261103.json",
+    "qualification": "Previous documentation receipts retain their named bytes; this record binds this later epoch."
+  },
+  "configuration": {
+    "bytes": {
+      "sha256": "fb8bbb7e0152dd388cfa9e05667edd117015d3b0e590fc1798f7b14ebb3f7c6b",
+      "bytes": 693
+    },
+    "validation": {
+      "parser": "PyYAML 6.0.3",
+      "prefix": "/Volumes/GitVault/Local/blake-github-signposting-20261103T190207Z/cache/uv/builds-v0/.tmp4sUpvB",
+      "base_prefix": "/Volumes/GitVault/Local/runtimes/uv-python/cpython-3.11-macos-aarch64-none",
+      "configuration_sha256": "fb8bbb7e0152dd388cfa9e05667edd117015d3b0e590fc1798f7b14ebb3f7c6b",
+      "archive_directories": [
+        "/research/history/main-alignment-20261029",
+        "/research/history/paper-advancement-20261029",
+        "/research/history/review-planning-20261030"
+      ],
+      "current_root_security_update_rule_unignored": true,
+      "all_archived_manifests_explicitly_ignored": true,
+      "version_update_prs_disabled": true,
+      "controls": [
+        {
+          "name": "root-security-ignored",
+          "rejected": true,
+          "reason": "Root must remain eligible for security updates"
+        },
+        {
+          "name": "missing-archived-producer",
+          "rejected": true,
+          "reason": "Exact complete archive directory inventory required"
+        },
+        {
+          "name": "wildcard-archive-scope",
+          "rejected": true,
+          "reason": "Exact complete archive directory inventory required"
+        },
+        {
+          "name": "historical-lock-updates-enabled",
+          "rejected": true,
+          "reason": "Archive policy shape differs"
+        },
+        {
+          "name": "security-options-disconnected-from-main",
+          "rejected": true,
+          "reason": "Root must remain eligible for security updates"
+        },
+        {
+          "name": "overlapping-current-rule",
+          "rejected": true,
+          "reason": "Exactly root and explicit archive policies required"
+        },
+        {
+          "name": "wrong-ecosystem",
+          "rejected": true,
+          "reason": "Current uv root required"
+        },
+        {
+          "name": "duplicate-key",
+          "rejected": true,
+          "reason": "Duplicate YAML key"
+        },
+        {
+          "name": "malformed-yaml",
+          "rejected": true,
+          "reason": "while parsing a flow node"
+        }
+      ],
+      "limit": "Local syntax/policy validation and rejecting controls; hosted ingestion and future bot behavior not asserted."
+    },
+    "receipt": {
+      "directory": "036-real-yaml-and-refusing-policy-controls",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "d45b87a23a364756041eaff9bb154dafeefecdb4d0b7c56d13049f538b3ab907",
+          "bytes": 3607
+        },
+        "pid.json": {
+          "sha256": "e685a4ed03c9869692ca779936f15092b4fb260f47fc3ab623cf9adf61606082",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "066a868e7b4a682568b8a893856c784ec36e694c265e9b5758516dfd75879355",
+          "bytes": 136
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "c3aa9be29d4b3fe2d402f31e6fde60ed3f5829969522951f807a185f70ebbd5e",
+          "bytes": 61
+        }
+      }
+    },
+    "root_and_archive_lock_bytes_unchanged": true,
+    "policy": "Root security-update PRs remain eligible; scheduled version PRs disabled. Exact archived directories ignore update PRs for every package; alerts remain visible.",
+    "sources": [
+      "https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/controlling-dependencies-updated",
+      "https://github.com/github/docs/blob/main/content/code-security/reference/supply-chain-security/dependabot-options-reference.md"
+    ]
+  },
+  "github": {
+    "repository": "docxology/Blakean_Federalism",
+    "visibility": "public",
+    "description": "Composition without capture: poetic states, plural nations and person-specific institutional review in an illustrated Blakean working paper.",
+    "homepage": "https://doi.org/10.5281/zenodo.23900617",
+    "topics": [
+      "corpus-analysis",
+      "digital-humanities",
+      "federalism",
+      "non-domination",
+      "political-theory",
+      "reproducible-research",
+      "william-blake"
+    ],
+    "live_readback": {
+      "directory": "040-federalism-independent-live-metadata-readback",
+      "returncode": 0,
+      "files": {
+        "prelaunch.json": {
+          "sha256": "58636b3aeae7dbae0d806273d64406176ea7f8c13b901310f2613c87e511a519",
+          "bytes": 3386
+        },
+        "pid.json": {
+          "sha256": "e0a4bf7fc8f26abd4adc824b386ddaae0d4cf2e381c278ee4546c1bd4a60d1be",
+          "bytes": 15
+        },
+        "stdout.log": {
+          "sha256": "f3ac6762879fc7553db6b0710f6223075099b1f0b96188b2fcfe618c8be63530",
+          "bytes": 2294
+        },
+        "stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "completion.json": {
+          "sha256": "4e7ba20b3188f6fd9b6dd47d38d6799e706b3b6ec1813cfe91684598aa155d35",
+          "bytes": 61
+        }
+      }
+    },
+    "metadata_apply": {
+      "plan_id": "561322c92867c8f8d793865a31085176f84f255b6f336fd94735efd01bd3502f",
+      "actual_manager_state": "APPLIED-UNVERIFIED",
+      "reason": "VERIFY-MISMATCH",
+      "receipt": {
+        "directory": "032-apply-exact-reviewed-topic-plan",
+        "returncode": 2,
+        "files": {
+          "prelaunch.json": {
+            "sha256": "0af6cf90d3032e3eadf575117132d5773ef211bfecca23478d16d5810fe607ce",
+            "bytes": 3384
+          },
+          "pid.json": {
+            "sha256": "429b8e1d29dfb0874725179b6912af7f4eb626ec12ccf5cd16b9e12612f02dc9",
+            "bytes": 15
+          },
+          "stdout.log": {
+            "sha256": "eeee6fd0adfb2903043fb0c598b2eced61bd86ea60f9fdefbfd43632e12021f9",
+            "bytes": 1445
+          },
+          "stderr.log": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "completion.json": {
+            "sha256": "f431d9032f7e315a10d32c9eb1531d2dbedd878aefc9eb79f9ff992158b84e7c",
+            "bytes": 61
+          }
+        }
+      },
+      "owner_followup": "Fresh live reads match requested topic membership and unchanged description/homepage. Topic ordering differs from the reviewed request. Original manager outcome is preserved; no retry or manager qualification is claimed."
+    },
+    "branch_protection": {
+      "required_status_checks": null,
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/docxology/Blakean_Federalism/branches/main/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_pull_request_reviews": {
+        "url": "https://api.github.com/repos/docxology/Blakean_Federalism/branches/main/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": false,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 0
+      },
+      "restrictions": null
+    },
+    "security_and_analysis": {
+      "secret_scanning": {
+        "status": "enabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "enabled"
+      },
+      "dependabot_security_updates": {
+        "status": "enabled"
+      },
+      "secret_scanning_non_provider_patterns": {
+        "status": "disabled"
+      },
+      "secret_scanning_validity_checks": {
+        "status": "disabled"
+      }
+    },
+    "workflow_scope": "GitGuardian secret check; no repository Actions workflow executes the research suite. No hosted whole-paper/scientific acceptance claimed.",
+    "github_release": {
+      "url": "https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0",
+      "tag": "v1.0.0",
+      "assets": 8,
+      "all_hosted_digest_and_size_metadata_match_publication_receipt": true,
+      "receipt": {
+        "directory": "025-federalism-public-release-assets",
+        "returncode": 0,
+        "files": {
+          "prelaunch.json": {
+            "sha256": "6c4412da53d0e1b7b4fc557dbf38409cb7a7a9fb0a13414a61000f65254ac94f",
+            "bytes": 3386
+          },
+          "pid.json": {
+            "sha256": "fee516b64cc802b69309954cd5c575bfc0d6cfb8e09c1f24ef4986b6fb99ac58",
+            "bytes": 15
+          },
+          "stdout.log": {
+            "sha256": "42563c8a3cefc3df781aca8cc91908a6fc2c12226cd60f84c9f531d2fb60b2e8",
+            "bytes": 3520
+          },
+          "stderr.log": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "completion.json": {
+            "sha256": "34211137473cc3306e31d13b8fcc3b72eb257449bf72c49b1bfd8251aaf2db99",
+            "bytes": 61
+          }
+        }
+      },
+      "limit": "Release API metadata readback; no new anonymous asset-body replay claimed."
+    }
+  },
+  "unchanged": {
+    "application_code": true,
+    "dependency_selections": true,
+    "paper_pdf": true,
+    "data_and_readings": true,
+    "historical_locks_and_receipts": true,
+    "version_tags_and_zenodo": true
+  },
+  "evidence_packet": "blake-github-signposting-20261103T190207Z",
+  "not_claimed": [
+    "New software regression/native render/release acceptance",
+    "Hosted future Dependabot ingestion or PR behavior",
+    "Dismissal or remediation of archived dependency alerts",
+    "Protected worktree removal",
+    "Scientific/rights/accessibility acceptance"
+  ],
+  "self_exclusion": "This record is excluded from its own map; final candidate manifest binds its bytes."
+}
