@@ -12,6 +12,8 @@ the [documentation map](docs/README.md).
 [Maintenance and retained evidence](docs/maintenance.md) distinguish current
 instructions from immutable release sources and protected worktrees.
 
+![Blakean Federalism — States Change architecture: composition without capture across poetic states, persons, plural nations, and jurisdictions, with 14 review procedures and 21,454 timing configurations](docs/assets/overview.svg)
+
 ## Public 1.0.0 edition
 
 Federalism **1.0.0** selects public Blake **0.7.0**, exact Git
