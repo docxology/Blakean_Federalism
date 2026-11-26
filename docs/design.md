@@ -1,6 +1,6 @@
 # Blakean Federalism — design contract 0.7.0
 
-The manuscript, original figures and research workbench use black, white and red. Historical Blake reproductions retain their original colours. This contract supersedes the earlier palette, source-selection counts and version labels in the preserved [0.3.0 design research](docs/history/DESIGN-0.3.0.md). That document remains useful for keyboard mechanics, primitives and original research provenance.
+The manuscript, original figures and research workbench use black, white and red. Historical Blake reproductions retain their original colours. This contract supersedes the earlier palette, source-selection counts and version labels in the preserved [0.3.0 design research](history/DESIGN-0.3.0.md). That document remains useful for keyboard mechanics, primitives and original research provenance.
 
 ## Current palette
 

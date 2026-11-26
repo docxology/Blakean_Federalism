@@ -86,7 +86,7 @@ blake = {git = "https://github.com/docxology/blake.git", rev = "263d7c83abe6f130
 packages = ["src/blakean_federalism"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/DESIGN.md", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/LICENSE-PAPER.md", "/.zenodo.json", "/publication.json", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
+include = ["/src", "/tools", "/tests", "/docs", "/research", "/README.md", "/AGENTS.md", "/CITATION.cff", "/CHANGELOG.md", "/PRIVACY.md", "/LICENSE", "/LICENSE-PAPER.md", "/.zenodo.json", "/publication.json", "/pyproject.toml", "/uv.lock", "/.gitignore", "/.gitattributes", "/.python-version"]
 
 [tool.coverage.run]
 branch = true

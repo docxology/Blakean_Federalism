@@ -1,0 +1,28 @@
+paper:
+  title: "Blakean Federalism"
+  subtitle: "Source-only verification of the published edition record"
+
+authors:
+  - name: "Blakean Federalism project"
+
+publication:
+  github_repository: docxology/Blakean_Federalism
+  repository_url: https://github.com/docxology/Blakean_Federalism
+  transmission_bookends:
+    enabled: false
+
+keywords:
+  - scholarly provenance
+  - working-paper edition
+  - source-only verification
+
+metadata:
+  language: en
+
+render:
+  formats:
+    pdf: true
+    html: true
+    docx: false
+    epub: false
+    slides: false
