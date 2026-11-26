@@ -45,7 +45,7 @@ separate from the fixed-duty order on the original fourteen procedures.
   commits and pushes. Verify the SSD mount, both Python prefixes and external
   temporary/cache bindings. Follow the vault's operating contract; keep one
   canonical copy and preserve other owners' working files and held locks.
-- Run the environment and verification commands in [README.md](README.md).
+- Run the environment and verification commands in the [operating guide](docs/operating-guide.md).
   Use real files and real CLI/refusal controls. Read separate application and
   tool coverage totals; a combined headline does not establish both floors.
 - Current 1.0.0 software selects Blake 0.7.0 at Git

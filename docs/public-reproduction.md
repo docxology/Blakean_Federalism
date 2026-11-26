@@ -57,3 +57,38 @@ whole-oeuvre/image census, peer review or accessibility certification.
 [Maintenance guidance](maintenance.md) and [dated documentation bindings](../research/documentation-maintenance-20261103.json)
 identify post-release source changes. The fixed release tag and deposited
 rendering inputs retain their original producer and qualification.
+
+## Pinned Template source-only check
+
+This check reads only the tracked publication record, PDF, and overview SVG. It
+confirms the PDF checksum, byte length, and physical page count, then stages a
+raster copy of the overview for a short explanatory fixture. It requires Python
+3.11 or later, Poppler's `pdfinfo`, and Inkscape. Run from the repository root.
+
+~~~sh
+stage_root="$(mktemp -d)"
+federalism_stage="$stage_root/Blakean_Federalism"
+python docs/examples/Blakean_Federalism/prepare.py "$federalism_stage"
+~~~
+
+Use a separate [Template checkout](https://github.com/docxology/template/tree/87704feae0a4490ef7dad9c931d268e8c30273c2) at
+`87704feae0a4490ef7dad9c931d268e8c30273c2`. Install its Pandoc,
+pandoc-crossref, and LaTeX prerequisites as described in the
+[Template run guide](https://github.com/docxology/template/blob/87704feae0a4490ef7dad9c931d268e8c30273c2/docs/RUN_GUIDE.md).
+In the same shell, move to the Template checkout and run the following with an
+unused project slot. The preparation command copies the verification note into a
+disposable project and indexes those staged inputs for provenance.
+
+~~~sh
+uv sync --locked --no-dev
+mkdir -p projects/working
+ln -s "$federalism_stage" projects/working/Blakean_Federalism
+uv run --no-sync python scripts/pipeline/stage_03_render.py --project working/Blakean_Federalism --skip-manuscript-hydration
+uv run --no-sync python scripts/pipeline/stage_04_validate.py --project working/Blakean_Federalism
+~~~
+
+The fixture writes its PDF, HTML, and reports under
+`$federalism_stage/output/`. The article itself uses the
+[qualified native workflow](manuscript/README.md) and a different recorded
+Template revision. The fixture does not hydrate article values, recreate
+source images, or replace the published edition.

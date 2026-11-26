@@ -16,11 +16,14 @@ identify this later closure without rewriting the old record.
 | Document | Use |
 |---|---|
 | [Maintenance and evidence boundaries](maintenance.md) | Current source, immutable release inputs and branch/worktree custody |
+| [Operating guide](operating-guide.md) | Installation, native commands, coverage, timing, and contextual review |
+| [Design contract](design.md) and [backlog](backlog.md) | Current conventions and open owner-local work |
 | [Shared methods](shared-methods.md) | Current SDK boundary and separately dated migration checks |
 | [Corpus search](corpus-search.md) | Explicit local projection, source roles and query/output custody |
 | [Research workbench](research-workbench.md) | Read-only browsing with the cumulative reading ledger |
 | [Timing atlas](research/review-timing-atlas.md) | Current two-slice person-specific timing study and its conditional boundaries |
 | [Review planning](research/review-planning.md) | Retained batch verification and new unused planning destinations |
+| [Pinned Template source-only check](public-reproduction.md#pinned-template-source-only-check) | Checks the local edition identity and renders the public overview |
 | [Style guide](style-guide.md) | Syntax, formalism, graphics and claim limits |
 | [Scope and integration](scope-integration.md) | Application scope and sibling/core relations |
 | [Research program](research-program.md) | Scholarly questions and declared limits |
