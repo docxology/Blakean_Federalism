@@ -10,3 +10,6 @@ htmlcov/
 dist/
 .env
 .env.*
+
+# Generated portable reader edition
+/output/

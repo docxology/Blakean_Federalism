@@ -43,11 +43,11 @@ silently skip errors, substitute new downloads, or change a corpus pin.
 ## Rendering and remaining research
 
 The rendering-input ZIP preserves original native inputs, selected
-attributed figures and approved HTML, including its then-private status
-metadata. Its verifier checks declared member bytes and refuses changes.
-It is an inspection-input bundle, not a new native replay or a public
-analytical corpus. The pinned docxology/template APIs, installed SDK
-admission and authorized inputs remain necessary for new production.
+attributed figures and approved HTML with their original metadata. The
+[reader build](manuscript/README.md#reader-build-from-the-public-deposit)
+uses those files to render the complete paper in PDF and HTML. New native
+analytical production still needs the installed SDK, original Template
+pin and authorized corpus inputs.
 [Distribution terms](../LICENSE-PAPER.md) preserve reserved authored
 research rights and third-party notices. Publication adds no adjudications,
 whole-oeuvre/image census, peer review or accessibility certification.
@@ -88,7 +88,6 @@ uv run --no-sync python scripts/pipeline/stage_04_validate.py --project working/
 ~~~
 
 The fixture writes its PDF, HTML, and reports under
-`$federalism_stage/output/`. The article itself uses the
-[qualified native workflow](manuscript/README.md) and a different recorded
-Template revision. The fixture does not hydrate article values, recreate
+`$federalism_stage/output/`. For the complete article, follow the
+[public reader build](manuscript/README.md#reader-build-from-the-public-deposit). The fixture does not hydrate article values, recreate
 source images, or replace the published edition.

@@ -23,6 +23,7 @@ identify this later closure without rewriting the old record.
 | [Research workbench](research-workbench.md) | Read-only browsing with the cumulative reading ledger |
 | [Timing atlas](research/review-timing-atlas.md) | Current two-slice person-specific timing study and its conditional boundaries |
 | [Review planning](research/review-planning.md) | Retained batch verification and new unused planning destinations |
+| [Full public reader build](manuscript/README.md#reader-build-from-the-public-deposit) | Renders the full article and attributed figures from the checked release deposit |
 | [Pinned Template source-only check](public-reproduction.md#pinned-template-source-only-check) | Checks the local edition identity and renders the public overview |
 | [Style guide](style-guide.md) | Syntax, formalism, graphics and claim limits |
 | [Scope and integration](scope-integration.md) | Application scope and sibling/core relations |
