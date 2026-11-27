@@ -238,10 +238,13 @@ Direct requests were made from the qualified external environment with `PYTHONDO
 
 The retrieval script disables Requests' environment/netrc use, uses only public source requests, retains error responses, and writes exact returned bytes. PDF extraction used the installed `pdftotext -layout` command, without rendering. Every executed extraction returned zero with empty stderr.
 
-- [Retrieval script](../../local_data/research_sources/research-cache-rp01-fetch.py).
-- [Raw retrieval manifest: requested/final URLs, redirects, UTC times, HTTP statuses, content types, byte lengths, SHA-256 hashes, extraction commands and statuses](../../local_data/research_sources/research-cache-rp01-retrievals.jsonl).
-- [Verification script](../../local_data/research_sources/research-cache-rp01-verify.py) and [verification result](../../local_data/research_sources/research-cache-rp01-verification.json).
-- [Web-tool observations and initial command errors](../../local_data/research_sources/research-cache-rp01-web-and-execution-observations.json).
+These custody files are available only in the local research cache under
+`local_data/research_sources/`, which Git ignores.
+
+- Retrieval script: `research-cache-rp01-fetch.py`.
+- Raw retrieval manifest: requested/final URLs, redirects, UTC times, HTTP statuses, content types, byte lengths, SHA-256 hashes, extraction commands and statuses (`research-cache-rp01-retrievals.jsonl`).
+- Verification script (`research-cache-rp01-verify.py`) and verification result (`research-cache-rp01-verification.json`).
+- Web-tool observations and initial command errors (`research-cache-rp01-web-and-execution-observations.json`).
 
 At verification there were **32 direct responses: 28 HTTP 200, three HTTP 403, and one HTTP 429**. The 429 was the first Kymlicka Crossref request; a subsequent separately cached request returned 200. The three 403s were SSRN and the two OUP chapter endpoints. All remain in the manifest. The web tool's Blake-page open returned an accessibility error; direct retrieval of that same URL returned 200. OUP publisher abstracts were available through web search results while direct and subsequent web-open routes failed. An HTTP 200 from a publisher page is not treated as access to the paid full text.
 
