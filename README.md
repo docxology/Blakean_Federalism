@@ -4,7 +4,7 @@ Daniel Ari Friedman’s *States Change* studies composition without capture thro
 
 - [Documentation](docs/README.md) covers setup, verification, research dossiers, and manuscript production.
 - [Authored manuscript](docs/manuscript/states-change.md) and [notation](docs/manuscript/notation.md) preserve the argument and source attributions.
-- [Published working-paper PDF](Blakean_Federalism.pdf) and [publication record](publication.json) identify the approved 1.0.0 edition. [Zenodo](https://doi.org/10.5281/zenodo.23900617)
+- [Published working-paper PDF](Blakean_Federalism.pdf) and [publication record](publication.json) identify the approved 1.0.0 edition. [Zenodo](https://doi.org/10.5281/zenodo.23900617) · [Build the full reader edition](docs/manuscript/README.md#reader-build-from-the-public-deposit)
 - [Public reproduction](docs/public-reproduction.md) explains the source-only profile and the qualified inputs for native production.
 
 ## Verification

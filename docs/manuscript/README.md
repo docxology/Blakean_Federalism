@@ -36,6 +36,52 @@ describe current GitHub visibility. Use the archive and its verifier when
 inspecting the published production; do not relabel an old native receipt
 after changing source.
 
+## Reader build from the public deposit
+
+Use the author-approved rendering-input ZIP from
+[GitHub v1.0.0](https://github.com/docxology/Blakean_Federalism/releases/tag/v1.0.0)
+or [Zenodo 23900617](https://zenodo.org/records/23900617). It includes the
+complete article, bibliography, cover, graphical abstracts, plate atlas,
+rights notes and original image bytes.
+
+Prepare a separate [Template checkout](https://github.com/docxology/template/tree/87704feae0a4490ef7dad9c931d268e8c30273c2)
+at that exact commit. Install its Python 3.14 environment, Pandoc,
+pandoc-crossref, XeLaTeX and BibTeX using the
+[Template run guide](https://github.com/docxology/template/blob/87704feae0a4490ef7dad9c931d268e8c30273c2/docs/RUN_GUIDE.md).
+Set `TEMPLATE_ROOT` to the absolute Template checkout path and `ZIP` to the
+absolute path of `Blakean_Federalism-1.0.0-rendering-inputs.zip`. From the
+Federalism repository root, run:
+
+~~~sh
+mkdir -p "$TEMPLATE_ROOT/projects/working"
+project="$TEMPLATE_ROOT/projects/working/Blakean_Federalism-full"
+git worktree add --no-checkout --detach "$project" HEAD
+git -C "$project" sparse-checkout set --no-cone \
+  '/*' '!/*/' '!/Blakean_Federalism.pdf' '/docs/' '/tools/' \
+  '!/docs/manuscript/preamble.md' '/research/publication-20261103.json'
+git -C "$project" read-tree -mu HEAD
+python3 "$project/tools/stage_published_reader.py" --archive "$ZIP" \
+  --archive-sha256 dc0717f9d2f630c6e46c5011f5a0c11e51364d2d03bd7b152af680fc80943677
+cd "$TEMPLATE_ROOT"
+uv run --no-sync python scripts/pipeline/stage_03_render.py \
+  --skip-manuscript-hydration --project working/Blakean_Federalism-full
+uv run --no-sync python scripts/pipeline/stage_04_validate.py \
+  --project working/Blakean_Federalism-full
+~~~
+
+The archive must match the public release receipt.
+The reader worktree leaves the native preamble template in Git and uses
+the already resolved preamble included in the deposit. Staging verifies
+every member, and recovers the six display substitutions from the
+corresponding lines of the deposited combined manuscript. It uses the
+archived text and image bytes under their existing terms. Find the PDF,
+HTML and validation receipts in the worktree's `output/` directory.
+
+The reader build reproduces the article's contents on the documentation
+Template pin. Cite the DOI's 76-page PDF for its pagination and original
+production identity. The public ZIP omits the private research corpus and
+does not support a fresh corpus-based analysis.
+
 ## Current source and runtime contract
 
 The installed `blakean render-manuscript` command is the supported entry point.
